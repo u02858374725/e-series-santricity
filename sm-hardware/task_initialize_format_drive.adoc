@@ -1,0 +1,36 @@
+---
+permalink: sm-hardware/task_initialize_format_drive.html
+sidebar: sidebar
+keywords: 
+summary: 'If you move assigned drives from one storage array to another, you must initialize \(format\) the drives before they can be used in the new storage array.'
+---
+= Initialize (format) drive
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you move assigned drives from one storage array to another, you must initialize (format) the drives before they can be used in the new storage array.
+
+== About this task
+
+Initializing removes the previous configuration information from a drive and returns it to the Unassigned state. The drive is then available for adding to a new pool or volume group in the new storage array.
+
+Use the initialize drive operation when you are moving a single drive. You do not need to initialize drives if you are moving an entire volume group from one storage array to another.
+
+[NOTE]
+====
+*Possible loss of data* -- When you initialize a drive, all data on the drive is lost. Perform this operation only when instructed to do so by technical support.
+====
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the controllers, click *Show front of shelf*.
++
+The graphic changes to show the drives instead of the controllers.
+
+. Click the drive that you want to initialize.
++
+The drive's context menu appears.
+
+. Select *Initialize*, and confirm that you want to perform the operation.

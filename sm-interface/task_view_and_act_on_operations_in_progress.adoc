@@ -1,0 +1,35 @@
+---
+permalink: sm-interface/task_view_and_act_on_operations_in_progress.html
+sidebar: sidebar
+keywords: 
+summary: 'To view and take action on long-running operations, use the Operations in Progress page.'
+---
+= View and act on operations in progress
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To view and take action on long-running operations, use the Operations in Progress page.
+
+== About this task
+
+For each operation listed on the Operations in Progress page, a percentage of completion and estimated time remaining to complete the operation are shown. In some cases, you can stop an operation or place it at a higher or lower priority. You can also clear a completed Volume copy operation from the list.
+
+== Steps
+
+. On the *Home* page, select *Show operations in progress*.
++
+The *Operations in Progress* page appears.
+
+. If desired, use the links in the *Actions* column to stop or change priority for an operation.
++
+[CAUTION]
+====
+Read all cautionary text provided in the dialog boxes, particularly when stopping an operation.
+====
++
+You can stop a volume copy operation or change its priority.
+
+. Once a volume copy operation is complete, you can select *Clear* to remove it from the list.
++
+At the top of the *Home* page, an informational message and yellow wrench icon appear when an operation is complete. This message includes a link that allows you to clear the operation from the *Operations in Progress* page.

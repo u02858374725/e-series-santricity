@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/concept_manage_snapshot_schedules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can activate and suspend snapshot schedules, change a snapshot schedule’s settings, or delete a snapshot schedule.'
+---
+= Manage snapshot schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can activate and suspend snapshot schedules, change a snapshot schedule's settings, or delete a snapshot schedule.

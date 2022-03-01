@@ -1,0 +1,30 @@
+---
+permalink: sm-support/task_disable_autosupport_maintenance_window.html
+sidebar: sidebar
+keywords: 
+summary: 'Disable the AutoSupport maintenance window to allow automatic ticket creation on error events. When AutoSupport maintenance window is disabled, the storage array will use AutoSupport to open a case with Support if there is an issue.'
+---
+= Disable AutoSupport maintenance window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Disable the AutoSupport maintenance window to allow automatic ticket creation on error events. When AutoSupport maintenance window is disabled, the storage array will use AutoSupport to open a case with Support if there is an issue.
+
+== About this task
+
+== Steps
+
+. Select *Support* > *Support Center* > *AutoSupport* tab.
+. Select *Disable AutoSupport Maintenance window*.
+. Enter the email address to receive a confirmation that the disable maintenance window request has been processed.
++
+Depending on your configuration, you may be able to enter up to five email addresses. If you want to add more than one address, select *Add another email* to open another field.
+
+. Click *Yes*.
++
+AutoSupport automatic ticket creation on error events is enabled.
+
+== After you finish
+
+The maintenance window will not end until the storage array's request has been processed by the AutoSupport servers. Wait until you have received a confirmation email before proceeding.

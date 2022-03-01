@@ -1,0 +1,72 @@
+---
+permalink: sm-settings/task_change_saml_role_mappings.html
+sidebar: sidebar
+keywords: 
+summary: 'If you previously configured SAML for Access Management, you can change the role mappings between the IdP groups and the storage array’s predefined roles.'
+---
+= Change SAML role mappings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you previously configured SAML for Access Management, you can change the role mappings between the IdP groups and the storage array's predefined roles.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* An IdP administrator has configured user attributes and group membership in the IdP system.
+* SAML is configured and enabled.
+
+== Steps
+
+. Select *Settings* > *Access Management*.
+. Select the *SAML* tab.
+. Select *Role Mapping*.
++
+The Role Mapping dialog box opens.
+
+. Assign IdP user attributes and groups to the predefined roles. A group can have multiple assigned roles.
++
+[CAUTION]
+====
+Be careful that you do not remove your permissions while SAML is enabled, or you will lose access to System Manager.
+====
++
+Field Details
++
+|===
+| Setting| Description
+a|
+*Mappings*
+a|
+User Attribute
+a|
+Specify the attribute (for example, "member of") for the SAML group to be mapped.
+a|
+Attribute Value
+a|
+Specify the attribute value for the group to be mapped.
+a|
+Roles
+a|
+Click in the field and select one of the storage array's roles to be mapped to the attribute. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to System Manager. A Security Admin role must be assigned to at least one group.    The mapped roles include the following permissions:
+
+ ** *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
+ ** *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
+ ** *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
+ ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
++
+|===
++
+[NOTE]
+====
+The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
+====
+
+. Optionally, click *Add another mapping* to enter more group-to-role mappings.
+. Click *Save*.
+
+== Results
+
+After you complete this task, any active user sessions are terminated. Only your current user session is retained.

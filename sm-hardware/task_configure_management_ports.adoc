@@ -1,0 +1,82 @@
+---
+permalink: sm-hardware/task_configure_management_ports.html
+sidebar: sidebar
+keywords: 
+summary: 'The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses.'
+---
+= Configure management port
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses.
+
+== About this task
+
+During this procedure, you select port 1 and then determine the speed and port addressing method. Port 1 connects to the network where the management client can access the controller and System Manager.
+
+[NOTE]
+====
+Do not use port 2 on either controller. Port 2 is reserved for use by technical support.
+====
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. Click the controller with the management port you want to configure.
++
+The controller's context menu appears.
+
+. Select *Configure management ports*.
++
+The Configure Management Ports dialog box opens.
+
+. Make sure port 1 is displayed, and then click *Next*.
+. Select the configuration port settings, and then click *Next*.
++
+Field Details
++
+|===
+| Field| Description
+a|
+Speed and duplex mode
+a|
+Keep the *Auto-negotiate* setting if you want System Manager to determine the transmission parameters between the storage array and the network; or if you know the speed and mode of your network, select the parameters from the drop-down list. Only the valid speed and duplex combinations appear in the list.
+a|
+Enable IPv4 / Enable IPv6
+a|
+Select one or both options to enable support for IPv4 and IPv6 networks.
+|===
+If you select *Enable IPv4*, a dialog box opens for selecting IPv4 settings after you click *Next*. If you select *Enable IPv6*, a dialog box opens for selecting IPv6 settings after you click *Next*. If you select both options, the dialog box for IPv4 settings opens first, and then after you click *Next*, the dialog box for IPv6 settings opens.
+
+. Configure the IPv4 and/or IPv6 settings, either automatically or manually.
++
+Field Details
++
+|===
+| Field| Description
+a|
+Automatically obtain configuration from DHCP server
+a|
+Select this option to obtain the configuration automatically.
+a|
+Manually specify static configuration
+a|
+Select this option, and then enter the controller's IP address. (If desired, you can cut and paste addresses into the fields.) For IPv4, include the network subnet mask and gateway. For IPv6, include the routable IP address and router IP address.
+[NOTE]
+====
+If you change the IP address configuration, you lose the management path to the storage array. If you use SANtricity Unified Manager to globally manage arrays in your network, open the user interface and go to menu:Manage[Discover]. If you use SANtricity Storage Manager, you must remove the device from the Enterprise Management Window (EMW), add it back to the EMW by selecting menu:Edit[Add Storage Array], and then enter the new IP address.
+====
++
+|===
+
+. Click *Finish*.
+
+== Results
+
+The management port configuration is displayed in the controller settings, Management Ports tab.

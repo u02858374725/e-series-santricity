@@ -1,0 +1,40 @@
+---
+permalink: sm-interface/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= SANtricity System Manager 11.7
+:icons: font
+:imagesdir: ../media/
+
+* xref:concept_system_manager_overview.adoc[SANtricity System Manager overview]
+ ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-OVERVIEW.adoc[Concepts]
+  *** xref:concept_home_page.adoc[Home page]
+* xref:concept_setup_wizard.adoc[Setup wizard]
+ ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-SETUP.adoc[Concepts]
+  *** xref:concept_setup_wizard_overview.adoc[Setup wizard overview]
+  *** xref:concept_setup_wizard_terminology.adoc[Setup wizard terminology]
+ ** xref:GUID-549C2152-3403-4F79-B6B1-C83C55F31F8D-SETUP.adoc[FAQs]
+  *** xref:concept_what_if_i_don_t_see_all_of_my_hardware_components.adoc[What if I don't see all of my hardware components?]
+  *** xref:concept_what_if_i_don_t_see_all_of_my_hosts.adoc[What if I don't see all of my hosts?]
+  *** xref:concept_how_does_identifying_applications_help_me_manage_my_storage_array.adoc[How does identifying applications help me manage my storage array?]
+  *** xref:concept_what_is_a_workload.adoc[What is a workload?]
+  *** xref:concept_how_do_i_configure_the_delivery_method_for_autosupport_new.adoc[How do I configure the delivery method for AutoSupport?]
+  *** xref:concept_how_do_i_know_if_i_should_accept_the_recommended_pool_configuration.adoc[How do I know if I should accept the recommended pool configuration?]
+  *** xref:concept_system_manager_has_not_detected_any_hosts_what_do_i_do.adoc[System Manager has not detected any hosts. What do I do?]
+* xref:concept_storage_array_administration.adoc[Storage array administration]
+ ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-ADMIN.adoc[Concepts]
+  *** xref:concept_storage_array_overview.adoc[Storage array overview]
+  *** xref:concept_administrator_password_protection.adoc[Administrator password protection]
+  *** xref:concept_problem_notification.adoc[Problem notification]
+  *** xref:concept_operations_in_progress.adoc[Operations in progress]
+ ** xref:GUID-C46DE94B-34D7-48C6-8881-C415F6E4D510-ADMIN.adoc[How tos]
+  *** xref:task_set_default_units_for_capacity_values.adoc[Set default units for capacity values]
+  *** xref:task_set_default_time_frame_for_performance_graphs.adoc[Set default time frame for performance graphs]
+  *** xref:task_recover_from_problems_using_recovery_guru.adoc[Recover from problems using Recovery Guru]
+  *** xref:task_view_and_act_on_operations_in_progress.adoc[View and act on operations in progress]
+ ** xref:GUID-549C2152-3403-4F79-B6B1-C83C55F31F8D-ADMIN.adoc[FAQs]
+  *** xref:concept_where_can_i_find_more_information_about_display_preferences.adoc[Where can I find more information about display preferences?]
+  *** xref:reference_what_are_the_supported_browsers.adoc[What are the supported browsers?]
+  *** xref:reference_what_are_the_keyboard_shortcuts.adoc[What are the keyboard shortcuts?]

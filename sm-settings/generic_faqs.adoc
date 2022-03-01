@@ -1,0 +1,11 @@
+---
+permalink: sm-settings/generic_faqs.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= image:../media/sam1130_icon_faqs.gif[] FAQs
+:icons: font
+:imagesdir: ../media/
+
+*Frequently asked questions...*

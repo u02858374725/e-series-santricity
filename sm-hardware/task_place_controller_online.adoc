@@ -1,0 +1,31 @@
+---
+permalink: sm-hardware/task_place_controller_online.html
+sidebar: sidebar
+keywords: 
+summary: 'If a controller is in the offline state or in service mode, you can place it back online.'
+---
+= Place controller online
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If a controller is in the offline state or in service mode, you can place it back online.
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. Click a controller that is in either the offline state or service mode.
++
+The controller's context menu appears.
+
+. Select *Place online*, and confirm that you want to perform the operation.
+
+== Results
+
+Detection of a restored preferred path by the multipath driver can take up to 10 minutes.
+
+Any volumes originally owned by this controller are automatically moved back to the controller as I/O requests are received for each volume. In some cases, you might need to manually redistribute the volumes with the *Redistribute volumes* command.

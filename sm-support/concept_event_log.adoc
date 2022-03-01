@@ -1,0 +1,23 @@
+---
+permalink: sm-support/concept_event_log.html
+sidebar: sidebar
+keywords: 
+summary: 'The event log provides a historical record of events that have occurred on the storage array and aids technical support in troubleshooting events leading up to failures.'
+---
+= Event log
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The event log provides a historical record of events that have occurred on the storage array and aids technical support in troubleshooting events leading up to failures.
+
+The event log is a detailed record of events that occur in the storage array. It records configuration events and storage array component failures. You can use the event log as a supplementary diagnostic tool to the Recovery Guru for tracing storage array events. Always refer to the Recovery Guru first when you attempt to recover from component failures in the storage array.
+
+The events in the event log are categorized with different statuses. Events that you need to take action on have the following statuses:
+
+* Critical
+* Warning
+
+Events that are informational and do not require any immediate action are the following:
+
+* Informational

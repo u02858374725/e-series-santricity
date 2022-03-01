@@ -1,0 +1,24 @@
+---
+permalink: sm-interface/concept_setup_wizard_overview.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Setup wizard to configure your storage array, including hardware, hosts, applications, workloads, pools, alerts, and AutoSupport.'
+---
+= Setup wizard overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Setup wizard to configure your storage array, including hardware, hosts, applications, workloads, pools, alerts, and AutoSupport.
+
+When you open System Manager for the first time, the Setup wizard launches.
+
+The Setup wizard prompts you to perform basic configuration tasks, such as naming your storage array, configuring your hosts, selecting applications, and creating pools of storage.
+
+If you cancel the wizard, you cannot manually relaunch it.
+
+The wizard automatically relaunches when you open System Manager or refresh your browser and _at least one_ of the following conditions is met:
+
+* No pools and volume groups are detected.
+* No workloads are detected.
+* No notifications are configured.

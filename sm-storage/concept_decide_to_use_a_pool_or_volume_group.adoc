@@ -1,0 +1,104 @@
+---
+permalink: sm-storage/concept_decide_to_use_a_pool_or_volume_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements.'
+---
+= Decide whether to use a pool or a volume group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements.
+
+*Choose a pool*
+
+* If you need faster drive rebuilds and simplified storage administration, require thin volumes, and/or have a highly random workload.
+* If you want to distribute the data for each volume randomly across a set of drives that comprise the pool.
++
+You cannot set or change the RAID level of pools or the volumes in the pools. Pools use RAID level 6.
+
+*Choose a volume group*
+
+* If you need maximum system bandwidth, the ability to tune storage settings, and a highly sequential workload.
+* If you want to distribute the data across the drives based on a RAID level. You can specify the RAID level when you create the volume group.
+* If you want to write the data for each volume sequentially across the set of drives that comprise the volume group.
+
+[NOTE]
+====
+Because pools can co-exist with volume groups, a storage array can contain both pools and volume groups.
+====
+
+== Feature differences between pools and volume groups
+
+The following table provides a feature comparison between volume groups and pools.
+
+|===
+| Use| Pool| Volume group
+a|
+Workload random
+a|
+Better
+a|
+Good
+a|
+Workload sequential
+a|
+Good
+a|
+Better
+a|
+Drive rebuild time
+a|
+Faster
+a|
+Slower
+a|
+Performance (optimal mode)
+a|
+Good: Best for small block, random workload.
+a|
+Good: Best for large block, sequential workloads
+a|
+Performance (drive rebuild mode)
+a|
+Better: Usually better than RAID 6
+a|
+Degraded: Up to 40% drop in performance
+a|
+Multiple drive failures
+a|
+Greater data protection: Faster, prioritized rebuilds
+a|
+Less data protection: Slow rebuilds, greater risk of data loss
+a|
+Adding drives
+a|
+Faster: Add to pool on the fly
+a|
+Slower: Requires Dynamic Capacity Expansion operation
+a|
+Thin volumes support
+a|
+Yes
+a|
+No
+a|
+Solid State Disk (SSD) support
+a|
+Yes
+a|
+Yes
+a|
+Simplified administration
+a|
+Yes: No hot spares or RAID settings to configure
+a|
+No: Must allocate hot spares, configure RAID
+a|
+Tunable performance
+a|
+No
+a|
+Yes
+|===

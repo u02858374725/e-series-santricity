@@ -1,0 +1,42 @@
+---
+permalink: sm-storage/task_create_snapshot_volume_step_2.html
+sidebar: sidebar
+keywords: 
+summary: 'Select a specific host or host cluster to assign it to the snapshot volume. This assignment grants a host or host cluster access to the snapshot volume. You can choose to assign a host later, if needed.'
+---
+= Step 2: Assign snapshot volume to host
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Select a specific host or host cluster to assign it to the snapshot volume. This assignment grants a host or host cluster access to the snapshot volume. You can choose to assign a host later, if needed.
+
+== Before you begin
+
+* Valid hosts or host clusters exist under the *Hosts* page.
+* Host port identifiers must have been defined for the host.
+* Before creating a DA-enabled volume, verify that your planned host connection supports the Data Assurance (DA) feature. If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
+
+== About this task
+
+When you assign volumes, keep these guidelines in mind:
+
+* A host's operating system can have specific limits on how many volumes the host can access.
+* You can define one host assignment for each snapshot volume in the storage array.
+* Assigned volumes are shared between controllers in the storage array.
+* The same logical unit number (LUN) cannot be used twice by a host or a host cluster to access a snapshot volume. You must use a unique LUN.
+
+[NOTE]
+====
+Assigning a volume to a host fails if you try to assign a volume to a host cluster that conflicts with an established assignment for a host in the host cluster.
+====
+
+== Steps
+
+. On the *Assign to Host* dialog box, select the host or host cluster that you want to assign to the new volume. If you want to create the volume without assigning a host, select *Assign later* from the drop-down list.
+. Select the access mode. Choose one of the following:
+ ** *Read/write* -- This option provides the host with read/write access to the snapshot volume and requires reserved capacity.
+ ** *Read only* -- This option provides the host with read-only access to the snapshot volume and does not require reserved capacity.
+. Click *Next*, and do one of the following:
+ ** If your snapshot volume is read/write, the Review Capacity dialog box appears. Go to xref:task_create_snapshot_volume_step_3.adoc[Step 3: Reserve capacity for a snapshot volume].
+ ** If your snapshot volume is read only, the Edit Priority dialog box appears. Go to xref:task_create_snapshot_volume_step_4.adoc[Step 4: Edit settings for a snapshot volume].

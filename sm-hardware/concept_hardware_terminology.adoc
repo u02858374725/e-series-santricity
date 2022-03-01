@@ -1,0 +1,61 @@
+---
+permalink: sm-hardware/concept_hardware_terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the hardware terms apply to your storage array.'
+---
+= Hardware terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the hardware terms apply to your storage array.
+
+|===
+| Component| Description
+a|
+Storage array
+a|
+A storage array includes the shelves, controllers, drives, software, and firmware.
+a|
+Shelf
+a|
+A shelf is an enclosure installed in a cabinet or rack. It contains the hardware components for the storage array. There are two types of shelves: a controller shelf and a drive shelf. A controller shelf includes controllers and drives. A drive shelf includes input/output modules (IOMs) and drives.
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+a|
+Drive
+a|
+A drive is an electromagnetic mechanical device or solid state memory device that provides the physical storage media for data.
+a|
+Bay
+a|
+A bay is a slot in the shelf where a drive or other component is installed.
+a|
+Drive shelf
+a|
+A drive shelf, also called an expansion shelf, contains a set of drives and two input/output modules (IOMs). The IOMs contain SAS ports that connect a drive shelf to a controller shelf or to other drive shelves.
+a|
+Controller shelf
+a|
+A controller shelf contains a set of drives and one or more controller canisters. A controller canister holds the controllers, host interface cards (HICs), and batteries.
+a|
+Power/fan canister
+a|
+A power/fan canister is an assembly that slides into a shelf. It includes a power supply and an integrated fan.
+a|
+IOM (ESM)
+a|
+An IOM is an input/output module that includes SAS ports for connecting the drive shelf to the controller shelf.
+[NOTE]
+====
+In previous controller models, the IOM was referred to as an environmental service module (ESM).
+====
+
+a|
+SFP
+a|
+An SFP is a Small Form-factor Pluggable (SFP) transceiver.
+|===

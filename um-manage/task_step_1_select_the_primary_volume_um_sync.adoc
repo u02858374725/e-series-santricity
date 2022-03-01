@@ -1,0 +1,33 @@
+---
+permalink: um-manage/task_step_1_select_the_primary_volume_um_sync.html
+sidebar: sidebar
+keywords: 
+summary: 'Select the primary volume that you want to use in the synchronous mirror relationship.'
+---
+= Step 1: Select the primary volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Select the primary volume that you want to use in the synchronous mirror relationship.
+
+== Before you begin
+
+* You must have created the primary volume that you want to use in the synchronous mirror relationship.
+* The primary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
+
+== About this task
+
+When you select a primary volume on the local storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
+
+The volume you select holds the primary role in the mirror relationship.
+
+== Steps
+
+. From the *Manage* page, select the local storage array that you want to use for the source.
+. Select *Actions* > *Create Synchronous Mirrored Pair*.
++
+The Create Synchronous Mirrored Pair wizard opens.
+
+. From the list of eligible volumes, select a volume that you want to use as the primary volume in the mirror.
+. Select *Next* and go to link:task_step_2_select_the_secondary_volume_um_sync.md#[Step 2: Select the secondary volume].

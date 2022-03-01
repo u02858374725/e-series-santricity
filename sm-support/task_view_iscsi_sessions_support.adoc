@@ -1,0 +1,147 @@
+---
+permalink: sm-support/task_view_iscsi_sessions_support.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship.'
+---
+= View iSCSI sessions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View/End iSCSI Sessions*.
++
+A list of the current iSCSI sessions appears.
+
+. To see additional information about a specific iSCSI session, select a session, and then click *View Details*.
++
+Field Details
++
+|===
+| Item| Description
+a|
+Session Identifier (SSID)
+a|
+A hexadecimal string that identifies a session between an iSCSI initiator and an iSCSI target. The SSID is composed of the ISID and the TPGT.
+a|
+Initiator Session ID (ISID)
+a|
+The initiator part of the session identifier. The initiator specifies the ISID during login.
+a|
+Target Portal Group
+a|
+The iSCSI target.
+a|
+Target Portal Group Tag (TPGT)
+a|
+The target part of the session identifier. A 16-bit numerical identifier for an iSCSI target portal group.
+a|
+Initiator iSCSI name
+a|
+The worldwide unique name of the initiator.
+a|
+Initiator iSCSI label
+a|
+The user label set in System Manager.
+a|
+Initiator iSCSI alias
+a|
+A name that also can be associated with an iSCSI node. The alias allows an organization to associate a user-friendly string with the iSCSI name. However, the alias is not a substitute for the iSCSI name. The initiator iSCSI alias only can be set at the host, not in System Manager
+a|
+Host
+a|
+A server that sends input and output to the storage array.
+a|
+Connection ID (CID)
+a|
+A unique name for a connection within the session between the initiator and the target. The initiator generates this ID and presents it to the target during login requests. The connection ID is also presented during logouts that close connections.
+a|
+Ethernet port identifier
+a|
+The controller port associated with the connection.
+a|
+Initiator IP address
+a|
+The IP address of the initiator.
+a|
+Negotiated login parameters
+a|
+The parameters that are transacted during the login of the iSCSI session.
+a|
+Authentication method
+a|
+The technique to authenticate users who want access to the iSCSI network. Valid values are *CHAP* and *None*.
+a|
+Header digest method
+a|
+The technique to show possible header values for the iSCSI session. HeaderDigest and DataDigest can be either *None* or *CRC32C*. The default value for both is *None*.
+a|
+Data digest method
+a|
+The technique to show possible data values for the iSCSI session. HeaderDigest and DataDigest can be either *None* or *CRC32C*. The default value for both is *None*.
+a|
+Maximum connections
+a|
+The greatest number of connections allowed for the iSCSI session. The maximum number of connections can be 1 through 4. The default value is *1*.
+a|
+Target alias
+a|
+The label associated with the target.
+a|
+Initiator alias
+a|
+The label associated with the initiator.
+a|
+Target IP address
+a|
+The IP address of the target for the iSCSI session. DNS names are not supported.
+a|
+Initial R2T
+a|
+The initial ready to transfer status. The status can be either *Yes* or *No*.
+a|
+Maximum burst length
+a|
+The maximum SCSI payload in bytes for this iSCSI session. The maximum burst length can be from 512 to 262,144 (256 KB). The default value is *262,144 (256 KB)*.
+a|
+First burst length
+a|
+The SCSI payload in bytes for unsolicited data for this iSCSI session. The first burst length can be from 512 to 131,072 (128 KB). The default value is *65,536 (64 KB)*.
+a|
+Default time to wait
+a|
+The minimum number of seconds to wait before you attempt to make a connection after a connection termination or a connection reset. The default time to wait value can be from 0 to 3600. The default is *2*.
+a|
+Default time to retain
+a|
+The maximum number of seconds that connection is still possible following a connection termination or a connection reset. The default time to retain can be from 0 to 3600. The default value is *20*.
+a|
+Maximum outstanding R2T
+a|
+The maximum number of "ready to transfers" outstanding for this iSCSI session. The maximum outstanding ready to transfer value can be from 1 to 16. The default is *1*.
+a|
+Error recovery level
+a|
+The level of error recovery for this iSCSI session. The error recovery level value is always set to *0*.
+a|
+Maximum receive data segment length
+a|
+The maximum amount of data that either the initiator or the target can receive in any iSCSI payload data unit (PDU).
+a|
+Target name
+a|
+The official name of the target (not the alias). The target name with the _iqn_ format.
+a|
+Initiator name
+a|
+The official name of the initiator (not the alias). The initiator name that uses either the _iqn_ or _eui_ format.
+|===
+
+. To save the report to a file, click *Save*.
++
+The file is saved in the Downloads folder for your browser with the filename `iscsi-session-connections.txt`.

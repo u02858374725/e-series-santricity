@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/task_delete_alert_email_addresses.html
+sidebar: sidebar
+keywords: 
+summary: 'You can remove the previously defined mail server so that alerts are no longer sent to the email addresses, or you can remove individual email addresses.'
+---
+= Delete mail server or email addresses for alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove the previously defined mail server so that alerts are no longer sent to the email addresses, or you can remove individual email addresses.
+
+== Steps
+
+. Select *Settings* > *Alerts*.
+. Select the *Email* tab.
+. From the table, do one of the following:
+ ** To remove a mail server so that alerts are no longer sent to the email addresses, select the row for the mail server.
+ ** To remove an email address so that alerts are no longer sent to this address, select the row for the email address you want to delete.
+The *Delete* button in the upper right of the table becomes available for selection.
+. Click *Delete*, and confirm the operation.

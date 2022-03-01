@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/concept_what_is_security_capable_drive_security.html
+sidebar: sidebar
+keywords: 
+summary: 'Drive Security is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption \(FDE\) drives or Federal Information Processing Standard \(FIPS\) drives.'
+---
+= What is secure-capable (Drive Security)?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Drive Security is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.

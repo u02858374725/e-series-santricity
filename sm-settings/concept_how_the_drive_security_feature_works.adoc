@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/concept_how_the_drive_security_feature_works.html
+sidebar: sidebar
+keywords: 
+summary: 'Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption \(FDE\) drives or Federal Information Processing Standard \(FIPS\) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.'
+---
+= How the Drive Security feature works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.
+
+== How to implement Drive Security
+
+To implement Drive Security, you perform the following steps.
+
+. Equip your storage array with secure-capable drives, either FDE drives or FIPS drives. (For volumes that require FIPS support, use only FIPS drives. Mixing FIPS and FDE drives in a volume group or pool will result in all drives being treated as FDE drives. Also, an FDE drive cannot be added to or used as a spare in an all-FIPS volume group or pool.)
+. Create a security key, which is a string of characters that is shared by the controller and drives for read/write access. You can create either an internal key from the controller's persistent memory or an external key from a key management server. For external key management, authentication must be established with the key management server.
+. Enable Drive Security for pools and volume groups:
+ ** Create a pool or volume group (look for *Yes* in the *Secure-capable* column in the Candidates table).
+ ** Select a pool or volume group when you create a new volume (look for *Yes* next to *Secure-capable* in the pool and volume group Candidates table).
+
+== How Drive Security works at the drive level
+
+A secure-capable drive, either FDE or FIPS, encrypts data during writes and decrypts data during reads. This encryption and decryption does not affect the performance or user workflow. Each drive has its own unique encryption key, which can never be transferred from the drive.
+
+The Drive Security feature provides an extra layer of protection with secure-capable drives. When volume groups or pools on these drives are selected for Drive Security, the drives look for a security key before allowing access to the data. You can enable Drive Security for pools and volume groups at any time, without affecting existing data on the drive. However, you cannot disable Drive Security without erasing all data on the drive.
+
+== How Drive Security works at the storage array level
+
+With the Drive Security feature, you create a security key that is shared between the secure-enabled drives and controllers in a storage array. Whenever power to the drives is turned off and on, the secure-enabled drives change to a Security Locked state until the controller applies the security key.
+
+If a secure-enabled drive is removed from the storage array and re-installed in a different storage array, the drive will be in a Security Locked state. The re-located drive looks for the security key before it makes the data accessible again. To unlock the data, you apply the security key from the source storage array. After a successful unlock process, the re-located drive will then use the security key already stored in the target storage array, and the imported security key file is no longer needed.
+
+[NOTE]
+====
+For internal key management, the actual security key is stored on the controller in a non-accessible location. It is not in human-readable format, nor is it user-accessible.
+====
+
+== How Drive Security works at the volume level
+
+When you create a pool or volume group from secure-capable drives, you can also enable Drive Security for those pools or volume groups. The Drive Security option makes the drives and associated volume groups and pools secure-_enabled_.
+
+Keep the following guidelines in mind before creating secure-enabled volume groups and pools:
+
+* Volume groups and pools must be comprised entirely of secure-capable drives. (For volumes that require FIPS support, use only FIPS drives. Mixing FIPS and FDE drives in a volume group or pool will result in all drives being treated as FDE drives. Also, an FDE drive cannot be added to or used as a spare in an all-FIPS volume group or pool.)
+* Volume groups and pools must be in an optimal state.

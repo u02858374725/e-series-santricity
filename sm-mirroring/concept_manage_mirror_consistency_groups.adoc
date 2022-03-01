@@ -1,0 +1,17 @@
+---
+permalink: sm-mirroring/concept_manage_mirror_consistency_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You manage mirror consistency groups to test the communication link, suspend or resume the group, manually re-synchronize the group, change the group role, edit settings for the group, and delete the group.'
+---
+= Manage mirror consistency groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You manage mirror consistency groups to test the communication link, suspend or resume the group, manually re-synchronize the group, change the group role, edit settings for the group, and delete the group.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====

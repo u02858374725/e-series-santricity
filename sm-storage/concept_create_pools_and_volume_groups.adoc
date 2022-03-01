@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/concept_create_pools_and_volume_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You create storage capacity to logically group a subset of drives together in the storage array using pools or volume groups, or both.'
+---
+= Create pools and volume groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You create storage capacity to logically group a subset of drives together in the storage array using pools or volume groups, or both.

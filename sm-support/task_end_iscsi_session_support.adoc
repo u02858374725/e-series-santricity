@@ -1,0 +1,29 @@
+---
+permalink: sm-support/task_end_iscsi_session_support.html
+sidebar: sidebar
+keywords: 
+summary: 'You can end an iSCSI session that is no longer needed. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship.'
+---
+= End iSCSI session
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can end an iSCSI session that is no longer needed. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship.
+
+== About this task
+
+You might want to end an iSCSI session for these reasons:
+
+* *Unauthorized access* -- If an iSCSI initiator is logged on and should not have access, you can end the iSCSI session to force the iSCSI initiator off the storage array. The iSCSI initiator could have logged on because the None authentication method was available.
+* *System downtime* -- If you need to take down a storage array and you see that iSCSI initiators are still logged on, you can end the iSCSI sessions to get the iSCSI initiators off the storage array.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View/End iSCSI Sessions*.
++
+A list of the current iSCSI sessions appears.
+
+. Select the session that you want to end.
+. Click *End Session*, and confirm that you want to perform the operation.

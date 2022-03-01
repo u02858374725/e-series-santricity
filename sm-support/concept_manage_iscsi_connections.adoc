@@ -1,0 +1,12 @@
+---
+permalink: sm-support/concept_manage_iscsi_connections.html
+sidebar: sidebar
+keywords: 
+summary: 'You can manage iSCSI connections to view iSCSI statistics data, and to view or end iSCSI sessions.'
+---
+= Manage iSCSI connections
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manage iSCSI connections to view iSCSI statistics data, and to view or end iSCSI sessions.

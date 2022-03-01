@@ -1,0 +1,56 @@
+---
+permalink: sm-settings/task_back_up_security_key.html
+sidebar: sidebar
+keywords: 
+summary: 'After creating or changing a security key, you can create a backup copy of the key file in case the original gets corrupted.'
+---
+= Back up security key
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After creating or changing a security key, you can create a backup copy of the key file in case the original gets corrupted.
+
+== Before you begin
+
+* A security key already exists.
+
+== About this task
+
+This task describes how to back up a security key you previously created. During this procedure, you create a new pass phrase for the backup. This pass phrase does not need to match the pass phrase that was used when the original key was created or last changed. The pass phrase is applied only to the backup you are creating.
+
+== Steps
+
+. Select *Settings* > *System*.
+. Under *Security key management*, select *Back Up Key*.
++
+The Back Up Security Key dialog box opens.
+
+. In the *Define a pass phrase/Re-enter pass phrase* fields, enter and confirm a pass phrase for this backup.
++
+The value can have between 8 and 32 characters, and must include each of the following:
+
+ ** An uppercase letter (one or more)
+ ** A number (one or more)
+ ** A non-alphanumeric character, such as !, *, @ (one or more)
+
++
+[CAUTION]
+====
+*Be sure to record your entry for later use*. You need the pass phrase to access the backup of this security key.
+====
+
+. Click *Back Up*.
++
+A backup of the security key is downloaded to your local host, and then the Confirm/Record Security Key Backup dialog box opens.
++
+[NOTE]
+====
+The path for the downloaded security key file might depend on the default download location of your browser.
+====
+
+. Record your pass phrase in a secure location, and then click *Close*.
+
+== After you finish
+
+You should validate the backup security key.

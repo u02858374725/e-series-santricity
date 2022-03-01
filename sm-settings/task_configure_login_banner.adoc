@@ -1,0 +1,36 @@
+---
+permalink: sm-settings/task_configure_login_banner.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a login banner that is presented to users before they establish sessions in SANtricity System Manager. The banner can include an advisory notice and a consent message.'
+---
+= Configure login banner
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a login banner that is presented to users before they establish sessions in SANtricity System Manager. The banner can include an advisory notice and a consent message.
+
+== About this task
+
+When you create a banner, it appears before the login screen in a dialog box.
+
+== Steps
+
+. Select *Settings* > *System*.
+. Under the *General* section, select *Configure Login Banner*.
++
+The Configure Login Banner dialog box opens.
+
+. Enter the text you want to appear in the login banner.
++
+[NOTE]
+====
+Do not use HTML or other markup tags for formatting.
+====
+
+. Click *Save*.
+
+== Results
+
+The next time users log in to System Manager, the text opens in a dialog box. Users must click *OK* to continue to the login screen.

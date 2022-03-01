@@ -1,0 +1,44 @@
+---
+permalink: um-certificates/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= SANtricity Unified Manager 5
+:icons: font
+:imagesdir: ../media/
+
+* xref:generic_certificate_management.adoc[Certificate Management]
+ ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-CERT.adoc[Concepts]
+  *** xref:concept_how_certificates_work_unified.adoc[How certificates work]
+  *** xref:concept_certificate_terminology_unified.adoc[Certificate terminology]
+ ** xref:GUID-C46DE94B-34D7-48C6-8881-C415F6E4D510-CERT.adoc[How tos]
+  *** xref:task_use_ca_signed_certificate_um.adoc[Use CA-signed certificates]
+   **** xref:task_step_1_complete_csr_file_unified.adoc[Step 1: Complete a CSR file]
+   **** xref:task_step_2_submit_csr_files_unified.adoc[Step 2: Submit CSR file]
+   **** xref:task_step_3_import_management_certificates_unified.adoc[Step 3: Import management certificates]
+  *** xref:task_reset_management_certificates_unified.adoc[Reset management certificates]
+  *** xref:task_import_array_certificates_unified.adoc[Import certificates for arrays]
+  *** xref:task_view_certificates_unified.adoc[View certificates]
+  *** xref:task_export_certificates_unified.adoc[Export certificates]
+  *** xref:task_delete_trusted_certificates_unified.adoc[Delete trusted certificates]
+  *** xref:task_resolve_untrusted_certificates_certificate_page.adoc[Resolve untrusted certificates]
+* xref:generic_access_management.adoc[Access Management]
+ ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-ACCESS.adoc[Concepts]
+  *** xref:concept_how_access_management_works_unified.adoc[How Access Management works]
+  *** xref:concept_access_management_terminology_unified.adoc[Access Management terminology]
+  *** xref:concept_permissions_for_mapped_roles_unified.adoc[Permissions for mapped roles]
+  *** xref:concept_access_management_with_local_user_roles_unified.adoc[Access Management with local user roles]
+  *** xref:concept_access_management_with_directory_services_unified.adoc[Access Management with directory services]
+ ** xref:GUID-C46DE94B-34D7-48C6-8881-C415F6E4D510-ACCESS.adoc[How tos]
+  *** xref:task_view_local_user_roles_unified.adoc[View local user roles]
+  *** xref:task_change_passwords_unified.adoc[Change passwords]
+  *** xref:task_change_local_user_passwords_settings_unified.adoc[Change local user password settings]
+  *** xref:task_add_directory_server_unified.adoc[Add directory server]
+  *** xref:task_edit_directory_server_settings_unified.adoc[Edit directory server settings and role mappings]
+  *** xref:task_remove_directory_server_unified.adoc[Remove directory server]
+ ** xref:GUID-549C2152-3403-4F79-B6B1-C83C55F31F8D-ACCESS.adoc[FAQs]
+  *** xref:concept_why_can_t_i_log_in_unified.adoc[Why can't I log in?]
+  *** xref:concept_what_do_i_need_to_know_before_adding_a_directory_server_unified.adoc[What do I need to know before adding a directory server?]
+  *** xref:concept_what_do_i_need_to_know_about_mapping_storage_array_roles_unified.adoc[What do I need to know about mapping to storage array roles?]
+  *** xref:concept_what_are_the_local_users.adoc[What are the local users?]

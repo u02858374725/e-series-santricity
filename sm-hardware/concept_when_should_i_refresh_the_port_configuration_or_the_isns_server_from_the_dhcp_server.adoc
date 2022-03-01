@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/concept_when_should_i_refresh_the_port_configuration_or_the_isns_server_from_the_dhcp_server.html
+sidebar: sidebar
+keywords: 
+summary: 'Refresh the DHCP server any time the server is modified or upgraded, and the DHCP information relevant to the current storage array and the storage array that you want to use has changed.'
+---
+= When should I refresh the port configuration or the iSNS server from the DHCP server?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Refresh the DHCP server any time the server is modified or upgraded, and the DHCP information relevant to the current storage array and the storage array that you want to use has changed.
+
+Specifically, refresh the port configuration or the iSNS server from the DHCP server when you know that the DHCP server will be assigning different addresses.
+
+[NOTE]
+====
+Refreshing a port configuration is destructive to all of the iSCSI connections on that port.
+====

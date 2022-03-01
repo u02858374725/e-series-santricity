@@ -1,0 +1,18 @@
+---
+permalink: sm-mirroring/concept_why_don_t_i_see_all_of_my_pools_and_volume_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'When you create a secondary volume for the asynchronous mirrored pair, the system displays a list of all the eligible pools and volume groups for that asynchronous mirrored pair. Any pool or volume group that is not eligible to be used does not display in that list.'
+---
+= Why don't I see all of my pools and volume groups?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you create a secondary volume for the asynchronous mirrored pair, the system displays a list of all the eligible pools and volume groups for that asynchronous mirrored pair. Any pool or volume group that is not eligible to be used does not display in that list.
+
+Pools or volume groups may not be eligible for any of the following reasons.
+
+* The security capabilities of a pool or volume group do not match.
+* A pool or volume group is in a non-optimal state.
+* The capacity of a pool or volume group is too small.

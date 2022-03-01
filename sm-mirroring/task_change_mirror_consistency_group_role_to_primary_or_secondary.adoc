@@ -1,0 +1,41 @@
+---
+permalink: sm-mirroring/task_change_mirror_consistency_group_role_to_primary_or_secondary.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the role between mirror consistency groups for administrative purposes or in the event of a disaster on the local storage array.'
+---
+= Change mirror consistency group role to primary or secondary
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the role between mirror consistency groups for administrative purposes or in the event of a disaster on the local storage array.
+
+== About this task
+
+Mirror consistency groups created on the local storage array hold the primary role. Mirror consistency groups created on the remote storage array hold the secondary role. You can either demote the local mirror consistency group to a secondary role or promote the remote mirror consistency group to a primary role.
+
+== Steps
+
+. Select *Storage* > *Asynchronous Mirroring*.
+. Select the *Mirror Consistency Groups* tab.
++
+The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
+
+. Select the mirror consistency group for which you want to change the role, and then select *More* > *Change role to <Primary | Secondary>*.
++
+The system displays a confirmation.
+
+. Confirm that you want to change the role of the mirror consistency group, and then click *Change Role*.
++
+[NOTE]
+====
+The system displays the Cannot Contact Storage Array dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
+====
+
+== Results
+
+System Manager performs the following actions:
+
+* The Mirror Consistency Group table displays the status "pending" or "in-progress" next to the mirror consistency group undergoing the role change. You can cancel a Role Change operation that is pending by clicking the *Cancel* link found within the table cell.
+* If the associated mirror consistency group can be contacted, the roles between the mirror consistency groups change. System Manager promotes the secondary mirror consistency group to a primary role or demotes the primary mirror consistency group to a secondary role (depending on your selection). The role change affects all mirrored pairs within the selected mirror consistency group.

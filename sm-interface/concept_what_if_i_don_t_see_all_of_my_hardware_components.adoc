@@ -1,0 +1,14 @@
+---
+permalink: sm-interface/concept_what_if_i_don_t_see_all_of_my_hardware_components.html
+sidebar: sidebar
+keywords: 
+summary: 'If you do not see all your hardware components on the Verify hardware dialog box, it could mean that a drive shelf is not connected correctly, or that an incompatible shelf is installed in the storage array.'
+---
+= What if I don't see all of my hardware components?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you do not see all your hardware components on the Verify hardware dialog box, it could mean that a drive shelf is not connected correctly, or that an incompatible shelf is installed in the storage array.
+
+Verify that all drive shelves are connected correctly. If you are uncertain about which drive shelves are compatible, contact technical support.

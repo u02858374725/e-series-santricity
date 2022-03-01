@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/task_create_snapshot_consistency_group.html
+sidebar: sidebar
+keywords: 
+summary: 'To ensure that you have consistent copies, you can create a set of multiple volumes called a snapshot consistency group. This group allows you to make snapshot images of all the volumes at the same time for consistency. Each volume that belongs to a snapshot consistency group is referred to as a member volume. When you add a volume to a snapshot consistency group, the system automatically creates a new snapshot group that corresponds to this member volume.'
+---
+= Create snapshot consistency group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To ensure that you have consistent copies, you can create a set of multiple volumes called a _snapshot consistency group_. This group allows you to make snapshot images of all the volumes at the same time for consistency. Each volume that belongs to a snapshot consistency group is referred to as a _member volume_. When you add a volume to a snapshot consistency group, the system automatically creates a new snapshot group that corresponds to this member volume.
+
+== About this task
+
+The snapshot consistency group creation sequence lets you select member volumes for the group and allocate capacity to the member volumes.
+
+The process to create a snapshot consistency group is a multi-step procedure.

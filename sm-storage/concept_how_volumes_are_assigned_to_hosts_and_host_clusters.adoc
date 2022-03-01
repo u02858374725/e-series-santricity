@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/concept_how_volumes_are_assigned_to_hosts_and_host_clusters.html
+sidebar: sidebar
+keywords: 
+summary: 'For a host or host cluster to send I/O to a volume, you must assign the volume to the host or host cluster.'
+---
+= How volumes are assigned to hosts and host clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For a host or host cluster to send I/O to a volume, you must assign the volume to the host or host cluster.
+
+You can select a host or host cluster when you create a volume or you can assign a volume to a host or host cluster later. A host cluster is a group of hosts. You create a host cluster to make it easy to assign the same volumes to multiple hosts.
+
+Assigning volumes to hosts is flexible, allowing you to meet your particular storage needs.
+
+* *Stand-alone host, not part of a host cluster* -- You can assign a volume to an individual host. The volume can be accessed only by the one host.
+* *Host cluster* -- You can assign a volume to a host cluster. The volume can be accessed by all the hosts in the host cluster.
+* *Host within a host cluster* -- You can assign a volume to an individual host that is part of a host cluster. Even though the host is part of a host cluster, the volume can be accessed only by the individual host and not by any other hosts in the host cluster.
+
+When volumes are created, logical unit numbers (LUNs) are assigned automatically. The LUN serves as the "address" between the host and the controller during I/O operations. You can change LUNs after the volume is created.

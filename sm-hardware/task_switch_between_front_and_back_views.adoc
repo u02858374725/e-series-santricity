@@ -1,0 +1,29 @@
+---
+permalink: sm-hardware/task_switch_between_front_and_back_views.html
+sidebar: sidebar
+keywords: 
+summary: 'The Hardware page can show either the front view or the back view of the shelves.'
+---
+= Switch between front and back views
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Hardware page can show either the front view or the back view of the shelves.
+
+== About this task
+
+The back view shows the controllers/IOMs and the power-fan canisters. The front view shows the drives.
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. If the graphic shows the controllers, click *Show front of shelf*.
++
+The graphic changes to show the drives instead of the controllers.
+
+. Optionally, you can select *Show all front* or *Show all back*, located at the bottom of the page.

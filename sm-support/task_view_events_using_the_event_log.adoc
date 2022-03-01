@@ -1,0 +1,127 @@
+---
+permalink: sm-support/task_view_events_using_the_event_log.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the event log, which provides a historical record of events that have occurred on the storage array.'
+---
+= View events using the event log
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the event log, which provides a historical record of events that have occurred on the storage array.
+
+== Steps
+
+. Select *Support* > *Event Log*.
++
+The Event Log page appears.
++
+Page details
++
+|===
+| Item| Description
+a|
+View All field
+a|
+Toggles between all events, and only the critical and warning events.
+a|
+Filter field
+a|
+Filters the events. Useful for displaying only events related to a specific component, a specific event, etc.
+a|
+Select columns icon.
+a|
+Allows you to select other columns to view. Other columns give you additional information about the event.
+a|
+Check boxes
+a|
+Allows you to select the events to save. The check box in the table header selects all events.
+a|
+Date/Time column
+a|
+    The date and time stamp of the event, according to the controller clock.
++
+[NOTE]
+====
+The event log initially sorts events based on sequence number. Usually, this sequence corresponds to the date and time. However, the two controller clocks in the storage array could be unsynchronized. In this case, some perceived inconsistencies could appear in the event log relative to events and the date and time shown.
+====
+a|
+    Priority column
+a|
+    These priority values exist:
+
+ ** *Critical* -- A problem exists with the storage array. However, if you take immediate action, you might prevent losing access to data. Critical events are used for alert notifications. All critical events are sent to any network management client (through SNMP traps) or to the email recipient that you configured.
+ ** *Warning* -- An error has occurred that has degraded the performance and the ability of the storage array to recover from another error.
+ ** *Informational* -- Non-critical information related to the storage array.
+
+a|
+    Component Type column
+a|
+    The component that is affected by the event. The component could be hardware, such as a drive or a controller, or it could be software, such as controller firmware.
+a|
+    Component Location column
+a|
+    The physical location of the component in the storage array.
+a|
+    Description column
+a|
+    A description of the event.
++
+*Example* -- `Drive write failure - retries exhausted`
+a|
+    Sequence Number column
+a|
+    A 64-bit number that uniquely identifies a specific log entry for a storage array. This number increments by one with every new event log entry. To display this information, click the *Select columns* icon.
+a|
+    Event Type column
+a|
+    A 4-digit number that identifies each type of logged event. To display this information, click the *Select columns* icon.
+a|
+    Event Specific Codes
+
+column
+    a|
+        This information is used by technical support. To display this information, click the *Select columns* icon.
+
+....
+a|
+    Event Category column
+
+
+a|
+
+-   **Failure** – A component in the storage array has failed; for example, drive failure or battery failure.
+-   **State Change** – An element of the storage array that has changed state; for example, a volume transitioned to Optimal status, or a controller transitioned to Offline status.
+-   **Internal** – Internal controller operations that do not require user action; for example, the controller has completed start-of-day.
+-   **Command** – A command that has been issued to the storage array; for example, a hot spare has been assigned.
+-   **Error** – An error condition has been detected on the storage array; for example, a controller is unable to synchronize and purge cache, or a redundancy error is detected on the storage array.
+-   **General** – Any event that does not fit well into any other category.
+To display this information, click the **Select columns** icon.
+
+
+a|
+    Logged By column
+
+
+a|
+    The name of the controller that logged the event. To display this information, click the **Select columns** icon.
+
+
+|=== 2.  To retrieve new events from the storage array, click **Refresh**.
+
+It can take several minutes for an event to be logged and become visible in the Event Log page.
+....
+
+. To save the event log to a file:
+ .. Select the check box next to each event that you want to save.
+ .. Click *Save*.
+
++
+The file is saved in the Downloads folder for your browser with the name `major-event-log-timestamp.log`.
+. To clear events from the event log:
++
+The event log stores approximately 8,000 events before it replaces an event with a new event. If you want to keep the events, you can save them, and clear them from the event log.
+
+ .. First, save the event log.
+ .. Click *Clear All*, and confirm that you want to perform the operation.

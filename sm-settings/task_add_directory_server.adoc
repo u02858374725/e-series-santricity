@@ -1,0 +1,135 @@
+---
+permalink: sm-settings/task_add_directory_server.html
+sidebar: sidebar
+keywords: 
+summary: 'To configure authentication for Access Management, you can establish communications between the storage array and an LDAP server, and then map the LDAP user groups to the array’s predefined roles.'
+---
+= Add directory server
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure authentication for Access Management, you can establish communications between the storage array and an LDAP server, and then map the LDAP user groups to the array's predefined roles.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* User groups must be defined in your directory service.
+* LDAP server credentials must be available, including the domain name, server URL, and optionally the bind account user name and password.
+* For LDAPS servers using a secure protocol, the LDAP server's certificate chain must be installed on your local machine.
+
+== About this task
+
+Adding a directory server is a two-step process. First you enter the domain name and URL. If your server uses a secure protocol, you must also upload a CA certificate for authentication if it is signed by a non-standard signing authority. If you have credentials for a bind account, you can also enter your user account name and password. Next, you map the LDAP server's user groups to the storage array's predefined roles.
+
+[NOTE]
+====
+During the procedure to add an LDAP server, the legacy management interface will be disabled. The legacy management interface (SYMbol) is a method of communication between the storage array and the management client. When disabled, the storage array and management client use a more secure method of communication (REST API over https).
+====
+
+== Steps
+
+. Select *Settings* > *Access Management*.
+. From the *Directory Services* tab, select *Add Directory Server*.
++
+The Add Directory Server dialog box opens.
+
+. In the *Server Settings* tab, enter the credentials for the LDAP server.
++
+Field Details
++
+|===
+| Setting| Description
+a|
+*Configuration settings*
+a|
+Domain(s)
+a|
+Enter the domain name of the LDAP server. For multiple domains, enter the domains in a comma separated list. The domain name is used in the login (_username_@_domain_) to specify which directory server to authenticate against.
+a|
+Server URL
+a|
+Enter the URL for accessing the LDAP server in the form of `ldap[s]://*host*:*port*`.
+a|
+Upload certificate (optional)
+a|
++
+[NOTE]
+====
+This field appears only if an LDAPS protocol is specified in the Server URL field above.
+====
++
+Click *Browse* and select a CA certificate to upload. This is the trusted certificate or certificate chain used for authenticating the LDAP server.
+a|
+Bind account (optional)
+a|
+Enter a read-only user account for search queries against the LDAP server and for searching within the groups. Enter the account name in an LDAP-type format. For example, if the bind user is called "bindacct," then you might enter a value such as "CN=bindacct,CN=Users,DC=cpoc,DC=local."
+a|
+Bind password (optional)
+a|
++
+[NOTE]
+====
+This field appears when you enter a bind account above.
+====
+
+Enter the password for the bind account.
+    a|
+    Test server connection before adding
+    a|
+    Select this checkbox if you want to make sure the storage array can communicate with the LDAP server configuration you entered. The test occurs after you click *Add* at the bottom of the dialog box.     If this checkbox is selected and the test fails, the configuration is not added. You must resolve the error or de-select the checkbox to skip the testing and add the configuration.
+
+ a|
+ **Privilege settings**
+ a|
+ Search base DN
+ a|
+ Enter the LDAP context to search for users, typically in the form of `CN=Users, DC=copc, DC=local`.
+ a|
+ Username attribute
+ a|
+ Enter the attribute that is bound to the user ID for authentication. For example: `sAMAccountName`.
+ a|
+ Group attribute\(s\)
+ a|
+ Enter a list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
+ |=== 4.  Click the **Role Mapping** tab.
+
+. Assign LDAP groups to the predefined roles. A group can have multiple assigned roles.
++
+Field Details
++
+|===
+| Setting| Description
+a|
+*Mappings*
+a|
+Group DN
+a|
+Specify the group distinguished name (DN) for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
++
+----
+\.[]{}()<>*+-=!?^$|
+----
+a|
+Roles
+a|
+Click in the field and select one of the storage array's roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity System Manager.    The mapped roles include the following permissions:
+
+ ** *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
+ ** *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
+ ** *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
+ ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
++
+|===
++
+[NOTE]
+====
+The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
+====
+
+. If desired, click *Add another mapping* to enter more group-to-role mappings.
+. When you are finished with the mappings, click *Add*.
++
+The system performs a validation, making sure that the storage array and LDAP server can communicate. If an error message appears, check the credentials entered in the dialog box and re-enter the information if necessary.

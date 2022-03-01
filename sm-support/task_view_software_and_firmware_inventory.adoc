@@ -1,0 +1,29 @@
+---
+permalink: sm-support/task_view_software_and_firmware_inventory.html
+sidebar: sidebar
+keywords: 
+summary: 'The software and firmware inventory lists the firmware versions for each component in your storage array.'
+---
+= View software and firmware inventory
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The software and firmware inventory lists the firmware versions for each component in your storage array.
+
+== About this task
+
+A storage array is made up of many components, which might include controllers, drives, drawers, and input/output modules (IOMs). Each of these components contains firmware. Some versions of firmware depend on other versions of firmware. To capture information about all of the firmware versions in your storage array, view the software and firmware inventory. Technical support can analyze the software and firmware inventory to detect any firmware mismatches.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Support Resources* tab.
+. Scroll down to *Launch detailed storage array information*, and then select *Software and Firmware Inventory*.
++
+The software and firmware inventory report appears on the screen.
+
+. To save the software and firmware inventory, click *Save*.
++
+The file is saved in the Downloads folder for your browser with the filename `firmware-inventory.txt`.
+
+. Follow the instructions provided by technical support to send the file to them.

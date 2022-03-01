@@ -1,0 +1,16 @@
+---
+permalink: sm-support/concept_critical_events.html
+sidebar: sidebar
+keywords: 
+summary: 'Critical events indicate a problem with the storage array. If you resolve the critical event immediately, you might prevent loss of data access.'
+---
+= Critical events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Critical events indicate a problem with the storage array. If you resolve the critical event immediately, you might prevent loss of data access.
+
+When a critical event occurs, it is logged in the event log. All critical events are sent to the SNMP management console or to the email recipient that you have configured to receive alert notifications. If the shelf ID is not known at the time of the event, the shelf ID is listed as "Shelf unknown."
+
+When you receive a critical event, refer to the Recovery Guru procedure for a detailed description of the critical event. Complete the Recovery Guru procedure to correct the critical event. To correct certain critical events, you might need to contact technical support.

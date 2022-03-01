@@ -1,0 +1,71 @@
+---
+permalink: sm-storage/concept_host_terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the host terms apply to your storage array.'
+---
+= Host terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the host terms apply to your storage array.
+
+|===
+| Component| Definition
+a|
+Host
+a|
+A host is a server that sends I/O to a volume on a storage array.
+
+a|
+Host name
+a|
+The host name should equate to the system name of the host.
+
+a|
+Host cluster
+a|
+A host cluster is a group of hosts. You create a host cluster to make it easy to assign the same volumes to multiple hosts.
+
+a|
+Host interface protocol
+a|
+A host interface protocol is the connection (such as Fibre Channel, iSCSI, etc.) between the controllers and the hosts.
+
+a|
+HBA or Network Interface Card (NIC)
+a|
+A host bus adapter (HBA) is a board that resides in a host and contains one or more host ports.
+
+a|
+Host port
+a|
+A host port is a port on a host bus adapter (HBA) that provides the physical connection to a controller and is used for I/O operations.
+
+a|
+Host port identifier
+a|
+A host port identifier is a unique world-wide name associated with each host port on a host bus adapter (HBA).
+
+* Internet Small Computer System Interface (iSCSI) host port identifiers must have between 1 and 233 characters. iSCSI host port identifiers display in standard IQN format (e.g., `iqn.xxx.com.xxx:8b3ad`).
+* Non-iSCSI host port identifiers such as Fibre Channel and Serial Attached SCSI (SAS) display as colon-delimited after every two characters (e.g., `xx:yy:zz`). Fibre Channel host port identifiers must have 16 characters.
+
+a|
+Host operating system type
+a|
+The host operating system type is a configuration setting that defines how the controllers in the storage array react to I/O depending on the operating system (or variant) of the host. This is also sometimes called _host type_ for short.
+
+a|
+Controller host port
+a|
+A controller host port is a port on the controller that provides the physical connection to a host and is used for I/O operations.
+
+a|
+LUN
+a|
+A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN.
+
+Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
+
+|===

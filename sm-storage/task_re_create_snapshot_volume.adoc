@@ -1,0 +1,55 @@
+---
+permalink: sm-storage/task_re_create_snapshot_volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one.'
+---
+= Re-create snapshot volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one.
+
+== Before you begin
+
+* The snapshot volume must be in either an Optimal or Disabled state.
+* All member snapshot volumes must be in a Disabled state before you can re-create the snapshot consistency group snapshot volume.
+
+== About this task
+
+You cannot re-create an individual member snapshot volume; you can re-create only the overall snapshot consistency group snapshot volume.
+
+[NOTE]
+====
+If the snapshot volume or snapshot consistency group snapshot volume is part of an online copy relationship, you cannot perform the re-create option on the volume.
+====
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Select the *Snapshot Volumes* tab.
++
+The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.
+
+. Select the snapshot volume that you want to re-create, and then select *Uncommon Tasks* > *Recreate*.
++
+The Recreate Snapshot Volume dialog box appears.
+
+. Select one of the following options:
+ ** *An existing snapshot image created from volume <name>*
++
+Select this option to indicate an existing snapshot image from which to re-create the snapshot volume.
+
+ ** *A new (instant) snapshot image of volume <name>*
++
+Select this option to create a new snapshot image from which to re-create the snapshot volume.
+. Click *Recreate*.
+
+== Results
+
+System Manager performs the following actions:
+
+* Deletes all `write` data on any associated snapshot repository volume.
+* Snapshot volume or snapshot consistency group snapshot volume parameters remain the same as the previously disabled volume parameters.
+* Retains the original names for the snapshot volume or snapshot consistency group snapshot volume.

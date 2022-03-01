@@ -1,0 +1,12 @@
+---
+permalink: sm-settings/concept_what_types_of_servers_will_revocation_checking_be_enabled_for.html
+sidebar: sidebar
+keywords: 
+summary: 'The storage array performs revocation checking whenever it connects to an AutoSupport server, External Key Management Server \(EKMS\), Lightweight Directory Access Protocol over SSL \(LDAPS\) server, or a Syslog server.'
+---
+= What types of servers will revocation checking be enabled for?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The storage array performs revocation checking whenever it connects to an AutoSupport server, External Key Management Server (EKMS), Lightweight Directory Access Protocol over SSL (LDAPS) server, or a Syslog server.

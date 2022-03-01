@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/task_validate_security_key.html
+sidebar: sidebar
+keywords: 
+summary: 'You can validate the security key to make sure it has not been corrupted and to verify that you have a correct pass phrase.'
+---
+= Validate security key
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can validate the security key to make sure it has not been corrupted and to verify that you have a correct pass phrase.
+
+== Before you begin
+
+A security key has been created.
+
+== About this task
+
+This task describes how to validate the security key you previously created. This is an important step to make sure the key file is not corrupted and the pass phrase is correct, which ensures that you can later access drive data if you move a secure-enabled drive from one storage array to another.
+
+== Steps
+
+. Select *Settings* > *System*.
+. Under *Security key management*, select *Validate Key*.
++
+The Validate Security Key dialog box opens.
+
+. Click *Browse*, and then select the key file (for example, `drivesecurity.slk`).
+. Enter the pass phrase associated with the key you selected.
++
+When you select a valid key file and pass phrase, the *Validate* button becomes available.
+
+. Click *Validate*.
++
+The results of the validation are displayed in the dialog box.
+
+. If the results show "The security key validated successfully," click *Close*. If an error message appears, follow the suggested instructions displayed in the dialog box.

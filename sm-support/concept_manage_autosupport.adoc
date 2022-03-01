@@ -1,0 +1,12 @@
+---
+permalink: sm-support/concept_manage_autosupport.html
+sidebar: sidebar
+keywords: 
+summary: 'You use AutoSupport to automatically send data to technical support to use for troubleshooting or to prevent issues.'
+---
+= Manage AutoSupport
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use AutoSupport to automatically send data to technical support to use for troubleshooting or to prevent issues.

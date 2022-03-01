@@ -1,0 +1,42 @@
+---
+permalink: sm-settings/task_step_3_import_signed_certificates_for_the_controllers.html
+sidebar: sidebar
+keywords: 
+summary: 'After you receive signed certificates from the Certificate Authority \(CA\), import the files for the controllers.'
+---
+= Step 3: Import signed certificates for controllers
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you receive signed certificates from the Certificate Authority (CA), import the files for the controllers.
+
+== Before you begin
+
+* The CA returned signed certificate files. These files include the root certificate, one or more intermediate certificates, and the server certificates.
+* If the CA provided a chained certificate file (for example, a .p7b file), you must unpack the chained file into individual files: the root certificate, one or more intermediate certificates, and the server certificates that identify the controllers. You can use the Windows `certmgr` utility to unpack the files (right-click and select menu:All Tasks[Export]). Base-64 encoding is recommended. When the exports are complete, a CER file is shown for each certificate file in the chain.
+* You have copied the certificate files to the host system where you access System Manager.
+
+== About this task
+
+This task describes how to upload the certificate files.
+
+== Steps
+
+. Select *Settings* > *Certificates*.
+. From the *Array Management* tab, select *Import*.
++
+A dialog box opens for importing the certificate file(s).
+
+. Click the *Browse* buttons to first select the root and intermediate certificate files, and then select each server certificate for the controllers. The root and intermediate files are the same for both controllers. Only the server certificates are unique for each controller. If you generated the CSR from an external tool, you must also import the private key file that was created along with the CSR.
++
+The file names are displayed in the dialog box.
+
+. Click *Import*.
++
+The files are uploaded and validated.
+
+== Results
+
+The session is automatically terminated. You must log in again for the certificates to take effect. When you log in again, the new CA-signed certificates are used for your session.

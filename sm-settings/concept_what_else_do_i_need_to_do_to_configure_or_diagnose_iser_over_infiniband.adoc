@@ -1,0 +1,44 @@
+---
+permalink: sm-settings/concept_what_else_do_i_need_to_do_to_configure_or_diagnose_iser_over_infiniband.html
+sidebar: sidebar
+keywords: 
+summary: 'The following table lists the System Manager functions that you can use to configure and manage iSER over InfiniBand sessions.'
+---
+= What else do I need to do to configure or diagnose iSER over InfiniBand?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following table lists the System Manager functions that you can use to configure and manage iSER over InfiniBand sessions.
+
+[NOTE]
+====
+The iSER over InfiniBand settings are available only if your storage array's controller includes an iSER over InfiniBand host management port.
+====
+
+== Configure and diagnose iSER over InfiniBand
+
+|===
+| Action| Location
+a|
+Configure iSER over InfiniBand ports
+a|
+
+. Select *Hardware*.
+. Select *Show back of shelf*.
+. Select a controller.
+. Select *Configure iSER over InfiniBand ports*.
+
+or
+
+. Select *Settings* > *System*.
+. Scroll down to *iSER over InfiniBand settings*, and then select *Configure iSER over InfiniBand Ports*.
+
+a|
+View iSER over InfiniBand statistics
+a|
+
+. Select *Settings* > *System*.
+. Scroll down to *iSER over InfiniBand settings*, and then select *View iSER over InfiniBand Statistics*.
+
+|===

@@ -1,0 +1,107 @@
+---
+permalink: um-certificates/task_edit_directory_server_settings_unified.html
+sidebar: sidebar
+keywords: 
+summary: 'If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings.'
+---
+= Edit directory server settings and role mappings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* A directory server must be defined.
+
+== Steps
+
+. Select *Access Management*.
+. Select the *Directory Services* tab.
+. If more than one server is defined, select the server you want to edit from the table.
+. Select *View/Edit Settings*.
++
+TheDirectory Server Settings dialog box opens.
+
+. In the *Server Settings* tab, change the desired settings.
++
+|===
+| Setting| Description
+a|
+*Configuration settings*
+a|
+Domain(s)
+a|
+The domain name(s) of the LDAP server(s). For multiple domains, enter the domains in a comma-separated list. The domain name is used in the login (_username_@_domain_) to specify which directory server to authenticate against.
+a|
+Server URL
+a|
+The URL for accessing the LDAP server in the form of `ldap[s]://*host*:*port*`.
+a|
+Bind account (optional)
+a|
+The read-only user account for search queries against the LDAP server and for searching within the groups.
+a|
+Bind password (optional)
+a|
+The password for the bind account. (This field appears when a bind account is entered.)
+a|
+Test server connection before saving
+a|
+Checks that the system can communicate with the LDAP server configuration. The test occurs after you click *Save*. If this checkbox is selected and the test fails, the configuration is not changed. You must resolve the error or clear the checkbox to skip the testing and re-edit the configuration.
+a|
+*Privilege settings*
+a|
+Search base DN
+a|
+The LDAP context to search for users, typically in the form of `CN=Users, DC=copc, DC=local`.
+a|
+Username attribute
+a|
+The attribute that is bound to the user ID for authentication. For example: `sAMAccountName`.
+a|
+Group attribute(s)
+a|
+A list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
+|===
+
+. In the *Role Mapping* tab, change the desired mapping.
++
+|===
+| Setting| Description
+a|
+*Mappings*
+a|
+Group DN
+a|
+The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
++
+----
+\.[]{}()<>*+-=!?^$|
+----
+a|
+Roles
+a|
+The roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity Unified Manager.    The roles include the following:
+
+ ** *Storage admin* -- Full read/write access to storage objects on the arrays, but no access to the security configuration.
+ ** *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
+ ** *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
+ ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
++
+|===
++
+[NOTE]
+====
+The Monitor role is required for all users, including the administrator.
+====
+
+. If desired, click *Add another mapping* to enter more group-to-role mappings.
+. Click *Save*.
+
+== Results
+
+After you complete this task, any active user sessions are terminated. Only your current user session is retained.

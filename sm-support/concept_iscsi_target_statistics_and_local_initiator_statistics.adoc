@@ -1,0 +1,55 @@
+---
+permalink: sm-support/concept_iscsi_target_statistics_and_local_initiator_statistics.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= iSCSI target statistics and local initiator statistics
+:icons: font
+:imagesdir: ../media/
+
+When you select Target (protocol) statistics or Local initiator (protocol) statistics, the following statistics are shown. You can view each of these statistics as raw statistics or as baseline statistics.
+
+|===
+| Statistic| Definition
+a|
+SL
+a|
+Successful iSCSI login count
+a|
+UL
+a|
+Unsuccessful iSCSI login count
+a|
+SA
+a|
+Successful iSCSI authentication count (when authentication is enabled)
+a|
+UA
+a|
+Unsuccessful iSCSI authentication count (when authentication is enabled)
+a|
+PDU
+a|
+Correct iSCSI PDUs processed count
+a|
+HDE
+a|
+iSCSI PDUs with header digest errors count
+a|
+DDE
+a|
+iSCSI PDUs with data digest errors count
+a|
+PE
+a|
+PDUs with iSCSI protocol errors count
+a|
+UST
+a|
+Unexpected iSCSI session terminations count
+a|
+UCT
+a|
+Unexpected iSCSI connection termination count
+|===

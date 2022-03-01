@@ -1,0 +1,36 @@
+---
+permalink: sm-support/task_view_autosupport_log.html
+sidebar: sidebar
+keywords: 
+summary: 'The AutoSupport log provides information about status, dispatch history, and errors encountered during the delivery of AutoSupport dispatches.'
+---
+= View AutoSupport log
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The AutoSupport log provides information about status, dispatch history, and errors encountered during the delivery of AutoSupport dispatches.
+
+== About this task
+
+Multiple log files can exist. When the current log file reaches 200 KB, it is archived and a new log file is created. The archived log file name is `ASUPMessages.``n`, where `n` is an integer from 1 to 9. If multiple log files exist, you can choose to view the most current log or a previous log.
+
+* *Current log* -- Shows a list of the latest captured events.
+* *Archived log* -- Shows a list of earlier events.
+
+== Steps
+
+. Select *Support* > *Support Center* > *AutoSupport* tab.
+. Select *View AutoSupport Log*.
++
+A dialog box appears, which lists the current AutoSupport log.
+
+. If you want to see previous AutoSupport logs, select the *Archived* radio button, and then select a log from the *Select AutoSupport log* drop-down list.
++
+The Archived option appears only if archived logs exist on the storage array.
++
+The selected AutoSupport log appears in the dialog box.
+
+. (Optional) To search the AutoSupport log, type a term in the *Find* box, and click *Find*.
++
+Click *Find* again to search for additional occurrences of the term.

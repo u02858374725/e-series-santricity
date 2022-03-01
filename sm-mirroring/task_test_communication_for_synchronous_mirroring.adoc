@@ -1,0 +1,30 @@
+---
+permalink: sm-mirroring/task_test_communication_for_synchronous_mirroring.html
+sidebar: sidebar
+keywords: 
+summary: 'You can test the communication between a local storage array and a remote storage array to diagnose possible communication problems for a mirrored pair that is participating in synchronous mirroring.'
+---
+= Test communication for synchronous mirroring
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can test the communication between a local storage array and a remote storage array to diagnose possible communication problems for a mirrored pair that is participating in synchronous mirroring.
+
+== About this task
+
+Two different tests are run:
+
+* *Communication* -- Verifies that the two storage arrays have a communication path. The communication test validates that the local storage array can communicate with the remote storage array and that the secondary volume associated with the mirrored pair exists on the remote storage array.
+* *Latency* -- Sends a SCSI test unit command to the secondary volume on the remote storage array associated with the mirrored pair to test the minimum, average, and maximum latency.
+
+== Steps
+
+. Select *Storage* > *Synchronous Mirroring*.
+. Select the mirrored pair that you want to test, and then select *Test Communication*.
+. Review the information displayed in the Results window, and, if necessary, follow the corrective action indicated.
++
+[NOTE]
+====
+If the communication test fails, the test continues to run after you close this dialog until communication between the mirrored pair is restored.
+====

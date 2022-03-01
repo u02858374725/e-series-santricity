@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/concept_configure_host_access.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a host automatically or manually. To make it easier to give multiple hosts access to the same volumes, you can also create a host cluster.'
+---
+= Configure host access
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a host automatically or manually. To make it easier to give multiple hosts access to the same volumes, you can also create a host cluster.

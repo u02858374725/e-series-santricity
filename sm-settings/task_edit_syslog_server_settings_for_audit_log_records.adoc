@@ -1,0 +1,36 @@
+---
+permalink: sm-settings/task_edit_syslog_server_settings_for_audit_log_records.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the settings for the syslog server used for archiving audit logs, and also upload a new Certificate Authority \(CA\) certificate for the server.'
+---
+= Edit syslog server settings for audit log records
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the settings for the syslog server used for archiving audit logs, and also upload a new Certificate Authority (CA) certificate for the server.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* The syslog server address, protocol, and port number must be available. The server address can be a fully qualified domain name, an IPv4 address, or an IPv6 address.
+* If you are uploading a new CA certificate, the certificate must be available on your local system.
+
+== Steps
+
+. Select *Settings* > *Access Management*.
+. From the *Audit Log* tab, select *Configure Syslog Servers*.
++
+Configured syslog servers are displayed on the page.
+
+. To edit the server information, select the *Edit* (pencil) icon to the right of the server name, and then make desired changes in the following fields:
+ ** *Server Address* -- Enter a fully qualified domain name, an IPv4 address, or an IPv6 address.
+ ** *Protocol* -- Select a protocol from the drop-down list (for example, TLS, UDP, or TCP).
+ ** *Port* -- Enter the port number for the syslog receiver.
+. If you changed the protocol to the secure TLS protocol (from either UDP or TCP), click *Import Trusted Certificate* to upload a CA certificate.
+. To test the new connection with the storage array, select *Test All*.
+
+== Results
+
+After configuration, all new audit logs are sent to the syslog server. Previous logs are not transferred.

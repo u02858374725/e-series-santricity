@@ -1,0 +1,34 @@
+---
+permalink: sm-storage/task_delete_snapshot_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You delete a snapshot group when you want to permanently delete its data and remove it from the system. Deleting a snapshot group reclaims reserved capacity for reuse in the pool or volume group.'
+---
+= Delete snapshot group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You delete a snapshot group when you want to permanently delete its data and remove it from the system. Deleting a snapshot group reclaims reserved capacity for reuse in the pool or volume group.
+
+== About this task
+
+When a snapshot group is deleted, all snapshot images in the group also are deleted.
+
+== Steps
+
+. Select *Storage* > *Pools & Volume Groups*.
+. Click the *Reserved Capacity* tab.
+. Select the snapshot group that you want to delete, and then click *Uncommon Tasks* > *Delete snapshot group*.
++
+The Confirm Delete Snapshot Group dialog box appears.
+
+. Type `delete` to confirm.
+
+== Results
+
+System Manager performs the following actions:
+
+* Deletes all snapshot images associated with the snapshot group.
+* Disables any snapshot volumes associated with the snapshot group's images.
+* Deletes the reserved capacity that exists for the snapshot group.

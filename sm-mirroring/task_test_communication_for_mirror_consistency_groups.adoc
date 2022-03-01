@@ -1,0 +1,62 @@
+---
+permalink: sm-mirroring/task_test_communication_for_mirror_consistency_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can test the communication link to diagnose possible communication problems between the local storage array and the remote storage array associated with a mirror consistency group.'
+---
+= Test communication for mirror consistency groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can test the communication link to diagnose possible communication problems between the local storage array and the remote storage array associated with a mirror consistency group.
+
+== Before you begin
+
+The mirror consistency group that you want to test must exist on the local and remote storage arrays.
+
+== About this task
+
+You can run four different tests:
+
+* *Connectivity* -- Verifies that the two controllers have a communication path. The connectivity test sends an inter-array message between the storage arrays, and then validates that the corresponding mirror consistency group on the remote storage array exists. It also validates that the member volumes of the mirror consistency group on the remote storage array match the member volumes of the mirror consistency group on the local storage array.
+* *Latency* -- Sends a SCSI Test Unit command to each mirrored volume on the remote storage array associated with the mirror consistency group to test the minimum, average, and maximum latency.
+* *Bandwidth* -- Sends two inter-array messages to the remote storage array to test the minimum, average, and maximum bandwidth as well as the negotiated link speed of the port on the array performing the test.
+* *Port connections* -- Shows the port that is being used for mirroring on the local storage array and the port that is receiving the mirrored data on the remote storage array.
+
+== Steps
+
+. Select *Storage* > *Asynchronous Mirroring*.
+. Select the *Mirror Consistency Groups* tab, and then select the mirror consistency group that you want to test.
+. Select *Test Communication*.
++
+The Test Communication dialog box appears.
+
+. Select one or more communication tests to perform between the local and remote storage arrays associated with the selected mirror consistency group, and then click *Test*.
+. Review the information displayed in the Results window.
++
+|===
+| Communication Test Status| Description
+a|
+Normal with no errors
+a|
+The mirror consistency group is communicating correctly.
+a|
+Passed status (but not normal)
+a|
+Check possible network or connection problems and retry the test.
+a|
+Failed status
+a|
+The reason for the failure is indicated. Refer to the Recovery Guru to correct the problem.
+a|
+Port connection error
+a|
+The reason may be that the local storage array is not connected or the remote storage array cannot be contacted. Refer to the Recovery Guru to correct the problem.
+|===
+
+== After you finish
+
+After the communication test completes, this dialog box shows a Normal status, a Passed status, or a Failed status.
+
+If the communication test returns a Failed status, the test continues to run after you close this dialog box until communication between the mirror consistency groups is restored.

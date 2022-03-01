@@ -1,0 +1,99 @@
+---
+permalink: sm-storage/concept_copy_volume_function.html
+sidebar: sidebar
+keywords: 
+summary: 'The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array. This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume.'
+---
+= Copy Volume function
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array. This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume.
+
+== Data copying for greater access
+
+As your storage requirements for a volume change, you can use the Copy Volume function to copy data from pools or volume groups that use smaller capacity drives to pools or volume groups that use larger capacity drives. For example, you can use the Copy Volume function to do the following:
+
+* Move data to larger drives.
+* Change to drives with a higher data transfer rate.
+* Change to drives using new technologies for higher performance.
+* Change a thin volume to a thick volume.
+
+== Change a thin volume to a thick volume
+
+If you want to change a thin volume to a thick volume, use the Copy Volume operation to create a copy of the thin volume. The target of a Copy Volume operation is always a thick volume.
+
+[NOTE]
+====
+SANtricity System Manager does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
+====
+
+== Backup data
+
+The Copy Volume function lets you back up a volume by copying data from one volume to another volume on the same storage array. You can use the target volume as a backup for the source volume, for system testing, or to back up to another device, such as a tape drive.
+
+== Restore snapshot volume data to the base volume
+
+If you need to restore data to the base volume from its associated snapshot volume, you can use the Copy Volume function to copy data from the snapshot volume to the base volume. You can create a volume copy of the data on the snapshot volume, and then copy the data to the base volume.
+
+== Source and target volumes
+
+The following table specifies the types of volumes that can be used for source and target volumes with the Copy Volume function.
+
+|===
+| Volume type| Offline volume copy source volume| Online volume copy source volume| Online and offline target volume
+a|
+Thick volume in a pool
+a|
+Yes
+a|
+Yes
+a|
+Yes
+a|
+Thick volume in a volume group
+a|
+Yes
+a|
+Yes
+a|
+Yes
+a|
+Thin volume
+a|
+Yes
+a|
+Yes
+a|
+No
+a|
+Snapshot volume
+a|
+Yes1
+a|
+No
+a|
+No
+a|
+Snapshot base volume
+a|
+Yes
+a|
+No
+a|
+No
+a|
+Remote mirror primary volume
+a|
+Yes2
+a|
+No
+a|
+Yes
+a|
+1You cannot use the snapshot volume copy until after the online copy operation completes.
+
+2If the source volume is a primary volume, the capacity of the target volume must be equal to or greater than the usable capacity of the source volume.
+
+|===

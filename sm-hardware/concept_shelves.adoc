@@ -1,0 +1,12 @@
+---
+permalink: sm-hardware/concept_shelves.html
+sidebar: sidebar
+keywords: 
+summary: 'A shelf is an enclosure installed in a cabinet or rack. It contains the hardware components for the storage array.'
+---
+= image:../media/sam1130_icon_shelves.gif[] Shelves
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A shelf is an enclosure installed in a cabinet or rack. It contains the hardware components for the storage array.

@@ -1,0 +1,11 @@
+---
+permalink: sm-storage/generic_how_tos.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= image:../media/sam1130_icon_how_tos.gif[] How tos
+:icons: font
+:imagesdir: ../media/
+
+*I want to...*

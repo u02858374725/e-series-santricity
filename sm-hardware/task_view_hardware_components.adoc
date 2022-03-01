@@ -1,0 +1,49 @@
+---
+permalink: sm-hardware/task_view_hardware_components.html
+sidebar: sidebar
+keywords: 
+summary: 'The Hardware page provides sorting and filtering functions that make it easier to find components.'
+---
+= View hardware components
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Hardware page provides sorting and filtering functions that make it easier to find components.
+
+== Steps
+
+. Select *Hardware*.
+. Use the functions described in the following table to view hardware components.
++
+|===
+| Function| Description
+a|
+Front and back shelf views
+a|
+To switch between front and back shelf views, select either *Show back of shelf* or *Show front of shelf* from the far right (the link that appears depends on the current view). The front view shows drives and any empty drive bays. The back view shows the controllers, and any IOM (ESM) modules, power/fan canisters, or empty controller bays.     At the bottom of the page, you can also select *Show all front* or *Show all back*.
+a|
+Drive view filters
+a|
+If the storage array contains drives with different types of physical and logical attributes, the Hardware page includes drive view filters. These filter fields help you quickly locate specific drives by limiting the drive types displayed on the page. Under *Show drives that are...*, click the filter field on the left (by default, shows *Any drive type*) to see a drop-down list of physical attributes (for example, capacity and speed). Click the filter field on the right (by default, shows *Anywhere in the storage array*) to see a drop-down list of logical attributes (for example, volume group assignment). You can use these filters together or separately.
+[NOTE]
+====
+If the storage array contains drives that all share the same physical attributes, the *Any drive type* field on the left does not appear. If the drives are all in the same logical location, the *Anywhere in the storage array* field on the right does not appear.
+====
+a|
+Legend
+a|
+The components are displayed in certain colors to depict their role states. To expand and collapse the descriptions of these states, click *Legend*.
+a|
+Show status icon details
+a|
+The status indicators can include text descriptions for availability states. Click *Show status icon details* to show or hide this status text.
+a|
+Shelf/shelf icons
+a|
+Each shelf view provides a list of related commands, along with properties and status. Click *Shelf* to see a drop-down list of commands. You can also select one of the icons along the top to see status and properties for individual components: controllers, IOMs (ESMs), power supplies, fans, temperature, batteries, and SFPs.
+a|
+Shelf order
+a|
+The shelves can be rearranged on the Hardware page. Use the up and down arrows on the top right of each shelf view to change the top/bottom order of shelves.
+|===

@@ -1,0 +1,43 @@
+---
+permalink: sm-hardware/task_unassign_hot_spares.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change a hot spare back to an unassigned drive.'
+---
+= Unassign hot spares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change a hot spare back to an unassigned drive.
+
+== Before you begin
+
+The hot spare must be in Optimal, Standby status.
+
+== About this task
+
+You cannot unassign a hot spare that is currently taking over for a failed drive. If the hot spare is not in Optimal status, follow the Recovery Guru procedures to correct any problems before trying to unassign the drive.
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the controllers, click *Show front of shelf*.
++
+The graphic changes to show the drives instead of the controllers.
+
+. Select the hot spare drive (displayed in pink) that you want to unassign.
++
+If there are diagonal lines through the pink drive bay, the hot spare is currently in use and cannot be unassigned.
++
+The drive's context menu opens.
+
+. From the drive's drop-down list, select *Unassign hot spare*.
++
+The dialog box shows any volume groups affected by removing this hot spare and if any other hot spares are protecting them.
+
+. Confirm the unassign operation.
+
+== Results
+
+The drive is returned to Unassigned (shown in gray).

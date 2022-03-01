@@ -1,0 +1,15 @@
+---
+permalink: sm-settings/concept_how_do_i_configure_snmp_or_syslog_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'In addition to email alerts, you can configure alerts to be sent by Simple Network Management Protocol \(SNMP\) traps or by syslog messages.'
+---
+= How do I configure SNMP or syslog alerts?
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In addition to email alerts, you can configure alerts to be sent by Simple Network Management Protocol (SNMP) traps or by syslog messages.
+
+To configure SNMP or syslog alerts, go to menu:Settings[Alerts].

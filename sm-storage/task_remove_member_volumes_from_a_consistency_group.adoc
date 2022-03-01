@@ -1,0 +1,32 @@
+---
+permalink: sm-storage/task_remove_member_volumes_from_a_consistency_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can remove a member volume from an existing snapshot consistency group.'
+---
+= Remove a member volume from a snapshot consistency group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove a member volume from an existing snapshot consistency group.
+
+== About this task
+
+When you remove a member volume from a snapshot consistency group, System Manager automatically deletes the snapshot objects associated with that member volume.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Click the *Snapshot Consistency Groups* tab.
+. Expand the snapshot consistency group you want to modify by selecting the plus (+) sign next to it.
+. Select the member volume that you want to remove, and then click *Remove*.
+. Confirm that you want to perform the operation, and then click *Remove*.
+
+== Results
+
+System Manager performs the following actions:
+
+* Deletes all snapshot images and snapshot volumes associated with the member volume.
+* Deletes the snapshot group associated with the member volume.
+* The member volume is not otherwise changed or deleted.

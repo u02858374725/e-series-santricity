@@ -1,0 +1,19 @@
+---
+permalink: um-manage/task_create_storage_array_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You create storage groups, and then add storage arrays to the groups. The storage group defines which drives provide the storage that makes up the volume.'
+---
+= Create storage array group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You create storage groups, and then add storage arrays to the groups. The storage group defines which drives provide the storage that makes up the volume.
+
+== Steps
+
+. From the *Manage* page, select *Manage Groups* > *Create storage array group*.
+. In the *Name* field, type a name for the new group.
+. Select the storage arrays that you want to add to the new group.
+. Click *Create*.

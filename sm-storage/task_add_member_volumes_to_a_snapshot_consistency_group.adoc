@@ -1,0 +1,52 @@
+---
+permalink: sm-storage/task_add_member_volumes_to_a_snapshot_consistency_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume.'
+---
+= Add member volume to a snapshot consistency group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume.
+
+== Before you begin
+
+* The member volume must be Optimal.
+* The snapshot consistency group must have less than the maximum number of allowable volumes (as defined by your configuration).
+* Each reserved capacity volume must have the same Data Assurance (DA) and security settings as the associated member volume.
+
+== About this task
+
+You can add standard volumes or thin volumes to the snapshot consistency group. The base volume can reside in either a pool or volume group.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Select the *Snapshot Consistency Groups* tab.
++
+The table appears and displays all the snapshot consistency groups associated with the storage array.
+
+. Select the snapshot consistency group you want to modify, and then click *Add Members*.
++
+The Add Members dialog box appears.
+
+. Select the member volume(s) you want to add, and then click *Next*.
++
+The Reserve Capacity step appears. The Volume Candidate table displays only the candidates that support the reserved capacity specified.
+
+. Use the spinner box to allocate the reserved capacity for the member volume. Do one of the following actions:
+ ** *Accept the default settings.*
++
+Use this recommended option to allocate the reserved capacity for the member volume with the default settings.
+
+ ** *Allocate your own reserved capacity settings to meet your data storage needs.*
++
+If you change the default reserved capacity setting, click *Refresh Candidates* to refresh the candidate list for the reserved capacity you specified.
++
+Allocate the reserved capacity using the following guidelines.
+
+  *** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
+  *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
+. Click *Finish* to add the member volumes.

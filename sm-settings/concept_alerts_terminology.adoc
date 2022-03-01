@@ -1,0 +1,56 @@
+---
+permalink: sm-settings/concept_alerts_terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the alerts terms apply to your storage array.'
+---
+= Alerts terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the alerts terms apply to your storage array.
+
+|===
+| Component| Description
+a|
+Event monitor
+a|
+The event monitor resides on the storage array and runs as a background task. When the event monitor detects anomalies on the storage array, it writes information about the issues to the event log. Issues can include such events as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller. If the event monitor determines that the event is "alertable," it then sends a notification using the configured alerting methods (email, SNMP, and/or syslog). All Critical events are considered "alertable," along with some Warning and Informational events.
+a|
+Mail server
+a|
+The mail server is used for sending and receiving email alerts. The server uses Simple Mail Transfer Protocol (SMTP).
+a|
+SNMP
+a|
+Simple Network Management Protocol (SNMP) is an Internet-standard protocol used for managing and sharing information between devices on IP networks.
+a|
+SNMP trap
+a|
+An SNMP trap is a notification sent to an SNMP server. The trap contains information about significant issues with the storage array.
+a|
+SNMP trap destination
+a|
+An SNMP trap destination is an IPv4 or IPv6 address of the server running an SNMP service.
+a|
+Community name
+a|
+A community name is a string that acts like a password for the network server(s) in a SNMP environment.
+a|
+MIB file
+a|
+The management information base (MIB) file defines the data being monitored and managed in the storage array. It must be copied and compiled on the server with the SNMP service application. This MIB file is available with the System Manager software on the Support site.
+a|
+MIB variables
+a|
+Management Information Base (MIB) variables can return values such as the storage array name, array location, and a contact person in response to SNMP GetRequests.
+a|
+Syslog
+a|
+Syslog is a protocol used by network devices for sending event messages to a logging server.
+a|
+UDP
+a|
+User Datagram Protocol (UDP) is a transport layer protocol that specifies a source and destination port number in their packet headers.
+|===

@@ -1,0 +1,14 @@
+---
+permalink: sm-mirroring/concept_why_do_i_see_not_available_values_displayed_in_the_table.html
+sidebar: sidebar
+keywords: 
+summary: 'The table lists Not Available values when the data located on the remote storage array is not available to be displayed.'
+---
+= Why do I see Not Available values displayed in the table?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The table lists Not Available values when the data located on the remote storage array is not available to be displayed.
+
+To display the remote storage array data, launch System Manager from Unified Manager.

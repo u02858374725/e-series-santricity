@@ -1,0 +1,36 @@
+---
+permalink: sm-mirroring/task_remove_synchronous_mirror_relationship.html
+sidebar: sidebar
+keywords: 
+summary: 'You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array.'
+---
+= Remove synchronous mirror relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array.
+
+== About this task
+
+You can also remove a mirrored pair to correct an orphaned mirrored pair state. Review the following information about orphaned mirrored pairs:
+
+* An orphaned mirrored pair exists when a member volume has been removed on one side (local/remote) but not on the other side.
+* Orphaned mirrored pairs are detected when inter-array communication is restored.
+
+== Steps
+
+. Select *Storage* > *Synchronous Mirroring*.
+. Select the mirrored pair that you want to remove, and then select the *Uncommon Tasks* > *Remove*.
++
+The Remove Mirror Relationship dialog box appears.
+
+. Confirm that you want to remove the mirrored pair, and then click *Remove*.
+
+== Results
+
+System Manager performs the following actions:
+
+* Removes the mirror relationship from the mirrored pair on the local storage array and on the remote storage array.
+* Returns the primary volume and the secondary volume to host-accessible, non-mirrored volumes.
+* Updates the Synchronous Mirroring tile with the removal of the synchronous mirrored pair.

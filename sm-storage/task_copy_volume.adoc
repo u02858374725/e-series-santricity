@@ -1,0 +1,87 @@
+---
+permalink: sm-storage/task_copy_volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can copy data from one volume to another volume in the same storage array, and create a physical, point-in-time duplicate \(clone\) of a source volume.'
+---
+= Copy volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can copy data from one volume to another volume in the same storage array, and create a physical, point-in-time duplicate (clone) of a source volume.
+
+== Before you begin
+
+* All I/O activity to the source volume and the target volume must be stopped.
+* Any file systems on the source volume and the target volume must be unmounted.
+* If you have used the target volume in a Copy Volume operation before, you no longer need that data or that you have backed up the data.
+
+== About this task
+
+The source volume is the volume that accepts host I/O and stores application data. When a Copy Volume is started, data from the source volume is copied in its entirety to the target volume.
+
+The target volume is a standard volume that maintains a copy of the data from the source volume. The target volume is identical to the source volume after the Copy Volume operation completes. The target volume must have the same or greater capacity as the source volume; however, it can have a different RAID level.
+
+More about online and offline copies
+
+*Online copy*
+
+An online copy creates a point-in-time copy of any volume within a storage array, while it is still possible to write to the volume with the copy in progress. This function is achieved by creating a snapshot of the volume and using the snapshot as the actual source volume for the copy. The volume for which the point-in-time image is created is known as the base volume and it can be a standard volume or a thin volume in the storage array.
+
+*Offline copy*
+
+An offline copy reads data from the source volume and copies it to a target volume, while suspending all updates to the source volume with the copy in progress. All updates to the source volume are suspended to prevent chronological inconsistencies from being created on the target volume. The offline volume copy relationship is between a source volume and a target volume.
+
+[NOTE]
+====
+A Copy Volume operation overwrites data on the target volume and fails all snapshot volumes associated with the target volume, if any exist.
+====
+
+== Steps
+
+. Select *Storage* > *Volumes*.
+. Select the volume that you want to use as the source for the Copy Volume operation, and then select *Copy Services* > *Copy volume*.
++
+The Copy Volume-Select Target dialog box appears.
+
+. Select the target volume to which you want to copy the data.
++
+The table shown in this dialog box lists all the eligible target volumes.
+
+. Use the slider bar to set the copy priority for the Copy Volume operation.
++
+The copy priority determines how much of the system resources are used to complete the Copy Volume operation as compared to service I/O requests.
++
+More about copy priority rates
++
+There are five copy priority rates:
+
+ ** Lowest
+ ** Low
+ ** Medium
+ ** High
+ ** Highest
+If the copy priority is set to the lowest rate, I/O activity is prioritized, and the Copy Volume operation takes longer. If the copy priority is set to the highest rate, the Copy Volume operation is prioritized, but I/O activity for the storage array might be affected.
+
+. Select whether you want to create an online copy or an offline copy. To create an online copy, select the**Keep source volume online during copy operation** check box.
+. Do one of the following:
+ ** To perform an _online_ copy operation, click *Next* to continue to the Reserve Capacity dialog box.
+ ** To perform an _offline_ copy operation, click *Finish* to start the offline copy.
+. If you chose to create an online copy, set the reserved capacity needed to store data and other information for the online copy, and then click *Finish* to start the online copy.
++
+The volume candidate table displays only the candidates that support the reserved capacity specified. Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
++
+Allocate the reserved capacity using the following guidelines:
+
+ ** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
+ ** Reserved capacity, however, varies depending on the number of changes to the original data.
+The longer a storage object is active, the larger the reserved capacity should be.
+
+== Results
+
+System Manager copies all data from the source volume to the target volume. After the Copy Volume operation is complete, the target volume automatically becomes read-only to the hosts.
+
+== After you finish
+
+Select *Home* > *View Operations in Progress* to view the progress of the Copy Volume operation. This operation can be lengthy and could affect system performance.

@@ -1,0 +1,11 @@
+---
+permalink: sm-support/GUID-C46DE94B-34D7-48C6-8881-C415F6E4D510-UPGRADE.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= image:../media/sam1130_icon_how_tos.gif[] How tos
+:icons: font
+:imagesdir: ../media/
+
+*I want to...*

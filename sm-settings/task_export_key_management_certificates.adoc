@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/task_export_key_management_certificates.html
+sidebar: sidebar
+keywords: 
+summary: 'You can save a certificate for a key management server to your local machine.'
+---
+= Export key management server certificates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can save a certificate for a key management server to your local machine.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* Certificates must be previously imported.
+
+== Steps
+
+. Select *Settings* > *Certificates*.
+. Select the *Key Management* tab.
+. From the table, select the certificate you want to export, and then click *Export*.
++
+A Save dialog box opens.
+
+. Enter a filename and click *Save*.

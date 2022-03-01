@@ -1,0 +1,35 @@
+---
+permalink: sm-support/task_retrieve_trace_buffers.html
+sidebar: sidebar
+keywords: 
+summary: 'You can retrieve the trace buffers from the controllers and send the file to technical support for analysis.'
+---
+= Retrieve trace buffers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can retrieve the trace buffers from the controllers and send the file to technical support for analysis.
+
+== About this task
+
+The firmware uses the trace buffers to record processing, especially exception conditions, that might be useful for debugging. You can retrieve trace buffers without interrupting the operation of the storage array and with minimal effect on performance.
+
+[NOTE]
+====
+Perform this operation only when instructed to do so by technical support.
+====
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *Retrieve Trace Buffers*.
+. Select the check box next to each controller for which you want to retrieve trace buffers.
++
+You can select one or both controllers. If the controller status message to the right of a check box is Failed or Disabled, the check box is disabled.
+
+. Click *Yes*.
++
+The file is saved in the Downloads folder for your browser with the filename `trace-buffers.7z`.
+
+. Follow the instructions provided by technical support to send the file to them.

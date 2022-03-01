@@ -1,0 +1,12 @@
+---
+permalink: sm-settings/generic_nvme_settings.html
+sidebar: sidebar
+keywords: 
+summary: 'The NVMe settings are available from the System page.'
+---
+= image:../media/sam1130_icon_system.gif[]System: NVMe settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The NVMe settings are available from the System page.

@@ -1,0 +1,35 @@
+---
+permalink: sm-mirroring/task_suspend_and_resume_synchronization_for_a_mirrored_pair.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Suspend option and Resume option to control when to synchronize the data on the primary volume and the secondary volume in a mirrored pair.'
+---
+= Suspend and resume synchronization for a mirrored pair
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Suspend option and Resume option to control when to synchronize the data on the primary volume and the secondary volume in a mirrored pair.
+
+== About this task
+
+If a mirrored pair is manually suspended, the mirrored pair will not synchronize until it is manually resumed.
+
+== Steps
+
+. Select *Storage* > *Synchronous Mirroring*.
+. Select the mirrored pair that you want to suspend or resume, and then select either *More* > *Suspend* or *More* > *Resume*.
++
+The system displays a confirmation.
+
+. Select *Yes* to confirm.
+
+== Results
+
+System Manager performs the following actions:
+
+* Either suspends or resumes data transfer between the mirrored pair without removing the mirror relationship.
+* For a _suspended_ mirrored pair:
+ ** Displays *Suspended* in the Mirrored Pair table.
+ ** Logs any data that was written to the primary volume of the mirrored pair while synchronization is suspended.
+* For a _resumed_ mirrored pair, writes the data automatically to the secondary volume of the mirrored pair when synchronization is resumed. A full synchronization is not required.

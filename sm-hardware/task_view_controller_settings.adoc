@@ -1,0 +1,66 @@
+---
+permalink: sm-hardware/task_view_controller_settings.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view information about a controller, such as the status of the host interfaces, drive interfaces, and management ports.'
+---
+= View controller settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view information about a controller, such as the status of the host interfaces, drive interfaces, and management ports.
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. Do one of the following actions to display the controller settings:
+ ** Click the controller to display the context menu, and then select *View settings*.
+ ** Select the controller icon (next to the *Shelf* drop-down list). For duplex configurations, select either *Controller A* or *Controller B* from the dialog box, and then click *Next*.
+The Controller Settings dialog box opens.
+. Select the tabs to move between property settings.
++
+Some tabs have a link for *Show more settings* at the top right.
++
+Field Details
++
+|===
+| Tab| Description
+a|
+Base
+a|
+Shows the controller status, model name, replacement part number, current firmware version, and the non-volatile static random access memory (NVSRAM) version.
+a|
+Cache
+a|
+Shows the cache settings of the controller, which include the data cache, processor cache, and the cache backup device. The cache backup device is used to back up data in the cache if you lose power to the controller. Status can be Optimal, Failed, Removed, Unknown, Write Protected, or Incompatible.
+a|
+Host Interfaces
+a|
+Shows the host interface information and the link status of each port. The host interface is the connection between the controller and the host, such as Fibre Channel or iSCSI.
+[NOTE]
+====
+The host interface card (HIC) location is either in the baseboard or in a slot (bay). "Baseboard" indicates that the HIC ports are built into the controller. "Slot" ports are on the optional HIC.
+====
+a|
+Drive Interfaces
+a|
+Shows the drive interface information and the link status of each port. The drive interface is the connection between the controller and the drives, such as SAS.
+a|
+Management Ports
+a|
+Shows the management port details, such as the host name used to access the controller and whether a remote login has been enabled. The management port connects the controller and the management client, which is where a browser is installed for accessing System Manager.
+a|
+DNS / NTP
+a|
+Shows the addressing method and IP addresses for the DNS server and the NTP server, if these servers have been configured in System Manager.     Domain Name System (DNS) is a naming system for devices connected to the Internet or a private network. The DNS server maintains a directory of domain names and translates them to Internet Protocol (IP) addresses.
++
+Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems in data networks.
++
+|===
+
+. Click *Close*.

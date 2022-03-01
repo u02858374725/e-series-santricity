@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/concept_why_would_i_suspend_a_snapshot_schedule.html
+sidebar: sidebar
+keywords: 
+summary: 'When a schedule is suspended, the scheduled snapshot image creations do not occur. You can pause a snapshot schedule to conserve storage space, and then resume the scheduled snapshots at a later time.'
+---
+= Why would I suspend a snapshot schedule?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a schedule is suspended, the scheduled snapshot image creations do not occur. You can pause a snapshot schedule to conserve storage space, and then resume the scheduled snapshots at a later time.
+
+If you do not need the snapshot schedule, you should delete the schedule instead of suspending it.

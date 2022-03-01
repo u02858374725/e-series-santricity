@@ -1,0 +1,14 @@
+---
+permalink: sm-support/concept_what_is_a_health_image.html
+sidebar: sidebar
+keywords: 
+summary: 'A health image is a raw data dump of the controller’s processor memory that technical support can use to diagnose a problem with a controller.'
+---
+= What is a health image?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A health image is a raw data dump of the controller's processor memory that technical support can use to diagnose a problem with a controller.
+
+The firmware automatically generates a health image when it detects certain errors. Under certain troubleshooting scenarios, technical support might request that you retrieve the health image file and send it to them.

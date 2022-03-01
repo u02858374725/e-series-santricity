@@ -1,0 +1,24 @@
+---
+permalink: sm-hardware/task_show_or_hide_component_status.html
+sidebar: sidebar
+keywords: 
+summary: 'You can display status descriptions for drives, controllers, fans, and power supplies.'
+---
+= Show or hide component status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can display status descriptions for drives, controllers, fans, and power supplies.
+
+== Steps
+
+. Select *Hardware*.
+. To see either the back or front components:
+ ** If you want to see the controller and power/fan canister components, but the drives are displayed, click *Show back of shelf*.
+ ** If you want to see the drives, but the controller and power/fan canister components are displayed, click *Show front of shelf*.
+. To view or hide pop-over status descriptions:
+ ** If you want to see a pop-over description of the status icons, click *Show status icon details* at the upper right of the shelf view (select the check box).
+ ** To hide the pop-over descriptions, click *Show status icon details* again (clear the check box).
+. If you want to see full status details, select the component in the shelf view, and then select *View settings*.
+. If you want to view the descriptions of the colored components, select *Legend*.

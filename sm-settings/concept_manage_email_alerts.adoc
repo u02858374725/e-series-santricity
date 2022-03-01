@@ -1,0 +1,12 @@
+---
+permalink: sm-settings/concept_manage_email_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure alerts to be sent by email to the addresses you specify.'
+---
+= Manage email alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure alerts to be sent by email to the addresses you specify.

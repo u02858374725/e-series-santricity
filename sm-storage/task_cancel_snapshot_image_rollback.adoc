@@ -1,0 +1,42 @@
+---
+permalink: sm-storage/task_cancel_snapshot_image_rollback.html
+sidebar: sidebar
+keywords: 
+summary: 'You can cancel an active rollback that is in progress \(actively copying data\), a pending rollback \(in a pending queue awaiting resources to start\), or a rollback that has been paused due to an error.'
+---
+= Cancel snapshot image rollback
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can cancel an active rollback that is in progress (actively copying data), a pending rollback (in a pending queue awaiting resources to start), or a rollback that has been paused due to an error.
+
+== About this task
+
+When you cancel a rollback operation that is in progress, the base volume reverts to an unusable state and appears as failed. Therefore, consider canceling a rollback operation only when recovery options exist for restoring the content of the base volume.
+
+[NOTE]
+====
+If the snapshot group on which the snapshot image resides has one or more snapshot images that have been automatically purged, the snapshot image used for the rollback operation might not be available for future rollbacks.
+====
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Click the *Snapshot Images* tab.
+. Select the active or paused rollback, and then select *Rollback* > *Cancel*.
++
+The Confirm Cancel Rollback dialog box appears.
+
+. Click *Yes* to confirm.
+
+== Results
+
+System Manager stops the rollback operation. The base volume is usable but might have data that is inconsistent or not intact.
+
+== After you finish
+
+After you cancel a rollback operation, you must take one of the following actions:
+
+* Reinitialize the content of the base volume.
+* Perform a new rollback operation to restore the base volume using either the same snapshot image that was used in the Cancel Rollback operation or a different snapshot image to perform the new rollback operation.

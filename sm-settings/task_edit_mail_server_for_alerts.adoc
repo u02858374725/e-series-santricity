@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/task_edit_mail_server_for_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the mail server address and email sender address used for email alerts.'
+---
+= Edit mail server for alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the mail server address and email sender address used for email alerts.
+
+== Before you begin
+
+The address of the mail server you are changing must be available. The address can be an IPv4 or IPv6 address, or a fully qualified domain name.
+
+[NOTE]
+====
+To use a fully qualified domain name, you must configure a DNS server on both controllers. You can configure a DNS server from the Hardware page.
+====
+
+== Steps
+
+. Select *Settings* > *Alerts*.
+. Select the *Email* tab.
+. Select *Configure Mail Server*.
++
+The Configure Mail Server dialog opens.
+
+. Edit the mail server address, sender information, and contact information.
+ ** *Mail server address* -- Edit the fully qualified domain name, IPv4 address, or IPv6 address of the mail server.
++
+[NOTE]
+====
+To use a fully qualified domain name, you must configure a DNS server on both controllers. You can configure a DNS server from the Hardware page.
+====
+
+ ** *Email sender address* -- Edit the email address to be used as the sender of the email. This address appears in the "From" field of the email message.
+ ** *Include contact information in email* -- To edit the sender's contact information, select this option, and then edit the name and phone number.
+. Click *Save*.

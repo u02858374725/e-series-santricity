@@ -1,0 +1,12 @@
+---
+permalink: sm-settings/generic_add_on_features.html
+sidebar: sidebar
+keywords: 
+summary: 'Configuration for add-on features is available from the System page.'
+---
+= image:../media/sam1130_icon_system.gif[]System: Add-on features
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Configuration for add-on features is available from the System page.

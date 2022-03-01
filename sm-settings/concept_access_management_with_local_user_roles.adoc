@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/concept_access_management_with_local_user_roles.html
+sidebar: sidebar
+keywords: 
+summary: 'For Access Management, administrators can use RBAC \(role-based access control\) capabilities enforced in the storage array. These capabilities are referred to as "local user roles."'
+---
+= Access Management with local user roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For Access Management, administrators can use RBAC (role-based access control) capabilities enforced in the storage array. These capabilities are referred to as "local user roles."
+
+== Configuration workflow
+
+Local user roles are pre-configured for the storage array. To use local user roles for authentication, administrators can do the following:
+
+. An administrator logs in to SANtricity System Manager with a user profile that includes Security Admin permissions.
++
+[NOTE]
+====
+The `admin` user has full access to all functions in the system.
+====
+
+. An administrator reviews the user profiles, which are predefined and cannot be modified.
+. Optionally, the administrator assigns new passwords for each user profile.
+. Users log in to the system with their assigned credentials.
+
+== Management
+
+When using only local user roles for authentication, administrators can perform the following management tasks:
+
+* Change passwords.
+* Set a minimum length for passwords.
+* Allow users to log in without passwords.

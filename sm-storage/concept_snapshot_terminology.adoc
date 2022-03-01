@@ -1,0 +1,63 @@
+---
+permalink: sm-storage/concept_snapshot_terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the snapshot terms apply to your storage array.'
+---
+= Snapshot terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the snapshot terms apply to your storage array.
+
+|===
+| Term
+
+| Description
+
+a|
+Snapshots feature
+a|
+The Snapshots feature is used to create and manage images of volumes.
+a|
+Snapshot image
+a|
+A snapshot image is a logical copy of volume data, captured at a particular point-in-time. Like a restore point, snapshot images allow you to roll back to a known good data set. Although the host can access the snapshot image, it cannot directly read or write to it.
+a|
+Base volume
+a|
+A base volume is the source from which a snapshot image is created. It can be a thick or thin volume and is typically assigned to a host. The base volume can reside in either a volume group or disk pool.
+a|
+Snapshot volume
+a|
+A snapshot volume allows the host to access data in the snapshot image. The snapshot volume contains its own reserved capacity, which saves any modifications to the base volume without affecting the original snapshot image.
+a|
+Snapshot group
+a|
+A snapshot group is a collection of snapshot images from a single base volume.
+a|
+Reserved capacity volume
+a|
+A reserved capacity volume tracks which data blocks of the base volume are overwritten and the preserved content of those blocks.
+a|
+Snapshot schedule
+a|
+A snapshot schedule is a timetable for creating automated snapshot images. Through the schedule, you can control the frequency of image creations.
+a|
+Snapshot consistency group
+a|
+A snapshot consistency group is a collection of volumes that are treated as a single entity when a snapshot image is created. Each of these volumes has its own snapshot image, but all the images are created at the same point in time.
+a|
+Snapshot consistency group member volume
+a|
+Each volume that belongs to a snapshot consistency group is referred to as a member volume. When you add a volume to a snapshot consistency group, System Manager automatically creates a new snapshot group that corresponds to this member volume.
+a|
+Rollback
+a|
+A rollback is the process of returning data in a base volume to a previous point in time.
+a|
+Reserved capacity
+a|
+Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
+|===

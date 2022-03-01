@@ -1,0 +1,12 @@
+---
+permalink: sm-settings/generic_access_management.html
+sidebar: sidebar
+keywords: 
+summary: 'Access Management is a method of establishing user authentication in SANtricity System Manager. Authentication methods include RBAC \(role-based access control\), Directory Services, and Security Assertion Markup Language \(SAML\) 2.0.'
+---
+= image:../media/sam1140_icon_active_directory.gif[] Access Management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Access Management is a method of establishing user authentication in SANtricity System Manager. Authentication methods include RBAC (role-based access control), Directory Services, and Security Assertion Markup Language (SAML) 2.0.

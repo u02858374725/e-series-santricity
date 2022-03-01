@@ -1,0 +1,30 @@
+---
+permalink: sm-hardware/task_reset_reboot_controller.html
+sidebar: sidebar
+keywords: 
+summary: 'Some issues require a controller reset \(reboot\). You can reset the controller even if you don’t have physical access to it.'
+---
+= Reset (reboot) controller
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some issues require a controller reset (reboot). You can reset the controller even if you don't have physical access to it.
+
+== Before you begin
+
+* The storage array must have two controllers. The controller that you are not resetting must be online (in the optimal state).
+* Make sure that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. Click the controller that you want to reset.
++
+The controller's context menu appears.
+
+. Select *Reset*, and confirm that you want to perform the operation.

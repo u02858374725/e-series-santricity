@@ -1,0 +1,77 @@
+---
+permalink: sm-mirroring/concept_asynchronous_terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the asynchronous mirroring terms apply to your storage array.'
+---
+= Asynchronous mirroring terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the asynchronous mirroring terms apply to your storage array.
+
+|===
+| Term
+
+| Description
+
+a|
+Local storage array
+
+a|
+The local storage array is the storage array that you are acting upon.
+
+When you see *Primary* in the Local Role column, it indicates that the storage array contains the volume that holds the primary role in the mirror relationship. When you see *Secondary* in the Local Role column, it indicates that the storage array contains the volume that holds the secondary role in the mirror relationship.
+
+a|
+Mirror consistency group
+
+a|
+A mirror consistency group is a container for one or more mirrored pairs. For asynchronous mirroring operations, you must create a mirror consistency group.
+
+a|
+Mirrored pair
+
+a|
+A mirrored pair is comprised of two volumes, a primary volume and a secondary volume.
+
+In asynchronous mirroring, a mirrored pair always belongs to a mirror consistency group. Write operations are performed first to the primary volume and then replicated to the secondary volume. Each mirrored pair in a mirror consistency group share the same synchronization settings.
+
+a|
+Primary volume
+
+a|
+The primary volume of a mirrored pair is the source volume to be mirrored.
+
+a|
+Remote storage array
+
+a|
+The remote storage array is usually designated as the secondary site, which usually holds a replica of the data in a mirroring configuration.
+
+a|
+Reserved capacity
+
+a|
+Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
+
+a|
+Role change
+
+a|
+Role change is assigning the primary role to the secondary volume and vice versa.
+
+a|
+Secondary volume
+
+a|
+The secondary volume of a mirrored pair is usually located at a secondary site and holds a replica of the data.
+
+a|
+Synchronization
+
+a|
+Synchronization occurs at initial synchronization between the local storage array and the remote storage array. Synchronization also occurs when the primary and secondary volumes become unsynchronized after a communication interruption. When the communication link is working again, any unreplicated data is synchronized to the secondary volume's storage array.
+
+|===

@@ -1,0 +1,50 @@
+---
+permalink: um-manage/task_resolve_untrusted_certificates_during_discovery.html
+sidebar: sidebar
+keywords: 
+summary: 'Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. During the array discovery process, you can resolve untrusted certificates by importing a certificate authority \(CA\) certificate \(or CA-signed certificate\) that has been issued by a trusted third party.'
+---
+= Resolve untrusted certificates during discovery
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. During the array discovery process, you can resolve untrusted certificates by importing a certificate authority (CA) certificate (or CA-signed certificate) that has been issued by a trusted third party.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security Admin permissions.
+* You have generated a certificate signing request (.CSR file) for each controller in the storage array, and sent it to the CA.
+* The CA returned trusted certificate files.
+* The certificate files are available on your local system.
+
+== About this task
+
+You may need to install additional trusted CA certificates if any of the following are true:
+
+* You recently added a storage array.
+* One or both certificates are expired.
+* One or both certificates are revoked.
+* One or both certificates are missing a root or intermediate certificate.
+
+== Steps
+
+. Select the check box next to any storage array that you want to resolve untrusted certificates for, and then select the **Import**button.
++
+A dialog box opens for importing the trusted certificate files.
+
+. Click *Browse* to select the certificate files for the storage arrays.
++
+The file names display in the dialog box.
+
+. Click *Import*.
++
+The files are uploaded and validated.
++
+[NOTE]
+====
+Any storage array with untrusted certificate issues that are unresolved will not be added to Unified Manager.
+====
+
+. Click *Next* to proceed to the next step in the wizard.
+. Go to xref:task_provide_passwords.adoc[Provide passwords].

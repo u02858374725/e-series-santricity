@@ -1,0 +1,83 @@
+---
+permalink: sm-settings/task_clear_storage_array_configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Clear Configuration operation when you want to delete all the pools, volume groups, volumes, host definitions, and host assignments from the storage array.'
+---
+= Clear storage array configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Clear Configuration operation when you want to delete all the pools, volume groups, volumes, host definitions, and host assignments from the storage array.
+
+== Before you begin
+
+* Before clearing the storage array configuration, back up the data.
+
+== About this task
+
+There are two Clear Storage Array Configuration options:
+
+* *Volume* -- Typically, you might use the Volume option to reconfigure a test storage array as a production storage array. For example, you might configure a storage array for testing, and then, when you are done testing, remove the test configuration and set up the storage array for a production environment.
+* *Storage Array* -- Typically, you might use the Storage Array option to move a storage array to another department or group. For example, you might be using a storage array in Engineering, and now Engineering is getting a new storage array, so you want to move the current storage array to Administration where it will be reconfigured.
++
+The Storage Array option deletes some additional settings.
+
+|===
+|  | Volume| Storage Array
+a|
+Deletes pools and volume groups
+a|
+X
+a|
+X
+a|
+Deletes volumes
+a|
+X
+a|
+X
+a|
+Deletes hosts and host clusters
+a|
+X
+a|
+X
+a|
+Deletes host assignments
+a|
+X
+a|
+X
+a|
+Deletes storage array name
+a|
+ 
+a|
+X
+a|
+Resets storage array cache settings to default
+a|
+ 
+a|
+X
+|===
+
+[NOTE]
+====
+*Risk of data loss* -- This operation deletes all data from your storage array. (It does not do a secure erase.) You cannot cancel this operation after it starts. Perform this operation only when instructed to do so by technical support.
+====
+
+== Steps
+
+. Select *Settings* > *System*.
+. Select *Clear Storage Array Configuration*.
+. In the drop-down list, select either *Volume* or *Storage Array*.
+. (Optional) If you want to save the configuration (not the data), use the links in the dialog box.
+. Confirm that you want to perform the operation.
+
+== Results
+
+* The current configuration is deleted, destroying all existing data on the storage array.
+* All drives are unassigned.

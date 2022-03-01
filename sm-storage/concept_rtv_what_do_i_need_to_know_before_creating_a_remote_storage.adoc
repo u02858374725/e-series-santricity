@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/concept_rtv_what_do_i_need_to_know_before_creating_a_remote_storage.html
+sidebar: sidebar
+keywords: 
+summary: 'To configure the Remote Storage feature, you must directly connect the remote device and target storage systems via iSCSI.'
+---
+= What do I need to know before creating a remote storage connection?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure the Remote Storage feature, you must directly connect the remote device and target storage systems via iSCSI.
+
+To set up the iSCSI system connection, refer to:
+
+* Configure iSCSI ports
+* User guide for the Remote Storage feature, which is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center]
+* https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report]

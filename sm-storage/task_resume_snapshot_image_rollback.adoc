@@ -1,0 +1,27 @@
+---
+permalink: sm-storage/task_resume_snapshot_image_rollback.html
+sidebar: sidebar
+keywords: 
+summary: 'If an error occurs during a snapshot image rollback operation, the operation is automatically paused. You can resume a rollback operation that is in a paused state.'
+---
+= Resume snapshot image rollback
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If an error occurs during a snapshot image rollback operation, the operation is automatically paused. You can resume a rollback operation that is in a paused state.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Click the *Snapshot Images* tab.
+. Highlight the paused rollback, and then select *Rollback* > *Resume*.
++
+The operation resumes.
+
+== Results
+
+System Manager performs the following actions:
+
+* If the rollback operation resumes successfully, you can view the progress of the rollback operation in the Operations in Progress window.
+* If the rollback operation is not successful, the operation pauses again. You can follow the Recovery Guru procedure to correct the problem or contact technical support.

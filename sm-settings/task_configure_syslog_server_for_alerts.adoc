@@ -1,0 +1,42 @@
+---
+permalink: sm-settings/task_configure_syslog_server_for_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'To configure syslog alerts, you must enter a syslog server address and a UDP port. Up to five syslog servers are allowed.'
+---
+= Configure syslog server for alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure syslog alerts, you must enter a syslog server address and a UDP port. Up to five syslog servers are allowed.
+
+== Before you begin
+
+* The syslog server address must be available. This address can be a fully qualified domain name, an IPv4 address, or an IPv6 address.
+* UDP port number of the syslog server must be available. This port is typically 514.
+
+== About this task
+
+This task describes how to enter the address and port for the syslog server, and then test the address you entered.
+
+== Steps
+
+. Select *Settings* > *Alerts*.
+. Select the *Syslog* tab.
++
+If a syslog server is not yet defined, the Alerts page displays "Add Syslog Servers."
+
+. Click *Add Syslog Servers*.
++
+The Add Syslog Server dialog box opens.
+
+. Enter information for one or more syslog servers (maximum of five), and then click *Add*.
+ ** *Server Address* -- Enter a fully qualified domain name, an IPv4 address, or an IPv6 address.
+ ** *UDP Port* -- Typically, the UDP port for syslog is 514.
+The table displays the configured syslog servers.
+. To send a test alert to the server addresses, select *Test All Syslog Servers*.
+
+== Results
+
+The event monitor sends alerts to the syslog server whenever an alertable event occurs.

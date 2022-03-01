@@ -1,0 +1,145 @@
+---
+permalink: sm-hardware/task_view_drive_status_and_settings.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view status and settings for the drives, such as the media type, interface type, and capacity.'
+---
+= View drive status and settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view status and settings for the drives, such as the media type, interface type, and capacity.
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the controllers, click *Show front of shelf*.
++
+The graphic changes to show the drives instead of the controllers.
+
+. Select the drive for which you want to view status and settings.
++
+The drive's context menu opens.
+
+. Select *View settings*.
++
+The Drive Settings dialog box opens.
+
+. To see all settings, click *Show more settings* in the upper right of the dialog box.
++
+Field Details
++
+|===
+| Settings| Description
+a|
+Status
+a|
+Displays Optimal, Offline, Non-critical fault, and Failed.     Optimal status indicates the desired working condition.
+a|
+Mode
+a|
+Displays Assigned, Unassigned, Hot Spare Standby, or Hot Spare in Use.
+a|
+Location
+a|
+Shows the shelf and bay number where the drive is located.
+a|
+Assigned to/Can protect for/Protecting
+a|
+If the drive is assigned to a pool, volume group, or SSD cache, this field displays "Assigned to." The value can be a pool name, volume group name, or SSD cache name.    If the drive is assigned to a hot spare and its mode is Standby, this field displays "Can protect for." If the hot spare can protect one or more volume groups, the volume group names appear. If it cannot protect a volume group, it displays 0 volume groups.
++
+If the drive is assigned to a hot spare and its mode is In Use, this field displays "Protecting." The value is the name of the affected volume group.
++
+If the drive is unassigned, this field does not appear.
+a|
+Media type
+a|
+Displays the type of recording media the drive uses, which can be either hard disk drive (HDD) or solid state disk (SSD).
+a|
+Percent endurance used (only shown if SSD drives are present)
+a|
+The amount of data written to the drive to date, divided by the total theoretical write limit.
+a|
+Interface type
+a|
+Displays the type of interface the drive uses, such as SAS.
+a|
+Drive path redundancy
+a|
+Shows whether connections between the drive and controller are redundant (Yes) or not (No).
+a|
+Capacity (GiB)
+a|
+Shows the usable capacity (total configured capacity) of the drive.
+a|
+Speed (RPM)
+a|
+Shows the speed in RPM (does not appear for SSDs).
+a|
+Current data rate
+a|
+Shows the data transfer rate between the drive and the storage array.
+a|
+Logical sector size (bytes)
+a|
+Shows the logical sector size that the drive uses.
+a|
+Physical sector size (bytes)
+a|
+Shows the physical sector size that the drive uses. Typically, the physical sector size is 4096 bytes for hard disk drives.
+a|
+Drive firmware version
+a|
+Shows the revision level of the drive firmware.
+a|
+World-wide identifier
+a|
+Shows the unique hexadecimal identifier for the drive.
+a|
+Product ID
+a|
+Shows the product identifier, which is assigned by the manufacturer.
+a|
+Serial number
+a|
+Shows the serial number of the drive.
+a|
+Manufacturer
+a|
+Shows the vendor of the drive.
+a|
+Date of manufacture
+a|
+Shows the date the drive was built.
+[NOTE]
+====
+Not available for NVMe drives.
+====
+a|
+Secure-capable
+a|
+Shows whether the drive is secure-capable (Yes) or not (No). Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives, which encrypt data during writes and decrypt data during reads. These drives are considered secure-_capable_ because they can be used for additional security using the Drive Security feature. If the Drive Security feature is enabled for volume groups and pools used with these drives, the drives become secure-_enabled_.
+a|
+Secure-enabled
+a|
+Shows whether the drive is secure-enabled (Yes) or not (No). Secure-enabled drives are used with the Drive Security feature. When you enable the Drive Security feature and then apply Drive Security to a pool or volume group on secure-_capable_ drives, the drives become secure__-enabled__. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
+a|
+Data Assurance (DA) capable
+a|
+Shows whether the Data Assurance (DA) feature is enabled (Yes) or not (No). Data Assurance (DA) is a feature that checks for and corrects errors that might occur as data is transferred through the controllers down to the drives. Data Assurance can be enabled at the pool or volume group level, with hosts using a DA-capable I/O interface such as Fibre Channel.
+a|
+DULBE capable
+a|
+Indicates whether the option for Deallocated or Unwritten Logical Block Error (DULBE) is enabled (Yes) or not (No). DULBE is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
+a|
+Read/write accessible
+a|
+Shows whether the drive is read/write accessible (Yes) or not (No).
+a|
+Drive security key identifier
+a|
+Shows the security key for secure-enabled drives. Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.
+|===
+
+. Click *Close*.
