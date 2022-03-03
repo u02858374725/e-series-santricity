@@ -1,0 +1,12 @@
+---
+permalink: sm-support/generic-support-center.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Support Center to perform diagnostic, recovery, and information gathering operations that might be requested by technical support.'
+---
+= image:../media/sam1130-icon-support-center.gif[] Support center
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Support Center to perform diagnostic, recovery, and information gathering operations that might be requested by technical support.

@@ -1,0 +1,12 @@
+---
+permalink: sm-support/generic-upgrade-center.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Upgrade center to download the latest software and firmware for your storage array.'
+---
+= image:../media/sam1130-icon-upgrade-center.gif[] Upgrade center
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Upgrade center to download the latest software and firmware for your storage array.

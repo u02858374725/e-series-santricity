@@ -1,0 +1,87 @@
+---
+permalink: sm-hardware/drive-states.html
+sidebar: sidebar
+keywords: 
+summary: 'System Manager reports various states for drives.'
+---
+= Drive states
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager reports various states for drives.
+
+== Accessibility states
+
+|===
+| State| Definition
+a|
+Bypassed
+a|
+The drive is physically present, but the controller cannot communicate with it on either port.
+a|
+Incompatible
+a|
+One of the following conditions exists:
+
+* The drive is not certified for use in the storage array.
+* The drive has a different sector size.
+* The drive has unusable configuration data from an older or newer firmware version.
+
+a|
+Removed
+a|
+The drive has been improperly removed from the storage array.
+a|
+Present
+a|
+The controller can communicate with the drive on both ports.
+a|
+Unresponsive
+a|
+The drive is not responding to commands.
+|===
+
+== Role states
+
+|===
+| State| Definition
+a|
+Assigned
+a|
+The drive is a member of a pool or volume group.
+a|
+In-use hot spare
+a|
+The drive is currently being used as a replacement for a drive that has failed. Hot spares are used only in volume groups, not pools.
+a|
+Standby hot spare
+a|
+The drive is ready to be used as a replacement for a drive that has failed. Hot spares are used only in volume groups, not pools.
+a|
+Unassigned
+a|
+The drive is not a member of a pool or volume group.
+|===
+
+== Availability states
+
+|===
+| State| Definition
+a|
+Failed
+a|
+The drive is not working. The data on the drive is not available.
+a|
+Impending Failure
+a|
+It has been detected that the drive could fail soon. The data on the drive is still available.
+a|
+Offline
+a|
+The drive is not available for storing data usually because it is part of a volume group that is being exported or it is undergoing a firmware upgrade.
+a|
+Optimal
+a|
+The drive is working normally.
+|===

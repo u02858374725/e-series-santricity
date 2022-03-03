@@ -1,0 +1,41 @@
+---
+permalink: um-manage/create-asynchronous-mirrored-pair-um.html
+sidebar: sidebar
+keywords: 
+summary: 'To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.'
+---
+= Create asynchronous mirrored pair
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
+
+== Before you begin
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+Before you create a mirrored pair, meet the following requirements for Unified Manager:
+
+* The Web Services Proxy service must be running.
+* Unified Manager must be running on your local host through an HTTPS connection.
+* Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+Also be sure to meet the following requirements for storage arrays:
+
+* Each storage array must have two controllers.
+* The two storage arrays must be discovered in Unified Manager.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
+* You have created both the primary and secondary volumes that you want to use in the asynchronous mirror relationship.
+
+== About this task
+
+The process to create an asynchronous mirrored pair is a multi-step procedure.

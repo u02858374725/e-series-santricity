@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html
+sidebar: sidebar
+keywords: 
+summary: 'You can locate drives to physically identify all of the drives that comprise a selected pool, volume group, or SSD Cache. An LED indicator lights up on each drive in the selected pool, volume group, or SSD Cache.'
+---
+= Turn on locator lights in a pool, volume group, or SSD Cache
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can locate drives to physically identify all of the drives that comprise a selected pool, volume group, or SSD Cache. An LED indicator lights up on each drive in the selected pool, volume group, or SSD Cache.
+
+== Steps
+
+. Select *Storage* > *Pools & Volume Groups*.
+. Select the pool, volume group, or SSD Cache you want to locate, and then click *More* > *Turn on locator lights*.
++
+A dialog box appears that indicates the lights on the drives comprising the selected pool, volume group, or SSD Cache are turned on.
+
+. After you successfully locate the drives, click *Turn Off*.

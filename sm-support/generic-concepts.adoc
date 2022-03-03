@@ -1,0 +1,11 @@
+---
+permalink: sm-support/generic-concepts.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= image:../media/sam1130-icon-concepts.gif[] Concepts
+:icons: font
+:imagesdir: ../media/
+
+*Learn more about...*

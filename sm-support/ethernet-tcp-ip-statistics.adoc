@@ -1,0 +1,116 @@
+---
+permalink: sm-support/ethernet-tcp-ip-statistics.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Ethernet TCP/IP statistics
+:icons: font
+:imagesdir: ../media/
+
+When you select Ethernet TCP/IP statistics, the TCP statistics in this table appear. You can view each of these statistics as raw statistics or as baseline statistics.
+
+|===
+| Statistic| Definition
+a|
+TxS
+a|
+Transmitted segment count
+a|
+TxB
+a|
+Transmitted byte count
+a|
+RTxTE
+a|
+Retransmit timer expired count
+a|
+TxDACK
+a|
+Transmit delayed ACK count
+a|
+TxACK
+a|
+Transmit ACK count
+a|
+RxS
+a|
+Received segment count
+a|
+RxB
+a|
+Received byte count
+a|
+RxDACK
+a|
+Received duplicate ACK count
+a|
+RxACK
+a|
+Received ACK count
+a|
+RxSEC
+a|
+Received segment error count
+a|
+RxSOOC
+a|
+Received segment out-of-order count
+a|
+RxWP
+a|
+Received window probe count
+a|
+RxWU
+a|
+Received window update count
+|===
+When you select Ethernet TCP/IP statistics, the IP statistics in this table appear.
+
+|===
+| Statistic| Definition
+a|
+TxP
+a|
+Transmitted packet count
+a|
+TxB
+a|
+Transmitted byte count
+a|
+TxF
+a|
+Transmitted fragment count
+a|
+RxP
+a|
+Packets received count. Select *Show IPv4* to show the IPv4 packets received count. Select *Show IPv6* to show the IPv6 packets received count.
+a|
+RxB
+a|
+Received byte count
+a|
+RxF
+a|
+Received fragment count
+a|
+RxPE
+a|
+Received packet error count
+a|
+DR
+a|
+Datagram reassembly count
+a|
+DRE-OLFC
+a|
+Datagram reassembly error, overlapped fragment count
+a|
+DRE-OOFC
+a|
+Datagram reassembly error, out-of-order fragment count
+a|
+DRE-TOC
+a|
+Datagram reassembly error, time-out count
+|===

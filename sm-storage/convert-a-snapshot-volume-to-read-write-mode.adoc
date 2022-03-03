@@ -1,0 +1,49 @@
+---
+permalink: sm-storage/convert-a-snapshot-volume-to-read-write-mode.html
+sidebar: sidebar
+keywords: 
+summary: 'You can convert a read-only snapshot volume or a snapshot consistency group snapshot volume to read-write mode if needed. A snapshot volume that is converted to read-write accessible contains its own reserved capacity. This capacity is used to save any subsequent modifications made by the host application to the base volume without affecting the referenced snapshot image.'
+---
+= Convert snapshot volume to read-write mode
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can convert a read-only snapshot volume or a snapshot consistency group snapshot volume to read-write mode if needed. A snapshot volume that is converted to read-write accessible contains its own reserved capacity. This capacity is used to save any subsequent modifications made by the host application to the base volume without affecting the referenced snapshot image.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Select the *Snapshot Volumes* tab.
++
+The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.
+
+. Select the read-only snapshot volume you want to convert, and then click *Convert to Read/Write*.
++
+The Convert to Read/Write dialog box appears with the *Reserve Capacity* step activated. The Volume Candidate table displays only the candidates that support the reserved capacity specified.
+
+. To allocate the reserved capacity for the read-write snapshot volume, do one of the following actions:
+ ** *Accept the default settings* -- Use this recommended option to allocate the reserved capacity for the snapshot volume with the default settings.
+ ** *Allocate your own reserved capacity settings to meet your data storage needs* -- Allocate the reserved capacity using the following guidelines.
+  *** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
+  *** The capacity needed varies, depending on the frequency and size of I/O writes to the volume.
+. Select *Next* to review or edit settings.
++
+The Edit Settingsdialog box appears.
+
+. Accept or specify the settings for the snapshot volume as appropriate, and then select *Finish* to convert the snapshot volume.
++
+Field Details
++
+|===
+| Setting| Description
+a|
+*Reserved capacity settings*
+a|
+Alert me when...
+a|
+    Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot group is nearing full.
++
+When the reserved capacity for the snapshot volume exceeds the specified threshold, the system sends an alert, allowing you time to increase reserved capacity or to delete unnecessary objects.
++
+|===

@@ -1,0 +1,16 @@
+---
+permalink: um-manage/discover-multiple-arrays.html
+sidebar: sidebar
+keywords: 
+summary: 'You discover multiple arrays to detect all storage arrays across the subnet where the management server resides and to automatically add the discovered arrays to your management domain.'
+---
+= Discover multiple storage arrays
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You discover multiple arrays to detect all storage arrays across the subnet where the management server resides and to automatically add the discovered arrays to your management domain.
+
+== About this task
+
+Perform the following steps to discover multiple arrays.

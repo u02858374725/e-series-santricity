@@ -1,0 +1,50 @@
+---
+permalink: sm-interface/problem-notification.html
+sidebar: sidebar
+keywords: error
+summary: 'System Manager uses icons and several other methods to notify you that problems exist with the storage array.'
+---
+= Problem notification
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager uses icons and several other methods to notify you that problems exist with the storage array.
+
+== Icons
+
+System Manager uses these icons to indicate the status of the storage array and its components.
+
+|===
+| Icon| Description
+a|
+image:../media/sam1130-ss-icon-status-success.gif[]
+a|
+Optimal
+a|
+image:../media/sam1130-ss-icon-status-failure.gif[]
+a|
+Non-optimal or failed
+a|
+image:../media/sam1130-ss-icon-status-service.gif[]
+a|
+Needs attention or fixing
+a|
+image:../media/sam1130-ss-icon-status-caution.gif[]
+a|
+Caution
+|===
+System Manager displays these icons in various locations.
+
+* The Notifications area on the Home page displays the failed icon and a message.
+* The Home page icon in the navigation area displays the failed icon.
+* On the Components page, the graphics for drives and controllers display the failed icon.
+
+== Alerts and LEDs
+
+In addition, System Manager notifies you of problems in other ways.
+
+* System Manager sends SNMP notifications or email error messages.
+* The Service Action Required LEDs on the hardware come on.
+
+When you receive notification of a problem, use the Recovery Guru to help you fix the problem. Where necessary, use the hardware documentation with the recovery steps to replace failed components.

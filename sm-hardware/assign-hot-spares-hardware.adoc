@@ -1,0 +1,60 @@
+---
+permalink: sm-hardware/assign-hot-spares-hardware.html
+sidebar: sidebar
+keywords: 
+summary: 'You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare.'
+---
+= Assign hot spares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare.
+
+== Before you begin
+
+* RAID 1, RAID 5, or RAID 6 volume groups must be created. (Hot spares cannot be used for pools. Instead, a pool uses spare capacity within each drive for its data protection.)
+* A drive that meets the following criteria must be available:
+ ** Unassigned, with Optimal status.
+ ** Same media type as the drives in the volume group (for example, SSDs).
+ ** Same interface type as the drives in the volume group (for example, SAS).
+ ** Capacity equal to or larger than the used capacity of the drives in the volume group.
+
+== About this task
+
+This task describes how to manually assign a hot spare from the Hardware page. The recommended coverage is two hot spares per drive set.
+
+[CAUTION]
+====
+Hot spares can also be assigned from the Initial Setup wizard. You can determine if hot spares are already assigned by looking for drive bays shown in pink on the Hardware page.
+====
+
+== Steps
+
+. Select *Hardware*.
+. If the graphic shows the controllers, click *Show front of shelf*.
++
+The graphic changes to show the drives instead of the controllers.
+
+. Select an unassigned drive (shown in gray) that you want to use as a hot spare.
++
+The drive's context menu opens.
+
+. Select *Assign hot spare*.
++
+If the drive is secure-enabled, the Secure Erase Drive? dialog box opens. To use a secure-enabled drive as a hot spare, you must first perform a Secure Erase operation to remove all its data and reset its security attributes.
++
+[CAUTION]
+====
+*Possible loss of data* -- Make sure that you have selected the correct drive. After completing the Secure Erase operation, you cannot recover any of the data.
+====
++
+If the drive is *not* secure-enabled, the Confirm Assign Hot Spare Drive dialog box opens.
+
+. Review the text in the dialog box, and then confirm the operation.
++
+The drive is displayed in pink on the Hardware page, which indicates it is now a hot spare.
+
+== Results
+
+If a drive within a RAID 1, RAID 5, or RAID 6 volume group fails, the controller automatically uses redundancy data to reconstruct the data from the failed drive to the hot spare.

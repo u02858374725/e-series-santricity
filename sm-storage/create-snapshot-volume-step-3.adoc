@@ -1,0 +1,40 @@
+---
+permalink: sm-storage/create-snapshot-volume-step-3.html
+sidebar: sidebar
+keywords: 
+summary: 'Associate reserved capacity to a read/write snapshot volume. System Manager suggests the volumes and capacity based on the properties of the base volume or snapshot consistency group. You can accept the recommended reserved capacity configuration or customize the allocated storage.'
+---
+= Step 3: Reserve capacity for a snapshot volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Associate reserved capacity to a read/write snapshot volume. System Manager suggests the volumes and capacity based on the properties of the base volume or snapshot consistency group. You can accept the recommended reserved capacity configuration or customize the allocated storage.
+
+== About this task
+
+You can increase or decrease the reserved capacity for the snapshot volume as needed. If you find that the snapshot reserved capacity is larger than you need, you can reduce its size to free up space that is needed by other logical volumes.
+
+== Steps
+
+. Use the spinner box to allocate the reserved capacity for the snapshot volume.
++
+The Volume Candidate table displays only the candidates that support the reserved capacity specified.
++
+Do one of the following actions:
+
+ ** *Accept the default settings*.
++
+Use this recommended option to allocate the reserved capacity for the snapshot volume with the default settings.
+
+ ** *Allocate your own reserved capacity settings to meet your data storage needs*.
++
+If you change the default reserved capacity setting, click *Refresh Candidates* to refresh the candidate list for the reserved capacity you specified.
++
+Allocate the reserved capacity using the following guidelines.
+
+  *** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
+  *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
+
+. (Optional) If you are creating the snapshot volume for a snapshot consistency group, the option to *Change candidate* appears in the Reserved Capacity Candidates table. Click *Change candidate* to select an alternate reserved capacity candidate.
+. Click *Next*, and go to xref:create-snapshot-volume-step-4.adoc[Step 4: Edit settings for a snapshot volume].

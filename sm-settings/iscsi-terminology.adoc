@@ -1,0 +1,68 @@
+---
+permalink: sm-settings/iscsi-terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the iSCSI terms apply to your storage array.'
+---
+= iSCSI terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the iSCSI terms apply to your storage array.
+
+|===
+| Term| Description
+a|
+CHAP
+a|
+The Challenge Handshake Authentication Protocol (CHAP) method validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP__secret__.
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+a|
+DHCP
+a|
+Dynamic Host Configuration Protocol (DHCP) is a protocol used on Internet Protocol (IP) networks for dynamically distributing network configuration parameters, such as IP addresses.
+a|
+IB
+a|
+InfiniBand (IB) is a communications standard for data transmission between high-performance servers and storage systems.
+a|
+ICMP PING response
+a|
+Internet Control Message Protocol (ICMP) is a protocol used by operating systems of networked computers to send messages. ICMP messages determine whether a host is reachable and how long it takes to get packets to and from that host.
+a|
+IQN
+a|
+An iSCSI Qualified Name (IQN) identifier is a unique name for an iSCSI initiator or iSCSI target.
+a|
+iSER
+a|
+iSCSI Extensions for RDMA (iSER) is a protocol that extends the iSCSI protocol for operation over RDMA transports, such as InfiniBand or Ethernet.
+a|
+iSNS
+a|
+Internet Storage Name Service (iSNS) is a protocol that allows automated discovery, management, and configuration of iSCSI and Fibre Channel devices on TCP/IP networks.
+a|
+MAC address
+a|
+Media access control identifiers (MAC addresses) are used by Ethernet to distinguish between separate logical channels connecting two ports on the same physical transport network interface.
+a|
+Management client
+a|
+A management client is the computer where a browser is installed for accessing System Manager.
+a|
+MTU
+a|
+A Maximum Transmission Unit (MTU) is the largest size packet or frame that can be sent in a network.
+a|
+RDMA
+a|
+Remote Direct Memory Access (RDMA) is a technology that allows network computers to exchange data in main memory without involving the operating system of either computer.
+a|
+Unnamed discovery session
+a|
+When the option for unnamed discovery sessions is enabled, iSCSI initiators are not required to specify the target IQN to retrieve the controller's information.
+|===

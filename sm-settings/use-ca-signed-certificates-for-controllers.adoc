@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/use-ca-signed-certificates-for-controllers.html
+sidebar: sidebar
+keywords: 
+summary: 'You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing System Manager.'
+---
+= Use CA-signed certificates for controllers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing System Manager.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+
+== About this task
+
+Using CA-signed certificates is a three-step procedure.

@@ -1,0 +1,31 @@
+---
+permalink: sm-storage/activate-or-suspend-snapshot-schedule.html
+sidebar: sidebar
+keywords: 
+summary: 'You can temporarily suspend scheduled collection of snapshot images when you need to conserve storage space. This method is more efficient than deleting and later re-creating the snapshot schedule.'
+---
+= Activate and suspend snapshot schedule
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can temporarily suspend scheduled collection of snapshot images when you need to conserve storage space. This method is more efficient than deleting and later re-creating the snapshot schedule.
+
+== About this task
+
+The state of the snapshot schedule stays suspended until you use the *Activate* option to resume scheduled snapshot activity.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. If it is not already displayed, click the *Schedules* tab.
++
+The schedules are listed on the page.
+
+. Select an active snapshot schedule that you want to suspend, and then click *Activate / Suspend*.
++
+The *State* column status changes to *Suspended*, and the snapshot schedule stops collection of all snapshot images.
+
+. To resume collecting snapshot images, select the suspended snapshot schedule that you want to resume, and then click *Activate / Suspend*.
++
+The *State* column status changes to *Active*.

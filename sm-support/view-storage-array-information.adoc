@@ -1,0 +1,12 @@
+---
+permalink: sm-support/view-storage-array-information.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the storage array’s profile and the firmware versions for each component in the storage array.'
+---
+= View storage array information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the storage array's profile and the firmware versions for each component in the storage array.

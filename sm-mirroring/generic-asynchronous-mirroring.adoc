@@ -1,0 +1,17 @@
+---
+permalink: sm-mirroring/generic-asynchronous-mirroring.html
+sidebar: sidebar
+keywords: 
+summary: 'The Asynchronous Mirroring feature provides a controller-level, firmware-based mechanism for data replication between a local storage array and a remote storage array. Asynchronous mirroring is created on a per-volume basis but managed at a group level, allowing you to associate a distinct remote mirrored volume with any primary volume on a given storage array.'
+---
+= image:../media/sam1130-icon-async-mirroring.gif[]Asynchronous mirroring
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Asynchronous Mirroring feature provides a controller-level, firmware-based mechanism for data replication between a local storage array and a remote storage array. Asynchronous mirroring is created on a per-volume basis but managed at a group level, allowing you to associate a distinct remote mirrored volume with any primary volume on a given storage array.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====

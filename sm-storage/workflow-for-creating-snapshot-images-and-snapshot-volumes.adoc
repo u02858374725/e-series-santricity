@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'In System Manager, you can create snapshot images and snapshot volumes by following these steps.'
+---
+= Workflow for creating snapshot images and snapshot volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In System Manager, you can create snapshot images and snapshot volumes by following these steps.
+
+== Workflow for creating snapshot images
+
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[]
+
+== Workflow for creating snapshot volumes
+
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[]

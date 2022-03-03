@@ -1,0 +1,180 @@
+---
+permalink: sm-support/review-the-possible-software-and-firmware-upgrade-errors.html
+sidebar: sidebar
+keywords: 
+summary: 'Errors can occur during either the controller software upgrade or the drive firmware upgrade.'
+---
+= Review the possible software and firmware upgrade errors
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Errors can occur during either the controller software upgrade or the drive firmware upgrade.
+
+|===
+| Firmware download error| Description| Recommended action
+a|
+Failed assigned drives
+
+a|
+Failed to upgrade an assigned drive in the storage array.
+
+a|
+One reason for the failure might be that the drive does not have the appropriate signature. Make sure that the affected drive is an authorized drive. Contact technical support for more information.
+
+When replacing a drive, make sure that the replacement drive has a capacity equal to or greater than the failed drive you are replacing.
+
+You can replace the failed drive while the storage array is receiving I/O.
+
+a|
+Integrated hot spare drives
+
+a|
+If the drive is marked as a hot spare and is in use for a volume group, the firmware upgrade process fails.
+
+a|
+This error condition must be corrected before you can upgrade the firmware. Launch SANtricity System Manager and use the Recovery Guru to resolve the problem.
+
+a|
+Incomplete volume groups
+
+a|
+If any drive that is part of a volume group is bypassed, removed or unresponsive, it is considered an incomplete volume group. An incomplete volume group prevents firmware upgrades.
+
+a|
+If one or more volume groups or disk pools are incomplete, you must correct this error condition before you can upgrade the firmware. Launch SANtricity System Manager and use the Recovery Guru to resolve the problem.
+
+a|
+Exclusive operations (other than background media/parity scan) currently running on any volume groups
+
+a|
+Cannot upgrade the firmware if any exclusive operations are in progress on a volume.
+
+a|
+If one or more exclusive operations are in progress, the operations must complete before the firmware can be upgraded. Use SANtricity System Manager to monitor the progress of the operations.
+
+a|
+Missing volumes
+
+a|
+Cannot upgrade the firmware if any volume is missing.
+
+a|
+You must correct the missing volume condition before the firmware can be upgraded. Launch SANtricity System Manager and use the Recovery Guru to resolve the problem.
+
+a|
+Either controller in a state other than Optimal
+
+a|
+Cannot upgrade the firmware if either controller is in a state other than optimal.
+
+a|
+One of the storage array controllers needs attention. This condition must be corrected before the firmware can be upgraded. Launch SANtricity System Manager and use the Recovery Guru to resolve the problem.
+
+a|
+SPM Verify Database Controller check fails
+
+a|
+Cannot upgrade the firmware because the storage partitions mappings database is corrupted.
+
+a|
+A storage partitions mapping database error occurred on a controller. Contact technical support to resolve this issue.
+
+a|
+Configuration Database Validation (If supported by the storage array's controller version)
+
+a|
+Cannot upgrade the firmware because the configuration database is corrupted.
+
+a|
+A configuration database error occurred on a controller. Contact technical support to resolve this issue.
+
+a|
+MEL Related Checks
+
+a|
+Cannot upgrade the firmware because the event log contains errors.
+
+a|
+Contact technical support to resolve this issue.
+
+a|
+More than 10 DDE Informational or Critical MEL events were reported in the last 7 days
+
+a|
+Cannot upgrade the firmware because there are more than 10 DDE informational or critical MEL events reported in the last seven days.
+
+a|
+Contact technical support to resolve this issue.
+
+a|
+More than 2 Page 2C Critical MEL Events were reported in the last 7 days
+
+a|
+Cannot upgrade the firmware because there are more than two page 2C critical MEL Events reported in the last seven days.
+
+a|
+Contact technical support to resolve this issue.
+
+a|
+More than 2 Degraded Drive Channel Critical MEL events were reported in the last 7 days
+
+a|
+Cannot upgrade the firmware because there are more than two degraded drive channel critical MEL events reported in the last seven days.
+
+a|
+Contact technical support to resolve this issue.
+
+a|
+More than 4 critical MEL entries in the last 7 days
+
+a|
+Cannot upgrade the firmware because there are more than four critical event log entries reported in the last seven days.
+
+a|
+Contact technical support to resolve this issue.
+
+a|
+A valid management IP address is required.
+a|
+A valid controller IP address is required to perform this operation.
+a|
+Contact technical support to resolve this issue.
+
+a|
+The command requires an active management IP address for each controllers to be provided.
+a|
+A controller IP address for each controller associated with the storage array is required for this operation.
+a|
+Contact technical support to resolve this issue.
+
+a|
+Unhandled download file type returned.
+a|
+The specified download file is not supported.
+a|
+Contact technical support to resolve this issue.
+
+a|
+An error occurred during the firmware download upload procedure.
+a|
+The firmware download failed because the controller cannot process the request. Verify the storage array is optimal and retry the operation.
+a|
+If this error occurs again after verifying the storage array is optimal, contact technical support to resolve this issue.
+
+a|
+An error occurred during the firmware activation procedure.
+a|
+The firmware activation failed because the controller cannot process the request. Verify the storage array is optimal and retry the operation.
+a|
+If this error occurs again after verifying the storage array is optimal, contact technical support to resolve this issue.
+
+a|
+Timeout has reached while waiting for controller \{0} to reboot.
+a|
+The management software is unable to reconnect to controller \{0} following a reboot. Validate there is an operational connection path to the storage array and retry the operation if it did not complete successfully.
+a|
+If this error occurs again after verifying the storage array is optimal, contact technical support to resolve this issue.
+
+|===
+You can correct some of these conditions by using the Recovery Guru in SANtricity System Manager. However, for some of the conditions, you might need to contact technical support. The information about the latest controller firmware download is available from the storage array. This information helps technical support to understand the error conditions that prevented the firmware upgrade and download.

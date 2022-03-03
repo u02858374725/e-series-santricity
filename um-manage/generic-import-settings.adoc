@@ -1,0 +1,12 @@
+---
+permalink: um-manage/generic-import-settings.html
+sidebar: sidebar
+keywords: 
+summary: 'You can import settings from one storage array to another, including alerts, AutoSupport, and directory services.'
+---
+= image:../media/sam1130-icon-system.gif[]Import Settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can import settings from one storage array to another, including alerts, AutoSupport, and directory services.

@@ -1,0 +1,84 @@
+---
+permalink: sm-support/view-storage-array-profile.html
+sidebar: sidebar
+keywords: 
+summary: 'The storage array profile provides a description of all of the components and properties of the storage array.'
+---
+= View storage array profile
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The storage array profile provides a description of all of the components and properties of the storage array.
+
+== About this task
+
+You can use the storage array profile as an aid during recovery or as an overview of the current configuration of the storage array. You might want to save a copy of the storage array profile on the management client and keep a hard copy of the storage array profile with the storage array. Create a new copy of the storage array profile if your configuration changes.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Support Resources* tab.
+. Scroll down to *Launch detailed storage array information*, and then select *Storage Array Profile*.
++
+The report appears on your screen.
++
+Field details
++
+|===
+| Section| Description
+a|
+Storage Array
+a|
+    Shows all of the options that you can configure and the system static options for your storage array. These options include the number of controllers, drive shelves, drives, disk pools, volume groups, volumes, and hot spare drives; the maximum number of drive shelves, drives, Solid State Disks (SSDs), and volumes allowed; the number of snapshot groups, snapshot images, snapshot volumes and consistency groups; information about features; information about firmware versions; information about the chassis serial number; AutoSupport status and AutoSupport schedule information;the settings for automatic support data collection and scheduled support data collection; the storage array World-Wide Identifier (WWID); and the media scan and cache settings.
+a|
+Storage
+a|
+    Shows a list of all of the storage devices in the storage array. Depending on your storage array configuration, the Storage section might show these sub-sections.
+
+ ** *Disk Pools* -- Shows a list of all of the disk pools in the storage array.
+ ** *Volume Groups* -- Shows a list of all of the volume groups in the storage array. Volumes and free capacity are listed in the order in which they were created.
+ ** *Volumes* -- Shows a list of all of the volumes in the storage array. The information listed includes the volume name, the volume status, the capacity, the RAID level, the volume group or disk pool, the drive type, and additional details.
+ ** *Missing Volumes* -- Shows a list of all of the volumes in the storage array that currently have a missing status. The information listed includes the World Wide Identifier (WWID) for each missing volume.
+
+a|
+Copy Services
+a|
+    Shows a list of all the copy services that are used for the storage array. Depending on your storage array configuration, the Copy Services section might show these sub-sections:
+
+ ** *Volume Copies* -- Shows a list of all copy pairs in the storage array. The information listed includes the number of copies, the copy pair names, the status, the start timestamp, and additional details.
+ ** *Snapshot Groups* -- Shows a list of all snapshot groups in the storage array.
+ ** *Snapshot Images* -- Shows a list of all snapshots in the storage array.
+ ** *Snapshot Volumes* -- Shows a list of all snapshot volumes in the storage array.
+ ** *Consistency Groups* -- Shows a list of all consistency groups in the storage array.
+ ** *Member Volumes* -- Shows a list of all consistency group member volumes in the storage array.
+ ** *Mirror Groups* -- Shows a list of all mirrored volumes.
+ ** *Reserved Capacity* -- Shows a list of all reserved capacity volumes in the storage array.
+
+a|
+Host Assignments
+a|
+Shows a list of host assignments in the storage array. The information listed includes the volume name, logical unit number (LUN), controller ID, host name or host cluster name, and volume status. Additional information listed includes topology definitions and host type definitions.
+a|
+Hardware
+a|
+    Shows a list of all of the hardware in the storage array. Depending on your storage array configuration, the Hardware section might show these sub-sections.
+
+ ** *Controllers* -- Shows a list of all of the controllers in the storage array and includes the controller location, status, and configuration. In addition, it includes drive channel information, host channel information, and Ethernet port information.
+ ** *Drives* -- Shows a list of all of the drives in the storage array. The drives are listed in shelf ID, drawer ID, slot ID order. The information listed includes the shelf ID, the drawer ID, the slot ID, the status, the raw capacity, the media type, the interface type, the current data rate, the product ID, and the firmware version for each drive. The Drive section also includes drive channel information, hot spare coverage information, and wear life information (only for SSD drives). The wear life information includes the percent endurance used, which is the amount of data written to the SSD drives to date, divided by the total theoretical write limit for the drives.
+ ** *Drive Channels* -- Shows information for all of the drive channels in the storage array. The information listed includes the channel status, the link status (if applicable), drive counts, and cumulative error counts.
+ ** *Shelves* -- Shows information for all of the shelves in the storage array. The information listed includes drive types, and status information for each component of the shelf. Shelf components might include battery packs, Small Form-factor Pluggable (SFP) transceivers, power-fan canisters, or input/output module (IOM) canisters.
+The Hardware section also shows the security key identifier if a security key is used by the storage array.
+
+a|
+Features
+a|
+Shows a list of the feature packs installed and maximum allowed number of snapshot groups, snapshots (legacy), and volumes per host or host cluster. The information in the Features section also includes Drive Security; that is, whether the storage array is security enabled or security disabled.
+|===
+
+. To search the storage array profile, type a search term in the *Find* text box, and then click *Find*.
++
+All matching terms are highlighted. To scroll through all the results one at a time, continue to click *Find*.
+
+. To save the storage array profile, click *Save*.
++
+The file is saved in the Downloads folder for your browser with the name `storage-array-profile.txt`.

@@ -1,0 +1,103 @@
+---
+permalink: sm-hardware/view-shelf-component-status-and-settings.html
+sidebar: sidebar
+keywords: 
+summary: 'The Hardware page provides status and settings for shelf components, including the power supplies, fans, and batteries.'
+---
+= View shelf component status and settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Hardware page provides status and settings for shelf components, including the power supplies, fans, and batteries.
+
+== About this task
+
+The available components depend on the type of shelf:
+
+* *Drive shelf*-- Contains a set of drives, power/fan canisters, input/output modules (IOMs), and other supporting components in a single shelf.
+* *Controller shelf* -- Contains a set of drives, one or two controller canisters, power/fan canisters, and other supporting components in a single shelf.
+
+== Steps
+
+. Select *Hardware*.
+. Select the drop-down list for the Controller Shelf or Drive Shelf, and then select *View Settings*.
++
+The Shelf Components Settings dialog box opens, with tabs that show the status and settings related to the shelf components. Depending on the type of shelf selected, some tabs described in the table might not appear.
++
+|===
+| Tab| Description
+a|
+    Shelf
+a|
+    The Shelf tab shows the following properties:
+
+ ** *Shelf ID* -- Uniquely identifies a shelf in the storage array. The controller firmware assigns this number, but you can change it by selecting *Shelf* > *Change ID*.
+ ** *Shelf path redundancy* -- Specifies whether connections between the shelf and the controller have alternate methods in place (Yes) or not (No).
+ ** *Current drive types* -- Shows the type of technology built into the drives (for example, a SAS drive that is secure-capable). If there is more than one drive type, both technologies are shown.
+ ** *Serial number* -- Shows the serial number of the shelf.
+
+a|
+    IOMs (ESMs)
+a|
+    The IOMs (ESMs) tab shows status of the input/output module (IOM), which is also called an environmental service module (ESM). It monitors the status of the components in a drive shelf and serves as the connection point between the drive tray and the controller.
++
+Status can be Optimal, Failed, Optimal (Miswire), or Uncertified. Other information includes the firmware version and the configuration settings version.
++
+Select *Show more settings* to see the maximum and current data rates, and the state of the card communication (either Yes or No).
++
+[NOTE]
+====
+You can also view this status by selecting the IOM icon image:../media/sam1130-ss-hardware-iom-icon.gif[], next to the Shelf drop-down list.
+====
+a|
+    Power Supplies
+a|
+    The Power Supplies tab shows the status of the power supply canister and the power supply itself. Status can be Optimal, Failed, Removed, or Unknown. It also shows the part number of the power supply.
++
+[NOTE]
+====
+You can also view this status by selecting the Power Supply icon image:../media/sam1130-ss-hardware-power-icon.gif[], next to the Shelf drop-down list.
+====
+a|
+    Fans
+a|
+    The Fans tab shows the status of the fan canister and the fan itself. Status can be Optimal, Failed, Removed, or Unknown.
++
+[NOTE]
+====
+You can also view this status by selecting the Fan icon image:../media/sam1130-ss-hardware-fan-icon.gif[], next to the Shelf drop-down list.
+====
+a|
+    Temperature
+a|
+    The Temperature tab shows the temperature status of the shelf components, such as the sensors, controllers, and power/fan canisters. Status can be Optimal, Nominal temperature exceeded, Maximum temperature exceeded, or Unknown.
++
+[NOTE]
+====
+You can also view this status by selecting the Temperature icon image:../media/sam1130-ss-hardware-temp-icon.gif[], next to the Shelf drop-down list.
+====
+a|
+    Batteries
+a|
+    The Batteries tab shows the status of the controller batteries. Status can be Optimal, Failed, Removed or Unknown. Other information includes the battery age, days until replacement, learn cycles, and weeks between learn cycles.
++
+[NOTE]
+====
+You can also view this status by selecting the Batteries icon image:../media/sam1130-ss-hardware-battery-icon.gif[], next to the Shelf drop-down list.
+====
+a|
+    SFPs
+a|
+    The SFPs tab shows status of Small Form-factor Pluggable (SFP) transceivers on the controllers. Status can be Optimal, Failed, or Unknown.
++
+Select *Show more settings* to see the part number, the serial number, and the vendor of the SFPs.
++
+[NOTE]
+====
+You can also view this status by selecting the SFP icon image:../media/sam1130-ss-hardware-sfp-icon.gif[], next to the Shelf drop-down list.
+====
++
+|===
+
+. Click *Close*.

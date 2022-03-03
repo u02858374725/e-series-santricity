@@ -1,0 +1,54 @@
+---
+permalink: sm-storage/comparison-between-thick-volumes-and-thin-volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'A thick volume is always fully-provisioned, which means that all of the capacity is allocated when the volume is created. A thin volume is always thinly-provisioned, which means that the capacity is allocated as the data is being written to the volume.'
+---
+= Comparison between thick volumes and thin volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A thick volume is always fully-provisioned, which means that all of the capacity is allocated when the volume is created. A thin volume is always thinly-provisioned, which means that the capacity is allocated as the data is being written to the volume.
+
+You can create thick volumes from either a pool or volume group. You can create thin volumes only from a pool, not from a volume group.
+
+[NOTE]
+====
+SANtricity System Manager does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
+====
+
+[NOTE]
+====
+Thin volumes are not available on the EF600 or EF300 storage system.
+====
+
+|===
+| Volume type| Description
+a|
+Thick volumes
+a|
+
+* With thick volumes, a large amount of storage space is provided in advance in anticipation of future storage needs.
+* Thick volumes are created with the entire size of the volume pre-allocated on physical storage at the time the volume is created. This pre-allocation means that creating a 100 GiB volume actually consumes 100 GiB of allocated capacity on your drives. However, the space might remain unused, causing under-utilization of storage capacity.
+* When creating thick volumes, make sure not to over-allocate capacity for a single volume. Over-allocating capacity for a single volume can quickly consume all the physical storage in your system.
+* Keep in mind that storage capacity is also required for copy services (snapshot images, snapshot volumes, volume copies, and asynchronous mirroring), so do not allocate all of the capacity to thick volumes. Insufficient space can block writes to the pool or volume group. You receive a free-capacity alert threshold warning if this situation occurs.
+
+a|
+Thin volumes
+a|
+
+* Unlike thick volumes, space required for the thin volume is not allocated during creation, but is supplied, on demand at a later time.
+* A thin volume lets you over-allocate its size. That is, you can assign a LUN size that is larger than the size of the volume. You can then expand the volume as needed (if necessary, adding drives in the process) without expanding the size of the LUN, and therefore without disconnecting users.
+* You can use thin provisioning block space reclamation (UNMAP) to reclaim blocks of a thin-provisioned volume on the storage array through a host-issued SCSI UNMAP command. A storage array that supports thin provisioning can re-purpose the reclaimed space to satisfy allocation requests for some other thin provisioned volume within the same storage array, which allows better reporting of disk space consumption and more efficient use of resources.
+
+|===
+
+== Thin volume restrictions
+
+Thin volumes support all of the operations as thick volumes, with the following exceptions:
+
+* You cannot change the segment size of a thin volume.
+* You cannot enable the pre-read redundancy check for a thin volume.
+* You cannot use a thin volume as the target volume in a Copy Volume operation.
+* You can change a thin volume's allocated capacity limit and warning threshold only on the primary side of an asynchronous mirrored pair. Any changes to these parameters on the primary side are automatically propagated to the secondary side.

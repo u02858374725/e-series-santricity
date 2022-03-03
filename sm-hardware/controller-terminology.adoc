@@ -1,0 +1,73 @@
+---
+permalink: sm-hardware/controller-terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the controller terms apply to your storage array.'
+---
+= Controller terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the controller terms apply to your storage array.
+
+|===
+| Component| Description
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+a|
+Controller shelf
+a|
+A controller shelf contains a set of drives and one or more controller canisters. A controller canister holds the controllers, host interface cards (HICs), and batteries.
+a|
+DHCP
+a|
+Dynamic Host Configuration Protocol (DHCP) is a protocol used on Internet Protocol (IP) networks for dynamically distributing network configuration parameters, such as IP addresses.
+a|
+DNS
+a|
+Domain Name System (DNS) is a naming system for devices connected to the Internet or a private network. The DNS server maintains a directory of domain names and translates them to Internet Protocol (IP) addresses.
+a|
+Duplex configurations
+a|
+Duplex is a two-controller module configuration within the storage array. Duplex systems are fully redundant with respect to controllers, logical volume paths, and disk paths. If one controller fails, the other controller takes over its I/O to maintain availability. Duplex systems also have redundant fans and power supplies.
+a|
+Full-duplex / half-duplex connections
+a|
+Full-duplex and half-duplex refer to connection modes. In full-duplex mode, two devices can communicate simultaneously in both directions. In half-duplex mode, devices can communicate in one direction at a time (one device sends a message, while the other device receives it).
+a|
+HIC
+a|
+A host interface card (HIC) can optionally be installed within a controller canister. Host ports that are built into the controller are called baseboard host ports. Host ports that are built into the HIC are called HIC ports.
+a|
+ICMP PING response
+a|
+Internet Control Message Protocol (ICMP) is a protocol used by operating systems of networked computers to send messages. ICMP messages determine whether a host is reachable and how long it takes to get packets to and from that host.
+a|
+MAC address
+a|
+Media access control identifiers (MAC addresses) are used by Ethernet to distinguish between separate logical channels connecting two ports on the same physical transport network interface.
+a|
+management client
+a|
+A management client is the computer where a browser is installed for accessing System Manager.
+a|
+MTU
+a|
+A Maximum Transmission Unit (MTU) is the largest size packet or frame that can be sent in a network.
+a|
+NTP
+a|
+Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems in data networks.
+a|
+Simplex configurations
+a|
+Simplex is a single-controller module configuration within the storage array. A simplex system does not offer controller or disk-path redundancy, but does have redundant fans and power supplies.
+
+a|
+VLAN
+a|
+A virtual local area network (VLAN) is a logical network that behaves like it is physically separate from other networks supported by the same devices (switches, routers, etc.).
+|===

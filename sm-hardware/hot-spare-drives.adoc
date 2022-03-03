@@ -1,0 +1,66 @@
+---
+permalink: sm-hardware/hot-spare-drives.html
+sidebar: sidebar
+keywords: 
+summary: 'Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager. They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a drive assigned as a hot spare.'
+---
+= Hot spare drives
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager. They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a drive assigned as a hot spare.
+
+Hot spares are not dedicated to specific volume groups. They can be used for any failed drive in the storage array, as long as the hot spare and the drive share these attributes:
+
+* Equal capacity (or greater capacity for the hot spare)
+* Same media type (for example, HDD or SSD)
+* Same interface type (for example, SAS)
+
+== How to identify hot spares
+
+You can assign hot spares through the Initial Setup Wizard or from the Hardware page. To determine if hot spares are assigned, go to the Hardware page and look for any drive bays shown in pink.
+
+== How hot spare coverage works
+
+Hot spare coverage works as follows:
+
+* You reserve an unassigned drive as a hot spare for RAID 1, RAID 5, or RAID 6 volume groups.
++
+[NOTE]
+====
+Hot spares cannot be used for pools, which have a different method of data protection. Instead of reserving an additional drive, pools reserve spare capacity (called _preservation capacity_) within each drive of the pool. If a drive fails in a pool, the controller reconstructs data in that spare capacity.
+====
+
+* If a drive within a RAID 1, RAID 5, or RAID 6 volume group fails, the controller automatically uses redundancy data to reconstruct the data from the failed drive. The hot spare is automatically substituted for the failed drive without requiring a physical swap.
+* When you have physically replaced the failed drive, a copyback operation occurs from the hot spare drive to the replaced drive. If you have designated the hot spare drive as a permanent member of a volume group, the copyback operation is not needed.
+* The availability of tray loss protection and drawer loss protection for a volume group depends on the location of the drives that comprise the volume group. The tray loss protection and drawer loss protection might be lost because of a failed drive and location of the hot spare drive. To make sure that tray loss protection and drawer loss protection are not affected, you must replace a failed drive to initiate the copyback process.
+* The storage array volume remains online and accessible while you are replacing the failed drive, because the hot spare drive is automatically substituted for the failed drive.
+
+== Considerations for hot spare drive capacity
+
+Select a drive with a capacity equal to or greater than the total capacity of the drive you want to protect. For example, if you have an 18-GiB drive with configured capacity of 8 GiB, you can use a 9-GiB or larger drive as a hot spare. Generally, do not assign a drive as a hot spare unless its capacity is equal to or greater than the capacity of the largest drive in the storage array.
+
+[NOTE]
+====
+If hot spares are not available that have the same physical capacity, a drive with lower capacity may be used as a hot spare if the "used capacity" of the drive is the same or smaller than the capacity of the hot spare drive.
+====
+
+== Considerations for media and interface types
+
+The drive used as a hot spare must share the same media type and interface type as the drives it will protect. For example, an HDD drive cannot serve as a hot spare for SSD drives.
+
+== Considerations for secure-capable drives
+
+A secure-capable drive, such as FDE or FIPS, can serve as a hot spare for drives with or without security capabilities. However, a drive that is not secure-capable cannot serve as a hot spare for drives with security capabilities.
+
+When you select a secure-enabled drive to be used for a hot spare, System Manager prompts you to perform a Secure Erase before you can proceed. The Secure Erase resets the drive's security attributes to secure-capable, but not secure-enabled.
+
+[NOTE]
+====
+When you enable the Drive Security feature and then create a pool or volume group from secure-capable drives, the drives become _secure-enabled_. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
+====
+
+== Recommended number of hot spare drives
+
+If you used the Initial Setup wizard to automatically create hot spares, System Manager creates one hot spare for every 30 drives of a particular media type and interface type. Otherwise, you can manually create hot spare drives among the volume groups in the storage array.

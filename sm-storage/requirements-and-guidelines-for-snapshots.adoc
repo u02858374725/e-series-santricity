@@ -1,0 +1,76 @@
+---
+permalink: sm-storage/requirements-and-guidelines-for-snapshots.html
+sidebar: sidebar
+keywords: 
+summary: 'When creating and using snapshots, review the following requirements and guidelines.'
+---
+= Requirements and guidelines for snapshots
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When creating and using snapshots, review the following requirements and guidelines.
+
+== Snapshot images and snapshot groups
+
+* Each snapshot image is associated with exactly one snapshot group.
+* A snapshot group is created the first time you create a scheduled or instant snapshot image for an associated object. This creates reserved capacity.
++
+You can view snapshot groups from the *Pools & Volume Groups* page.
+
+* Scheduled snapshot images do not occur when the storage array is offline or powered off.
+* If you delete a snapshot group that has a snapshot schedule, the snapshot schedule is also deleted.
+* If you have a snapshot volume that you no longer need, you can reuse it, along with any associated reserved capacity, instead of deleting it. This creates a different snapshot volume of the same base volume. You can re-associate the snapshot volume or snapshot consistency group snapshot volume with the same snapshot image or a different snapshot image, as long as the snapshot image is in the same base volume.
+
+== Snapshot consistency group
+
+* A snapshot consistency group contains one snapshot group for each volume that is a member of the snapshot consistency group.
+* You can associate a snapshot consistency group with only one schedule.
+* If you delete a snapshot consistency group that has a snapshot schedule, the snapshot schedule is also deleted.
+* You cannot individually manage a snapshot group that is associated with a snapshot consistency group. Instead, you must perform the manage operations (create snapshot image, delete snapshot image or snapshot group, and rollback snapshot image) at the snapshot consistency group level.
+
+== Base volume
+
+* A snapshot volume must have the same Data Assurance (DA) and security settings as the associated base volume.
+* You cannot create a snapshot volume of a failed base volume.
+* If the base volume resides on a volume group, the member volumes for any associated snapshot consistency group can reside on either a pool or volume group.
+* If a base volume resides on a pool, all member volumes for any associated snapshot consistency group must reside on the same pool as the base volume.
+
+== Reserved capacity
+
+* Reserved capacity is associated with only one base volume.
+* Using a schedule can result in a large number of snapshot images. Make sure you have sufficient reserved capacity for scheduled snapshots.
+* The reserved capacity volume for a snapshot consistency group must have the same Data Assurance (DA) and security settings as its associated base volume for the snapshot consistency group member volume.
+
+== Pending snapshot images
+
+Snapshot image creation might remain in a Pending state in the following conditions:
+
+* The base volume that contains this snapshot image is a member of an asynchronous mirror group.
+* The base volume is currently in a synchronization operation. The snapshot image creation completes as soon as the synchronization operation is complete.
+
+== Maximum number of snapshot images
+
+* If a volume is a member of a snapshot consistency group, System Manager creates a snapshot group for that member volume. This snapshot group counts towards the maximum allowable number of snapshot groups per base volume.
+* If you attempt to create a snapshot image on a snapshot group or snapshot consistency group, but the associated group has reached its maximum number of snapshot images, you have two options:
+ ** Enable automatic deletion for the snapshot group or snapshot consistency group.
+ ** Manually delete one or more snapshot images from the snapshot group or snapshot consistency group and retry the operation.
+
+== Auto-deletion
+
+If the snapshot group or snapshot consistency group is enabled for automatic deletion, System Manager deletes the oldest snapshot image when the system creates a new one for the group.
+
+== Rollback operation
+
+* You cannot perform the following actions when a rollback operation is in progress:
+ ** Delete the snapshot image that is being used for the rollback.
+ ** Create a new snapshot image for a base volume that is participating in a rollback operation.
+ ** Change the associated snapshot group's Repository-Full Policy.
+* You cannot start a rollback operation when any of these operations are in progress:
+ ** Capacity expansion (adding capacity to a pool or volume group)
+ ** Volume expansion (increasing the capacity of a volume)
+ ** RAID level change for a volume group
+ ** Segment size change for a volume
+* You cannot start a rollback operation if the base volume is participating in a volume copy.
+* You cannot start a rollback operation if the base volume is a secondary volume in a remote mirror.
+* A rollback operation fails if any of the used capacity in the associated snapshot repository volume has unreadable sectors.

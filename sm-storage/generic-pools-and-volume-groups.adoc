@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/generic-pools-and-volume-groups.html
+sidebar: sidebar
+keywords: 
+summary: 'The Pools and Volume Groups page allows you to create logical storage capacity from a subset of unassigned drives in your storage array. This logical capacity can take the form of either a pool or a volume group, depending on the needs of your environment.'
+---
+= image:../media/sam1130-icon-pools-and-volume-groups.gif[] Pools and volume groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Pools and Volume Groups page allows you to create logical storage capacity from a subset of unassigned drives in your storage array. This logical capacity can take the form of either a pool or a volume group, depending on the needs of your environment.

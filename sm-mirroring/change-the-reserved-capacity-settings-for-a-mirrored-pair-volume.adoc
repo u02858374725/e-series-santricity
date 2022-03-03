@@ -1,0 +1,42 @@
+---
+permalink: sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the settings for a mirrored pair volume to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a mirrored pair volume is nearing full.'
+---
+= Change the reserved capacity settings for a mirrored pair volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the settings for a mirrored pair volume to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a mirrored pair volume is nearing full.
+
+== Steps
+
+. Select *Storage* > *Pools & Volume Groups*.
+. Select the *Reserved Capacity* tab.
+. Select the mirrored pair volume that you want to edit, and then click *View/Edit Settings*.
++
+The Mirrored Pair Volume Reserved Capacity Settings dialog box appears.
+
+. Change the reserved capacity settings for the mirrored pair volume as appropriate.
++
+Field details
++
+|===
+| Setting| Description
+a|
+Alert me when...
+a|
+    Use the spinner box to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a mirrored pair is nearing full.
++
+When the reserved capacity for the mirrored pair exceeds the specified threshold, System Manager sends an alert, allowing you time to increase reserved capacity.
++
+[NOTE]
+====
+Changing the Alert setting for one mirrored pair changes the Alert setting for all mirrored pairs that belong to the same mirror consistency group.
+====
++
+|===
+
+. Click *Save* to apply your changes.

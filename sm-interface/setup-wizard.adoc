@@ -1,0 +1,12 @@
+---
+permalink: sm-interface/setup-wizard.html
+sidebar: sidebar
+keywords: 
+summary: 'Setup tasks are those you perform when you are setting up your storage array for the first time. The Setup wizard walks you through each task.'
+---
+= image:../media/sam1130-icon-setup.gif[] Setup wizard
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Setup tasks are those you perform when you are setting up your storage array for the first time. The Setup wizard walks you through each task.

@@ -12,1901 +12,1901 @@ sidebar:
   - title: sm-hardware
     url: "/sm-hardware/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_shelves.gif" alt="sam1130
+    - title: <span class="image"><img src="../media/sam1130-icon-shelves.gif" alt="sam1130
         icon shelves"></span> Shelves
-      url: "/sm-hardware/concept_shelves.html"
+      url: "/sm-hardware/shelves.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-hardware/generic_concepts.html"
+        url: "/sm-hardware/generic-concepts.html"
         entries:
         - title: Hardware page overview
-          url: "/sm-hardware/concept_hardware_page_overview.html"
+          url: "/sm-hardware/hardware-page-overview.html"
         - title: Hardware terminology
-          url: "/sm-hardware/concept_hardware_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-hardware/hardware-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-hardware/generic_how_tos.html"
+        url: "/sm-hardware/generic-how-tos.html"
         entries:
         - title: View hardware components
-          url: "/sm-hardware/task_view_hardware_components.html"
+          url: "/sm-hardware/view-hardware-components.html"
         - title: Show or hide component status
-          url: "/sm-hardware/task_show_or_hide_component_status.html"
+          url: "/sm-hardware/show-or-hide-component-status.html"
         - title: Switch between front and back views
-          url: "/sm-hardware/task_switch_between_front_and_back_views.html"
+          url: "/sm-hardware/switch-between-front-and-back-views.html"
         - title: Change view order of shelves
-          url: "/sm-hardware/task_change_view_order_of_shelves.html"
+          url: "/sm-hardware/change-view-order-of-shelves.html"
         - title: Turn on shelf locator light
-          url: "/sm-hardware/task_turn_on_shelf_locator_light.html"
+          url: "/sm-hardware/turn-on-shelf-locator-light.html"
         - title: Change shelf IDs
-          url: "/sm-hardware/task_change_shelf_ids.html"
+          url: "/sm-hardware/change-shelf-ids.html"
         - title: View shelf component status and settings
-          url: "/sm-hardware/task_view_shelf_component_status_and_settings.html"
+          url: "/sm-hardware/view-shelf-component-status-and-settings.html"
         - title: Update battery learn cycles
-          url: "/sm-hardware/task_update_battery_learn_cycles.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-hardware/update-battery-learn-cycles.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-hardware/generic_faqs.html"
+        url: "/sm-hardware/generic-faqs.html"
         entries:
         - title: What is shelf loss protection and drawer loss protection?
-          url: "/sm-hardware/concept_what_is_shelf_loss_protection_and_drawer_loss_protection.html"
+          url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
         - title: What are battery learn cycles?
-          url: "/sm-hardware/concept_what_are_battery_learn_cycles.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_controllers.gif"
+          url: "/sm-hardware/what-are-battery-learn-cycles.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-controllers.gif"
         alt="sam1130 icon controllers"></span> Controllers
-      url: "/sm-hardware/concept_controllers.html"
+      url: "/sm-hardware/controllers.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-hardware/generic_concepts.html"
+        url: "/sm-hardware/generic-concepts.html"
         entries:
         - title: Controller terminology
-          url: "/sm-hardware/concept_controller_terminology.html"
+          url: "/sm-hardware/controller-terminology.html"
         - title: Controller states
-          url: "/sm-hardware/concept_controller_states.html"
+          url: "/sm-hardware/controller-states.html"
         - title: Considerations for assigning IP addresses
-          url: "/sm-hardware/concept_considerations_for_assigning_ip_addresses.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-hardware/generic_how_tos.html"
+        url: "/sm-hardware/generic-how-tos.html"
         entries:
         - title: Configure management port
-          url: "/sm-hardware/task_configure_management_ports.html"
+          url: "/sm-hardware/configure-management-ports.html"
         - title: Configure iSCSI ports
-          url: "/sm-hardware/task_configure_iscsi_ports_hardware.html"
+          url: "/sm-hardware/configure-iscsi-ports-hardware.html"
         - title: Configure iSER over InfiniBand ports
-          url: "/sm-hardware/task_configure_iser_over_infiniband_ports_hardware.html"
+          url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
         - title: Configure NVMe over InfiniBand ports
-          url: "/sm-hardware/task_configure_nvme_over_infiniband_ports_hardware.html"
+          url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
         - title: Configure NVMe over RoCE ports
-          url: "/sm-hardware/task_configure_nvme_over_roce_ports_hardware.html"
+          url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
         - title: Configure NTP server addresses
-          url: "/sm-hardware/task_configure_ntp_server_addresses.html"
+          url: "/sm-hardware/configure-ntp-server-addresses.html"
         - title: Configure DNS server addresses
-          url: "/sm-hardware/task_configure_dns_server_addresses.html"
+          url: "/sm-hardware/configure-dns-server-addresses.html"
         - title: View controller settings
-          url: "/sm-hardware/task_view_controller_settings.html"
+          url: "/sm-hardware/view-controller-settings.html"
         - title: Allow remote login
-          url: "/sm-hardware/task_allow_remote_login.html"
+          url: "/sm-hardware/allow-remote-login.html"
         - title: Place controller online
-          url: "/sm-hardware/task_place_controller_online.html"
+          url: "/sm-hardware/place-controller-online.html"
         - title: Place controller offline
-          url: "/sm-hardware/task_place_controller_offline.html"
+          url: "/sm-hardware/place-controller-offline.html"
         - title: Place controller in service mode
-          url: "/sm-hardware/task_place_controller_in_service_mode.html"
+          url: "/sm-hardware/place-controller-in-service-mode.html"
         - title: Reset (reboot) controller
-          url: "/sm-hardware/task_reset_reboot_controller.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-hardware/reset-reboot-controller.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-hardware/generic_faqs.html"
+        url: "/sm-hardware/generic-faqs.html"
         entries:
         - title: What is auto-negotiation?
-          url: "/sm-hardware/concept_what_is_auto_negotiation.html"
+          url: "/sm-hardware/what-is-auto-negotiation.html"
         - title: What is IPv6 stateless address auto-configuration?
-          url: "/sm-hardware/concept_what_is_ipv6_stateless_address_auto_configuration.html"
+          url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
         - title: Which do I choose&#8201;&#8212;&#8201;DHCP or manual configuration?
-          url: "/sm-hardware/concept_which_do_i_choose_dhcp_or_manual_configuration.html"
+          url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
         - title: What is a DHCP server?
-          url: "/sm-hardware/concept_what_is_a_dhcp_server.html"
+          url: "/sm-hardware/what-is-a-dhcp-server.html"
         - title: How do I configure my DHCP server?
-          url: "/sm-hardware/concept_how_do_i_configure_my_dhcp_server.html"
+          url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
         - title: Why do I need to change the controller network configuration?
-          url: "/sm-hardware/concept_why_do_i_need_to_change_the_controller_network_configuration.html"
+          url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
         - title: Where do I get the network configuration?
-          url: "/sm-hardware/concept_where_do_i_get_the_network_configuration.html"
+          url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
         - title: What are ICMP PING responses?
-          url: "/sm-hardware/concept_what_are_icmp_ping_responses.html"
+          url: "/sm-hardware/what-are-icmp-ping-responses.html"
         - title: When should I refresh the port configuration or the iSNS server from
             the DHCP server?
-          url: "/sm-hardware/concept_when_should_i_refresh_the_port_configuration_or_the_isns_server_from_the_dhcp_server.html"
+          url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
         - title: What should I do after configuring the management ports?
-          url: "/sm-hardware/concept_what_should_i_do_after_configuring_the_management_ports.html"
+          url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
         - title: Why is the storage system in non-optimal mode?
-          url: "/sm-hardware/concept_why_is_the_storage_system_in_non_optimal_mode.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_drives.gif" alt="sam1130
+          url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-drives.gif" alt="sam1130
         icon drives"></span> Drives
-      url: "/sm-hardware/concept_drives.html"
+      url: "/sm-hardware/drives.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-hardware/generic_concepts.html"
+        url: "/sm-hardware/generic-concepts.html"
         entries:
         - title: Drive terminology
-          url: "/sm-hardware/concept_drive_terminology.html"
+          url: "/sm-hardware/drive-terminology.html"
         - title: Drive states
-          url: "/sm-hardware/reference_drive_states.html"
+          url: "/sm-hardware/drive-states.html"
         - title: Solid State Disks (SSDs)
-          url: "/sm-hardware/concept_solid_state_disks_ssds.html"
+          url: "/sm-hardware/solid-state-disks-ssds.html"
         - title: Hot spare drives
-          url: "/sm-hardware/concept_hot_spare_drives.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-hardware/hot-spare-drives.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-hardware/generic_how_tos.html"
+        url: "/sm-hardware/generic-how-tos.html"
         entries:
         - title: Limit the drive view
-          url: "/sm-hardware/task_limit_the_drive_view.html"
+          url: "/sm-hardware/limit-the-drive-view.html"
         - title: Turn on drive locator light
-          url: "/sm-hardware/task_turn_on_drive_locator_light.html"
+          url: "/sm-hardware/turn-on-drive-locator-light.html"
         - title: View drive status and settings
-          url: "/sm-hardware/task_view_drive_status_and_settings.html"
+          url: "/sm-hardware/view-drive-status-and-settings.html"
         - title: Replace drive logically
-          url: "/sm-hardware/task_replace_drive_logically_hardware.html"
+          url: "/sm-hardware/replace-drive-logically-hardware.html"
         - title: Reconstruct drive manually
-          url: "/sm-hardware/task_reconstruct_drive_manually.html"
+          url: "/sm-hardware/reconstruct-drive-manually.html"
         - title: Initialize (format) drive
-          url: "/sm-hardware/task_initialize_format_drive.html"
+          url: "/sm-hardware/initialize-format-drive.html"
         - title: Fail drive
-          url: "/sm-hardware/task_fail_drive.html"
+          url: "/sm-hardware/fail-drive.html"
         - title: Assign hot spares
-          url: "/sm-hardware/task_assign_hot_spares_hardware.html"
+          url: "/sm-hardware/assign-hot-spares-hardware.html"
         - title: Unassign hot spares
-          url: "/sm-hardware/task_unassign_hot_spares.html"
+          url: "/sm-hardware/unassign-hot-spares.html"
         - title: Erase drives
-          url: "/sm-hardware/task_erase_drive.html"
+          url: "/sm-hardware/erase-drive.html"
         - title: Unlock or reset locked NVMe or FIPS drives
-          url: "/sm-hardware/task_unlock_or_reset_a_locked_nvme_drive.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-hardware/generic_faqs.html"
+        url: "/sm-hardware/generic-faqs.html"
         entries:
         - title: What is preservation capacity?
-          url: "/sm-hardware/concept_what_is_preservation_capacity.html"
+          url: "/sm-hardware/what-is-preservation-capacity.html"
         - title: Why would I logically replace a drive?
-          url: "/sm-hardware/concept_why_would_i_logically_replace_a_drive.html"
+          url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
         - title: Where can I view the status of a drive undergoing reconstruction?
-          url: "/sm-hardware/concept_where_can_i_view_the_status_of_a_drive_undergoing_reconstruction.html"
+          url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
   - title: sm-interface
     url: "/sm-interface/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_overview.gif" alt="sam1130
+    - title: <span class="image"><img src="../media/sam1130-icon-overview.gif" alt="sam1130
         icon overview"></span> SANtricity System Manager overview
-      url: "/sm-interface/concept_system_manager_overview.html"
+      url: "/sm-interface/system-manager-overview.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-interface/generic_concepts.html"
+        url: "/sm-interface/generic-concepts.html"
         entries:
         - title: Home page
-          url: "/sm-interface/concept_home_page.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_setup.gif" alt="sam1130
+          url: "/sm-interface/home-page.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-setup.gif" alt="sam1130
         icon setup"></span> Setup wizard
-      url: "/sm-interface/concept_setup_wizard.html"
+      url: "/sm-interface/setup-wizard.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-interface/generic_concepts.html"
+        url: "/sm-interface/generic-concepts.html"
         entries:
         - title: Setup wizard overview
-          url: "/sm-interface/concept_setup_wizard_overview.html"
+          url: "/sm-interface/setup-wizard-overview.html"
         - title: Setup wizard terminology
-          url: "/sm-interface/concept_setup_wizard_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-interface/setup-wizard-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-interface/generic_faqs.html"
+        url: "/sm-interface/generic-faqs.html"
         entries:
         - title: What if I don&#8217;t see all of my hardware components?
-          url: "/sm-interface/concept_what_if_i_don_t_see_all_of_my_hardware_components.html"
+          url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
         - title: What if I don&#8217;t see all of my hosts?
-          url: "/sm-interface/concept_what_if_i_don_t_see_all_of_my_hosts.html"
+          url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
         - title: How does identifying applications help me manage my storage array?
-          url: "/sm-interface/concept_how_does_identifying_applications_help_me_manage_my_storage_array.html"
+          url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
         - title: What is a workload?
-          url: "/sm-interface/concept_what_is_a_workload.html"
+          url: "/sm-interface/what-is-a-workload.html"
         - title: How do I configure the delivery method for AutoSupport?
-          url: "/sm-interface/concept_how_do_i_configure_the_delivery_method_for_autosupport_new.html"
+          url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
         - title: How do I know if I should accept the recommended pool configuration?
-          url: "/sm-interface/concept_how_do_i_know_if_i_should_accept_the_recommended_pool_configuration.html"
+          url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
         - title: System Manager has not detected any hosts. What do I do?
-          url: "/sm-interface/concept_system_manager_has_not_detected_any_hosts_what_do_i_do.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_admin.gif" alt="sam1130
+          url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-admin.gif" alt="sam1130
         icon admin"></span> Storage array administration
-      url: "/sm-interface/concept_storage_array_administration.html"
+      url: "/sm-interface/storage-array-administration.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-interface/generic_concepts.html"
+        url: "/sm-interface/generic-concepts.html"
         entries:
         - title: Storage array overview
-          url: "/sm-interface/concept_storage_array_overview.html"
+          url: "/sm-interface/storage-array-overview.html"
         - title: Administrator password protection
-          url: "/sm-interface/concept_administrator_password_protection.html"
+          url: "/sm-interface/administrator-password-protection.html"
         - title: Problem notification
-          url: "/sm-interface/concept_problem_notification.html"
+          url: "/sm-interface/problem-notification.html"
         - title: Operations in progress
-          url: "/sm-interface/concept_operations_in_progress.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-interface/operations-in-progress.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-interface/generic_how_tos.html"
+        url: "/sm-interface/generic-how-tos.html"
         entries:
         - title: Set default units for capacity values
-          url: "/sm-interface/task_set_default_units_for_capacity_values.html"
+          url: "/sm-interface/set-default-units-for-capacity-values.html"
         - title: Set default time frame for performance graphs
-          url: "/sm-interface/task_set_default_time_frame_for_performance_graphs.html"
+          url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
         - title: Recover from problems using Recovery Guru
-          url: "/sm-interface/task_recover_from_problems_using_recovery_guru.html"
+          url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
         - title: View and act on operations in progress
-          url: "/sm-interface/task_view_and_act_on_operations_in_progress.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-interface/generic_faqs.html"
+        url: "/sm-interface/generic-faqs.html"
         entries:
         - title: Where can I find more information about display preferences?
-          url: "/sm-interface/concept_where_can_i_find_more_information_about_display_preferences.html"
+          url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
         - title: What are the supported browsers?
-          url: "/sm-interface/reference_what_are_the_supported_browsers.html"
+          url: "/sm-interface/what-are-the-supported-browsers.html"
         - title: What are the keyboard shortcuts?
-          url: "/sm-interface/reference_what_are_the_keyboard_shortcuts.html"
+          url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
   - title: sm-mirroring
     url: "/sm-mirroring/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_async_mirroring.gif"
+    - title: <span class="image"><img src="../media/sam1130-icon-async-mirroring.gif"
         alt="sam1130 icon async mirroring"></span>Asynchronous mirroring
-      url: "/sm-mirroring/generic_asynchronous_mirroring.html"
+      url: "/sm-mirroring/generic-asynchronous-mirroring.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-mirroring/generic_concepts.html"
+        url: "/sm-mirroring/generic-concepts.html"
         entries:
         - title: How asynchronous mirroring works
-          url: "/sm-mirroring/concept_how_asynchronous_mirroring_works.html"
+          url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
         - title: Asynchronous mirroring terminology
-          url: "/sm-mirroring/concept_asynchronous_terminology.html"
+          url: "/sm-mirroring/asynchronous-terminology.html"
         - title: Workflow for mirroring a volume asynchronously
-          url: "/sm-mirroring/concept_workflow_for_mirroring_a_volume_asynchronously.html"
+          url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
         - title: Requirements for using asynchronous mirroring
-          url: "/sm-mirroring/concept_requirements_for_using_asynchronous_mirroring.html"
+          url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
         - title: Asynchronous mirror status
-          url: "/sm-mirroring/concept_asynchronous_mirror_status.html"
+          url: "/sm-mirroring/asynchronous-mirror-status.html"
         - title: Volume ownership
-          url: "/sm-mirroring/concept_volume_ownership_async.html"
+          url: "/sm-mirroring/volume-ownership-async.html"
         - title: Role change of a mirror consistency group
-          url: "/sm-mirroring/concept_role_change_of_a_mirror_consistency_group.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-mirroring/generic_how_tos.html"
+        url: "/sm-mirroring/generic-how-tos.html"
         entries:
         - title: Manage mirror consistency groups
-          url: "/sm-mirroring/concept_manage_mirror_consistency_groups.html"
+          url: "/sm-mirroring/manage-mirror-consistency-groups.html"
           entries:
           - title: Test communication for mirror consistency groups
-            url: "/sm-mirroring/task_test_communication_for_mirror_consistency_groups.html"
+            url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
           - title: Suspend or resume synchronization for mirror consistency group
-            url: "/sm-mirroring/task_suspend_or_resume_mirror_consistency_group.html"
+            url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
           - title: Change synchronization settings for a mirror consistency group
-            url: "/sm-mirroring/task_change_synchronization_settings_for_a_mirror_consistency_group.html"
+            url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
           - title: Re-synchronize mirror consistency group manually
-            url: "/sm-mirroring/task_re_synchronize_mirror_consistency_group_manually.html"
+            url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
           - title: View unsynchronized data amount between mirror consistency groups
-            url: "/sm-mirroring/task_view_unsynchronized_data_amount_between_mirror_consistency_groups.html"
+            url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
           - title: Update remote IP address
-            url: "/sm-mirroring/task_update_remote_ip_address.html"
+            url: "/sm-mirroring/update-remote-ip-address.html"
           - title: Change mirror consistency group role to primary or secondary
-            url: "/sm-mirroring/task_change_mirror_consistency_group_role_to_primary_or_secondary.html"
+            url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
           - title: Delete mirror consistency group
-            url: "/sm-mirroring/task_delete_mirror_consistency_group.html"
+            url: "/sm-mirroring/delete-mirror-consistency-group.html"
         - title: Manage asynchronous mirrored pairs
-          url: "/sm-mirroring/concept_manage_asynchronous_mirrored_pairs.html"
+          url: "/sm-mirroring/manage-asynchronous-mirrored-pairs.html"
           entries:
           - title: Remove asynchronous mirror relationship
-            url: "/sm-mirroring/task_remove_mirrored_pair.html"
+            url: "/sm-mirroring/remove-mirrored-pair.html"
           - title: Increase reserved capacity
-            url: "/sm-mirroring/task_increase_reserved_capacity.html"
+            url: "/sm-mirroring/increase-reserved-capacity.html"
           - title: Change the reserved capacity settings for a mirrored pair volume
-            url: "/sm-mirroring/task_change_the_reserved_capacity_settings_for_a_mirrored_pair_volume.html"
+            url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
           - title: Complete mirrored pair for primary volumes created on legacy system
-            url: "/sm-mirroring/task_complete_mirrored_pair_for_primary_volumes_created_on_legacy_system.html"
+            url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
         - title: Deactivate asynchronous mirroring
-          url: "/sm-mirroring/task_deactivate_asynchronous_mirroring.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-mirroring/generic_faqs.html"
+        url: "/sm-mirroring/generic-faqs.html"
         entries:
         - title: How does asynchronous mirroring differ from synchronous mirroring?
-          url: "/sm-mirroring/concept_how_does_asynchronous_mirroring_differ_from_synchronous_mirroring_async.html"
+          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
         - title: Why can&#8217;t I access my chosen mirroring feature?
-          url: "/sm-mirroring/concept_why_can_t_i_access_my_chosen_mirroring_feature.html"
+          url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
         - title: What do I need to know before creating a mirror consistency group?
-          url: "/sm-mirroring/concept_what_do_i_need_to_know_before_creating_a_mirror_consistency_group.html"
+          url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
         - title: Asynchronous mirroring - What do I need to know before creating a
             mirrored pair?
-          url: "/sm-mirroring/concept_asynchronous_mirroring_what_do_i_need_to_know_before_creating_a_mirrored_pair.html"
+          url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
         - title: What do I need to know before increasing my reserved capacity on
             a mirrored pair volume?
-          url: "/sm-mirroring/concept_what_do_i_need_to_know_before_increasing_my_reserved_capacity_on_a_mirrored_pair_volume.html"
+          url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
         - title: Why can&#8217;t I increase reserved capacity with my requested amount?
-          url: "/sm-mirroring/concept_why_can_t_i_increase_reserved_capacity_with_my_requested_amount.html"
+          url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
         - title: Why would I change this percentage?
-          url: "/sm-mirroring/concept_why_would_i_change_this_percentage.html"
+          url: "/sm-mirroring/why-would-i-change-this-percentage.html"
         - title: Why do I see more than one reserved capacity candidate?
-          url: "/sm-mirroring/concept_why_do_i_see_more_than_one_reserved_capacity_candidate.html"
+          url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
         - title: Why do I see Not Available values displayed in the table?
-          url: "/sm-mirroring/concept_why_do_i_see_not_available_values_displayed_in_the_table.html"
+          url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
         - title: Why don&#8217;t I see all of my pools and volume groups?
-          url: "/sm-mirroring/concept_why_don_t_i_see_all_of_my_pools_and_volume_groups.html"
+          url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
         - title: Asynchronous mirroring - Why don&#8217;t I see all my volumes?
-          url: "/sm-mirroring/concept_asynchronous_mirroring_why_don_t_i_see_all_my_volumes.html"
+          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
         - title: Asynchronous mirroring - Why don&#8217;t I see all the volumes on
             the remote storage array?
-          url: "/sm-mirroring/concept_asynchronous_mirroring_why_don_t_i_see_all_the_volumes_on_the_remote_storage_array.html"
+          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
         - title: Why would I update my remote storage array&#8217;s IP address?
-          url: "/sm-mirroring/concept_why_would_i_update_my_remote_storage_array_s_ip_address.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_sync_mirroring.gif"
+          url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-sync-mirroring.gif"
         alt="sam1130 icon sync mirroring"></span>Synchronous mirroring
-      url: "/sm-mirroring/concept_synchronous_mirroring.html"
+      url: "/sm-mirroring/synchronous-mirroring.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-mirroring/generic_concepts.html"
+        url: "/sm-mirroring/generic-concepts.html"
         entries:
         - title: How synchronous mirroring works
-          url: "/sm-mirroring/concept_how_synchronous_mirroring_works.html"
+          url: "/sm-mirroring/how-synchronous-mirroring-works.html"
         - title: Synchronous mirroring terminology
-          url: "/sm-mirroring/concept_synchronous_mirroring_terminology.html"
+          url: "/sm-mirroring/synchronous-mirroring-terminology.html"
         - title: Workflow for mirroring a volume synchronously
-          url: "/sm-mirroring/concept_workflow_for_mirroring_a_volume_synchronously.html"
+          url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
         - title: Requirements for using synchronous mirroring
-          url: "/sm-mirroring/concept_requirements_for_using_synchronous_mirroring.html"
+          url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
         - title: Synchronous mirroring status
-          url: "/sm-mirroring/concept_synchronous_mirroring_status.html"
+          url: "/sm-mirroring/synchronous-mirroring-status.html"
         - title: Volume ownership
-          url: "/sm-mirroring/concept_volume_ownership_sync.html"
+          url: "/sm-mirroring/volume-ownership-sync.html"
         - title: Role change between volumes in a mirrored pair
-          url: "/sm-mirroring/concept_role_change_of_volumes_in_a_mirrored_pair.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-mirroring/generic_how_tos.html"
+        url: "/sm-mirroring/generic-how-tos.html"
         entries:
         - title: Manage synchronous mirrored pairs
-          url: "/sm-mirroring/concept_manage_synchronous_mirrored_pairs.html"
+          url: "/sm-mirroring/manage-synchronous-mirrored-pairs.html"
           entries:
           - title: Test communication for synchronous mirroring
-            url: "/sm-mirroring/task_test_communication_for_synchronous_mirroring.html"
+            url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
           - title: Suspend and resume synchronization for a mirrored pair
-            url: "/sm-mirroring/task_suspend_and_resume_synchronization_for_a_mirrored_pair.html"
+            url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
           - title: Change role between volumes in a mirrored pair
-            url: "/sm-mirroring/task_change_role_between_volumes_in_a_mirrored_pair.html"
+            url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
           - title: Change synchronization settings for a mirrored pair
-            url: "/sm-mirroring/task_change_synchronization_settings_for_a_mirrored_pair.html"
+            url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
           - title: Remove synchronous mirror relationship
-            url: "/sm-mirroring/task_remove_synchronous_mirror_relationship.html"
+            url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
         - title: Deactivate synchronous mirroring
-          url: "/sm-mirroring/task_deactivate_synchronous_mirroring.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-mirroring/generic_faqs.html"
+        url: "/sm-mirroring/generic-faqs.html"
         entries:
         - title: How does asynchronous mirroring differ from synchronous mirroring?
-          url: "/sm-mirroring/concept_how_does_asynchronous_mirroring_differ_from_synchronous_mirroring_sync.html"
+          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
         - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
-          url: "/sm-mirroring/concept_synchronous_mirroring_why_don_t_i_see_all_my_volumes.html"
+          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
         - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
             the remote storage array?
-          url: "/sm-mirroring/concept_synchronous_mirroring_why_don_t_i_see_all_the_volumes_on_the_remote_storage_array.html"
+          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
         - title: Synchronous mirroring - What do I need to know before creating a
             mirrored pair?
-          url: "/sm-mirroring/concept_synchronous_mirroring_what_do_i_need_to_know_before_creating_a_mirrored_pair.html"
+          url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
         - title: What impact does synchronization priority have on synchronization
             rates?
-          url: "/sm-mirroring/concept_what_impact_does_synchronization_priority_have_on_synchronization_rates.html"
+          url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
         - title: Why is it recommended to use a manual synchronization policy?
-          url: "/sm-mirroring/concept_why_is_it_recommended_to_use_a_manual_synchronization_policy.html"
+          url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
   - title: sm-settings
     url: "/sm-settings/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_alerts.gif" alt="sam1130
+    - title: <span class="image"><img src="../media/sam1130-icon-alerts.gif" alt="sam1130
         icon alerts"></span> Alerts
-      url: "/sm-settings/generic_alerts.html"
+      url: "/sm-settings/generic-alerts.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: How alerts work
-          url: "/sm-settings/concept_how_alerts_work.html"
+          url: "/sm-settings/how-alerts-work.html"
         - title: Alerts terminology
-          url: "/sm-settings/concept_alerts_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/alerts-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Manage email alerts
-          url: "/sm-settings/concept_manage_email_alerts.html"
+          url: "/sm-settings/manage-email-alerts.html"
           entries:
           - title: Configure mail server and recipients for alerts
-            url: "/sm-settings/task_configure_mail_server_and_recipients_for_alerts.html"
+            url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
           - title: Edit email addresses for alerts
-            url: "/sm-settings/task_edit_alert_email_addresses.html"
+            url: "/sm-settings/edit-alert-email-addresses.html"
           - title: Add email addresses for alerts
-            url: "/sm-settings/task_add_alert_email_addresses.html"
+            url: "/sm-settings/add-alert-email-addresses.html"
           - title: Delete mail server or email addresses for alerts
-            url: "/sm-settings/task_delete_alert_email_addresses.html"
+            url: "/sm-settings/delete-alert-email-addresses.html"
           - title: Edit mail server for alerts
-            url: "/sm-settings/task_edit_mail_server_for_alerts.html"
+            url: "/sm-settings/edit-mail-server-for-alerts.html"
         - title: Manage SNMP alerts
-          url: "/sm-settings/concept_manage_snmp_alerts.html"
+          url: "/sm-settings/manage-snmp-alerts.html"
           entries:
           - title: Configure SNMP alerts
-            url: "/sm-settings/task_configure_snmp_alerts.html"
+            url: "/sm-settings/configure-snmp-alerts.html"
           - title: Add trap destinations for SNMP alerts
-            url: "/sm-settings/task_add_trap_destinations_for_snmp_alerts.html"
+            url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
           - title: Configure SNMP MIB variables
-            url: "/sm-settings/task_configure_snmp_mib_variables.html"
+            url: "/sm-settings/configure-snmp-mib-variables.html"
           - title: Edit communities for SNMPv2c traps
-            url: "/sm-settings/task_edit_community_names_for_snmp_traps.html"
+            url: "/sm-settings/edit-community-names-for-snmp-traps.html"
           - title: Edit user settings for SNMPv3 traps
-            url: "/sm-settings/task_edit_user_names_for_snmp_traps.html"
+            url: "/sm-settings/edit-user-names-for-snmp-traps.html"
           - title: Add communities for SNMPv2c traps
-            url: "/sm-settings/task_add_community_names_for_snmp_traps.html"
+            url: "/sm-settings/add-community-names-for-snmp-traps.html"
           - title: Add users for SNMPv3 traps
-            url: "/sm-settings/task_add_user_names_for_snmp_traps.html"
+            url: "/sm-settings/add-user-names-for-snmp-traps.html"
           - title: Remove communities for SNMPv2c traps
-            url: "/sm-settings/task_remove_community_name_for_snmp_traps.html"
+            url: "/sm-settings/remove-community-name-for-snmp-traps.html"
           - title: Remove users for SNMPv3 traps
-            url: "/sm-settings/task_remove_user_for_snmp_traps.html"
+            url: "/sm-settings/remove-user-for-snmp-traps.html"
           - title: Delete trap destinations
-            url: "/sm-settings/task_delete_trap_destinations.html"
+            url: "/sm-settings/delete-trap-destinations.html"
         - title: Manage syslog alerts
-          url: "/sm-settings/concept_manage_syslog_alerts.html"
+          url: "/sm-settings/manage-syslog-alerts.html"
           entries:
           - title: Configure syslog server for alerts
-            url: "/sm-settings/task_configure_syslog_server_for_alerts.html"
+            url: "/sm-settings/configure-syslog-server-for-alerts.html"
           - title: Edit syslog servers for alerts
-            url: "/sm-settings/task_edit_syslog_servers_for_alerts.html"
+            url: "/sm-settings/edit-syslog-servers-for-alerts.html"
           - title: Add syslog servers for alerts
-            url: "/sm-settings/task_add_syslog_servers_for_alerts.html"
+            url: "/sm-settings/add-syslog-servers-for-alerts.html"
           - title: Delete syslog servers for alerts
-            url: "/sm-settings/task_delete_syslog_servers_for_alerts.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: What if alerts are disabled?
-          url: "/sm-settings/concept_what_if_alerts_are_disabled.html"
+          url: "/sm-settings/what-if-alerts-are-disabled.html"
         - title: How do I configure SNMP or syslog alerts?
-          url: "/sm-settings/concept_how_do_i_configure_snmp_or_syslog_alerts.html"
+          url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
         - title: Why are timestamps inconsistent between the array and alerts?
-          url: "/sm-settings/concept_why_are_timestamps_inconsistent_between_the_array_and_alerts.html"
-    - title: '<span class="image"><img src="../media/sam1130_icon_system.gif" alt="sam1130
+          url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+    - title: '<span class="image"><img src="../media/sam1130-icon-system.gif" alt="sam1130
         icon system"></span>System: Storage array settings'
-      url: "/sm-settings/generic_storage_array_settings.html"
+      url: "/sm-settings/generic-storage-array-settings.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: Cache settings and performance
-          url: "/sm-settings/concept_cache_settings_and_performance.html"
+          url: "/sm-settings/cache-settings-and-performance.html"
         - title: Automatic load balancing overview
-          url: "/sm-settings/concept_automatic_load_balancing_overview.html"
+          url: "/sm-settings/automatic-load-balancing-overview.html"
         - title: Default host operating system type
-          url: "/sm-settings/concept_default_host_operating_system_type.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/default-host-operating-system-type.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Edit storage array name
-          url: "/sm-settings/task_edit_storage_array_name.html"
+          url: "/sm-settings/edit-storage-array-name.html"
         - title: Turn on storage array locator lights
-          url: "/sm-settings/task_turn_on_storage_array_locator_lights.html"
+          url: "/sm-settings/turn-on-storage-array-locator-lights.html"
         - title: Synchronize storage array clocks
-          url: "/sm-settings/task_synchronize_storage_array_clocks.html"
+          url: "/sm-settings/synchronize-storage-array-clocks.html"
         - title: Save storage array configuration
-          url: "/sm-settings/task_save_storage_array_configuration.html"
+          url: "/sm-settings/save-storage-array-configuration.html"
         - title: Clear storage array configuration
-          url: "/sm-settings/task_clear_storage_array_configuration.html"
+          url: "/sm-settings/clear-storage-array-configuration.html"
         - title: Configure login banner
-          url: "/sm-settings/task_configure_login_banner.html"
+          url: "/sm-settings/configure-login-banner.html"
         - title: Manage session timeouts
-          url: "/sm-settings/task_manage_session_timeouts_sam.html"
+          url: "/sm-settings/manage-session-timeouts-sam.html"
         - title: Change cache settings for the storage array
-          url: "/sm-settings/task_change_cache_settings_for_storage_array.html"
+          url: "/sm-settings/change-cache-settings-for-storage-array.html"
         - title: Set host connectivity reporting
-          url: "/sm-settings/task_set_host_connectivity_reporting.html"
+          url: "/sm-settings/set-host-connectivity-reporting.html"
         - title: Set automatic load balancing
-          url: "/sm-settings/task_set_automatic_load_balancing.html"
+          url: "/sm-settings/set-automatic-load-balancing.html"
         - title: Change default host type
-          url: "/sm-settings/task_change_default_host_type.html"
+          url: "/sm-settings/change-default-host-type.html"
         - title: Enable or disable legacy management interface
-          url: "/sm-settings/task_enable_or_disable_legacy_management_interface.html"
+          url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
         - title: Enable or disable resource provisioning for new volumes
-          url: "/sm-settings/task_enable_or_disable_resource_provisioning_for_new_volumes.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: What is controller cache?
-          url: "/sm-settings/concept_what_is_controller_cache.html"
+          url: "/sm-settings/what-is-controller-cache.html"
         - title: What is cache flushing?
-          url: "/sm-settings/concept_what_is_cache_flushing.html"
+          url: "/sm-settings/what-is-cache-flushing.html"
         - title: What is cache block size?
-          url: "/sm-settings/concept_what_is_cache_block_size.html"
+          url: "/sm-settings/what-is-cache-block-size.html"
         - title: When should I synchronize storage array clocks?
-          url: "/sm-settings/concept_when_should_i_synchronize_storage_array_clocks.html"
+          url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
         - title: What is host connectivity reporting?
-          url: "/sm-settings/concept_what_is_host_connectivity_reporting.html"
+          url: "/sm-settings/what-is-host-connectivity-reporting.html"
         - title: What do I need to know about the resource-provisioned volumes feature?
-          url: "/sm-settings/concept_what_do_i_need_to_know_about_the_resource_provisioned_volumes_feature.html"
-    - title: '<span class="image"><img src="../media/sam1130_icon_system.gif" alt="sam1130
+          url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+    - title: '<span class="image"><img src="../media/sam1130-icon-system.gif" alt="sam1130
         icon system"></span>System: iSCSI settings'
-      url: "/sm-settings/generic_iscsi_settings.html"
+      url: "/sm-settings/generic-iscsi-settings.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: iSCSI terminology
-          url: "/sm-settings/concept_iscsi_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/iscsi-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Configure iSCSI ports
-          url: "/sm-settings/task_configure_iscsi_ports_system.html"
+          url: "/sm-settings/configure-iscsi-ports-system.html"
         - title: Configure iSCSI authentication
-          url: "/sm-settings/task_configure_iscsi_authentication.html"
+          url: "/sm-settings/configure-iscsi-authentication.html"
         - title: Enable iSCSI discovery settings
-          url: "/sm-settings/task_enable_iscsi_discovery_settings.html"
+          url: "/sm-settings/enable-iscsi-discovery-settings.html"
         - title: View iSCSI statistics packages
-          url: "/sm-settings/task_view_iscsi_statistics_packages_system.html"
+          url: "/sm-settings/view-iscsi-statistics-packages-system.html"
         - title: View iSCSI sessions
-          url: "/sm-settings/task_view_iscsi_sessions_system.html"
+          url: "/sm-settings/view-iscsi-sessions-system.html"
         - title: End iSCSI session
-          url: "/sm-settings/task_end_iscsi_session_system.html"
+          url: "/sm-settings/end-iscsi-session-system.html"
         - title: Configure iSER over InfiniBand ports
-          url: "/sm-settings/task_configure_iser_over_infiniband_ports_system.html"
+          url: "/sm-settings/configure-iser-over-infiniband-ports-system.html"
         - title: View iSER over InfiniBand statistics
-          url: "/sm-settings/task_view_iser_over_infiniband_statistics_system.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: What happens when I use an iSNS server for registration?
-          url: "/sm-settings/concept_what_happens_when_i_use_an_isns_server.html"
+          url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
         - title: Which registration methods are automatically supported for iSCSI?
-          url: "/sm-settings/concept_which_registration_methods_are_automatically_supported_for_iscsi.html"
+          url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
         - title: How do I interpret iSER over InfiniBand statistics?
-          url: "/sm-settings/concept_how_do_i_interpret_iser_over_infiniband_statistics.html"
+          url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
         - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
-          url: "/sm-settings/concept_what_else_do_i_need_to_do_to_configure_or_diagnose_iser_over_infiniband.html"
-    - title: '<span class="image"><img src="../media/sam1130_icon_system.gif" alt="sam1130
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+    - title: '<span class="image"><img src="../media/sam1130-icon-system.gif" alt="sam1130
         icon system"></span>System: NVMe settings'
-      url: "/sm-settings/generic_nvme_settings.html"
+      url: "/sm-settings/generic-nvme-settings.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: NVMe overview
-          url: "/sm-settings/concept_nvme_overview.html"
+          url: "/sm-settings/nvme-overview.html"
         - title: NVMe terminology
-          url: "/sm-settings/concept_nvme_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/nvme-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Configure NVMe over InfiniBand ports
-          url: "/sm-settings/task_configure_nvme_over_infiniband_ports_system.html"
+          url: "/sm-settings/configure-nvme-over-infiniband-ports-system.html"
         - title: Configure NVMe over RoCE ports
-          url: "/sm-settings/task_configure_nvme_over_roce_ports_system.html"
+          url: "/sm-settings/configure-nvme-over-roce-ports-system.html"
         - title: View NVMe over Fabrics statistics
-          url: "/sm-settings/task_view_nvme_over_fabrics_statistics_system.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: How do I interpret NVMe over Fabrics statistics?
-          url: "/sm-settings/concept_how_do_i_interpret_nvme_over_fabrics_statistics.html"
+          url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
         - title: What else do I need to do to configure or diagnose NVMe over InfiniBand?
-          url: "/sm-settings/concept_what_else_do_i_need_to_do_to_configure_or_diagnose_nvme_over_infiniband.html"
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
         - title: What else do I need to do to configure or diagnose NVMe over RoCE?
-          url: "/sm-settings/concept_what_else_do_i_need_to_do_to_configure_or_diagnose_nvme_over_roce.html"
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
         - title: Why are there two IP addresses for one physical port?
-          url: "/sm-settings/concept_why_are_there_two_ip_addresses_for_one_physical_port.html"
+          url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
         - title: Why are there two sets of parameters for one physical port?
-          url: "/sm-settings/concept_why_are_there_two_sets_of_parameters_for_one_physical_port.html"
-    - title: '<span class="image"><img src="../media/sam1130_icon_system.gif" alt="sam1130
+          url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+    - title: '<span class="image"><img src="../media/sam1130-icon-system.gif" alt="sam1130
         icon system"></span>System: Add-on features'
-      url: "/sm-settings/generic_add_on_features.html"
+      url: "/sm-settings/generic-add-on-features.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: How add-on features work
-          url: "/sm-settings/concept_how_add_on_features_work.html"
+          url: "/sm-settings/how-add-on-features-work.html"
         - title: Add-on feature terminology
-          url: "/sm-settings/concept_add_on_feature_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/add-on-feature-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Obtain a feature key file
-          url: "/sm-settings/task_obtain_a_feature_key_file.html"
+          url: "/sm-settings/obtain-a-feature-key-file.html"
         - title: Enable a premium feature
-          url: "/sm-settings/task_enable_premium_feature.html"
+          url: "/sm-settings/enable-premium-feature.html"
         - title: Enable feature pack
-          url: "/sm-settings/task_enable_feature_pack.html"
+          url: "/sm-settings/enable-feature-pack.html"
         - title: Download the command line interface (CLI)
-          url: "/sm-settings/task_download_cli.html"
-    - title: '<span class="image"><img src="../media/sam1130_icon_system.gif" alt="sam1130
+          url: "/sm-settings/download-cli.html"
+    - title: '<span class="image"><img src="../media/sam1130-icon-system.gif" alt="sam1130
         icon system"></span>System: Security key management'
-      url: "/sm-settings/generic_security_key_management.html"
+      url: "/sm-settings/generic-security-key-management.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: How the Drive Security feature works
-          url: "/sm-settings/concept_how_the_drive_security_feature_works.html"
+          url: "/sm-settings/how-the-drive-security-feature-works.html"
         - title: How security key management works
-          url: "/sm-settings/concept_how_security_key_management_works.html"
+          url: "/sm-settings/how-security-key-management-works.html"
         - title: Drive Security terminology
-          url: "/sm-settings/concept_drive_security_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/drive-security-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Create internal security key
-          url: "/sm-settings/task_create_internal_security_key.html"
+          url: "/sm-settings/create-internal-security-key.html"
         - title: Create external security key
-          url: "/sm-settings/task_create_external_security_key.html"
+          url: "/sm-settings/create-external-security-key.html"
         - title: Change security key
-          url: "/sm-settings/task_change_security_key.html"
+          url: "/sm-settings/change-security-key.html"
         - title: Switch from external to internal key management
-          url: "/sm-settings/task_switch_from_external_to_internal_key_management.html"
+          url: "/sm-settings/switch-from-external-to-internal-key-management.html"
         - title: Edit key management server settings
-          url: "/sm-settings/task_edit_key_management_server_settings.html"
+          url: "/sm-settings/edit-key-management-server-settings.html"
         - title: Back up security key
-          url: "/sm-settings/task_back_up_security_key.html"
+          url: "/sm-settings/back-up-security-key.html"
         - title: Validate security key
-          url: "/sm-settings/task_validate_security_key.html"
+          url: "/sm-settings/validate-security-key.html"
         - title: Unlock drives when using internal key management
-          url: "/sm-settings/task_unlock_drives_using_an_internal_security_key.html"
+          url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
         - title: Unlock drives when using external key management
-          url: "/sm-settings/task_unlock_drives_using_an_external_security_key.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: What do I need to know before creating a security key?
-          url: "/sm-settings/concept_what_do_i_need_to_know_before_creating_a_security_key.html"
+          url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
         - title: Why do I need to define a pass phrase?
-          url: "/sm-settings/concept_why_do_i_need_to_define_a_pass_phrase.html"
+          url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
         - title: Why is it important to record security key information?
-          url: "/sm-settings/concept_why_is_it_important_to_record_security_key_information.html"
+          url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
         - title: What do I need to know before backing up a security key?
-          url: "/sm-settings/concept_what_do_i_need_to_know_before_backing_up_a_security_key.html"
+          url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
         - title: What do I need to know before unlocking secure drives?
-          url: "/sm-settings/concept_what_do_i_need_to_know_before_unlocking_secure_drives.html"
+          url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
         - title: What is read/write accessibility?
-          url: "/sm-settings/concept_what_is_read_write_accessibility.html"
+          url: "/sm-settings/what-is-read-write-accessibility.html"
         - title: What do I need to know about validating the security key?
-          url: "/sm-settings/concept_what_do_i_need_to_know_about_validating_the_security_key.html"
+          url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
         - title: What is the difference between internal security key and external
             security key management?
-          url: "/sm-settings/concept_what_is_the_difference_between_internal_security_key_and_external_security_key_management.html"
-    - title: <span class="image"><img src="../media/sam1140_icon_active_directory.gif"
+          url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+    - title: <span class="image"><img src="../media/sam1140-icon-active-directory.gif"
         alt="sam1140 icon active directory"></span> Access Management
-      url: "/sm-settings/generic_access_management.html"
+      url: "/sm-settings/generic-access-management.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: How Access Management works
-          url: "/sm-settings/concept_how_access_management_works.html"
+          url: "/sm-settings/how-access-management-works.html"
         - title: Access Management terminology
-          url: "/sm-settings/concept_access_management_terminology.html"
+          url: "/sm-settings/access-management-terminology.html"
         - title: Permissions for mapped roles
-          url: "/sm-settings/concept_permissions_for_mapped_roles.html"
+          url: "/sm-settings/permissions-for-mapped-roles.html"
         - title: Access Management with local user roles
-          url: "/sm-settings/concept_access_management_with_local_user_roles.html"
+          url: "/sm-settings/access-management-with-local-user-roles.html"
         - title: Access Management with directory services
-          url: "/sm-settings/concept_access_management_with_directory_services.html"
+          url: "/sm-settings/access-management-with-directory-services.html"
         - title: Access Management with SAML
-          url: "/sm-settings/concept_access_management_with_saml.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/access-management-with-saml.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: View local user roles
-          url: "/sm-settings/task_view_local_user_roles.html"
+          url: "/sm-settings/view-local-user-roles.html"
         - title: Change passwords
-          url: "/sm-settings/task_change_passwords.html"
+          url: "/sm-settings/change-passwords.html"
         - title: Change local user password settings
-          url: "/sm-settings/task_change_local_user_passwords_settings.html"
+          url: "/sm-settings/change-local-user-passwords-settings.html"
         - title: Add directory server
-          url: "/sm-settings/task_add_directory_server.html"
+          url: "/sm-settings/add-directory-server.html"
         - title: Edit directory server settings and role mappings
-          url: "/sm-settings/task_edit_directory_server_settings.html"
+          url: "/sm-settings/edit-directory-server-settings.html"
         - title: Remove directory server
-          url: "/sm-settings/task_remove_directory_server.html"
+          url: "/sm-settings/remove-directory-server.html"
         - title: Configure SAML
-          url: "/sm-settings/task_configure_saml.html"
+          url: "/sm-settings/configure-saml.html"
           entries:
           - title: 'Step 1: Upload the IdP metadata file'
-            url: "/sm-settings/task_configure_saml_step_1.html"
+            url: "/sm-settings/configure-saml-step-1.html"
           - title: 'Step 2: Export Service Provider files'
-            url: "/sm-settings/task_configure_saml_step_2.html"
+            url: "/sm-settings/configure-saml-step-2.html"
           - title: 'Step 3: Map roles'
-            url: "/sm-settings/task_configure_saml_step_3.html"
+            url: "/sm-settings/configure-saml-step-3.html"
           - title: 'Step 4: Test SSO login'
-            url: "/sm-settings/task_configure_saml_step_4.html"
+            url: "/sm-settings/configure-saml-step-4.html"
           - title: 'Step 5: Enable SAML'
-            url: "/sm-settings/task_configure_saml_step_5.html"
+            url: "/sm-settings/configure-saml-step-5.html"
         - title: Change SAML role mappings
-          url: "/sm-settings/task_change_saml_role_mappings.html"
+          url: "/sm-settings/change-saml-role-mappings.html"
         - title: Export SAML Service Provider files
-          url: "/sm-settings/task_export_saml_service_provider_files.html"
+          url: "/sm-settings/export-saml-service-provider-files.html"
         - title: View audit log activity
-          url: "/sm-settings/task_view_audit_log_activity.html"
+          url: "/sm-settings/view-audit-log-activity.html"
         - title: Define audit log policies
-          url: "/sm-settings/task_define_log_policies.html"
+          url: "/sm-settings/define-log-policies.html"
         - title: Delete events from the audit log
-          url: "/sm-settings/task_delete_events_from_the_audit_log.html"
+          url: "/sm-settings/delete-events-from-the-audit-log.html"
         - title: Configure syslog server for audit logs
-          url: "/sm-settings/task_configure_syslog_server_for_audit_logs.html"
+          url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
         - title: Edit syslog server settings for audit log records
-          url: "/sm-settings/task_edit_syslog_server_settings_for_audit_log_records.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: Why can&#8217;t I log in?
-          url: "/sm-settings/concept_why_can_t_i_log_in.html"
+          url: "/sm-settings/why-cant-i-log-in.html"
         - title: What do I need to know before adding a directory server?
-          url: "/sm-settings/concept_what_do_i_need_to_know_before_adding_a_directory_server.html"
+          url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
         - title: What do I need to know about mapping to storage array roles?
-          url: "/sm-settings/concept_what_do_i_need_to_know_about_mapping_storage_array_roles.html"
+          url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
         - title: Which external management tools may be affected by this change?
-          url: "/sm-settings/concept_which_external_management_tools_may_be_affected_by_this_change.html"
+          url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
         - title: What do I need to know before configuring and enabling SAML?
-          url: "/sm-settings/concept_what_do_i_need_to_know_before_configuring_and_enabling_saml.html"
+          url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: What types of events are recorded in the audit log?
-          url: "/sm-settings/concept_what_types_of_events_are_recorded_in_the_audit_log.html"
+          url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
         - title: What do I need to know before configuring a syslog server?
-          url: "/sm-settings/concept_what_do_i_need_to_know_before_configuring_a_syslog_server.html"
+          url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
         - title: The syslog server is no longer receiving audit logs. What do I do?
-          url: "/sm-settings/concept_the_syslog_server_is_no_longer_receiving_audit_logs_what_do_i_do.html"
-    - title: <span class="image"><img src="../media/sam1140_icon_certs.gif" alt="sam1140
+          url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+    - title: <span class="image"><img src="../media/sam1140-icon-certs.gif" alt="sam1140
         icon certs"></span> Certificates
-      url: "/sm-settings/generic_certificates.html"
+      url: "/sm-settings/generic-certificates.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-settings/generic_concepts.html"
+        url: "/sm-settings/generic-concepts.html"
         entries:
         - title: How certificates work
-          url: "/sm-settings/concept_how_certificates_work_sam.html"
+          url: "/sm-settings/how-certificates-work-sam.html"
         - title: Certificate terminology
-          url: "/sm-settings/concept_certificate_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-settings/certificate-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-settings/generic_how_tos.html"
+        url: "/sm-settings/generic-how-tos.html"
         entries:
         - title: Use CA-signed certificates for controllers
-          url: "/sm-settings/task_use_ca_signed_certificates_for_controllers.html"
+          url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
           entries:
           - title: 'Step 1: Complete CSRs for the controllers'
-            url: "/sm-settings/task_step_1_complete_a_csr.html"
+            url: "/sm-settings/step-1-complete-a-csr.html"
           - title: 'Step 2: Submit the CSR files'
-            url: "/sm-settings/task_step_2_submit_the_csr_files.html"
+            url: "/sm-settings/step-2-submit-the-csr-files.html"
           - title: 'Step 3: Import signed certificates for controllers'
-            url: "/sm-settings/task_step_3_import_signed_certificates_for_the_controllers.html"
+            url: "/sm-settings/step-3-import-signed-certificates-for-the-controllers.html"
         - title: Reset management certificates
-          url: "/sm-settings/task_reset_management_certificates.html"
+          url: "/sm-settings/reset-management-certificates.html"
         - title: View imported certificate information
-          url: "/sm-settings/task_view_imported_certificates.html"
+          url: "/sm-settings/view-imported-certificates.html"
         - title: Import certificates for controllers when acting as clients
-          url: "/sm-settings/task_import_trusted_certificates_for_controllers_acting_as_client.html"
+          url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
         - title: Enable certificate revocation checking
-          url: "/sm-settings/task_enable_certificate_revocation_checking.html"
+          url: "/sm-settings/enable-certificate-revocation-checking.html"
         - title: Delete trusted certificates
-          url: "/sm-settings/task_delete_trusted_certificates.html"
+          url: "/sm-settings/delete-trusted-certificates.html"
         - title: Use CA-signed certificates for authentication with a key management
             server
-          url: "/sm-settings/task_use_ca_signed_certificates_for_authentication_with_a_key_management_server.html"
+          url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
           entries:
           - title: 'Step 1: Complete and submit CSR for authentication with a key
               management server'
-            url: "/sm-settings/task_step_1_complete_and_submit_csr_for_authentication_with_a_key_server.html"
+            url: "/sm-settings/step-1-complete-and-submit-csr-for-authentication-with-a-key-server.html"
           - title: 'Step 2: Import certificates for the key management server'
-            url: "/sm-settings/task_step_2_import_certificates_for_key_management_server.html"
+            url: "/sm-settings/step-2-import-certificates-for-key-management-server.html"
         - title: Export key management server certificates
-          url: "/sm-settings/task_export_key_management_certificates.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-settings/export-key-management-certificates.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-settings/generic_faqs.html"
+        url: "/sm-settings/generic-faqs.html"
         entries:
         - title: Why does the Cannot Access Other Controller dialog box appear?
-          url: "/sm-settings/concept_why_does_the_cannot_access_other_controller_dialog_appear.html"
+          url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
         - title: How do I know what certificates need to be uploaded to System Manager
             for external key management?
-          url: "/sm-settings/concept_how_do_i_know_what_certificates_need_to_be_uploaded_to_system_manager.html"
+          url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
         - title: What do I need to know about certificate revocation checking?
-          url: "/sm-settings/concept_what_do_i_need_to_know_about_certificate_revocation_checking.html"
+          url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
         - title: What types of servers will revocation checking be enabled for?
-          url: "/sm-settings/concept_what_types_of_servers_will_revocation_checking_be_enabled_for.html"
+          url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
   - title: sm-storage
     url: "/sm-storage/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_pools_and_volume_groups.gif"
+    - title: <span class="image"><img src="../media/sam1130-icon-pools-and-volume-groups.gif"
         alt="sam1130 icon pools and volume groups"></span> Pools and volume groups
-      url: "/sm-storage/generic_pools_and_volume_groups.html"
+      url: "/sm-storage/generic-pools-and-volume-groups.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-storage/generic_concepts.html"
+        url: "/sm-storage/generic-concepts.html"
         entries:
         - title: How pools and volume groups work
-          url: "/sm-storage/concept_how_pools_and_volume_groups_work.html"
+          url: "/sm-storage/how-pools-and-volume-groups-work.html"
         - title: Capacity terminology
-          url: "/sm-storage/concept_capacity_terminology.html"
+          url: "/sm-storage/capacity-terminology.html"
         - title: How reserved capacity works
-          url: "/sm-storage/concept_how_reserved_capacity_works.html"
+          url: "/sm-storage/how-reserved-capacity-works.html"
         - title: How SSD Cache works
-          url: "/sm-storage/concept_how_ssd_cache_works.html"
+          url: "/sm-storage/how-ssd-cache-works.html"
         - title: SSD Cache restrictions
-          url: "/sm-storage/concept_ssd_cache_restrictions.html"
+          url: "/sm-storage/ssd-cache-restrictions.html"
         - title: Decide whether to use a pool or a volume group
-          url: "/sm-storage/concept_decide_to_use_a_pool_or_volume_group.html"
+          url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
         - title: Functional comparison of pools and volume groups
-          url: "/sm-storage/concept_functional_comparison_of_pools_and_volume_groups.html"
+          url: "/sm-storage/functional-comparison-of-pools-and-volume-groups.html"
         - title: Automatic versus manual pool creation
-          url: "/sm-storage/concept_automatic_versus_manual_pool_creation.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-storage/automatic-versus-manual-pool-creation.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-storage/generic_how_tos.html"
+        url: "/sm-storage/generic-how-tos.html"
         entries:
         - title: Create pools and volume groups
-          url: "/sm-storage/concept_create_pools_and_volume_groups.html"
+          url: "/sm-storage/create-pools-and-volume-groups.html"
           entries:
           - title: Create pool automatically
-            url: "/sm-storage/task_create_pool_automatically.html"
+            url: "/sm-storage/create-pool-automatically.html"
           - title: Create pool manually
-            url: "/sm-storage/task_create_pool_manually.html"
+            url: "/sm-storage/create-pool-manually.html"
           - title: Create a volume group
-            url: "/sm-storage/task_create_volume_group.html"
+            url: "/sm-storage/create-volume-group.html"
           - title: Create SSD Cache
-            url: "/sm-storage/task_create_ssd_cache.html"
+            url: "/sm-storage/create-ssd-cache.html"
           - title: Add capacity to a pool or volume group
-            url: "/sm-storage/task_add_capacity_to_a_pool_or_volume_group.html"
+            url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
         - title: Manage pools, volume groups, and SSD Cache
-          url: "/sm-storage/concept_manage_pools_volume_groups_and_ssd_cache.html"
+          url: "/sm-storage/manage-pools-volume-groups-and-ssd-cache.html"
           entries:
           - title: Change configuration settings for a pool
-            url: "/sm-storage/task_change_configuration_settings_for_a_pool.html"
+            url: "/sm-storage/change-configuration-settings-for-a-pool.html"
           - title: Change SSD Cache settings
-            url: "/sm-storage/task_change_ssd_cache_settings.html"
+            url: "/sm-storage/change-ssd-cache-settings.html"
           - title: Change configuration settings for a volume group
-            url: "/sm-storage/task_change_configuration_settings_for_a_volume_group.html"
+            url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
           - title: View SSD Cache statistics
-            url: "/sm-storage/task_view_ssd_cache_statistics.html"
+            url: "/sm-storage/view-ssd-cache-statistics.html"
           - title: Check volume redundancy
-            url: "/sm-storage/task_check_volume_redundancy.html"
+            url: "/sm-storage/check-volume-redundancy.html"
           - title: Delete pool or volume group
-            url: "/sm-storage/task_delete_pool_or_volume_group.html"
+            url: "/sm-storage/delete-pool-or-volume-group.html"
           - title: Consolidate free capacity for a volume group
-            url: "/sm-storage/task_consolidate_volume_group_free_capacity.html"
+            url: "/sm-storage/consolidate-volume-group-free-capacity.html"
           - title: Disable resource provisioning on existing volumes
-            url: "/sm-storage/task_disable_resource_provisioning_on_existing_volumes.html"
+            url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
           - title: Export/Import volume groups
-            url: "/sm-storage/concept_export_import_volume_groups.html"
+            url: "/sm-storage/export-import-volume-groups.html"
         - title: Manage drives
-          url: "/sm-storage/concept_manage_drives.html"
+          url: "/sm-storage/manage-drives.html"
           entries:
           - title: Turn on locator lights in a pool, volume group, or SSD Cache
-            url: "/sm-storage/task_turn_on_locator_lights_in_a_pool_volume_group_or_ssd_cache.html"
+            url: "/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html"
           - title: Remove capacity from a pool or SSD Cache
-            url: "/sm-storage/task_remove_capacity_from_a_pool_or_ssd_cache.html"
+            url: "/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html"
           - title: Enable security for a pool or volume group
-            url: "/sm-storage/task_enable_security.html"
+            url: "/sm-storage/enable-security.html"
           - title: Assign hot spares
-            url: "/sm-storage/task_assign_hot_spares_storage.html"
+            url: "/sm-storage/assign-hot-spares-storage.html"
           - title: Replace drive logically
-            url: "/sm-storage/task_replace_drive_logically_storage.html"
+            url: "/sm-storage/replace-drive-logically-storage.html"
         - title: Manage reserved capacity
-          url: "/sm-storage/concept_manage_reserved_capacity.html"
+          url: "/sm-storage/manage-reserved-capacity.html"
           entries:
           - title: Increase reserved capacity
-            url: "/sm-storage/task_increase_reserved_capacity.html"
+            url: "/sm-storage/increase-reserved-capacity.html"
           - title: Decrease reserved capacity
-            url: "/sm-storage/task_decrease_reserved_capacity.html"
+            url: "/sm-storage/decrease-reserved-capacity.html"
           - title: Change the reserved capacity settings for a snapshot group
-            url: "/sm-storage/task_change_the_reserved_capacity_settings_for_a_snapshot_group.html"
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html"
           - title: Change the reserved capacity settings for a snapshot volume
-            url: "/sm-storage/task_change_the_reserved_capacity_settings_for_a_snapshot_volume.html"
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html"
           - title: Change the reserved capacity settings for a consistency group member
               volume
-            url: "/sm-storage/task_change_the_reserved_capacity_settings_for_a_consistency_group_member_volume.html"
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html"
           - title: Change the reserved capacity settings for a mirrored pair volume
-            url: "/sm-storage/task_change_the_reserved_capacity_settings_for_a_mirrored_pair_volume.html"
+            url: "/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
           - title: Cancel pending snapshot image
-            url: "/sm-storage/task_cancel_pending_snapshot_image.html"
+            url: "/sm-storage/cancel-pending-snapshot-image.html"
           - title: Delete snapshot group
-            url: "/sm-storage/task_delete_snapshot_group.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/sm-storage/delete-snapshot-group.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-storage/generic_faqs.html"
+        url: "/sm-storage/generic-faqs.html"
         entries:
         - title: What is a hot spare drive?
-          url: "/sm-storage/concept_what_is_a_hot_spare_drive.html"
+          url: "/sm-storage/what-is-a-hot-spare-drive.html"
         - title: What is a volume group?
-          url: "/sm-storage/concept_what_is_a_volume_group.html"
+          url: "/sm-storage/what-is-a-volume-group.html"
         - title: What is a pool?
-          url: "/sm-storage/concept_what_is_a_pool.html"
+          url: "/sm-storage/what-is-a-pool.html"
         - title: What is reserved capacity?
-          url: "/sm-storage/concept_what_is_reserved_capacity.html"
+          url: "/sm-storage/what-is-reserved-capacity.html"
         - title: What is FDE/FIPS security?
-          url: "/sm-storage/concept_what_is_fde_fips_security.html"
+          url: "/sm-storage/what-is-fde-fips-security.html"
         - title: What is redundancy check?
-          url: "/sm-storage/concept_what_is_redundancy_check.html"
+          url: "/sm-storage/what-is-redundancy-check.html"
         - title: What are the differences between pools and volume groups?
-          url: "/sm-storage/concept_what_are_the_differences_between_pools_and_volume_groups.html"
+          url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
         - title: Why would I want to manually configure a pool?
-          url: "/sm-storage/concept_why_would_i_want_to_manually_configure_a_pool.html"
+          url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
         - title: Why are capacity alerts important?
-          url: "/sm-storage/concept_why_are_capacity_alerts_important.html"
+          url: "/sm-storage/why-are-capacity-alerts-important.html"
         - title: Why can&#8217;t I increase my preservation capacity?
-          url: "/sm-storage/concept_why_can_t_i_increase_my_preservation_capacity.html"
+          url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
         - title: Is there a limit on the number of drives I can remove from a pool?
-          url: "/sm-storage/concept_is_there_a_limit_on_the_number_of_drives_i_can_remove_from_a_pool.html"
+          url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
         - title: What media types are supported for a drive?
-          url: "/sm-storage/concept_what_media_types_are_supported_for_a_drive.html"
+          url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
         - title: Why are some drives not showing up?
-          url: "/sm-storage/concept_why_are_some_drives_not_showing_up.html"
+          url: "/sm-storage/why-are-some-drives-not-showing-up.html"
         - title: How do I maintain shelf/drawer loss protection?
-          url: "/sm-storage/concept_how_do_i_maintain_shelf_drawer_loss_protection.html"
+          url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
         - title: What is the optimal drive positioning for pools and volume groups?
-          url: "/sm-storage/concept_what_is_the_optimal_drive_positioning_for_pools_and_volume_groups.html"
+          url: "/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html"
         - title: What RAID level is best for my application?
-          url: "/sm-storage/concept_what_raid_level_is_best_for_my_application.html"
+          url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
         - title: What is Data Assurance?
-          url: "/sm-storage/concept_what_is_data_assurance.html"
+          url: "/sm-storage/what-is-data-assurance.html"
         - title: What is secure-capable (Drive Security)?
-          url: "/sm-storage/concept_what_is_security_capable_drive_security.html"
+          url: "/sm-storage/what-is-security-capable-drive-security.html"
         - title: What do I need to know about increasing reserved capacity?
-          url: "/sm-storage/concept_what_do_i_need_to_know_about_increasing_reserved_capacity.html"
+          url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
         - title: Why can&#8217;t I choose another amount to decrease by?
-          url: "/sm-storage/concept_why_can_t_i_choose_another_amount_to_decrease_by.html"
+          url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
         - title: Why do I need reserved capacity for each member volume?
-          url: "/sm-storage/concept_why_do_i_need_reserved_capacity_for_every_member_volume.html"
+          url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
         - title: How do I view and interpret all SSD Cache statistics?
-          url: "/sm-storage/concept_how_do_i_view_and_interpret_all_ssd_cache_statistics.html"
+          url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
         - title: What is optimization capacity for pools?
-          url: "/sm-storage/concept_what_is_optimization_capacity_pools.html"
+          url: "/sm-storage/what-is-optimization-capacity-pools.html"
         - title: What is optimization capacity for volume groups?
-          url: "/sm-storage/concept_what_is_optimization_capacity_volume_groups.html"
+          url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
         - title: What is resource provisioning capable?
-          url: "/sm-storage/concept_what_is_resource_provisioning_capable.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_volumes.gif" alt="sam1130
+          url: "/sm-storage/what-is-resource-provisioning-capable.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-volumes.gif" alt="sam1130
         icon volumes"></span> Volumes
-      url: "/sm-storage/generic_volumes.html"
+      url: "/sm-storage/generic-volumes.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-storage/generic_concepts.html"
+        url: "/sm-storage/generic-concepts.html"
         entries:
         - title: Volumes in the storage array
-          url: "/sm-storage/concept_volumes_in_the_storage_array.html"
+          url: "/sm-storage/volumes-in-the-storage-array.html"
         - title: Volume terminology
-          url: "/sm-storage/concept_volume_terminology.html"
+          url: "/sm-storage/volume-terminology.html"
         - title: Workflow for creating volumes
-          url: "/sm-storage/concept_workflow_for_creating_volumes.html"
+          url: "/sm-storage/workflow-for-creating-volumes.html"
         - title: Data integrity and data security for volumes
-          url: "/sm-storage/concept_data_integrity_and_data_security_for_volumes.html"
+          url: "/sm-storage/data-integrity-and-data-security-for-volumes.html"
         - title: SSD Cache and volumes
-          url: "/sm-storage/concept_ssd_cache_and_volumes.html"
+          url: "/sm-storage/ssd-cache-and-volumes.html"
         - title: Application-specific workloads
-          url: "/sm-storage/concept_application_specific_workloads.html"
+          url: "/sm-storage/application-specific-workloads.html"
         - title: Actions you can perform on volumes
-          url: "/sm-storage/concept_actions_you_can_perform_on_volumes.html"
+          url: "/sm-storage/actions-you-can-perform-on-volumes.html"
         - title: Capacity for volumes
-          url: "/sm-storage/concept_capacity_for_volumes.html"
+          url: "/sm-storage/capacity-for-volumes.html"
         - title: Thin volume monitoring
-          url: "/sm-storage/concept_thin_volume_monitoring.html"
+          url: "/sm-storage/thin-volume-monitoring.html"
         - title: Comparison between thick volumes and thin volumes
-          url: "/sm-storage/concept_comparison_between_thick_volumes_and_thin_volumes.html"
+          url: "/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html"
         - title: Copy Volume function
-          url: "/sm-storage/concept_copy_volume_function.html"
+          url: "/sm-storage/copy-volume-function.html"
         - title: Types of Copy Volume operations
-          url: "/sm-storage/concept_types_of_copy_volume_operations.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-storage/types-of-copy-volume-operations.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-storage/generic_how_tos.html"
+        url: "/sm-storage/generic-how-tos.html"
         entries:
         - title: Create storage
-          url: "/sm-storage/concept_create_storage.html"
+          url: "/sm-storage/create-storage.html"
           entries:
           - title: Create workloads
-            url: "/sm-storage/task_create_workloads.html"
+            url: "/sm-storage/create-workloads.html"
           - title: Create volumes
-            url: "/sm-storage/task_create_volumes_storage.html"
+            url: "/sm-storage/create-volumes-storage.html"
             entries:
             - title: 'Step 1: Select host for a volume'
-              url: "/sm-storage/task_create_volumes_storage_step_1.html"
+              url: "/sm-storage/create-volumes-storage-step-1.html"
             - title: 'Step 2: Select a workload for a volume'
-              url: "/sm-storage/task_create_volumes_storage_step_2.html"
+              url: "/sm-storage/create-volumes-storage-step-2.html"
             - title: 'Step 3: Add or edit volumes'
-              url: "/sm-storage/task_create_volumes_storage_step_3.html"
+              url: "/sm-storage/create-volumes-storage-step-3.html"
             - title: 'Step 4: Review volume configuration'
-              url: "/sm-storage/task_create_volumes_storage_step_4.html"
+              url: "/sm-storage/create-volumes-storage-step-4.html"
         - title: Manage volumes
-          url: "/sm-storage/concept_manage_volumes.html"
+          url: "/sm-storage/manage-volumes.html"
           entries:
           - title: Increase capacity of a volume
-            url: "/sm-storage/task_increase_capacity_of_a_volume.html"
+            url: "/sm-storage/increase-capacity-of-a-volume.html"
           - title: Change settings for a volume
-            url: "/sm-storage/task_change_settings_for_a_volume.html"
+            url: "/sm-storage/change-settings-for-a-volume.html"
           - title: Initialize volumes
-            url: "/sm-storage/task_initialize_volumes.html"
+            url: "/sm-storage/initialize-volumes.html"
           - title: Redistribute volumes
-            url: "/sm-storage/task_redistribute_volumes.html"
+            url: "/sm-storage/redistribute-volumes.html"
           - title: Change controller ownership of a volume
-            url: "/sm-storage/task_change_controller_ownership_of_a_volume.html"
+            url: "/sm-storage/change-controller-ownership-of-a-volume.html"
           - title: Change cache settings for a volume
-            url: "/sm-storage/task_change_cache_settings.html"
+            url: "/sm-storage/change-cache-settings.html"
           - title: Change media scan settings for a volume
-            url: "/sm-storage/task_change_media_scan_settings.html"
+            url: "/sm-storage/change-media-scan-settings.html"
           - title: Delete volume
-            url: "/sm-storage/task_delete_volume.html"
+            url: "/sm-storage/delete-volume.html"
         - title: Manage applications and workloads
-          url: "/sm-storage/concept_manage_application_workloads.html"
+          url: "/sm-storage/manage-application-workloads.html"
           entries:
           - title: Add to workload
-            url: "/sm-storage/task_add_to_workload.html"
+            url: "/sm-storage/add-to-workload.html"
           - title: Change workload settings
-            url: "/sm-storage/task_change_workload_settings.html"
+            url: "/sm-storage/change-workload-settings.html"
         - title: Work with copy services
-          url: "/sm-storage/concept_work_with_copy_services.html"
+          url: "/sm-storage/work-with-copy-services.html"
           entries:
           - title: Copy volume
-            url: "/sm-storage/task_copy_volume.html"
+            url: "/sm-storage/copy-volume.html"
           - title: Take action on a Copy Volume operation
-            url: "/sm-storage/task_take_action_on_a_copy_volume_operation.html"
+            url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
         - title: Monitor thin volumes
-          url: "/sm-storage/concept_monitor_thin_volumes.html"
+          url: "/sm-storage/monitor-thin-volumes.html"
           entries:
           - title: Change allocated capacity limit for a thin volume
-            url: "/sm-storage/task_change_allocated_capacity_limit_for_a_thin_volume.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-storage/generic_faqs.html"
+        url: "/sm-storage/generic-faqs.html"
         entries:
         - title: What is a volume?
-          url: "/sm-storage/concept_what_is_a_volume.html"
+          url: "/sm-storage/what-is-a-volume.html"
         - title: Why am I seeing a capacity over-allocation error when I have enough
             free capacity in a volume group to create volumes?
-          url: "/sm-storage/concept_why_am_i_seeing_a_capacity_over_allocation_error_when_i_have_enough_free_capacity_in_a_volume_group_to_create_volumes.html"
+          url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
         - title: How does my selected workload impact volume creation?
-          url: "/sm-storage/concept_how_does_my_selected_workload_impact_volume_creation.html"
+          url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
         - title: Why aren&#8217;t these volumes associated with a workload?
-          url: "/sm-storage/concept_why_aren_t_these_volumes_associated_with_a_workload.html"
+          url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
         - title: Why can&#8217;t I delete the selected workload?
-          url: "/sm-storage/concept_why_can_t_i_delete_the_selected_workload.html"
+          url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
         - title: How do application-specific workloads help me manage my storage array?
-          url: "/sm-storage/concept_how_do_application_specific_workloads_help_me_manage_my_storage_array.html"
+          url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
         - title: How does providing this information help create storage?
-          url: "/sm-storage/concept_how_does_providing_this_information_help_create_storage.html"
+          url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
         - title: What do I need to do to recognize the expanded capacity?
-          url: "/sm-storage/concept_what_do_i_need_to_do_to_recognize_the_expanded_capacity.html"
+          url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
         - title: Why don&#8217;t I see all my pools and/or volume groups?
-          url: "/sm-storage/concept_why_don_t_i_see_all_my_pools_and_or_volume_groups.html"
+          url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
         - title: What is segment size?
-          url: "/sm-storage/concept_what_is_segment_sizing.html"
+          url: "/sm-storage/what-is-segment-sizing.html"
         - title: What is preferred controller ownership?
-          url: "/sm-storage/concept_what_is_preferred_controller_ownership.html"
+          url: "/sm-storage/what-is-preferred-controller-ownership.html"
         - title: What is Automatic Load Balancing?
-          url: "/sm-storage/concept_what_is_automatic_load_balancing.html"
+          url: "/sm-storage/what-is-automatic-load-balancing.html"
         - title: When would I want to use the assign host later selection?
-          url: "/sm-storage/concept_when_would_i_want_to_use_the_assign_host_later_selection.html"
+          url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
         - title: What do I need to know about host block size requirements?
-          url: "/sm-storage/concept_what_do_i_need_to_know_about_host_block_size_requirements.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_hosts.gif" alt="sam1130
+          url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-hosts.gif" alt="sam1130
         icon hosts"></span> Hosts
-      url: "/sm-storage/generic_hosts.html"
+      url: "/sm-storage/generic-hosts.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-storage/generic_concepts.html"
+        url: "/sm-storage/generic-concepts.html"
         entries:
         - title: Host terminology
-          url: "/sm-storage/concept_host_terminology.html"
+          url: "/sm-storage/host-terminology.html"
         - title: Workflow for host creation and volume assignment
-          url: "/sm-storage/concept_workflow_for_creating_hosts_and_assigning_volumes.html"
+          url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
         - title: Automatic versus manual host creation
-          url: "/sm-storage/concept_automatic_versus_manual_host_creation.html"
+          url: "/sm-storage/automatic-versus-manual-host-creation.html"
         - title: How volumes are assigned to hosts and host clusters
-          url: "/sm-storage/concept_how_volumes_are_assigned_to_hosts_and_host_clusters.html"
+          url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
         - title: Access volumes
-          url: "/sm-storage/concept_access_volumes.html"
+          url: "/sm-storage/access-volumes.html"
         - title: Maximum number of LUNs
-          url: "/sm-storage/concept_maximum_number_of_luns.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-storage/maximum-number-of-luns.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-storage/generic_how_tos.html"
+        url: "/sm-storage/generic-how-tos.html"
         entries:
         - title: Configure host access
-          url: "/sm-storage/concept_configure_host_access.html"
+          url: "/sm-storage/configure-host-access.html"
           entries:
           - title: Create host automatically
-            url: "/sm-storage/task_create_host_automatically.html"
+            url: "/sm-storage/create-host-automatically.html"
           - title: Create host manually
-            url: "/sm-storage/task_create_host_manually.html"
+            url: "/sm-storage/create-host-manually.html"
           - title: Create host cluster
-            url: "/sm-storage/task_create_host_cluster.html"
+            url: "/sm-storage/create-host-cluster.html"
           - title: Create volumes
-            url: "/sm-storage/task_create_volumes_hosts.html"
+            url: "/sm-storage/create-volumes-hosts.html"
             entries:
             - title: 'Step 1: Select host for a volume'
-              url: "/sm-storage/task_create_volumes_hosts_step_1.html"
+              url: "/sm-storage/create-volumes-hosts-step-1.html"
             - title: 'Step 2: Select a workload for a volume'
-              url: "/sm-storage/task_create_volumes_hosts_step_2.html"
+              url: "/sm-storage/create-volumes-hosts-step-2.html"
             - title: 'Step 3: Add or edit volumes'
-              url: "/sm-storage/task_create_volumes_hosts_step_3.html"
+              url: "/sm-storage/create-volumes-hosts-step-3.html"
             - title: 'Step 4: Review volume configuration'
-              url: "/sm-storage/task_create_volumes_hosts_step_4.html"
+              url: "/sm-storage/create-volumes-hosts-step-4.html"
           - title: Assign volumes to hosts
-            url: "/sm-storage/task_assign_volumes.html"
+            url: "/sm-storage/assign-volumes.html"
         - title: Manage hosts and host clusters
-          url: "/sm-storage/concept_manage_hosts_and_host_clusters.html"
+          url: "/sm-storage/manage-hosts-and-host-clusters.html"
           entries:
           - title: Change the settings for a host
-            url: "/sm-storage/task_change_the_settings_for_a_host.html"
+            url: "/sm-storage/change-the-settings-for-a-host.html"
           - title: Change the settings for a host cluster
-            url: "/sm-storage/task_change_the_settings_for_a_host_cluster.html"
+            url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
           - title: Unassign volumes
-            url: "/sm-storage/task_unassign_volumes.html"
+            url: "/sm-storage/unassign-volumes.html"
           - title: Change host port identifiers for a host
-            url: "/sm-storage/task_change_host_port_identifiers_for_a_host.html"
+            url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
           - title: Delete host or host cluster
-            url: "/sm-storage/task_delete_host_or_host_cluster.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/sm-storage/delete-host-or-host-cluster.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-storage/generic_faqs.html"
+        url: "/sm-storage/generic-faqs.html"
         entries:
         - title: What are hosts and host clusters?
-          url: "/sm-storage/concept_what_are_hosts_and_host_clusters.html"
+          url: "/sm-storage/what-are-hosts-and-host-clusters.html"
         - title: Why would I need to create a host cluster?
-          url: "/sm-storage/concept_why_would_i_need_to_create_a_host_cluster.html"
+          url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
         - title: How do I know which host operating system type is correct?
-          url: "/sm-storage/concept_how_do_i_know_which_host_operating_system_type_is_correct.html"
+          url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
         - title: What are HBAs and adapter ports?
-          url: "/sm-storage/concept_what_are_hbas_and_adapter_ports.html"
+          url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
         - title: How do I match the host ports to a host?
-          url: "/sm-storage/concept_how_do_i_match_the_host_ports_to_a_host.html"
+          url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
         - title: How do I create CHAP secrets?
-          url: "/sm-storage/concept_how_do_i_create_chap_secrets.html"
+          url: "/sm-storage/how-do-i-create-chap-secrets.html"
         - title: What is the default cluster?
-          url: "/sm-storage/concept_what_is_the_default_cluster.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_performance.gif"
+          url: "/sm-storage/what-is-the-default-cluster.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-performance.gif"
         alt="sam1130 icon performance"></span> Performance
-      url: "/sm-storage/generic_performance.html"
+      url: "/sm-storage/generic-performance.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-storage/generic_concepts.html"
+        url: "/sm-storage/generic-concepts.html"
         entries:
         - title: Performance overview
-          url: "/sm-storage/concept_performance_overview.html"
+          url: "/sm-storage/performance-overview.html"
         - title: Performance terminology
-          url: "/sm-storage/concept_performance_terminology.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-storage/performance-terminology.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-storage/generic_how_tos.html"
+        url: "/sm-storage/generic-how-tos.html"
         entries:
         - title: View graphical performance data
-          url: "/sm-storage/task_view_performance_data_graphical.html"
+          url: "/sm-storage/view-performance-data-graphical.html"
         - title: View and save tabular performance data
-          url: "/sm-storage/task_view_and_save_performance_data_tabular.html"
+          url: "/sm-storage/view-and-save-performance-data-tabular.html"
         - title: Interpret performance data
-          url: "/sm-storage/concept_interpret_performance_data.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-storage/interpret-performance-data.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-storage/generic_faqs.html"
+        url: "/sm-storage/generic-faqs.html"
         entries:
         - title: How do performance statistics for individual volumes relate to the
             total?
-          url: "/sm-storage/concept_how_do_performance_statistics_for_individual_volumes_relate_to_the_total.html"
+          url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
         - title: Why does data display as zero in the graphs and table?
-          url: "/sm-storage/concept_why_does_the_data_display_as_zero_in_the_graphs_and_table.html"
+          url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
         - title: What does the Latency graph show?
-          url: "/sm-storage/concept_what_does_the_latency_graph_show.html"
+          url: "/sm-storage/what-does-the-latency-graph-show.html"
         - title: What does the IOPS graph show?
-          url: "/sm-storage/concept_what_does_the_iops_graph_show.html"
+          url: "/sm-storage/what-does-the-iops-graph-show.html"
         - title: What does the MiB/s graph show?
-          url: "/sm-storage/concept_what_does_the_mib_s_graph_show.html"
+          url: "/sm-storage/what-does-the-mib-s-graph-show.html"
         - title: What does the CPU graph show?
-          url: "/sm-storage/concept_what_does_the_cpu_graph_show.html"
+          url: "/sm-storage/what-does-the-cpu-graph-show.html"
         - title: What does the Headroom graph show?
-          url: "/sm-storage/concept_what_does_the_headroom_graph_show.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_snapshots.gif" alt="sam1130
+          url: "/sm-storage/what-does-the-headroom-graph-show.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-snapshots.gif" alt="sam1130
         icon snapshots"></span> Snapshots
-      url: "/sm-storage/generic_snapshots.html"
+      url: "/sm-storage/generic-snapshots.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-storage/generic_concepts.html"
+        url: "/sm-storage/generic-concepts.html"
         entries:
         - title: How snapshot images are used
-          url: "/sm-storage/concept_how_snapshot_images_are_used.html"
+          url: "/sm-storage/how-snapshot-images-are-used.html"
           entries:
           - title: Overview of snapshot storage
-            url: "/sm-storage/concept_overview_of_snapshot_storage.html"
+            url: "/sm-storage/overview-of-snapshot-storage.html"
           - title: Requirements and guidelines for snapshots
-            url: "/sm-storage/concept_requirements_and_guidelines_for_snapshots.html"
+            url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
           - title: Base volumes, reserved capacity, and snapshot groups
-            url: "/sm-storage/concept_base_volumes_reserved_capacity_and_snapshot_groups.html"
+            url: "/sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html"
           - title: Snapshot schedules and snapshot consistency groups
-            url: "/sm-storage/concept_snapshot_schedules_and_snapshot_consistency_groups.html"
+            url: "/sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html"
           - title: Snapshot volumes
-            url: "/sm-storage/concept_snapshot_volumes.html"
+            url: "/sm-storage/snapshot-volumes.html"
           - title: Snapshot rollback
-            url: "/sm-storage/concept_snapshot_rollback.html"
+            url: "/sm-storage/snapshot-rollback.html"
         - title: Snapshot terminology
-          url: "/sm-storage/concept_snapshot_terminology.html"
+          url: "/sm-storage/snapshot-terminology.html"
         - title: Workflow for creating snapshot images and snapshot volumes
-          url: "/sm-storage/concept_workflow_for_creating_snapshot_images_and_snapshot_volumes.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-storage/generic_how_tos.html"
+        url: "/sm-storage/generic-how-tos.html"
         entries:
         - title: Create snapshots and snapshot objects
-          url: "/sm-storage/concept_create_snapshots_and_snapshot_objects.html"
+          url: "/sm-storage/create-snapshots-and-snapshot-objects.html"
           entries:
           - title: Create snapshot image
-            url: "/sm-storage/task_create_snapshot_image.html"
+            url: "/sm-storage/create-snapshot-image.html"
           - title: Schedule snapshot images
-            url: "/sm-storage/task_schedule_snapshot_images.html"
+            url: "/sm-storage/schedule-snapshot-images.html"
           - title: Create snapshot consistency group
-            url: "/sm-storage/task_create_snapshot_consistency_group.html"
+            url: "/sm-storage/create-snapshot-consistency-group.html"
             entries:
             - title: 'Step 1: Add members to snapshot consistency group'
-              url: "/sm-storage/task_create_snapshot_consistency_group_step_1.html"
+              url: "/sm-storage/create-snapshot-consistency-group-step-1.html"
             - title: 'Step 2: Reserve capacity for snapshot consistency group'
-              url: "/sm-storage/task_create_snapshot_consistency_group_step_2.html"
+              url: "/sm-storage/create-snapshot-consistency-group-step-2.html"
             - title: 'Step 3: Edit settings for snapshot consistency group'
-              url: "/sm-storage/task_create_snapshot_consistency_group_step_3.html"
+              url: "/sm-storage/create-snapshot-consistency-group-step-3.html"
           - title: Create snapshot volume
-            url: "/sm-storage/task_create_snapshot_volume.html"
+            url: "/sm-storage/create-snapshot-volume.html"
             entries:
             - title: 'Step 1: Review members for a snapshot volume'
-              url: "/sm-storage/task_create_snapshot_volume_step_1.html"
+              url: "/sm-storage/create-snapshot-volume-step-1.html"
             - title: 'Step 2: Assign snapshot volume to host'
-              url: "/sm-storage/task_create_snapshot_volume_step_2.html"
+              url: "/sm-storage/create-snapshot-volume-step-2.html"
             - title: 'Step 3: Reserve capacity for a snapshot volume'
-              url: "/sm-storage/task_create_snapshot_volume_step_3.html"
+              url: "/sm-storage/create-snapshot-volume-step-3.html"
             - title: 'Step 4: Edit settings for a snapshot volume'
-              url: "/sm-storage/task_create_snapshot_volume_step_4.html"
+              url: "/sm-storage/create-snapshot-volume-step-4.html"
         - title: Manage snapshot schedules
-          url: "/sm-storage/concept_manage_snapshot_schedules.html"
+          url: "/sm-storage/manage-snapshot-schedules.html"
           entries:
           - title: Change the settings for a snapshot schedule
-            url: "/sm-storage/task_change_the_settings_for_a_snapshot_schedule.html"
+            url: "/sm-storage/change-the-settings-for-a-snapshot-schedule.html"
           - title: Activate and suspend snapshot schedule
-            url: "/sm-storage/task_activate_or_suspend_snapshot_schedule.html"
+            url: "/sm-storage/activate-or-suspend-snapshot-schedule.html"
           - title: Delete snapshot schedule
-            url: "/sm-storage/task_delete_snapshot_schedule.html"
+            url: "/sm-storage/delete-snapshot-schedule.html"
         - title: Manage snapshot images
-          url: "/sm-storage/concept_manage_snapshot_images.html"
+          url: "/sm-storage/manage-snapshot-images.html"
           entries:
           - title: View snapshot image settings
-            url: "/sm-storage/task_view_snapshot_image_settings.html"
+            url: "/sm-storage/view-snapshot-image-settings.html"
           - title: Start snapshot image rollback for a base volume
-            url: "/sm-storage/task_start_snapshot_image_rollback_for_base_volume.html"
+            url: "/sm-storage/start-snapshot-image-rollback-for-base-volume.html"
           - title: Start snapshot image rollback for snapshot consistency group member
               volumes
-            url: "/sm-storage/task_start_snapshot_image_rollback_for_consistency_group_member_volumes.html"
+            url: "/sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html"
           - title: Resume snapshot image rollback
-            url: "/sm-storage/task_resume_snapshot_image_rollback.html"
+            url: "/sm-storage/resume-snapshot-image-rollback.html"
           - title: Cancel snapshot image rollback
-            url: "/sm-storage/task_cancel_snapshot_image_rollback.html"
+            url: "/sm-storage/cancel-snapshot-image-rollback.html"
           - title: Delete snapshot image
-            url: "/sm-storage/task_delete_snapshot_image.html"
+            url: "/sm-storage/delete-snapshot-image.html"
         - title: Manage snapshot consistency groups
-          url: "/sm-storage/concept_manage_snapshot_consistency_groups.html"
+          url: "/sm-storage/manage-snapshot-consistency-groups.html"
           entries:
           - title: Add member volume to a snapshot consistency group
-            url: "/sm-storage/task_add_member_volumes_to_a_snapshot_consistency_group.html"
+            url: "/sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html"
           - title: Remove a member volume from a snapshot consistency group
-            url: "/sm-storage/task_remove_member_volumes_from_a_consistency_group.html"
+            url: "/sm-storage/remove-member-volumes-from-a-consistency-group.html"
           - title: Change the settings for a snapshot consistency group
-            url: "/sm-storage/task_change_the_settings_for_a_snapshot_consistency_group.html"
+            url: "/sm-storage/change-the-settings-for-a-snapshot-consistency-group.html"
           - title: Delete snapshot consistency group
-            url: "/sm-storage/task_delete_snapshot_consistency_group.html"
+            url: "/sm-storage/delete-snapshot-consistency-group.html"
         - title: Manage snapshot volumes
-          url: "/sm-storage/concept_manage_snapshot_volumes.html"
+          url: "/sm-storage/manage-snapshot-volumes.html"
           entries:
           - title: Convert snapshot volume to read-write mode
-            url: "/sm-storage/task_convert_a_snapshot_volume_to_read_write_mode.html"
+            url: "/sm-storage/convert-a-snapshot-volume-to-read-write-mode.html"
           - title: Change the volume settings for a snapshot volume
-            url: "/sm-storage/task_change_the_settings_for_a_snapshot_volume.html"
+            url: "/sm-storage/change-the-settings-for-a-snapshot-volume.html"
           - title: Copy snapshot volume
-            url: "/sm-storage/task_copy_snapshot_volume.html"
+            url: "/sm-storage/copy-snapshot-volume.html"
           - title: Re-create snapshot volume
-            url: "/sm-storage/task_re_create_snapshot_volume.html"
+            url: "/sm-storage/re-create-snapshot-volume.html"
           - title: Disable snapshot volume
-            url: "/sm-storage/task_disable_snapshot_volume.html"
+            url: "/sm-storage/disable-snapshot-volume.html"
           - title: Delete snapshot volume
-            url: "/sm-storage/task_delete_snapshot_volume.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/sm-storage/delete-snapshot-volume.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-storage/generic_faqs.html"
+        url: "/sm-storage/generic-faqs.html"
         entries:
         - title: Why don&#8217;t I see all my volumes, hosts, or host clusters?
-          url: "/sm-storage/concept_why_don_t_i_see_all_my_volumes_hosts_or_host_clusters.html"
+          url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
         - title: What is a snapshot image?
-          url: "/sm-storage/concept_what_is_a_snapshot_image.html"
+          url: "/sm-storage/what-is-a-snapshot-image.html"
         - title: Why use snapshot images?
-          url: "/sm-storage/concept_why_use_snapshot_images.html"
+          url: "/sm-storage/why-use-snapshot-images.html"
         - title: What kinds of volumes can be used for snapshots?
-          url: "/sm-storage/concept_what_kind_of_volumes_can_be_used_for_snapshots.html"
+          url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
         - title: Why would I create a snapshot consistency group?
-          url: "/sm-storage/concept_why_would_i_create_a_snapshot_consistency_group.html"
+          url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
         - title: What is a snapshot volume and when does it need reserved capacity?
-          url: "/sm-storage/concept_what_is_a_snapshot_volume_and_when_does_it_need_reserved_capacity.html"
+          url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
         - title: What is a snapshot group?
-          url: "/sm-storage/concept_what_is_a_snapshot_group.html"
+          url: "/sm-storage/what-is-a-snapshot-group.html"
         - title: Why would I disable a snapshot volume?
-          url: "/sm-storage/concept_why_would_i_disable_a_snapshot_volume.html"
+          url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
         - title: What is the Disabled state?
-          url: "/sm-storage/concept_what_is_the_disabled_state.html"
+          url: "/sm-storage/what-is-the-disabled-state.html"
         - title: Why would I suspend a snapshot schedule?
-          url: "/sm-storage/concept_why_would_i_suspend_a_snapshot_schedule.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_volumes.gif" alt="sam1130
+          url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-volumes.gif" alt="sam1130
         icon volumes"></span>Remote storage
-      url: "/sm-storage/generic_remote_storage.html"
+      url: "/sm-storage/generic-remote-storage.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-storage/generic_concepts.html"
+        url: "/sm-storage/generic-concepts.html"
         entries:
         - title: How Remote Storage works
-          url: "/sm-storage/concept_rtv_how_remote_storage_works.html"
+          url: "/sm-storage/rtv-how-remote-storage-works.html"
         - title: Remote Storage terminology
-          url: "/sm-storage/concept_rtv_terminology.html"
+          url: "/sm-storage/rtv-terminology.html"
         - title: Remote storage requirements
-          url: "/sm-storage/concept_rtv_remote_storage_requirements.html"
+          url: "/sm-storage/rtv-remote-storage-requirements.html"
         - title: Remote storage volume requirements
-          url: "/sm-storage/concept_rtv_remote_storage_volume_requirements.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-storage/rtv-remote-storage-volume-requirements.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-storage/generic_how_tos.html"
+        url: "/sm-storage/generic-how-tos.html"
         entries:
         - title: Import remote storage
-          url: "/sm-storage/task_rtv_import_remote_storage.html"
+          url: "/sm-storage/rtv-import-remote-storage.html"
         - title: Manage progress of remote storage imports
-          url: "/sm-storage/task_rtv_manage_progress_of_remote_volume_import.html"
+          url: "/sm-storage/rtv-manage-progress-of-remote-volume-import.html"
         - title: Modify connection settings for remote storage
-          url: "/sm-storage/task_rtv_modify_connection_settings_for_remote_storage.html"
+          url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
         - title: Remove remote storage object
-          url: "/sm-storage/task_rtv_remove_remote_storage.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-storage/rtv-remove-remote-storage.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-storage/generic_faqs.html"
+        url: "/sm-storage/generic-faqs.html"
         entries:
         - title: What do I need to know before creating a remote storage connection?
-          url: "/sm-storage/concept_rtv_what_do_i_need_to_know_before_creating_a_remote_storage.html"
+          url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
         - title: Why am I being prompted to remove my remote volumes?
-          url: "/sm-storage/concept_rtv_why_am_i_being_prompted_to_clean_up_my_remote_volumes.html"
+          url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
         - title: Why don&#8217;t I see all my volumes on my destination array?
-          url: "/sm-storage/concept_rtv_why_don_t_i_see_all_my_volumes.html"
+          url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
         - title: What do I need to know about the remote volume in an import?
-          url: "/sm-storage/concept_rtv_what_do_i_need_to_know_about_the_remote_device_in_an_import.html"
+          url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
         - title: What do I need to know before starting a remote storage import?
-          url: "/sm-storage/concept_rtv_what_do_i_need_to_know_before_starting_a_remote_storage_import.html"
+          url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
   - title: sm-support
     url: "/sm-support/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_support_center.gif"
+    - title: <span class="image"><img src="../media/sam1130-icon-support-center.gif"
         alt="sam1130 icon support center"></span> Support center
-      url: "/sm-support/generic_support_center.html"
+      url: "/sm-support/generic-support-center.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-support/generic_concepts.html"
+        url: "/sm-support/generic-concepts.html"
         entries:
         - title: AutoSupport feature overview
-          url: "/sm-support/concept_autosupport_feature_overview.html"
+          url: "/sm-support/autosupport-feature-overview.html"
         - title: Workflow for the AutoSupport feature
-          url: "/sm-support/concept_workflow_for_autosupport.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-support/workflow-for-autosupport.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-support/generic_how_tos.html"
+        url: "/sm-support/generic-how-tos.html"
         entries:
         - title: View storage array information
-          url: "/sm-support/concept_view_storage_array_information.html"
+          url: "/sm-support/view-storage-array-information.html"
           entries:
           - title: View storage array profile
-            url: "/sm-support/task_view_storage_array_profile.html"
+            url: "/sm-support/view-storage-array-profile.html"
           - title: View software and firmware inventory
-            url: "/sm-support/task_view_software_and_firmware_inventory.html"
+            url: "/sm-support/view-software-and-firmware-inventory.html"
         - title: Collect diagnostic data
-          url: "/sm-support/concept_collect_diagnostic_data.html"
+          url: "/sm-support/collect-diagnostic-data.html"
           entries:
           - title: Collect support data manually
-            url: "/sm-support/task_collect_support_data_manually.html"
+            url: "/sm-support/collect-support-data-manually.html"
           - title: Collect configuration data
-            url: "/sm-support/task_collect_configuration_data.html"
+            url: "/sm-support/collect-configuration-data.html"
           - title: Retrieve recovery support files
-            url: "/sm-support/task_retrieve_recovery_support_files.html"
+            url: "/sm-support/retrieve-recovery-support-files.html"
           - title: Retrieve trace buffers
-            url: "/sm-support/task_retrieve_trace_buffers.html"
+            url: "/sm-support/retrieve-trace-buffers.html"
           - title: Collect I/O path statistics
-            url: "/sm-support/task_collect_i_o_path_statistics.html"
+            url: "/sm-support/collect-i-o-path-statistics.html"
           - title: Retrieve health image
-            url: "/sm-support/task_retrieve_health_image.html"
+            url: "/sm-support/retrieve-health-image.html"
         - title: Take recovery action on storage array status
-          url: "/sm-support/concept_take_recovery_action_on_storage_array_status.html"
+          url: "/sm-support/take-recovery-action-on-storage-array-status.html"
           entries:
           - title: View unreadable sectors log
-            url: "/sm-support/task_view_unreadable_sectors_log.html"
+            url: "/sm-support/view-unreadable-sectors-log.html"
           - title: Re-enable drive ports
-            url: "/sm-support/task_re_enable_drive_ports.html"
+            url: "/sm-support/re-enable-drive-ports.html"
           - title: Clear recovery mode
-            url: "/sm-support/task_clear_recovery_mode.html"
+            url: "/sm-support/clear-recovery-mode.html"
         - title: Manage iSCSI connections
-          url: "/sm-support/concept_manage_iscsi_connections.html"
+          url: "/sm-support/manage-iscsi-connections.html"
           entries:
           - title: View iSCSI statistics packages
-            url: "/sm-support/task_view_iscsi_statistics_packages_support.html"
+            url: "/sm-support/view-iscsi-statistics-packages-support.html"
           - title: View the different types of iSCSI statistics
-            url: "/sm-support/concept_view_the_different_types_of_iscsi_statistics.html"
+            url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
             entries:
             - title: MAC transmit and MAC receive statistics
-              url: "/sm-support/concept_mac_transmit_and_mac_receive_statistics.html"
+              url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
             - title: Ethernet TCP/IP statistics
-              url: "/sm-support/concept_ethernet_tcp_ip_statistics.html"
+              url: "/sm-support/ethernet-tcp-ip-statistics.html"
             - title: iSCSI target statistics and local initiator statistics
-              url: "/sm-support/concept_iscsi_target_statistics_and_local_initiator_statistics.html"
+              url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
             - title: DCBX operational state statistics
-              url: "/sm-support/concept_dcbx_operational_state_statistics.html"
+              url: "/sm-support/dcbx-operational-state-statistics.html"
             - title: LLDP TLV statistics
-              url: "/sm-support/concept_lldp_tlv_statistics.html"
+              url: "/sm-support/lldp-tlv-statistics.html"
             - title: DCBX TLV statistics
-              url: "/sm-support/concept_dcbx_tlv_statistics.html"
+              url: "/sm-support/dcbx-tlv-statistics.html"
           - title: View iSCSI sessions
-            url: "/sm-support/task_view_iscsi_sessions_support.html"
+            url: "/sm-support/view-iscsi-sessions-support.html"
           - title: End iSCSI session
-            url: "/sm-support/task_end_iscsi_session_support.html"
+            url: "/sm-support/end-iscsi-session-support.html"
           - title: View iSER over InfiniBand statistics
-            url: "/sm-support/task_view_iser_over_infiniband_statistics_support.html"
+            url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
         - title: Manage NVMe connections
-          url: "/sm-support/concept_manage_nvme_connections.html"
+          url: "/sm-support/manage-nvme-connections.html"
           entries:
           - title: View NVMe over Fabrics statistics
-            url: "/sm-support/task_view_nvme_over_fabrics_statistics_support.html"
+            url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
         - title: Manage AutoSupport
-          url: "/sm-support/concept_manage_autosupport.html"
+          url: "/sm-support/manage-autosupport.html"
           entries:
           - title: Enable or disable AutoSupport features
-            url: "/sm-support/task_enable_or_disable_autosupport_features.html"
+            url: "/sm-support/enable-or-disable-autosupport-features.html"
           - title: Configure AutoSupport delivery method
-            url: "/sm-support/task_configure_autosupport_delivery_method.html"
+            url: "/sm-support/configure-autosupport-delivery-method.html"
           - title: Schedule AutoSupport dispatches
-            url: "/sm-support/task_schedule_autosupport_dispatches.html"
+            url: "/sm-support/schedule-autosupport-dispatches.html"
           - title: Send AutoSupport dispatches
-            url: "/sm-support/task_send_autosupport_dispatches.html"
+            url: "/sm-support/send-autosupport-dispatches.html"
           - title: View AutoSupport status
-            url: "/sm-support/task_view_autosupport_status.html"
+            url: "/sm-support/view-autosupport-status.html"
           - title: View AutoSupport log
-            url: "/sm-support/task_view_autosupport_log.html"
+            url: "/sm-support/view-autosupport-log.html"
           - title: Enable AutoSupport maintenance window
-            url: "/sm-support/task_enable_autosupport_maintenance_window.html"
+            url: "/sm-support/enable-autosupport-maintenance-window.html"
           - title: Disable AutoSupport maintenance window
-            url: "/sm-support/task_disable_autosupport_maintenance_window.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/sm-support/disable-autosupport-maintenance-window.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-support/generic_faqs.html"
+        url: "/sm-support/generic-faqs.html"
         entries:
         - title: What data am I collecting?
-          url: "/sm-support/concept_which_data_am_i_collecting_in_a_customer_support_bundle.html"
+          url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
         - title: What does unreadable sectors data show me?
-          url: "/sm-support/concept_what_does_unreadable_sectors_data_show_me.html"
+          url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
         - title: What is a health image?
-          url: "/sm-support/concept_what_is_a_health_image.html"
+          url: "/sm-support/what-is-a-health-image.html"
         - title: What else do I need to do to configure or diagnose iSCSI?
-          url: "/sm-support/concept_what_else_do_i_need_to_do_to_configure_or_diagnose_iscsi.html"
+          url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
         - title: What do the AutoSupport features do?
-          url: "/sm-support/concept_what_do_the_autosupport_features_do.html"
+          url: "/sm-support/what-do-the-autosupport-features-do.html"
         - title: What type of data is collected through the AutoSupport feature?
-          url: "/sm-support/concept_what_type_of_data_is_collected_through_autosupport.html"
+          url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
         - title: How do I configure the delivery method for the AutoSupport feature?
-          url: "/sm-support/task_how_do_i_configure_the_delivery_method_for_autosupport.html"
+          url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
         - title: What is configuration data?
-          url: "/sm-support/concept_what_is_configuration_data.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_event_log.gif" alt="sam1130
+          url: "/sm-support/what-is-configuration-data.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-event-log.gif" alt="sam1130
         icon event log"></span> Event log
-      url: "/sm-support/generic_event_log.html"
+      url: "/sm-support/generic-event-log.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-support/generic_concepts.html"
+        url: "/sm-support/generic-concepts.html"
         entries:
         - title: Critical events
-          url: "/sm-support/concept_critical_events.html"
+          url: "/sm-support/critical-events.html"
         - title: Event log
-          url: "/sm-support/concept_event_log.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-support/event-log.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-support/generic_how_tos.html"
+        url: "/sm-support/generic-how-tos.html"
         entries:
         - title: View events using the event log
-          url: "/sm-support/task_view_events_using_the_event_log.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_upgrade_center.gif"
+          url: "/sm-support/view-events-using-the-event-log.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-upgrade-center.gif"
         alt="sam1130 icon upgrade center"></span> Upgrade center
-      url: "/sm-support/generic_upgrade_center.html"
+      url: "/sm-support/generic-upgrade-center.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/sm-support/generic_concepts.html"
+        url: "/sm-support/generic-concepts.html"
         entries:
         - title: Controller software and firmware upgrades
-          url: "/sm-support/concept_controller_software_and_firmware_upgrades.html"
+          url: "/sm-support/controller-software-and-firmware-upgrades.html"
         - title: Workflow for controller software and firmware upgrade
-          url: "/sm-support/concept_workflow_for_controller_software_and_firmware_upgrade.html"
+          url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
         - title: Drive firmware upgrades
-          url: "/sm-support/concept_drive_firmware_upgrades.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/sm-support/drive-firmware-upgrades.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/sm-support/generic_how_tos.html"
+        url: "/sm-support/generic-how-tos.html"
         entries:
         - title: Upgrade software and firmware
-          url: "/sm-support/task_upgrade_controller_software_and_firmware.html"
+          url: "/sm-support/upgrade-controller-software-and-firmware.html"
         - title: Activate controller software and firmware
-          url: "/sm-support/task_activate_controller_software_and_firmware.html"
+          url: "/sm-support/activate-controller-software-and-firmware.html"
         - title: Upgrade drive firmware
-          url: "/sm-support/task_upgrade_drive_firmware.html"
+          url: "/sm-support/upgrade-drive-firmware.html"
         - title: Review the possible software and firmware upgrade errors
-          url: "/sm-support/concept_review_the_possible_software_and_firmware_upgrade_errors.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/sm-support/generic_faqs.html"
+        url: "/sm-support/generic-faqs.html"
         entries:
         - title: What do I need to know before upgrading the SANtricity OS Software?
-          url: "/sm-support/concept_what_do_i_need_to_know_before_upgrading_the_santricity_os_software.html"
+          url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
         - title: What do I need to know before suspending IOM auto-synchronization?
-          url: "/sm-support/concept_what_do_i_need_to_know_before_suspending_iom_auto_synchronization.html"
+          url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
         - title: Why is my firmware upgrade progressing so slowly?
-          url: "/sm-support/concept_why_is_my_firmware_upgrade_progressing_so_slowly.html"
+          url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
         - title: What do I need to know before upgrading drive firmware?
-          url: "/sm-support/concept_what_do_i_need_to_know_before_upgrading_drive_firmware.html"
+          url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
         - title: How do I choose which type of upgrade to perform?
-          url: "/sm-support/concept_how_do_i_choose_which_type_of_upgrade_to_perform.html"
+          url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
   - title: um-admin
     url: "/um-admin/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1130_icon_overview.gif" alt="sam1130
+    - title: <span class="image"><img src="../media/sam1130-icon-overview.gif" alt="sam1130
         icon overview"></span> Unified Manager overview
-      url: "/um-admin/concept_unified_manager_overview.html"
+      url: "/um-admin/unified-manager-overview.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-admin/generic_concepts.html"
+        url: "/um-admin/generic-concepts.html"
         entries:
         - title: Interface overview
-          url: "/um-admin/concept_home_page_unified.html"
+          url: "/um-admin/home-page-unified.html"
         - title: Supported browsers
-          url: "/um-admin/concept_supported_browsers_unified.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_admin.gif" alt="sam1130
+          url: "/um-admin/supported-browsers-unified.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-admin.gif" alt="sam1130
         icon admin"></span> Unified Manager administration
-      url: "/um-admin/concept_administration.html"
+      url: "/um-admin/administration.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-admin/generic_concepts.html"
+        url: "/um-admin/generic-concepts.html"
         entries:
         - title: Administrator password protection
-          url: "/um-admin/concept_administrator_password_protection_unified.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-admin/administrator-password-protection-unified.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-admin/generic_how_tos.html"
+        url: "/um-admin/generic-how-tos.html"
         entries:
         - title: Change the admin password
-          url: "/um-admin/task_change_admin_password_unified.html"
+          url: "/um-admin/change-admin-password-unified.html"
         - title: Change storage array passwords
-          url: "/um-admin/task_change_storage_array_passwords.html"
+          url: "/um-admin/change-storage-array-passwords.html"
         - title: Manage session timeouts
-          url: "/um-admin/task_manage_session_timeouts_unified.html"
+          url: "/um-admin/manage-session-timeouts-unified.html"
   - title: um-certificates
     url: "/um-certificates/index.html"
     entries:
-    - title: <span class="image"><img src="../media/sam1140_icon_certs.gif" alt="sam1140
+    - title: <span class="image"><img src="../media/sam1140-icon-certs.gif" alt="sam1140
         icon certs"></span> Certificate Management
-      url: "/um-certificates/generic_certificate_management.html"
+      url: "/um-certificates/generic-certificate-management.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-certificates/generic_concepts.html"
+        url: "/um-certificates/generic-concepts.html"
         entries:
         - title: How certificates work
-          url: "/um-certificates/concept_how_certificates_work_unified.html"
+          url: "/um-certificates/how-certificates-work-unified.html"
         - title: Certificate terminology
-          url: "/um-certificates/concept_certificate_terminology_unified.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-certificates/certificate-terminology-unified.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-certificates/generic_how_tos.html"
+        url: "/um-certificates/generic-how-tos.html"
         entries:
         - title: Use CA-signed certificates
-          url: "/um-certificates/task_use_ca_signed_certificate_um.html"
+          url: "/um-certificates/use-ca-signed-certificate-um.html"
           entries:
           - title: 'Step 1: Complete a CSR file'
-            url: "/um-certificates/task_step_1_complete_csr_file_unified.html"
+            url: "/um-certificates/step-1-complete-csr-file-unified.html"
           - title: 'Step 2: Submit CSR file'
-            url: "/um-certificates/task_step_2_submit_csr_files_unified.html"
+            url: "/um-certificates/step-2-submit-csr-files-unified.html"
           - title: 'Step 3: Import management certificates'
-            url: "/um-certificates/task_step_3_import_management_certificates_unified.html"
+            url: "/um-certificates/step-3-import-management-certificates-unified.html"
         - title: Reset management certificates
-          url: "/um-certificates/task_reset_management_certificates_unified.html"
+          url: "/um-certificates/reset-management-certificates-unified.html"
         - title: Import certificates for arrays
-          url: "/um-certificates/task_import_array_certificates_unified.html"
+          url: "/um-certificates/import-array-certificates-unified.html"
         - title: View certificates
-          url: "/um-certificates/task_view_certificates_unified.html"
+          url: "/um-certificates/view-certificates-unified.html"
         - title: Export certificates
-          url: "/um-certificates/task_export_certificates_unified.html"
+          url: "/um-certificates/export-certificates-unified.html"
         - title: Delete trusted certificates
-          url: "/um-certificates/task_delete_trusted_certificates_unified.html"
+          url: "/um-certificates/delete-trusted-certificates-unified.html"
         - title: Resolve untrusted certificates
-          url: "/um-certificates/task_resolve_untrusted_certificates_certificate_page.html"
-    - title: <span class="image"><img src="../media/sam1140_icon_active_directory.gif"
+          url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+    - title: <span class="image"><img src="../media/sam1140-icon-active-directory.gif"
         alt="sam1140 icon active directory"></span> Access Management
-      url: "/um-certificates/generic_access_management.html"
+      url: "/um-certificates/generic-access-management.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-certificates/generic_concepts.html"
+        url: "/um-certificates/generic-concepts.html"
         entries:
         - title: How Access Management works
-          url: "/um-certificates/concept_how_access_management_works_unified.html"
+          url: "/um-certificates/how-access-management-works-unified.html"
         - title: Access Management terminology
-          url: "/um-certificates/concept_access_management_terminology_unified.html"
+          url: "/um-certificates/access-management-terminology-unified.html"
         - title: Permissions for mapped roles
-          url: "/um-certificates/concept_permissions_for_mapped_roles_unified.html"
+          url: "/um-certificates/permissions-for-mapped-roles-unified.html"
         - title: Access Management with local user roles
-          url: "/um-certificates/concept_access_management_with_local_user_roles_unified.html"
+          url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: Access Management with directory services
-          url: "/um-certificates/concept_access_management_with_directory_services_unified.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-certificates/access-management-with-directory-services-unified.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-certificates/generic_how_tos.html"
+        url: "/um-certificates/generic-how-tos.html"
         entries:
         - title: View local user roles
-          url: "/um-certificates/task_view_local_user_roles_unified.html"
+          url: "/um-certificates/view-local-user-roles-unified.html"
         - title: Change passwords
-          url: "/um-certificates/task_change_passwords_unified.html"
+          url: "/um-certificates/change-passwords-unified.html"
         - title: Change local user password settings
-          url: "/um-certificates/task_change_local_user_passwords_settings_unified.html"
+          url: "/um-certificates/change-local-user-passwords-settings-unified.html"
         - title: Add directory server
-          url: "/um-certificates/task_add_directory_server_unified.html"
+          url: "/um-certificates/add-directory-server-unified.html"
         - title: Edit directory server settings and role mappings
-          url: "/um-certificates/task_edit_directory_server_settings_unified.html"
+          url: "/um-certificates/edit-directory-server-settings-unified.html"
         - title: Remove directory server
-          url: "/um-certificates/task_remove_directory_server_unified.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/um-certificates/remove-directory-server-unified.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/um-certificates/generic_faqs.html"
+        url: "/um-certificates/generic-faqs.html"
         entries:
         - title: Why can&#8217;t I log in?
-          url: "/um-certificates/concept_why_can_t_i_log_in_unified.html"
+          url: "/um-certificates/why-cant-i-log-in-unified.html"
         - title: What do I need to know before adding a directory server?
-          url: "/um-certificates/concept_what_do_i_need_to_know_before_adding_a_directory_server_unified.html"
+          url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: What do I need to know about mapping to storage array roles?
-          url: "/um-certificates/concept_what_do_i_need_to_know_about_mapping_storage_array_roles_unified.html"
+          url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
         - title: What are the local users?
-          url: "/um-certificates/concept_what_are_the_local_users.html"
+          url: "/um-certificates/what-are-the-local-users.html"
   - title: um-manage
     url: "/um-manage/index.html"
     entries:
-    - title: <span class="image"><img src="../media/artboard_9.png" alt="artboard
+    - title: <span class="image"><img src="../media/artboard-9.png" alt="artboard
         9"></span>Discover storage arrays
-      url: "/um-manage/generic_discover_storage_arrays.html"
+      url: "/um-manage/generic-discover-storage-arrays.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-manage/generic_concepts.html"
+        url: "/um-manage/generic-concepts.html"
         entries:
         - title: Considerations for discovering arrays
-          url: "/um-manage/concept_considerations_for_discovering_arrays.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-manage/considerations-for-discovering-arrays.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-manage/generic_how_tos.html"
+        url: "/um-manage/generic-how-tos.html"
         entries:
         - title: Discover multiple storage arrays
-          url: "/um-manage/task_discover_multiple_arrays.html"
+          url: "/um-manage/discover-multiple-arrays.html"
           entries:
           - title: Enter network address
-            url: "/um-manage/task_enter_network_address.html"
+            url: "/um-manage/enter-network-address.html"
           - title: Resolve self-signed certificates during discovery
-            url: "/um-manage/task_resolve_self_signed_certificates_during_discovery.html"
+            url: "/um-manage/resolve-self-signed-certificates-during-discovery.html"
           - title: Resolve untrusted certificates during discovery
-            url: "/um-manage/task_resolve_untrusted_certificates_during_discovery.html"
+            url: "/um-manage/resolve-untrusted-certificates-during-discovery.html"
           - title: Provide passwords
-            url: "/um-manage/task_provide_passwords.html"
+            url: "/um-manage/provide-passwords.html"
         - title: Discover single array
-          url: "/um-manage/task_discover_single_array.html"
-    - title: <span class="image"><img src="../media/artboard_11.png" alt="artboard
+          url: "/um-manage/discover-single-array.html"
+    - title: <span class="image"><img src="../media/artboard-11.png" alt="artboard
         11"></span>Launch
-      url: "/um-manage/generic_launch_system_manager.html"
+      url: "/um-manage/generic-launch-system-manager.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-manage/generic_concepts.html"
+        url: "/um-manage/generic-concepts.html"
         entries:
         - title: Considerations for accessing SANtricity System Manager
-          url: "/um-manage/concept_launch_considerations.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-manage/launch-considerations.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-manage/generic_how_tos.html"
+        url: "/um-manage/generic-how-tos.html"
         entries:
         - title: Manage an individual storage array
-          url: "/um-manage/task_launch_system_manager.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_system.gif" alt="sam1130
+          url: "/um-manage/launch-system-manager.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-system.gif" alt="sam1130
         icon system"></span>Import Settings
-      url: "/um-manage/generic_import_settings.html"
+      url: "/um-manage/generic-import-settings.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-manage/generic_concepts.html"
+        url: "/um-manage/generic-concepts.html"
         entries:
         - title: How Import Settings works
-          url: "/um-manage/concept_how_import_settings_works.html"
+          url: "/um-manage/how-import-settings-works.html"
         - title: Requirements for replicating storage configurations
-          url: "/um-manage/concept_requirements_for_replicating_storage_configurations.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-manage/requirements-for-replicating-storage-configurations.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-manage/generic_how_tos.html"
+        url: "/um-manage/generic-how-tos.html"
         entries:
         - title: Import alert settings
-          url: "/um-manage/task_import_alert_settings.html"
+          url: "/um-manage/import-alert-settings.html"
         - title: Import AutoSupport settings
-          url: "/um-manage/task_import_autosupport_settings.html"
+          url: "/um-manage/import-autosupport-settings.html"
         - title: Import directory services settings
-          url: "/um-manage/task_import_directory_services_settings.html"
+          url: "/um-manage/import-directory-services-settings.html"
         - title: Import system settings
-          url: "/um-manage/task_import_system_settings.html"
+          url: "/um-manage/import-system-settings.html"
         - title: Import storage configuration settings
-          url: "/um-manage/task_import_storage_configuration_settings.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+          url: "/um-manage/import-storage-configuration-settings.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/um-manage/generic_faqs.html"
+        url: "/um-manage/generic-faqs.html"
         entries:
         - title: What settings will be imported?
-          url: "/um-manage/concept_what_settings_will_be_imported.html"
+          url: "/um-manage/what-settings-will-be-imported.html"
         - title: Why don&#8217;t I see all of my storage arrays?
-          url: "/um-manage/concept_why_don_t_i_see_all_of_my_storage_arrays.html"
-    - title: <span class="image"><img src="../media/artboard_10.png" alt="artboard
+          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+    - title: <span class="image"><img src="../media/artboard-10.png" alt="artboard
         10"></span>Manage Groups
-      url: "/um-manage/generic_manage_groups.html"
+      url: "/um-manage/generic-manage-groups.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-manage/generic_concepts.html"
+        url: "/um-manage/generic-concepts.html"
         entries:
         - title: Storage array groups
-          url: "/um-manage/concept_storage_array_groups.html"
+          url: "/um-manage/storage-array-groups.html"
         - title: Storage array status
-          url: "/um-manage/concept_storage_array_status.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-manage/storage-array-status.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-manage/generic_how_tos.html"
+        url: "/um-manage/generic-how-tos.html"
         entries:
         - title: Manage groups
-          url: "/um-manage/task_manage_groups.html"
+          url: "/um-manage/manage-groups.html"
           entries:
           - title: Create storage array group
-            url: "/um-manage/task_create_storage_array_group.html"
+            url: "/um-manage/create-storage-array-group.html"
           - title: Delete storage array group
-            url: "/um-manage/task_delete_storage_array_group.html"
+            url: "/um-manage/delete-storage-array-group.html"
           - title: Rename storage array group
-            url: "/um-manage/task_rename_storage_array_group.html"
+            url: "/um-manage/rename-storage-array-group.html"
           - title: Add storage array to group
-            url: "/um-manage/task_add_storage_array_to_group.html"
+            url: "/um-manage/add-storage-array-to-group.html"
           - title: Remove storage arrays from group
-            url: "/um-manage/task_remove_storage_arrays_from_group.html"
+            url: "/um-manage/remove-storage-arrays-from-group.html"
         - title: Remove storage arrays from SANtricity Unified Manager
-          url: "/um-manage/task_remove_storage_array.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_upgrade_center.gif"
+          url: "/um-manage/remove-storage-array.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-upgrade-center.gif"
         alt="sam1130 icon upgrade center"></span>Upgrade Center
-      url: "/um-manage/generic_upgrade_center.html"
+      url: "/um-manage/generic-upgrade-center.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-manage/generic_concepts.html"
+        url: "/um-manage/generic-concepts.html"
         entries:
         - title: How upgrades work
-          url: "/um-manage/concept_how_upgrades_work.html"
+          url: "/um-manage/how-upgrades-work.html"
         - title: Upgrade considerations
-          url: "/um-manage/concept_upgrade_considerations.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-manage/upgrade-considerations.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-manage/generic_how_tos.html"
+        url: "/um-manage/generic-how-tos.html"
         entries:
         - title: Perform pre-upgrade health check
-          url: "/um-manage/task_perform_pre_upgrade_health_check.html"
+          url: "/um-manage/perform-pre-upgrade-health-check.html"
         - title: Upgrade SANtricity OS
-          url: "/um-manage/task_upgrade_controller_firmware.html"
+          url: "/um-manage/upgrade-controller-firmware.html"
         - title: Activate staged OS software
-          url: "/um-manage/task_activate_pending_firmware.html"
+          url: "/um-manage/activate-pending-firmware.html"
         - title: Manage software repository
-          url: "/um-manage/task_manage_repository.html"
+          url: "/um-manage/manage-repository.html"
         - title: Clear staged OS software
-          url: "/um-manage/task_clear_staged_os_software.html"
-    - title: <span class="image"><img src="../media/sam1130_icon_async_mirroring.gif"
+          url: "/um-manage/clear-staged-os-software.html"
+    - title: <span class="image"><img src="../media/sam1130-icon-async-mirroring.gif"
         alt="sam1130 icon async mirroring"></span>Mirroring
-      url: "/um-manage/generic_mirroring.html"
+      url: "/um-manage/generic-mirroring.html"
       entries:
-      - title: <span class="image"><img src="../media/sam1130_icon_concepts.gif" alt="sam1130
+      - title: <span class="image"><img src="../media/sam1130-icon-concepts.gif" alt="sam1130
           icon concepts"></span> Concepts
-        url: "/um-manage/generic_concepts.html"
+        url: "/um-manage/generic-concepts.html"
         entries:
         - title: Mirroring overview
-          url: "/um-manage/concept_mirroring_overview.html"
+          url: "/um-manage/mirroring-overview.html"
         - title: Mirroring configuration workflow
-          url: "/um-manage/concept_mirroring_configuration_workflow.html"
+          url: "/um-manage/mirroring-configuration-workflow.html"
         - title: Mirroring terminology
-          url: "/um-manage/concept_mirroring_terminology.html"
+          url: "/um-manage/mirroring-terminology.html"
         - title: Requirements for using mirroring
-          url: "/um-manage/concept_requirements_for_using_mirroring.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_how_tos.gif" alt="sam1130
+          url: "/um-manage/requirements-for-using-mirroring.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-how-tos.gif" alt="sam1130
           icon how tos"></span> How tos
-        url: "/um-manage/generic_how_tos.html"
+        url: "/um-manage/generic-how-tos.html"
         entries:
         - title: Create asynchronous mirrored pair
-          url: "/um-manage/task_create_asynchronous_mirrored_pair_um.html"
+          url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
           entries:
           - title: 'Step 1: Create or select a mirror consistency group'
-            url: "/um-manage/task_step_1_create_or_select_a_mirror_consistency_group_um_async.html"
+            url: "/um-manage/step-1-create-or-select-a-mirror-consistency-group-um-async.html"
           - title: 'Step 2: Select the primary volume'
-            url: "/um-manage/task_step_2_select_the_primary_volume_um_async.html"
+            url: "/um-manage/step-2-select-the-primary-volume-um-async.html"
           - title: 'Step 3: Select the secondary volume'
-            url: "/um-manage/task_step_3_select_the_secondary_volume_um_async.html"
+            url: "/um-manage/step-3-select-the-secondary-volume-um-async.html"
         - title: Create synchronous mirrored pair
-          url: "/um-manage/task_create_synchronous_mirrored_pair_um.html"
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
           entries:
           - title: 'Step 1: Select the primary volume'
-            url: "/um-manage/task_step_1_select_the_primary_volume_um_sync.html"
+            url: "/um-manage/step-1-select-the-primary-volume-um-sync.html"
           - title: 'Step 2: Select the secondary volume'
-            url: "/um-manage/task_step_2_select_the_secondary_volume_um_sync.html"
+            url: "/um-manage/step-2-select-the-secondary-volume-um-sync.html"
           - title: 'Step 3: Select synchronization settings'
-            url: "/um-manage/task_step_3_select_sync_settings_um_sync.html"
-      - title: <span class="image"><img src="../media/sam1130_icon_faqs.gif" alt="sam1130
+            url: "/um-manage/step-3-select-sync-settings-um-sync.html"
+      - title: <span class="image"><img src="../media/sam1130-icon-faqs.gif" alt="sam1130
           icon faqs"></span> FAQs
-        url: "/um-manage/generic_faqs.html"
+        url: "/um-manage/generic-faqs.html"
         entries:
         - title: What do I need to know before creating a mirror consistency group?
-          url: "/um-manage/concept_what_do_i_need_to_know_before_creating_a_mirror_consistency_group_um.html"
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
         - title: What do I need to know before creating a mirrored pair?
-          url: "/um-manage/concept_what_do_i_need_to_know_before_creating_a_mirrored_pair_um.html"
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
         - title: Why would I change this percentage?
-          url: "/um-manage/concept_why_would_i_change_this_percentage_um.html"
+          url: "/um-manage/why-would-i-change-this-percentage-um.html"
         - title: Why do I see more than one reserved capacity candidate?
-          url: "/um-manage/concept_why_do_i_see_more_than_one_reserved_capacity_candidate_um.html"
+          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
         - title: Why don&#8217;t I see all my volumes?
-          url: "/um-manage/concept_why_don_t_i_see_all_my_volumes_um.html"
+          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
         - title: Why don&#8217;t I see all the volumes on the remote storage array?
-          url: "/um-manage/concept_why_don_t_i_see_all_the_volumes_on_the_remote_storage_array_um.html"
+          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
         - title: What impact does synchronization priority have on synchronization
             rates?
-          url: "/um-manage/concept_what_impact_does_synchronization_priority_have_on_synchronization_rates_um.html"
+          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
         - title: Why is it recommended to use a manual synchronization policy?
-          url: "/um-manage/concept_why_is_it_recommended_to_use_a_manual_synchronization_policy_um.html"
+          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"

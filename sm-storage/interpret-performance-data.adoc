@@ -1,0 +1,79 @@
+---
+permalink: sm-storage/interpret-performance-data.html
+sidebar: sidebar
+keywords: 
+summary: 'Performance data can guide you in tuning the performance of your storage array.'
+---
+= Interpret performance data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Performance data can guide you in tuning the performance of your storage array.
+
+When interpreting Performance data, keep in mind that several factors affect the performance of your storage array. The following table describes the main areas to consider.
+
+|===
+| Performance data| Implications for performance tuning
+a|
+Latency (milliseconds, or ms)
+a|
+Monitor the I/O activity of a specific object.
+
+Potentially identify objects that are bottlenecks:
+
+* If a volume group is shared among several volumes, the individual volumes might need their own volume groups to improve the sequential performance of the drives and decrease latency.
+* With pools, larger latencies are introduced and uneven workloads might exist between drives, making the latency values less meaningful and, in general, higher.
+* Drive type and speed influence latency. With random I/O, faster spinning drives spend less time moving to and from different locations on the disk.
+* Too few drives result in more queued commands and a greater period of time for the drive to process the command, increasing the general latency of the system.
+* Larger I/Os have greater latency due to the additional time involved with transferring data.
+* Higher latency might indicate that the I/O pattern is random in nature. Drives with random I/O will have greater latency than those with sequential streams.
+* A disparity in latency among drives or volumes of a common volume group could indicate a slow drive.
+
+a|
+IOPS
+
+a|
+Factors that affect input/output operations per second (IOPS or IOs/sec) include these items:
+
+* Access pattern (random or sequential)
+* I/O size
+* RAID level
+* Cache block size
+* Whether read caching is enabled
+* Whether write caching is enabled
+* Dynamic cache read prefetch
+* Segment size
+* The number of drives in the volume groups or storage array
+
+The higher the cache hit rate, the higher I/O rates will be. Higher write I/O rates are experienced with write caching enabled compared to disabled. In deciding whether to enable write caching for an individual volume, look at the current IOPS and the maximum IOPS. You should see higher rates for sequential I/O patterns than for random I/O patterns. Regardless of your I/O pattern, enable write caching to maximize the I/O rate and to shorten the application response time.
+
+You can see performance improvements caused by changing the segment size in the IOPS statistics for a volume. Experiment to determine the optimal segment size, or use the file system size or database block size.
+
+a|
+MiB/s
+
+a|
+Transfer or throughput rates are determined by the application I/O size and the I/O rate. Generally, small application I/O requests result in a lower transfer rate but provide a faster I/O rate and shorter response time. With larger application I/O requests, higher throughput rates are possible.
+
+Understanding your typical application I/O patterns can help you determine the maximum I/O transfer rates for a specific storage array.
+
+a|
+CPU
+
+a|
+This value is a percentage of processing capacity that is being used.
+
+You might notice a disparity in the CPU usage of the same types of objects. For example, the CPU usage of one controller is heavy or is increasing over time while that of the other controller is lighter or more stable. In this case, you might want to change the controller ownership of one or more volumes to the controller with the lower CPU percentage.
+
+You might want to monitor CPU across the storage array. If CPU continues to increase over time while application performance decreases, you might need to add storage arrays. By adding storage arrays to your enterprise, you can continue to meet application needs at an acceptable performance level.
+
+a|
+Headroom
+a|
+Headroom refers to the remaining performance capability of the controllers, the controller host channels, and the controller drive channels. This value is expressed as a percentage and represents the gap between the maximum possible performance these objects are able to deliver and the current performance levels.
+
+* For the controllers, headroom is a percentage of maximum possible IOPS.
+* For the channels, headroom is a percentage of maximum throughput, or MiB/s. Read throughput, write throughput, and bidirectional throughput are included in the calculation.
+
+|===

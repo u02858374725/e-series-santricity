@@ -1,0 +1,32 @@
+---
+permalink: sm-settings/add-on-feature-terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the add-on feature terms apply to your storage array.'
+---
+= Add-on feature terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the add-on feature terms apply to your storage array.
+
+|===
+| Term| Description
+a|
+Feature Enable Identifier
+a|
+A Feature Enable Identifier is a unique string that identifies the specific storage array. This identifier ensures that when you obtain the premium feature, it is associated with only that particular storage array. This string is displayed under Add-Ons on the System page.
+a|
+Feature key file
+a|
+A feature key file is a file you receive for unlocking and enabling a premium feature or feature pack.
+a|
+Feature pack
+a|
+A feature pack is a bundle that changes storage array attributes (for example, changing the protocol from Fibre Channel to iSCSI). Feature packs require a special key to enable them.
+a|
+Premium feature
+a|
+A premium feature is an extra option that requires a key to enable it. It is not included in the standard configuration of System Manager.
+|===

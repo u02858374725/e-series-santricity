@@ -1,0 +1,62 @@
+---
+permalink: sm-settings/configure-iscsi-authentication.html
+sidebar: sidebar
+keywords: 
+summary: 'For extra security in an iSCSI network, you can set authentication between controllers \(targets\) and hosts \(initiators\). System Manager uses the Challenge Handshake Authentication Protocol \(CHAP\) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP secret.'
+---
+= Configure iSCSI authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators). System Manager uses the Challenge Handshake Authentication Protocol (CHAP) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP__secret__.
+
+== Before you begin
+
+You can set the CHAP secret for the initiators (iSCSI hosts) either before or after you set the CHAP secret for the targets (controllers). Before you follow the instructions in this task, you should wait until the hosts have made an iSCSI connection first, and then set the CHAP secret on the individual hosts. After the connections are made, the IQN names of the hosts and their CHAP secrets are listed in the dialog box for iSCSI authentication (described in this task), and you do not need to manually enter them.
+
+== About this task
+
+You can select one of the following authentication methods:
+
+* *One-way authentication* -- Use this setting to allow the controller to authenticate the identity of the iSCSI hosts (uni-directional authentication).
+* *Two-way authentication* -- Use this setting to allow both the controller and the iSCSI hosts to perform authentication (bi-directional authentication). This setting provides a second level of security by enabling the controller to authenticate the identity of the iSCSI hosts; and in turn, the iSCSI hosts to authenticate the identity of the controller.
+
+[NOTE]
+====
+The iSCSI settings and functions only display on the Settings page if your storage array supports iSCSI.
+====
+
+== Steps
+
+. Select *Settings* > *System*.
+. Under *iSCSI settings*, click *Configure Authentication*.
++
+The Configure Authentication dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
+
+. Select one of the following:
+ ** *No authentication* -- If you do not want the controller to authenticate the identity of iSCSI hosts, select this option and click *Finish*. The dialog box closes, and you are done with configuration.
+ ** *One-way authentication* -- To allow the controller to authenticate the identity of the iSCSI hosts, select this option and click *Next* to display the Configure Target CHAP dialog box.
+ ** *Two-way authentication* -- To allow both the controller and the iSCSI hosts to perform authentication, select this option and click *Next* to display the Configure Target CHAP dialog box.
+. For one-way or two-way authentication, enter or confirm the CHAP secret for the controller (the target). The CHAP secret must be between 12 and 57 printable ASCII characters.
++
+[NOTE]
+====
+If the CHAP secret for the controller was configured previously, the characters in the field are masked. If necessary, you can replace the existing characters (new characters are not masked).
+====
+
+. Do one of the following:
+ ** If you are configuring _one-way_ authentication, click *Finish*. The dialog box closes, and you are done with configuration.
+ ** If you are configuring _two-way_ authentication, click *Next* to display the Configure Initiator CHAP dialog box.
+. For two-way authentication, enter or confirm a CHAP secret for any of the iSCSI hosts (the initiators), which can be between 12 and 57 printable ASCII characters. If you do not want to configure two-way authentication for a particular host, leave the *Initiator CHAP Secret* field blank.
++
+[NOTE]
+====
+If the CHAP secret for a host was configured previously, the characters in the field are masked. If necessary, you can replace the existing characters (new characters are not masked).
+====
+
+. Click *Finish*.
+
+== Results
+
+Authentication occurs during the iSCSI login sequence between the controllers and iSCSI hosts, unless you specified no authentication.
