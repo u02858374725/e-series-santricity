@@ -2,7 +2,7 @@
 settings:
   name: Catalyst migration
   internal:
-    pdf_enabled: false
+    pdf_enabled: true
   prod:
     pdf_enabled: true
 sidebar:
@@ -399,8 +399,8 @@ sidebar:
           url: "/sm-mirroring/concept_how_does_asynchronous_mirroring_differ_from_synchronous_mirroring_sync.html"
         - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
           url: "/sm-mirroring/concept_synchronous_mirroring_why_don_t_i_see_all_my_volumes.html"
-        - title: Synchronous mirroring - Why don’t I see all the volumes on the remote
-            storage array?
+        - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
+            the remote storage array?
           url: "/sm-mirroring/concept_synchronous_mirroring_why_don_t_i_see_all_the_volumes_on_the_remote_storage_array.html"
         - title: Synchronous mirroring - What do I need to know before creating a
             mirrored pair?

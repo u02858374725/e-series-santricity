@@ -19,7 +19,9 @@ System Manager may suggest a volume configuration based on the application or wo
  ** 2,048 volumes (EF600 and E5700 series)
  ** 1,024 volumes (EF300)
  ** 512 volumes (E2800 series)
-* To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
+* {blank}
+ ** To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
+
 +
 Selecting a DA capable pool or volume group
 +
@@ -28,7 +30,6 @@ If you want to create a DA-enabled volume, select a pool or volume group that is
 DA capabilities are presented at the pool and volume group level in System Manager. DA protection checks for and corrects errors that might occur as data is transferred through the controllers down to the drives. Selecting a DA-capable pool or volume group for the new volume ensures that any errors are detected and corrected.
 +
 If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
-
 * To create a secure-enabled volume, a security key must be created for the storage array.
 +
 Selecting a secure-capable pool or volume group

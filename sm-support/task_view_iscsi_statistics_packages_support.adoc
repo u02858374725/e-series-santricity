@@ -1,0 +1,34 @@
+---
+permalink: sm-support/task_view_iscsi_statistics_packages_support.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view data about the iSCSI connections to your storage array.'
+---
+= View iSCSI statistics packages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view data about the iSCSI connections to your storage array.
+
+== About this task
+
+System Manager shows these types of iSCSI statistics. All statistics are read-only and cannot be set.
+
+* *Ethernet MAC statistics* -- Provides statistics for the media access control (MAC). MAC also provides an addressing mechanism called the physical address or the MAC address. The MAC address is a unique address that is assigned to each network adapter. The MAC address helps deliver data packets to a destination within the subnetwork.
+* *Ethernet TCP/IP statistics* -- Provides statistics for the TCP/IP, which is the Transmission Control Protocol (TCP) and Internet Protocol (IP) for the iSCSI device. With TCP, applications on networked hosts can create connections to one another, over which they can exchange data in packets. The IP is a data-oriented protocol that communicates data across a packet-switched inter-network. The IPv4 statistics and the IPv6 statistics are shown separately.
+* *Local Target/Initiator (Protocol) statistics* -- Shows statistics for the iSCSI target, which provides block level access to its storage media, and shows the iSCSI statistics for the storage array when used as an initiator in asynchronous mirroring operations.
+* *DCBX Operational States statistics* -- Displays the operational states of the various Data Center Bridging Exchange (DCBX) features.
+* *LLDP TLV statistics* -- Displays the Link Layer Discovery Protocol (LLDP) Type Length Value (TLV) statistics.
+* *DCBX TLV statistics* -- Displays the information that identifies the storage array host ports in a Data Center Bridging (DCB) environment. This information is shared with network peers for identification and capability purposes.
+
+You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View iSCSI Statistics Packages*.
+. Click a tab to view the different sets of statistics.
+. To set the baseline, click *Set new baseline*.
++
+Setting the baseline sets a new starting point for the collection of the statistics. The same baseline is used for all iSCSI statistics.

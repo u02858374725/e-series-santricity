@@ -76,7 +76,7 @@ summary: ''
   *** xref:task_upgrade_drive_firmware.adoc[Upgrade drive firmware]
   *** xref:concept_review_the_possible_software_and_firmware_upgrade_errors.adoc[Review the possible software and firmware upgrade errors]
  ** xref:GUID-549C2152-3403-4F79-B6B1-C83C55F31F8D-UPGRADE.adoc[FAQs]
-  *** xref:concept_what_do_i_need_to_know_before_upgrading_the_santricity_os_software.adoc[What do I need to know before upgrading the SANtricity...]
+  *** xref:concept_what_do_i_need_to_know_before_upgrading_the_santricity_os_software.adoc[What do I need to know before upgrading the SANtricity OS Software?]
   *** xref:concept_what_do_i_need_to_know_before_suspending_iom_auto_synchronization.adoc[What do I need to know before suspending IOM auto-synchronization?]
   *** xref:concept_why_is_my_firmware_upgrade_progressing_so_slowly.adoc[Why is my firmware upgrade progressing so slowly?]
   *** xref:concept_what_do_i_need_to_know_before_upgrading_drive_firmware.adoc[What do I need to know before upgrading drive firmware?]
