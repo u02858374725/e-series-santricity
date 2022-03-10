@@ -1,0 +1,176 @@
+section: um-manage
+title: Manage
+    entries:
+    - title: Discover storage arrays
+      url: "/um-manage/generic-discover-storage-arrays.html"
+      entries:
+      - title: Concepts
+        url: "/um-manage/generic-concepts.html"
+        entries:
+        - title: Considerations for discovering arrays
+          url: "/um-manage/considerations-for-discovering-arrays.html"
+      - title: How tos
+        url: "/um-manage/generic-how-tos.html"
+        entries:
+        - title: Discover multiple storage arrays
+          url: "/um-manage/discover-multiple-arrays.html"
+          entries:
+          - title: Enter network address
+            url: "/um-manage/enter-network-address.html"
+          - title: Resolve self-signed certificates during discovery
+            url: "/um-manage/resolve-self-signed-certificates-during-discovery.html"
+          - title: Resolve untrusted certificates during discovery
+            url: "/um-manage/resolve-untrusted-certificates-during-discovery.html"
+          - title: Provide passwords
+            url: "/um-manage/provide-passwords.html"
+        - title: Discover single array
+          url: "/um-manage/discover-single-array.html"
+    - title: Launch
+      url: "/um-manage/generic-launch-system-manager.html"
+      entries:
+      - title: Concepts
+        url: "/um-manage/generic-concepts.html"
+        entries:
+        - title: Considerations for accessing SANtricity System Manager
+          url: "/um-manage/launch-considerations.html"
+      - title: How tos
+        url: "/um-manage/generic-how-tos.html"
+        entries:
+        - title: Manage an individual storage array
+          url: "/um-manage/launch-system-manager.html"
+    - title: Import Settings
+      url: "/um-manage/generic-import-settings.html"
+      entries:
+      - title: Concepts
+        url: "/um-manage/generic-concepts.html"
+        entries:
+        - title: How Import Settings works
+          url: "/um-manage/how-import-settings-works.html"
+        - title: Requirements for replicating storage configurations
+          url: "/um-manage/requirements-for-replicating-storage-configurations.html"
+      - title: How tos
+        url: "/um-manage/generic-how-tos.html"
+        entries:
+        - title: Import alert settings
+          url: "/um-manage/import-alert-settings.html"
+        - title: Import AutoSupport settings
+          url: "/um-manage/import-autosupport-settings.html"
+        - title: Import directory services settings
+          url: "/um-manage/import-directory-services-settings.html"
+        - title: Import system settings
+          url: "/um-manage/import-system-settings.html"
+        - title: Import storage configuration settings
+          url: "/um-manage/import-storage-configuration-settings.html"
+      - title: FAQs
+        url: "/um-manage/generic-faqs.html"
+        entries:
+        - title: What settings will be imported?
+          url: "/um-manage/what-settings-will-be-imported.html"
+        - title: Why don&#8217;t I see all of my storage arrays?
+          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+    - title: Manage Groups
+      url: "/um-manage/generic-manage-groups.html"
+      entries:
+      - title: Concepts
+        url: "/um-manage/generic-concepts.html"
+        entries:
+        - title: Storage array groups
+          url: "/um-manage/storage-array-groups.html"
+        - title: Storage array status
+          url: "/um-manage/storage-array-status.html"
+      - title: How tos
+        url: "/um-manage/generic-how-tos.html"
+        entries:
+        - title: Manage groups
+          url: "/um-manage/manage-groups.html"
+          entries:
+          - title: Create storage array group
+            url: "/um-manage/create-storage-array-group.html"
+          - title: Delete storage array group
+            url: "/um-manage/delete-storage-array-group.html"
+          - title: Rename storage array group
+            url: "/um-manage/rename-storage-array-group.html"
+          - title: Add storage array to group
+            url: "/um-manage/add-storage-array-to-group.html"
+          - title: Remove storage arrays from group
+            url: "/um-manage/remove-storage-arrays-from-group.html"
+        - title: Remove storage arrays from SANtricity Unified Manager
+          url: "/um-manage/remove-storage-array.html"
+    - title: Upgrade Center
+      url: "/um-manage/generic-upgrade-center.html"
+      entries:
+      - title: Concepts
+        url: "/um-manage/generic-concepts.html"
+        entries:
+        - title: How upgrades work
+          url: "/um-manage/how-upgrades-work.html"
+        - title: Upgrade considerations
+          url: "/um-manage/upgrade-considerations.html"
+      - title: How tos
+        url: "/um-manage/generic-how-tos.html"
+        entries:
+        - title: Perform pre-upgrade health check
+          url: "/um-manage/perform-pre-upgrade-health-check.html"
+        - title: Upgrade SANtricity OS
+          url: "/um-manage/upgrade-controller-firmware.html"
+        - title: Activate staged OS software
+          url: "/um-manage/activate-pending-firmware.html"
+        - title: Manage software repository
+          url: "/um-manage/manage-repository.html"
+        - title: Clear staged OS software
+          url: "/um-manage/clear-staged-os-software.html"
+    - title: Mirroring
+      url: "/um-manage/generic-mirroring.html"
+      entries:
+      - title: Concepts
+        url: "/um-manage/generic-concepts.html"
+        entries:
+        - title: Mirroring overview
+          url: "/um-manage/mirroring-overview.html"
+        - title: Mirroring configuration workflow
+          url: "/um-manage/mirroring-configuration-workflow.html"
+        - title: Mirroring terminology
+          url: "/um-manage/mirroring-terminology.html"
+        - title: Requirements for using mirroring
+          url: "/um-manage/requirements-for-using-mirroring.html"
+      - title: How tos
+        url: "/um-manage/generic-how-tos.html"
+        entries:
+        - title: Create asynchronous mirrored pair
+          url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
+          entries:
+          - title: 'Step 1: Create or select a mirror consistency group'
+            url: "/um-manage/step-1-create-or-select-a-mirror-consistency-group-um-async.html"
+          - title: 'Step 2: Select the primary volume'
+            url: "/um-manage/step-2-select-the-primary-volume-um-async.html"
+          - title: 'Step 3: Select the secondary volume'
+            url: "/um-manage/step-3-select-the-secondary-volume-um-async.html"
+        - title: Create synchronous mirrored pair
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
+          entries:
+          - title: 'Step 1: Select the primary volume'
+            url: "/um-manage/step-1-select-the-primary-volume-um-sync.html"
+          - title: 'Step 2: Select the secondary volume'
+            url: "/um-manage/step-2-select-the-secondary-volume-um-sync.html"
+          - title: 'Step 3: Select synchronization settings'
+            url: "/um-manage/step-3-select-sync-settings-um-sync.html"
+      - title: FAQs
+        url: "/um-manage/generic-faqs.html"
+        entries:
+        - title: What do I need to know before creating a mirror consistency group?
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
+        - title: What do I need to know before creating a mirrored pair?
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
+        - title: Why would I change this percentage?
+          url: "/um-manage/why-would-i-change-this-percentage-um.html"
+        - title: Why do I see more than one reserved capacity candidate?
+          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
+        - title: Why don&#8217;t I see all my volumes?
+          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
+        - title: Why don&#8217;t I see all the volumes on the remote storage array?
+          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
+        - title: What impact does synchronization priority have on synchronization
+            rates?
+          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
+        - title: Why is it recommended to use a manual synchronization policy?
+          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
