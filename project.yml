@@ -2,12 +2,12 @@
 settings:
   name: Catalyst Migration
   internal:
-    pdf_enabled: false
+    pdf_enabled: true
   prod:
     pdf_enabled: true
 sidebar:
   entries:
-  - title: Home
+  - title: Main
     url: "/index.html"
   - section: sm-hardware
   - section: sm-interface
