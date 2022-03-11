@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Catalyst Migration
+  name: E-Series SANtricity docs
   internal:
     pdf_enabled: true
   prod:
@@ -9,12 +9,12 @@ sidebar:
   entries:
   - title: Main
     url: "/index.html"
-  - section: sm-hardware
   - section: sm-interface
-  - section: sm-mirroring
-  - section: sm-settings
   - section: sm-storage
+  - section: sm-mirroring
+  - section: sm-hardware
+  - section: sm-settings
   - section: sm-support
   - section: um-admin
-  - section: um-certificates
   - section: um-manage
+  - section: um-certificates

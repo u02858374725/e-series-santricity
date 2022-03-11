@@ -1,5 +1,5 @@
 section: um-manage
-title: Manage
+title: UM-Manage
 entries:
   - title: Discover storage arrays
     url: "/um-manage/generic-discover-storage-arrays.html"

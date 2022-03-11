@@ -1,5 +1,5 @@
 section: um-certificates
-title: Certificates
+title: UM-Certificates
 entries:
   - title: Certificate Management
     url: "/um-certificates/generic-certificate-management.html"
