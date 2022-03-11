@@ -1,0 +1,20 @@
+---
+permalink: um-manage/launch-considerations.html
+sidebar: sidebar
+keywords: 
+summary: 'You select one or more storage arrays and use the Launch option to open SANtricity System Manager when you want to configure and manage storage arrays.'
+---
+= Considerations for accessing SANtricity System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You select one or more storage arrays and use the Launch option to open SANtricity System Manager when you want to configure and manage storage arrays.
+
+SANtricity System Manager is an embedded application on the E2800 or E5700 controller, which is connected to the network through an Ethernet management port.
+
+SANtricity System Manager includes all array-based functions for E2800 or E5700 arrays.
+
+To access SANtricity System Manager, you must have an out-of-band connection to a network management client with a web browser.
+
+image::../media/single2800.gif[]

@@ -1,0 +1,40 @@
+---
+permalink: sm-support/lldp-tlv-statistics.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= LLDP TLV statistics
+:icons: font
+:imagesdir: ../media/
+
+When you select Link Layer Discovery Protocol (LLDP) Type Length Value (TLV) Statistics, these statistics appear. Two sets of statistics appear: one for the local device and one for the remote device. The local device refers to the controller. The remote device refers to the peer device that the controller is attached to, typically a switch.
+
+|===
+| Statistic| Definition
+a|
+iSCSI Host Port
+a|
+Indicates the location of the detected host port in Controller #, Port # format.
+a|
+Chassis ID
+a|
+Indicates the chassis ID.
+a|
+Chassis ID Subtype
+a|
+Indicates the chassis ID subtype.
+a|
+Port ID
+a|
+Indicates the port ID.
+a|
+Port ID Subtype
+a|
+Indicates the port ID subtype.
+a|
+Time to Live
+a|
+Indicates the number of seconds that the recipient LLDP agent considers the information to be valid.
+|===
+You can find additional LLDP TLV statistics in the state capture file.

@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/manage-volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can manage volumes to increase reported capacity, initialize volumes, redistribute volumes, and delete volumes. You can also change a volume’s settings, ownership, cache settings, and media scan settings.'
+---
+= Manage volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manage volumes to increase reported capacity, initialize volumes, redistribute volumes, and delete volumes. You can also change a volume's settings, ownership, cache settings, and media scan settings.

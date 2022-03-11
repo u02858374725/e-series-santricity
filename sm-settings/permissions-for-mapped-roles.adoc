@@ -1,0 +1,23 @@
+---
+permalink: sm-settings/permissions-for-mapped-roles.html
+sidebar: sidebar
+keywords: 
+summary: 'The RBAC \(role-based access control\) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager.'
+---
+= Permissions for mapped roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager.
+
+User profiles and mapped roles are accessible from *Settings* > *Access Management* > *Local User Roles* in the user interface of either System Manager.
+
+The roles provide user access to tasks, as follows:
+
+* *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
+* *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
+* *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
+* *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
+If a user does not have permissions for a certain task, that task is either grayed out or does not display in the user interface.

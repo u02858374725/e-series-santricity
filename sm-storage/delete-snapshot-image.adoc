@@ -1,0 +1,37 @@
+---
+permalink: sm-storage/delete-snapshot-image.html
+sidebar: sidebar
+keywords: 
+summary: 'You delete snapshot images to clean up the oldest snapshot image from a snapshot group or snapshot consistency group.'
+---
+= Delete snapshot image
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You delete snapshot images to clean up the oldest snapshot image from a snapshot group or snapshot consistency group.
+
+== About this task
+
+You can delete a single snapshot image, or you can delete snapshot images from snapshot consistency groups that have the same creation timestamp. You also can delete snapshot images from a snapshot group.
+
+You cannot delete a snapshot image if it is not the oldest snapshot image for the associated base volume or snapshot consistency group.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Click the *Snapshot Images* tab.
+. Select the snapshot image that you want to delete, and confirm that you want to perform the operation.
++
+If you selected a snapshot image of a snapshot consistency group, select each member volume that you want to delete, and confirm that you want to perform the operation.
+
+. Click *Delete*.
+
+== Results
+
+System Manager performs the following actions:
+
+* Deletes the snapshot image from the storage array.
+* Releases the reserved capacity for reuse within the snapshot group or snapshot consistency group.
+* Disables all the associated snapshot volumes that exist for the deleted snapshot image.
+* From a snapshot consistency group deletion, moves any member volume associated with the deleted snapshot image to a Stopped state.

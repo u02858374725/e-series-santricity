@@ -1,0 +1,48 @@
+---
+permalink: sm-support/view-unreadable-sectors-log.html
+sidebar: sidebar
+keywords: 
+summary: 'You can save the unreadable sectors log and send the file to technical support for analysis.'
+---
+= View unreadable sectors log
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can save the unreadable sectors log and send the file to technical support for analysis.
+
+== About this task
+
+The unreadable sectors log contains detailed records of unreadable sectors caused by drives reporting unrecoverable media errors. Unreadable sectors are detected during normal I/O and during modification operations, such as reconstructions. When unreadable sectors are detected on a storage array, a Needs Attention alert appears for the storage array. The Recovery Guru distinguishes which unreadable sector condition needs attention. Any data contained in an unreadable sector cannot be recovered and should be considered lost.
+
+The unreadable sectors log can store up to 1,000 unreadable sectors. When the unreadable sectors log reaches 1,000 entries, the following conditions apply:
+
+* If new unreadable sectors are detected during reconstruction, the reconstruction fails, and no entry is logged.
+* For new unreadable sectors detected during I/O, the I/O fails, and no entry is logged.
++
+[NOTE]
+====
+These actions include RAID 5 writes and RAID 6 writes that would have succeeded before the overflow.
+====
+
+[NOTE]
+====
+*Possible loss of data* -- Recovery from unreadable sectors is a complicated procedure that can involve several different methods. Perform this operation only when instructed to do so by technical support.
+====
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View/Clear Unreadable Sectors*.
+. To save the unreadable sectors log:
+ .. In the first column of the table, you can either select individual volumes for which you want to save the unreadable sectors log (click the check box next to each volume) or select all volumes (select the check box in the table header).
++
+To find particular volumes, you can sort any of the columns or type characters in the *Filter* box.
+
+ .. Click *Save*.
+
++
+The file is saved in the Downloads folder for your browser with the name `unreadable-sectors.txt`.
+. If technical support instructs you to clear the unreadable sectors log, perform the following steps:
+ .. In the first column of the table, you can either select individual volumes for which you want to clear the unreadable sectors log (click the check box next to each volume) or select all volumes (select the check box in the table header).
+ .. Click *Clear*, and confirm that you want to perform the operation.

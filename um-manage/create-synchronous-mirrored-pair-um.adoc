@@ -1,0 +1,40 @@
+---
+permalink: um-manage/create-synchronous-mirrored-pair-um.html
+sidebar: sidebar
+keywords: 
+summary: 'To configure synchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.'
+---
+= Create synchronous mirrored pair
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure synchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
+
+== Before you begin
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+Before you create a mirrored pair, meet the following requirements for Unified Manager:
+
+* The Web Services Proxy service must be running.
+* Unified Manager must be running on your local host through an HTTPS connection.
+* Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+Also be sure to meet the following requirements for storage arrays:
+
+* The two storage arrays you plan to use for mirroring are discovered in Unified Manager.
+* Each storage array must have two controllers.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric.
+* You have created both the primary and secondary volumes that you want to use in the synchronous mirror relationship.
+
+== About this task
+
+The process to create synchronous mirrored pairs is a multi-step procedure.

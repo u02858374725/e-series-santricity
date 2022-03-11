@@ -1,0 +1,34 @@
+---
+permalink: sm-storage/change-controller-ownership-of-a-volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the preferred controller ownership of a volume, so that I/O for host applications is directed through the new path.'
+---
+= Change controller ownership of a volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the preferred controller ownership of a volume, so that I/O for host applications is directed through the new path.
+
+== Before you begin
+
+If you do not use a multipath driver, any host applications that are currently using the volume must be shut down. This action prevents application errors when the I/O path changes.
+
+== About this task
+
+You can change controller ownership for one or more volumes in a pool or volume group.
+
+== Steps
+
+. Select *Storage* > *Volumes*.
+. Select any volume, and then select *More* > *Change ownership*.
++
+The Change Volume Ownership dialog box appears. All volumes on the storage array appear in this dialog box.
+
+. Use the *Preferred Owner* drop-down list to change the preferred controller for each volume that you want to change, and confirm that you want to perform the operation.
+
+== Results
+
+* System Manager changes the controller ownership of the volume. I/O to the volume is now directed through this I/O path.
+* The volume might not use the new I/O path until the multipath driver reconfigures to recognize the new path. This action usually takes less than five minutes.

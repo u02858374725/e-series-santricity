@@ -1,0 +1,32 @@
+---
+permalink: sm-storage/create-volumes-storage-step-2.html
+sidebar: sidebar
+keywords: 
+summary: 'Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select "Other application" if the application you intend to use on this storage array is not listed.'
+---
+= Step 2: Select a workload for a volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select "Other application" if the application you intend to use on this storage array is not listed.
+
+== About this task
+
+This task describes how to create volumes for an existing workload.
+
+* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the Add/Edit Volumes dialog box.
+
+== Steps
+
+. Do one of the following:
+ ** Select the *Create volumes for an existing workload* option to create volumes for an existing workload.
+ ** Select the *Create a new workload* option to define a new workload for a supported application or for "Other" applications.
+  *** From the drop-down list, select the name of the application you want to create the new workload for.
++
+Select one of the "Other" entries if the application you intend to use on this storage array is not listed.
+
+  *** Enter a name for the workload you want to create.
+. Click *Next*.
+. If your workload is associated with a supported application type, enter the information requested; otherwise, go to xref:create-volumes-storage-step-3.adoc[Step 3: Add or edit volumes].

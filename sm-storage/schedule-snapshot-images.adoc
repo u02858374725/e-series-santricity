@@ -1,0 +1,150 @@
+---
+permalink: sm-storage/schedule-snapshot-images.html
+sidebar: sidebar
+keywords: 
+summary: 'You create a snapshot schedule to enable recovery in case of a problem with the base volume and to perform scheduled backups. Snapshots of base volumes or snapshot consistency groups can be created on a daily, weekly, or monthly schedule, at any time of day.'
+---
+= Schedule snapshot images
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You create a snapshot schedule to enable recovery in case of a problem with the base volume and to perform scheduled backups. Snapshots of base volumes or snapshot consistency groups can be created on a daily, weekly, or monthly schedule, at any time of day.
+
+== Before you begin
+
+The base volume must be Optimal.
+
+== About this task
+
+This task describes how to create a snapshot schedule for an existing snapshot consistency group or base volume.
+
+[NOTE]
+====
+You also can create a snapshot schedule at the same time you create a snapshot image of a base volume or snapshot consistency group.
+====
+
+== Steps
+
+. Do one of the following actions to create a snapshot schedule:
+ ** Select *Storage* > *Volumes*.
++
+Select the object (volume or snapshot consistency group) for this snapshot schedule, and then select *Copy Services* > *Create snapshot schedule*.
+
+ ** Select *Storage* > *Snapshots*.
++
+Select the *Schedules* tab, and then click *Create*.
+. Select the object (volume or snapshot consistency group) for this snapshot schedule, and then click *Next*.
++
+The Create Snapshot Schedule dialog box appears.
+
+. Do one of the following actions:
+ ** *Use a previously defined schedule from another snapshot object*.
++
+Make sure advanced options are displayed. Click *Show more options*. Click *Import Schedule*, select the object with the schedule you want to import, and then click *Import*.
+
+ ** *Modify the basic or advanced options*.
++
+In the upper right of the dialog box, click *Show more options* to display all options, and then refer to the following table.
+
++
+Field Details
++
+|===
+| Field| Description
+a|
+*Basic settings*
+a|
+Select days
+a|
+Select individual days of the week for snapshot images.
+a|
+Start time
+a|
+From the drop-down list, select a new start time for the daily snapshots (selections are provided in half-hour increments). The start time defaults to one half-hour ahead of the current time.
+a|
+Time zone
+a|
+From the drop-down list, select your array's time zone.
+a|
+*Advanced settings*
+a|
+Day / month
+a|
+    Choose one of the following options:
+ ** *Daily / Weekly* -- Select individual days for synchronization snapshots. You also can select the *Select all days* check box in the upper right if you want a daily schedule.
+ ** *Monthly / Yearly* -- Select individual months for synchronization snapshots. In the *On day(s)* field, enter the days of the month for synchronizations to occur. Valid entries are *1* through *31* and *Last*. You can separate multiple days with a comma or semi-colon. Use a hyphen for inclusive dates. For example: 1,3,4,10-15,Last. You also can select the *Select all months* check box in the upper right if you want a monthly schedule.
+
+a|
+Start time
+a|
+From the drop-down list, select a new start time for the daily snapshots (selections are provided in half-hour increments). The start time defaults to one half-hour ahead of the current time.
+a|
+Time zone
+a|
+From the drop-down list, select your array's time zone.
+a|
+Snapshots per day / Time between snapshots
+a|
+Select the number of snapshot images to create per day. If you select more than one, also select the time between snapshot images. For multiple snapshot images, be sure that you have adequate reserved capacity.
+a|
+Create snapshot image right now?
+a|
+Select this check box to create an instant image in addition to the automatic images you are scheduling.
+a|
+Start/End date or No end date
+a|
+Enter the start date for synchronizations to begin. Also enter an end date or select *No end date*.
+|===
+. Do one of the following actions:
+ ** If the object is a snapshot consistency group, click *Create* to accept the settings and create the schedule.
+ ** If the object is a volume, click *Next* to allocate reserved capacity for the snapshot images.
++
+The volume candidate table displays only the candidates that support the reserved capacity specified. Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
+. Use the spinner box to allocate the reserved capacity for the snapshot images. Do one of the following actions:
+ ** *Accept the default settings.*
++
+Use this recommended option to allocate the reserved capacity for the snapshot images with the default settings.
+
+ ** *Allocate your own reserved capacity settings to meet your data storage needs.*
++
+If you change the default reserved capacity setting, click *Refresh Candidates* to refresh the candidate list for the reserved capacity you specified.
++
+Allocate the reserved capacity using the following guidelines:
+
+  *** The default setting for reserved capacity is 40% of the capacity of the base volume. Usually this capacity is sufficient.
+  *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
+. Click *Next*.
++
+The Edit Settings dialog box appears.
+
+. Edit the settings for the snapshot schedule as needed, and then click *Finish*.
++
+Field Details
++
+|===
+| Setting| Description
+a|
+*Snapshot image limit*
+a|
+Enable automatic deletion of snapshot images when...
+a|
+Keep the check box selected if you want snapshot images automatically deleted after the specified limit; use the spinner box to change the limit. If you clear this check box, snapshot image creation stops after 32 images.
+a|
+*Reserved capacity settings*
+a|
+Alert me when...
+a|
+    Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a schedule is nearing full.
++
+When the reserved capacity for the schedule exceeds the specified threshold, use the advance notice to increase reserved capacity or to delete unnecessary objects before the remaining space runs out.
+a|
+Policy for full reserved capacity
+a|
+    Choose one of the following policies:
+
+ ** *Purge oldest snapshot image* -- The system automatically purges the oldest snapshot image, which releases the snapshot image reserved capacity for reuse within the snapshot group.
+ ** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, the system rejects any I/O write request to the base volume that triggered the reserved capacity access.
+
++
+|===

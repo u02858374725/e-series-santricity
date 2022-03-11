@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/maximum-number-of-luns.html
+sidebar: sidebar
+keywords: 
+summary: 'The storage array has a maximum number of logical unit numbers \(LUNs\) that can be used for each host.'
+---
+= Maximum number of LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The storage array has a maximum number of logical unit numbers (LUNs) that can be used for each host.
+
+The maximum number depends on the operating system of the host. The storage array tracks the number of LUNs used. If you try to assign a volume to a host that exceeds the maximum number of LUNs, the host cannot access the volume.

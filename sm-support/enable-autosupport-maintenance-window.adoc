@@ -1,0 +1,32 @@
+---
+permalink: sm-support/enable-autosupport-maintenance-window.html
+sidebar: sidebar
+keywords: 
+summary: 'Enable the AutoSupport maintenance window to suppress automatic ticket creation on error events. Under normal operation mode, the storage array uses AutoSupport to open a case with Support if there is an issue.'
+---
+= Enable AutoSupport maintenance window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Enable the AutoSupport maintenance window to suppress automatic ticket creation on error events. Under normal operation mode, the storage array uses AutoSupport to open a case with Support if there is an issue.
+
+== Steps
+
+. Select *Support* > *Support Center* > *AutoSupport* tab.
+. Select *Enable AutoSupport Maintenance window*.
+. Enter the email address to receive a confirmation that the maintenance window request has been processed.
++
+Depending on your configuration, you may be able to enter up to five email addresses. If you want to add more than one address, select *Add another email* to open another field.
+
+. Specify the duration (in hours) to enable the maintenance window.
++
+The maximum supported duration is 72 hours.
+
+. Click *Yes*.
++
+AutoSupport automatic ticket creation on error events is temporarily suppressed for the specified duration window.
+
+== After you finish
+
+The maintenance window does not begin until the storage array's request is processed by the AutoSupport servers. Wait until you have received a confirmation email before performing any maintenance activities on your storage array.

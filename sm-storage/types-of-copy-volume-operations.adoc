@@ -1,0 +1,89 @@
+---
+permalink: sm-storage/types-of-copy-volume-operations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can perform either an offline Copy Volume operation or an online Copy Volume operation. An offline operation reads data from a source volume and copies it to a target volume. An online operation uses a snapshot volume as the source and copies its data to a target volume.'
+---
+= Types of Copy Volume operations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can perform either an _offline_ Copy Volume operation or an _online_ Copy Volume operation. An offline operation reads data from a source volume and copies it to a target volume. An online operation uses a snapshot volume as the source and copies its data to a target volume.
+
+To ensure data integrity, all I/O activity to the target volume is suspended during either type of Copy Volume operation. This suspension occurs because the state of data on the target volume is inconsistent until the procedure is complete.
+
+The offline and online Copy Volume operations are described below.
+
+== Offline Copy Volume operation
+
+The offline Copy Volume relationship is between a source volume and a target volume. An offline copy reads data from the source volume and copies it to a target volume, while suspending all updates to the source volume with the copy in progress. All updates to the source volume are suspended to prevent chronological inconsistencies from being created on the target volume.
+
+|===
+| What you need to know about offline copy operations
+
+a|
+Read and write requests
+
+a|
+
+* Source volumes that are participating in an offline copy are available for read-only I/O activity while a Copy Volume operation has a status of In Progress or Pending.
+* Write requests are allowed after the offline copy has completed.
+* To prevent write-protected error messages, do not access a source volume that is participating in a Copy Volume operation with a status of In Progress.
+
+a|
+Journaling file system
+
+a|
+
+* If the source volume has been formatted with a journaling file system, any attempt to issue a read request to the source volume might be rejected by the storage array controllers, and an error message might appear.
+* The journaling file system driver issues a write request before it attempts to issue the read request. The controller rejects the write request, and the read request might not be issued due to the rejected write request. This condition might result in an error message appearing, which indicates that the source volume is write protected.
+* To prevent this issue from occurring, do not attempt to access a source volume that is participating in an offline copy while the Copy Volume operation has a status of In Progress.
+
+|===
+
+== Online Copy Volume operation
+
+The online Copy Volume relationship is between a snapshot volume and a target volume. You can initiate a Copy Volume operation while the source volume is online and available for data writes. This function is achieved by creating a snapshot of the volume and using the snapshot as the actual source volume for the copy.
+
+When you initiate a Copy Volume operation for a source volume, System Manager creates a snapshot image of the base volume and a copy relationship between the snapshot image of the base volume and a target volume. Using the snapshot image as the source volume allows the storage array to continue to write to the source volume while the copy is in progress.
+
+During an online copy operation, a performance impact is experienced due to the copy-on-write procedure. After the online copy completes, the base volume performance is restored.
+
+|===
+| What you need to know about online copy operations
+
+a|
+What kind of volumes can be used?
+
+a|
+
+* The volume for which the point-in-time image is created is known as the base volume and must be a standard volume or a thin volume on the storage array.
+* A target volume can be a standard volume in a volume group or a standard volume in a pool. A target volume cannot be a thin volume or a base volume in a snapshot group.
+* You can use the online Copy Volume function to copy data from a thin volume to a standard volume in a pool that resides within the same storage array. But you cannot use the Copy Volume function to copy data from a standard volume to a thin volume.
+
+a|
+Base volume performance
+a|
+
+* If the snapshot volume that is used as the copy source is active, the base volume performance is degraded due to copy-on-write operations. When the copy is complete, the snapshot is disabled, and the base volume performance is restored. Although the snapshot is disabled, the reserved capacity volume and copy relationship remain intact.
+
+a|
+Types of volumes created
+
+a|
+
+* A snapshot volume and a reserved capacity volume are created during the online copy operation.
+* The snapshot volume is not an actual volume containing data; rather, it is a reference to the data that was contained on a volume at a specific time.
+* For each snapshot that is taken, a reserved capacity volume is created to hold the data for the snapshot. The reserved capacity volume is used only to manage the snapshot image.
+
+a|
+Reserved capacity volume
+
+a|
+
+* Before a data block on the source volume is modified, the contents of the block to be modified are copied to the reserved capacity volume for safekeeping.
+* Because the reserved capacity volume stores copies of the original data in those data blocks, further changes to those data blocks write only to the source volume.
+* The online copy operation uses less disk space than a full physical copy because the only data blocks that are stored in the reserved capacity volume are those that have changed since the time of the snapshot.
+
+|===

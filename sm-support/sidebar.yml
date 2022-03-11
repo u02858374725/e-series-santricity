@@ -1,0 +1,167 @@
+section: sm-support
+title: Support
+entries:
+  - title: Support center
+    url: "/sm-support/generic-support-center.html"
+    entries:
+    - title: Concepts
+      url: "/sm-support/generic-concepts.html"
+      entries:
+      - title: AutoSupport feature overview
+        url: "/sm-support/autosupport-feature-overview.html"
+      - title: Workflow for the AutoSupport feature
+        url: "/sm-support/workflow-for-autosupport.html"
+    - title: How tos
+      url: "/sm-support/generic-how-tos.html"
+      entries:
+      - title: View storage array information
+        url: "/sm-support/view-storage-array-information.html"
+        entries:
+        - title: View storage array profile
+          url: "/sm-support/view-storage-array-profile.html"
+        - title: View software and firmware inventory
+          url: "/sm-support/view-software-and-firmware-inventory.html"
+      - title: Collect diagnostic data
+        url: "/sm-support/collect-diagnostic-data.html"
+        entries:
+        - title: Collect support data manually
+          url: "/sm-support/collect-support-data-manually.html"
+        - title: Collect configuration data
+          url: "/sm-support/collect-configuration-data.html"
+        - title: Retrieve recovery support files
+          url: "/sm-support/retrieve-recovery-support-files.html"
+        - title: Retrieve trace buffers
+          url: "/sm-support/retrieve-trace-buffers.html"
+        - title: Collect I/O path statistics
+          url: "/sm-support/collect-i-o-path-statistics.html"
+        - title: Retrieve health image
+          url: "/sm-support/retrieve-health-image.html"
+      - title: Take recovery action on storage array status
+        url: "/sm-support/take-recovery-action-on-storage-array-status.html"
+        entries:
+        - title: View unreadable sectors log
+          url: "/sm-support/view-unreadable-sectors-log.html"
+        - title: Re-enable drive ports
+          url: "/sm-support/re-enable-drive-ports.html"
+        - title: Clear recovery mode
+          url: "/sm-support/clear-recovery-mode.html"
+      - title: Manage iSCSI connections
+        url: "/sm-support/manage-iscsi-connections.html"
+        entries:
+        - title: View iSCSI statistics packages
+          url: "/sm-support/view-iscsi-statistics-packages-support.html"
+        - title: View the different types of iSCSI statistics
+          url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
+          entries:
+          - title: MAC transmit and MAC receive statistics
+            url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
+          - title: Ethernet TCP/IP statistics
+            url: "/sm-support/ethernet-tcp-ip-statistics.html"
+          - title: iSCSI target statistics and local initiator statistics
+            url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
+          - title: DCBX operational state statistics
+            url: "/sm-support/dcbx-operational-state-statistics.html"
+          - title: LLDP TLV statistics
+            url: "/sm-support/lldp-tlv-statistics.html"
+          - title: DCBX TLV statistics
+            url: "/sm-support/dcbx-tlv-statistics.html"
+        - title: View iSCSI sessions
+          url: "/sm-support/view-iscsi-sessions-support.html"
+        - title: End iSCSI session
+          url: "/sm-support/end-iscsi-session-support.html"
+        - title: View iSER over InfiniBand statistics
+          url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
+      - title: Manage NVMe connections
+        url: "/sm-support/manage-nvme-connections.html"
+        entries:
+        - title: View NVMe over Fabrics statistics
+          url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
+      - title: Manage AutoSupport
+        url: "/sm-support/manage-autosupport.html"
+        entries:
+        - title: Enable or disable AutoSupport features
+          url: "/sm-support/enable-or-disable-autosupport-features.html"
+        - title: Configure AutoSupport delivery method
+          url: "/sm-support/configure-autosupport-delivery-method.html"
+        - title: Schedule AutoSupport dispatches
+          url: "/sm-support/schedule-autosupport-dispatches.html"
+        - title: Send AutoSupport dispatches
+          url: "/sm-support/send-autosupport-dispatches.html"
+        - title: View AutoSupport status
+          url: "/sm-support/view-autosupport-status.html"
+        - title: View AutoSupport log
+          url: "/sm-support/view-autosupport-log.html"
+        - title: Enable AutoSupport maintenance window
+          url: "/sm-support/enable-autosupport-maintenance-window.html"
+        - title: Disable AutoSupport maintenance window
+          url: "/sm-support/disable-autosupport-maintenance-window.html"
+    - title: FAQs
+      url: "/sm-support/generic-faqs.html"
+      entries:
+      - title: What data am I collecting?
+        url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+      - title: What does unreadable sectors data show me?
+        url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+      - title: What is a health image?
+        url: "/sm-support/what-is-a-health-image.html"
+      - title: What else do I need to do to configure or diagnose iSCSI?
+        url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+      - title: What do the AutoSupport features do?
+        url: "/sm-support/what-do-the-autosupport-features-do.html"
+      - title: What type of data is collected through the AutoSupport feature?
+        url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+      - title: How do I configure the delivery method for the AutoSupport feature?
+        url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+      - title: What is configuration data?
+        url: "/sm-support/what-is-configuration-data.html"
+  - title: Event log
+    url: "/sm-support/generic-event-log.html"
+    entries:
+    - title: Concepts
+      url: "/sm-support/generic-concepts.html"
+      entries:
+      - title: Critical events
+        url: "/sm-support/critical-events.html"
+      - title: Event log
+        url: "/sm-support/event-log.html"
+    - title: How tos
+      url: "/sm-support/generic-how-tos.html"
+      entries:
+      - title: View events using the event log
+        url: "/sm-support/view-events-using-the-event-log.html"
+  - title: Upgrade center
+    url: "/sm-support/generic-upgrade-center.html"
+    entries:
+    - title: Concepts
+      url: "/sm-support/generic-concepts.html"
+      entries:
+      - title: Controller software and firmware upgrades
+        url: "/sm-support/controller-software-and-firmware-upgrades.html"
+      - title: Workflow for controller software and firmware upgrade
+        url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
+      - title: Drive firmware upgrades
+        url: "/sm-support/drive-firmware-upgrades.html"
+    - title: How tos
+      url: "/sm-support/generic-how-tos.html"
+      entries:
+      - title: Upgrade software and firmware
+        url: "/sm-support/upgrade-controller-software-and-firmware.html"
+      - title: Activate controller software and firmware
+        url: "/sm-support/activate-controller-software-and-firmware.html"
+      - title: Upgrade drive firmware
+        url: "/sm-support/upgrade-drive-firmware.html"
+      - title: Review the possible software and firmware upgrade errors
+        url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+    - title: FAQs
+      url: "/sm-support/generic-faqs.html"
+      entries:
+      - title: What do I need to know before upgrading the SANtricity OS Software?
+        url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+      - title: What do I need to know before suspending IOM auto-synchronization?
+        url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+      - title: Why is my firmware upgrade progressing so slowly?
+        url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+      - title: What do I need to know before upgrading drive firmware?
+        url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+      - title: How do I choose which type of upgrade to perform?
+        url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"

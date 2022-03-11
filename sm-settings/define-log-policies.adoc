@@ -1,0 +1,65 @@
+---
+permalink: sm-settings/define-log-policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the overwrite policy and the types of events recorded in the audit log.'
+---
+= Define audit log policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the overwrite policy and the types of events recorded in the audit log.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+
+== About this task
+
+This task describes how to change the audit log settings, which include the policy for overwriting old events and the policy for recording event types.
+
+== Steps
+
+. Select *Settings* > *Access Management*.
+. Select the **Audit Log**tab.
+. Select *View/Edit Settings*.
++
+The Audit Log Settings dialog box opens.
+
+. Change the overwrite policy or types of events recorded.
++
+Field Details
++
+|===
+| Setting| Description
+a|
+Overwrite policy
+a|
+Determines the policy for overwriting old events when the maximum capacity is reached:
+
+ ** *Allow the oldest events in the audit log to be overwritten when the audit log is full* -- Overwrites the old events when the audit log reaches 50,000 records.
+ ** *Require audit log events to be manually deleted* -- Specifies that events will not be automatically deleted; instead, a threshold warning appears at the set percentage. Events must be deleted manually.
++
+[NOTE]
+====
+If the overwrite policy is disabled and the audit log entries reach the maximum limit, access to System Manager is denied to users without Security Admin permissions. To restore system access to users without Security Admin permissions, a user assigned to the Security Admin role must delete the old event records.
+====
++
+[NOTE]
+====
+Overwrite policies do not apply if a syslog server is configured for archiving audit logs.
+====
+
+a|
+Level of actions to be logged
+a|
+Determines types of events to be logged:
+
+ ** *Record modification events only* -- Shows only the events where a user action involves making a change in the system.
+ ** *Record all modification and read-only events* -- Shows all events, including a user action that involves reading or downloading information.
+
++
+|===
+
+. Click *Save*.

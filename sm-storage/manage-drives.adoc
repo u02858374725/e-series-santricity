@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/manage-drives.html
+sidebar: sidebar
+keywords: 
+summary: 'You can manage drives to locate all of the drives that comprise a selected pool, volume group or SSD Cache, remove capacity from a pool or SSD Cache, enable security, assign hot spares, and replace a drive.'
+---
+= Manage drives
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manage drives to locate all of the drives that comprise a selected pool, volume group or SSD Cache, remove capacity from a pool or SSD Cache, enable security, assign hot spares, and replace a drive.

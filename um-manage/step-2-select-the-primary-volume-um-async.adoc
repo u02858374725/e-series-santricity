@@ -1,0 +1,37 @@
+---
+permalink: um-manage/step-2-select-the-primary-volume-um-async.html
+sidebar: sidebar
+keywords: 
+summary: 'Select the primary volume that you want to use in the mirror relationship and allocate its reserved capacity.'
+---
+= Step 2: Select the primary volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Select the primary volume that you want to use in the mirror relationship and allocate its reserved capacity.
+
+== Before you begin
+
+* You must have created the primary volume on the local storage array that you want to use in the asynchronous mirror relationship.
+
+== About this task
+
+When you select a primary volume on the local storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
+
+Any volumes you add to the mirror consistency group on the local storage array will hold the primary role in the mirror relationship.
+
+== Steps
+
+. From the list of eligible volumes, select a volume that you want to use as the primary volume, and then click *Next* to allocate the reserved capacity.
+. From the list of eligible candidates, select reserved capacity for the primary volume.
++
+Keep the following guidelines in mind:
+
+ ** The default setting for reserved capacity is 20% of the capacity of the base volume, and usually this capacity is sufficient. If you change the percentage, click *Refresh Candidates*.
+ ** The capacity needed varies, depending on the frequency and size of I/O writes to the primary volume and how long you need to keep the capacity.
+ ** In general, choose a larger capacity for reserved capacity if one or both of these conditions exist:
+  *** You intend to keep the mirrored pair for a long period of time.
+  *** A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
+
+. Select *Next* and go to link:step-3-select-the-secondary-volume-um-async.md#[Step 3: Select the secondary volume].

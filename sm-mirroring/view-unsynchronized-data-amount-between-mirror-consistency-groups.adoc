@@ -1,0 +1,27 @@
+---
+permalink: sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the amount of unsynchronized data between the mirror consistency groups on the local storage array and on the remote storage array. While the mirror consistency group is in an Unsynchronized status, no mirroring activity takes place.'
+---
+= View unsynchronized data amount between mirror consistency groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the amount of unsynchronized data between the mirror consistency groups on the local storage array and on the remote storage array. While the mirror consistency group is in an Unsynchronized status, no mirroring activity takes place.
+
+== About this task
+
+You can perform this task when the selected mirror consistency group contains mirrored pairs and when synchronization is not currently in-progress.
+
+== Steps
+
+. Select *Storage* > *Asynchronous Mirroring*.
+. Select the *Mirror Consistency Groups* tab.
++
+The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
+
+. Click *More* > *View unsynchronized data amount*.
++
+If unsynchronized data exists, the table values reflect this. The data amount column lists the unsynchronized data amount in MiB.
