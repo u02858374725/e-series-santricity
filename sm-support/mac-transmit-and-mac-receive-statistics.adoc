@@ -1,0 +1,140 @@
+---
+permalink: sm-support/mac-transmit-and-mac-receive-statistics.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= MAC transmit and MAC receive statistics
+:icons: font
+:imagesdir: ../media/
+
+When you select Ethernet MAC statistics, these MAC transmit statistics appear. You can view each of these statistics as raw statistics or as baseline statistics.
+
+|===
+| Statistic| Definition
+a|
+F
+a|
+Frame count
+a|
+B
+a|
+Byte count
+a|
+MF
+a|
+Multicast frame count
+a|
+BF
+a|
+Broadcast frame count
+a|
+PF
+a|
+Pause frame count
+a|
+CF
+a|
+Control frame count
+a|
+FDF
+a|
+Frame deferral count
+a|
+FED
+a|
+Frame excess deferral count
+a|
+FLC
+a|
+Frame late collisions count
+a|
+FA
+a|
+Frame abort count
+a|
+FSC
+a|
+Frame single collision count
+a|
+FMC
+a|
+Frame multiple collisions count
+a|
+FC
+a|
+Frame collision count
+a|
+FDR
+a|
+Frame dropped count
+a|
+JF
+a|
+Jumbo frame count
+|===
+When you select Ethernet MAC statistics, these MAC receive statistics appear.
+
+|===
+| Statistic| Definition
+a|
+F
+a|
+Frame count
+a|
+B
+a|
+Byte count
+a|
+MF
+a|
+Multicast frame count
+a|
+BF
+a|
+Broadcast frame count
+a|
+PF
+a|
+Pause frame count
+a|
+CF
+a|
+Control frame count
+a|
+FLE
+a|
+Frame length error count
+a|
+FD
+a|
+Frame dropped count
+a|
+FCRCE
+a|
+Frame CRC error count
+a|
+FEE
+a|
+Frame encoding error count
+a|
+LFE
+a|
+Large frame error count
+a|
+SFE
+a|
+Small frame error count
+a|
+J
+a|
+Jabber count
+a|
+UCC
+a|
+Unknown control frame count
+a|
+CSE
+a|
+Carrier sense error count
+|===

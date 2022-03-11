@@ -1,0 +1,40 @@
+---
+permalink: sm-storage/change-the-settings-for-a-host-cluster.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the host cluster name, or add or remove hosts in a host cluster.'
+---
+= Change the settings for a host cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the host cluster name, or add or remove hosts in a host cluster.
+
+== Steps
+
+. Select *Storage* > *Hosts*.
+. Select the host cluster you want to edit, and then click *View/Edit Settings*.
++
+A dialog box appears that shows the current host cluster settings.
+
+. Change the settings for the host cluster as appropriate.
++
+Field Details
++
+|===
+| Setting| Description
+a|
+Name
+a|
+You can specify the user-supplied name of the host cluster. Specifying a name for a cluster is required.
+a|
+Associated Hosts
+a|
+    To add a host, click the *Associated Hosts* box, and then select a host name from the drop-down list. You cannot manually enter a host name.
++
+To delete a host, click the *X* next to the host name.
++
+|===
+
+. Click *Save*.

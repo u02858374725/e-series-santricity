@@ -1,0 +1,12 @@
+---
+permalink: sm-hardware/drives.html
+sidebar: sidebar
+keywords: 
+summary: 'A drive is an electromagnetic mechanical device or solid state memory device that provides the physical storage media for data.'
+---
+= image:../media/sam1130-icon-drives.gif[] Drives
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A drive is an electromagnetic mechanical device or solid state memory device that provides the physical storage media for data.

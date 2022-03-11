@@ -1,0 +1,37 @@
+---
+permalink: um-certificates/step-3-import-management-certificates-unified.html
+sidebar: sidebar
+keywords: 
+summary: 'After you receive signed certificates from the Certificate Authority \(CA\), import the certificates into the host system where the Web Services Proxy and Unified Manager interface are installed.'
+---
+= Step 3: Import management certificates
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you receive signed certificates from the Certificate Authority (CA), import the certificates into the host system where the Web Services Proxy and Unified Manager interface are installed.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* You have received signed certificates from the CA. These files include the root certificate, one or more intermediate certificates, and the server certificate.
+* If the CA provided a chained certificate file (for example, a .p7b file), you must unpack the chained file into individual files: the root certificate, one or more intermediate certificates, and the server certificate. You can use the Windows `certmgr` utility to unpack the files (right-click and select menu:All Tasks[Export]). Base-64 encoding is recommended. When the exports are complete, a CER file is shown for each certificate file in the chain.
+* You have copied the certificate files to the host system where the Web Services Proxy is running.
+
+== Steps
+
+. Select *Certificate Management*.
+. From the *Management* tab, select *Import*.
++
+A dialog box opens for importing the certificate files.
+
+. Click *Browse* to first select the root and intermediate certificate files, and then select the server certificate. If you generated the CSR from an external tool, you must also import the private key file that was created along with the CSR.
++
+The filenames are displayed in the dialog box.
+
+. Click *Import*.
+
+== Results
+
+The files are uploaded and validated. The certificate information displays on the Certificate Management page.

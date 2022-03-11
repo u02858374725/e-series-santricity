@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'The following figure illustrates how to configure host access.'
+---
+= Workflow for host creation and volume assignment
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following figure illustrates how to configure host access.
+
+image::../media/sam1130-flw-hosts-create-host.gif[]

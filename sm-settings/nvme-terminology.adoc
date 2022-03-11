@@ -1,0 +1,70 @@
+---
+permalink: sm-settings/nvme-terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the NVMe terms apply to your storage array.'
+---
+= NVMe terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the NVMe terms apply to your storage array.
+
+|===
+| Term| Description
+a|
+InfiniBand
+a|
+InfiniBand (IB) is a communications standard for data transmission between high-performance servers and storage systems.
+a|
+Namespace
+a|
+A namespace is NVM storage that is formatted for block access. It is analogous to a logical unit in SCSI, which relates to a volume in the storage array.
+
+a|
+Namespace ID
+a|
+The namespace ID is the NVMe controller's unique identifier for the namespace, and can be set to a value between 1 and 255. It is analogous to a logical unit number (LUN) in SCSI.
+a|
+NQN
+a|
+NVMe Qualified Name (NQN) is used to identify the remote storage target (the storage array).
+a|
+NVM
+a|
+Non-Volatile Memory (NVM) is persistent memory used in many types of storage devices.
+a|
+NVMe
+a|
+Non-Volatile Memory Express (NVMe) is an interface designed for flash-based storage devices, such as SSD drives. NVMe reduces I/O overhead and includes performance improvements, as compared to previous logical-device interfaces.
+a|
+NVMe-oF
+a|
+Non-Volatile Memory Express over Fabrics (NVMe-oF) is a specification that enables NVMe commands and data to transfer over a network between a host and storage.
+a|
+NVMe controller
+a|
+An NVMe controller is created during the host connection process. It provides an access path between a host and the namespaces in the storage array.
+
+a|
+NVMe queue
+a|
+A queue is used for passing commands and messages over the NVMe interface.
+a|
+NVMe subsystem
+a|
+The storage array with an NVMe host connection.
+a|
+RDMA
+a|
+Remote direct memory access (RDMA) enables more direct data movement in and out of a server by implementing a transport protocol in the network interface card (NIC) hardware.
+a|
+RoCE
+a|
+RDMA over Converged Ethernet (RoCE) is a network protocol that allows remote direct memory access (RDMA) over an Ethernet network.
+a|
+SSD
+a|
+Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use.
+|===

@@ -1,0 +1,39 @@
+---
+permalink: sm-support/clear-recovery-mode.html
+sidebar: sidebar
+keywords: 
+summary: 'After restoring a storage array configuration, use the Clear Recovery Mode operation to resume I/O on the storage array and return it to normal operations.'
+---
+= Clear recovery mode
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After restoring a storage array configuration, use the Clear Recovery Mode operation to resume I/O on the storage array and return it to normal operations.
+
+== Before you begin
+
+* If you want to return the storage array to a previous configuration, you must restore the configuration from the backup before clearing recovery mode.
+* You must perform validation checks or check with technical support to make sure that the restore was successful. After determining that the restore was successful, recovery mode can be cleared.
+
+== About this task
+
+The storage array contains a configuration database that includes a record of its logical configuration (pools, volume groups, volumes, and so on). If you intentionally clear the storage array configuration or if the configuration database gets corrupted, the storage array enters recovery mode. Recovery mode stops I/O and freezes the configuration database, which gives you time to do one of the following:
+
+* Restore the configuration from the automatic backup that is stored in the controller's flash devices. You must contact technical support to do this.
+* Restore the configuration from a previous Save Configuration Database operation. Save Configuration Database operations are performed through the command line interface (CLI).
+* Reconfigure the storage array from scratch.
+
+After the storage array configuration has been restored or redefined and you have verified that all is well, you must manually clear recovery mode.
+
+[NOTE]
+====
+You cannot cancel the Clear Recovery Mode operation after it starts. Clearing recovery mode can take a long time. Perform this operation only when instructed to do so by technical support.
+====
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *Clear Recovery Mode*, and confirm that you want to perform this operation.
++
+This option appears only if the storage array is in recovery mode.

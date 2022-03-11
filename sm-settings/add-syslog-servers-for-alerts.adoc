@@ -1,0 +1,40 @@
+---
+permalink: sm-settings/add-syslog-servers-for-alerts.html
+sidebar: sidebar
+keywords: Add Syslog Servers
+summary: 'You can add a maximum of five servers for syslog alerts.'
+---
+= Add syslog servers for alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add a maximum of five servers for syslog alerts.
+
+== Before you begin
+
+* The syslog server address must be available. This address can be a fully qualified domain name, an IPv4 address, or an IPv6 address.
+* The UDP port number of the syslog server must be available. This port is typically 514.
+
+== Steps
+
+. Select *Settings* > *Alerts*.
+. Select the *Syslog* tab.
+. Select *Add Syslog Servers*.
++
+The Add Syslog Server dialog box opens.
+
+. Select *Add another syslog server*.
+. Enter information for the syslog server, and then click *Add*.
+ ** *Syslog Server Address* -- Enter a fully qualified domain name, an IPv4 address, or an IPv6 address.
+ ** *UDP Port* -- Typically, the UDP port for syslog is 514.
+
++
+[NOTE]
+====
+You can configure up to five syslog servers.
+====
+
+== Results
+
+The syslog server addresses appear in the table.

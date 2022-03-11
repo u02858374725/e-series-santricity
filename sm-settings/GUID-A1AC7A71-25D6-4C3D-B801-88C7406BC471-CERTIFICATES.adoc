@@ -1,0 +1,11 @@
+---
+permalink: sm-settings/GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-CERTIFICATES.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= image:../media/sam1130-icon-concepts.gif[] Concepts
+:icons: font
+:imagesdir: ../media/
+
+*Learn more about...*

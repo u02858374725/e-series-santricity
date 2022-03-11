@@ -1,0 +1,36 @@
+---
+permalink: sm-support/retrieve-health-image.html
+sidebar: sidebar
+keywords: 
+summary: 'You can review a health image for the controller. A health image is a raw data dump of the controller’s processor memory that technical support can use to diagnose a problem with a controller.'
+---
+= Retrieve health image
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can review a health image for the controller. A health image is a raw data dump of the controller's processor memory that technical support can use to diagnose a problem with a controller.
+
+== About this task
+
+The firmware automatically generates a health image when it detects certain errors. After a health image is generated, the controller that had the error reboots and an event is logged in the event log.
+
+If you have AutoSupport turned on, the health image is automatically sent to technical support. If you do not have AutoSupport turned on, you need to contact technical support for instructions on retrieving the health image and sending it to them for analysis.
+
+[NOTE]
+====
+Perform this operation only when instructed to do so by technical support.
+====
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *Retrieve Health Image*.
++
+You can look at the details section to see the size of the health image before downloading the file.
+
+. Click *Collect*.
++
+The file is saved in the Downloads folder for your browser with the name `health-image.7z`.
+
+. Follow the instructions provided by technical support to send the file to them.

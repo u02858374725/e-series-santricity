@@ -1,0 +1,17 @@
+---
+permalink: sm-mirroring/manage-synchronous-mirrored-pairs.html
+sidebar: sidebar
+keywords: 
+summary: 'You can test the communication link between a mirrored pair, suspend and resume synchronization, change the role of volumes, change synchronization settings, and remove the synchronous mirror relationship.'
+---
+= Manage synchronous mirrored pairs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can test the communication link between a mirrored pair, suspend and resume synchronization, change the role of volumes, change synchronization settings, and remove the synchronous mirror relationship.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====

@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/access-management-with-directory-services.html
+sidebar: sidebar
+keywords: 
+summary: 'For Access Management, administrators can use an LDAP \(Lightweight Directory Access Protocol\) server and a directory service, such as Microsoft’s Active Directory.'
+---
+= Access Management with directory services
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For Access Management, administrators can use an LDAP (Lightweight Directory Access Protocol) server and a directory service, such as Microsoft's Active Directory.
+
+== Configuration workflow
+
+If an LDAP server and directory service are used in the network, configuration works as follows:
+
+. An administrator logs in to SANtricity System Manager with a user profile that includes Security Admin permissions.
++
+[NOTE]
+====
+The `admin` user has full access to all functions in the system.
+====
+
+. The administrator enters the configuration settings for the LDAP server. Settings include the domain name, URL, and Bind account information.
+. If the LDAP server uses a secure protocol (LDAPS), the administrator uploads a Certificate Authority (CA) certificate chain for authentication between the LDAP server and the storage array.
+. After the server connection is established, the administrator maps the user groups to the storage array's roles. These roles are predefined and cannot be modified.
+. The administrator tests the connection between the LDAP server and the storage array.
+. Users log in to the system with their assigned LDAP/Directory Services credentials.
+
+== Management
+
+When using directory services for authentication, administrators can perform the following management tasks:
+
+* Add a directory server.
+* Edit directory server settings.
+* Map LDAP users to local user roles.
+* Remove a directory server.

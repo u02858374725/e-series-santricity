@@ -1,0 +1,33 @@
+---
+permalink: sm-storage/delete-snapshot-volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete a snapshot volume or a snapshot consistency group snapshot volume that is no longer needed for backup or software application testing purposes. You can also specify whether you want to delete the snapshot reserved capacity volume associated with a read-write snapshot volume or retain the snapshot reserved capacity volume as an unassigned volume.'
+---
+= Delete snapshot volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a snapshot volume or a snapshot consistency group snapshot volume that is no longer needed for backup or software application testing purposes. You can also specify whether you want to delete the snapshot reserved capacity volume associated with a `read-write` snapshot volume or retain the snapshot reserved capacity volume as an unassigned volume.
+
+== About this task
+
+Deleting a base volume automatically deletes any associated snapshot volume or consistency group snapshot volume. You cannot delete a snapshot volume that is in a volume copy with a status of *In Progress*.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Select the *Snapshot Volumes* tab.
++
+System Manager displays all the snapshot volumes associated with the storage array.
+
+. Select the snapshot volume that you want to delete, and then select *Uncommon Tasks* > *Delete*.
+. Confirm that you want to perform the operation, and then click *Delete*.
+
+== Results
+
+System Manager performs the following actions:
+
+* Deletes all member snapshot volumes (for a snapshot consistency group snapshot volume).
+* Removes all associated host assignments.

@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/configure-saml-step-4.html
+sidebar: sidebar
+keywords: 
+summary: 'To ensure that the IdP system and storage array can communicate, you can optionally test an SSO login. This test is also performed during the final step for enabling SAML.'
+---
+= Step 4: Test SSO login
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To ensure that the IdP system and storage array can communicate, you can optionally test an SSO login. This test is also performed during the final step for enabling SAML.
+
+== Before you begin
+
+* The IdP metadata file is imported into System Manager.
+* A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
+
+== Steps
+
+. Select the *Test SSO Login* link.
++
+A dialog opens for entering SSO credentials.
+
+. Enter login credentials for a user with both Security Admin permissions and Monitor permissions.
++
+A dialog opens while the system tests the login.
+
+. Look for a Test Successful message. If the test completes successfully, go to the next step for enabling SAML.
++
+If the test does not complete successfully, an error message appears with further information. Make sure that:
+
+ ** The user belongs to a group with permissions for Security Admin and Monitor.
+ ** The metadata you uploaded for the IdP server is correct.
+ ** The controller addresses in the SP metadata files are correct.

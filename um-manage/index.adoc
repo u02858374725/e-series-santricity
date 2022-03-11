@@ -1,0 +1,9 @@
+---
+permalink: um-manage/index.html
+sidebar: sidebar
+keywords:
+summary: ''
+---
+= SANtricity Unified Manager 5
+:icons: font
+:imagesdir: ../media/

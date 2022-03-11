@@ -1,0 +1,42 @@
+---
+permalink: sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html
+sidebar: sidebar
+keywords: 
+summary: 'A base volume is the volume used as the source for a snapshot image. A base volume can be either a thick volume or a thin volume and can reside in either a pool or volume group.'
+---
+= Base volumes, reserved capacity, and snapshot groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A _base volume_ is the volume used as the source for a snapshot image. A base volume can be either a thick volume or a thin volume and can reside in either a pool or volume group.
+
+To take snapshots of the base volume, you can create an instant image at any time, or you can automate the process by defining a regular schedule for snapshots.
+
+The following figure shows the relationship between snapshot objects and the base volume.
+
+image::../media/sam1130-dwg-snapshots-images-overview.gif[]
+
+|===
+a|
+1   Base volume.
+a|
+2   Snapshot objects in the group (images and reserved capacity).
+a|
+3   Reserved capacity for the snapshot group.
+|===
+
+== Reserved capacity and snapshot groups
+
+System Manager organizes snapshot images into _snapshot groups_. When System Manager establishes the snapshot group, it automatically creates associated _reserved capacity_ to hold the snapshot images for the group and to keep track of subsequent changes to additional snapshots.
+
+If the base volume resides in a volume group, the reserved capacity can be located in either a pool or volume group. If the base volume resides in a pool, the reserved capacity must be located in the same pool as the base volume.
+
+Snapshot groups require no user action, but you can adjust reserved capacity on a snapshot group at any time. Additionally, you might be prompted to create reserved capacity when the following conditions are met:
+
+* Any time you take a snapshot of a base volume that does not yet have a snapshot group, System Manager automatically creates a snapshot group. This action also creates reserved capacity for the base volume that is used to store subsequent snapshot images.
+* Any time you create a snapshot schedule for a base volume, System Manager automatically creates a snapshot group.
+
+== Auto-deletion
+
+When working with snapshots, use the default option to have auto-deletion turned on. Auto-deletion automatically deletes the oldest snapshot image when the snapshot group reaches the snapshot group limit of 32 images. If you turn off auto-deletion, then snapshot group limits are eventually exceeded, and you must take manual actions to configure snapshot group settings and manage reserved capacity.

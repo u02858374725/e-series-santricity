@@ -1,0 +1,12 @@
+---
+permalink: sm-interface/storage-array-administration.html
+sidebar: sidebar
+keywords: 
+summary: 'You can administer your storage array to configure the password, set default units for capacity values, set the default time frame for performance graphs, view and act on operations in progress, and recover from problems using the Recovery Guru.'
+---
+= image:../media/sam1130-icon-admin.gif[] Storage array administration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can administer your storage array to configure the password, set default units for capacity values, set the default time frame for performance graphs, view and act on operations in progress, and recover from problems using the Recovery Guru.

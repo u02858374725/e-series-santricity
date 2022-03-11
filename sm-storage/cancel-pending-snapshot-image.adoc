@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/cancel-pending-snapshot-image.html
+sidebar: sidebar
+keywords: 
+summary: 'You can cancel a pending snapshot image before it completes. Snapshots occur asynchronously, and the status of the snapshot is pending until the snapshot is complete. The snapshot image completes as soon as the synchronization operation is complete.'
+---
+= Cancel pending snapshot image
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can cancel a pending snapshot image before it completes. Snapshots occur asynchronously, and the status of the snapshot is pending until the snapshot is complete. The snapshot image completes as soon as the synchronization operation is complete.
+
+== About this task
+
+A snapshot image is in a Pending state due to the following concurrent conditions:
+
+* The base volume for a snapshot group or one or more member volumes of a consistency group that contains this snapshot image is a member of an asynchronous mirror group.
+* The volume or volumes are currently in an asynchronous mirroring synchronizing operation.
+
+== Steps
+
+. Select *Storage* > *Pools & Volume Groups*.
+. Click the *Reserved Capacity* tab.
+. Select the snapshot group for which you want to cancel a pending snapshot image, and then click *Uncommon Tasks* > *Cancel pending snapshot image*.
+. Click *Yes* to confirm that you want to cancel the pending snapshot image.

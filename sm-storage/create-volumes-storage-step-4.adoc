@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/create-volumes-storage-step-4.html
+sidebar: sidebar
+keywords: 
+summary: 'Review a summary of the volumes you intend to create and make any necessary changes.'
+---
+= Step 4: Review volume configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Review a summary of the volumes you intend to create and make any necessary changes.
+
+== Steps
+
+. Review the volumes you want to create. Click *Back* to make any changes.
+. When you are satisfied with your volume configuration, click *Finish*.
+
+== Results
+
+System Manager creates the new volumes in the selected pools and volume groups, and then displays the new volumes in the All Volumes table.
+
+== After you finish
+
+* Perform any operating system modifications necessary on the application host so that the applications can use the volume.
+* Run either the host-based `hot_add` utility or an operating system-specific utility (available from a third-party vendor), and then run the `SMdevices` utility to correlate volume names with host storage array names.
++
+The `hot_add` utility and the `SMdevices` utility are included as part of the `SMutils` package. The `SMutils` package is a collection of utilities to verify what the host sees from the storage array. It is included as part of the SANtricity software installation.

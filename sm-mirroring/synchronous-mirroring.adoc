@@ -1,0 +1,17 @@
+---
+permalink: sm-mirroring/synchronous-mirroring.html
+sidebar: sidebar
+keywords: 
+summary: 'The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance. Storage array controllers manage the mirroring operation, which is transparent to host machines and software applications.'
+---
+= image:../media/sam1130-icon-sync-mirroring.gif[]Synchronous mirroring
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance. Storage array controllers manage the mirroring operation, which is transparent to host machines and software applications.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====

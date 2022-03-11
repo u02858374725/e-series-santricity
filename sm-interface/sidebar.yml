@@ -1,0 +1,72 @@
+section: sm-interface
+title: Interface
+entries:
+  - title: SANtricity System Manager overview
+    url: "/sm-interface/system-manager-overview.html"
+    entries:
+    - title: Concepts
+      url: "/sm-interface/generic-concepts.html"
+      entries:
+      - title: Home page
+        url: "/sm-interface/home-page.html"
+  - title: Setup wizard
+    url: "/sm-interface/setup-wizard.html"
+    entries:
+    - title: Concepts
+      url: "/sm-interface/generic-concepts.html"
+      entries:
+      - title: Setup wizard overview
+        url: "/sm-interface/setup-wizard-overview.html"
+      - title: Setup wizard terminology
+        url: "/sm-interface/setup-wizard-terminology.html"
+    - title: FAQs
+      url: "/sm-interface/generic-faqs.html"
+      entries:
+      - title: What if I don&#8217;t see all of my hardware components?
+        url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+      - title: What if I don&#8217;t see all of my hosts?
+        url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+      - title: How does identifying applications help me manage my storage array?
+        url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+      - title: What is a workload?
+        url: "/sm-interface/what-is-a-workload.html"
+      - title: How do I configure the delivery method for AutoSupport?
+        url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+      - title: How do I know if I should accept the recommended pool configuration?
+        url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+      - title: System Manager has not detected any hosts. What do I do?
+        url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+  - title: Storage array administration
+    url: "/sm-interface/storage-array-administration.html"
+    entries:
+    - title: Concepts
+      url: "/sm-interface/generic-concepts.html"
+      entries:
+      - title: Storage array overview
+        url: "/sm-interface/storage-array-overview.html"
+      - title: Administrator password protection
+        url: "/sm-interface/administrator-password-protection.html"
+      - title: Problem notification
+        url: "/sm-interface/problem-notification.html"
+      - title: Operations in progress
+        url: "/sm-interface/operations-in-progress.html"
+    - title: How tos
+      url: "/sm-interface/generic-how-tos.html"
+      entries:
+      - title: Set default units for capacity values
+        url: "/sm-interface/set-default-units-for-capacity-values.html"
+      - title: Set default time frame for performance graphs
+        url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+      - title: Recover from problems using Recovery Guru
+        url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+      - title: View and act on operations in progress
+        url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+    - title: FAQs
+      url: "/sm-interface/generic-faqs.html"
+      entries:
+      - title: Where can I find more information about display preferences?
+        url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+      - title: What are the supported browsers?
+        url: "/sm-interface/what-are-the-supported-browsers.html"
+      - title: What are the keyboard shortcuts?
+        url: "/sm-interface/what-are-the-keyboard-shortcuts.html"

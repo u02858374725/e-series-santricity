@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/generic-volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'The Volumes page is where you create the storage containers for your applications, databases, and file systems. A volume is the logical component created for the host to access storage on the array.'
+---
+= image:../media/sam1130-icon-volumes.gif[] Volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Volumes page is where you create the storage containers for your applications, databases, and file systems. A volume is the logical component created for the host to access storage on the array.

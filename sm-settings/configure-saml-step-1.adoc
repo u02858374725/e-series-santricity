@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/configure-saml-step-1.html
+sidebar: sidebar
+keywords: 
+summary: 'To provide the storage array with IdP connection information, you import IdP metadata into System Manager.'
+---
+= Step 1: Upload the IdP metadata file
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To provide the storage array with IdP connection information, you import IdP metadata into System Manager.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* An IdP administrator has configured an IdP system.
+* An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
+* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An IdP metadata file is downloaded from the IdP system and is available on the local system used for accessing System Manager.
+
+== About this task
+
+In this task, you upload a metadata file from the IdP into System Manager. The IdP system needs this metadata to redirect authentication requests to the correct URL and to validate responses received. You only need to upload one metadata file for the storage array, even if there are two controllers.
+
+== Steps
+
+. Select *Settings* > *Access Management*.
+. Select the *SAML* tab.
++
+The page displays an overview of configuration steps.
+
+. Click the *Import Identity Provider (IdP) file* link.
++
+The Import Identity Provider File dialog opens.
+
+. Click *Browse* to select and upload the IdP metadata file you copied to your local system.
++
+After you select the file, the IdP Entity ID is displayed.
+
+. Click *Import*.

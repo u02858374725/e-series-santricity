@@ -1,0 +1,140 @@
+---
+permalink: sm-storage/view-performance-data-graphical.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view graphical performance data for logical objects, physical objects, applications, and workloads.'
+---
+= View graphical performance data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view graphical performance data for logical objects, physical objects, applications, and workloads.
+
+== About this task
+
+The performance graphs show historical data as well as live data currently being captured. A vertical line on the graph, labeled Live updating, distinguishes historical data from live data.
+
+*Home page view*
+
+The Home page contains a graph showing storage array level performance. You can select limited metrics from this view, or you can click *View Performance Details* to select all the available metrics.
+
+*Detailed view*
+
+The graphs available from the detailed performance view are arranged under three tabs:
+
+* *Logical View* -- Displays performance data for logical objects grouped by volume groups and pools. Logical objects include volume groups, pools, and volumes.
+* *Physical View* -- Displays performance data for the controller, host channels, drive channels, and drives.
+* *Applications & Workloads View* -- Displays a list of logical objects (volumes) grouped by the application types and workloads you have defined.
+
+== Steps
+
+. Select *Home*.
+. To select an array-level view, click the IOPS, MiB/s, or CPU button.
+. To see more details, click *View Performance Details*.
+. Select *Logical View* tab, *Physical View* tab, or *Applications & Workloads View* tab.
++
+Depending on the object type, different graphs appear in each tab.
++
+|===
+| View tabs| Performance data displayed for each object type
+a|
+    Logical View
+a|
+
+ ** *Storage array*: IOPS, MiB/s
+ ** *Pools*: Latency, IOPS, MiB/s
+ ** *Volume groups*: Latency, IOPS, MiB/s
+ ** *Volumes*: Latency, IOPS, MiB/s
+
+a|
+    Physical View
+a|
+
+ ** *Controllers*: IOPS, MiB/s, CPU, Headroom
+ ** *Host channels*: Latency, IOPS, MiB/s, Headroom
+ ** *Drive channels*: Latency, IOPS, MiB/s
+ ** *Drives*: Latency, IOPS, MiB/s
+
+a|
+    Applications & Workloads View
+a|
+
+ ** *Storage array*: IOPS, MiB/s
+ ** *Applications*: Latency, IOPS, MiB/s
+ ** *Workloads*: Latency, IOPS, MiB/s
+ ** *Volumes*: Latency, IOPS, MiB/s
+
++
+|===
+
+. Use the options to view the objects and information you need.
++
+Options
++
+|===
+| Options for viewing objects| Description
+a|
+    Expand a drawer to see the list of objects.
+a|
+    _Navigation drawers_ contain storage objects, such as pools, volume groups, and drives.
++
+Click the drawer to view the list of objects in the drawer.
+a|
+    Select objects to view.
+a|
+    Select the check box to the left of each object to choose the performance data you want to view.
+a|
+    Use Filter to find object names or partial names.
+a|
+    In the Filter box, enter the name or a partial name of objects to list just those objects in the drawer.
+a|
+    Click *Refresh Graphs* after selecting objects.
+a|
+After selecting objects from the drawers, select *Refresh Graphs* to view graphical data for the items you have selected.
+a|
+    Hide or show graph
+a|
+    Select the graph title to hide or show the graph.
++
+|===
+
+. As needed, use the additional options for viewing performance data.
++
+Additional options
++
+|===
+| Option| Description
+a|
+    Time frame
+a|
+    Select the length of time you want to view (5 minutes, 1 hour, 8 hours, 1 day, 7 days, or 30 days). The default is 1 hour.
++
+[NOTE]
+====
++
+====
++
+Loading performance data for a 30-day time frame can take several minutes. Do not navigate away from the web page, refresh the web page, or close the browser while data is loading.
+a|
+    Data point details
+a|
+    Hover the cursor over the graph to see metrics for a particular data point.
+a|
+    Scroll bar
+a|
+    Use the scroll bar below the graph to view an earlier or later time span.
+a|
+    Zoom bar
+a|
+    Below the graph, drag the zoom bar handles to zoom out on a time span. The wider the zoom bar, the less granular the details of the graph.
++
+To reset the graph, select one of the time frame options.
+a|
+    Drag and drop
+a|
+    On the graph, drag the cursor from one point in time to another to zoom in on a time span.
++
+To reset the graph, select one of the time frame options.
++
+|===

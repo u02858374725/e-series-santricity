@@ -1,0 +1,21 @@
+---
+permalink: sm-support/re-enable-drive-ports.html
+sidebar: sidebar
+keywords: 
+summary: 'You can indicate to the controller that corrective action has been taken to recover from a mis-wire condition.'
+---
+= Re-enable drive ports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can indicate to the controller that corrective action has been taken to recover from a mis-wire condition.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *Re-enable Drive Ports*, and confirm that you want to perform the operation.
++
+This option appears only when the storage array has disabled drive ports.
++
+The controller re-enables any SAS ports that were disabled when a mis-wire was detected.

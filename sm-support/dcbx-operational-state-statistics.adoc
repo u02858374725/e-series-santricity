@@ -1,0 +1,40 @@
+---
+permalink: sm-support/dcbx-operational-state-statistics.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= DCBX operational state statistics
+:icons: font
+:imagesdir: ../media/
+
+When you select Data Center Bridging Exchange (DCBX) Operational State Statistics, these statistics appear.
+
+|===
+| Statistic| Definition
+a|
+iSCSI Host Port
+a|
+Indicates the location of the detected host port in Controller #, Port # format.
+a|
+Priority Group
+a|
+Indicates the operational state of the Priority Group (PG) application. The state is either Enabled or Disabled.
+a|
+Priority-based Flow Control
+a|
+Indicates the operational state of the Priority-based Flow Control (PFC) feature. The state is either Enabled or Disabled.
+a|
+iSCSI Feature
+a|
+Indicates the operational state of the Internet Small Computer System Interface (iSCSI) application. The state is either Enabled or Disabled.
+a|
+FCoE Bandwidth
+a|
+Indicates the state of the Fibre Channel over Ethernet (FCoE) Bandwidth. The state is either True or False.
+a|
+No FCoE/FIP Map Mismatch
+a|
+Indicates whether a map mismatch exists between FCoE and FCoE Initialization Protocol (FIP). The value is either True or False.
+|===
+You can find additional DCBX operational state statistics in the state capture file.

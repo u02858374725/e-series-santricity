@@ -1,0 +1,82 @@
+---
+permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html
+sidebar: sidebar
+keywords: 
+summary: 'iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship. The following tables list the System Manager functions that you can use to configure and manage these iSCSI sessions.'
+---
+= What else do I need to do to configure or diagnose iSCSI?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship. The following tables list the System Manager functions that you can use to configure and manage these iSCSI sessions.
+
+[NOTE]
+====
+The iSCSI settings are only available if your storage array supports iSCSI.
+====
+
+== Configure iSCSI
+
+|===
+| Action| Location
+a|
+Manage iSCSI settings
+a|
+
+. Select *Settings* > *System*.
+. Scroll down to *iSCSI settings* to view all the management functions.
+
+a|
+Configure iSCSI ports
+a|
+
+. Select *Hardware*.
+. Select *Show back of shelf*.
+. Select a controller.
+. Select *Configure iSCSI ports*.
+
+a|
+Set the host CHAP secret
+a|
+
+. Select *Settings* > *System*.
+. Scroll down to *iSCSI settings*, and then select *Configure Authentication*.
+
+or
+
+. Select *Storage* > *Hosts*.
+. Select a host member.
+. Click *View/Edit Settings* > **Host Ports**tab.
+
+|===
+
+== Diagnose iSCSI
+
+|===
+| Action| Location
+a|
+View or end iSCSI sessions
+a|
+
+. Select *Settings* > *System*.
+. Scroll down to *iSCSI settings*, and then select *View/End iSCSI Sessions*.
+
+or
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View/End iSCSI Sessions*.
+
+a|
+View iSCSI statistics
+a|
+
+. Select *Settings* > *System*.
+. Scroll down to *iSCSI settings*, and then select *View iSCSI Statistics Packages*.
+
+or
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View iSCSI Statistics Packages*.
+
+|===

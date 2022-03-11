@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/view-snapshot-image-settings.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the properties, status, reserved capacity, and associated objects assigned to each snapshot image.'
+---
+= View snapshot image settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the properties, status, reserved capacity, and associated objects assigned to each snapshot image.
+
+== About this task
+
+Associated objects for a snapshot image include the base volume or snapshot consistency group for which this snapshot image is a restore point, the associated snapshot group, and any snapshot volumes created from the snapshot image. Use the snapshot settings to determine whether you want to copy or convert the snapshot image.
+
+== Steps
+
+. Select *Storage* > *Snapshots*.
+. Click the *Snapshot Images* tab.
+. Select the snapshot image that you want to view, and then click *View Settings*.
++
+The Snapshot Image Settings dialog box appears.
+
+. View the settings for the snapshot image.

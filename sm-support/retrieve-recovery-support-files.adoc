@@ -1,0 +1,42 @@
+---
+permalink: sm-support/retrieve-recovery-support-files.html
+sidebar: sidebar
+keywords: 
+summary: 'Technical support can use recovery support files to troubleshoot issues. System Manager automatically saves these files.'
+---
+= Retrieve recovery support files
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Technical support can use recovery support files to troubleshoot issues. System Manager automatically saves these files.
+
+== Before you begin
+
+Technical support has requested that you send them additional files for troubleshooting.
+
+== About this task
+
+Recovery support files include these types of files:
+
+* Support data files
+* AutoSupport history
+* AutoSupport log
+* SAS/RLS diagnostics files
+* Recovery profile data
+* Database capture files
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *Retrieve Recovery Support Files*.
++
+A dialog box lists all the recovery support files that your storage array has collected. To find particular files, you can sort any of the columns or type characters in the *Filter* box.
+
+. Select a file, and then click *Download*.
++
+The file is saved in the Downloads folder for your browser.
+
+. If you need to save additional files, repeat the previous step.
+. Click *Close*.
+. Follow the instructions provided by technical support to send the file to them.

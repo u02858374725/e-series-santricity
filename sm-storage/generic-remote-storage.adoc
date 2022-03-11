@@ -1,0 +1,12 @@
+---
+permalink: sm-storage/generic-remote-storage.html
+sidebar: sidebar
+keywords: 
+summary: 'The Remote Storage page is where you can import volumes from a remote storage device to your local E-Series storage system.'
+---
+= image:../media/sam1130-icon-volumes.gif[]Remote storage
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Remote Storage page is where you can import volumes from a remote storage device to your local E-Series storage system.

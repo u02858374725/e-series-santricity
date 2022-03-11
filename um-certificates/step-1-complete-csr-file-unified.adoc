@@ -1,0 +1,46 @@
+---
+permalink: um-certificates/step-1-complete-csr-file-unified.html
+sidebar: sidebar
+keywords: 
+summary: 'You must first generate a certificate signing request \(CSR\) file, which identifies your organization and the host system where the Web Services Proxy and Unified Manager are installed.'
+---
+= Step 1: Complete a CSR file
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must first generate a certificate signing request (CSR) file, which identifies your organization and the host system where the Web Services Proxy and Unified Manager are installed.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+
+== About this task
+
+This task describes how to generate the CSR file from Unified Manager.
+
+[NOTE]
+====
+Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip to xref:step-2-submit-csr-files-unified.adoc[Step 2: Submit CSR file].
+====
+
+== Steps
+
+. Select *Certificate Management*.
+. From the *Management* tab, select *Complete CSR*.
+. Enter the following information, and then click *Next*:
+ ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
+ ** *Organizational unit (optional)* -- The division of your organization that is handling the certificate.
+ ** *City/Locality* -- The city where your host system or business is located.
+ ** *State/Region (optional)* -- The state or region where your host system or business is located.
+ ** *Country ISO code* -- Your country's two-digit ISO (International Organization for Standardization) code, such as US.
+. Enter the following information about the host system where the Web Services Proxy is installed:
+ ** *Common name* -- The IP address or DNS name of the host system where the Web Services Proxy is installed. Make sure this address is correct; it must match exactly what you enter to access Unified Manager in the browser. Do not include http:// or https://. The DNS name cannot begin with a wildcard.
+ ** *Alternate IP addresses* -- If the common name is an IP address, you can optionally enter any additional IP addresses or aliases for the host system. For multiple entries, use a comma-delimited format.
+ ** *Alternate DNS names* -- If the common name is a DNS name, enter any additional DNS names for the host system. For multiple entries, use a comma-delimited format. If there are no alternate DNS names, but you entered a DNS name in the first field, copy that name here. The DNS name cannot begin with a wildcard.
+. Make sure that the host information is correct. If it is not, the certificates returned from the CA will fail when you try to import them.
+. Click *Finish*.
+
+== After you finish
+
+Go to xref:step-2-submit-csr-files-unified.adoc[Step 2: Submit CSR file].

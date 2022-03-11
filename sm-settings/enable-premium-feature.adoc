@@ -1,0 +1,39 @@
+---
+permalink: sm-settings/enable-premium-feature.html
+sidebar: sidebar
+keywords: 
+summary: 'A premium feature is an extra option that requires a key to enable.'
+---
+= Enable a premium feature
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A premium feature is an extra option that requires a key to enable.
+
+== Before you begin
+
+* You have obtained a feature key. If necessary, contact technical support for a key.
+* You have loaded the key file on the management client (the system with a browser for accessing System Manager).
+
+== About this task
+
+This task describes how to use System Manager to enable a premium feature.
+
+[NOTE]
+====
+If you want to disable a premium feature, you must use the Disable Storage Array Feature command (`disable storageArray (featurePack | feature=featureAttributeList`) in the Command Line Interface (CLI).
+====
+
+== Steps
+
+. Select *Settings* > *System*.
+. Under *Add-ons*, select *Enable Premium Feature*.
++
+The Enable a Premium Feature dialog box opens.
+
+. Click *Browse*, and then select the key file.
++
+The file name is displayed in the dialog box.
+
+. Click *Enable*.

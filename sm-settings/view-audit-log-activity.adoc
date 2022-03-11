@@ -1,0 +1,83 @@
+---
+permalink: sm-settings/view-audit-log-activity.html
+sidebar: sidebar
+keywords: 
+summary: 'By viewing audit logs, users with Security Admin permissions can monitor user actions, authentication failures, invalid login attempts, and the user session lifespan.'
+---
+= View audit log activity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+By viewing audit logs, users with Security Admin permissions can monitor user actions, authentication failures, invalid login attempts, and the user session lifespan.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+
+== Steps
+
+. Select *Settings* > *Access Management*.
+. Select the **Audit Log**tab.
++
+Audit log activity appears in tabular format, which includes the following columns of information:
+
+ ** *Date/Time* -- Timestamp of when the storage array detected the event (in GMT).
+ ** *Username* -- The user name associated with the event. For any non-authenticated actions on the storage array, "N/A" appears as the user name. Non-authenticated actions might be triggered by the internal proxy or some other mechanism.
+ ** *Status Code* -- HTTP status code of the operation (200, 400, etc.) and descriptive text associated with the event.
+ ** *URL Accessed* -- Full URL (including host) and query string.
+ ** *Client IP Address* -- IP address of the client associated with the event.
+ ** *Source* -- Logging source associated with the event, which can be System Manager, CLI, Web Services, or Support Shell.
+
+. Use the selections on the Audit Log page to view and manage events.
++
+Selection Details
++
+|===
+| Selection| Description
+a|
+Show events from the...
+a|
+Limit events shown by date range (last 24 hours, last 7 days, last 30 days, or a custom date range).
+a|
+Filter
+a|
+Limit events shown by the characters entered in the field. Use quotes ("") for an exact word match, enter `OR` to return one or more words, or enter a dash (--) to omit words.
+a|
+Refresh
+a|
+Select *Refresh* to update the page to the most current events.
+a|
+View/Edit Settings
+a|
+Select *View/Edit Settings* to open a dialog box that allows you to specify a full log policy and level of actions to be logged.
+a|
+Delete events
+a|
+Select *Delete* to open a dialog box that allows you to remove old events from the page.
+a|
+Show/hide columns
+a|
+Click the *Show/Hide* column icon image:../media/sam-1140-ss-access-columns.gif[] to select additional columns for display in the table.    Additional columns include:
+
+ ** *Method* -- The HTTP method (for example, POST, GET, DELETE, etc.).
+ ** *CLI Command Executed* -- The CLI command (grammar) executed for Secure CLI requests.
+ ** *CLI Return Status* -- A CLI status code or a request for input files from the client.
+ ** *SYMbol Procedure* -- The SYMbol procedure executed.
+ ** *SSH Event Type* -- Secure Shell (SSH) events type, such as login, logout, and login_fail.
+ ** *SSH Session PID* -- Process ID number of the SSH session.
+ ** *SSH Session Duration(s)* -- The number of seconds the user was logged in.
+
+a|
+Toggle column filters
+a|
+Click the *Toggle* icon image:../media/sam-1140-ss-access-toggle.gif[] to open filtering fields for each column.     Enter characters within a column field to limit events shown by those characters. Click the icon again to close the filtering fields.
+a|
+Undo changes
+a|
+Click the *Undo* icon image:../media/sam-1140-ss-access-undo.gif[] to return the table to the default configuration.
+a|
+Export
+a|
+Click *Export* to save the table data to a comma separated value (CSV) file.
+|===
