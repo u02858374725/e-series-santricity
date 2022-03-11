@@ -35,17 +35,17 @@ entries:
     - title: What are battery learn cycles?
       url: "/sm-hardware/what-are-battery-learn-cycles.html"
   - title: Controllers
-  url: "/sm-hardware/controllers.html"
-  entries:
-  - title: Concepts
-    url: "/sm-hardware/generic-concepts.html"
+    url: "/sm-hardware/controllers.html"
     entries:
-    - title: Controller terminology
-      url: "/sm-hardware/controller-terminology.html"
-    - title: Controller states
-      url: "/sm-hardware/controller-states.html"
-    - title: Considerations for assigning IP addresses
-      url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+    - title: Concepts
+      url: "/sm-hardware/generic-concepts.html"
+      entries:
+      - title: Controller terminology
+        url: "/sm-hardware/controller-terminology.html"
+      - title: Controller states
+        url: "/sm-hardware/controller-states.html"
+      - title: Considerations for assigning IP addresses
+        url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
   - title: How tos
     url: "/sm-hardware/generic-how-tos.html"
     entries:
@@ -102,19 +102,19 @@ entries:
     - title: Why is the storage system in non-optimal mode?
       url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
   - title: Drives
-  url: "/sm-hardware/drives.html"
-  entries:
-  - title: Concepts
-    url: "/sm-hardware/generic-concepts.html"
+    url: "/sm-hardware/drives.html"
     entries:
-    - title: Drive terminology
-      url: "/sm-hardware/drive-terminology.html"
-    - title: Drive states
-      url: "/sm-hardware/drive-states.html"
-    - title: Solid State Disks (SSDs)
-      url: "/sm-hardware/solid-state-disks-ssds.html"
-    - title: Hot spare drives
-      url: "/sm-hardware/hot-spare-drives.html"
+    - title: Concepts
+      url: "/sm-hardware/generic-concepts.html"
+      entries:
+      - title: Drive terminology
+        url: "/sm-hardware/drive-terminology.html"
+      - title: Drive states
+        url: "/sm-hardware/drive-states.html"
+      - title: Solid State Disks (SSDs)
+        url: "/sm-hardware/solid-state-disks-ssds.html"
+      - title: Hot spare drives
+        url: "/sm-hardware/hot-spare-drives.html"
   - title: How tos
     url: "/sm-hardware/generic-how-tos.html"
     entries:

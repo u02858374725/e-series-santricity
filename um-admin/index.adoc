@@ -1,21 +1,9 @@
 ---
 permalink: um-admin/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
 = SANtricity Unified Manager 5
 :icons: font
 :imagesdir: ../media/
-
-* xref:unified-manager-overview.adoc[Unified Manager overview]
- ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-OVER.adoc[Concepts]
-  *** xref:home-page-unified.adoc[Interface overview]
-  *** xref:supported-browsers-unified.adoc[Supported browsers]
-* xref:administration.adoc[Unified Manager administration]
- ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-ADMN.adoc[Concepts]
-  *** xref:administrator-password-protection-unified.adoc[Administrator password protection]
- ** xref:GUID-C46DE94B-34D7-48C6-8881-C415F6E4D510-ADMN.adoc[How tos]
-  *** xref:change-admin-password-unified.adoc[Change the admin password]
-  *** xref:change-storage-array-passwords.adoc[Change storage array passwords]
-  *** xref:manage-session-timeouts-unified.adoc[Manage session timeouts]

@@ -1,40 +1,9 @@
 ---
 permalink: sm-interface/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
 = SANtricity System Manager 11.7
 :icons: font
 :imagesdir: ../media/
-
-* xref:system-manager-overview.adoc[SANtricity System Manager overview]
- ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-OVERVIEW.adoc[Concepts]
-  *** xref:home-page.adoc[Home page]
-* xref:setup-wizard.adoc[Setup wizard]
- ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-SETUP.adoc[Concepts]
-  *** xref:setup-wizard-overview.adoc[Setup wizard overview]
-  *** xref:setup-wizard-terminology.adoc[Setup wizard terminology]
- ** xref:GUID-549C2152-3403-4F79-B6B1-C83C55F31F8D-SETUP.adoc[FAQs]
-  *** xref:what-if-i-dont-see-all-of-my-hardware-components.adoc[What if I don't see all of my hardware components?]
-  *** xref:what-if-i-dont-see-all-of-my-hosts.adoc[What if I don't see all of my hosts?]
-  *** xref:how-does-identifying-applications-help-me-manage-my-storage-array.adoc[How does identifying applications help me manage my storage array?]
-  *** xref:what-is-a-workload.adoc[What is a workload?]
-  *** xref:how-do-i-configure-the-delivery-method-for-autosupport-new.adoc[How do I configure the delivery method for AutoSupport?]
-  *** xref:how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.adoc[How do I know if I should accept the recommended pool configuration?]
-  *** xref:system-manager-has-not-detected-any-hosts-what-do-i-do.adoc[System Manager has not detected any hosts. What do I do?]
-* xref:storage-array-administration.adoc[Storage array administration]
- ** xref:GUID-A1AC7A71-25D6-4C3D-B801-88C7406BC471-ADMIN.adoc[Concepts]
-  *** xref:storage-array-overview.adoc[Storage array overview]
-  *** xref:administrator-password-protection.adoc[Administrator password protection]
-  *** xref:problem-notification.adoc[Problem notification]
-  *** xref:operations-in-progress.adoc[Operations in progress]
- ** xref:GUID-C46DE94B-34D7-48C6-8881-C415F6E4D510-ADMIN.adoc[How tos]
-  *** xref:set-default-units-for-capacity-values.adoc[Set default units for capacity values]
-  *** xref:set-default-time-frame-for-performance-graphs.adoc[Set default time frame for performance graphs]
-  *** xref:recover-from-problems-using-recovery-guru.adoc[Recover from problems using Recovery Guru]
-  *** xref:view-and-act-on-operations-in-progress.adoc[View and act on operations in progress]
- ** xref:GUID-549C2152-3403-4F79-B6B1-C83C55F31F8D-ADMIN.adoc[FAQs]
-  *** xref:where-can-i-find-more-information-about-display-preferences.adoc[Where can I find more information about display preferences?]
-  *** xref:what-are-the-supported-browsers.adoc[What are the supported browsers?]
-  *** xref:what-are-the-keyboard-shortcuts.adoc[What are the keyboard shortcuts?]
