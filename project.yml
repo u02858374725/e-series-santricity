@@ -2,7 +2,7 @@
 settings:
   name: Catalyst Migration
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: true
 sidebar:
