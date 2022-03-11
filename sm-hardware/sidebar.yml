@@ -4,14 +4,12 @@ entries:
   - title: Shelves
     entries:
       - title: Concepts
-        url: "/sm-hardware/generic-concepts.html"
         entries:
         - title: Hardware page overview
           url: "/sm-hardware/hardware-page-overview.html"
         - title: Hardware terminology
           url: "/sm-hardware/hardware-terminology.html"
       - title: How tos
-        url: "/sm-hardware/generic-how-tos.html"
         entries:
         - title: View hardware components
           url: "/sm-hardware/view-hardware-components.html"
@@ -30,7 +28,6 @@ entries:
         - title: Update battery learn cycles
           url: "/sm-hardware/update-battery-learn-cycles.html"
       - title: FAQs
-        url: "/sm-hardware/generic-faqs.html"
         entries:
         - title: What is shelf loss protection and drawer loss protection?
           url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
@@ -40,7 +37,6 @@ entries:
     url: "/sm-hardware/controllers.html"
     entries:
     - title: Concepts
-      url: "/sm-hardware/generic-concepts.html"
       entries:
       - title: Controller terminology
         url: "/sm-hardware/controller-terminology.html"
@@ -49,7 +45,6 @@ entries:
       - title: Considerations for assigning IP addresses
         url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
     - title: How tos
-      url: "/sm-hardware/generic-how-tos.html"
       entries:
         - title: Configure management port
           url: "/sm-hardware/configure-management-ports.html"
@@ -78,7 +73,6 @@ entries:
         - title: Reset (reboot) controller
           url: "/sm-hardware/reset-reboot-controller.html"
     - title: FAQs
-      url: "/sm-hardware/generic-faqs.html"
       entries:
         - title: What is auto-negotiation?
           url: "/sm-hardware/what-is-auto-negotiation.html"
@@ -106,7 +100,6 @@ entries:
     url: "/sm-hardware/drives.html"
     entries:
     - title: Concepts
-      url: "/sm-hardware/generic-concepts.html"
       entries:
       - title: Drive terminology
         url: "/sm-hardware/drive-terminology.html"
@@ -117,7 +110,6 @@ entries:
       - title: Hot spare drives
         url: "/sm-hardware/hot-spare-drives.html"
     - title: How tos
-      url: "/sm-hardware/generic-how-tos.html"
       entries:
         - title: Limit the drive view
           url: "/sm-hardware/limit-the-drive-view.html"
@@ -142,7 +134,6 @@ entries:
         - title: Unlock or reset locked NVMe or FIPS drives
           url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
     - title: FAQs
-      url: "/sm-hardware/generic-faqs.html"
       entries:
         - title: What is preservation capacity?
           url: "/sm-hardware/what-is-preservation-capacity.html"
