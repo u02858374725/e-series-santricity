@@ -1,5 +1,5 @@
 section: sm-hardware
-title: Shelves
+title: Hardware
 entries:
   - title: Concepts
     url: "/sm-hardware/generic-concepts.html"
@@ -8,32 +8,32 @@ entries:
       url: "/sm-hardware/hardware-page-overview.html"
     - title: Hardware terminology
       url: "/sm-hardware/hardware-terminology.html"
-  - title: How tos
-    url: "/sm-hardware/generic-how-tos.html"
-    entries:
-    - title: View hardware components
-      url: "/sm-hardware/view-hardware-components.html"
-    - title: Show or hide component status
-      url: "/sm-hardware/show-or-hide-component-status.html"
-    - title: Switch between front and back views
-      url: "/sm-hardware/switch-between-front-and-back-views.html"
-    - title: Change view order of shelves
-      url: "/sm-hardware/change-view-order-of-shelves.html"
-    - title: Turn on shelf locator light
-      url: "/sm-hardware/turn-on-shelf-locator-light.html"
-    - title: Change shelf IDs
-      url: "/sm-hardware/change-shelf-ids.html"
-    - title: View shelf component status and settings
-      url: "/sm-hardware/view-shelf-component-status-and-settings.html"
-    - title: Update battery learn cycles
-      url: "/sm-hardware/update-battery-learn-cycles.html"
-  - title: FAQs
-    url: "/sm-hardware/generic-faqs.html"
-    entries:
-    - title: What is shelf loss protection and drawer loss protection?
-      url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
-    - title: What are battery learn cycles?
-      url: "/sm-hardware/what-are-battery-learn-cycles.html"
+    - title: How tos
+      url: "/sm-hardware/generic-how-tos.html"
+      entries:
+        - title: View hardware components
+          url: "/sm-hardware/view-hardware-components.html"
+        - title: Show or hide component status
+          url: "/sm-hardware/show-or-hide-component-status.html"
+        - title: Switch between front and back views
+          url: "/sm-hardware/switch-between-front-and-back-views.html"
+        - title: Change view order of shelves
+          url: "/sm-hardware/change-view-order-of-shelves.html"
+        - title: Turn on shelf locator light
+          url: "/sm-hardware/turn-on-shelf-locator-light.html"
+        - title: Change shelf IDs
+          url: "/sm-hardware/change-shelf-ids.html"
+        - title: View shelf component status and settings
+          url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+        - title: Update battery learn cycles
+          url: "/sm-hardware/update-battery-learn-cycles.html"
+    - title: FAQs
+      url: "/sm-hardware/generic-faqs.html"
+      entries:
+        - title: What is shelf loss protection and drawer loss protection?
+          url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+        - title: What are battery learn cycles?
+          url: "/sm-hardware/what-are-battery-learn-cycles.html"
   - title: Controllers
     url: "/sm-hardware/controllers.html"
     entries:
