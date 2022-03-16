@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/automatic-versus-manual-host-creation.html
 sidebar: sidebar
-keywords: 
-summary: 'Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes. You can create a host automatically or manually.'
+keywords: automatic, versus, manual, host, creation, volumes
+summary: "Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes. You can create a host automatically or manually."
 ---
 = Automatic versus manual host creation
 :icons: font

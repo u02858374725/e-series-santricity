@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/application-specific-workloads.html
 sidebar: sidebar
-keywords: 
-summary: 'When creating a volume, you select a workload to customize the storage array configuration for a specific application.'
+keywords: application, specific, workloads, volume, storage, configuration
+summary: "When creating a volume, you select a workload to customize the storage array configuration for a specific application."
 ---
 = Application-specific workloads
 :icons: font

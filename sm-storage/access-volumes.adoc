@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/access-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'An access volume is a factory-configured volume on the storage array that is used for communication with the storage array and the host through the host I/O connection. The access volume requires a Logical Unit Number \(LUN\).'
+keywords: access, volumes
+summary: "An access volume is a factory-configured volume on the storage array that is used for communication with the storage array and the host through the host I/O connection. The access volume requires a Logical Unit Number (LUN)."
 ---
 = Access volumes
 :icons: font

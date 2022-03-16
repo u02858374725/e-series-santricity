@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/add-capacity-to-a-pool-or-volume-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation.'
+keywords: add, capacity, pool, volume, group, free
+summary: "You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation."
 ---
 = Add capacity to a pool or volume group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -39,9 +40,9 @@ With the addition of drives, your preservation capacity may need to be increased
 Avoid using drives that are Data Assurance (DA) capable to add capacity to a pool or volume group that is not DA capable. The pool or volume group cannot take advantage of the capabilities of the DA-capable drive. Consider using drives that are not DA capable in this situation.
 ====
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select menu:Storage[Pools & Volume Groups].
 . Select the pool or volume group to which you want to add drives, and then click *Add Capacity*.
 +
 The Add Capacity dialog box appears. Only the unassigned drives that are compatible with the pool or volume group appear.
@@ -50,8 +51,10 @@ The Add Capacity dialog box appears. Only the unassigned drives that are compati
 +
 The controller firmware arranges the unassigned drives with the best options listed at the top. The total free capacity that is added to the pool or volume group appears below the list in *Total capacity selected*.
 +
-Field Details
-+
+[%collapsible]
+.Field Details
+====
+[cols="2*",options="header"]
 |===
 | Field| Description
 a|
@@ -94,6 +97,7 @@ DULBE capable
 a|
 Indicates whether the drive has the option for Deallocated or Unwritten Logical Block Error (DULBE). DULBE is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
 |===
+====
 
 . Click *Add*.
 +
