@@ -18,7 +18,7 @@ You can change the settings for a snapshot volume to adjust the percentage point
 . Click the *Reserved Capacity* tab.
 . Select the snapshot volume that you want to edit, and then click *View/Edit Settings*.
 +
-The Snapshot Volume Reserved Capacity Settings dialog box appears.
+The *Snapshot Volume Reserved Capacity Settings* dialog box appears.
 
 . Change the reserved capacity settings for the snapshot volume as appropriate.
 +

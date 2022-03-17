@@ -1,31 +1,35 @@
 ---
 permalink: sm-storage/change-the-settings-for-a-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'Change the settings for a snapshot consistency group when you want to change its name, automatic deletion settings, or the maximum number of allowed snapshot images.'
+keywords: change, settings, snapshot, consistency, group
+summary: "Change the settings for a snapshot consistency group when you want to change its name, automatic deletion settings, or the maximum number of allowed snapshot images."
 ---
 = Change the settings for a snapshot consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Change the settings for a snapshot consistency group when you want to change its name, automatic deletion settings, or the maximum number of allowed snapshot images.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Click the *Snapshot Consistency Groups* tab.
 . Select the snapshot consistency group that you want to edit, and then click *View/Edit Settings*.
 +
-The Snapshot Consistency Group Settings dialog box appears.
+The *Snapshot Consistency Group Settings* dialog box appears.
 
 . Change the settings for the snapshot consistency group as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Snapshot consistency group settings*
 a|
 Name
@@ -43,12 +47,13 @@ a|
 Snapshot schedule
 a|
 This field indicates whether a schedule is associated with the snapshot consistency group.
-a|
+2+a|
 *Associated objects*
 a|
 Member volumes
 a|
 You can view the quantity of member volumes associated with the snapshot consistency group.
 |===
+====
 
 . Click *Save*.

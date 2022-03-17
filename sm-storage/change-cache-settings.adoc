@@ -27,7 +27,7 @@ This action might occur when a new battery is charging, when a controller has be
 . Select menu:Storage[Volumes].
 . Select any volume, and then select menu:More[Change cache settings].
 +
-The Change Cache Settings dialog box appears. All volumes on the storage array appear in this dialog box.
+The *Change Cache Settings* dialog box appears. All volumes on the storage array appear in this dialog box.
 
 . Select the *Basic* tab to change the settings for read caching and write caching.
 +

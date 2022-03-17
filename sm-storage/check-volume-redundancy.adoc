@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/check-volume-redundancy.html
 sidebar: sidebar
-keywords: 
-summary: 'Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.'
+keywords: check, volume, redundancy
+summary: "Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails."
 ---
 = Check volume redundancy
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -35,12 +36,12 @@ You can perform this check only on one pool or volume group at a time. A volume 
 Immediately running a redundancy check on the same pool or volume group might cause an error. To avoid this problem, wait one to two minutes before running another redundancy check on the same pool or volume group.
 ====
 
-== Steps
+.Steps
 
 . Select *Storage* > *Pools & Volume Groups*.
 . Select *Uncommon Tasks* > *Check volume redundancy*.
 +
-The Check Redundancy dialog box appears.
+The *Check Redundancy* dialog box appears.
 
 . Select the volumes you want to check, and then type `check` to confirm you want to perform this operation.
 . Click *Check*.
@@ -48,42 +49,42 @@ The Check Redundancy dialog box appears.
 The check volume redundancy operation starts. The volumes in the pool or volume group are sequentially scanned, starting from the top of the table in the dialog box. These actions occur as each volume is scanned:
 
  ** The volume is selected in the volume table.
- ** The status of the redundancy check is shown in the Status column.
+ ** The status of the redundancy check is shown in the *Status* column.
  ** The check stops on any media or parity error encountered, and then reports the error.
 More about the status of the redundancy check
 
 +
+[cols="1a,1a" options="header"]
 |===
 | Status| Description
 a|
 Pending
 a|
-    This is the first volume to be scanned, and you have not clicked Start to start the redundancy check.
-+
+This is the first volume to be scanned, and you have not clicked Start to start the redundancy check.
+
 or
-+
+
 The redundancy check operation is being performed on other volumes in the pool or volume group.
 a|
 Checking
 a|
-    The volume is undergoing the redundancy check.
+The volume is undergoing the redundancy check.
 a|
 Passed
 a|
-    The volume passed the redundancy check. No inconsistencies were detected in the redundancy information.
+The volume passed the redundancy check. No inconsistencies were detected in the redundancy information.
 a|
 Failed
 a|
-    The volume failed the redundancy check. Inconsistencies were detected in the redundancy information.
+The volume failed the redundancy check. Inconsistencies were detected in the redundancy information.
 a|
 Media error
 a|
-    The drive media is defective and is unreadable. Follow the instructions displayed in the Recovery Guru.
+The drive media is defective and is unreadable. Follow the instructions displayed in the Recovery Guru.
 a|
 Parity error
 a|
-    The parity is not what it should be for a given portion of the data. A parity error is potentially serious and could cause a permanent loss of data.
-+
+The parity is not what it should be for a given portion of the data. A parity error is potentially serious and could cause a permanent loss of data.
 |===
 
 . Click *Done* after the last volume in the pool or volume group has been checked.

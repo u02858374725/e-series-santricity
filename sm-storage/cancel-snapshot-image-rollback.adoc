@@ -27,7 +27,7 @@ If the snapshot group on which the snapshot image resides has one or more snapsh
 . Click the *Snapshot Images* tab.
 . Select the active or paused rollback, and then select menu:Rollback[Cancel].
 +
-The Confirm Cancel Rollback dialog box appears.
+The *Confirm Cancel Rollback* dialog box appears.
 
 . Click *Yes* to confirm.
 

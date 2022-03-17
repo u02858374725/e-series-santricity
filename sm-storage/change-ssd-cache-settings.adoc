@@ -24,7 +24,7 @@ This feature is not available on the EF600 or EF300 storage system.
 . Select menu:Storage[Pools & Volume Groups].
 . Select the SSD Cache that you want to edit, and then click *View/Edit Settings*.
 +
-The SSD Cache Settings dialog box appears.
+The *SSD Cache Settings* dialog box appears.
 
 . Review or edit the SSD Cache settings as appropriate.
 +

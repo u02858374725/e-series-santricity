@@ -70,28 +70,25 @@ Capacity (GiB)
 a|
 Indicates the drive capacity.
 
- ** Whenever possible, select drives that have a capacity equal to the capacities of the current drives in the pool or volume group.
- ** If you must add unassigned drives with a smaller capacity, be aware that the usable capacity of each drive currently in the pool or volume group is reduced. Therefore, the drive capacity is the same across the pool or volume group.
- ** If you must add unassigned drives with a larger capacity, be aware that the usable capacity of the unassigned drives that you add is reduced so that they match the current capacities of the drives in the pool or volume group.
-
+** Whenever possible, select drives that have a capacity equal to the capacities of the current drives in the pool or volume group.
+** If you must add unassigned drives with a smaller capacity, be aware that the usable capacity of each drive currently in the pool or volume group is reduced. Therefore, the drive capacity is the same across the pool or volume group.
+** If you must add unassigned drives with a larger capacity, be aware that the usable capacity of the unassigned drives that you add is reduced so that they match the current capacities of the drives in the pool or volume group.
 a|
 Secure-Capable
 a|
 Indicates if the drive is secure-capable.
 
- ** To protect your pool or volume group with the Drive Security feature, all the drives must be secure-capable.
- ** It is possible to create a pool or volume group with a mix of secure-capable and non-secure-capable drives, but the Drive Security feature cannot be enabled.
- ** A pool or volume group with all secure-capable drives cannot accept a non-secure-capable drive for sparing or expansion, even if the encryption capability is not in use.
- ** Drives that are reported as secure-capable can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
-
+** To protect your pool or volume group with the Drive Security feature, all the drives must be secure-capable.
+** It is possible to create a pool or volume group with a mix of secure-capable and non-secure-capable drives, but the Drive Security feature cannot be enabled.
+** A pool or volume group with all secure-capable drives cannot accept a non-secure-capable drive for sparing or expansion, even if the encryption capability is not in use.
+** Drives that are reported as secure-capable can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 a|
 DA Capable
 a|
 Indicates whether the drive is Data Assurance (DA) capable.
 
- ** Using drives that are not Data Assurance (DA) capable to add capacity to a DA-capable pool or volume group is not recommended. The pool or volume group no longer has DA capabilities, and you no longer have the option to enable DA on newly created volumes within the pool or volume group.
- ** Using drives that are Data Assurance (DA) capable to add capacity to a pool or volume group that is non DA-capable is not recommended, because that pool or volume group cannot take advantage of the capabilities of the DA-capable drive (the drive attributes do not match). Consider using drives that are not DA-capable in this situation.
-
+** Using drives that are not Data Assurance (DA) capable to add capacity to a DA-capable pool or volume group is not recommended. The pool or volume group no longer has DA capabilities, and you no longer have the option to enable DA on newly created volumes within the pool or volume group.
+** Using drives that are Data Assurance (DA) capable to add capacity to a pool or volume group that is non DA-capable is not recommended, because that pool or volume group cannot take advantage of the capabilities of the DA-capable drive (the drive attributes do not match). Consider using drives that are not DA-capable in this situation.
 a|
 DULBE capable
 a|

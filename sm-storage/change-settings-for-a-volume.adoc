@@ -21,7 +21,7 @@ The volume you want to change is in Optimal status.
 . Select menu:Storage[Volumes].
 . Select the volume that you want to change, and then select *View/Edit Settings*.
 +
-The Volume Settings dialog box appears. The configuration settings for the volume you selected appear in this dialog box.
+The *Volume Settings* dialog box appears. The configuration settings for the volume you selected appear in this dialog box.
 
 . Select the *Basic* tab to change the volume's name and host assignment.
 +

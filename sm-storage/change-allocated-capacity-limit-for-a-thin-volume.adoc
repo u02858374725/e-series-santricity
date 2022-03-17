@@ -32,7 +32,7 @@ The Thin Volume Monitoring view appears.
 
 . Select the thin volume that you want to change, and then select *Change Limit*.
 +
-The Change Limit dialog box appears. The allocated capacity limit and warning threshold setting for the thin volume you selected appear in this dialog box.
+The *Change Limit* dialog box appears. The allocated capacity limit and warning threshold setting for the thin volume you selected appear in this dialog box.
 
 . Change the allocated capacity limit and warning threshold as needed.
 +
@@ -44,16 +44,16 @@ The Change Limit dialog box appears. The allocated capacity limit and warning th
 |===
 | Setting| Description
 a|
-    Change allocated capacity limit to...
+Change allocated capacity limit to...
 a|
-    The threshold at which writes fail, preventing the thin volume from consuming additional resources. This threshold is a percentage of the volume's reported capacity size.
+The threshold at which writes fail, preventing the thin volume from consuming additional resources. This threshold is a percentage of the volume's reported capacity size.
 a|
-    Alert me when...
-    (warning threshold)
+Alert me when...
+(warning threshold)
 a|
-    Select the check box if you want the system to generate an alert when a thin volume is near the allocated capacity limit. The alert is sent to the Notifications area on the Home page. This threshold is a percentage of the volume's reported capacity size.
+Select the check box if you want the system to generate an alert when a thin volume is near the allocated capacity limit. The alert is sent to the Notifications area on the Home page. This threshold is a percentage of the volume's reported capacity size.
 
-    Clear the check box to disable the warning threshold alert notification.
+Clear the check box to disable the warning threshold alert notification.
 |===
 ====
 

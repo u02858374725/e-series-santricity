@@ -25,7 +25,7 @@ The Applications & Workloads view appears.
 
 . Select *Add to Workload*.
 +
-The Select Workload dialog box appears.
+The *Select Workload* dialog box appears.
 
 . Do one of the following actions:
  ** *Add volumes to an existing workload* -- Select this option to add volumes to an existing workload.
@@ -35,7 +35,7 @@ Use the drop-down list to select a workload. The workload's associated applicati
  ** *Add volumes to a new workload* -- Select this option to define a new workload for an application type and add volumes to the new workload.
 . Select *Next* to continue with the add to workload sequence.
 +
-The Select Volumes dialog box appears.
+The *Select Volumes* dialog box appears.
 
 . Select the volumes you want to add to the workload.
 . Review the volumes that you want to add to the selected workload.

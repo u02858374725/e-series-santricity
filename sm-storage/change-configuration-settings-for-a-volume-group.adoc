@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-configuration-settings-for-a-volume-group.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can edit the settings for a volume group, including its name and RAID level.'
 ---
 = Change configuration settings for a volume group
@@ -23,12 +23,15 @@ If you are changing the RAID level to accommodate the performance needs of the a
 . Select *Storage* > *Pools & Volume Groups*.
 . Select the volume group that you want to edit, and then click *View/Edit Settings*.
 +
-The Volume Group Settingsdialog box appears.
+The *Volume Group Settings* dialog box appears.
 
 . Select the *Settings* tab, and then edit the volume group settings as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
 a|
@@ -47,16 +50,16 @@ Select the new RAID level from the drop-down menu.
  ** *RAID 6*. Optimal for environments requiring redundancy protection beyond RAID 5, but not requiring high write performance.
 RAID 3 can be assigned only to volume groups using the command line interface (CLI).
 
-+
+
 When you change the RAID level, you cannot cancel this operation after it begins. During the change, your data remains available.
 a|
 Optimization capacity (EF600 arrays only)
 a|
-    When a volume group is created, a recommended optimization capacity is generated that provides a balance of available capacity versus performance and drive wear life. You can adjust this balance by moving the slider to the right for better performance and drive wear life at the expense of increased available capacity, or by moving it to the left for increased available capacity at the expense of better performance and drive wear life.
-+
+When a volume group is created, a recommended optimization capacity is generated that provides a balance of available capacity versus performance and drive wear life. You can adjust this balance by moving the slider to the right for better performance and drive wear life at the expense of increased available capacity, or by moving it to the left for increased available capacity at the expense of better performance and drive wear life.
+
 SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated. For drives associated with a volume group, unallocated capacity is comprised of a group's free capacity (capacity not used by volumes) and a portion of the usable capacity set aside as additional optimization capacity. The additional optimization capacity ensures a minimum level of optimization capacity by reducing the usable capacity, and as such, is not available for volume creation.
-+
 |===
+===
 
 . Click *Save*.
 +

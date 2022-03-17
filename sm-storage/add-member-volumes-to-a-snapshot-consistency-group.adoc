@@ -31,7 +31,7 @@ The table appears and displays all the snapshot consistency groups associated wi
 
 . Select the snapshot consistency group you want to modify, and then click *Add Members*.
 +
-The Add Members dialog box appears.
+The *Add Members* dialog box appears.
 
 . Select the member volume(s) you want to add, and then click *Next*.
 +
