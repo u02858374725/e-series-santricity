@@ -1,5 +1,4 @@
 section: sm-storage
-title: Storage
 entries:
   - title: Pools and volume groups
     url: "/sm-storage/generic-pools-and-volume-groups.html"
