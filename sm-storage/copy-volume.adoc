@@ -63,6 +63,7 @@ There are five copy priority rates:
  ** Medium
  ** High
  ** Highest
+ 
 If the copy priority is set to the lowest rate, I/O activity is prioritized, and the Copy Volume operation takes longer. If the copy priority is set to the highest rate, the Copy Volume operation is prioritized, but I/O activity for the storage array might be affected.
 
 . Select whether you want to create an online copy or an offline copy. To create an online copy, select the **Keep source volume online during copy operation** check box.

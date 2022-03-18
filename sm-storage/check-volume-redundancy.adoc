@@ -38,8 +38,8 @@ Immediately running a redundancy check on the same pool or volume group might ca
 
 .Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
-. Select *Uncommon Tasks* > *Check volume redundancy*.
+. Select menu:Storage[Pools & Volume Groups].
+. Select menu:Uncommon Tasks[Check volume redundancy].
 +
 The *Check Redundancy* dialog box appears.
 
