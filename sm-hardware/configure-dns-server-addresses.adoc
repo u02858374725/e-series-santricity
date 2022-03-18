@@ -38,7 +38,7 @@ The controller's context menu appears.
 
 . Select *Configure DNS server*.
 +
-The Configure Domain Name System (DNS) Server dialog box opens.
+The *Configure Domain Name System (DNS) Server* dialog box opens.
 
 . Select one of the following options:
  ** *Automatically obtain DNS server addresses from DHCP server* -- The detected DNS server addresses are shown.
@@ -54,4 +54,4 @@ If the storage array is set to use a static DNS address, no DNS servers appear.
 
 == Results
 
-The DNS configuration is displayed in the controller settings, DNS / NTP tab.
+The DNS configuration is displayed in the controller settings, *DNS / NTP* tab.

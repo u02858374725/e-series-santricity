@@ -36,7 +36,7 @@ The controller's context menu appears.
 +
 [NOTE]
 ====
-The Configure iSCSI ports option appears only if System Manager detects iSCSI ports on the controller.
+The *Configure iSCSI ports* option appears only if System Manager detects iSCSI ports on the controller.
 ====
 +
 The Configure iSCSI Ports dialog box opens.

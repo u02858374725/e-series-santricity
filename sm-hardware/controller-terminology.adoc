@@ -11,7 +11,7 @@ summary: "Learn how the controller terms apply to your storage array."
 [.lead]
 Learn how the controller terms apply to your storage array.
 
-[cols="1a,4a" options="header"]
+[cols="1a,1a" options="header"]
 |===
 | Component| Description
 a|

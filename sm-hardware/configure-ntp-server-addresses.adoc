@@ -63,4 +63,4 @@ If the storage array is set to use a static NTP address, no NTP servers appear.
 
 == Results
 
-The NTP server configuration is displayed in the controller settings, DNS / NTP tab.
+The NTP server configuration is displayed in the controller settings, *DNS / NTP* tab.
