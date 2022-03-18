@@ -25,7 +25,7 @@ Use the Erase option only if you want to permanently remove all data on a drive.
 The Erase feature does not support some older drive models. If you attempt to erase one of these older models, an error message appears.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.

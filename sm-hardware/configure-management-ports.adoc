@@ -21,7 +21,7 @@ During this procedure, you select port 1 and then determine the speed and port a
 Do not use port 2 on either controller. Port 2 is reserved for use by technical support.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

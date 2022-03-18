@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-nvme-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: configure, infiniband, ports, nvme, 
+keywords: configure, infiniband, ports, nvme,
 summary: "If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page."
 ---
 = Configure NVMe over InfiniBand ports
@@ -21,7 +21,7 @@ If your controller includes an NVMe over InfiniBand connection, you can configur
 The NVMe over InfiniBand settings and functions appear only if your storage array's controller includes an NVMe over InfiniBand port.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

@@ -21,7 +21,7 @@ If your controller includes an iSCSI host connection, you can configure the iSCS
 The iSCSI settings and functions only appear if your storage array supports iSCSI.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

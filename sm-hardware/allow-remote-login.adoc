@@ -18,7 +18,7 @@ Remote login lets users from outside of the local area network start an SSH sess
 *Security risk* -- For security reasons, enable remote login for use only by technical support.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

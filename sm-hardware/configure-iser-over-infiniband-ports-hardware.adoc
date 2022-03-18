@@ -16,7 +16,7 @@ If your controller includes an iSER over InfiniBand port, you can configure the 
 * Your controller must include an iSER over InfiniBand port; otherwise, the iSER over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

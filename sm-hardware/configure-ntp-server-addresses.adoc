@@ -30,7 +30,7 @@ NTP enables the storage array to automatically synchronize the controller's cloc
 You do not need to configure NTP on both controllers; however, doing so improves the storage array's ability to stay synchronized during hardware or communication failures.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

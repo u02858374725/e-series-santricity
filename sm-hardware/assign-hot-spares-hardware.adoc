@@ -29,7 +29,7 @@ This task describes how to manually assign a hot spare from the Hardware page. T
 Hot spares can also be assigned from the Initial Setup wizard. You can determine if hot spares are already assigned by looking for drive bays shown in pink on the Hardware page.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.

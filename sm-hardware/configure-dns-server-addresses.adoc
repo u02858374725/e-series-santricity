@@ -25,7 +25,7 @@ This procedure describes how to specify a primary and backup DNS server address.
 If you already configured the storage array's management ports with Dynamic Host Configuration Protocol (DHCP), and you have one or more DNS or NTP servers associated with the DHCP setup, then you do not need to manually configure DNS or NTP. In this case, the storage array should have already obtained the DNS/NTP server addresses automatically. However, you should still follow the instructions below to open the dialog box and make sure that the correct addresses are detected.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.
@@ -54,4 +54,4 @@ If the storage array is set to use a static DNS address, no DNS servers appear.
 
 == Results
 
-The DNS configuration is displayed in the controller settings, *DNS / NTP* tab.
+The DNS configuration is displayed in the controller settings, DNS / NTP tab.

@@ -16,7 +16,7 @@ If your controller includes a connection for NVMe over RoCE (RDMA over Converged
 * Your controller must include an NVMe over RoCE host port; otherwise, the NVMe over RoCE settings are not available in System Manager.
 * You must know the IP address of the host connection.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

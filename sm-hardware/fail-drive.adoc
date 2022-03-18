@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/fail-drive.html
 sidebar: sidebar
-keywords: fail, drive, 
+keywords: fail, drive,
 summary: "If instructed to do so, you can manually fail a drive."
 ---
 = Fail drive
@@ -20,7 +20,7 @@ System Manager monitors the drives in the storage array. When it detects that a 
 *Possible loss of data access* -- This operation could result in data loss or the loss of data redundancy. Perform this operation only when instructed to do so by technical support or the Recovery Guru.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.
