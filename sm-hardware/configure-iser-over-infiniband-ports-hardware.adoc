@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-iser-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: 
-summary: 'If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host.'
+keywords: configure, iser, infiniband, ports, network, connection
+summary: "If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host."
 ---
 = Configure iSER over InfiniBand ports
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/allow-remote-login.html
 sidebar: sidebar
-keywords: 
-summary: 'Remote login lets users from outside of the local area network start an SSH session and change settings on the controller.'
+keywords: allow, remote, login, local, area, network
+summary: "Remote login lets users from outside of the local area network start an SSH session and change settings on the controller."
 ---
 = Allow remote login
 :icons: font

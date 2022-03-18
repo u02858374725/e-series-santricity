@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-nvme-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: 
-summary: 'If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page.'
+keywords: configure, infiniband, ports, nvme, 
+summary: "If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page."
 ---
 = Configure NVMe over InfiniBand ports
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/fail-drive.html
 sidebar: sidebar
-keywords: 
-summary: 'If instructed to do so, you can manually fail a drive.'
+keywords: fail, drive, 
+summary: "If instructed to do so, you can manually fail a drive."
 ---
 = Fail drive
 :icons: font

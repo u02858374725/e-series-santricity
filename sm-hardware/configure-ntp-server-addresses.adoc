@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-ntp-server-addresses.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure a connection to the Network Time Protocol \(NTP\) server so that the controller periodically queries the NTP server to update its internal time-of-day clock.'
+keywords: configure, ntp, server, addresses, network, time, protocol,
+summary: "You can configure a connection to the Network Time Protocol (NTP) server so that the controller periodically queries the NTP server to update its internal time-of-day clock."
 ---
 = Configure NTP server addresses
 :icons: font
@@ -58,7 +58,7 @@ If the storage array is set to use a static NTP address, no NTP servers appear.
 ====
 
  ** *Manually specify NTP server addresses* -- Enter the primary NTP server address and a backup NTP server address. The backup server is optional. (These address fields appear after you select the radio button.) The server address can be a fully qualified domain name, IPv4 address, or IPv6 address.
-. Optionally, enter server information and authentication credentials for a backup NTP server.
+. *Optional:* Enter server information and authentication credentials for a backup NTP server.
 . Click *Save*.
 
 == Results

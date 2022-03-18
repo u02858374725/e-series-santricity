@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/change-view-order-of-shelves.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the order of shelves displayed on the Hardware page to match the physical order of shelves in a cabinet.'
+keywords: change, view, order, shelves
+summary: "You can change the order of shelves displayed on the Hardware page to match the physical order of shelves in a cabinet."
 ---
 = Change view order of shelves
 :icons: font

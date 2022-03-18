@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/change-shelf-ids.html
 sidebar: sidebar
-keywords: 
-summary: 'The shelf ID is a number that uniquely identifies a shelf in the storage array. Shelves are numbered consecutively, beginning with either 00 or 01, on the top left of each shelf view.'
+keywords: change, shelf, ids,
+summary: "The shelf ID is a number that uniquely identifies a shelf in the storage array. Shelves are numbered consecutively, beginning with either 00 or 01, on the top left of each shelf view."
 ---
 = Change shelf IDs
 :icons: font
