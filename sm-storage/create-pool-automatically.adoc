@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/create-pool-automatically.html
 sidebar: sidebar
-keywords: 
-summary: 'Pool creation is initiated automatically when System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools.'
+keywords: create, pool, automatically
+summary: "Pool creation is initiated automatically when System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools."
 ---
 = Create pool automatically
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -31,10 +32,10 @@ You can launch the Pool Auto-Configuration dialog box using any of the following
 * When unassigned capacity is detected, the Pool Auto-Configuration recommendation appears on the Home page in the Notification area. Click *View Pool Auto-Configuration* to launch the dialog box.
 * You can also launch the Pool Auto-Configuration dialog box from the Pools and Volume Groups page as described in the following task.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
-. Select *More* > *Launch pool auto-configuration*.
+. Select menu:Storage[Pools & Volume Groups].
+. Select menu:More[Launch pool auto-configuration].
 +
 The results table lists new pools, existing pools with drives added, or both. A new pool is named with a sequential number by default.
 +

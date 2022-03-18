@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/create-snapshot-consistency-group-step-1.html
 sidebar: sidebar
-keywords: 
-summary: 'Select members to specify a collection of volumes that comprise the snapshot consistency group. Any actions you perform on the snapshot consistency group extend uniformly to selected member volumes.'
+keywords: add, members, snapshot, consistency, group
+summary: "Select members to specify a collection of volumes that comprise the snapshot consistency group. Any actions you perform on the snapshot consistency group extend uniformly to selected member volumes."
 ---
 = Step 1: Add members to snapshot consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -15,11 +16,11 @@ Select members to specify a collection of volumes that comprise the snapshot con
 
 The member volumes must be Optimal.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Click the *Snapshot Consistency Groups* tab.
-. Select *Create* > *Snapshot consistency group*.
+. Select menu:Create[Snapshot consistency group].
 +
 The Create Snapshot Consistency Group dialog box appears.
 

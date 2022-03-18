@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/copy-volume-function.html
 sidebar: sidebar
-keywords: 
-summary: 'The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array. This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume.'
+keywords: copy, volume, function
+summary: "The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array. This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume."
 ---
 = Copy Volume function
 :icons: font
@@ -41,6 +41,7 @@ If you need to restore data to the base volume from its associated snapshot volu
 
 The following table specifies the types of volumes that can be used for source and target volumes with the Copy Volume function.
 
+[cols="1a,1a,1a,1a" options="header"]
 |===
 | Volume type| Offline volume copy source volume| Online volume copy source volume| Online and offline target volume
 a|
@@ -70,7 +71,7 @@ No
 a|
 Snapshot volume
 a|
-Yes1
+Yes^1^
 a|
 No
 a|
@@ -86,14 +87,13 @@ No
 a|
 Remote mirror primary volume
 a|
-Yes2
+Yes^2^
 a|
 No
 a|
 Yes
-a|
-1You cannot use the snapshot volume copy until after the online copy operation completes.
-
-2If the source volume is a primary volume, the capacity of the target volume must be equal to or greater than the usable capacity of the source volume.
-
 |===
+
+^1^ You cannot use the snapshot volume copy until after the online copy operation completes.
+
+^2^ If the source volume is a primary volume, the capacity of the target volume must be equal to or greater than the usable capacity of the source volume.

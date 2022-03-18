@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/create-pool-manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a pool manually \(from a set of candidates\) if the Pool Auto Configuration feature does not provide a pool that meets your needs. A pool provides the logical storage capacity necessary from which you can create individual volumes that can then be used to host your applications.'
+keywords: create, pool, manually
+summary: "You can create a pool manually (from a set of candidates) if the Pool Auto Configuration feature does not provide a pool that meets your needs. A pool provides the logical storage capacity necessary from which you can create individual volumes that can then be used to host your applications."
 ---
 = Create pool manually
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -18,53 +19,52 @@ You can create a pool manually (from a set of candidates) if the Pool Auto Confi
 * Drawer loss protection requires that the drives comprising the pool are located in at least five different drawers and the pool includes an equal number of drive shelves from each drawer.
 * When configuring an EF600 or EF300 storage array, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group. For pool creation, it is recommended to use all drives in the storage array.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
-. Click *Create* > *Pool*.
+. Select menu:Storage[Pools & Volume Groups].
+. Click menu:Create[Pool].
 +
 The Create Pool dialog box appears.
 
 . Type a name for the pool.
-. (Optional) If you have more than one type of drive in your storage array, select the drive type that you want to use.
+. *Optional:* If you have more than one type of drive in your storage array, select the drive type that you want to use.
 +
 The results table lists all the possible pools that you can create.
 
 . Select the pool candidate that you want to use based on the following characteristics, and then click *Create*.
 +
+[cols="1a,1a" options="header"]
 |===
 | Characteristic| Use
 a|
 Free Capacity
 a|
-    Shows the free capacity of the pool candidate in GiB. Select a pool candidate with the capacity for your application's storage needs.
-+
+Shows the free capacity of the pool candidate in GiB. Select a pool candidate with the capacity for your application's storage needs.
+
 Preservation (spare) capacity is also distributed throughout the pool and is not part of the free capacity amount.
 a|
 Total Drives
 a|
-    Shows the number of drives available in the pool candidate.
-+
+Shows the number of drives available in the pool candidate.
+
 System Manager automatically reserves as many drives as possible for preservation capacity (for every six drives in a pool, System Manager reserves one drive for preservation capacity).
-+
+
 When a drive failure occurs, the preservation capacity is used to hold the reconstructed data.
 a|
 Drive Block Size (EF300 and EF600 only)
 a|
 Shows the block size (sector size) that the drives in the pool can write. Values may include:
 
- ** 512 -- 512-byte sector size.
- ** 4K -- 4,096-byte sector size.
-
+** 512 -- 512-byte sector size.
+** 4K -- 4,096-byte sector size.
 a|
 Secure-Capable
 a|
-    Indicates whether this pool candidate is comprised entirely of secure-capable drives, which can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+Indicates whether this pool candidate is comprised entirely of secure-capable drives, which can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 
- ** You can protect your pool with Drive Security, but all drives must be secure-capable to use this feature.
- ** If you want to create an FDE-only pool, look for *Yes - FDE* in the Secure-Capable column. If you want to create a FIPS-only pool, look for *Yes - FIPS* in the Secure-Capable column.
- ** You can create a pool comprised of drives that may or may not be secure-capable or are a mix of security levels. If the drives in the pool include drives that are not secure-capable, you cannot make the pool secure.
-
+** You can protect your pool with Drive Security, but all drives must be secure-capable to use this feature.
+** If you want to create an FDE-only pool, look for *Yes - FDE* in the Secure-Capable column. If you want to create a FIPS-only pool, look for *Yes - FIPS* in the Secure-Capable column.
+** You can create a pool comprised of drives that may or may not be secure-capable or are a mix of security levels. If the drives in the pool include drives that are not secure-capable, you cannot make the pool secure.
 a|
 Enable Security?
 a|
@@ -76,10 +76,10 @@ The only way to remove Drive Security after it is enabled is to delete the pool 
 a|
 DA Capable
 a|
-    Indicates if Data Assurance (DA) is available for this pool candidate. DA checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
-+
+Indicates if Data Assurance (DA) is available for this pool candidate. DA checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
+
 If you want to use DA, select a pool that is DA capable. This option is available only when the DA feature has been enabled.
-+
+
 A pool can contain drives that are DA-capable or not DA-capable, but all drives must be DA capable for you to use this feature.
 a|
 Resource Provisioning Capable (EF300 and EF600 only)
@@ -88,23 +88,21 @@ Shows if Resource Provisioning is available for this pool candidate. Resource Pr
 a|
 Shelf Loss Protection
 a|
-    Shows if shelf loss protection is available.
-+
+Shows if shelf loss protection is available.
+
 Shelf loss protection guarantees accessibility to the data on the volumes in a pool if a total loss of communication occurs with a single drive shelf.
 a|
 Drawer Loss Protection
 a|
-    Shows if drawer loss protection is available, which is provided only if you are using a drive shelf that contains drawers.
-+
+Shows if drawer loss protection is available, which is provided only if you are using a drive shelf that contains drawers.
+
 Drawer loss protection guarantees accessibility to the data on the volumes in a pool if a total loss of communication occurs with a single drawer in a drive shelf.
 a|
 Volume Block Sizes Supported (EF300 and EF600 only)
 a|
 Shows the block sizes that can be created for the volumes in the pool:
 
- ** 512n -- 512 bytes native.
- ** 512e -- 512 bytes emulated.
- ** 4K -- 4,096 bytes.
-
-+
+** 512n -- 512 bytes native.
+** 512e -- 512 bytes emulated.
+** 4K -- 4,096 bytes.
 |===

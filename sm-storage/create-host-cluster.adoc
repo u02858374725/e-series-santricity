@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/create-host-cluster.html
 sidebar: sidebar
-keywords: 
-summary: 'You create a host cluster when two or more hosts require I/O access to the same volumes.'
+keywords: create, host, cluster
+summary: "You create a host cluster when two or more hosts require I/O access to the same volumes."
 ---
 = Create host cluster
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -25,17 +26,20 @@ If any of the host connections on the controllers in your storage array do not s
 * This operation does not succeed if the name you choose is already in use.
 * The length of the name cannot exceed 30 characters.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Hosts*.
-. Select *Create* > *Host Cluster*.
+. Select menu:Storage[Hosts].
+. Select menu:Create[Host Cluster].
 +
-The Create Host Cluster dialog box appears.
+The *Create Host Cluster* dialog box appears.
 
 . Select the settings for the host cluster as appropriate.
 +
-Field details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
 a|
@@ -47,6 +51,7 @@ Select hosts to share volume access
 a|
 Select two or more hosts from the drop-down list. Only those hosts that are not already part of a host cluster appear in the list.
 |===
+====
 
 . Click *Create*.
 +
