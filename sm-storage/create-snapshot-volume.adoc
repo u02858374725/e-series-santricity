@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-snapshot-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You create a snapshot volume to provide host access to a snapshot image of a volume or snapshot consistency group. You can designate the snapshot volume as either read-only or read-write.'
+keywords: create, snapshot, volume
+summary: "You create a snapshot volume to provide host access to a snapshot image of a volume or snapshot consistency group. You can designate the snapshot volume as either read-only or read-write."
 ---
 = Create snapshot volume
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You create a snapshot volume to provide host access to a snapshot imag
 [.lead]
 You create a snapshot volume to provide host access to a snapshot image of a volume or snapshot consistency group. You can designate the snapshot volume as either read-only or read-write.
 
-== About this task
+.About this task
 
 The snapshot volume creation sequence lets you create a snapshot volume from a snapshot image and provides options to allocate reserved capacity if the volume is read/write. A snapshot volume can be designated as one of the following:
 

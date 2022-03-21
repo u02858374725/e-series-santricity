@@ -12,7 +12,7 @@ summary: "You can perform a Copy Volume process on a snapshot volume or a snapsh
 [.lead]
 You can perform a Copy Volume process on a snapshot volume or a snapshot consistency group snapshot volume.
 
-== About this task
+.About this task
 
 You can copy a snapshot volume to the target volume as performed in a normal Copy Volume operation. However, snapshot volumes cannot remain online during the copy volume process.
 

@@ -24,8 +24,9 @@ The source volume is the volume that accepts host I/O and stores application dat
 
 The target volume is a standard volume that maintains a copy of the data from the source volume. The target volume is identical to the source volume after the Copy Volume operation completes. The target volume must have the same or greater capacity as the source volume; however, it can have a different RAID level.
 
-More about online and offline copies
-
+.More about online and offline copies
+[%collapsible]
+====
 *Online copy*
 
 An online copy creates a point-in-time copy of any volume within a storage array, while it is still possible to write to the volume with the copy in progress. This function is achieved by creating a snapshot of the volume and using the snapshot as the actual source volume for the copy. The volume for which the point-in-time image is created is known as the base volume and it can be a standard volume or a thin volume in the storage array.
@@ -33,6 +34,7 @@ An online copy creates a point-in-time copy of any volume within a storage array
 *Offline copy*
 
 An offline copy reads data from the source volume and copies it to a target volume, while suspending all updates to the source volume with the copy in progress. All updates to the source volume are suspended to prevent chronological inconsistencies from being created on the target volume. The offline volume copy relationship is between a source volume and a target volume.
+====
 
 [NOTE]
 ====
@@ -54,8 +56,10 @@ The table shown in this dialog box lists all the eligible target volumes.
 +
 The copy priority determines how much of the system resources are used to complete the Copy Volume operation as compared to service I/O requests.
 +
-More about copy priority rates
-+
+.More about copy priority rates
+[%collapsible]
+====
+
 There are five copy priority rates:
 
  ** Lowest
@@ -65,6 +69,7 @@ There are five copy priority rates:
  ** Highest
 
 If the copy priority is set to the lowest rate, I/O activity is prioritized, and the Copy Volume operation takes longer. If the copy priority is set to the highest rate, the Copy Volume operation is prioritized, but I/O activity for the storage array might be affected.
+====
 
 . Select whether you want to create an online copy or an offline copy. To create an online copy, select the **Keep source volume online during copy operation** check box.
 . Do one of the following:

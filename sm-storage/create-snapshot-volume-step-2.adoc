@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-snapshot-volume-step-2.html
 sidebar: sidebar
-keywords: 
-summary: 'Select a specific host or host cluster to assign it to the snapshot volume. This assignment grants a host or host cluster access to the snapshot volume. You can choose to assign a host later, if needed.'
+keywords: assign, snapshot, volume, host
+summary: "Select a specific host or host cluster to assign it to the snapshot volume. This assignment grants a host or host cluster access to the snapshot volume. You can choose to assign a host later, if needed."
 ---
 = Step 2: Assign snapshot volume to host
 :icons: font
@@ -11,13 +11,13 @@ summary: 'Select a specific host or host cluster to assign it to the snapshot vo
 [.lead]
 Select a specific host or host cluster to assign it to the snapshot volume. This assignment grants a host or host cluster access to the snapshot volume. You can choose to assign a host later, if needed.
 
-== Before you begin
+.Before you begin
 
 * Valid hosts or host clusters exist under the *Hosts* page.
 * Host port identifiers must have been defined for the host.
 * Before creating a DA-enabled volume, verify that your planned host connection supports the Data Assurance (DA) feature. If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
 
-== About this task
+.About this task
 
 When you assign volumes, keep these guidelines in mind:
 
@@ -31,7 +31,7 @@ When you assign volumes, keep these guidelines in mind:
 Assigning a volume to a host fails if you try to assign a volume to a host cluster that conflicts with an established assignment for a host in the host cluster.
 ====
 
-== Steps
+.Steps
 
 . On the *Assign to Host* dialog box, select the host or host cluster that you want to assign to the new volume. If you want to create the volume without assigning a host, select *Assign later* from the drop-down list.
 . Select the access mode. Choose one of the following:
