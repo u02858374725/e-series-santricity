@@ -12,7 +12,7 @@ summary: "You can temporarily suspend scheduled collection of snapshot images wh
 [.lead]
 You can temporarily suspend scheduled collection of snapshot images when you need to conserve storage space. This method is more efficient than deleting and later re-creating the snapshot schedule.
 
-== About this task
+.About this task
 
 The state of the snapshot schedule stays suspended until you use the *Activate* option to resume scheduled snapshot activity.
 

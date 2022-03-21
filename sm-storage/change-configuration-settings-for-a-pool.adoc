@@ -12,7 +12,7 @@ summary: "You can edit the settings for a pool, including its name, capacity ale
 [.lead]
 You can edit the settings for a pool, including its name, capacity alerts settings, modification priorities, and preservation capacity.
 
-== About this task
+.About this task
 
 This task describes how to change configuration settings for a pool.
 
@@ -73,8 +73,8 @@ Keep the following information in mind about preservation capacity.
 
 ** Because preservation capacity is subtracted from the total free capacity of a pool, the amount of capacity that you reserve affects how much free capacity is available to create volumes. If you specify 0 for the preservation capacity, all of the free capacity on the pool is used for volume creation.
 ** If you decrease the preservation capacity, you increase the capacity that can be used for pool volumes.
-*Additional optimization capacity* (EF600 and EF300 arrays only): When a pool is created, a recommended optimization capacity is generated that provides a balance of available capacity versus performance and drive wear life. You can adjust this balance by moving the slider to the right for better performance and drive wear life at the expense of increased available capacity, or by moving it to the left for increased available capacity at the expense of better performance and drive wear life.
 
+*Additional optimization capacity* (EF600 and EF300 arrays only): When a pool is created, a recommended optimization capacity is generated that provides a balance of available capacity versus performance and drive wear life. You can adjust this balance by moving the slider to the right for better performance and drive wear life at the expense of increased available capacity, or by moving it to the left for increased available capacity at the expense of better performance and drive wear life.
 
 SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated. For drives associated with a pool, unallocated capacity is comprised of a pool's preservation capacity, the free capacity (capacity not used by volumes), and a portion of the usable capacity set aside as additional optimization capacity. The additional optimization capacity ensures a minimum level of optimization capacity by reducing the usable capacity, and as such, is not available for volume creation.
 |===

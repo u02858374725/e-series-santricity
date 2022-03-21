@@ -12,13 +12,13 @@ summary: "Use the Consolidate Free Capacity option to consolidate existing free 
 [.lead]
 Use the Consolidate Free Capacity option to consolidate existing free extents on a selected volume group. By performing this action, you can create additional volumes from the maximum amount of free capacity in a volume group.
 
-== Before you begin
+.Before you begin
 
 * The volume group must contain at least one free capacity area.
 * All of the volumes in the volume group must be online and in Optimal status.
 * Volume modification operations must not be in progress, such as changing the segment size of a volume.
 
-== About this task
+.About this task
 
 You cannot cancel the operation after it begins. Your data remains accessible during the consolidation operation.
 
@@ -45,10 +45,10 @@ The Consolidate Free Capacity dialog box appears.
 . Type `consolidate` to confirm you want to perform this operation.
 . Click *Consolidate*.
 
-== Results
+.Results
 
 System Manager begins consolidating (defragmenting) the volume group's free capacity areas into one contiguous amount for subsequent storage configuration tasks.
 
-== After you finish
+.After you finish
 
 Select menu:Home[View Operations in Progress] to view the progress of the Consolidate Free Capacity operation. This operation can be lengthy and could affect system performance.

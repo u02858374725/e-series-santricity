@@ -11,7 +11,7 @@ summary: "You can assign a hot spare as a standby drive for additional data prot
 [.lead]
 You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare.
 
-== Before you begin
+.Before you begin
 
 * RAID 1, RAID 5, or RAID 6 volume groups must be created. (Hot spares cannot be used for pools. Instead, a pool uses spare capacity within each drive for its data protection.)
 * A drive that meets the following criteria must be available:
@@ -20,7 +20,7 @@ You can assign a hot spare as a standby drive for additional data protection in 
  ** Same interface type as the drives in the volume group (for example, SAS).
  ** Capacity equal to or larger than the used capacity of the drives in the volume group.
 
-== About this task
+.About this task
 
 This task describes how to manually assign a hot spare from the Hardware page. The recommended coverage is two hot spares per drive set.
 

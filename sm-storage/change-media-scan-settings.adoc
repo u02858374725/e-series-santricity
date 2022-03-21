@@ -12,7 +12,7 @@ summary: "A media scan is a background operation that scans all data and redunda
 [.lead]
 A media scan is a background operation that scans all data and redundancy information in the volume. Use this option to enable or disable the media scan settings for one or more volumes, or to change the scan duration.
 
-== Before you begin
+.Before you begin
 
 Understand the following:
 
@@ -24,7 +24,7 @@ For example, redundancy information is available in optimal RAID 5 volumes, or i
 +
 If the redundancy check finds an inconsistency between data and the redundancy information, it is reported to the event log.
 
-== About this task
+.About this task
 
 Media scans detect and repair media errors on disk blocks that are infrequently read by applications. This can prevent data loss in the event of a drive failure, as data for failed drives is reconstructed using redundancy information and data from other drives in the volume group or pool.
 
@@ -53,6 +53,6 @@ System Manager enables the Redundancy Check option for each volume on which you 
 
 . Click *Save*.
 
-== Results
+.Results
 
 System Manager applies changes to background media scans based on your selection.

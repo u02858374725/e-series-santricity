@@ -12,13 +12,13 @@ summary: "You can add a new member volume to an existing snapshot consistency gr
 [.lead]
 You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume.
 
-== Before you begin
+.Before you begin
 
 * The member volume must be Optimal.
 * The snapshot consistency group must have less than the maximum number of allowable volumes (as defined by your configuration).
 * Each reserved capacity volume must have the same Data Assurance (DA) and security settings as the associated member volume.
 
-== About this task
+.About this task
 
 You can add standard volumes or thin volumes to the snapshot consistency group. The base volume can reside in either a pool or volume group.
 
@@ -48,6 +48,6 @@ If you change the default reserved capacity setting, click *Refresh Candidates* 
 +
 Allocate the reserved capacity using the following guidelines.
 
-  *** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
-  *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
+*** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
+*** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
 . Click *Finish* to add the member volumes.

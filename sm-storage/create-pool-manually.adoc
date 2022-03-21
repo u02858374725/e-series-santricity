@@ -12,7 +12,7 @@ summary: "You can create a pool manually (from a set of candidates) if the Pool 
 [.lead]
 You can create a pool manually (from a set of candidates) if the Pool Auto Configuration feature does not provide a pool that meets your needs. A pool provides the logical storage capacity necessary from which you can create individual volumes that can then be used to host your applications.
 
-== Before you begin
+.Before you begin
 
 * You must have a minimum of 11 drives with the same drive type (HDD or SSD).
 * Shelf loss protection requires that the drives comprising the pool are located in at least six different drive shelves and there are no more than two drives in a single drive shelf.

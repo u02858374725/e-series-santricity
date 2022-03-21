@@ -12,7 +12,7 @@ summary: "You can add drives to expand the free capacity in an existing pool or 
 [.lead]
 You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation.
 
-== Before you begin
+.Before you begin
 
 * Drives must be in an Optimal status.
 * Drives must have the same drive type (HDD or SSD).
@@ -26,7 +26,7 @@ You can add drives to expand the free capacity in an existing pool or volume gro
 +
 Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 
-== About this task
+.About this task
 
 For pools, you can add a maximum of 60 drives at a time. For volume groups, you can add a maximum of two drives at a time. If you need to add more than the maximum number of drives, repeat the procedure. (A pool cannot contain more drives than the maximum limit for a storage system.)
 
@@ -105,8 +105,9 @@ If you are adding drives to a pool or volume group, a confirmation dialog box ap
  ** Full Disk Encryption capability
  ** Data Assurance capability
  ** DULBE capability
+
 To continue, click *Yes*; otherwise, click *Cancel*.
 
-== Results
+.Results
 
 After you add the unassigned drives to a pool or volume group, the data in each volume of the pool or volume group is redistributed to include the additional drives.

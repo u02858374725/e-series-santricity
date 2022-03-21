@@ -12,7 +12,7 @@ summary: "Select members to specify a collection of volumes that comprise the sn
 [.lead]
 Select members to specify a collection of volumes that comprise the snapshot consistency group. Any actions you perform on the snapshot consistency group extend uniformly to selected member volumes.
 
-== Before you begin
+.Before you begin
 
 The member volumes must be Optimal.
 

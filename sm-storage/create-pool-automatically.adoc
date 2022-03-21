@@ -12,14 +12,14 @@ summary: "Pool creation is initiated automatically when System Manager detects u
 [.lead]
 Pool creation is initiated automatically when System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools.
 
-== Before you begin
+.Before you begin
 
 You can launch the Pool Auto-Configuration dialog box when one of these conditions are true:
 
 * At least one unassigned drive has been detected that can be added to an existing pool with similar drive types.
 * Eleven (11) or more unassigned drives have been detected that can be used to create a new pool (if they cannot be added to an existing pool due to dissimilar drive types).
 
-== About this task
+.About this task
 
 Keep in mind the following:
 

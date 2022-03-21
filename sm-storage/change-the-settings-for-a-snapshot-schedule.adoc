@@ -12,7 +12,7 @@ summary: "For a snapshot schedule, you can change automatic collection times or 
 [.lead]
 For a snapshot schedule, you can change automatic collection times or the frequency of collection.
 
-== About this task
+.About this task
 
 You can import settings from an existing snapshot schedule, or you can modify settings as needed.
 

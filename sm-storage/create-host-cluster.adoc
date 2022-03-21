@@ -12,7 +12,7 @@ summary: "You create a host cluster when two or more hosts require I/O access to
 [.lead]
 You create a host cluster when two or more hosts require I/O access to the same volumes.
 
-== About this task
+.About this task
 
 Keep these guidelines in mind when you create a host cluster:
 
@@ -59,6 +59,6 @@ If the selected hosts are attached to interface types that have different Data A
 +
 DA increases data integrity across the entire storage system. DA enables the storage array to check for errors that might occur when data is moved between the hosts and the drives. Using DA for the new volume ensures that any errors are detected.
 
-== Results
+.Results
 
 The new host cluster appears in the table with the assigned hosts in the rows beneath.

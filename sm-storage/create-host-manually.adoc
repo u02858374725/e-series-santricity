@@ -12,7 +12,7 @@ summary: "For hosts that cannot be automatically discovered, you can manually cr
 [.lead]
 For hosts that cannot be automatically discovered, you can manually create a host. Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes.
 
-== About this task
+.About this task
 
 Keep these guidelines in mind when you create a host:
 
@@ -72,13 +72,14 @@ a|
 
 ** Enter the same CHAP secret that was set on each iSCSI host initiator for CHAP authentication. If you are using mutual CHAP authentication (two-way authentication that enables a host to validate itself to the storage array and for a storage array to validate itself to the host), you also must set the CHAP secret for the storage array at initial setup or by changing settings.
 ** Leave the field blank if you do not require host authentication.
+
 Currently, the only iSCSI authentication method used by System Manager is CHAP.
 |===
 ====
 
 . Click *Create*.
 
-== Results
+,Results
 
 After the host is successfully created, the system creates a default name for each host port configured for the host (user label).
 

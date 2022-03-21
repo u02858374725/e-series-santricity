@@ -12,7 +12,7 @@ summary: "You can cancel a pending snapshot image before it completes. Snapshots
 [.lead]
 You can cancel a pending snapshot image before it completes. Snapshots occur asynchronously, and the status of the snapshot is pending until the snapshot is complete. The snapshot image completes as soon as the synchronization operation is complete.
 
-== About this task
+.About this task
 
 A snapshot image is in a Pending state due to the following concurrent conditions:
 

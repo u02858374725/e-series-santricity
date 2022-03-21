@@ -11,7 +11,7 @@ summary: "Change the host port identifiers when you want to change the user labe
 [.lead]
 Change the host port identifiers when you want to change the user label on a host port identifier, add a new host port identifier to the host, or delete a host port identifier from the host.
 
-== About this task
+.About this task
 
 When changing host port identifiers, keep the following guidelines in mind:
 

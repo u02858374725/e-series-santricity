@@ -12,7 +12,7 @@ summary: "You can edit the name of the SSD Cache and view its status, maximum an
 [.lead]
 You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives.
 
-== About this task
+.About this task
 
 [NOTE]
 ====

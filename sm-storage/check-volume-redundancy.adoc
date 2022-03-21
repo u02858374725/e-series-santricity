@@ -12,7 +12,7 @@ summary: "Under the guidance of technical support or as instructed by the Recove
 [.lead]
 Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.
 
-== Before you begin
+.Before you begin
 
 * The status of the pool or volume group must be Optimal.
 * The pool or volume group must have no volume modification operations in progress.
@@ -23,7 +23,7 @@ Under the guidance of technical support or as instructed by the Recovery Guru, y
 Check volume redundancy only when instructed to do so by the Recovery Guru and under the guidance of technical support.
 ====
 
-== About this task
+.About this task
 
 You can perform this check only on one pool or volume group at a time. A volume redundancy check performs the following actions:
 
@@ -51,8 +51,8 @@ The check volume redundancy operation starts. The volumes in the pool or volume 
  ** The volume is selected in the volume table.
  ** The status of the redundancy check is shown in the *Status* column.
  ** The check stops on any media or parity error encountered, and then reports the error.
++
 More about the status of the redundancy check
-
 +
 [cols="1a,1a" options="header"]
 |===

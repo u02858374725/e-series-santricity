@@ -11,7 +11,7 @@ summary: "Associate reserved capacity to the snapshot consistency group. System 
 [.lead]
 Associate reserved capacity to the snapshot consistency group. System Manager suggests the volumes and capacity based on the properties of the snapshot consistency group. You can accept the recommended reserved capacity configuration or customize the allocated storage.
 
-== About this task
+.About this task
 
 On the Reserve Capacity dialog box, the volume candidate table displays only the candidates that support the reserved capacity specified. Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
 

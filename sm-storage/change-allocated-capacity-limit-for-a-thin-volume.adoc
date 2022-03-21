@@ -12,7 +12,7 @@ summary: "For thin volumes capable of allocating space on demand, you can change
 [.lead]
 For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand. You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
 
-== About this task
+.About this task
 
 [NOTE]
 ====

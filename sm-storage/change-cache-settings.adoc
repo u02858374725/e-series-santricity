@@ -12,7 +12,7 @@ summary: "You can change read cache and write cache settings to impact the overa
 [.lead]
 You can change read cache and write cache settings to impact the overall I/O performance of a volume.
 
-== About this task
+.About this task
 
 Keep these guidelines in mind when you change cache settings for a volume:
 
