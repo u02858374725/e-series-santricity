@@ -1,5 +1,14 @@
 ---
+layout: astra
 permalink: index.html
 sidebar: sidebar
+lead: Welcome to the SANtricity System Manager 11.72 documentation dashboard, where you can find information about how to plan, configure, manage, and troubleshoot your storage array.
+summary: SANtricity System Manager and Unified Manager
 ---
-= Main
+
+= SANtricity Software
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
