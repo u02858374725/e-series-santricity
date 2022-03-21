@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/solid-state-disks-ssds.html
 sidebar: sidebar
-keywords: 
-summary: 'Solid-state disks \(SSDs\) are data storage devices that use solid state memory \(flash\) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use.'
+keywords: solid, state, disk,
+summary: "Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use."
 ---
 = Solid State Disks (SSDs)
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/place-controller-offline.html
 sidebar: sidebar
-keywords: 
-summary: 'If you are instructed to do so, you can place a controller offline.'
+keywords: place, contoller, offline,
+summary: "If you are instructed to do so, you can place a controller offline."
 ---
 = Place controller offline
 :icons: font
@@ -23,7 +23,7 @@ If you are instructed to do so, you can place a controller offline.
 Do not place a controller offline unless you are instructed to do so by the Recovery Guru or technical support.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

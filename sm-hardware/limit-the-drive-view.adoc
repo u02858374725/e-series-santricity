@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/limit-the-drive-view.html
 sidebar: sidebar
-keywords: 
-summary: 'If the storage array includes drives with different types of physical and logical attributes, the Hardware page provides filter fields that help you limit the drive view and locate specific drives.'
+keywords: limit, drive, view,
+summary: "If the storage array includes drives with different types of physical and logical attributes, the Hardware page provides filter fields that help you limit the drive view and locate specific drives."
 ---
 = Limit the drive view
 :icons: font
@@ -20,7 +20,7 @@ The drive filters can limit the view to only certain types of physical drives (f
 If all drives share the same physical attributes, the *Show drives that are...* filter field does not appear. If all drives share the same logical attributes, the *Anywhere in the storage array* filter field does not appear.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . In the first filter field (under *Show drives that are...*), click the drop-down arrow to display the available drive types and security attributes.

@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/place-controller-in-service-mode.html
 sidebar: sidebar
-keywords: 
-summary: 'If you are instructed to do so, you can place a controller in service mode.'
+keywords: place, controller, service, mode,
+summary: "If you are instructed to do so, you can place a controller in service mode."
 ---
 = Place controller in service mode
 :icons: font
@@ -23,7 +23,7 @@ If you are instructed to do so, you can place a controller in service mode.
 Placing a controller in service mode might significantly reduce performance. Do not place a controller in service mode unless you are instructed to do so by technical support.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.
