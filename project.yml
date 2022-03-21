@@ -1231,6 +1231,16 @@ homepage:
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
         - title: Snapshots
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
+    - title: Manage
+      links:
+        - title: Shelves
+          url: https://splunkbase.splunk.com/app/1932/
+        - title: Controllers
+          url: https://splunkbase.splunk.com/app/1933/
+        - title: Drives
+          url: https://github.com/NetApp/eseries-perf-analyzer
+        - title: Certificates
+          url: https://github.com/NetApp/eseries-perf-analyzer
     - title: Diagnostics
       links:
         - title: Collect support data
@@ -1243,16 +1253,6 @@ homepage:
           url: https://fusion.netapp.com/
         - title: Recovery Guru
           url: https://fusion.netapp.com/
-    - title: Performance apps & add-ons
-      links:
-        - title: SANtricity app for Splunk Enterprise
-          url: https://splunkbase.splunk.com/app/1932/
-        - title: Splunk technology add-on for SANtricity
-          url: https://splunkbase.splunk.com/app/1933/
-        - title: Performance analyzer with E-Series + Grafana
-          url: https://github.com/NetApp/eseries-perf-analyzer
-        - title: Blog on E-Series Performance Analyzer
-          url: https://blog.netapp.com/monitoring-netapp-eseries
     - title: Tools & support
       links:
         - title: NetApp Interoperability Matrix
