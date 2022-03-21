@@ -1207,32 +1207,42 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Quick start
+        - title: What's New
           url: /getting-started/getup-run-concept.html
-        - title: EF-Series overview
-          url: https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf
-        - title: E5700 series overview
-          url: https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf
-        - title: E2800 series overview
-          url: https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
         - title: SANtricity software overview
           url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
-    - title: Online help
+    - title: Set up
       links:
-        - title: SANtricity System Manager 11.7
+        - title: Initial set up
           url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-117/home.html
-        - title: SANtricity Unified Manager 5
+        - title: Administrator password
           url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-uni-5/home.html
-        - title: Command Line Interface (CLI) reference
+        - title: Alerts
           url:  https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-cli-115/home.html
-    - title: SANtricity APIs
+        - title: AutoSupport
+          url:  https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-cli-115/home.html
+    - title: Create
       links:
-        - title: Web services
+        - title: Pools and volume groups
           url: /web-services-proxy/index.html
-        - title: Plug-in for vCenter
+        - title: Volumes
           url: /san-spvc-ic-overview.html
-        - title: SMI-S providers
+        - title: Host access
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
+        - title: Snapshots
+          url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
+    - title: Diagnostics
+      links:
+        - title: Collect support data
+          url: https://fieldportal.netapp.com/content/199944
+        - title: Download errors
+          url: https://fieldportal.netapp.com/content/1417672
+        - title: Problem notification
+          url: https://fusion.netapp.com/
+        - title: Operations in progress
+          url: https://fusion.netapp.com/
+        - title: Recovery Guru
+          url: https://fusion.netapp.com/
     - title: Performance apps & add-ons
       links:
         - title: SANtricity app for Splunk Enterprise
@@ -1243,14 +1253,6 @@ homepage:
           url: https://github.com/NetApp/eseries-perf-analyzer
         - title: Blog on E-Series Performance Analyzer
           url: https://blog.netapp.com/monitoring-netapp-eseries
-    - title: For the SEs
-      links:
-        - title: E-Series/EF-Series technical training (login required)
-          url: https://fieldportal.netapp.com/content/199944
-        - title: EF300 overview and technical details (login required)
-          url: https://fieldportal.netapp.com/content/1417672
-        - title: NetApp Fusion (login required)
-          url: https://fusion.netapp.com/
     - title: Tools & support
       links:
         - title: NetApp Interoperability Matrix
@@ -1261,4 +1263,3 @@ homepage:
           url: https://activeiq.netapp.com/?source=aiqnsspage
         - title: E-Series/SANtricity downloads (login required)
           url: https://mysupport.netapp.com/site/downloads#E
-
