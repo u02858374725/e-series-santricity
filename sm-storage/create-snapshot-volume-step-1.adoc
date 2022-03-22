@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, members, snapshot, volume
 summary: "Select either a snapshot image of a base volume or a snapshot consistency group. If you select a snapshot consistency group snapshot image, the member volumes of the snapshot consistency group appear for review."
 ---
-  = Step 1: Review members for a snapshot volume
+= Step 1: Review members for a snapshot volume
 :experimental:
 :icons: font
 :imagesdir: ../media/

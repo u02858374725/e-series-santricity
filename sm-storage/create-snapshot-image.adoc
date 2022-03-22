@@ -67,7 +67,7 @@ Choose one of the following policies:
 |===
 ====
 
-Results
+.Results
 
 * System Manager displays the new snapshot image in the Snapshot Images table. The table lists the new image by timestamp and associated base volume or snapshot consistency group.
 * Snapshot creation might remain in a Pending state because of the following conditions:
