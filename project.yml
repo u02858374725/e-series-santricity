@@ -687,16 +687,30 @@ sidebar:
             url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
           - title: What do I need to know before starting a remote storage import?
             url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
-      - title: Shelves
+      - title: Hardware
         entries:
-          - title: Overview
-            entries:
-            - title: Hardware page overview
-              url: "/sm-hardware/hardware-page-overview.html"
-            - title: Terminology
+        - title: Overview
+          url: "/sm-hardware/hardware-page-overview.html"
+        - title: Concepts
+          entries:
+            - title: Hardware terms
               url: "/sm-hardware/hardware-terminology.html"
-          - title: Manage hardware
-            entries:
+            - title: Controller terms
+              url: "/sm-hardware/controller-terminology.html"
+            - title: Controller states
+              url: "/sm-hardware/controller-states.html"
+            - title: Considerations for assigning IP addresses
+              url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+            - title: Drive terms
+              url: "/sm-hardware/drive-terminology.html"
+            - title: Drive states
+              url: "/sm-hardware/drive-states.html"
+            - title: Solid State Disks (SSDs)
+              url: "/sm-hardware/solid-state-disks-ssds.html"
+            - title: Hot spare drives
+              url: "/sm-hardware/hot-spare-drives.html"
+        - title: Manage shelf components
+          entries:
             - title: View hardware components
               url: "/sm-hardware/view-hardware-components.html"
             - title: Show or hide component status
@@ -713,22 +727,6 @@ sidebar:
               url: "/sm-hardware/view-shelf-component-status-and-settings.html"
             - title: Update battery learn cycles
               url: "/sm-hardware/update-battery-learn-cycles.html"
-          - title: FAQs
-            entries:
-            - title: What is shelf loss protection and drawer loss protection?
-              url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
-            - title: What are battery learn cycles?
-              url: "/sm-hardware/what-are-battery-learn-cycles.html"
-      - title: Controllers
-        entries:
-        - title: Overview
-          entries:
-          - title: Terminology
-            url: "/sm-hardware/controller-terminology.html"
-          - title: Controller states
-            url: "/sm-hardware/controller-states.html"
-          - title: Considerations for assigning IP addresses
-            url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
         - title: Manage controllers
           entries:
             - title: Configure management port
@@ -757,42 +755,6 @@ sidebar:
               url: "/sm-hardware/place-controller-in-service-mode.html"
             - title: Reset (reboot) controller
               url: "/sm-hardware/reset-reboot-controller.html"
-        - title: FAQs
-          entries:
-            - title: What is auto-negotiation?
-              url: "/sm-hardware/what-is-auto-negotiation.html"
-            - title: What is IPv6 stateless address auto-configuration?
-              url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
-            - title: Which do I choose&#8201;&#8212;&#8201;DHCP or manual configuration?
-              url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
-            - title: What is a DHCP server?
-              url: "/sm-hardware/what-is-a-dhcp-server.html"
-            - title: How do I configure my DHCP server?
-              url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
-            - title: Why do I need to change the controller network configuration?
-              url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
-            - title: Where do I get the network configuration?
-              url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
-            - title: What are ICMP PING responses?
-              url: "/sm-hardware/what-are-icmp-ping-responses.html"
-            - title: When should I refresh the port configuration?
-              url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
-            - title: What should I do after configuring the management ports?
-              url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
-            - title: Why is the storage system in non-optimal mode?
-              url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
-      - title: Drives
-        entries:
-        - title: Overview
-          entries:
-          - title: Terminology
-            url: "/sm-hardware/drive-terminology.html"
-          - title: Drive states
-            url: "/sm-hardware/drive-states.html"
-          - title: Solid State Disks (SSDs)
-            url: "/sm-hardware/solid-state-disks-ssds.html"
-          - title: Hot spare drives
-            url: "/sm-hardware/hot-spare-drives.html"
         - title: Manage drives
           entries:
             - title: Limit drive view
@@ -819,6 +781,32 @@ sidebar:
               url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
         - title: FAQs
           entries:
+            - title: What is shelf loss protection and drawer loss protection?
+              url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+            - title: What are battery learn cycles?
+              url: "/sm-hardware/what-are-battery-learn-cycles.html"
+            - title: What is auto-negotiation?
+              url: "/sm-hardware/what-is-auto-negotiation.html"
+            - title: What is IPv6 stateless address auto-configuration?
+              url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+            - title: Which do I choose&#8201;&#8212;&#8201;DHCP or manual configuration?
+              url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+            - title: What is a DHCP server?
+              url: "/sm-hardware/what-is-a-dhcp-server.html"
+            - title: How do I configure my DHCP server?
+              url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+            - title: Why do I need to change the controller network configuration?
+              url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+            - title: Where do I get the network configuration?
+              url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+            - title: What are ICMP PING responses?
+              url: "/sm-hardware/what-are-icmp-ping-responses.html"
+            - title: When should I refresh the port configuration?
+              url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+            - title: What should I do after configuring the management ports?
+              url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+            - title: Why is the storage system in non-optimal mode?
+              url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
             - title: What is preservation capacity?
               url: "/sm-hardware/what-is-preservation-capacity.html"
             - title: Why would I logically replace a drive?
