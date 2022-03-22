@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/data-integrity-and-data-security-for-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable volumes to use the Data Assurance \(DA\) feature and the Drive Security feature. These features are presented at the pool and volume group level.'
+keywords: data, integrity, security, volumes
+summary: "You can enable volumes to use the Data Assurance (DA) feature and the Drive Security feature. These features are presented at the pool and volume group level."
 ---
 = Data integrity and data security for volumes
 :icons: font
@@ -38,5 +38,5 @@ To implement Drive Security, you perform the following steps.
 . Enable Drive Security for pools and volume groups:
  ** Create a pool or volume group (look for *Yes* in the *Secure-capable* column in the Candidates table).
  ** Select a pool or volume group when you create a new volume (look for *Yes* next to *Secure-capable* in the pool and volume group Candidates table).
-
++
 With the Drive Security feature, you create a security key that is shared between the secure-enabled drives and controllers in a storage array. Whenever power to the drives is turned off and on, the secure-enabled drives change to a Security Locked state until the controller applies the security key.

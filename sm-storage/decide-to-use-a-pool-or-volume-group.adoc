@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/decide-to-use-a-pool-or-volume-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements.'
+keywords: decide, whether, use, pool, volume, group
+summary: "You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements."
 ---
 = Decide whether to use a pool or a volume group
 :icons: font
@@ -33,6 +33,7 @@ Because pools can co-exist with volume groups, a storage array can contain both 
 
 The following table provides a feature comparison between volume groups and pools.
 
+[cols="1a,1a,1a" options="header"]
 |===
 | Use| Pool| Volume group
 a|

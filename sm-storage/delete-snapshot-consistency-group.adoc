@@ -1,35 +1,36 @@
 ---
 permalink: sm-storage/delete-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete snapshot consistency groups that are no longer needed.'
+keywords: delete, snapshot, consistency, group
+summary: "You can delete snapshot consistency groups that are no longer needed."
 ---
 = Delete snapshot consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can delete snapshot consistency groups that are no longer needed.
 
-== Before you begin
+.Before you begin
 
 Confirm that the images for all member volumes are no longer needed for backup or testing purposes.
 
-== About this task
+.About this task
 
 This operation deletes all the snapshot images or schedules associated with the snapshot consistency group.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Select the *Snapshot Consistency Groups* tab.
-. Select the snapshot consistency group that you want to delete, and then select *Uncommon Tasks* > *Delete*.
+. Select the snapshot consistency group that you want to delete, and then select menu:Uncommon Tasks[Delete].
 +
-The Confirm Delete Snapshot Consistency Group dialog box appears.
+The *Confirm Delete Snapshot Consistency Group* dialog box appears.
 
 . Confirm that you want to perform this operation, and then click *Delete*.
 
-== Results
+.Results
 
 System Manager performs the following actions:
 
