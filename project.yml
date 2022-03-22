@@ -69,7 +69,7 @@ sidebar:
                 url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
       - title: Pools and volume groups
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How pools and volume groups work
             url: "/sm-storage/how-pools-and-volume-groups-work.html"
@@ -204,7 +204,7 @@ sidebar:
             url: "/sm-storage/what-is-resource-provisioning-capable.html"
       - title: Volumes
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: Storage array volumes
             url: "/sm-storage/volumes-in-the-storage-array.html"
@@ -312,7 +312,7 @@ sidebar:
             url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
       - title: Hosts
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: Host terminology
             url: "/sm-storage/host-terminology.html"
@@ -377,7 +377,7 @@ sidebar:
             url: "/sm-storage/what-is-the-default-cluster.html"
       - title: Performance
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: Performance overview
             url: "/sm-storage/performance-overview.html"
@@ -410,7 +410,7 @@ sidebar:
             url: "/sm-storage/what-does-the-headroom-graph-show.html"
       - title: Snapshots
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How snapshot images are used
             url: "/sm-storage/how-snapshot-images-are-used.html"
@@ -525,105 +525,105 @@ sidebar:
             url: "/sm-storage/what-is-the-disabled-state.html"
           - title: Why would I suspend a snapshot schedule?
             url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
-      - title: Mirroring
+      - title: Asynchronous mirroring
         entries:
-        - title: Asynchronous mirroring
+        - title: Concepts
           entries:
-          - title: Overview
-            entries:
-            - title: How asynchronous mirroring works
-              url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
-            - title: Terminology
-              url: "/sm-mirroring/asynchronous-terminology.html"
-            - title: Workflow
-              url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
-            - title: Requirements
-              url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
-            - title: Asynchronous mirror status
-              url: "/sm-mirroring/asynchronous-mirror-status.html"
-            - title: Volume ownership
-              url: "/sm-mirroring/volume-ownership-async.html"
-            - title: Role change of a mirror consistency group
-              url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
-          - title: Manage mirror consistency groups
-            entries:
-            - title: Test communication
-              url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
-            - title: Suspend or resume synchronization
-              url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
-            - title: Change sync settings
-              url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
-            - title: Re-sync mirror consistency group
-              url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
-            - title: View unsync data amount
-              url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
-            - title: Update remote IP address
-              url: "/sm-mirroring/update-remote-ip-address.html"
-            - title: Change mirror consistency group role
-              url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
-            - title: Delete mirror consistency group
-              url: "/sm-mirroring/delete-mirror-consistency-group.html"
-          - title: Manage asynchronous mirrored pairs
-            entries:
-            - title: Remove async mirror relationship
-              url: "/sm-mirroring/remove-mirrored-pair.html"
-            - title: Increase reserved capacity
-              url: "/sm-mirroring/increase-reserved-capacity.html"
-            - title: Change reserved capacity for mirrored pair volume
-              url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
-            - title: Complete mirrored pair for primary volumes created on legacy system
-              url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
-            - title: Deactivate asynchronous mirroring
-              url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
-          - title: FAQs
-            entries:
-            - title: How does asynchronous mirroring differ from synchronous mirroring?
-              url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
-            - title: Why can&#8217;t I access my chosen mirroring feature?
-              url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
-            - title: What do I need to know before creating a mirror consistency group?
-              url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
-            - title: Asynchronous mirroring - What do I need to know before creating a
-                mirrored pair?
-              url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-            - title: What do I need to know before increasing my reserved capacity on
-                a mirrored pair volume?
-              url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
-            - title: Why can&#8217;t I increase reserved capacity with my requested amount?
-              url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
-            - title: Why would I change this percentage?
-              url: "/sm-mirroring/why-would-i-change-this-percentage.html"
-            - title: Why do I see more than one reserved capacity candidate?
-              url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
-            - title: Why do I see Not Available values displayed in the table?
-              url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
-            - title: Why don&#8217;t I see all of my pools and volume groups?
-              url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
-            - title: Asynchronous mirroring - Why don&#8217;t I see all my volumes?
-              url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-            - title: Asynchronous mirroring - Why don&#8217;t I see all the volumes on
-                the remote storage array?
-              url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-            - title: Why would I update my remote storage array&#8217;s IP address?
-              url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
-        - title: Synchronous mirroring
+          - title: How asynchronous mirroring works
+            url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
+          - title: Terms
+            url: "/sm-mirroring/asynchronous-terminology.html"
+          - title: Workflow
+            url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
+          - title: Requirements
+            url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
+          - title: Asynchronous mirror status
+            url: "/sm-mirroring/asynchronous-mirror-status.html"
+          - title: Volume ownership
+            url: "/sm-mirroring/volume-ownership-async.html"
+          - title: Role change of a mirror consistency group
+            url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+        - title: Manage mirror consistency groups
           entries:
-          - title: Overiew
-            entries:
-            - title: How synchronous mirroring works
-              url: "/sm-mirroring/how-synchronous-mirroring-works.html"
-            - title: Terminology
-              url: "/sm-mirroring/synchronous-mirroring-terminology.html"
-            - title: Workflow
-              url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
-            - title: Requirements
-              url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
-            - title: Synchronous mirroring status
-              url: "/sm-mirroring/synchronous-mirroring-status.html"
-            - title: Volume ownership
-              url: "/sm-mirroring/volume-ownership-sync.html"
-            - title: Role change between volumes in a mirrored pair
-              url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+          - title: Test communication
+            url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
+          - title: Suspend or resume synchronization
+            url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
+          - title: Change sync settings
+            url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
+          - title: Re-sync mirror consistency group
+            url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
+          - title: View unsync data amount
+            url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
+          - title: Update remote IP address
+            url: "/sm-mirroring/update-remote-ip-address.html"
+          - title: Change mirror consistency group role
+            url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
+          - title: Delete mirror consistency group
+            url: "/sm-mirroring/delete-mirror-consistency-group.html"
+        - title: Manage asynchronous mirrored pairs
+          entries:
+          - title: Remove async mirror relationship
+            url: "/sm-mirroring/remove-mirrored-pair.html"
+          - title: Increase reserved capacity
+            url: "/sm-mirroring/increase-reserved-capacity.html"
+          - title: Change reserved capacity for mirrored pair volume
+            url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+          - title: Complete mirrored pair for primary volumes created on legacy system
+            url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
+          - title: Deactivate asynchronous mirroring
+            url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+        - title: FAQs
+          entries:
+          - title: How does asynchronous mirroring differ from synchronous mirroring?
+            url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
+          - title: Why can&#8217;t I access my chosen mirroring feature?
+            url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
+          - title: What do I need to know before creating a mirror consistency group?
+            url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
+          - title: Asynchronous mirroring - What do I need to know before creating a
+              mirrored pair?
+            url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+          - title: What do I need to know before increasing my reserved capacity on
+              a mirrored pair volume?
+            url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
+          - title: Why can&#8217;t I increase reserved capacity with my requested amount?
+            url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
+          - title: Why would I change this percentage?
+            url: "/sm-mirroring/why-would-i-change-this-percentage.html"
+          - title: Why do I see more than one reserved capacity candidate?
+            url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
+          - title: Why do I see Not Available values displayed in the table?
+            url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
+          - title: Why don&#8217;t I see all of my pools and volume groups?
+            url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
+          - title: Asynchronous mirroring - Why don&#8217;t I see all my volumes?
+            url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+          - title: Asynchronous mirroring - Why don&#8217;t I see all the volumes on
+              the remote storage array?
+            url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+          - title: Why would I update my remote storage array&#8217;s IP address?
+            url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+      - title: Synchronous mirroring
+        entries:
+        - title: Concepts
+          entries:
+          - title: How synchronous mirroring works
+            url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+          - title: Terms
+            url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+          - title: Workflow
+            url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+          - title: Requirements
+            url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+          - title: Synchronous mirroring status
+            url: "/sm-mirroring/synchronous-mirroring-status.html"
+          - title: Volume ownership
+            url: "/sm-mirroring/volume-ownership-sync.html"
+          - title: Role change between volumes in a mirrored pair
+            url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+      - title: Manage sync mirrored pairs
+        entries:
           - title: Test communication
             url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
           - title: Suspend and resume synchronization
@@ -636,34 +636,34 @@ sidebar:
             url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
           - title: Deactivate sync mirroring
             url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-          - title: FAQs
-            entries:
-            - title: How does asynchronous mirroring differ from synchronous mirroring?
-              url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
-            - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
-              url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-            - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
-                the remote storage array?
-              url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-            - title: Synchronous mirroring - What do I need to know before creating a
-                mirrored pair?
-              url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-            - title: What impact does synchronization priority have on synchronization
-                rates?
-              url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
-            - title: Why is it recommended to use a manual synchronization policy?
-              url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+      - title: FAQs
+        entries:
+          - title: How does asynchronous mirroring differ from synchronous mirroring?
+            url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
+          - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
+            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+          - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
+              the remote storage array?
+            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+          - title: Synchronous mirroring - What do I need to know before creating a
+              mirrored pair?
+            url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+          - title: What impact does synchronization priority have on synchronization
+              rates?
+            url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+          - title: Why is it recommended to use a manual synchronization policy?
+            url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
       - title: Remote storage
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How Remote Storage works
             url: "/sm-storage/rtv-how-remote-storage-works.html"
-          - title: Terminology
+          - title: Terms
             url: "/sm-storage/rtv-terminology.html"
-          - title: Remote storage requirements
+          - title: Requirements
             url: "/sm-storage/rtv-remote-storage-requirements.html"
-          - title: Remote storage volume requirements
+          - title: Volume requirements
             url: "/sm-storage/rtv-remote-storage-volume-requirements.html"
         - title: Manage remote storage
           entries:
@@ -763,6 +763,21 @@ sidebar:
               url: "/sm-settings/enable-iscsi-discovery-settings.html"
             - title: View iSCSI statistics packages
               url: "/sm-settings/view-iscsi-statistics-packages-system.html"
+            - title: View the different types of iSCSI statistics
+              url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
+              entries:
+              - title: MAC transmit and MAC receive statistics
+                url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
+              - title: Ethernet TCP/IP statistics
+                url: "/sm-support/ethernet-tcp-ip-statistics.html"
+              - title: iSCSI target statistics and local initiator statistics
+                url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
+              - title: DCBX operational state statistics
+                url: "/sm-support/dcbx-operational-state-statistics.html"
+              - title: LLDP TLV statistics
+                url: "/sm-support/lldp-tlv-statistics.html"
+              - title: DCBX TLV statistics
+                url: "/sm-support/dcbx-tlv-statistics.html"
             - title: View iSCSI sessions
               url: "/sm-settings/view-iscsi-sessions-system.html"
             - title: End iSCSI session
@@ -771,7 +786,7 @@ sidebar:
               url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
             - title: View iSER over InfiniBand statistics
               url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
-        - title: Manage NVMe settings
+        - title: Manage NVMe ports
           entries:
             - title: Configure NVMe over InfiniBand ports
               url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
@@ -857,61 +872,59 @@ sidebar:
               url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
       - title: Alerts
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How alerts work
             url: "/sm-settings/how-alerts-work.html"
           - title: Alerts terminology
             url: "/sm-settings/alerts-terminology.html"
-        - title: Manage alerts
+        - title: Manage email alerts
+          url: "/sm-settings/manage-email-alerts.html"
           entries:
-          - title: Manage email alerts
-            url: "/sm-settings/manage-email-alerts.html"
-            entries:
-            - title: Configure mail server and recipients
-              url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
-            - title: Edit email addresses
-              url: "/sm-settings/edit-alert-email-addresses.html"
-            - title: Add email addresses
-              url: "/sm-settings/add-alert-email-addresses.html"
-            - title: Delete mail server or email addresses
-              url: "/sm-settings/delete-alert-email-addresses.html"
-            - title: Edit mail server
-              url: "/sm-settings/edit-mail-server-for-alerts.html"
-          - title: Manage SNMP alerts
-            url: "/sm-settings/manage-snmp-alerts.html"
-            entries:
-            - title: Configure SNMP alerts
-              url: "/sm-settings/configure-snmp-alerts.html"
-            - title: Add trap destinations
-              url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
-            - title: Configure SNMP MIB variables
-              url: "/sm-settings/configure-snmp-mib-variables.html"
-            - title: Edit communities
-              url: "/sm-settings/edit-community-names-for-snmp-traps.html"
-            - title: Edit user settings
-              url: "/sm-settings/edit-user-names-for-snmp-traps.html"
-            - title: Add communities
-              url: "/sm-settings/add-community-names-for-snmp-traps.html"
-            - title: Add users
-              url: "/sm-settings/add-user-names-for-snmp-traps.html"
-            - title: Remove communities
-              url: "/sm-settings/remove-community-name-for-snmp-traps.html"
-            - title: Remove users
-              url: "/sm-settings/remove-user-for-snmp-traps.html"
-            - title: Delete trap destinations
-              url: "/sm-settings/delete-trap-destinations.html"
-          - title: Manage syslog alerts
-            url: "/sm-settings/manage-syslog-alerts.html"
-            entries:
-            - title: Configure syslog server
-              url: "/sm-settings/configure-syslog-server-for-alerts.html"
-            - title: Edit syslog servers
-              url: "/sm-settings/edit-syslog-servers-for-alerts.html"
-            - title: Add syslog servers
-              url: "/sm-settings/add-syslog-servers-for-alerts.html"
-            - title: Delete syslog servers
-              url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+          - title: Configure mail server and recipients
+            url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+          - title: Edit email addresses
+            url: "/sm-settings/edit-alert-email-addresses.html"
+          - title: Add email addresses
+            url: "/sm-settings/add-alert-email-addresses.html"
+          - title: Delete mail server or email addresses
+            url: "/sm-settings/delete-alert-email-addresses.html"
+          - title: Edit mail server
+            url: "/sm-settings/edit-mail-server-for-alerts.html"
+        - title: Manage SNMP alerts
+          url: "/sm-settings/manage-snmp-alerts.html"
+          entries:
+          - title: Configure SNMP alerts
+            url: "/sm-settings/configure-snmp-alerts.html"
+          - title: Add trap destinations
+            url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+          - title: Configure SNMP MIB variables
+            url: "/sm-settings/configure-snmp-mib-variables.html"
+          - title: Edit communities
+            url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+          - title: Edit user settings
+            url: "/sm-settings/edit-user-names-for-snmp-traps.html"
+          - title: Add communities
+            url: "/sm-settings/add-community-names-for-snmp-traps.html"
+          - title: Add users
+            url: "/sm-settings/add-user-names-for-snmp-traps.html"
+          - title: Remove communities
+            url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+          - title: Remove users
+            url: "/sm-settings/remove-user-for-snmp-traps.html"
+          - title: Delete trap destinations
+            url: "/sm-settings/delete-trap-destinations.html"
+        - title: Manage syslog alerts
+          url: "/sm-settings/manage-syslog-alerts.html"
+          entries:
+          - title: Configure syslog server
+            url: "/sm-settings/configure-syslog-server-for-alerts.html"
+          - title: Edit syslog servers
+            url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+          - title: Add syslog servers
+            url: "/sm-settings/add-syslog-servers-for-alerts.html"
+          - title: Delete syslog servers
+            url: "/sm-settings/delete-syslog-servers-for-alerts.html"
         - title: FAQs
           entries:
           - title: What if alerts are disabled?
@@ -920,75 +933,71 @@ sidebar:
             url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
           - title: Why are timestamps inconsistent between the array and alerts?
             url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
-      - title: Storage array settings
+      - title: System settings
         entries:
-        - title: Overview
-          entries:
-          - title: Cache settings and performance
-            url: "/sm-settings/cache-settings-and-performance.html"
-          - title: Automatic load balancing overview
-            url: "/sm-settings/automatic-load-balancing-overview.html"
-          - title: Default host operating system type
-            url: "/sm-settings/default-host-operating-system-type.html"
-        - title: Manage array settings
-          entries:
-          - title: Edit storage array name
-            url: "/sm-settings/edit-storage-array-name.html"
-          - title: Turn on storage array locator lights
-            url: "/sm-settings/turn-on-storage-array-locator-lights.html"
-          - title: Synchronize storage array clocks
-            url: "/sm-settings/synchronize-storage-array-clocks.html"
-          - title: Save storage array configuration
-            url: "/sm-settings/save-storage-array-configuration.html"
-          - title: Clear storage array configuration
-            url: "/sm-settings/clear-storage-array-configuration.html"
-          - title: Change cache settings
-            url: "/sm-settings/change-cache-settings-for-storage-array.html"
-          - title: Set host connectivity reporting
-            url: "/sm-settings/set-host-connectivity-reporting.html"
-          - title: Set automatic load balancing
-            url: "/sm-settings/set-automatic-load-balancing.html"
-          - title: Change default host type
-            url: "/sm-settings/change-default-host-type.html"
-          - title: Enable or disable legacy management interface
-            url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
-          - title: Enable or disable resource provisioning for new volumes
-            url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
-        - title: FAQs
-          entries:
-          - title: What is controller cache?
-            url: "/sm-settings/what-is-controller-cache.html"
-          - title: What is cache flushing?
-            url: "/sm-settings/what-is-cache-flushing.html"
-          - title: What is cache block size?
-            url: "/sm-settings/what-is-cache-block-size.html"
-          - title: When should I synchronize storage array clocks?
-            url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
-          - title: What is host connectivity reporting?
-            url: "/sm-settings/what-is-host-connectivity-reporting.html"
-          - title: What do I need to know about the resource-provisioned volumes feature?
-            url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
-      - title: Add-on features
+          - title: Concepts
+            entries:
+            - title: Cache settings and performance
+              url: "/sm-settings/cache-settings-and-performance.html"
+            - title: Automatic load balancing overview
+              url: "/sm-settings/automatic-load-balancing-overview.html"
+            - title: Default host operating system type
+              url: "/sm-settings/default-host-operating-system-type.html"
+            - title: How add-on features work
+              url: "/sm-settings/how-add-on-features-work.html"
+            - title: Add-on terms
+              url: "/sm-settings/add-on-feature-terminology.html"
+          - title: Configure array settings
+            entries:
+            - title: Edit storage array name
+              url: "/sm-settings/edit-storage-array-name.html"
+            - title: Turn on storage array locator lights
+              url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+            - title: Synchronize storage array clocks
+              url: "/sm-settings/synchronize-storage-array-clocks.html"
+            - title: Save storage array configuration
+              url: "/sm-settings/save-storage-array-configuration.html"
+            - title: Clear storage array configuration
+              url: "/sm-settings/clear-storage-array-configuration.html"
+            - title: Change cache settings
+              url: "/sm-settings/change-cache-settings-for-storage-array.html"
+            - title: Set host connectivity reporting
+              url: "/sm-settings/set-host-connectivity-reporting.html"
+            - title: Set automatic load balancing
+              url: "/sm-settings/set-automatic-load-balancing.html"
+            - title: Change default host type
+              url: "/sm-settings/change-default-host-type.html"
+            - title: Enable or disable legacy management interface
+              url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+            - title: Enable or disable resource provisioning for new volumes
+              url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
+          - title: Configure add-on features
+            entries:
+            - title: Obtain feature key file
+              url: "/sm-settings/obtain-a-feature-key-file.html"
+            - title: Enable premium feature
+              url: "/sm-settings/enable-premium-feature.html"
+            - title: Enable feature pack
+              url: "/sm-settings/enable-feature-pack.html"
+            - title: Download CLI
+              url: "/sm-settings/download-cli.html"
+          - title: FAQs
+            entries:
+            - title: What is controller cache?
+              url: "/sm-settings/what-is-controller-cache.html"
+            - title: What is cache flushing?
+              url: "/sm-settings/what-is-cache-flushing.html"
+            - title: What is cache block size?
+              url: "/sm-settings/what-is-cache-block-size.html"
+            - title: When should I synchronize storage array clocks?
+              url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+            - title: What is host connectivity reporting?
+              url: "/sm-settings/what-is-host-connectivity-reporting.html"
+            - title: What do I need to know about the resource-provisioned volumes feature?
+              url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+      - title: Drive security
         entries:
-        - title: Overview
-          entries:
-          - title: How add-on features work
-            url: "/sm-settings/how-add-on-features-work.html"
-          - title: Terminology
-            url: "/sm-settings/add-on-feature-terminology.html"
-        - title: Manage add-ons
-          entries:
-          - title: Obtain feature key file
-            url: "/sm-settings/obtain-a-feature-key-file.html"
-          - title: Enable premium feature
-            url: "/sm-settings/enable-premium-feature.html"
-          - title: Enable feature pack
-            url: "/sm-settings/enable-feature-pack.html"
-          - title: Download CLI
-            url: "/sm-settings/download-cli.html"
-      - title: Security key management
-        entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How Drive Security feature works
             url: "/sm-settings/how-the-drive-security-feature-works.html"
@@ -996,12 +1005,14 @@ sidebar:
             url: "/sm-settings/how-security-key-management-works.html"
           - title: Terminology
             url: "/sm-settings/drive-security-terminology.html"
-        - title: Manage security keys
+        - title: Configure security keys
           entries:
           - title: Create internal security key
             url: "/sm-settings/create-internal-security-key.html"
           - title: Create external security key
             url: "/sm-settings/create-external-security-key.html"
+        - title: Manage security keys
+          entries:
           - title: Change security key
             url: "/sm-settings/change-security-key.html"
           - title: Switch from external to internal key management
@@ -1035,23 +1046,23 @@ sidebar:
           - title: What is the difference between internal security key and external
               security key management?
             url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
-      - title: Access Management
+      - title: User authentication
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How Access Management works
             url: "/sm-settings/how-access-management-works.html"
-          - title: Terminology
+          - title: Terms
             url: "/sm-settings/access-management-terminology.html"
           - title: Permissions for mapped roles
             url: "/sm-settings/permissions-for-mapped-roles.html"
-          - title: Access Management with local user roles
+          - title: Local user roles
             url: "/sm-settings/access-management-with-local-user-roles.html"
-          - title: Access Management with directory services
+          - title: Directory services
             url: "/sm-settings/access-management-with-directory-services.html"
-          - title: Access Management with SAML
+          - title: SAML
             url: "/sm-settings/access-management-with-saml.html"
-        - title: Manage access
+        - title: Use local user roles
           entries:
           - title: View local user roles
             url: "/sm-settings/view-local-user-roles.html"
@@ -1059,15 +1070,18 @@ sidebar:
             url: "/sm-settings/change-passwords.html"
           - title: Change local user password settings
             url: "/sm-settings/change-local-user-passwords-settings.html"
+        - title: Use directory services
+          entries:
           - title: Add directory server
             url: "/sm-settings/add-directory-server.html"
           - title: Edit directory server settings and role mappings
             url: "/sm-settings/edit-directory-server-settings.html"
           - title: Remove directory server
             url: "/sm-settings/remove-directory-server.html"
-          - title: Configure SAML
-            url: "/sm-settings/configure-saml.html"
-            entries:
+        - title: Use SAML
+          entries:
+            - title: Configure SAML
+              url: "/sm-settings/configure-saml.html"
             - title: 'Step 1: Upload the IdP metadata file'
               url: "/sm-settings/configure-saml-step-1.html"
             - title: 'Step 2: Export Service Provider files'
@@ -1078,10 +1092,12 @@ sidebar:
               url: "/sm-settings/configure-saml-step-4.html"
             - title: 'Step 5: Enable SAML'
               url: "/sm-settings/configure-saml-step-5.html"
-          - title: Change SAML role mappings
-            url: "/sm-settings/change-saml-role-mappings.html"
-          - title: Export SAML Service Provider files
-            url: "/sm-settings/export-saml-service-provider-files.html"
+            - title: Change SAML role mappings
+              url: "/sm-settings/change-saml-role-mappings.html"
+            - title: Export SAML Service Provider files
+              url: "/sm-settings/export-saml-service-provider-files.html"
+        - title: Manage syslog
+          entries:
           - title: View audit log activity
             url: "/sm-settings/view-audit-log-activity.html"
           - title: Define audit log policies
@@ -1112,13 +1128,13 @@ sidebar:
             url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
       - title: Certificates
         entries:
-        - title: Overview
+        - title: Concepts
           entries:
           - title: How certificates work
             url: "/sm-settings/how-certificates-work-sam.html"
-          - title: Terminology
+          - title: Terms
             url: "/sm-settings/certificate-terminology.html"
-        - title: Mange certificates
+        - title: Use certificates
           entries:
           - title: Use CA-signed certificates for controllers
             url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
@@ -1161,18 +1177,10 @@ sidebar:
             url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
           - title: What types of servers will revocation checking be enabled for?
             url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
-      - title: Support center
+      - title: Support
         url: "/sm-support/generic-support-center.html"
         entries:
-        - title: Concepts
-          url: "/sm-support/generic-concepts.html"
-          entries:
-          - title: AutoSupport feature overview
-            url: "/sm-support/autosupport-feature-overview.html"
-          - title: Workflow for the AutoSupport feature
-            url: "/sm-support/workflow-for-autosupport.html"
-        - title: How tos
-          url: "/sm-support/generic-how-tos.html"
+        - title: View information and diagnostics
           entries:
           - title: View storage array information
             url: "/sm-support/view-storage-array-information.html"
@@ -1182,7 +1190,6 @@ sidebar:
             - title: View software and firmware inventory
               url: "/sm-support/view-software-and-firmware-inventory.html"
           - title: Collect diagnostic data
-            url: "/sm-support/collect-diagnostic-data.html"
             entries:
             - title: Collect support data manually
               url: "/sm-support/collect-support-data-manually.html"
@@ -1196,8 +1203,7 @@ sidebar:
               url: "/sm-support/collect-i-o-path-statistics.html"
             - title: Retrieve health image
               url: "/sm-support/retrieve-health-image.html"
-          - title: Take recovery action on storage array status
-            url: "/sm-support/take-recovery-action-on-storage-array-status.html"
+          - title: Take recovery actions
             entries:
             - title: View unreadable sectors log
               url: "/sm-support/view-unreadable-sectors-log.html"
@@ -1205,40 +1211,13 @@ sidebar:
               url: "/sm-support/re-enable-drive-ports.html"
             - title: Clear recovery mode
               url: "/sm-support/clear-recovery-mode.html"
-          - title: Manage iSCSI connections
-            url: "/sm-support/manage-iscsi-connections.html"
-            entries:
-            - title: View iSCSI statistics packages
-              url: "/sm-support/view-iscsi-statistics-packages-support.html"
-            - title: View the different types of iSCSI statistics
-              url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
-              entries:
-              - title: MAC transmit and MAC receive statistics
-                url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
-              - title: Ethernet TCP/IP statistics
-                url: "/sm-support/ethernet-tcp-ip-statistics.html"
-              - title: iSCSI target statistics and local initiator statistics
-                url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
-              - title: DCBX operational state statistics
-                url: "/sm-support/dcbx-operational-state-statistics.html"
-              - title: LLDP TLV statistics
-                url: "/sm-support/lldp-tlv-statistics.html"
-              - title: DCBX TLV statistics
-                url: "/sm-support/dcbx-tlv-statistics.html"
-            - title: View iSCSI sessions
-              url: "/sm-support/view-iscsi-sessions-support.html"
-            - title: End iSCSI session
-              url: "/sm-support/end-iscsi-session-support.html"
-            - title: View iSER over InfiniBand statistics
-              url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
-          - title: Manage NVMe connections
-            url: "/sm-support/manage-nvme-connections.html"
-            entries:
-            - title: View NVMe over Fabrics statistics
-              url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
           - title: Manage AutoSupport
             url: "/sm-support/manage-autosupport.html"
             entries:
+            - title: AutoSupport feature overview
+              url: "/sm-support/autosupport-feature-overview.html"
+            - title: Workflow for the AutoSupport feature
+              url: "/sm-support/workflow-for-autosupport.html"
             - title: Enable or disable AutoSupport features
               url: "/sm-support/enable-or-disable-autosupport-features.html"
             - title: Configure AutoSupport delivery method
@@ -1255,6 +1234,15 @@ sidebar:
               url: "/sm-support/enable-autosupport-maintenance-window.html"
             - title: Disable AutoSupport maintenance window
               url: "/sm-support/disable-autosupport-maintenance-window.html"
+          - title: View events
+            url: "/sm-support/generic-event-log.html"
+            entries:
+            - title: Critical events
+              url: "/sm-support/critical-events.html"
+            - title: Event log
+              url: "/sm-support/event-log.html"
+            - title: View events
+              url: "/sm-support/view-events-using-the-event-log.html"
         - title: FAQs
           url: "/sm-support/generic-faqs.html"
           entries:
@@ -1274,21 +1262,6 @@ sidebar:
             url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
           - title: What is configuration data?
             url: "/sm-support/what-is-configuration-data.html"
-      - title: Event log
-        url: "/sm-support/generic-event-log.html"
-        entries:
-        - title: Concepts
-          url: "/sm-support/generic-concepts.html"
-          entries:
-          - title: Critical events
-            url: "/sm-support/critical-events.html"
-          - title: Event log
-            url: "/sm-support/event-log.html"
-        - title: How tos
-          url: "/sm-support/generic-how-tos.html"
-          entries:
-          - title: View events using the event log
-            url: "/sm-support/view-events-using-the-event-log.html"
       - title: Upgrade center
         url: "/sm-support/generic-upgrade-center.html"
         entries:
@@ -1301,8 +1274,7 @@ sidebar:
             url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
           - title: Drive firmware upgrades
             url: "/sm-support/drive-firmware-upgrades.html"
-        - title: How tos
-          url: "/sm-support/generic-how-tos.html"
+        - title: Perform upgrades
           entries:
           - title: Upgrade software and firmware
             url: "/sm-support/upgrade-controller-software-and-firmware.html"
