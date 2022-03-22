@@ -2,7 +2,7 @@
 layout: astra
 permalink: index.html
 sidebar: sidebar
-lead: Welcome to the SANtricity System Manager 11.72 documentation dashboard, where you can find information about how to plan, configure, manage, and troubleshoot your storage array.
+lead: SANtricity software lets you achieve maximum performance and utilization of your E-Series hybrid-flash and EF-Series all-flash arrays for heavy-workload applications, including data analytics, video surveillance, and backup and recovery.
 summary: SANtricity System Manager and Unified Manager
 ---
 
