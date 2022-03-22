@@ -11,40 +11,42 @@ sidebar:
     url: "/index.html"
   - title: System Manager
     entries:
-      - title: Interface
+      - title: Home page
         entries:
-          - title: Set up
+          - title: Overview
+            url: "/sm-interface/home-page.html"
+          - title: View array components
+            url: "/sm-interface/storage-array-overview.html"
+          - title: Manage interface settings
             entries:
-              - title: Home page
-                url: "/sm-interface/home-page.html"
-              - title: Setup wizard overview
-                url: "/sm-interface/setup-wizard-overview.html"
-              - title: Setup wizard terminology
-                url: "/sm-interface/setup-wizard-terminology.html"
-          - title: Storage array administration
-            entries:
-            - title: Overview
-              entries:
-              - title: Storage array overview
-                url: "/sm-interface/storage-array-overview.html"
               - title: Administrator password protection
                 url: "/sm-interface/administrator-password-protection.html"
-              - title: Problem notification
-                url: "/sm-interface/problem-notification.html"
-              - title: Operations in progress
-                url: "/sm-interface/operations-in-progress.html"
-            - title: Administer
-              entries:
-              - title: Set defaults for capacity values
+              - title: Set default capacity values
                 url: "/sm-interface/set-default-units-for-capacity-values.html"
-              - title: Set default time frame for performance graphs
+              - title: Set defaults for performance graphs
                 url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
-              - title: Recover from problems using Recovery Guru
-                url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+              - title: Configure login banner
+                url: "/sm-settings/configure-login-banner.html"
+              - title: Manage session timeouts
+                url: "/sm-settings/manage-session-timeouts-sam.html"
+          - title: Manage problem notifications
+            entries:
+              - title: Problem notifications overview
+                url: "/sm-interface/problem-notification.html"
+              - title: Operations in progress page
+                url: "/sm-interface/operations-in-progress.html"
               - title: View and act on operations in progress
                 url: "/sm-interface/view-and-act-on-operations-in-progress.html"
-            - title: FAQs
-              entries:
+              - title: Recover from problems using Recovery Guru
+                url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+          - title: Setup wizard
+            entries:
+                - title: Setup wizard overview
+                  url: "/sm-interface/setup-wizard-overview.html"
+                - title: Setup wizard terminology
+                  url: "/sm-interface/setup-wizard-terminology.html"
+          - title: FAQs
+            entries:
               - title: What if I don&#8217;t see all of my hardware components?
                 url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
               - title: What if I don&#8217;t see all of my hosts?
@@ -910,10 +912,6 @@ sidebar:
             url: "/sm-settings/save-storage-array-configuration.html"
           - title: Clear storage array configuration
             url: "/sm-settings/clear-storage-array-configuration.html"
-          - title: Configure login banner
-            url: "/sm-settings/configure-login-banner.html"
-          - title: Manage session timeouts
-            url: "/sm-settings/manage-session-timeouts-sam.html"
           - title: Change cache settings
             url: "/sm-settings/change-cache-settings-for-storage-array.html"
           - title: Set host connectivity reporting
