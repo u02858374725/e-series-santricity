@@ -39,7 +39,7 @@ sidebar:
                 url: "/sm-interface/view-and-act-on-operations-in-progress.html"
               - title: Recover from problems using Recovery Guru
                 url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-          - title: Setup wizard
+          - title: Use Setup wizard
             entries:
                 - title: Setup wizard overview
                   url: "/sm-interface/setup-wizard-overview.html"
@@ -622,37 +622,37 @@ sidebar:
             url: "/sm-mirroring/volume-ownership-sync.html"
           - title: Role change between volumes in a mirrored pair
             url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
-      - title: Manage sync mirrored pairs
-        entries:
-          - title: Test communication
-            url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
-          - title: Suspend and resume synchronization
-            url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
-          - title: Change role between volumes
-            url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
-          - title: Change sync settings
-            url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
-          - title: Remove mirror relationship
-            url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
-          - title: Deactivate sync mirroring
-            url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-      - title: FAQs
-        entries:
-          - title: How does asynchronous mirroring differ from synchronous mirroring?
-            url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
-          - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
-            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-          - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
-              the remote storage array?
-            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-          - title: Synchronous mirroring - What do I need to know before creating a
-              mirrored pair?
-            url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-          - title: What impact does synchronization priority have on synchronization
-              rates?
-            url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
-          - title: Why is it recommended to use a manual synchronization policy?
-            url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+        - title: Manage sync mirrored pairs
+          entries:
+            - title: Test communication
+              url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+            - title: Suspend and resume synchronization
+              url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+            - title: Change role between volumes
+              url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+            - title: Change sync settings
+              url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+            - title: Remove mirror relationship
+              url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+            - title: Deactivate sync mirroring
+              url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+        - title: FAQs
+          entries:
+            - title: How does asynchronous mirroring differ from synchronous mirroring?
+              url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
+            - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
+              url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+            - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
+                the remote storage array?
+              url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+            - title: Synchronous mirroring - What do I need to know before creating a
+                mirrored pair?
+              url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+            - title: What impact does synchronization priority have on synchronization
+                rates?
+              url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+            - title: Why is it recommended to use a manual synchronization policy?
+              url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
       - title: Remote storage
         entries:
         - title: Concepts
@@ -1178,19 +1178,15 @@ sidebar:
           - title: What types of servers will revocation checking be enabled for?
             url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
       - title: Support
-        url: "/sm-support/generic-support-center.html"
         entries:
         - title: View information and diagnostics
           entries:
-          - title: View storage array information
-            url: "/sm-support/view-storage-array-information.html"
-            entries:
             - title: View storage array profile
               url: "/sm-support/view-storage-array-profile.html"
             - title: View software and firmware inventory
               url: "/sm-support/view-software-and-firmware-inventory.html"
-          - title: Collect diagnostic data
-            entries:
+        - title: Collect diagnostic data
+          entries:
             - title: Collect support data manually
               url: "/sm-support/collect-support-data-manually.html"
             - title: Collect configuration data
@@ -1203,17 +1199,16 @@ sidebar:
               url: "/sm-support/collect-i-o-path-statistics.html"
             - title: Retrieve health image
               url: "/sm-support/retrieve-health-image.html"
-          - title: Take recovery actions
-            entries:
+        - title: Take recovery actions
+          entries:
             - title: View unreadable sectors log
               url: "/sm-support/view-unreadable-sectors-log.html"
             - title: Re-enable drive ports
               url: "/sm-support/re-enable-drive-ports.html"
             - title: Clear recovery mode
               url: "/sm-support/clear-recovery-mode.html"
-          - title: Manage AutoSupport
-            url: "/sm-support/manage-autosupport.html"
-            entries:
+        - title: Manage AutoSupport
+          entries:
             - title: AutoSupport feature overview
               url: "/sm-support/autosupport-feature-overview.html"
             - title: Workflow for the AutoSupport feature
@@ -1234,9 +1229,8 @@ sidebar:
               url: "/sm-support/enable-autosupport-maintenance-window.html"
             - title: Disable AutoSupport maintenance window
               url: "/sm-support/disable-autosupport-maintenance-window.html"
-          - title: View events
-            url: "/sm-support/generic-event-log.html"
-            entries:
+        - title: View events
+          entries:
             - title: Critical events
               url: "/sm-support/critical-events.html"
             - title: Event log
@@ -1244,7 +1238,6 @@ sidebar:
             - title: View events
               url: "/sm-support/view-events-using-the-event-log.html"
         - title: FAQs
-          url: "/sm-support/generic-faqs.html"
           entries:
           - title: What data am I collecting?
             url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
@@ -1262,11 +1255,9 @@ sidebar:
             url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
           - title: What is configuration data?
             url: "/sm-support/what-is-configuration-data.html"
-      - title: Upgrade center
-        url: "/sm-support/generic-upgrade-center.html"
+      - title: Upgrades
         entries:
         - title: Concepts
-          url: "/sm-support/generic-concepts.html"
           entries:
           - title: Controller software and firmware upgrades
             url: "/sm-support/controller-software-and-firmware-upgrades.html"
@@ -1285,7 +1276,6 @@ sidebar:
           - title: Review the possible software and firmware upgrade errors
             url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
         - title: FAQs
-          url: "/sm-support/generic-faqs.html"
           entries:
           - title: What do I need to know before upgrading the SANtricity OS Software?
             url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
