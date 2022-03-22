@@ -18,10 +18,10 @@ indexpage:
       links:
          - title: Storage array groups
            url: ../um-manage/storage-array-groups.html
-         - title:
-           url: ../um-certificates/how-access-management-works-unified.html
-         - title:
-           url: ../um-certificates/how-certificates-work-unified.html
+         - title: Storage array status
+           url: ../um-manage/storage-array-status.html
+         - title: Upgrade software
+           url: ../um-manage/upgrade-controller-firmware.html
     - title: Manage access
       links:
          - title: User access
@@ -29,13 +29,11 @@ indexpage:
          - title: Certificates
            url: ../um-certificates/how-certificates-work-unified.html
          - title: CA-signed certificates
-           url:
+           url: /um-certificates/use-ca-signed-certificate-um.html
     - title: Settings
       links:
          - title: Import settings
            url: ../um-manage/how-import-settings-works.html
-         - title: User roles
-           url: ../sm-hardware/controller-states.html
          - title: Password settings
            url: ../um-certificates/change-local-user-passwords-settings-unified.html
          - title: Server settings
