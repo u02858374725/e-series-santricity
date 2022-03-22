@@ -701,6 +701,12 @@ sidebar:
               url: "/sm-hardware/controller-states.html"
             - title: Considerations for assigning IP addresses
               url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+            - title: iSCSI terms
+              url: "/sm-settings/iscsi-terminology.html"
+            - title: NVMe overview
+              url: "/sm-settings/nvme-overview.html"
+            - title: NVMe terms
+              url: "/sm-settings/nvme-terminology.html"
             - title: Drive terms
               url: "/sm-hardware/drive-terminology.html"
             - title: Drive states
@@ -731,14 +737,6 @@ sidebar:
           entries:
             - title: Configure management port
               url: "/sm-hardware/configure-management-ports.html"
-            - title: Configure iSCSI ports
-              url: "/sm-hardware/configure-iscsi-ports-hardware.html"
-            - title: Configure iSER over InfiniBand ports
-              url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
-            - title: Configure NVMe over InfiniBand ports
-              url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
-            - title: Configure NVMe over RoCE ports
-              url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
             - title: Configure NTP server addresses
               url: "/sm-hardware/configure-ntp-server-addresses.html"
             - title: Configure DNS server addresses
@@ -755,6 +753,32 @@ sidebar:
               url: "/sm-hardware/place-controller-in-service-mode.html"
             - title: Reset (reboot) controller
               url: "/sm-hardware/reset-reboot-controller.html"
+        - title: Manage iSCSI ports
+          entries:
+            - title: Configure iSCSI ports
+              url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+            - title: Configure iSCSI authentication
+              url: "/sm-settings/configure-iscsi-authentication.html"
+            - title: Enable iSCSI discovery settings
+              url: "/sm-settings/enable-iscsi-discovery-settings.html"
+            - title: View iSCSI statistics packages
+              url: "/sm-settings/view-iscsi-statistics-packages-system.html"
+            - title: View iSCSI sessions
+              url: "/sm-settings/view-iscsi-sessions-system.html"
+            - title: End iSCSI session
+              url: "/sm-settings/end-iscsi-session-system.html"
+            - title: Configure iSER over InfiniBand ports
+              url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+            - title: View iSER over InfiniBand statistics
+              url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+        - title: Manage NVMe settings
+          entries:
+            - title: Configure NVMe over InfiniBand ports
+              url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+            - title: Configure NVMe over RoCE ports
+              url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+            - title: View NVMe over Fabrics statistics
+              url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
         - title: Manage drives
           entries:
             - title: Limit drive view
@@ -813,6 +837,24 @@ sidebar:
               url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
             - title: Where can I view the status of a drive undergoing reconstruction?
               url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
+            - title: What happens when I use an iSNS server for registration?
+              url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+            - title: Which registration methods are automatically supported for iSCSI?
+              url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+            - title: How do I interpret iSER over InfiniBand statistics?
+              url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+            - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
+              url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+            - title: How do I interpret NVMe over Fabrics statistics?
+              url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+            - title: What else do I need to do to configure or diagnose NVMe over InfiniBand?
+              url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+            - title: What else do I need to do to configure or diagnose NVMe over RoCE?
+              url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+            - title: Why are there two IP addresses for one physical port?
+              url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+            - title: Why are there two sets of parameters for one physical port?
+              url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
       - title: Alerts
         entries:
         - title: Overview
@@ -926,68 +968,6 @@ sidebar:
             url: "/sm-settings/what-is-host-connectivity-reporting.html"
           - title: What do I need to know about the resource-provisioned volumes feature?
             url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
-      - title: iSCSI settings
-        entries:
-        - title: Overview
-          entries:
-          - title: iSCSI terminology
-            url: "/sm-settings/iscsi-terminology.html"
-        - title: Manage iSCSI settings
-          entries:
-          - title: Configure iSCSI ports
-            url: "/sm-settings/configure-iscsi-ports-system.html"
-          - title: Configure iSCSI authentication
-            url: "/sm-settings/configure-iscsi-authentication.html"
-          - title: Enable iSCSI discovery settings
-            url: "/sm-settings/enable-iscsi-discovery-settings.html"
-          - title: View iSCSI statistics packages
-            url: "/sm-settings/view-iscsi-statistics-packages-system.html"
-          - title: View iSCSI sessions
-            url: "/sm-settings/view-iscsi-sessions-system.html"
-          - title: End iSCSI session
-            url: "/sm-settings/end-iscsi-session-system.html"
-          - title: Configure iSER over InfiniBand ports
-            url: "/sm-settings/configure-iser-over-infiniband-ports-system.html"
-          - title: View iSER over InfiniBand statistics
-            url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
-        - title: FAQs
-          entries:
-          - title: What happens when I use an iSNS server for registration?
-            url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
-          - title: Which registration methods are automatically supported for iSCSI?
-            url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
-          - title: How do I interpret iSER over InfiniBand statistics?
-            url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
-          - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
-            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
-      - title: NVMe settings
-        entries:
-        - title: Overview
-          entries:
-          - title: NVMe overview
-            url: "/sm-settings/nvme-overview.html"
-          - title: Terminology
-            url: "/sm-settings/nvme-terminology.html"
-        - title: Manage NVMe settings
-          entries:
-          - title: Configure NVMe over InfiniBand ports
-            url: "/sm-settings/configure-nvme-over-infiniband-ports-system.html"
-          - title: Configure NVMe over RoCE ports
-            url: "/sm-settings/configure-nvme-over-roce-ports-system.html"
-          - title: View NVMe over Fabrics statistics
-            url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
-        - title: FAQs
-          entries:
-          - title: How do I interpret NVMe over Fabrics statistics?
-            url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
-          - title: What else do I need to do to configure or diagnose NVMe over InfiniBand?
-            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
-          - title: What else do I need to do to configure or diagnose NVMe over RoCE?
-            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
-          - title: Why are there two IP addresses for one physical port?
-            url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
-          - title: Why are there two sets of parameters for one physical port?
-            url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
       - title: Add-on features
         entries:
         - title: Overview
