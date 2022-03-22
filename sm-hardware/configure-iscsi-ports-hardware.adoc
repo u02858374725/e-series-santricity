@@ -11,7 +11,7 @@ summary: "If your controller includes an iSCSI host connection, you can configur
 [.lead]
 If your controller includes an iSCSI host connection, you can configure the iSCSI port settings from the Hardware page.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include iSCSI ports; otherwise, the iSCSI settings are not available.
 * You must know the network speed (the data transfer rate between the ports and the host).

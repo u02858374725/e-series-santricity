@@ -12,7 +12,7 @@ summary: "The controller includes an Ethernet port used for system management. I
 [.lead]
 The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses.
 
-== About this task
+.About this task
 
 During this procedure, you select port 1 and then determine the speed and port addressing method. Port 1 connects to the network where the management client can access the controller and System Manager.
 
@@ -83,6 +83,6 @@ NOTE: If you change the IP address configuration, you lose the management path t
 
 . Click *Finish*.
 
-== Results
+.Results
 
 The management port configuration is displayed in the controller settings, Management Ports tab.

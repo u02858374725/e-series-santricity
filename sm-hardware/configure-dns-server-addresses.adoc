@@ -11,12 +11,12 @@ summary: "Domain Name System (DNS) is used to resolve fully qualified domain nam
 [.lead]
 Domain Name System (DNS) is used to resolve fully qualified domain names for the controllers and a Network Time Protocol (NTP) server. The management ports on the storage array can support IPv4 or IPv6 protocols simultaneously.
 
-== Before you begin
+.Before you begin
 
 * A DNS server must be installed and configured in your network.
 * You know the address of the primary DNS server and an optional backup DNS server. These addresses can be IPv4 addresses or IPv6 addresses.
 
-== About this task
+.About this task
 
 This procedure describes how to specify a primary and backup DNS server address. The backup DNS server can be optionally configured to use if a primary DNS server fails.
 
@@ -52,6 +52,6 @@ If the storage array is set to use a static DNS address, no DNS servers appear.
 . Click *Save*.
 . Repeat these steps for the other controller.
 
-== Results
+.Results
 
 The DNS configuration is displayed in the controller settings, *DNS / NTP* tab.

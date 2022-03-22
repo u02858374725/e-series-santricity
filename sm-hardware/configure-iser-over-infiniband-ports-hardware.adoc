@@ -11,7 +11,7 @@ summary: "If your controller includes an iSER over InfiniBand port, you can conf
 [.lead]
 If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include an iSER over InfiniBand port; otherwise, the iSER over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.

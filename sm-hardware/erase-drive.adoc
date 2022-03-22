@@ -12,11 +12,11 @@ summary: "You can use the Erase option to prepare an unassigned drive for remova
 [.lead]
 You can use the Erase option to prepare an unassigned drive for removal from the system. This procedure permanently removes data, ensuring that the data cannot be read again.
 
-== Before you begin
+.Before you begin
 
 The drive must be in an Unassigned state.
 
-== About this task
+.About this task
 
 Use the Erase option only if you want to permanently remove all data on a drive. If the drive is secure-enabled, the Erase option performs a cryptographic erase and resets the drive's security attributes back to secure-capable.
 
@@ -57,10 +57,10 @@ Be sure you want to continue with this operation. Once you click Yes in the next
 
 . In the Estimated Completion time dialog box, click *Yes* to continue with the erase operation.
 
-== Results
+.Results
 
 The Erase operation might take several minutes or several hours. You can view the status in menu:Home[view Operations in Progress]. When the Erase operation completes, the drives are available for use in another volume group or disk pool, or in another storage array.
 
-== After you finish
+.After you finish
 
 If you want to use the drive again, you must initialize it first. To do this, select *Initialize* from the drive's context menu.

@@ -1,10 +1,10 @@
 ---
 permalink: sm-hardware/shelves.html
 sidebar: sidebar
-keywords: shelves, 
+keywords: shelves,
 summary: "A shelf is an enclosure installed in a cabinet or rack. It contains the hardware components for the storage array."
 ---
-= image:../media/sam1130-icon-shelves.gif[] Shelves
+= Shelves
 :icons: font
 :imagesdir: ../media/
 

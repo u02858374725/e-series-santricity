@@ -24,7 +24,7 @@ The controller's context menu appears.
 
 . Select *Place online*, and confirm that you want to perform the operation.
 
-== Results
+.Results
 
 Detection of a restored preferred path by the multipath driver can take up to 10 minutes.
 
