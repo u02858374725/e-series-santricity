@@ -1,3 +1,34 @@
 indexpage:
   tiles:
-    
+    - title: Get started
+      links:
+      - title: Unified Manager overview
+        url: ../um-admin/unified-manager-overview.html
+      - title: Admin password
+        url: ../um-admin/administrator-password-protection-unified.html
+    - title: Discover arrays
+      links:
+       - title: Single array
+         url: ../sm-interface/setup-wizard-overview.html
+       - title: Multiple arrays
+         url: ../sm-interface/administrator-password-protection.html
+       - title: Storage array status
+         url:  ../sm-settings/how-alerts-work.html
+    - title: Manage arrays
+      links:
+         - title: Storage array groups
+           url: ../sm-storage/create-pool-manually.html
+         - title: User access
+           url: ../sm-storage/create-volume-group.html
+         - title: Certificates
+           url: ../sm-storage/create-ssd-cache.html
+    - title: Settings
+      links:
+         - title: Import settings
+           url: ../hardware-page-overview.html
+         - title: User profile
+           url: ../sm-hardware/controller-states.html
+         - title: User passwords
+           url: ../sm-hardware/drive-states.html
+         - title: Server settings
+           url:
