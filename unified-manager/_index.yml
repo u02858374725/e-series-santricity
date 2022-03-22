@@ -4,31 +4,39 @@ indexpage:
       links:
       - title: Unified Manager overview
         url: ../um-admin/unified-manager-overview.html
-      - title: Admin password
+      - title: Set admin password
         url: ../um-admin/administrator-password-protection-unified.html
     - title: Discover arrays
       links:
        - title: Single array
-         url: ../sm-interface/setup-wizard-overview.html
+         url: ../um-manage/discover-single-array.html
        - title: Multiple arrays
-         url: ../sm-interface/administrator-password-protection.html
+         url: ../um-manage/discover-multiple-arrays.html
        - title: Storage array status
-         url:  ../sm-settings/how-alerts-work.html
+         url:  ../um-manage/storage-array-status.html
     - title: Manage arrays
       links:
          - title: Storage array groups
-           url: ../sm-storage/create-pool-manually.html
+           url: ../um-manage/storage-array-groups.html
+         - title:
+           url: ../um-certificates/how-access-management-works-unified.html
+         - title:
+           url: ../um-certificates/how-certificates-work-unified.html
+    - title: Manage access
+      links:
          - title: User access
-           url: ../sm-storage/create-volume-group.html
+           url: ../um-certificates/how-access-management-works-unified.html
          - title: Certificates
-           url: ../sm-storage/create-ssd-cache.html
+           url: ../um-certificates/how-certificates-work-unified.html
+         - title: CA-signed certificates
+           url:
     - title: Settings
       links:
          - title: Import settings
-           url: ../hardware-page-overview.html
-         - title: User profile
+           url: ../um-manage/how-import-settings-works.html
+         - title: User roles
            url: ../sm-hardware/controller-states.html
-         - title: User passwords
-           url: ../sm-hardware/drive-states.html
+         - title: Password settings
+           url: ../um-certificates/change-local-user-passwords-settings-unified.html
          - title: Server settings
-           url:
+           url: ../um-certificates/edit-directory-server-settings-unified.html
