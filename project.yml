@@ -1353,12 +1353,16 @@ sidebar:
             url: "/um-manage/provide-passwords.html"
         - title: Discover single array
           url: "/um-manage/discover-single-array.html"
-    - title: Manage arrays
-      entries:
-        - title: Launch System Manager for array management
-          url: "/um-manage/launch-system-manager.html"
-        - title: Change storage array passwords
-          url: "/um-admin/change-storage-array-passwords.html"
+        - title: Manage arrays
+          entries:
+            - title: View array status
+              url: "/um-manage/storage-array-status.html"
+            - title: Launch System Manager
+              url: "/um-manage/launch-system-manager.html"
+            - title: Change array passwords
+              url: "/um-admin/change-storage-array-passwords.html"
+            - title: Remove arrays from view
+              url: "/um-manage/remove-storage-array.html"
     - title: Settings import
       entries:
       - title: Overview
@@ -1387,7 +1391,7 @@ sidebar:
           url: "/um-manage/what-settings-will-be-imported.html"
         - title: Why don&#8217;t I see all of my storage arrays?
           url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
-    - title: Array Groups
+    - title: Array groups
       entries:
       - title: Overview
         url: "/um-manage/generic-manage-groups.html"
@@ -1396,28 +1400,25 @@ sidebar:
         entries:
         - title: Storage array groups
           url: "/um-manage/storage-array-groups.html"
-        - title: Storage array status
-          url: "/um-manage/storage-array-status.html"
-      - title: Configure and manage groups
+      - title: Configure groups
         entries:
           - title: Create group
             url: "/um-manage/create-storage-array-group.html"
-          - title: Delete group
-            url: "/um-manage/delete-storage-array-group.html"
-          - title: Rename group
-            url: "/um-manage/rename-storage-array-group.html"
           - title: Add array to group
             url: "/um-manage/add-storage-array-to-group.html"
           - title: Remove arrays from group
             url: "/um-manage/remove-storage-arrays-from-group.html"
-          - title: Remove arrays from Unified Manager
-            url: "/um-manage/remove-storage-array.html"
+      - title: Manage groups
+        entries:
+          - title: Delete group
+            url: "/um-manage/delete-storage-array-group.html"
+          - title: Rename group
+            url: "/um-manage/rename-storage-array-group.html"
     - title: Upgrade
       entries:
       - title: Overview
         url: "/um-manage/generic-upgrade-center.html"
       - title: Concepts
-        url: "/um-manage/generic-concepts.html"
         entries:
         - title: How upgrades work
           url: "/um-manage/how-upgrades-work.html"
@@ -1444,11 +1445,11 @@ sidebar:
         entries:
         - title: Mirroring overview
           url: "/um-manage/mirroring-overview.html"
-        - title: Mirroring configuration workflow
+        - title: Configuration workflow
           url: "/um-manage/mirroring-configuration-workflow.html"
-        - title: Mirroring terminology
+        - title: Terms
           url: "/um-manage/mirroring-terminology.html"
-        - title: Requirements for using mirroring
+        - title: Requirements
           url: "/um-manage/requirements-for-using-mirroring.html"
       - title: Configure mirroring
         entries:
@@ -1489,41 +1490,37 @@ sidebar:
           url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
         - title: Why is it recommended to use a manual synchronization policy?
           url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
-
     - title: Certificates
       entries:
       - title: Overview
         url: "/um-certificates/generic-certificate-management.html"
       - title: Concepts
-        url: "/um-certificates/generic-concepts.html"
         entries:
         - title: How certificates work
           url: "/um-certificates/how-certificates-work-unified.html"
-        - title: Certificate terminology
+        - title: Terms
           url: "/um-certificates/certificate-terminology-unified.html"
-      - title: Use certificates for management host
-        entries:
-        - title: Use management host certificates
-          url: "/um-certificates/use-ca-signed-certificate-um.html"
-          entries:
+    - title: Use management host certificates
+      url: "/um-certificates/use-ca-signed-certificate-um.html"
+      entries:
           - title: 'Step 1: Complete a CSR file'
             url: "/um-certificates/step-1-complete-csr-file-unified.html"
           - title: 'Step 2: Submit CSR file'
             url: "/um-certificates/step-2-submit-csr-files-unified.html"
           - title: 'Step 3: Import management certificates'
             url: "/um-certificates/step-3-import-management-certificates-unified.html"
-        - title: Reset management certificates
-          url: "/um-certificates/reset-management-certificates-unified.html"
-      - title: Use array certificates
-        entries:
+    - title: Reset management certificates
+      url: "/um-certificates/reset-management-certificates-unified.html"
+    - title: Use array certificates
+      entries:
         - title: Import certificates for arrays
           url: "/um-certificates/import-array-certificates-unified.html"
         - title: Delete trusted certificates
           url: "/um-certificates/delete-trusted-certificates-unified.html"
         - title: Resolve untrusted certificates
           url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
-      - title: Manage certificates
-        entries:
+    - title: Manage certificates
+      entries:
         - title: View certificates
           url: "/um-certificates/view-certificates-unified.html"
         - title: Export certificates
