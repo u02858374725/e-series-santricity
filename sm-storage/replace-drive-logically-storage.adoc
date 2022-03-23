@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/replace-drive-logically-storage.html
 sidebar: sidebar
-keywords: 
-summary: 'If a drive fails or you want to replace it for any other reason, and you have an unassigned drive in your storage array, you can logically replace the failed drive with the unassigned drive. If you do not have an unassigned drive, you can physically replace the drive instead.'
+keywords: replace, drive, logically
+summary: "If a drive fails or you want to replace it for any other reason, and you have an unassigned drive in your storage array, you can logically replace the failed drive with the unassigned drive. If you do not have an unassigned drive, you can physically replace the drive instead."
 ---
 = Replace drive logically
 :icons: font
@@ -11,7 +11,7 @@ summary: 'If a drive fails or you want to replace it for any other reason, and y
 [.lead]
 If a drive fails or you want to replace it for any other reason, and you have an unassigned drive in your storage array, you can logically replace the failed drive with the unassigned drive. If you do not have an unassigned drive, you can physically replace the drive instead.
 
-== About this task
+.About this task
 
 When you logically replace a drive with an unassigned drive, the unassigned drive becomes assigned and is then a permanent member of the associated pool or volume group. You use the logical replace option to replace the following types of drives:
 
@@ -29,7 +29,7 @@ The replacement drive must have the following characteristics:
 * The same FDE capability (recommended, but not required)
 * The same DA capability (recommended, but not required)
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.
@@ -41,7 +41,7 @@ The graphic changes to show the drives instead of the controllers.
 The drive's context menu appears.
 
 . Click *Logically replace*.
-. (Optional) Select the *Fail drive after it is replaced* check box to fail the original drive after it is replaced.
+. *Optional:* Select the *Fail drive after it is replaced* check box to fail the original drive after it is replaced.
 +
 This check box is enabled only if the original assigned drive is not failed or missing.
 
