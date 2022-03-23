@@ -29,7 +29,7 @@ sidebar:
                 url: "/sm-settings/configure-login-banner.html"
               - title: Manage session timeouts
                 url: "/sm-settings/manage-session-timeouts-sam.html"
-          - title: Manage problem notifications
+          - title: Manage notifications
             entries:
               - title: Problem notifications overview
                 url: "/sm-interface/problem-notification.html"
@@ -69,6 +69,8 @@ sidebar:
                 url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
       - title: Pools and volume groups
         entries:
+        - title: Overview
+          url: "/sm-storage/generic-pools-and-volume-groups.html"
         - title: Concepts
           entries:
           - title: How pools and volume groups work
@@ -204,6 +206,8 @@ sidebar:
             url: "/sm-storage/what-is-resource-provisioning-capable.html"
       - title: Volumes
         entries:
+        - title: Overview
+          url: "/sm-storage/generic-volumes.html"
         - title: Concepts
           entries:
           - title: Storage array volumes
@@ -312,6 +316,8 @@ sidebar:
             url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
       - title: Hosts
         entries:
+        - title: Overview
+          url: "/sm-storage/generic-hosts.html"
         - title: Concepts
           entries:
           - title: Host terminology
@@ -377,6 +383,8 @@ sidebar:
             url: "/sm-storage/what-is-the-default-cluster.html"
       - title: Performance
         entries:
+        - title: Overview
+          url: "/sm-storage/generic-performance.html"
         - title: Concepts
           entries:
           - title: Performance overview
@@ -410,6 +418,8 @@ sidebar:
             url: "/sm-storage/what-does-the-headroom-graph-show.html"
       - title: Snapshots
         entries:
+        - title: Overview
+          url: "/sm-storage/generic-snapshots.html"
         - title: Concepts
           entries:
           - title: How snapshot images are used
@@ -527,6 +537,8 @@ sidebar:
             url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
       - title: Asynchronous mirroring
         entries:
+        - title: Overview
+          url: "/sm-mirroring/generic-asynchronous-mirroring.html"
         - title: Concepts
           entries:
           - title: How asynchronous mirroring works
@@ -606,6 +618,8 @@ sidebar:
             url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
       - title: Synchronous mirroring
         entries:
+        - title: Overview
+          url: "/sm-mirroring/synchronous-mirroring.html"
         - title: Concepts
           entries:
           - title: How synchronous mirroring works
@@ -872,6 +886,8 @@ sidebar:
               url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
       - title: Alerts
         entries:
+        - title: Overview
+          url: "/sm-settings/generic-alerts.html"
         - title: Concepts
           entries:
           - title: How alerts work
@@ -1048,6 +1064,8 @@ sidebar:
             url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
       - title: User authentication
         entries:
+        - title: Overview
+          url: "/sm-settings/generic-access-management.html"
         - title: Concepts
           entries:
           - title: How Access Management works
@@ -1128,6 +1146,8 @@ sidebar:
             url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
       - title: Certificates
         entries:
+        - title: Overview
+          url: "/sm-settings/generic-certificates.html"
         - title: Concepts
           entries:
           - title: How certificates work
@@ -1179,6 +1199,8 @@ sidebar:
             url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
       - title: Support
         entries:
+        - title: Overview
+          url: "/sm-support/generic-support-center.html"
         - title: View information and diagnostics
           entries:
             - title: View storage array profile
@@ -1231,6 +1253,8 @@ sidebar:
               url: "/sm-support/disable-autosupport-maintenance-window.html"
         - title: View events
           entries:
+            - title: Overview
+              url: "/sm-support/generic-event-log.html"
             - title: Critical events
               url: "/sm-support/critical-events.html"
             - title: Event log
@@ -1257,6 +1281,8 @@ sidebar:
             url: "/sm-support/what-is-configuration-data.html"
       - title: Upgrades
         entries:
+        - title: Overview
+          url: "/sm-support/generic-upgrade-center.html"
         - title: Concepts
           entries:
           - title: Controller software and firmware upgrades
