@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager sets limits for how many drives you can remove from a pool.'
+keywords: limit, number, pool, drive, remove
+summary: "System Manager sets limits for how many drives you can remove from a pool."
 ---
 = Is there a limit on the number of drives I can remove from a pool?
 :icons: font

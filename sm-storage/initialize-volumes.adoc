@@ -1,17 +1,18 @@
 ---
 permalink: sm-storage/initialize-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'A volume is automatically initialized when it is first created. However, the Recovery Guru might advise that you manually initialize a volume to recover from certain failure conditions. Use this option only under the guidance of technical support. You can select one or more volumes to initialize.'
+keywords: initialize, volumes
+summary: "A volume is automatically initialized when it is first created. However, the Recovery Guru might advise that you manually initialize a volume to recover from certain failure conditions. Use this option only under the guidance of technical support. You can select one or more volumes to initialize."
 ---
 = Initialize volumes
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 A volume is automatically initialized when it is first created. However, the Recovery Guru might advise that you manually initialize a volume to recover from certain failure conditions. Use this option only under the guidance of technical support. You can select one or more volumes to initialize.
 
-== Before you begin
+.Before you begin
 
 * All I/O operations have been stopped.
 * Any devices or file systems on the volumes you want to initialize must be unmounted.
@@ -22,7 +23,7 @@ A volume is automatically initialized when it is first created. However, the Rec
 You cannot cancel the operation after it starts. All volume data is erased. Do not try this operation unless the Recovery Guru advises you to do so. Contact technical support before you begin this procedure.
 ====
 
-== About this task
+.About this task
 
 When you initialize a volume, the volume keeps its WWN, host assignments, allocated capacity, and reserved capacity settings. It also keeps the same Data Assurance (DA) settings and security settings.
 
@@ -37,20 +38,20 @@ The following types of volumes _cannot_ be initialized:
 
 This topic applies only to standard volumes created from pools or volume groups.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Volumes*.
+. Select menu:Storage[Volumes].
 . Select any volume, and then select *More* > *Initialize volumes*.
 +
-The Initialize Volumes dialog box appears. All volumes on the storage array appear in this dialog box.
+The *Initialize Volumes* dialog box appears. All volumes on the storage array appear in this dialog box.
 
 . Select one or more volumes that you want to initialize, and confirm that you want to perform the operation.
 
-== Results
+.Results
 
 System Manager performs the following actions:
 
 * Erases all data from the volumes that were initialized.
 * Clears the block indices, which causes unwritten blocks to be read as if they are zero-filled (the volume appears to be completely empty).
 
-Select *Home* > *View Operations in Progress* to view the progress of the initialize operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
+Select menu:Home[View Operations in Progress] to view the progress of the initialize operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.

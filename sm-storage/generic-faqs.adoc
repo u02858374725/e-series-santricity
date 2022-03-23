@@ -2,7 +2,7 @@
 permalink: sm-storage/generic-faqs.html
 sidebar: sidebar
 keywords: frequently, asked, questions, faqs
-summary: "Frequently asked questions.""
+summary: "Frequently asked questions."
 ---
 = FAQs
 :icons: font
