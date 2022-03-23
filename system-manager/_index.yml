@@ -23,13 +23,13 @@ indexpage:
     - title: Manage hardware
       links:
         - title: Shelves
-          url: ../hardware-page-overview.html
+          url: ../sm-hardware/hardware-page-overview.html
         - title: Controllers
           url: ../sm-hardware/controller-states.html
         - title: Drives
           url: ../sm-hardware/drive-states.html
         - title: Certificates
-          url:
+          url: ../sm-settings/how-certificates-work-sam.html
     - title: Mirroring, snapshots, and remote storage
       links:
         - title: Async mirroring

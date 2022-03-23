@@ -3,7 +3,7 @@ indexpage:
     - title: Get started
       links:
       - title: Unified Manager overview
-        url: ../um-admin/unified-manager-overview.html
+        url: ../um-admin/home-page-unified.html
       - title: Set admin password
         url: ../um-admin/administrator-password-protection-unified.html
     - title: Discover arrays
@@ -29,7 +29,7 @@ indexpage:
          - title: Certificates
            url: ../um-certificates/how-certificates-work-unified.html
          - title: CA-signed certificates
-           url: /um-certificates/use-ca-signed-certificate-um.html
+           url: ../um-certificates/use-ca-signed-certificate-um.html
     - title: Settings
       links:
          - title: Import settings
