@@ -11,7 +11,7 @@ summary: "From the Hardware page, you can turn on the locator light to find the 
 [.lead]
 From the Hardware page, you can turn on the locator light to find the physical location of a drive in the storage array.
 
-== About this task
+.About this task
 
 You can locate single drives or multiple drives shown on the Hardware page.
 

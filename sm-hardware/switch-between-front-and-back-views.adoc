@@ -11,7 +11,7 @@ summary: "The Hardware page can show either the front view or the back view of t
 [.lead]
 The Hardware page can show either the front view or the back view of the shelves.
 
-== About this task
+.About this task
 
 The back view shows the controllers/IOMs and the power-fan canisters. The front view shows the drives.
 
