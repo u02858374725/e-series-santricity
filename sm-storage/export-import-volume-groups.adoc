@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/export-import-volume-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'Volume group migration lets you export a volume group so that you can import the volume group to a different storage array.'
+keywords: export, import, volume, groups
+summary: "Volume group migration lets you export a volume group so that you can import the volume group to a different storage array."
 ---
 = Export/Import volume groups
 :icons: font
