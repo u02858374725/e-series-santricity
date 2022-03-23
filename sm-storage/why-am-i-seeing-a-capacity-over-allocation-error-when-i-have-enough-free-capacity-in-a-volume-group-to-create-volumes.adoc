@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'The selected volume group might have one or more free capacity areas. A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation.'
+keywords: why, seeing, capacity, over-allocation, error, when, enough, free, capacity, volume, group, create, volumes
+summary: "The selected volume group might have one or more free capacity areas. A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation."
 ---
 = Why am I seeing a capacity over-allocation error when I have enough free capacity in a volume group to create volumes?
 :experimental:
