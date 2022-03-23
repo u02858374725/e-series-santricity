@@ -9,6 +9,12 @@ sidebar:
   entries:
   - title: SANtricity docs
     url: "/index.html"
+  - title: Release notes
+    entries:
+      - title: What's new
+        url: /whats-new.html
+      - title: Release notes
+        url: /known-issues.html
   - title: System manager
     url: "/system-manager/index.html"
     entries:
@@ -1209,24 +1215,18 @@ homepage:
   tiles:
      - title: Get started
        links:
-         - title: Quick start
-           url: /getting-started/getup-run-concept.html
-         - title: EF-Series overview
-           url: https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf
-         - title: E5700 series overview
-           url: https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf
-         - title: E2800 series overview
-           url: https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
          - title: SANtricity software overview
            url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
-     - title: Online help
+         - title: System manger interface
+           url: /sm-interface/home-page.html
+         - title: Unified manger interface
+           url: /um-admin/home-page-unified.html
+     - title: E-series docs 
        links:
-         - title: SANtricity System Manager 11.7
-           url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-sam-117/home.html
-         - title: SANtricity Unified Manager 5
-           url: https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-uni-5/home.html
+         - title: E-Series platform docs
+           url: https://docs.netapp.com/us-en/e-series/index.html
          - title: Command Line Interface (CLI) reference
-           url:  https://docs.netapp.com/ess-11/topic/com.netapp.doc.ssm-cli-115/home.html
+           url:  https://docs.netapp.com/us-en/e-series-cli/index.html
      - title: SANtricity APIs
        links:
          - title: Web services
