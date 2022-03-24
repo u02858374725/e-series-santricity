@@ -11,7 +11,7 @@ sidebar:
     url: "/index.html"
   - title: System Manager
     entries:
-      - title: Home page
+      - title: Main interface
         entries:
           - title: Interface overview
             url: "/sm-interface/home-page.html"
@@ -67,6 +67,7 @@ sidebar:
                 url: "/sm-interface/what-are-the-supported-browsers.html"
               - title: What are the keyboard shortcuts?
                 url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
+
       - title: Pools and volume groups
         entries:
         - title: Overview
@@ -77,19 +78,13 @@ sidebar:
             url: "/sm-storage/how-pools-and-volume-groups-work.html"
           - title: Capacity terminology
             url: "/sm-storage/capacity-terminology.html"
-          - title: How reserved capacity works
-            url: "/sm-storage/how-reserved-capacity-works.html"
-          - title: How SSD Cache works
-            url: "/sm-storage/how-ssd-cache-works.html"
-          - title: SSD Cache restrictions
-            url: "/sm-storage/ssd-cache-restrictions.html"
-          - title: Wwhether to use pools or volume groups
+          - title: Determine whether to use pools or volume groups
             url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
           - title: Pools versus volume groups
             url: "/sm-storage/functional-comparison-of-pools-and-volume-groups.html"
           - title: Automatic versus manual pool creation
             url: "/sm-storage/automatic-versus-manual-pool-creation.html"
-        - title: Create pools and volume groups
+        - title: Configure storage
           entries:
           - title: Create pool automatically
             url: "/sm-storage/create-pool-automatically.html"
@@ -97,44 +92,50 @@ sidebar:
             url: "/sm-storage/create-pool-manually.html"
           - title: Create volume group
             url: "/sm-storage/create-volume-group.html"
-          - title: Create SSD Cache
-            url: "/sm-storage/create-ssd-cache.html"
           - title: Add capacity to pool or volume group
             url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
-        - title: Manage pools, volume groups, and SSD Cache
+        - title: Manage storage
           entries:
-          - title: Change configuration settings for a pool
-            url: "/sm-storage/change-configuration-settings-for-a-pool.html"
-          - title: Change SSD Cache settings
-            url: "/sm-storage/change-ssd-cache-settings.html"
-          - title: Change configuration settings for a volume group
-            url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
-          - title: View SSD Cache statistics
-            url: "/sm-storage/view-ssd-cache-statistics.html"
           - title: Check volume redundancy
             url: "/sm-storage/check-volume-redundancy.html"
           - title: Delete pool or volume group
             url: "/sm-storage/delete-pool-or-volume-group.html"
           - title: Consolidate free capacity for a volume group
             url: "/sm-storage/consolidate-volume-group-free-capacity.html"
-          - title: Disable resource provisioning on existing volumes
-            url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
           - title: Export/Import volume groups
             url: "/sm-storage/export-import-volume-groups.html"
-        - title: Manage drives
-          entries:
-          - title: Turn on locator lights
+          - title: Locate drive used for storage
             url: "/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html"
           - title: Remove capacity
             url: "/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html"
+        - title: Modify pool and group settings
+          entries:
+          - title: Change configuration settings for a pool
+            url: "/sm-storage/change-configuration-settings-for-a-pool.html"
+          - title: Change configuration settings for a volume group
+            url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
+          - title: Disable resource provisioning on existing volumes
+            url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
+          - title: Enable or disable resource provisioning for new volumes
+            url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
           - title: Enable security
             url: "/sm-storage/enable-security.html"
-          - title: Assign hot spares
-            url: "/sm-storage/assign-hot-spares-storage.html"
-          - title: Replace drive logically
-            url: "/sm-storage/replace-drive-logically-storage.html"
+        - title: Manage SSD cache
+          entries:
+          - title: How SSD Cache works
+            url: "/sm-storage/how-ssd-cache-works.html"
+          - title: SSD Cache restrictions
+            url: "/sm-storage/ssd-cache-restrictions.html"
+          - title: Create SSD Cache
+            url: "/sm-storage/create-ssd-cache.html"
+          - title: Change SSD Cache settings
+            url: "/sm-storage/change-ssd-cache-settings.html"
+          - title: View SSD Cache statistics
+            url: "/sm-storage/view-ssd-cache-statistics.html"
         - title: Manage reserved capacity
           entries:
+          - title: How reserved capacity works
+            url: "/sm-storage/how-reserved-capacity-works.html"
           - title: Increase capacity
             url: "/sm-storage/increase-reserved-capacity.html"
           - title: Decrease capacity
@@ -154,8 +155,6 @@ sidebar:
             url: "/sm-storage/delete-snapshot-group.html"
         - title: FAQs
           entries:
-          - title: What is a hot spare drive?
-            url: "/sm-storage/what-is-a-hot-spare-drive.html"
           - title: What is a volume group?
             url: "/sm-storage/what-is-a-volume-group.html"
           - title: What is a pool?
@@ -204,6 +203,9 @@ sidebar:
             url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
           - title: What is resource provisioning capable?
             url: "/sm-storage/what-is-resource-provisioning-capable.html"
+          - title: What do I need to know about the resource-provisioned volumes feature?
+            url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+
       - title: Volumes
         entries:
         - title: Overview
@@ -834,6 +836,8 @@ sidebar:
               url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
         - title: FAQs
           entries:
+            - title: What is a hot spare drive?
+              url: "/sm-storage/what-is-a-hot-spare-drive.html"
             - title: What is shelf loss protection and drawer loss protection?
               url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
             - title: What are battery learn cycles?
@@ -949,7 +953,7 @@ sidebar:
             url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
           - title: Why are timestamps inconsistent between the array and alerts?
             url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
-      - title: System settings
+      - title: Array settings
         entries:
           - title: Concepts
             entries:
@@ -985,8 +989,6 @@ sidebar:
               url: "/sm-settings/change-default-host-type.html"
             - title: Enable or disable legacy management interface
               url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
-            - title: Enable or disable resource provisioning for new volumes
-              url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
           - title: Configure add-on features
             entries:
             - title: Obtain feature key file
@@ -1009,8 +1011,7 @@ sidebar:
               url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
             - title: What is host connectivity reporting?
               url: "/sm-settings/what-is-host-connectivity-reporting.html"
-            - title: What do I need to know about the resource-provisioned volumes feature?
-              url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+
       - title: Drive security
         entries:
         - title: Concepts
@@ -1316,7 +1317,7 @@ sidebar:
 
   - title: Unified Manager
     entries:
-    - title: Home page
+    - title: Main interface
       entries:
         - title: Interface overview
           url: "/um-admin/home-page-unified.html"
