@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/view-and-save-performance-data-tabular.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view and save performance graphs data in tabular format. This allows you to filter the data you want displayed.'
+keywords: view, save, tabular, performance, data
+summary: "You can view and save performance graphs data in tabular format. This allows you to filter the data you want displayed."
 ---
 = View and save tabular performance data
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can view and save performance graphs data in tabular format. This 
 [.lead]
 You can view and save performance graphs data in tabular format. This allows you to filter the data you want displayed.
 
-== Steps
+.Steps
 
 . From any performance data graph, click *Launch table view*.
 +
