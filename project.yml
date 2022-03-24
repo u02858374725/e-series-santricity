@@ -206,7 +206,7 @@ sidebar:
           - title: What do I need to know about the resource-provisioned volumes feature?
             url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
 
-      - title: Volumes
+      - title: Volumes and workloads
         entries:
         - title: Overview
           url: "/sm-storage/generic-volumes.html"
@@ -232,11 +232,7 @@ sidebar:
             url: "/sm-storage/thin-volume-monitoring.html"
           - title: Thick volumes versus thin volumes
             url: "/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html"
-          - title: Copy Volume function
-            url: "/sm-storage/copy-volume-function.html"
-          - title: Copy Volume operations
-            url: "/sm-storage/types-of-copy-volume-operations.html"
-        - title: Create storage
+        - title: Configure storage
           entries:
           - title: Create workloads
             url: "/sm-storage/create-workloads.html"
@@ -251,40 +247,42 @@ sidebar:
               url: "/sm-storage/create-volumes-storage-step-3.html"
             - title: 'Step 4: Review volume configuration'
               url: "/sm-storage/create-volumes-storage-step-4.html"
+          - title: Add to workload
+            url: "/sm-storage/add-to-workload.html"
         - title: Manage volumes
           entries:
           - title: Increase capacity
             url: "/sm-storage/increase-capacity-of-a-volume.html"
-          - title: Change settings
-            url: "/sm-storage/change-settings-for-a-volume.html"
           - title: Initialize volumes
             url: "/sm-storage/initialize-volumes.html"
           - title: Redistribute volumes
             url: "/sm-storage/redistribute-volumes.html"
           - title: Change controller ownership
             url: "/sm-storage/change-controller-ownership-of-a-volume.html"
+          - title: Delete volume
+            url: "/sm-storage/delete-volume.html"
+          - title: Change allocated capacity for thin volumes
+            url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+        - title: Manage settings
+          entries:
+          - title: Change volume settings
+            url: "/sm-storage/change-settings-for-a-volume.html"
+          - title: Change workload settings
+            url: "/sm-storage/change-workload-settings.html"
           - title: Change cache settings
             url: "/sm-storage/change-cache-settings.html"
           - title: Change media scan settings
             url: "/sm-storage/change-media-scan-settings.html"
-          - title: Delete volume
-            url: "/sm-storage/delete-volume.html"
-        - title: Manage applications and workloads
+        - title: Use copy services
           entries:
-          - title: Add to workload
-            url: "/sm-storage/add-to-workload.html"
-          - title: Change workload settings
-            url: "/sm-storage/change-workload-settings.html"
-        - title: Work with copy services
-          entries:
-          - title: Copy volume
-            url: "/sm-storage/copy-volume.html"
-          - title: Take action on Copy Volume operation
-            url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
-        - title: Monitor thin volumes
-          entries:
-          - title: Change allocated capacity for thin volumes
-            url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+            - title: Copy Volume function
+              url: "/sm-storage/copy-volume-function.html"
+            - title: Types of operations
+              url: "/sm-storage/types-of-copy-volume-operations.html"
+            - title: Copy volumes
+              url: "/sm-storage/copy-volume.html"
+            - title: Manage operations
+              url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
         - title: FAQs
           entries:
           - title: What is a volume?
@@ -316,29 +314,32 @@ sidebar:
             url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
           - title: What do I need to know about host block size requirements?
             url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+
       - title: Hosts
         entries:
         - title: Overview
           url: "/sm-storage/generic-hosts.html"
         - title: Concepts
           entries:
-          - title: Host terminology
+          - title: Terms
             url: "/sm-storage/host-terminology.html"
           - title: Workflow for host creation and volume assignment
             url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
           - title: Automatic versus manual host creation
             url: "/sm-storage/automatic-versus-manual-host-creation.html"
-          - title: How volumes are assigned to hosts and host clusters
+          - title: How volumes are assigned
             url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
           - title: Access volumes
             url: "/sm-storage/access-volumes.html"
           - title: Maximum number of LUNs
             url: "/sm-storage/maximum-number-of-luns.html"
+          - title: Default host operating system type
+            url: "/sm-settings/default-host-operating-system-type.html"
         - title: Configure host access
           entries:
-          - title: Create host automatically
+          - title: Detect host automatically
             url: "/sm-storage/create-host-automatically.html"
-          - title: Create host manually
+          - title: Define host manually
             url: "/sm-storage/create-host-manually.html"
           - title: Create host cluster
             url: "/sm-storage/create-host-cluster.html"
@@ -357,16 +358,22 @@ sidebar:
             url: "/sm-storage/assign-volumes.html"
         - title: Manage hosts and host clusters
           entries:
+          - title: Change default host type
+            url: "/sm-settings/change-default-host-type.html"
+          - title: Unassign volumes
+            url: "/sm-storage/unassign-volumes.html"
+          - title: Delete host or host cluster
+            url: "/sm-storage/delete-host-or-host-cluster.html"
+          - title: Set host connectivity reporting
+            url: "/sm-settings/set-host-connectivity-reporting.html"
+        - title: Manage settings
+          entries:
           - title: Change settings for host
             url: "/sm-storage/change-the-settings-for-a-host.html"
           - title: Change settings for host cluster
             url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
-          - title: Unassign volumes
-            url: "/sm-storage/unassign-volumes.html"
           - title: Change host port identifiers for host
             url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
-          - title: Delete host or host cluster
-            url: "/sm-storage/delete-host-or-host-cluster.html"
         - title: FAQs
           entries:
           - title: What are hosts and host clusters?
@@ -383,6 +390,9 @@ sidebar:
             url: "/sm-storage/how-do-i-create-chap-secrets.html"
           - title: What is the default cluster?
             url: "/sm-storage/what-is-the-default-cluster.html"
+          - title: What is host connectivity reporting?
+            url: "/sm-settings/what-is-host-connectivity-reporting.html"
+            
       - title: Performance
         entries:
         - title: Overview
@@ -961,8 +971,6 @@ sidebar:
               url: "/sm-settings/cache-settings-and-performance.html"
             - title: Automatic load balancing overview
               url: "/sm-settings/automatic-load-balancing-overview.html"
-            - title: Default host operating system type
-              url: "/sm-settings/default-host-operating-system-type.html"
             - title: How add-on features work
               url: "/sm-settings/how-add-on-features-work.html"
             - title: Add-on terms
@@ -981,12 +989,8 @@ sidebar:
               url: "/sm-settings/clear-storage-array-configuration.html"
             - title: Change cache settings
               url: "/sm-settings/change-cache-settings-for-storage-array.html"
-            - title: Set host connectivity reporting
-              url: "/sm-settings/set-host-connectivity-reporting.html"
             - title: Set automatic load balancing
               url: "/sm-settings/set-automatic-load-balancing.html"
-            - title: Change default host type
-              url: "/sm-settings/change-default-host-type.html"
             - title: Enable or disable legacy management interface
               url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
           - title: Configure add-on features
@@ -1009,8 +1013,7 @@ sidebar:
               url: "/sm-settings/what-is-cache-block-size.html"
             - title: When should I synchronize storage array clocks?
               url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
-            - title: What is host connectivity reporting?
-              url: "/sm-settings/what-is-host-connectivity-reporting.html"
+
 
       - title: Drive security
         entries:
