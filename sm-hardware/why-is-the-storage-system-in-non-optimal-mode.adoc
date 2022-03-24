@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html
 sidebar: sidebar
-keywords: 
-summary: 'A storage system in non-optimal mode is due to an Invalid System Configuration state. Despite this state, normal I/O access to existing volumes is fully supported; however, System Manager will prohibit some operations.'
+keywords: storage, syatem, configuration, non-optimal, mode, 
+summary: "A storage system in non-optimal mode is due to an Invalid System Configuration state. Despite this state, normal I/O access to existing volumes is fully supported; however, System Manager will prohibit some operations."
 ---
 = Why is the storage system in non-optimal mode?
 :icons: font

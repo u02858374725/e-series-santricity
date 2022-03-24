@@ -11,12 +11,10 @@ summary: "If you are instructed to do so, you can place a controller in service 
 [.lead]
 If you are instructed to do so, you can place a controller in service mode.
 
-== Before you begin
+.Before you begin
 
 * The storage array must have two controllers. The controller that you are not placing in service mode must be online (in the optimal state).
 * Make sure that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
-
-== About this task
 
 [NOTE]
 ====

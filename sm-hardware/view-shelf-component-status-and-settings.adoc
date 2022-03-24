@@ -16,7 +16,7 @@ The Hardware page provides status and settings for shelf components, including t
 
 The available components depend on the type of shelf:
 
-* *Drive shelf*-- Contains a set of drives, power/fan canisters, input/output modules (IOMs), and other supporting components in a single shelf.
+* *Drive shelf* -- Contains a set of drives, power/fan canisters, input/output modules (IOMs), and other supporting components in a single shelf.
 * *Controller shelf* -- Contains a set of drives, one or two controller canisters, power/fan canisters, and other supporting components in a single shelf.
 
 .Steps

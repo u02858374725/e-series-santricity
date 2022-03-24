@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/index.html
 sidebar: sidebar
-keywords:
-summary: ''
+keywords: santricity, system, manager,
+summary: "SANtricity System Manager 11.7"
 ---
 = SANtricity System Manager 11.7
 :icons: font

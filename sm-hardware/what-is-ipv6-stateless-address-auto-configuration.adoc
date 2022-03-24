@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'With stateless auto-configuration, hosts do not obtain addresses and other configuration information from a server. Stateless auto-configuration in IPv6 features link-local addresses, multicasting, and the Neighbor Discovery \(ND\) protocol. IPv6 can generate the interface ID of an address from the underlying data link layer address.'
+keywords: ipv6, stateless, address, auto, configuration,  
+summary: "With stateless auto-configuration, hosts do not obtain addresses and other configuration information from a server. Stateless auto-configuration in IPv6 features link-local addresses, multicasting, and the Neighbor Discovery (ND) protocol. IPv6 can generate the interface ID of an address from the underlying data link layer address."
 ---
 = What is IPv6 stateless address auto-configuration?
 :icons: font

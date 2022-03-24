@@ -11,12 +11,10 @@ summary: "If you are instructed to do so, you can place a controller offline."
 [.lead]
 If you are instructed to do so, you can place a controller offline.
 
-== Before you begin
+.Before you begin
 
 * Your storage array must have two controllers. The controller that you are not placing offline must be online (in the optimal state).
 * Make sure that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
-
-== About this task
 
 [NOTE]
 ====
@@ -36,6 +34,6 @@ The controller's context menu appears.
 
 . Select *Place offline*, and confirm that you want to perform the operation.
 
-== Results
+.Results
 
 It might take several minutes for System Manager to update the controller's status to offline. Do not begin any other operations until after the status has been updated.

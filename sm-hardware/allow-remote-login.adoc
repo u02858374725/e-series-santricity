@@ -11,8 +11,6 @@ summary: "Remote login lets users from outside of the local area network start a
 [.lead]
 Remote login lets users from outside of the local area network start an SSH session and change settings on the controller.
 
-== About this task
-
 [NOTE]
 ====
 *Security risk* -- For security reasons, enable remote login for use only by technical support.
@@ -31,6 +29,6 @@ The controller's context menu appears.
 
 . Select *Change remote login*, and confirm that you want to perform the operation.
 
-== Results
+.Results
 
 After technical support is finished troubleshooting, follow this same procedure to disable remote login. Disabling remote login terminates any current SSH sessions and rejects any new login requests.

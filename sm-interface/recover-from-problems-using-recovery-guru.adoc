@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/recover-from-problems-using-recovery-guru.html
 sidebar: sidebar
-keywords: 
-summary: 'The Recovery Guru is a component of System Manager that diagnoses storage array problems and recommends recovery procedures to fix the problems.'
+keywords: recovery, problem, recovery, guru, diagnoses,
+summary: "The Recovery Guru is a component of System Manager that diagnoses storage array problems and recommends recovery procedures to fix the problems."
 ---
 = Recover from problems using Recovery Guru
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The Recovery Guru is a component of System Manager that diagnoses stor
 [.lead]
 The Recovery Guru is a component of System Manager that diagnoses storage array problems and recommends recovery procedures to fix the problems.
 
-== Steps
+.Steps
 
 . Select *Home*.
 . Click the link labeled *Recover from `n` problems* in the center-top of the window.
@@ -30,7 +30,7 @@ If you selected a problem for an asynchronous mirror group or a member of an asy
 +
 If all of the problems have been corrected, the storage array icon eventually transitions from Needs Attention to Optimal. For some problems, a Fixing icon appears while an operation, such as reconstruction, is in progress.
 
-. To save the Recovery Guru information to a file, click the *Save* icon.
+. *Optional:* To save the Recovery Guru information to a file, click the *Save* icon.
 +
 The file is saved in the Downloads folder for your browser with the name `recovery-guru-failure-yyyy-mm-dd-hh-mm-ss-mmm.html`.
 
