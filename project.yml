@@ -13,61 +13,89 @@ sidebar:
     entries:
       - title: Main interface
         entries:
-          - title: Interface overview
-            url: "/sm-interface/home-page.html"
-          - title: View array components
-            url: "/sm-interface/storage-array-overview.html"
-          - title: Manage interface settings
-            entries:
-              - title: Administrator password protection
-                url: "/sm-interface/administrator-password-protection.html"
-              - title: Set default capacity values
-                url: "/sm-interface/set-default-units-for-capacity-values.html"
-              - title: Set defaults for performance graphs
-                url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
-              - title: Configure login banner
-                url: "/sm-settings/configure-login-banner.html"
-              - title: Manage session timeouts
-                url: "/sm-settings/manage-session-timeouts-sam.html"
-          - title: Manage notifications
-            entries:
-              - title: Problem notifications overview
-                url: "/sm-interface/problem-notification.html"
-              - title: Operations in progress page
-                url: "/sm-interface/operations-in-progress.html"
-              - title: View and act on operations in progress
-                url: "/sm-interface/view-and-act-on-operations-in-progress.html"
-              - title: Recover from problems using Recovery Guru
-                url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-          - title: Use Setup wizard
-            entries:
-                - title: Setup wizard overview
-                  url: "/sm-interface/setup-wizard-overview.html"
-                - title: Setup wizard terminology
-                  url: "/sm-interface/setup-wizard-terminology.html"
-          - title: FAQs
-            entries:
-              - title: What if I don&#8217;t see all of my hardware components?
-                url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
-              - title: What if I don&#8217;t see all of my hosts?
-                url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
-              - title: How does identifying applications help me manage my storage array?
-                url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
-              - title: What is a workload?
-                url: "/sm-interface/what-is-a-workload.html"
-              - title: How do I configure the delivery method for AutoSupport?
-                url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
-              - title: How do I know if I should accept the recommended pool configuration?
-                url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-              - title: System Manager has not detected any hosts. What do I do?
-                url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-              - title: Where can I find more information about display preferences?
-                url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
-              - title: What are the supported browsers?
-                url: "/sm-interface/what-are-the-supported-browsers.html"
-              - title: What are the keyboard shortcuts?
-                url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
-
+        - title: Interface overview
+          url: "/sm-interface/home-page.html"
+        - title: View performance data
+          entries:
+          - title: Overview
+            url: "/sm-storage/generic-performance.html"
+          - title: Performance overview
+            url: "/sm-storage/performance-overview.html"
+          - title: Performance terminology
+            url: "/sm-storage/performance-terminology.html"
+          - title: View graphical performance data
+            url: "/sm-storage/view-performance-data-graphical.html"
+          - title: View and save tabular performance data
+            url: "/sm-storage/view-and-save-performance-data-tabular.html"
+          - title: Interpret performance data
+            url: "/sm-storage/interpret-performance-data.html"
+        - title: View array components
+          url: "/sm-interface/storage-array-overview.html"
+        - title: Manage interface settings
+          entries:
+            - title: Administrator password protection
+              url: "/sm-interface/administrator-password-protection.html"
+            - title: Set default capacity values
+              url: "/sm-interface/set-default-units-for-capacity-values.html"
+            - title: Set defaults for performance graphs
+              url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+            - title: Configure login banner
+              url: "/sm-settings/configure-login-banner.html"
+            - title: Manage session timeouts
+              url: "/sm-settings/manage-session-timeouts-sam.html"
+        - title: Manage notifications
+          entries:
+            - title: Problem notifications overview
+              url: "/sm-interface/problem-notification.html"
+            - title: Operations in progress page
+              url: "/sm-interface/operations-in-progress.html"
+            - title: View and act on operations in progress
+              url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+            - title: Recover from problems using Recovery Guru
+              url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+        - title: Use Setup wizard
+          entries:
+              - title: Setup wizard overview
+                url: "/sm-interface/setup-wizard-overview.html"
+              - title: Setup wizard terminology
+                url: "/sm-interface/setup-wizard-terminology.html"
+        - title: FAQs
+          entries:
+            - title: What if I don&#8217;t see all of my hardware components?
+              url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+            - title: What if I don&#8217;t see all of my hosts?
+              url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+            - title: How does identifying applications help me manage my storage array?
+              url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+            - title: What is a workload?
+              url: "/sm-interface/what-is-a-workload.html"
+            - title: How do I configure the delivery method for AutoSupport?
+              url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+            - title: How do I know if I should accept the recommended pool configuration?
+              url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+            - title: System Manager has not detected any hosts. What do I do?
+              url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+            - title: Where can I find more information about display preferences?
+              url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+            - title: What are the supported browsers?
+              url: "/sm-interface/what-are-the-supported-browsers.html"
+            - title: What are the keyboard shortcuts?
+              url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
+            - title: How do performance statistics for individual volumes relate to the
+                total?
+              url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
+            - title: Why does data display as zero in the graphs and table?
+              url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
+            - title: What does the Latency graph show?
+              url: "/sm-storage/what-does-the-latency-graph-show.html"
+            - title: What does the IOPS graph show?
+              url: "/sm-storage/what-does-the-iops-graph-show.html"
+            - title: What does the MiB/s graph show?
+              url: "/sm-storage/what-does-the-mib-s-graph-show.html"
+            - title: What does the CPU graph show?
+              url: "/sm-storage/what-does-the-cpu-graph-show.html"
+            - title: What does the Headroom graph show?
+              url: "/sm-storage/what-does-the-headroom-graph-show.html"
       - title: Pools and volume groups
         entries:
         - title: Overview
@@ -205,7 +233,6 @@ sidebar:
             url: "/sm-storage/what-is-resource-provisioning-capable.html"
           - title: What do I need to know about the resource-provisioned volumes feature?
             url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
-
       - title: Volumes and workloads
         entries:
         - title: Overview
@@ -314,7 +341,6 @@ sidebar:
             url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
           - title: What do I need to know about host block size requirements?
             url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
-
       - title: Hosts
         entries:
         - title: Overview
@@ -356,7 +382,7 @@ sidebar:
               url: "/sm-storage/create-volumes-hosts-step-4.html"
           - title: Assign volumes to hosts
             url: "/sm-storage/assign-volumes.html"
-        - title: Manage hosts and host clusters
+        - title: Manage hosts and clusters
           entries:
           - title: Change default host type
             url: "/sm-settings/change-default-host-type.html"
@@ -392,42 +418,6 @@ sidebar:
             url: "/sm-storage/what-is-the-default-cluster.html"
           - title: What is host connectivity reporting?
             url: "/sm-settings/what-is-host-connectivity-reporting.html"
-            
-      - title: Performance
-        entries:
-        - title: Overview
-          url: "/sm-storage/generic-performance.html"
-        - title: Concepts
-          entries:
-          - title: Performance overview
-            url: "/sm-storage/performance-overview.html"
-          - title: Performance terminology
-            url: "/sm-storage/performance-terminology.html"
-        - title: View performance data
-          entries:
-          - title: View graphical performance data
-            url: "/sm-storage/view-performance-data-graphical.html"
-          - title: View and save tabular performance data
-            url: "/sm-storage/view-and-save-performance-data-tabular.html"
-          - title: Interpret performance data
-            url: "/sm-storage/interpret-performance-data.html"
-        - title: FAQs
-          entries:
-          - title: How do performance statistics for individual volumes relate to the
-              total?
-            url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
-          - title: Why does data display as zero in the graphs and table?
-            url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
-          - title: What does the Latency graph show?
-            url: "/sm-storage/what-does-the-latency-graph-show.html"
-          - title: What does the IOPS graph show?
-            url: "/sm-storage/what-does-the-iops-graph-show.html"
-          - title: What does the MiB/s graph show?
-            url: "/sm-storage/what-does-the-mib-s-graph-show.html"
-          - title: What does the CPU graph show?
-            url: "/sm-storage/what-does-the-cpu-graph-show.html"
-          - title: What does the Headroom graph show?
-            url: "/sm-storage/what-does-the-headroom-graph-show.html"
       - title: Snapshots
         entries:
         - title: Overview
@@ -1013,8 +1003,6 @@ sidebar:
               url: "/sm-settings/what-is-cache-block-size.html"
             - title: When should I synchronize storage array clocks?
               url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
-
-
       - title: Drive security
         entries:
         - title: Concepts
