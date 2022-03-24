@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-optimization-capacity-pools.html
 sidebar: sidebar
-keywords: 
-summary: 'SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated.'
+keywords: what, optimization, capacity, pools
+summary: "SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated."
 ---
 = What is optimization capacity for pools?
 :icons: font
