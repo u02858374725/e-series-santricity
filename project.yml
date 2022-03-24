@@ -335,8 +335,6 @@ sidebar:
             url: "/sm-storage/what-is-segment-sizing.html"
           - title: What is preferred controller ownership?
             url: "/sm-storage/what-is-preferred-controller-ownership.html"
-          - title: What is Automatic Load Balancing?
-            url: "/sm-storage/what-is-automatic-load-balancing.html"
           - title: When would I want to use the assign host later selection?
             url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
           - title: What do I need to know about host block size requirements?
@@ -537,11 +535,15 @@ sidebar:
             url: "/sm-storage/what-is-the-disabled-state.html"
           - title: Why would I suspend a snapshot schedule?
             url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
-      - title: Asynchronous mirroring
+      - title: Mirroring
         entries:
         - title: Overview
-          url: "/sm-mirroring/generic-asynchronous-mirroring.html"
-        - title: Concepts
+          entries:
+          - title: Async mirroring
+            url: "/sm-mirroring/generic-asynchronous-mirroring.html"
+          - title: Sync mirroring
+            url: "/sm-mirroring/synchronous-mirroring.html"
+        - title: Async concepts
           entries:
           - title: How asynchronous mirroring works
             url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
@@ -557,7 +559,23 @@ sidebar:
             url: "/sm-mirroring/volume-ownership-async.html"
           - title: Role change of a mirror consistency group
             url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
-        - title: Manage mirror consistency groups
+        - title: Sync concepts
+          entries:
+          - title: How synchronous mirroring works
+            url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+          - title: Terms
+            url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+          - title: Workflow
+            url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+          - title: Requirements
+            url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+          - title: Synchronous mirroring status
+            url: "/sm-mirroring/synchronous-mirroring-status.html"
+          - title: Volume ownership
+            url: "/sm-mirroring/volume-ownership-sync.html"
+          - title: Role change between volumes in a mirrored pair
+            url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+        - title: Manage async mirror consistency groups
           entries:
           - title: Test communication
             url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
@@ -575,7 +593,7 @@ sidebar:
             url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
           - title: Delete mirror consistency group
             url: "/sm-mirroring/delete-mirror-consistency-group.html"
-        - title: Manage asynchronous mirrored pairs
+        - title: Manage async mirrored pairs
           entries:
           - title: Remove async mirror relationship
             url: "/sm-mirroring/remove-mirrored-pair.html"
@@ -585,8 +603,24 @@ sidebar:
             url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
           - title: Complete mirrored pair for primary volumes created on legacy system
             url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
-          - title: Deactivate asynchronous mirroring
+        - title: Manage sync mirrored pairs
+          entries:
+          - title: Test communication
+            url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+          - title: Suspend and resume synchronization
+            url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+          - title: Change role between volumes
+            url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+          - title: Change sync settings
+            url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+          - title: Remove mirror relationship
+            url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+        - title: Deactivate mirroring
+          entries:
+          - title: Deactivate async mirroring
             url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+          - title: Deactivate sync mirroring
+            url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
         - title: FAQs
           entries:
           - title: How does asynchronous mirroring differ from synchronous mirroring?
@@ -618,57 +652,19 @@ sidebar:
             url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
           - title: Why would I update my remote storage array&#8217;s IP address?
             url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
-      - title: Synchronous mirroring
-        entries:
-        - title: Overview
-          url: "/sm-mirroring/synchronous-mirroring.html"
-        - title: Concepts
-          entries:
-          - title: How synchronous mirroring works
-            url: "/sm-mirroring/how-synchronous-mirroring-works.html"
-          - title: Terms
-            url: "/sm-mirroring/synchronous-mirroring-terminology.html"
-          - title: Workflow
-            url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
-          - title: Requirements
-            url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
-          - title: Synchronous mirroring status
-            url: "/sm-mirroring/synchronous-mirroring-status.html"
-          - title: Volume ownership
-            url: "/sm-mirroring/volume-ownership-sync.html"
-          - title: Role change between volumes in a mirrored pair
-            url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
-        - title: Manage sync mirrored pairs
-          entries:
-            - title: Test communication
-              url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
-            - title: Suspend and resume synchronization
-              url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
-            - title: Change role between volumes
-              url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
-            - title: Change sync settings
-              url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
-            - title: Remove mirror relationship
-              url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
-            - title: Deactivate sync mirroring
-              url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-        - title: FAQs
-          entries:
-            - title: How does asynchronous mirroring differ from synchronous mirroring?
-              url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
-            - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
-              url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-            - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
-                the remote storage array?
-              url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-            - title: Synchronous mirroring - What do I need to know before creating a
-                mirrored pair?
-              url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-            - title: What impact does synchronization priority have on synchronization
-                rates?
-              url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
-            - title: Why is it recommended to use a manual synchronization policy?
-              url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+          - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
+            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+          - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
+              the remote storage array?
+            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+          - title: Synchronous mirroring - What do I need to know before creating a
+              mirrored pair?
+            url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+          - title: What impact does synchronization priority have on synchronization
+              rates?
+            url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+          - title: Why is it recommended to use a manual synchronization policy?
+            url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
       - title: Remote storage
         entries:
         - title: Concepts
@@ -703,7 +699,7 @@ sidebar:
             url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
           - title: What do I need to know before starting a remote storage import?
             url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
-      - title: Hardware
+      - title: Hardware components
         entries:
         - title: Overview
           url: "/sm-hardware/hardware-page-overview.html"
@@ -995,6 +991,8 @@ sidebar:
               url: "/sm-settings/download-cli.html"
           - title: FAQs
             entries:
+            - title: What is Automatic Load Balancing?
+              url: "/sm-storage/what-is-automatic-load-balancing.html"
             - title: What is controller cache?
               url: "/sm-settings/what-is-controller-cache.html"
             - title: What is cache flushing?
