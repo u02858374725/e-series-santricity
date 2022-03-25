@@ -47,8 +47,6 @@ sidebar:
                 url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
               - title: Where can I find more information about display preferences?
                 url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
-
-    url: "/index.html"
   - title: System Manager
     entries:
       - title: Main interface
