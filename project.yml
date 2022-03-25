@@ -14,7 +14,7 @@ sidebar:
         - title: Overview
           url: "/san-getstarted/santricity-overview.html"
         - title: Supported browsers and OSs
-          url: "san-getstarted/supported-browsers-os.html"
+          url: "/san-getstarted/supported-browsers-os.html"
         - title: Unified Manager setup
           entries:
           - title: Install Unified Manager

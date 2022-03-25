@@ -1,5 +1,5 @@
 ---
-permalink: interface/santricity-overview.html
+permalink: san-getstarted/santricity-overview.html
 sidebar: sidebar
 keywords: E-Series, eseries, E2800, E5700, EF300, EF600, SANtricity, E-Series software, E-Series user interface
 summary: E-Series systems include SANtricity software for storage provisioning and other tasks.
