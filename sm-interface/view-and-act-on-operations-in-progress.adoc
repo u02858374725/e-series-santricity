@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/view-and-act-on-operations-in-progress.html
 sidebar: sidebar
-keywords: 
-summary: 'To view and take action on long-running operations, use the Operations in Progress page.'
+keywords: view, act, operations, progress,
+summary: "To view and take action on long-running operations, use the Operations in Progress page."
 ---
 = View and act on operations in progress
 :icons: font
@@ -11,11 +11,11 @@ summary: 'To view and take action on long-running operations, use the Operations
 [.lead]
 To view and take action on long-running operations, use the Operations in Progress page.
 
-== About this task
+.About this task
 
-For each operation listed on the Operations in Progress page, a percentage of completion and estimated time remaining to complete the operation are shown. In some cases, you can stop an operation or place it at a higher or lower priority. You can also clear a completed Volume copy operation from the list.
+For each operation listed on the Operations in Progress page, a percentage of completion and estimated time remaining to complete the operation are shown. In some cases, you can stop an operation or place it at a higher or lower priority. You can also clear a completed *Volume copy* operation from the list.
 
-== Steps
+.Steps
 
 . On the *Home* page, select *Show operations in progress*.
 +

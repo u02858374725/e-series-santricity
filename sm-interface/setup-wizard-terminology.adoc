@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/setup-wizard-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the Setup wizard terms apply to your storage array.'
+keywords: setup, wizard, terminology,
+summary: "Learn how the Setup wizard terms apply to your storage array."
 ---
 = Setup wizard terminology
 :icons: font
@@ -11,10 +11,9 @@ summary: 'Learn how the Setup wizard terms apply to your storage array.'
 [.lead]
 Learn how the Setup wizard terms apply to your storage array.
 
+[cols="1a,1a" options="header"]
 |===
-| Term
-
-| Description
+| Term| Description
 
 a|
 Application

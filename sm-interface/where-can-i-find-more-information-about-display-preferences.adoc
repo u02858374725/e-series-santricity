@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html
 sidebar: sidebar
-keywords: 
-summary: 'You can find information about the available display options in the following help topics.'
+keywords: where, can, find, information, about, display, preferences,
+summary: "You can find information about the available display options in the following help topics."
 ---
 = Where can I find more information about display preferences?
 :icons: font

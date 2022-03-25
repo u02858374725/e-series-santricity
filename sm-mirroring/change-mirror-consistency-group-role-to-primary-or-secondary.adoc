@@ -1,28 +1,29 @@
 ---
 permalink: sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can change the role between mirror consistency groups for administrative purposes or in the event of a disaster on the local storage array.'
 ---
 = Change mirror consistency group role to primary or secondary
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the role between mirror consistency groups for administrative purposes or in the event of a disaster on the local storage array.
 
-== About this task
+.About this task
 
 Mirror consistency groups created on the local storage array hold the primary role. Mirror consistency groups created on the remote storage array hold the secondary role. You can either demote the local mirror consistency group to a secondary role or promote the remote mirror consistency group to a primary role.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Asynchronous Mirroring*.
+. Select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
 
-. Select the mirror consistency group for which you want to change the role, and then select *More* > *Change role to <Primary | Secondary>*.
+. Select the mirror consistency group for which you want to change the role, and then select menu:More[Change role to <Primary | Secondary>]>.
 +
 The system displays a confirmation.
 
@@ -30,10 +31,10 @@ The system displays a confirmation.
 +
 [NOTE]
 ====
-The system displays the Cannot Contact Storage Array dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
+The system displays the *Cannot Contact Storage Array* dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
 ====
 
-== Results
+.Results
 
 System Manager performs the following actions:
 
