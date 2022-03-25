@@ -9,6 +9,46 @@ sidebar:
   entries:
   - title: SANtricity docs
     url: "/index.html"
+  - title: Get started
+    entries:
+        - title: Overview
+          url: "/san-getstarted/santricity-overview.html"
+        - title: Supported browsers and OSs
+          url: "san-getstarted/supported-browsers-os.html"
+        - title: Unified Manager setup
+          entries:
+          - title: Install Unified Manager
+            url: "/san-getstarted/install-um.html"
+          - title: Access Unified Manager
+            url: "/san-getstarted/login-um.html"
+        - title: System Manager setup
+          entries:
+          - title: Access System Manager
+            url: "/san-getstarted/access-sam.html"
+          - title: Setup wizard overview
+            url: "/sm-interface/setup-wizard-overview.html"
+          - title: Setup wizard terminology
+            url: "/sm-interface/setup-wizard-terminology.html"
+          - title: FAQs
+            entries:
+              - title: What if I don&#8217;t see all of my hardware components?
+                url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+              - title: What if I don&#8217;t see all of my hosts?
+                url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+              - title: How does identifying applications help me manage my storage array?
+                url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+              - title: What is a workload?
+                url: "/sm-interface/what-is-a-workload.html"
+              - title: How do I configure the delivery method for AutoSupport?
+                url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+              - title: How do I know if I should accept the recommended pool configuration?
+                url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+              - title: System Manager has not detected any hosts. What do I do?
+                url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+              - title: Where can I find more information about display preferences?
+                url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+
+    url: "/index.html"
   - title: System Manager
     entries:
       - title: Main interface
@@ -53,30 +93,8 @@ sidebar:
               url: "/sm-interface/view-and-act-on-operations-in-progress.html"
             - title: Recover from problems using Recovery Guru
               url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-        - title: Use Setup wizard
-          entries:
-              - title: Setup wizard overview
-                url: "/sm-interface/setup-wizard-overview.html"
-              - title: Setup wizard terminology
-                url: "/sm-interface/setup-wizard-terminology.html"
         - title: FAQs
           entries:
-            - title: What if I don&#8217;t see all of my hardware components?
-              url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
-            - title: What if I don&#8217;t see all of my hosts?
-              url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
-            - title: How does identifying applications help me manage my storage array?
-              url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
-            - title: What is a workload?
-              url: "/sm-interface/what-is-a-workload.html"
-            - title: How do I configure the delivery method for AutoSupport?
-              url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
-            - title: How do I know if I should accept the recommended pool configuration?
-              url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-            - title: System Manager has not detected any hosts. What do I do?
-              url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-            - title: Where can I find more information about display preferences?
-              url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
             - title: What are the supported browsers?
               url: "/sm-interface/what-are-the-supported-browsers.html"
             - title: What are the keyboard shortcuts?
