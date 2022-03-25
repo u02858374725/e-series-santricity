@@ -23,7 +23,7 @@ Mirror consistency groups created on the local storage array hold the primary ro
 +
 The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
 
-. Select the mirror consistency group for which you want to change the role, and then select menu:More[Change role to <Primary | Secondary>]>.
+. Select the mirror consistency group for which you want to change the role, and then select menu:More[Change role to <Primary | Secondary>]*>*.
 +
 The system displays a confirmation.
 
