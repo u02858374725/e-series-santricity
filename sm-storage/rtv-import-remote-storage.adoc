@@ -29,6 +29,7 @@ Hardware configuration is described in the user guide for the Remote Storage fea
  ** Matches the block size of the remote storage device (the source volume).
  ** Has a capacity that is equal to or larger than the remote storage device.
  ** Has a state of Optimal and is available.
+
 For a full list of requirements, see xref:rtv-remote-storage-volume-requirements.adoc[Remote storage volume requirements].
 * Recommended: Back up volumes on the remote storage system before starting the import process.
 
@@ -73,7 +74,7 @@ Enter the connection properties of the remote storage device:
 ** *Port*: Enter the port number to be used for communications between the source and target devices. By default, the port number is 3260.
 |===
 ====
-
++
 After you click *Next*, *Step 1b* of the *Configure Source* panel is displayed.
 
 . In the *LUN* field, select the LUN number of the remote storage device to be used as the source, and then click *Next*.
