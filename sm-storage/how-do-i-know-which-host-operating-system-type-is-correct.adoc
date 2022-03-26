@@ -15,7 +15,7 @@ The host types that appear in the drop-down list depend on the storage array mod
 
 [NOTE]
 ====
-For more information about host support, refer to the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix tool^].
+For more information about host support, refer to the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^].
 ====
 
 Some of the following host types might appear in the list:

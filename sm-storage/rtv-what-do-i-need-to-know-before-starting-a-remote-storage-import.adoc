@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html
 sidebar: sidebar
-keywords: 
-summary: 'The Remote Storage feature allows you to copy data from a remote storage system to a volume on a local E-Series storage system. Before using this feature, review the following guidelines.'
+keywords: what do, need, know, before, starting, remote, storage, import
+summary: "The Remote Storage feature allows you to copy data from a remote storage system to a volume on a local E-Series storage system. Before using this feature, review the following guidelines."
 ---
 = What do I need to know before starting a remote storage import?
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -17,7 +18,7 @@ Before you create the remote storage import, you must complete the following act
 
 * Ensure that each controller of the local E-Series storage system has an iSCSI connection to the remote storage system.
 * On your local E-Series storage system, create a target volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume, has a block size that matches the source volume, and is not mapped. See xref:create-volumes-storage.adoc[Create volumes].
-* Set up the local E-Series storage system as a host on the remote system using its iSCSI Qualified Name (IQN). You can view the IQN from *Settings* > *System* > *iSCSI settings* > *Target IQN*. Also, be sure to set the appropriate host type based on the system being used.
+* Set up the local E-Series storage system as a host on the remote system using its iSCSI Qualified Name (IQN). You can view the IQN from menu:Settings[System > iSCSI settings > Target IQN]. Also, be sure to set the appropriate host type based on the system being used.
 * Stop all I/Os, unmount any file systems, and remove any assignments to hosts or applications for the selected volume on the remote storage system.
 * Assign the volume to the remote storage system to the newly created local E-Series storage system host.
 * Gather the following information from the remote storage system so that the import can be created:
@@ -61,4 +62,4 @@ The Remote Storage feature has the following restrictions:
 
 == Additional information
 
-Further information for the Remote Storage feature is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center] or the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report].
+Further information for the Remote Storage feature is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center^] or the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].

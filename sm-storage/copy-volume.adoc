@@ -46,7 +46,7 @@ A Copy Volume operation overwrites data on the target volume and fails all snaps
 . Select menu:Storage[Volumes].
 . Select the volume that you want to use as the source for the Copy Volume operation, and then select menu:Copy Services[Copy volume].
 +
-The Copy Volume-Select Target dialog box appears.
+The *Copy Volume-Select Target* dialog box appears.
 
 . Select the target volume to which you want to copy the data.
 +
@@ -73,7 +73,7 @@ If the copy priority is set to the lowest rate, I/O activity is prioritized, and
 
 . Select whether you want to create an online copy or an offline copy. To create an online copy, select the **Keep source volume online during copy operation** check box.
 . Do one of the following:
- ** To perform an _online_ copy operation, click *Next* to continue to the Reserve Capacity dialog box.
+ ** To perform an _online_ copy operation, click *Next* to continue to the *Reserve Capacity* dialog box.
  ** To perform an _offline_ copy operation, click *Finish* to start the offline copy.
 . If you chose to create an online copy, set the reserved capacity needed to store data and other information for the online copy, and then click *Finish* to start the online copy.
 +

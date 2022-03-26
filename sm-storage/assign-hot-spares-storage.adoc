@@ -42,7 +42,7 @@ The drive's context menu opens.
 
 . Select *Assign hot spare*.
 +
-If the drive is secure-enabled, the Secure Erase Drive? dialog box opens. To use a secure-enabled drive as a hot spare, you must first perform a Secure Erase operation to remove all its data and reset its security attributes.
+If the drive is secure-enabled, the *Secure Erase Drive* dialog box opens. To use a secure-enabled drive as a hot spare, you must first perform a Secure Erase operation to remove all its data and reset its security attributes.
 +
 [CAUTION]
 ====

@@ -26,7 +26,7 @@ You cannot change the RAID level of a pool using the System Manager interface. S
 . Select menu:Storage[Pools & Volume Groups].
 . Select the pool that you want to edit, and then click *View/Edit Settings*.
 +
-The Pool Settings dialog box appears.
+The *Pool Settings* dialog box appears.
 
 . Select the *Settings* tab, and then edit the pool settings as appropriate.
 +

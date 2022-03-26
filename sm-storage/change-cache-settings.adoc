@@ -16,7 +16,7 @@ You can change read cache and write cache settings to impact the overall I/O per
 
 Keep these guidelines in mind when you change cache settings for a volume:
 
-* After opening the Change Cache Settings dialog box, you might see an icon shown next to the selected cache properties. This icon indicates that the controller has temporarily suspended caching operations.
+* After opening the *Change Cache Settings* dialog box, you might see an icon shown next to the selected cache properties. This icon indicates that the controller has temporarily suspended caching operations.
 +
 This action might occur when a new battery is charging, when a controller has been removed, or if a mismatch in cache sizes has been detected by the controller. After the condition has cleared, the cache properties selected in the dialog box become active. If the selected cache properties do not become active, contact technical support.
 

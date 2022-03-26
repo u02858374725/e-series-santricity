@@ -24,7 +24,7 @@ You can create a pool manually (from a set of candidates) if the Pool Auto Confi
 . Select menu:Storage[Pools & Volume Groups].
 . Click menu:Create[Pool].
 +
-The Create Pool dialog box appears.
+The *Create Pool* dialog box appears.
 
 . Type a name for the pool.
 . *Optional:* If you have more than one type of drive in your storage array, select the drive type that you want to use.

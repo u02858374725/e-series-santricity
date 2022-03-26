@@ -22,7 +22,7 @@ The member volumes must be Optimal.
 . Click the *Snapshot Consistency Groups* tab.
 . Select menu:Create[Snapshot consistency group].
 +
-The Create Snapshot Consistency Group dialog box appears.
+The *Create Snapshot Consistency Group* dialog box appears.
 
 . Select the volume(s) to be added as member volumes to the snapshot consistency group.
 . Click *Next*, and go to xref:create-snapshot-consistency-group-step-2.adoc[Step 2: Reserve capacity].

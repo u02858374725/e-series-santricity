@@ -15,8 +15,8 @@ Select a workload to customize the storage array configuration for a specific ap
 
 This task describes how to create volumes for an existing workload.
 
-* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
-* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the Add/Edit Volumes dialog box.
+* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the *Add/Edit Volumes* dialog box.
+* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the *Add/Edit Volumes* dialog box.
 
 .Steps
 

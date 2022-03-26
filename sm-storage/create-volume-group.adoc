@@ -34,7 +34,7 @@ Review how your choice of RAID level affects the resulting capacity of the volum
 . Select menu:Storage[Pools & Volume Groups].
 . Click menu:Create[Volume group].
 +
-The Create Volume Group dialog box appears.
+The *Create Volume Group* dialog box appears.
 
 . Type a name for the volume group.
 . Select the RAID level that best meets your requirements for data storage and protection.

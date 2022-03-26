@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/ssd-cache-restrictions.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn about the restrictions when using SSD Cache on your storage array.'
+keywords: ssd, cache, restrictions
+summary: "Learn about the restrictions when using SSD Cache on your storage array."
 ---
 = SSD Cache restrictions
 :icons: font
