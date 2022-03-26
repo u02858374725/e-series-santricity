@@ -1,17 +1,18 @@
 ---
 permalink: sm-support/collect-configuration-data.html
 sidebar: sidebar
-keywords: 
-summary: 'You can save RAID configuration data from the controller, which includes all data for volume groups and disk pools. You can then contact technical support for assistance with restoring the data.'
+keywords: collect, configuration, data
+summary: "You can save RAID configuration data from the controller, which includes all data for volume groups and disk pools. You can then contact technical support for assistance with restoring the data."
 ---
 = Collect configuration data
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can save RAID configuration data from the controller, which includes all data for volume groups and disk pools. You can then contact technical support for assistance with restoring the data.
 
-== About this task
+.About this task
 
 This task describes how to save the current state of the RAID configuration database. This data is retrieved from the RPA memory location of the controller.
 
@@ -22,9 +23,9 @@ The Collect Configuration Data feature saves the same information as the CLI com
 
 You should only perform this task when instructed by a Recovery Guru operation or by technical support.
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select menu:Support[Support Center > Diagnostics] tab.
 . Select *Collect Configuration Data*.
 . In the dialog box, click *Collect*.
 +
