@@ -1,8 +1,8 @@
 ---
 permalink: um-admin/supported-browsers-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'SANtricity Unified Manager can be accessed from several types of browsers.'
+keywords: supported, browsers
+summary: "SANtricity Unified Manager can be accessed from several types of browsers."
 ---
 = Supported browsers
 :icons: font
@@ -13,6 +13,7 @@ SANtricity Unified Manager can be accessed from several types of browsers.
 
 The following browsers and versions are supported.
 
+[cols="1a,1a" options="header"]
 |===
 | Browser| Minimum version
 a|
