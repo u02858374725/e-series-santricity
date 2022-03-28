@@ -1,6 +1,6 @@
 ---
 settings:
-  name: e-series-santricity
+  name: SANtricity
   internal:
     pdf_enabled: false
   prod:
