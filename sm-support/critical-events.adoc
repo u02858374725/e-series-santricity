@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/critical-events.html
 sidebar: sidebar
-keywords: 
-summary: 'Critical events indicate a problem with the storage array. If you resolve the critical event immediately, you might prevent loss of data access.'
+keywords: critical, events
+summary: "Critical events indicate a problem with the storage array. If you resolve the critical event immediately, you might prevent loss of data access."
 ---
 = Critical events
 :icons: font

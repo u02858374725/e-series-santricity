@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/controller-software-and-firmware-upgrades.html
 sidebar: sidebar
-keywords: 
-summary: 'You can upgrade your storage array’s software and firmware for all the latest features and bug fixes.'
+keywords: controller, software, firmware, upgrades
+summary: "You can upgrade your storage array’s software and firmware for all the latest features and bug fixes."
 ---
 = Controller software and firmware upgrades
 :icons: font
@@ -23,23 +23,16 @@ Several storage array components contain software or hardware that you might wan
 
 image::../media/sam1130-dwg-upgrade-firmware-locations.gif[]
 
-|===
-a|
-1   Controller shelf
-a|
-2   Drive shelf
-a|
-3   Software, controller firmware, controller NVSRAM, supervisor software
-a|
-4   Drive firmware
-a|
-5   IOM firmware
-a|
-6   Drive firmware
-|===
-You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to *Support* > *Upgrade Center*, and then click the link for *Software and Firmware Inventory*.
+^1^ Controller shelf
+^2^ Drive shelf
+^3^ Software, controller firmware, controller NVSRAM, supervisor software
+^4^ Drive firmware
+^5^ IOM firmware
+^6^ Drive firmware
 
-As part of the upgrade process, the host's multipath/failover driver and/or HBA driver might also need to be upgraded so the host can interact with the controllers correctly. To determine if this is the case, see the `Netapp Interoperability Matrix Tool`.
+You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*.
+
+As part of the upgrade process, the host's multipath/failover driver and/or HBA driver might also need to be upgraded so the host can interact with the controllers correctly. To determine if this is the case, see the https://imt.netapp.com/matrix/#welcome[Netapp Interoperability Matrix Tool^].
 
 == When to stop I/O
 
