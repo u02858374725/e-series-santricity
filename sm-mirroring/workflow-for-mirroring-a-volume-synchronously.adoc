@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html
 sidebar: sidebar
-keywords: 
-summary: 'You configure synchronous mirroring using the following workflow.'
+keywords: workflow, for, mirroring, a, volume, synchronously,
+summary: "You configure synchronous mirroring using the following workflow."
 ---
 = Workflow for mirroring a volume synchronously
 :icons: font
@@ -25,7 +25,7 @@ This feature is not available on the EF600 or EF300 storage system.
 . Check the progress of the initial synchronization:
  .. In Unified Manager, launch System Manager for the local array.
  .. In System Manager, view the status of the mirroring operation. When mirroring is complete, the status of the mirrored pair is "Optimal." The two arrays attempt to stay synchronized through normal operations. Only new and changed blocks are transferred from the primary volume to the secondary volume.
-. Optionally, you can change synchronization settings in System Manager.
+. *Optional:* You can change synchronization settings in System Manager.
 +
 [NOTE]
 ====

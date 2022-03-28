@@ -27,8 +27,9 @@ The system displays the View/Edit Settings dialog box.
 +
 The synchronization priority determines how much of the system resources are used to complete the resynchronization operation after a communication interruption as compared to service I/O requests.
 +
-More about synchronization rates
-+
+.More about synchronization rates
+[%collapsible]
+====
 There are five synchronization priority rates:
 
  ** Lowest
@@ -36,13 +37,15 @@ There are five synchronization priority rates:
  ** Medium
  ** High
  ** Highest
+====
++
 If the synchronization priority is set to the lowest rate, I/O activity is prioritized, and the resynchronization operation takes longer. If the synchronization priority is set to the highest rate, the resynchronization operation is prioritized, but I/O activity for the storage array might be affected.
 
 . Edit the resynchronization policy as appropriate.
 +
 You can resynchronize the mirrored pairs on the remote storage array either manually or automatically.
 
- ** *Manual*(the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
- ** *Automatic*-- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
+ ** *Manual* (the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
+ ** *Automatic* -- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
 
 . Select *Save*.

@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html
 sidebar: sidebar
-keywords: 
-summary: 'The synchronization priority defines how much processing time is allocated for synchronization activities relative to system performance.'
+keywords: impact, does, synchronization, priority, have, on, synchronization, rates,
+summary: "The synchronization priority defines how much processing time is allocated for synchronization activities relative to system performance."
 ---
 = What impact does synchronization priority have on synchronization rates?
 :icons: font
@@ -29,6 +29,7 @@ The lowest priority rate supports system performance, but the resynchronization 
 
 These guidelines roughly approximate the differences between the priorities.
 
+[cols="1a,1a" options="header"]
 |===
 | Priority rate for full synchronization| Time elapsed compared to highest synchronization rate
 a|

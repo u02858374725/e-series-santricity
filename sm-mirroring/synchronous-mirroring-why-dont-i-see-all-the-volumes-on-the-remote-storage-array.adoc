@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html
 sidebar: sidebar
-keywords: 
-summary: 'When you are selecting a secondary volume on the remote storage array, a list shows all the eligible volumes for that mirrored pair.'
+keywords: synchronous, mirroring, see, all, the, volumes, on, the, remote, storage, array,
+summary: "When you are selecting a secondary volume on the remote storage array, a list shows all the eligible volumes for that mirrored pair."
 ---
 = Synchronous mirroring - Why don't I see all the volumes on the remote storage array?
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'Follow these guidelines before you create a mirror consistency group.'
+keywords: what, need, before, creating, mirror, consistency, group,
+summary: "Follow these guidelines before you create a mirror consistency group."
 ---
 = What do I need to know before creating a mirror consistency group?
 :experimental:

@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the role between volumes in a mirrored pair. You can do this by demoting the primary volume to the secondary role or promoting the secondary volume to the primary role.'
+keywords: role, change, between, volume, mirrored, pair, 
+summary: "You can change the role between volumes in a mirrored pair. You can do this by demoting the primary volume to the secondary role or promoting the secondary volume to the primary role."
 ---
 = Role change between volumes in a mirrored pair
 :icons: font
