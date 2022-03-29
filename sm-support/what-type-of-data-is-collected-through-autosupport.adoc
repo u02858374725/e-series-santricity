@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/what-type-of-data-is-collected-through-autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'The AutoSupport feature contains three standard dispatch types: event dispatches, scheduled dispatches, and on-demand and remote diagnostics dispatches.'
+keywords: what, type, data, collected, autosupport, feature
+summary: "The AutoSupport feature contains three standard dispatch types: event dispatches, scheduled dispatches, and on-demand and remote diagnostics dispatches."
 ---
 = What type of data is collected through the AutoSupport feature?
 :icons: font

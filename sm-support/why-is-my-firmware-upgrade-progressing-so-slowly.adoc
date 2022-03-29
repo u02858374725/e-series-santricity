@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html
 sidebar: sidebar
-keywords: 
-summary: 'The firmware upgrade progress depends on the overall load of the system.'
+keywords: why, firmware, upgrade, progressing, slowly
+summary: "The firmware upgrade progress depends on the overall load of the system."
 ---
 = Why is my firmware upgrade progressing so slowly?
 :icons: font
