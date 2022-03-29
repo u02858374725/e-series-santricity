@@ -6,7 +6,7 @@ lead: SANtricity software lets you achieve maximum performance and utilization o
 summary: SANtricity System Manager and Unified Manager
 ---
 
-= SANtricity Software
+= SANtricity software documentation
 :hardbreaks:
 :nofooter:
 :icons: font
