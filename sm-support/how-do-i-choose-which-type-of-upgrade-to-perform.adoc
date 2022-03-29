@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html
 sidebar: sidebar
-keywords: 
-summary: 'You choose the type of upgrade to perform on the drive depending on the state of the pool or volume group.'
+keywords: how do, choose, which, type, upgrade, perform
+summary: "You choose the type of upgrade to perform on the drive depending on the state of the pool or volume group."
 ---
 = How do I choose which type of upgrade to perform?
 :icons: font

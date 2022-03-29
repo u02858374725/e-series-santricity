@@ -1,27 +1,28 @@
 ---
 permalink: sm-storage/rtv-manage-progress-of-remote-volume-import.html
 sidebar: sidebar
-keywords: 
-summary: 'After the import process begins, you can view and take action on its progress.'
+keywords: manage, progress, remote, storage, imports
+summary: "After the import process begins, you can view and take action on its progress."
 ---
 = Manage progress of remote storage imports
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After the import process begins, you can view and take action on its progress.
 
-== About this task
+.About this task
 
 For each import operation, the Operations in Progress dialog displays a percentage of completion and estimated time remaining. Actions include changing the import priority, stopping and resuming operations, and disconnecting from the operation.
 
-You can also view Operations in Progress from the Home page (*Home* > *Show operations in progress*).
+You can also view Operations in Progress from the Home page (menu:Home[Show operations in progress]).
 
-== Steps
+.Steps
 
 . From the *Remote Storage* page, select *View Operations*.
 +
-The Operations in Progress dialog is displayed.
+The *Operations in Progress* dialog box is displayed.
 
 . If desired, use the links in the *Actions* column to stop and resume, change priority, or disconnect from an operation.
  ** *Change Priority* -- Select *Change Priority* to change the processing priority of an operation that is in progress or pending. Apply a priority to the operation and then click *OK*.

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/snapshot-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the snapshot terms apply to your storage array.'
+keywords: snapshot, terminology
+summary: "Learn how the snapshot terms apply to your storage array."
 ---
 = Snapshot terminology
 :icons: font
@@ -11,11 +11,11 @@ summary: 'Learn how the snapshot terms apply to your storage array.'
 [.lead]
 Learn how the snapshot terms apply to your storage array.
 
+[cols="25h,~",options="header"]
 |===
 | Term
 
 | Description
-
 a|
 Snapshots feature
 a|

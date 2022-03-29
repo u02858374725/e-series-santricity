@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-resource-provisioning-capable.html
 sidebar: sidebar
-keywords: 
-summary: 'Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.'
+keywords: what, resource, provisioning, capable
+summary: "Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process."
 ---
 = What is resource provisioning capable?
 :icons: font

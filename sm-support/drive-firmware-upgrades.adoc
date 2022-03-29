@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/drive-firmware-upgrades.html
 sidebar: sidebar
-keywords: 
-summary: 'Drive firmware controls the low-level operating characteristics of a drive. Periodically, the drive manufacturers release updates to drive firmware to add new features, improve performance, and fix defects.'
+keywords: drive, firmware, upgrades
+summary: "Drive firmware controls the low-level operating characteristics of a drive. Periodically, the drive manufacturers release updates to drive firmware to add new features, improve performance, and fix defects."
 ---
 = Drive firmware upgrades
 :icons: font

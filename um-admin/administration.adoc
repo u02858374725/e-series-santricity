@@ -1,10 +1,10 @@
 ---
 permalink: um-admin/administration.html
 sidebar: sidebar
-keywords: 
-summary: 'Administration includes tasks for setting passwords and managing session timeouts.'
+keywords: unified, manager, administration
+summary: "Administration includes tasks for setting passwords and managing session timeouts."
 ---
-= image:../media/sam1130-icon-admin.gif[] Unified Manager administration
+= Unified Manager administration
 :icons: font
 :imagesdir: ../media/
 

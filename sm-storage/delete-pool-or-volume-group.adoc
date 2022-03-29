@@ -1,17 +1,18 @@
 ---
 permalink: sm-storage/delete-pool-or-volume-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a pool or volume group to create more unassigned capacity, which you can reconfigure to meet your application storage needs.'
+keywords: delete, pool, volume, group
+summary: "You can delete a pool or volume group to create more unassigned capacity, which you can reconfigure to meet your application storage needs."
 ---
 = Delete pool or volume group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can delete a pool or volume group to create more unassigned capacity, which you can reconfigure to meet your application storage needs.
 
-== Before you begin
+.Before you begin
 
 * You must have backed up the data on all of the volumes in the pool or volume group.
 * You must have stopped all input/output (I/O).
@@ -21,16 +22,16 @@ You can delete a pool or volume group to create more unassigned capacity, which 
 * The pool or volume group must not be participating in an asynchronous mirroring operation.
 * The drives in the volume group must not have a persistent reservation.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select menu:Storage[Pools & Volume Groups].
 . Select one pool or volume group from the list.
 +
 You can select only one pool or volume group at a time. Scroll down the list to see additional pools or volume groups.
 
-. Select *Uncommon Tasks* > *Delete* and confirm.
+. Select menu:Uncommon Tasks[Delete] and confirm.
 
-== Results
+.Results
 
 System Manager performs the following actions:
 

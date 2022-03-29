@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-are-hosts-and-host-clusters.html
 sidebar: sidebar
-keywords: 
-summary: 'A host is a server that sends I/O to a volume on a storage array. A host cluster is a group of hosts. You create a host cluster to make it easy to assign the same volumes to multiple hosts.'
+keywords: what, hosts, clusters, server, storage, array
+summary: "A host is a server that sends I/O to a volume on a storage array. A host cluster is a group of hosts. You create a host cluster to make it easy to assign the same volumes to multiple hosts."
 ---
 = What are hosts and host clusters?
 :icons: font

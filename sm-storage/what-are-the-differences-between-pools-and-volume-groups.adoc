@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-are-the-differences-between-pools-and-volume-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'A pool is similar to a volume group, with the following differences.'
+keywords: differences, between, pools, volume, groups
+summary: "A pool is similar to a volume group, with the following differences."
 ---
 = What are the differences between pools and volume groups?
 :icons: font

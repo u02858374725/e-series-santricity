@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/workflow-for-creating-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'In SANtricity System Manager, you can create volumes by following these steps.'
+keywords: workflow, creating, volumes
+summary: "In SANtricity System Manager, you can create volumes by following these steps."
 ---
 = Workflow for creating volumes
 :icons: font

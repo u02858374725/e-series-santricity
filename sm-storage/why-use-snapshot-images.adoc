@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-use-snapshot-images.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use snapshots to protect against and allow recovery from accidental or malicious loss or corruption of data.'
+keywords: why, use, snapshot, images
+summary: "You can use snapshots to protect against and allow recovery from accidental or malicious loss or corruption of data."
 ---
 = Why use snapshot images?
 :icons: font

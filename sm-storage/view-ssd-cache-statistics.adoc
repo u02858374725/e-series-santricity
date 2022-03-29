@@ -1,36 +1,39 @@
 ---
 permalink: sm-storage/view-ssd-cache-statistics.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view statistics for the SSD Cache, such as reads, writes, cache hits, cache allocation percentage, and cache utilization percentage.'
+keywords: view, ssd, cache, statistics
+summary: "You can view statistics for the SSD Cache, such as reads, writes, cache hits, cache allocation percentage, and cache utilization percentage."
 ---
 = View SSD Cache statistics
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can view statistics for the SSD Cache, such as reads, writes, cache hits, cache allocation percentage, and cache utilization percentage.
 
-== About this task
-
 [NOTE]
 ====
 This feature is not available on the EF600 or EF300 storage system.
 ====
 
-The nominal statistics, which are a subset of the detailed statistics, are shown on the View SSD Cache Statistics dialog box. You can view detailed statistics for the SSD Cache only when you export all SSD statistics to a `.csv` file.
+The nominal statistics, which are a subset of the detailed statistics, are shown on the *View SSD Cache Statistics* dialog box. You can view detailed statistics for the SSD Cache only when you export all SSD statistics to a `.csv` file.
 
 As you review and interpret the statistics, keep in mind that some interpretations are derived by looking at a combination of statistics.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
-. Select the SSD Cache for which you want to view statistics, and then click *More* > *View SSD Cache statistics*.
+. Select menu:Storage[Pools & Volume Groups].
+. Select the SSD Cache for which you want to view statistics, and then click menu:More[View SSD Cache statistics].
 +
-The View SSD Cache Statistics dialog box appears and displays the nominal statistics for the selected SSD cache.
+The *View SSD Cache Statistics* dialog box appears and displays the nominal statistics for the selected SSD cache.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="25h,~" options="header"]
+
 |===
 | Settings| Description
 a|
@@ -62,5 +65,6 @@ Export All
 a|
 Exports all SSD Cache statistics to a CSV format. The exported file contains all available statistics for the SSD Cache (both nominal and detailed).
 |===
+====
 
 . Click *Cancel* to close the dialog box.

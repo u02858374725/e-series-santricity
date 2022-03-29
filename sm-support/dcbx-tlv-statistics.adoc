@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/dcbx-tlv-statistics.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: dcbx, tlv, statistics
+summary: "When you select Data Center Bridging Exchange (DCBX) Type Length Value (TLV) Statistics, these statistics appear."
 ---
 = DCBX TLV statistics
 :icons: font
@@ -14,6 +14,7 @@ When you select Data Center Bridging Exchange (DCBX) Type Length Value (TLV) Sta
 * *Operational statistics* -- The DCBX parameters that result from DCBX negotiations.
 * *Remote statistics* -- The DCBX parameters from the peer device that the controller is connected to, typically a switch.
 
+[cols="25h,~",options="header"]
 |===
 | Statistic| Definition
 a|
@@ -45,4 +46,5 @@ DCBX PFC Status
 a|
 Priority-based Flow Control (PFC) status of the specific port. The value is either enabled or disabled.
 |===
+
 You can find additional DCBX TLV statistics in the state capture file.

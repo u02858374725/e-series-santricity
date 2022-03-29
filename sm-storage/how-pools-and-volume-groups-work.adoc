@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/how-pools-and-volume-groups-work.html
 sidebar: sidebar
-keywords: 
-summary: 'To provision storage, you create either a pool or volume group that will contain the Hard Disk Drives \(HDD\) or Solid State Disk \(SSD\) drives that you want to use in your storage array.'
+keywords: pools, how, volume group, work
+summary: "To provision storage, you create either a pool or volume group that will contain the Hard Disk Drives (HDD) or Solid State Disk (SSD) drives that you want to use in your storage array."
 ---
 = How pools and volume groups work
 :icons: font
@@ -20,16 +20,11 @@ The pools and volume groups are the top-level units of storage in a storage arra
 
 image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[]
 
-|===
-a|
-1   Host LUNs
-a|
-2   Volumes
-a|
-3   Volume groups or pools
-a|
-4   HDD or SSD drives
-|===
+^1^ Host LUNs
+^2^ Volumes
+^3^ Volume groups or pools
+^4^ HDD or SSD drives
+
 When a storage system is deployed, the first step is to present the available drive capacity to the various hosts by:
 
 * Creating pools or volume groups with sufficient capacity

@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view nominal statistics and detailed statistics for SSD Cache. Nominal statistics are a subset of the detailed statistics. The detailed statistics can be viewed only when you export all SSD statistics to a .csv file. As you review and interpret the statistics, keep in mind that some interpretations are derived by looking at a combination of statistics.'
+keywords: how to, view, interpret, ssd, cache, statistics
+summary: "You can view nominal statistics and detailed statistics for SSD Cache. Nominal statistics are a subset of the detailed statistics. The detailed statistics can be viewed only when you export all SSD statistics to a .csv file. As you review and interpret the statistics, keep in mind that some interpretations are derived by looking at a combination of statistics."
 ---
 = How do I view and interpret all SSD Cache statistics?
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -13,17 +14,17 @@ You can view nominal statistics and detailed statistics for SSD Cache. Nominal s
 
 == Nominal statistics
 
-To view SSD Cache statistics, select *Storage* > *Pools & Volume Groups*. Select the SSD Cache that you want to view statistics for, and then select *More* > *View Statistics*. The nominal statistics are shown on the View SSD Cache Statistics dialog.
+To view SSD Cache statistics, select menu:Storage[Pools & Volume Groups]. Select the SSD Cache that you want to view statistics for, and then select menu:More[View Statistics]. The nominal statistics are shown on the View SSD Cache Statistics dialog.
 
 The following list includes nominal statistics, which are a subset of the detailed statistics.
 
+[cols="1a,1a" options="header"]
 |===
 | Nominal statistic| Description
 a|
 Reads/Writes
 a|
-The total number of host reads from or host writes to the SSD Cache-enabled volumes.Compare the Reads relative to Writes. The Reads need to be greater than the Writes for effective SSD Cache operation. The greater the ratio of Reads to Writes, the better the operation of the cache.
-
+The total number of host reads from or host writes to the SSD Cache-enabled volumes. Compare the Reads relative to Writes. The Reads need to be greater than the Writes for effective SSD Cache operation. The greater the ratio of Reads to Writes, the better the operation of the cache.
 a|
 Cache Hits
 a|
@@ -36,17 +37,14 @@ Derived from Cache Hits / (reads + writes). The Cache Hit percentage should be g
 * The ratio of Reads to Writes is too small
 * Reads are not repeated
 * Cache capacity is too small
-
 a|
 Cache Allocation (%)
 a|
 The amount of SSD Cache storage that is allocated, expressed as a percentage of the SSD Cache storage that is available to this controller. Derived from allocated bytes / available bytes. Cache Allocation percentage normally shows as 100 percent. If this number is less than 100 percent, it means either the cache has not been warmed or the SSD Cache capacity is larger than all the data being accessed. In the latter case, a smaller SSD Cache capacity could provide the same level of performance. Note that this does not indicate that cached data has been placed into the SSD Cache; it is simply a preparation step before data can be placed in the SSD Cache.
-
 a|
 Cache Utilization (%)
 a|
 The amount of SSD Cache storage that contains data from enabled volumes, expressed as a percentage of SSD Cache storage that is allocated. This value represents the utilization or density of the SSD Cache derived from user data bytes / allocated bytes. Cache Utilization percentage normally is lower than 100 percent, perhaps much lower. This number shows the percent of SSD Cache capacity that is filled with cache data. This number is lower than 100 percent because each allocation unit of the SSD Cache, the SSD Cache block, is divided into smaller units called sub-blocks, which are filled somewhat independently. A higher number is generally better, but performance gains can be significant even with a smaller number.
-
 |===
 
 == Detailed statistics
@@ -55,6 +53,7 @@ The detailed statistics consist of the nominal statistics, plus additional stati
 
 When viewing the `.csv` file, notice that the detailed statistics are listed after the nominal statistics:
 
+[cols="1a,1a" options="header"]
 |===
 | Detailed statistics| Description
 a|
@@ -68,8 +67,7 @@ The number of blocks in host writes.
 a|
 Full Hit Blocks
 a|
-The number of blocks in cache hits.The full hit blocks indicate the number of blocks that have been read entirely from SSD Cache. The SSD Cache is only beneficial to performance for those operations that are full cache hits.
-
+The number of blocks in cache hits. The full hit blocks indicate the number of blocks that have been read entirely from SSD Cache. The SSD Cache is only beneficial to performance for those operations that are full cache hits.
 a|
 Partial Hits
 a|
@@ -78,7 +76,6 @@ a|
 Partial Hits - Blocks
 a|
 The number of blocks in Partial Hits. Partial cache hits and partial cache hit blocks result from an operation that has only a portion of its data in the SSD Cache. In this case, the operation must get the data from the cached hard disk drive (HDD) volume. The SSD Cache offers no performance benefit for this type of hit. If the partial cache hit blocks count is higher than the full cache hit blocks, a different I/O characteristic type (file system, database, or web server) could improve the performance. It is expected that there will be a larger number of Partial Hits and Misses as compared to Cache Hits while the SSD Cache is warming.
-
 a|
 Misses
 a|
@@ -99,7 +96,6 @@ a|
 Populate Actions (Host Writes)
 a|
 The number of host writes where data was copied from the base volume to the SSD Cache. The Populate Actions (Host Writes) count might be zero for the cache configuration settings that do not fill the cache as a result of a Write I/O operation.
-
 a|
 Populate Actions (Host Writes) - Blocks
 a|
@@ -112,7 +108,6 @@ a|
 Recycle Actions
 a|
 The number of times that the SSD Cache block has been re-used for another base volume and/or a different logical block addressing (LBA) range. For effective cache operation, the number of recycles must be small compared to the combined number of read and write operations. If the number of Recycle Actions is close to the combined number of Reads and Writes, the SSD Cache is thrashing. Either the cache capacity needs to be increased or the workload is not favorable for use with SSD Cache.
-
 a|
 Available Bytes
 a|
@@ -125,5 +120,4 @@ a|
 User Data Bytes
 a|
 The number of allocated bytes in the SSD Cache that contain data from base volumes. The available bytes, allocated bytes, and user data bytes are used to compute the Cache Allocation percentage and the Cache Utilization percentage.
-
 |===

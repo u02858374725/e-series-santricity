@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/requirements-and-guidelines-for-snapshots.html
 sidebar: sidebar
-keywords: 
-summary: 'When creating and using snapshots, review the following requirements and guidelines.'
+keywords: requirements, guidelines, snapshots
+summary: "When creating and using snapshots, review the following requirements and guidelines."
 ---
 = Requirements and guidelines for snapshots
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-snapshot-consistency-group-step-3.html
 sidebar: sidebar
-keywords: 
-summary: 'Accept or choose automatic deletion settings and reserved capacity alert thresholds for the snapshot consistency group.'
+keywords: edit, settings, snapshot, consistency, group
+summary: "Accept or choose automatic deletion settings and reserved capacity alert thresholds for the snapshot consistency group."
 ---
 = Step 3: Edit settings for snapshot consistency group
 :icons: font
@@ -11,19 +11,23 @@ summary: 'Accept or choose automatic deletion settings and reserved capacity ale
 [.lead]
 Accept or choose automatic deletion settings and reserved capacity alert thresholds for the snapshot consistency group.
 
-== About this task
+.About this task
 
 The snapshot consistency group creation sequence lets you select member volumes for the group and allocate capacity to the member volumes.
 
-== Steps
+.Steps
 
 . Accept or change the default settings for the snapshot consistency group as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
+
 |===
 | Setting| Description
-a|
+2+a|
 *Snapshot consistency group settings*
 a|
 Name
@@ -33,23 +37,22 @@ a|
 Enable automatic deletion of snapshot images when...
 a|
 Keep the check box selected if you want snapshot images automatically deleted after the specified limit; use the spinner box to change the limit. If you clear this check box, snapshot image creation stops after 32 images.
-a|
+2+a|
 *Reserved capacity settings*
 a|
 Alert me when...
 a|
-    Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot consistency group is nearing full.
-+
+Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot consistency group is nearing full.
+
 When the reserved capacity for the snapshot consistency group exceeds the specified threshold, use the advance notice to increase reserved capacity or to delete unnecessary objects before the remaining space runs out.
 a|
 Policy for full reserved capacity
 a|
-    Choose one of the following policies:
+Choose one of the following policies:
 
- ** *Purge oldest snapshot image* -- The system automatically purges the oldest snapshot image in the snapshot consistency group, which releases the snapshot image reserved capacity for reuse within the group.
- ** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, the system rejects any I/O write request to the base volume that triggered the reserved capacity access.
-
-+
+** *Purge oldest snapshot image* -- The system automatically purges the oldest snapshot image in the snapshot consistency group, which releases the snapshot image reserved capacity for reuse within the group.
+** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, the system rejects any I/O write request to the base volume that triggered the reserved capacity access.
 |===
+====
 
 . After you are satisfied with your snapshot consistency group configuration, click *Finish*.

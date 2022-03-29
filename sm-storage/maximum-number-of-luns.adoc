@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/maximum-number-of-luns.html
 sidebar: sidebar
-keywords: 
-summary: 'The storage array has a maximum number of logical unit numbers \(LUNs\) that can be used for each host.'
+keywords: maximum, number, luns
+summary: "The storage array has a maximum number of logical unit numbers (LUNs) that can be used for each host."
 ---
 = Maximum number of LUNs
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/autosupport-feature-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support.'
+keywords: autosupport, feature, overview
+summary: "The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support."
 ---
 = AutoSupport feature overview
 :icons: font

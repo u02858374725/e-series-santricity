@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/manage-snapshot-images.html
 sidebar: sidebar
-keywords: 
-summary: 'You can manage snapshot images to start, pause, or resume snapshot image rollback on a base volume or snapshot consistency group. You can also view snapshot image settings or delete snapshot images.'
+keywords: manage, snapshot, images
+summary: "You can manage snapshot images to start, pause, or resume snapshot image rollback on a base volume or snapshot consistency group. You can also view snapshot image settings or delete snapshot images."
 ---
 = Manage snapshot images
 :icons: font

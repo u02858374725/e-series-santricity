@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/ssd-cache-and-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add a volume to SSD Cache as a way to improve read-only performance. SSD Cache consists of a set of solid-state disk \(SSD\) drives that you logically group together in your storage array.'
+keywords: ssd, cache, volumes
+summary: "You can add a volume to SSD Cache as a way to improve read-only performance. SSD Cache consists of a set of solid-state disk (SSD) drives that you logically group together in your storage array."
 ---
 = SSD Cache and volumes
 :icons: font
