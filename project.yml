@@ -2,6 +2,7 @@
 settings:
   search: e-series-santricity
   name: "SANtricity"
+  rss_page: "/whats-new.html"
   internal:
     pdf_enabled: false
   prod:
