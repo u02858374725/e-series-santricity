@@ -31,6 +31,7 @@ Hardware configuration is described in the user guide for the Remote Storage fea
  ** Has a state of Optimal and is available.
 
 For a full list of requirements, see xref:rtv-remote-storage-volume-requirements.adoc[Remote storage volume requirements].
+
 * Recommended: Back up volumes on the remote storage system before starting the import process.
 
 .About this task
