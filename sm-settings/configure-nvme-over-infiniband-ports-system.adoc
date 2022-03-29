@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/configure-nvme-over-infiniband-ports-system.html
 sidebar: sidebar
-keywords: 
-summary: 'If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the System page.'
+keywords: configure, nvme, over, InfiniBand, ports,
+summary: "If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the System page."
 ---
 = Configure NVMe over InfiniBand ports
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the System page.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include an NVMe over InfiniBand host port; otherwise, the NVMe over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.
@@ -21,9 +22,9 @@ If your controller includes an NVMe over InfiniBand connection, you can configur
 The NVMe over InfiniBand settings and functions appear only if your storage array's controller includes an NVMe over InfiniBand port.
 ====
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *NVMe over InfiniBand settings*, select *Configure NVMe over InfiniBand ports*.
 . Select the controller with the NVMe over InfiniBand port you want to configure. Click *Next*.
 . Select the HIC port you want to configure from the drop-down list, and then enter the IP address.

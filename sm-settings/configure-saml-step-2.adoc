@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/configure-saml-step-2.html
 sidebar: sidebar
-keywords: 
-summary: 'To establish a trust relationship between the IdP and the storage array, you import the Service Provider metadata into the IdP.'
+keywords: Step2, export, service, provider, files,
+summary: "To establish a trust relationship between the IdP and the storage array, you import the Service Provider metadata into the IdP."
 ---
 = Step 2: Export Service Provider files
 :icons: font
@@ -11,19 +11,19 @@ summary: 'To establish a trust relationship between the IdP and the storage arra
 [.lead]
 To establish a trust relationship between the IdP and the storage array, you import the Service Provider metadata into the IdP.
 
-== Before you begin
+.Before you begin
 
 * You know the IP address or domain name of each controller in the storage array.
 
-== About this task
+.About this task
 
 In this task, you export metadata from the controllers (one file for each controller). The IdP needs this metadata to establish a trust relationship with the controllers and to process authorization requests. The file includes information such as the controller domain name or IP address, so that the IdP can communicate with the Service Providers.
 
-== Steps
+.Steps
 
 . Click the *Export Service Provider files* link.
 +
-The Export Service Provider Files dialog opens.
+The *Export Service Provider Files* dialog opens.
 
 . Enter the controller IP address or DNS name in the *Controller A* field, and then click *Export* to save the metadata file to your local system. If the storage array includes two controllers, repeat this step for the second controller in the *Controller B* field.
 +

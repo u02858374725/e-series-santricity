@@ -1,10 +1,10 @@
 ---
 permalink: sm-settings/generic-concepts.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: concepts,
+summary: "Concepts"
 ---
-= image:../media/sam1130-icon-concepts.gif[] Concepts
+= Concepts
 :icons: font
 :imagesdir: ../media/
 

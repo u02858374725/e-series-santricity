@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/configure-saml-step-4.html
 sidebar: sidebar
-keywords: 
-summary: 'To ensure that the IdP system and storage array can communicate, you can optionally test an SSO login. This test is also performed during the final step for enabling SAML.'
+keywords: Step4, test, sso, login,
+summary: "To ensure that the IdP system and storage array can communicate, you can optionally test an SSO login. This test is also performed during the final step for enabling SAML."
 ---
 = Step 4: Test SSO login
 :icons: font
@@ -11,12 +11,12 @@ summary: 'To ensure that the IdP system and storage array can communicate, you c
 [.lead]
 To ensure that the IdP system and storage array can communicate, you can optionally test an SSO login. This test is also performed during the final step for enabling SAML.
 
-== Before you begin
+.Before you begin
 
 * The IdP metadata file is imported into System Manager.
 * A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
 
-== Steps
+.Steps
 
 . Select the *Test SSO Login* link.
 +

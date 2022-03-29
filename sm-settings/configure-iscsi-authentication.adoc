@@ -1,21 +1,22 @@
 ---
 permalink: sm-settings/configure-iscsi-authentication.html
 sidebar: sidebar
-keywords: 
-summary: 'For extra security in an iSCSI network, you can set authentication between controllers \(targets\) and hosts \(initiators\). System Manager uses the Challenge Handshake Authentication Protocol \(CHAP\) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP secret.'
+keywords: configure, iscsi, authentication,
+summary: "For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators). System Manager uses the Challenge Handshake Authentication Protocol (CHAP) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP secret."
 ---
 = Configure iSCSI authentication
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators). System Manager uses the Challenge Handshake Authentication Protocol (CHAP) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP__secret__.
 
-== Before you begin
+.Before you begin
 
 You can set the CHAP secret for the initiators (iSCSI hosts) either before or after you set the CHAP secret for the targets (controllers). Before you follow the instructions in this task, you should wait until the hosts have made an iSCSI connection first, and then set the CHAP secret on the individual hosts. After the connections are made, the IQN names of the hosts and their CHAP secrets are listed in the dialog box for iSCSI authentication (described in this task), and you do not need to manually enter them.
 
-== About this task
+.About this task
 
 You can select one of the following authentication methods:
 
@@ -27,12 +28,12 @@ You can select one of the following authentication methods:
 The iSCSI settings and functions only display on the Settings page if your storage array supports iSCSI.
 ====
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *iSCSI settings*, click *Configure Authentication*.
 +
-The Configure Authentication dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
+The *Configure Authentication* dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
 
 . Select one of the following:
  ** *No authentication* -- If you do not want the controller to authenticate the identity of iSCSI hosts, select this option and click *Finish*. The dialog box closes, and you are done with configuration.
@@ -57,6 +58,6 @@ If the CHAP secret for a host was configured previously, the characters in the f
 
 . Click *Finish*.
 
-== Results
+.Results
 
 Authentication occurs during the iSCSI login sequence between the controllers and iSCSI hosts, unless you specified no authentication.

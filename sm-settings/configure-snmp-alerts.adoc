@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/configure-snmp-alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'To configure Simple Network Management Protocol \(SNMP\) alerts, you must identify at least one server where the storage array’s event monitor can send SNMP traps. The configuration requires a community name or user name, and an IP address for the server.'
+keywords: configure, snmp, alerts,
+summary: "To configure Simple Network Management Protocol (SNMP) alerts, you must identify at least one server where the storage array’s event monitor can send SNMP traps. The configuration requires a community name or user name, and an IP address for the server."
 ---
 = Configure SNMP alerts
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 To configure Simple Network Management Protocol (SNMP) alerts, you must identify at least one server where the storage array's event monitor can send SNMP traps. The configuration requires a community name or user name, and an IP address for the server.
 
-== Before you begin
+.Before you begin
 
 * A network server must be configured with an SNMP service application. You need the network address of this server (either an IPv4 or an IPv6 address), so the event monitor can send trap messages to that address. You can use more than one server (up to 10 servers are allowed).
 * The management information base (MIB) file has been copied and compiled on the server with the SNMP service application. This MIB file defines the data being monitored and managed.
@@ -26,20 +27,20 @@ If you do not have the MIB file, you can obtain it from the NetApp Support site:
  ** Accept the Caution statement and license agreement.
  ** Scroll down until you see the MIB file for your controller type, and then click the link to download the file.
 
-== About this task
+.About this task
 
 This task describes how to identify the SNMP server for trap destinations, and then test your configuration.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *SNMP* tab.
 +
 On first-time setup, the SNMP tab displays "Configure Communities/Users."
 
 . Select *Configure Communities/Users*.
 +
-The Select SNMP version dialog box opens.
+The *Select SNMP version* dialog box opens.
 
 . Select the SNMP version for the alerts, either *SNMPv2c* or *SNMPv3*.
 +
@@ -55,15 +56,15 @@ Depending on your selection, the Configure Communities dialog or the Configure S
 When you are done, click *Add*, and then click *Close*.
 . From the Alerts page with the SNMP tab selected, click *Add Trap Destinations*.
 +
-The Add Trap Destinations dialog box opens.
+The *Add Trap Destinations* dialog box opens.
 
 . Enter one or more trap destinations, select their associated community names or user names, and then click *Add*.
  ** *Trap Destination* -- Enter an IPv4 or IPv6 address of the server running an SNMP service.
  ** *Community name or User name* -- From the drop-down, select the community name (SNMPv2c) or user name (SNMPv3) for this trap destination. (If you defined only one, the name already appears in this field.)
  ** *Send Authentication Failure Trap* -- Select this option (the checkbox) if you want to alert the trap destination whenever an SNMP request is rejected because of an unrecognized community name or user name.
-After you click *Add*, the trap destinations and associated names appear in the SNMP tab of the Alerts page.
+After you click *Add*, the trap destinations and associated names appear in the *SNMP* tab of the *Alerts* page.
 . To make sure a trap is valid, select a trap destination from the table, and then click *Test Trap Destination* to send a test trap to the configured address.
 
-== Results
+.Results
 
 The event monitor sends SNMP traps to the server(s) whenever an alertable event occurs.

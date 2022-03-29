@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/certificate-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'The following terms apply to certificate management.'
+keywords: certificate, terminology,
+summary: "The following terms apply to certificate management."
 ---
 = Certificate terminology
 :icons: font
@@ -11,6 +11,7 @@ summary: 'The following terms apply to certificate management.'
 [.lead]
 The following terms apply to certificate management.
 
+[cols="1a,1a" options="header"]
 |===
 | Term| Description
 a|

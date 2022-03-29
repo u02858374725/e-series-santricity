@@ -15,8 +15,9 @@ The controller owner of the primary volume performs this operation in the backgr
 
 Keep these guidelines in mind to help you determine how long a synchronization priority might take and how the synchronization priorities can affect system performance.
 
-About synchronization priority rates
-
+.About synchronization priority rates
+[%collapsible]
+====
 These priority rates are available:
 
 * Lowest
@@ -26,7 +27,7 @@ These priority rates are available:
 * Highest
 
 The lowest priority rate supports system performance, but the resynchronization takes longer. The highest priority rate supports resynchronization, but system performance might be compromised.
-
+====
 These guidelines roughly approximate the differences between the priorities.
 
 [cols="1a,1a" options="header"]

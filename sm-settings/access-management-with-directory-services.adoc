@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/access-management-with-directory-services.html
 sidebar: sidebar
-keywords: 
-summary: 'For Access Management, administrators can use an LDAP \(Lightweight Directory Access Protocol\) server and a directory service, such as Microsoft’s Active Directory.'
+keywords: access, management, with, directory, services,
+summary: "For Access Management, administrators can use an LDAP (Lightweight Directory Access Protocol) server and a directory service, such as Microsoft’s Active Directory."
 ---
 = Access Management with directory services
 :icons: font

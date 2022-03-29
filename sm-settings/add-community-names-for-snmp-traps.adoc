@@ -1,19 +1,20 @@
 ---
 permalink: sm-settings/add-community-names-for-snmp-traps.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add up to 256 community names for SNMPv2c traps.'
+keywords: add, communities, for, snmpv2c, traps,
+summary: "You can add up to 256 community names for SNMPv2c traps."
 ---
 = Add communities for SNMPv2c traps
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can add up to 256 community names for SNMPv2c traps.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *SNMP* tab.
 +
 The trap destinations and community names appear in the table.
@@ -25,6 +26,6 @@ The Configure Communities dialog box opens.
 . Select *Add another community*.
 . Enter the new community name, and then click *Save*.
 
-== Results
+.Results
 
-The new community name appears in the SNMP tab of the Alerts page.
+The new community name appears in the *SNMP* tab of the *Alerts* page.

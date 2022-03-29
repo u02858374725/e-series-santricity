@@ -1,26 +1,27 @@
 ---
 permalink: sm-settings/delete-syslog-servers-for-alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a syslog server so it no longer receives alerts.'
+keywords: delete, syslog, servers, fo,r alerts,
+summary: "You can delete a syslog server so it no longer receives alerts."
 ---
 = Delete syslog servers for alerts
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can delete a syslog server so it no longer receives alerts.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *Syslog* tab.
 . Select a syslog server address, and then click *Remove* from the top right.
 +
-The Confirm Delete Syslog Server dialog box opens.
+The *Confirm Delete Syslog Server* dialog box opens.
 
 . Confirm the operation, and then click *Delete*.
 
-== Results
+.Results
 
 The server you removed no longer receives alerts from the event monitor.

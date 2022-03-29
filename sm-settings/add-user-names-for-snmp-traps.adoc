@@ -1,19 +1,20 @@
 ---
 permalink: sm-settings/add-user-names-for-snmp-traps.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add up to 256 users for SNMPv3 traps.'
+keywords: add, users, for, snmpv3, traps,
+summary: "You can add up to 256 users for SNMPv3 traps."
 ---
 = Add users for SNMPv3 traps
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can add up to 256 users for SNMPv3 traps.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *SNMP* tab.
 +
 The trap destinations and user names appear in the table.
