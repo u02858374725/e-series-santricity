@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/how-access-management-works.html
 sidebar: sidebar
-keywords: authentication,users,roles
-summary: 'Access Management is a method of establishing user authentication in SANtricity System Manager.'
+keywords: authentication, users, roles, how, access, Management, works,
+summary: "Access Management is a method of establishing user authentication in SANtricity System Manager."
 ---
 = How Access Management works
 :icons: font
