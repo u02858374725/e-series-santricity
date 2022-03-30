@@ -1599,7 +1599,7 @@ homepage:
            url: /um-admin/home-page-unified.html
      - title: E-series docs
        links:
-         - title: E-Series platform docs
+         - title: E-Series systems docs
            url: https://docs.netapp.com/us-en/e-series/index.html
          - title: Command Line Interface (CLI) reference
            url:  https://docs.netapp.com/us-en/e-series-cli/index.html
