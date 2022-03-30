@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/synchronize-storage-array-clocks.html
 sidebar: sidebar
-keywords: 
-summary: 'If Network Time Protocol \(NTP\) is not enabled, you can manually set the clocks on the controllers so they are synchronized with the management client \(the system used to run the browser that accesses SANtricity System Manager\).'
+keywords: synchronize, storage, array, clocks,
+summary: "If Network Time Protocol (NTP) is not enabled, you can manually set the clocks on the controllers so they are synchronized with the management client (the system used to run the browser that accesses SANtricity System Manager)."
 ---
 = Synchronize storage array clocks
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If Network Time Protocol (NTP) is not enabled, you can manually set the clocks on the controllers so they are synchronized with the management client (the system used to run the browser that accesses SANtricity System Manager).
 
-== About this task
+.About this task
 
 Synchronization ensures that event time stamps in the event log match time stamps written to the host log files. During the synchronization process, the controllers remain available and operational.
 
@@ -25,20 +26,16 @@ If NTP is enabled in System Manager, do not use this option to synchronize clock
 After synchronization, you might notice that performance statistics are lost or skewed, schedules are impacted (ASUP, snapshots, etc.), and time stamps in log data are skewed. Using NTP avoids this problem.
 ====
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
-. Under *General*, click *Synchronize Storage Array Clocks*.
-+
-The Synchronize Storage Array Clocks dialog box opens. It shows the current date and time for the controller(s) and the computer used as the management client.
-+
-[NOTE]
-====
-For simplex storage arrays, only one controller is shown.
-====
+. Select menu:Settings[System]. . Under *General*, click *Synchronize Storage
+Array Clocks*. + The Synchronize Storage Array Clocks dialog box opens. It shows
+the current date and time for the controller(s) and the computer used as the
+management client. + [NOTE] ==== For simplex storage arrays, only one controller
+is shown. ====
 
 . If the times shown in the dialog box do not match, click *Synchronize*.
 
-== Results
+.Results
 
 After synchronization is successful, event time stamps are the same for the event log and host logs.
