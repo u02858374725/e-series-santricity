@@ -40,7 +40,7 @@ The domain name(s) of the LDAP server(s). For multiple domains, enter the domain
 a|
 Server URL
 a|
-The URL for accessing the LDAP server in the form of `ldap[s]://*host*:*port*`.
+The URL for accessing the LDAP server in the form of _ldap[s]://*host*:port_.
 a|
 Bind account (optional)
 a|
