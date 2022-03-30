@@ -55,7 +55,7 @@ sidebar:
               - title: Where can I find more information about display preferences?
                 url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
   - title: System Manager
-    url: "/system-manager-index.html"
+    url: "/system-manager/index.html"
     entries:
       - title: Main interface
         entries:
@@ -1329,7 +1329,7 @@ sidebar:
             url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
 
   - title: Unified Manager
-    url: "/unified-manager-index.html"
+    url: "/unified-manager/index.html"
     entries:
     - title: Main interface
       entries:
