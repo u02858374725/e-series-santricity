@@ -1,27 +1,31 @@
 ---
 permalink: sm-support/view-iscsi-sessions-support.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship.'
+keywords: view, iscsi, sessions
+summary: "You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship."
 ---
 = View iSCSI sessions
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship.
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select menu:Support[Support Center > Diagnostics] tab.
 . Select *View/End iSCSI Sessions*.
 +
 A list of the current iSCSI sessions appears.
 
 . To see additional information about a specific iSCSI session, select a session, and then click *View Details*.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="25h,~" options="header"]
 |===
 | Item| Description
 a|
