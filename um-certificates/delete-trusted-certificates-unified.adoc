@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/delete-trusted-certificates-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete one or more certificates that are no longer needed, such as an expired certificate.'
+keywords: delete, trusted, certificates
+summary: "You can delete one or more certificates that are no longer needed, such as an expired certificate."
 ---
 = Delete trusted certificates
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can delete one or more certificates that are no longer needed, suc
 [.lead]
 You can delete one or more certificates that are no longer needed, such as an expired certificate.
 
-== Before you begin
+.Before you begin
 
 Import the new certificate before deleting the old one.
 
@@ -20,7 +20,7 @@ Import the new certificate before deleting the old one.
 Be aware that deleting a root or intermediate certificate can impact multiple storage arrays, since these arrays can share the same certificate files.
 ====
 
-== Steps
+.Steps
 
 . Select *Certificate Management*.
 . Select the *Trusted* tab.

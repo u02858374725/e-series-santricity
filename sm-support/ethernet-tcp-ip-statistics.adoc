@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/ethernet-tcp-ip-statistics.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: ethernet, tcp, ip, statistics
+summary: "When you select Ethernet TCP/IP statistics, the TCP statistics in this table appear. You can view each of these statistics as raw statistics or as baseline statistics."
 ---
 = Ethernet TCP/IP statistics
 :icons: font
@@ -10,6 +10,7 @@ summary: ''
 
 When you select Ethernet TCP/IP statistics, the TCP statistics in this table appear. You can view each of these statistics as raw statistics or as baseline statistics.
 
+[cols="25h,~",options="header"]
 |===
 | Statistic| Definition
 a|
@@ -65,8 +66,10 @@ RxWU
 a|
 Received window update count
 |===
+
 When you select Ethernet TCP/IP statistics, the IP statistics in this table appear.
 
+[cols="25h,~",options="header"]
 |===
 | Statistic| Definition
 a|
