@@ -1,10 +1,10 @@
 ---
 permalink: um-manage/generic-upgrade-center.html
 sidebar: sidebar
-keywords: 
-summary: 'From the Upgrade Center, you can manage SANtricity OS software and NVSRAM upgrades for multiple storage arrays.'
+keywords: upgrade, center
+summary: "From the Upgrade Center, you can manage SANtricity OS software and NVSRAM upgrades for multiple storage arrays."
 ---
-= image:../media/sam1130-icon-upgrade-center.gif[]Upgrade Center
+= Upgrade Center
 :icons: font
 :imagesdir: ../media/
 

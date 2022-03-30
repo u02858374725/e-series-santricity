@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/create-synchronous-mirrored-pair-um.html
 sidebar: sidebar
-keywords: 
-summary: 'To configure synchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.'
+keywords: create, synchronous, mirrored, pair
+summary: "To configure synchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array."
 ---
 = Create synchronous mirrored pair
 :experimental:
@@ -12,7 +12,7 @@ summary: 'To configure synchronous mirroring, you create a mirrored pair that in
 [.lead]
 To configure synchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
 
-== Before you begin
+.Before you begin
 
 [NOTE]
 ====
@@ -35,6 +35,6 @@ Also be sure to meet the following requirements for storage arrays:
 * Your local and remote storage arrays are connected through a Fibre Channel fabric.
 * You have created both the primary and secondary volumes that you want to use in the synchronous mirror relationship.
 
-== About this task
+.About this task
 
 The process to create synchronous mirrored pairs is a multi-step procedure.

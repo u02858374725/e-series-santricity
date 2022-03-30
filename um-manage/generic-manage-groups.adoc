@@ -1,10 +1,10 @@
 ---
 permalink: um-manage/generic-manage-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'From the Manage Groups page, you can create, delete, and rename storage array groups; add or remove storage arrays from groups; and remove storage arrays from SANtricity Unified Manager.'
+keywords: manage, groups
+summary: "From the Manage Groups page, you can create, delete, and rename storage array groups; add or remove storage arrays from groups; and remove storage arrays from SANtricity Unified Manager."
 ---
-= image:../media/artboard-10.png[]Manage Groups
+= Manage Groups
 :icons: font
 :imagesdir: ../media/
 
