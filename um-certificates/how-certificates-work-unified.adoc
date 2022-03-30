@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/how-certificates-work-unified.html
 sidebar: sidebar
-keywords: CA certificates,CSR file
-summary: 'Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet.'
+keywords: ca certificates, csr file, work, online, entities, communications
+summary: "Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet."
 ---
 = How certificates work
 :icons: font

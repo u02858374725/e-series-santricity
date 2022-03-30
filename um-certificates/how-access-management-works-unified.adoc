@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/how-access-management-works-unified.html
 sidebar: sidebar
-keywords: authentication,users,roles
-summary: 'Use Access Management to establish user authentication in SANtricity Unified Manager.'
+keywords: authentication, users, roles, access, management
+summary: "Use Access Management to establish user authentication in SANtricity Unified Manager."
 ---
 = How Access Management works
 :icons: font
