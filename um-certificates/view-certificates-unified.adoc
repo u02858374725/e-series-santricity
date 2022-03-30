@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/view-certificates-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view summary information for a certificate, which includes the organization using the certificate, the authority that issued the certificate, the period of validity, and the fingerprints \(unique identifiers\).'
+keywords: view certificates
+summary: "You can view summary information for a certificate, which includes the organization using the certificate, the authority that issued the certificate, the period of validity, and the fingerprints (unique identifiers)."
 ---
 = View certificates
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can view summary information for a certificate, which includes the
 [.lead]
 You can view summary information for a certificate, which includes the organization using the certificate, the authority that issued the certificate, the period of validity, and the fingerprints (unique identifiers).
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
-== Steps
+.Steps
 
 . Select *Certificate Management*.
 . Select one of the following tabs:

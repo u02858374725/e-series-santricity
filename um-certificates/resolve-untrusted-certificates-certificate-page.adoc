@@ -1,17 +1,18 @@
 ---
 permalink: um-certificates/resolve-untrusted-certificates-certificate-page.html
 sidebar: sidebar
-keywords: 
-summary: 'Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. From the Certificate page, you can resolve untrusted certificates by importing a self-signed certificate from the storage array or by importing a certificate authority \(CA\) certificate that has been issued by a trusted third party.'
+keywords: resolve, untrusted, certificates
+summary: "Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. From the Certificate page, you can resolve untrusted certificates by importing a self-signed certificate from the storage array or by importing a certificate authority (CA) certificate that has been issued by a trusted third party."
 ---
 = Resolve untrusted certificates
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. From the Certificate page, you can resolve untrusted certificates by importing a self-signed certificate from the storage array or by importing a certificate authority (CA) certificate that has been issued by a trusted third party.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security Admin permissions.
 * If you plan to import a CA-signed certificate:
@@ -19,7 +20,7 @@ Untrusted certificates occur when a storage array attempts to establish a secure
  ** The CA returned trusted certificate files.
  ** The certificate files are available on your local system.
 
-== About this task
+.About this task
 
 You might need to install additional trusted CA certificates if any of the following are true:
 
@@ -28,14 +29,14 @@ You might need to install additional trusted CA certificates if any of the follo
 * One or both certificates are revoked.
 * One or both certificates are missing a root or intermediate certificate.
 
-== Steps
+.Steps
 
 . Select *Certificate Management*.
 . Select the *Trusted* tab.
 +
 This page shows all certificates reported for the storage arrays.
 
-. Select either *Import* > *Certificates* to import a CA certificate or *Import* > *Self-Signed storage array certificates* to import a self-signed certificate.
+. Select either menu:Import[Certificates] to import a CA certificate or menu:Import[Self-Signed storage array certificates] to import a self-signed certificate.
 +
 To limit the view, you can use the *Show certificates that are...* filtering field or you can sort the certificate rows by clicking one of the column heads.
 

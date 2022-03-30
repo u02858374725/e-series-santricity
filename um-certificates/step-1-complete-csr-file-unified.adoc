@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/step-1-complete-csr-file-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'You must first generate a certificate signing request \(CSR\) file, which identifies your organization and the host system where the Web Services Proxy and Unified Manager are installed.'
+keywords: step 1, complete, csr, file
+summary: "You must first generate a certificate signing request (CSR) file, which identifies your organization and the host system where the Web Services Proxy and Unified Manager are installed."
 ---
 = Step 1: Complete a CSR file
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You must first generate a certificate signing request \(CSR\) file, wh
 [.lead]
 You must first generate a certificate signing request (CSR) file, which identifies your organization and the host system where the Web Services Proxy and Unified Manager are installed.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
-== About this task
+.About this task
 
 This task describes how to generate the CSR file from Unified Manager.
 
@@ -24,7 +24,7 @@ This task describes how to generate the CSR file from Unified Manager.
 Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip to xref:step-2-submit-csr-files-unified.adoc[Step 2: Submit CSR file].
 ====
 
-== Steps
+.Steps
 
 . Select *Certificate Management*.
 . From the *Management* tab, select *Complete CSR*.
@@ -41,6 +41,6 @@ Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip
 . Make sure that the host information is correct. If it is not, the certificates returned from the CA will fail when you try to import them.
 . Click *Finish*.
 
-== After you finish
+.After you finish
 
 Go to xref:step-2-submit-csr-files-unified.adoc[Step 2: Submit CSR file].
