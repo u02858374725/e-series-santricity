@@ -66,7 +66,7 @@ The file is saved in the Downloads folder for your browser with the name `drive_
 
 . If any of the following errors occur during the upgrade procedure, take the appropriate recommended action.
 +
-[cols="25h,~" options="header"]
+[cols="40h,~" options="header"]
 |===
 | If you encounter this firmware download error...| Then do the following...
 a|

@@ -27,7 +27,7 @@ The report appears on your screen.
 [%collapsible]
 ====
 
-[cols="25h,~" options="header"]
+[cols="1a,1a" options="header"]
 |===
 |Section| Description
 a|

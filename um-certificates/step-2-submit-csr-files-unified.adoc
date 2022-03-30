@@ -11,7 +11,7 @@ summary: "After you create a certificate signing request (CSR) file, send it to 
 [.lead]
 After you create a certificate signing request (CSR) file, send it to a Certificate Authority (CA).
 
-Before you begin
+.Before you begin
 
 * You have generated the CSR file.
 
@@ -36,4 +36,4 @@ The folder location of the download depends on your browser.
 
 .After you finish
 
-When the CA returns the signed certificates, go to link:step-3-import-management-certificates-unified.md#[Step 3: Import management certificates].
+When the CA returns the signed certificates, go to link:step-3-import-management-certificates-unified.html[Step 3: Import management certificates].
