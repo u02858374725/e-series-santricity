@@ -1602,7 +1602,9 @@ homepage:
          - title: E-Series systems docs
            url: https://docs.netapp.com/us-en/e-series/index.html
          - title: Command Line Interface (CLI) reference
-           url:  https://docs.netapp.com/us-en/e-series-cli/index.html
+           links:
+             - title: datasheet
+               url:  https://docs.netapp.com/us-en/e-series-cli/index.html
      - title: SANtricity APIs
        links:
          - title: Web services
