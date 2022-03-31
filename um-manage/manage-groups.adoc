@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/manage-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how to manage the storage array groups.'
+keywords: manage, groups
+summary: "Learn how to manage the storage array groups."
 ---
 = Manage groups
 :icons: font

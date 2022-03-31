@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/launch-system-manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Launch option to open the browser-based SANtricity System Manager for one or more storage arrays when you want to perform management operations.'
+keywords: manage, individual, storage, array
+summary: "You can use the Launch option to open the browser-based SANtricity System Manager for one or more storage arrays when you want to perform management operations."
 ---
 = Manage an individual storage array
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use the Launch option to open the browser-based SANtricity Sys
 [.lead]
 You can use the Launch option to open the browser-based SANtricity System Manager for one or more storage arrays when you want to perform management operations.
 
-== Steps
+.Steps
 
 . From the *Manage* page, select one or more storage arrays that you want to manage.
 . Click *Launch*.
