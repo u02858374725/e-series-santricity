@@ -23,7 +23,7 @@ In this task, you export metadata from the controllers (one file for each contro
 
 . Click the *Export Service Provider files* link.
 +
-The *Export Service Provider Files* dialog opens.
+The *Export Service Provider Files* dialog box opens.
 
 . Enter the controller IP address or DNS name in the *Controller A* field, and then click *Export* to save the metadata file to your local system. If the storage array includes two controllers, repeat this step for the second controller in the *Controller B* field.
 +

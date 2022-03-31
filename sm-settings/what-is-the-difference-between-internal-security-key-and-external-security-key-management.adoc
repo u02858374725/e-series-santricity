@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html
 sidebar: sidebar
-keywords: 
-summary: 'When you implement the Drive Security feature, you can use an internal security key or an external security key to lock down data when a secure-enabled drive is removed from the storage array.'
+keywords: what, is, the, difference, between, internal, security, key, and, external, security, key, management,
+summary: "When you implement the Drive Security feature, you can use an internal security key or an external security key to lock down data when a secure-enabled drive is removed from the storage array."
 ---
 = What is the difference between internal security key and external security key management?
 :icons: font

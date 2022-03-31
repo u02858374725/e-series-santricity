@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-happens-when-i-use-an-isns-server.html
 sidebar: sidebar
-keywords: 
-summary: 'When Internet Storage Name Service \(iSNS\) server information is used, the hosts \(initiators\) can be configured to query the iSNS server to retrieve information from the target \(controllers\).'
+keywords: what, happens, when, I, use, an, isns, server, for, registration,
+summary: "When Internet Storage Name Service (iSNS) server information is used, the hosts (initiators) can be configured to query the iSNS server to retrieve information from the target (controllers)."
 ---
 = What happens when I use an iSNS server for registration?
 :icons: font

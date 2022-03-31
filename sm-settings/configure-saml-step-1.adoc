@@ -33,7 +33,7 @@ The page displays an overview of configuration steps.
 
 . Click the *Import Identity Provider (IdP) file* link.
 +
-The *Import Identity Provider File* dialog opens.
+The *Import Identity Provider File* dialog box opens.
 
 . Click *Browse* to select and upload the IdP metadata file you copied to your local system.
 +

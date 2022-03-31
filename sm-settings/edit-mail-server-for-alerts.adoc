@@ -27,7 +27,7 @@ To use a fully qualified domain name, you must configure a DNS server on both co
 . Select the *Email* tab.
 . Select *Configure Mail Server*.
 +
-The *Configure Mail Server* dialog opens.
+The *Configure Mail Server* dialog box opens.
 
 . Edit the mail server address, sender information, and contact information.
  ** *Mail server address* -- Edit the fully qualified domain name, IPv4 address, or IPv6 address of the mail server.

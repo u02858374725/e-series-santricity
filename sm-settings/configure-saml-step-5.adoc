@@ -30,7 +30,7 @@ This task describes how to finish the SAML configuration for user authentication
 
 . From the *SAML* tab, select the *Enable SAML* link.
 +
-The *Confirm Enable SAML* dialog opens.
+The *Confirm Enable SAML* dialog box opens.
 
 . Type `enable`, and then click *Enable*.
 . Enter user credentials for an SSO login test.

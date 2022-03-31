@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html
 sidebar: sidebar
-keywords: 
-summary: 'After creating a security key, you should validate the key file to make sure it is not corrupt.'
+keywords: what, do, I, need, to, know, about, validating, the, security, key,
+summary: "After creating a security key, you should validate the key file to make sure it is not corrupt."
 ---
 = What do I need to know about validating the security key?
 :icons: font

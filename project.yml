@@ -1,6 +1,5 @@
 ---
 settings:
-  search: e-series-santricity
   name: "SANtricity"
   rss_page: "/whats-new.html"
   internal:

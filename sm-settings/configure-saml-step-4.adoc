@@ -20,11 +20,11 @@ To ensure that the IdP system and storage array can communicate, you can optiona
 
 . Select the *Test SSO Login* link.
 +
-A dialog opens for entering SSO credentials.
+A dialog box opens for entering SSO credentials.
 
 . Enter login credentials for a user with both Security Admin permissions and Monitor permissions.
 +
-A dialog opens while the system tests the login.
+A dialog box opens while the system tests the login.
 
 . Look for a Test Successful message. If the test completes successfully, go to the next step for enabling SAML.
 +

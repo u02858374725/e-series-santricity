@@ -28,7 +28,7 @@ Disabling host connectivity reporting also disables automatic load balancing, wh
 +
 The text below this option indicates whether it is currently enabled or disabled.
 +
-A confirmation dialog opens.
+A confirmation dialog box opens.
 
 . Click *Yes* to continue.
 +

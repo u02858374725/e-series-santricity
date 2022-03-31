@@ -44,7 +44,7 @@ The *Select SNMP version* dialog box opens.
 
 . Select the SNMP version for the alerts, either *SNMPv2c* or *SNMPv3*.
 +
-Depending on your selection, the Configure Communities dialog or the Configure SNMPv3 Users dialog opens.
+Depending on your selection, the *Configure Communities* dialog box or the *Configure SNMPv3 Users* dialog box opens.
 
 . Follow the appropriate instructions for SNMPv2c (communities) or SNMPv3 (users):
  ** *SNMPv2c (communities)* -- In the Configure Communities dialog, enter one or more community strings for the network servers. A community name is a string that identifies a known set of management stations, and is typically created by a network administrator. It consists of only printable ASCII characters. You can add up to 256 communities. When you are done, click *Save*.
