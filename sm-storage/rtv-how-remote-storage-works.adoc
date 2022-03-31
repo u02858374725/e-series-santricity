@@ -18,7 +18,7 @@ To configure the Remote Storage feature, you must set up the hardware and then u
 
 Use the following workflow to prepare the hardware connections.
 
-These steps are described further in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
+These steps are described further in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html[Remote Storage Volumes overview^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
 
 On the local E-Series storage system:
 

@@ -62,4 +62,4 @@ The Remote Storage feature has the following restrictions:
 
 == Additional information
 
-Further information for the Remote Storage feature is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center^] or the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
+Further information for the Remote Storage feature is available from the https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html[Remote Storage Volumes overview^] or the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].

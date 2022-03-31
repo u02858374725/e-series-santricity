@@ -145,7 +145,7 @@ Initiator name
 a|
 The official name of the initiator (not the alias). The initiator name that uses either the _iqn_ or _eui_ format.
 |===
-
+====
 . To save the report to a file, click *Save*.
 +
 The file is saved in the Downloads folder for your browser with the filename `iscsi-session-connections.txt`.

@@ -75,6 +75,7 @@ Features
 a|
 Shows a list of the feature packs installed and maximum allowed number of snapshot groups, snapshots (legacy), and volumes per host or host cluster. The information in the Features section also includes Drive Security; that is, whether the storage array is security enabled or security disabled.
 |===
+====
 
 . To search the storage array profile, type a search term in the *Find* text box, and then click *Find*.
 +

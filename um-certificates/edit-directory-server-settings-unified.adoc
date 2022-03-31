@@ -27,6 +27,9 @@ The *Directory Server Settings* dialog box opens.
 
 . In the *Server Settings* tab, change the desired settings.
 +
+.Field Details
+[%collapsible]
+====
 [cols="25h,~",options="header"]
 |===
 | Setting| Description
@@ -67,9 +70,13 @@ Group attribute(s)
 a|
 A list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
 |===
+====
 
 . In the *Role Mapping* tab, change the desired mapping.
 +
+.Field Details
+[%collapsible]
+====
 [cols="25h,~",options="header"]
 |===
 | Setting| Description
@@ -91,6 +98,8 @@ The roles to be mapped to the Group DN. You must individually select each role y
 ** *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
 ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
 |===
+====
+
 +
 [NOTE]
 ====

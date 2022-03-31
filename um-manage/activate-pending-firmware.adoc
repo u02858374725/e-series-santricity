@@ -36,6 +36,6 @@ The following actions occur during the upgrade operation:
  ** You can cancel the activate operation after the pre-upgrade health check.
 On successful completion of the pre-upgrade health check, activation occurs. The time it takes to activate depends on your storage array configuration and the components that you are activating.
 
-. *Optional:*: After the activation is complete, you can see a list of what was activated for a specific storage array by clicking the ellipsis (...) and then selecting *Save Log*.
+. *Optional:* After the activation is complete, you can see a list of what was activated for a specific storage array by clicking the ellipsis (...) and then selecting *Save Log*.
 +
 The file is saved in the Downloads folder for your browser with the name `activate_log-<date>.json`.

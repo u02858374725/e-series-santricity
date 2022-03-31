@@ -2,7 +2,7 @@
 permalink: um-manage/add-storage-array-to-group.html
 sidebar: sidebar
 keywords: add, storage, array, group
-summary: 'You can add one or more storage arrays to a user-created group.'
+summary: "You can add one or more storage arrays to a user-created group."
 ---
 = Add storage array to group
 :experimental:
