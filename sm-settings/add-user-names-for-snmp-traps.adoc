@@ -21,7 +21,7 @@ The trap destinations and user names appear in the table.
 
 . Select *Configure Users*.
 +
-The Configure SNMPv3 Users dialog box opens.
+The *Configure SNMPv3 Users* dialog box opens.
 
 . Select *Add*.
 . Enter the following information, and then click *Add*.

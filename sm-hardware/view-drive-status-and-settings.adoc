@@ -24,7 +24,7 @@ The drive's context menu opens.
 
 . Select *View settings*.
 +
-The Drive Settings dialog box opens.
+The *Drive Settings* dialog box opens.
 
 . To see all settings, click *Show more settings* in the upper right of the dialog box.
 +

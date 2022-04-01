@@ -21,7 +21,7 @@ NOTE: The Export/Import function is not supported in the System Manager user int
 +
 Detailed instructions for migrating a volume group are provided in the https://kb.netapp.com/[NetApp Knowledge Base]. Be sure to follow the appropriate instructions for newer arrays managed by System Manager or for legacy systems.
 
-* The Drive Security feature must be enabled. Otherwise, a Cannot Create Security Key dialog box opens during this task. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+* The Drive Security feature must be enabled. Otherwise, a *Cannot Create Security Key* dialog box opens during this task. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
 * You must know the security key that is associated with the drives you want to unlock.
 * The security key file is available on the management client (the system with a browser used for accessing System Manager). If you are moving the drives to a storage array that is managed by a different system, you need to move the security key file to that management client.
 

@@ -39,7 +39,7 @@ The controller's context menu appears.
 The *Configure iSCSI ports* option appears only if System Manager detects iSCSI ports on the controller.
 ====
 +
-The Configure iSCSI Ports dialog box opens.
+The *Configure iSCSI Ports* dialog box opens.
 
 . In the drop-down list, select the port you want to configure, and then click *Next*.
 . Select the configuration port settings, and then click *Next*.

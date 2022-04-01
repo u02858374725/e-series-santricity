@@ -43,7 +43,7 @@ The controller's context menu appears.
 
 . Select *Configure NTP server*.
 +
-The Configure Network Time Protocol (NTP) Server dialog box opens.
+The *Configure Network Time Protocol (NTP) Server* dialog box opens.
 
 . Select *I want to enable NTP on Controller*(*A* or *B*).
 +

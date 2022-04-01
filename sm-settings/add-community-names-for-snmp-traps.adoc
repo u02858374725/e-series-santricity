@@ -21,7 +21,7 @@ The trap destinations and community names appear in the table.
 
 . Select *Configure Communities*.
 +
-The Configure Communities dialog box opens.
+The *Configure Communities* dialog box opens.
 
 . Select *Add another community*.
 . Enter the new community name, and then click *Save*.

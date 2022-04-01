@@ -25,7 +25,7 @@ In this task, you disable external key management and download a new backup copy
 . Select menu:Settings[System].
 . Under *Security key management*, select *Disable External Key Management*.
 +
-The Disable External Key Management dialog box opens.
+The *Disable External Key Management* dialog box opens.
 
 . In *Define a pass phrase/Re-enter pass phrase*, enter and confirm a pass phrase for the backup of the key. The value can have between 8 and 32 characters, and must include each of the following:
  ** An uppercase letter (one or more). Keep in mind that the pass phrase is case sensitive.

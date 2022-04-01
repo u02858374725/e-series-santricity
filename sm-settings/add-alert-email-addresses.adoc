@@ -18,7 +18,7 @@ You can add up to 20 recipients for email alerts.
 . Select the *Email* tab.
 . Select *Add Emails*.
 +
-The Add Emails dialog box opens.
+The *Add Emails* dialog box opens.
 
 . In the empty field, enter a new email address. If you want to add more than one address, select *Add another email* to open another field.
 . Click *Add*.

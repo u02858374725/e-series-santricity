@@ -43,7 +43,7 @@ The value can have between 8 and 32 characters, and must include each of the fol
 
 . Click *Back Up*.
 +
-A backup of the security key is downloaded to your local host, and then the Confirm/Record Security Key Backup dialog box opens.
+A backup of the security key is downloaded to your local host, and then the *Confirm/Record Security Key Backup* dialog box opens.
 +
 [NOTE]
 ====

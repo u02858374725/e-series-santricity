@@ -21,7 +21,7 @@ You can edit the synchronization settings for a mirrored pair only on the storag
 . Select menu:Storage[Synchronous Mirroring].
 . Select the mirrored pair that you want to edit, and then select menu:More[Edit settings].
 +
-The system displays the View/Edit Settings dialog box.
+The system displays the *View/Edit Settings* dialog box.
 
 . Use the slider bar to edit the synchronization priority.
 +

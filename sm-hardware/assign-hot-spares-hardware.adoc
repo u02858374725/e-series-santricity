@@ -49,7 +49,7 @@ If the drive is secure-enabled, the Secure Erase Drive? dialog box opens. To use
 *Possible loss of data* -- Make sure that you have selected the correct drive. After completing the Secure Erase operation, you cannot recover any of the data.
 ====
 +
-If the drive is *not* secure-enabled, the Confirm Assign Hot Spare Drive dialog box opens.
+If the drive is *not* secure-enabled, the *Confirm Assign Hot Spare Drive* dialog box opens.
 
 . Review the text in the dialog box, and then confirm the operation.
 +

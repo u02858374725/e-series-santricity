@@ -24,7 +24,7 @@ The available components depend on the type of shelf:
 . Select *Hardware*.
 . Select the drop-down list for the Controller Shelf or Drive Shelf, and then select *View Settings*.
 +
-The Shelf Components Settings dialog box opens, with tabs that show the status and settings related to the shelf components. Depending on the type of shelf selected, some tabs described in the table might not appear.
+The *Shelf Components Settings* dialog box opens, with tabs that show the status and settings related to the shelf components. Depending on the type of shelf selected, some tabs described in the table might not appear.
 +
 [cols="1a,1a" options="header"]
 |===

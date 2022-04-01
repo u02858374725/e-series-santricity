@@ -34,7 +34,7 @@ The controller's context menu appears.
 
 . Select *Configure management ports*.
 +
-The Configure Management Ports dialog box opens.
+The *Configure Management Ports* dialog box opens.
 
 . Make sure port 1 is displayed, and then click *Next*.
 . Select the configuration port settings, and then click *Next*.

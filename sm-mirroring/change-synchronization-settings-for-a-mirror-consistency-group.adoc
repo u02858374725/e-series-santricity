@@ -25,7 +25,7 @@ The Mirrored Consistency Group table appears and displays all the mirror consist
 
 . Select the mirror consistency group that you want to edit, and then select menu:More[Edit Settings].
 +
-The system displays the Edit Settings dialog box.
+The system displays the *Edit Settings* dialog box.
 
 . Edit the synchronization and alert settings as appropriate, and then click *Save*.
 +

@@ -29,10 +29,17 @@ After synchronization, you might notice that performance statistics are lost or 
 .Steps
 
 . Select menu:Settings[System]. . Under *General*, click *Synchronize Storage
-Array Clocks*. + The Synchronize Storage Array Clocks dialog box opens. It shows
+Array Clocks*.
++
+The *Synchronize Storage Array Clocks* dialog box opens. It shows
 the current date and time for the controller(s) and the computer used as the
-management client. + [NOTE] ==== For simplex storage arrays, only one controller
-is shown. ====
+management client.
++
+[NOTE]
+====
+For simplex storage arrays, only one controller
+is shown.
+====
 
 . If the times shown in the dialog box do not match, click *Synchronize*.
 
