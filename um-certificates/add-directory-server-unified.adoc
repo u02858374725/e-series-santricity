@@ -27,7 +27,7 @@ Adding a directory server is a two-step process. First you enter the domain name
 . Select *Access Management*.
 . From the *Directory Services* tab, select *Add Directory Server*.
 +
-The Add Directory Server dialog box opens.
+The *Add Directory Server* dialog box opens.
 
 . In the *Server Settings* tab, enter the credentials for the LDAP server.
 +

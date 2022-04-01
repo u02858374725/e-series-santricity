@@ -24,7 +24,7 @@ This task deletes the current management certificate from the host system where 
 . Select *Certificate Management*.
 . From the *Management* tab, select *Reset*.
 +
-A Confirm Reset Management Certificate dialog box opens.
+A *Confirm Reset Management Certificate* dialog box opens.
 
 . Type `reset` in the field, and then click *Reset*.
 +

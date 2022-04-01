@@ -26,9 +26,9 @@ The volume you select holds the primary role in the mirror relationship.
 .Steps
 
 . From the *Manage* page, select the local storage array that you want to use for the source.
-. Select *Actions* > *Create Synchronous Mirrored Pair*.
+. Select menu:Actions[Create Synchronous Mirrored Pair].
 +
-The Create Synchronous Mirrored Pair wizard opens.
+The *Create Synchronous Mirrored Pair* wizard opens.
 
 . From the list of eligible volumes, select a volume that you want to use as the primary volume in the mirror.
 . Select *Next* and go to link:step-2-select-the-secondary-volume-um-sync.html[Step 2: Select the secondary volume].
