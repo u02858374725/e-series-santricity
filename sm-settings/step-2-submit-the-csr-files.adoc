@@ -33,4 +33,4 @@ E-Series systems require PEM format (Base64 ASCII encoding) for signed certifica
 
 .After you finish
 
-When the CA returns the signed certificates, go to link:step-3-import-signed-certificates-for-the-controllers.html[Step 3: Import signed certificates for controllers^].
+When the CA returns the signed certificates, go to link:step-3-import-signed-certificates-for-the-controllers.html[Step 3: Import signed certificates for controllers].

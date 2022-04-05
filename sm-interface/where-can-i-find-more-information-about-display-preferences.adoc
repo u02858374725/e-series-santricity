@@ -11,5 +11,5 @@ summary: "You can find information about the available display options in the fo
 [.lead]
 You can find information about the available display options in the following help topics.
 
-* To read more about the default units for displaying capacity values, see link:set-default-units-for-capacity-values.html[Set default units for capacity values^].
-* To read more about the default time frame for displaying performance graphs, see link:set-default-time-frame-for-performance-graphs.html[Set default time frame for performance graphs^].
+* To read more about the default units for displaying capacity values, see link:set-default-units-for-capacity-values.html[Set default units for capacity values].
+* To read more about the default time frame for displaying performance graphs, see link:set-default-time-frame-for-performance-graphs.html[Set default time frame for performance graphs].
