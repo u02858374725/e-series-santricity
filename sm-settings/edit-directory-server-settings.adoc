@@ -80,8 +80,7 @@ a|
 Group DN
 a|
 The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
-
-``\.[]{}()<>*+-=!?^$``
+\.[]{}()<>*+-=!?^$\|
 
 a|
 Roles

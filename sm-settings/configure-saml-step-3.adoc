@@ -46,8 +46,7 @@ a|
 Attribute Value
 a|
 Specify the attribute value for the group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
-
-`\.[]{}()<>*+-=!?^$`
+\.[]{}()<>*+-=!?^$\|
 
 a|
 Roles
