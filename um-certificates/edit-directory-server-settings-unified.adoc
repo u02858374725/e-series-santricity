@@ -32,6 +32,7 @@ The *Directory Server Settings* dialog box opens.
 ====
 
 [cols="25h,~",options="header"]
+
 |===
 | Setting| Description
 2+a|
@@ -82,6 +83,7 @@ A list of group attributes on the user, which is used for group-to-role mapping.
 ====
 
 [cols="25h,~",options="header"]
+
 |===
 | Setting| Description
 2+a|

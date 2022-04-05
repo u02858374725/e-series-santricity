@@ -105,12 +105,11 @@ a|
 Group DN
 a|
 Specify the group distinguished name (DN) for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (\) if they are not part of a regular expression pattern:
-
 \.[]{}()<>*+-=!?^$\|
 a|
 Roles
 a|
-Click in the field and select one of the local user roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity Unified Manager.    The mapped roles include the following permissions:
+Click in the field and select one of the local user roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity Unified Manager. The mapped roles include the following permissions:
 
 ** *Storage admin* -- Full read/write access to storage objects on the arrays, but no access to the security configuration.
 ** *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
@@ -118,7 +117,6 @@ Click in the field and select one of the local user roles to be mapped to the Gr
 ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
 |===
 ====
-
 +
 NOTE: The Monitor role is required for all users, including the administrator.
 
