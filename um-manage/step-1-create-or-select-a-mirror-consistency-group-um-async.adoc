@@ -43,13 +43,13 @@ If your remote storage array is password protected, the system prompts for a pas
 ====
 
 .. Choose whether you want to synchronize the mirrored pairs manually or automatically:
-*** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to *Storage* > *Asynchronous Mirroring*, select the group from the *Mirror Consistency Groups* tab, and then select *More* > *Manually resynchronize*.
+*** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to menu:Storage[Asynchronous Mirroring], select the group from the *Mirror Consistency Groups* tab, and then select menu:More[Manually resynchronize].
 *** *Automatic* -- Select the desired interval in *Minutes*, *Hours*, or *Days*, from the beginning of the previous update to the beginning of the next update. For example, if the synchronization interval is set at 30 minutes, and the synchronization process starts at 4:00 p.m., the next process starts at 4:30 p.m.
 .. Select the desired alert settings:
 *** For manual synchronizations, specify the threshold (defined by the percentage of the capacity remaining) for when you receive alerts.
 *** For automatic synchronizations, you can set three methods of alerting: when the synchronization has not completed in a specific length of time, when the recovery point data on the remote array is older than a specific time limit, and when the reserved capacity is nearing a specific threshold (defined by the percentage of the capacity remaining).
 
-. Select *Next* and go to link:step-2-select-the-primary-volume-um-async.md#[Step 2: Select the primary volume].
+. Select *Next* and go to link:step-2-select-the-primary-volume-um-async.html[Step 2: Select the primary volume].
 +
 If you defined a new mirror consistency group, Unified Manager creates the mirror consistency group on the local storage array first and then creates the mirror consistency group on the remote storage array. You can view and manage the mirror consistency group by launching System Manager for each array.
 +
