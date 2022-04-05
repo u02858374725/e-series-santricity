@@ -81,7 +81,7 @@ Username attribute
 a|
 Enter the attribute that is bound to the user ID for authentication. For example: `sAMAccountName`.
 a|
-Group attribute\(s\)
+Group attribute(s)
 a|
 Enter a list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
 |===
@@ -95,7 +95,7 @@ Enter a list of group attributes on the user, which is used for group-to-role ma
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~" options="header"]
 
 |===
 | Setting| Description
