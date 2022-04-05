@@ -55,6 +55,7 @@ sidebar:
               - title: Where can I find more information about display preferences?
                 url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
   - title: System Manager
+    url: "/system-manager/index.html"
     entries:
       - title: Main interface
         entries:
@@ -63,9 +64,9 @@ sidebar:
         - title: View performance data
           entries:
           - title: Overview
-            url: "/sm-storage/generic-performance.html"
-          - title: Performance overview
-            url: "/sm-storage/performance-overview.html"
+            url: "/sm-storage/overview-performance.html"
+          - title: Performance graphs and guidelines
+            url: "/sm-storage/performance-graphs-guidelines.html"
           - title: Performance terminology
             url: "/sm-storage/performance-terminology.html"
           - title: View graphical performance data
@@ -122,17 +123,15 @@ sidebar:
       - title: Pools and volume groups
         entries:
         - title: Overview
-          url: "/sm-storage/generic-pools-and-volume-groups.html"
+          url: "/sm-storage/overview-pools-volume-groups.html"
         - title: Concepts
           entries:
           - title: How pools and volume groups work
             url: "/sm-storage/how-pools-and-volume-groups-work.html"
-          - title: Capacity terminology
+          - title: Terms
             url: "/sm-storage/capacity-terminology.html"
-          - title: Determine whether to use pools or volume groups
+          - title: Selecting a pool or volume group
             url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
-          - title: Pools versus volume groups
-            url: "/sm-storage/functional-comparison-of-pools-and-volume-groups.html"
           - title: Automatic versus manual pool creation
             url: "/sm-storage/automatic-versus-manual-pool-creation.html"
         - title: Configure storage
@@ -259,11 +258,13 @@ sidebar:
       - title: Volumes and workloads
         entries:
         - title: Overview
-          url: "/sm-storage/generic-volumes.html"
+          url: "/sm-storage/overview-volumes.html"
         - title: Concepts
           entries:
-          - title: Storage array volumes
-            url: "/sm-storage/volumes-in-the-storage-array.html"
+          - title: How volumes work
+            url: "/sm-storage/how-volumes-work.html"
+          - title: How workloads work
+            url: "/sm-storage/how-workloads-work.html"
           - title: Volume terminology
             url: "/sm-storage/volume-terminology.html"
           - title: Workflow for creating volumes
@@ -272,8 +273,6 @@ sidebar:
             url: "/sm-storage/data-integrity-and-data-security-for-volumes.html"
           - title: SSD Cache and volumes
             url: "/sm-storage/ssd-cache-and-volumes.html"
-          - title: Application-specific workloads
-            url: "/sm-storage/application-specific-workloads.html"
           - title: Actions you can perform on volumes
             url: "/sm-storage/actions-you-can-perform-on-volumes.html"
           - title: Capacity for volumes
@@ -287,7 +286,7 @@ sidebar:
           - title: Create workloads
             url: "/sm-storage/create-workloads.html"
           - title: Create volumes
-            url: "/sm-storage/create-volumes-storage.html"
+            url: "/sm-storage/create-volumes.html"
             entries:
             - title: 'Step 1: Select host for a volume'
               url: "/sm-storage/create-volumes-storage-step-1.html"
@@ -362,10 +361,10 @@ sidebar:
             url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
           - title: What do I need to know about host block size requirements?
             url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
-      - title: Hosts
+      - title: Hosts and host clusters
         entries:
         - title: Overview
-          url: "/sm-storage/generic-hosts.html"
+          url: "/sm-storage/overview-hosts.html"
         - title: Concepts
           entries:
           - title: Terms
@@ -384,9 +383,9 @@ sidebar:
             url: "/sm-settings/default-host-operating-system-type.html"
         - title: Configure host access
           entries:
-          - title: Detect host automatically
+          - title: Create host automatically
             url: "/sm-storage/create-host-automatically.html"
-          - title: Define host manually
+          - title: Create host manually
             url: "/sm-storage/create-host-manually.html"
           - title: Create host cluster
             url: "/sm-storage/create-host-cluster.html"
@@ -442,13 +441,15 @@ sidebar:
       - title: Snapshots
         entries:
         - title: Overview
-          url: "/sm-storage/generic-snapshots.html"
+          url: "/sm-storage/overview-snapshots.html"
         - title: Concepts
           entries:
-          - title: How snapshot images are used
-            url: "/sm-storage/how-snapshot-images-are-used.html"
-          - title: Overview of snapshot storage
-            url: "/sm-storage/overview-of-snapshot-storage.html"
+          - title: How snapshot storage works
+            url: "/sm-storage/how-snapshot-storage-works.html"
+          - title: Snapshot terminology
+            url: "/sm-storage/snapshot-terminology.html"
+          - title: Workflow for creating snapshot images and snapshot volumes
+            url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
           - title: Requirements
             url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
           - title: Base volumes, reserved capacity, and snapshot groups
@@ -459,10 +460,7 @@ sidebar:
             url: "/sm-storage/snapshot-volumes.html"
           - title: Snapshot rollback
             url: "/sm-storage/snapshot-rollback.html"
-          - title: Snapshot terminology
-            url: "/sm-storage/snapshot-terminology.html"
-          - title: Workflow for creating snapshot images and snapshot volumes
-            url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
+
         - title: Create snapshots and snapshot objects
           entries:
           - title: Create snapshot image
@@ -690,38 +688,40 @@ sidebar:
             url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
       - title: Remote storage
         entries:
-        - title: Concepts
-          entries:
-          - title: How Remote Storage works
-            url: "/sm-storage/rtv-how-remote-storage-works.html"
-          - title: Terms
-            url: "/sm-storage/rtv-terminology.html"
-          - title: Requirements
-            url: "/sm-storage/rtv-remote-storage-requirements.html"
+          - title: Overview
+            url: "/sm-storage/overview-remote-storage.html"
+          - title: Concepts
+            entries:
+            - title: How Remote Storage works
+              url: "/sm-storage/rtv-how-remote-storage-works.html"
+            - title: Terms
+              url: "/sm-storage/rtv-terminology.html"
+            - title: Requirements
+              url: "/sm-storage/rtv-remote-storage-requirements.html"
           - title: Volume requirements
             url: "/sm-storage/rtv-remote-storage-volume-requirements.html"
-        - title: Manage remote storage
-          entries:
-          - title: Import remote storage
-            url: "/sm-storage/rtv-import-remote-storage.html"
-          - title: Manage progress of remote storage imports
-            url: "/sm-storage/rtv-manage-progress-of-remote-volume-import.html"
-          - title: Modify connection settings for remote storage
-            url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
-          - title: Remove remote storage object
-            url: "/sm-storage/rtv-remove-remote-storage.html"
-        - title: FAQs
-          entries:
-          - title: What do I need to know before creating a remote storage connection?
-            url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
-          - title: Why am I being prompted to remove my remote volumes?
-            url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
-          - title: Why don&#8217;t I see all my volumes on my destination array?
-            url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
-          - title: What do I need to know about the remote volume in an import?
-            url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
-          - title: What do I need to know before starting a remote storage import?
-            url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
+          - title: Manage remote storage
+            entries:
+            - title: Import remote storage
+              url: "/sm-storage/rtv-import-remote-storage.html"
+            - title: Manage progress of remote storage imports
+              url: "/sm-storage/rtv-manage-progress-of-remote-volume-import.html"
+            - title: Modify connection settings for remote storage
+              url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
+            - title: Remove remote storage object
+              url: "/sm-storage/rtv-remove-remote-storage.html"
+          - title: FAQs
+            entries:
+            - title: What do I need to know before creating a remote storage connection?
+              url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
+            - title: Why am I being prompted to remove my remote volumes?
+              url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
+            - title: Why don&#8217;t I see all my volumes on my destination array?
+              url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
+            - title: What do I need to know about the remote volume in an import?
+              url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
+            - title: What do I need to know before starting a remote storage import?
+              url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
       - title: Hardware components
         entries:
         - title: Overview
@@ -1328,6 +1328,7 @@ sidebar:
             url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
 
   - title: Unified Manager
+    url: "/unified-manager/index.html"
     entries:
     - title: Main interface
       entries:
@@ -1597,10 +1598,12 @@ homepage:
            url: /um-admin/home-page-unified.html
      - title: E-series docs
        links:
-         - title: E-Series platform docs
+         - title: E-Series systems docs
            url: https://docs.netapp.com/us-en/e-series/index.html
          - title: Command Line Interface (CLI) reference
-           url:  https://docs.netapp.com/us-en/e-series-cli/index.html
+           links:
+             - title: datasheet
+               url:  https://docs.netapp.com/us-en/e-series-cli/index.html
      - title: SANtricity APIs
        links:
          - title: Web services

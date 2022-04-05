@@ -10,7 +10,7 @@ summary: "To initiate a storage import from a remote system to a local E-Series 
 :imagesdir: ../media/
 
 [.lead]
-To initiate a storage import from a remote system to a local E-Series storage system, use the Import Remote Storage wizard.
+To initiate a storage import from a remote system to a local E-Series storage system, use the *Import Remote Storage* wizard.
 
 .Before you begin
 
