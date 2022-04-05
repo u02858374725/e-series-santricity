@@ -5,6 +5,7 @@ keywords: activate, controller, software, firmware
 summary: "You can choose to activate the upgrade files immediately or wait until a more convenient time."
 ---
 = Activate controller software and firmware
+:experimental:
 :icons: font
 :imagesdir: ../media/
 

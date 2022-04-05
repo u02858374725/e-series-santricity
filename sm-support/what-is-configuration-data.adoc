@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/what-is-configuration-data.html
 sidebar: sidebar
-keywords: 
-summary: 'When you select Collect Configuration Data, the system saves the current state of the RAID configuration database.'
+keywords: what, define, configuration, data, collect, database
+summary: "When you select Collect Configuration Data, the system saves the current state of the RAID configuration database."
 ---
 = What is configuration data?
 :icons: font

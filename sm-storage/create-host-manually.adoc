@@ -26,7 +26,7 @@ Keep these guidelines in mind when you create a host:
 . Select menu:Storage[Hosts].
 . Click menu:Create[Host].
 +
-The Create Host dialog box appears.
+The *Create Host* dialog box appears.
 
 . Select the settings for the host as appropriate.
 +

@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/storage-array-status.html
 sidebar: sidebar
-keywords: 
-summary: 'When you open SANtricity Unified Manager, communication with each storage array is established and the status for each storage array is displayed.'
+keywords: storage, array, status, communication, santricity
+summary: "When you open SANtricity Unified Manager, communication with each storage array is established and the status for each storage array is displayed."
 ---
 = Storage array status
 :icons: font
@@ -13,6 +13,7 @@ When you open SANtricity Unified Manager, communication with each storage array 
 
 You can view the status of the storage array and the status of the connection between the Web Services Proxy and that storage array.
 
+[cols="25h,~",options="header"]
 |===
 | Status| Indicates
 a|

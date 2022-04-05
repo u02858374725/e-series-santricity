@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/step-3-select-the-secondary-volume-um-async.html
 sidebar: sidebar
-keywords: 
-summary: 'Select the secondary volume that you want to use in the mirror relationship and allocate its reserved capacity.'
+keywords: step 3, select, secondary, volume
+summary: "Select the secondary volume that you want to use in the mirror relationship and allocate its reserved capacity."
 ---
 = Step 3: Select the secondary volume
 :icons: font
@@ -11,18 +11,18 @@ summary: 'Select the secondary volume that you want to use in the mirror relatio
 [.lead]
 Select the secondary volume that you want to use in the mirror relationship and allocate its reserved capacity.
 
-== Before you begin
+.Before you begin
 
 * You must have created the secondary volume on the remote storage array that you want to use in the asynchronous mirror relationship.
 * The secondary volume must be at least as large as the primary volume.
 
-== About this task
+.About this task
 
 When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
 
 Any volumes you add to the mirror consistency group on the remote storage array will hold the secondary role in the mirror relationship.
 
-== Steps
+.Steps
 
 . From the list of eligible volumes, select a volume that you want to use as the secondary volume in the mirrored pair, and then click *Next* to allocate the reserved capacity.
 . From the list of eligible candidates, select reserved capacity for the secondary volume.
@@ -37,7 +37,7 @@ Keep the following guidelines in mind:
 
 . Select *Finish* to complete the asynchronous mirroring sequence.
 
-== Results
+.Results
 
 Unified Manager performs the following actions:
 

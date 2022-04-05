@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/edit-directory-server-settings-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings.'
+keywords: edit, directory, server, settings, role, mappings
+summary: "If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings."
 ---
 = Edit directory server settings and role mappings
 :icons: font
@@ -11,25 +11,31 @@ summary: 'If you previously configured a directory server in Access Management, 
 [.lead]
 If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
 * A directory server must be defined.
 
-== Steps
+.Steps
 
 . Select *Access Management*.
 . Select the *Directory Services* tab.
 . If more than one server is defined, select the server you want to edit from the table.
 . Select *View/Edit Settings*.
 +
-TheDirectory Server Settings dialog box opens.
+The *Directory Server Settings* dialog box opens.
 
 . In the *Server Settings* tab, change the desired settings.
 +
+.Field Details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+
 |===
 | Setting| Description
-a|
+2+a|
 *Configuration settings*
 a|
 Domain(s)
@@ -51,7 +57,7 @@ a|
 Test server connection before saving
 a|
 Checks that the system can communicate with the LDAP server configuration. The test occurs after you click *Save*. If this checkbox is selected and the test fails, the configuration is not changed. You must resolve the error or clear the checkbox to skip the testing and re-edit the configuration.
-a|
+2+a|
 *Privilege settings*
 a|
 Search base DN
@@ -60,48 +66,51 @@ The LDAP context to search for users, typically in the form of `CN=Users, DC=cop
 a|
 Username attribute
 a|
-The attribute that is bound to the user ID for authentication. For example: `sAMAccountName`.
+The attribute that is bound to the user ID for authentication. For example:
+`sAMAccountName`.
 a|
 Group attribute(s)
 a|
-A list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
+A list of group attributes on the user, which is used for group-to-role mapping. For example:
+`memberOf, managedObjects`.
 |===
+====
 
 . In the *Role Mapping* tab, change the desired mapping.
 +
+.Field Details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+
 |===
 | Setting| Description
-a|
+2+a|
 *Mappings*
 a|
 Group DN
 a|
-The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
-+
-----
-\.[]{}()<>*+-=!?^$|
-----
+The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (\) if they are not part of a regular expression pattern:
+
+\.[]{}()<>*+-=!?^$\|
 a|
 Roles
 a|
 The roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity Unified Manager.    The roles include the following:
 
- ** *Storage admin* -- Full read/write access to storage objects on the arrays, but no access to the security configuration.
- ** *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
- ** *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
- ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
-
-+
+** *Storage admin* -- Full read/write access to storage objects on the arrays, but no access to the security configuration.
+** *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
+** *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
+** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
 |===
+====
 +
-[NOTE]
-====
-The Monitor role is required for all users, including the administrator.
-====
+NOTE: The Monitor role is required for all users, including the administrator.
 
 . If desired, click *Add another mapping* to enter more group-to-role mappings.
 . Click *Save*.
 
-== Results
+.Results
 
 After you complete this task, any active user sessions are terminated. Only your current user session is retained.

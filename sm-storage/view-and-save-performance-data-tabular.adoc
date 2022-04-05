@@ -18,7 +18,7 @@ You can view and save performance graphs data in tabular format. This allows you
 A table appears that lists all the performance data for the selected objects.
 
 . Use the object selection pull-down and the filter as needed.
-. Click the Show/Hide Columns button to select the columns you want to include in the table.
+. Click the *Show/Hide Columns* button to select the columns you want to include in the table.
 +
 You can click each check box to select or deselect an item.
 

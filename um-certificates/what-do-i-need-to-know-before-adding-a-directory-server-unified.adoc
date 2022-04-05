@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'Before adding a directory server in Access Management, you must meet certain requirements.'
+keywords: what, do, need, know, adding, directory, server
+summary: "Before adding a directory server in Access Management, you must meet certain requirements."
 ---
 = What do I need to know before adding a directory server?
 :icons: font

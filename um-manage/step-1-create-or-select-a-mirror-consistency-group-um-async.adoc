@@ -1,30 +1,31 @@
 ---
 permalink: um-manage/step-1-create-or-select-a-mirror-consistency-group-um-async.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a new mirror consistency group or select an existing one.'
+keywords: create, select, mirror, consistency, group
+summary: "You can create a new mirror consistency group or select an existing one."
 ---
 = Step 1: Create or select a mirror consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can create a new mirror consistency group or select an existing one.
 
-== Before you begin
+.Before you begin
 
 * To create a new mirror consistency group, the local and remote storage arrays must be discovered in Unified Manager.
 
-== About this task
+.About this task
 
 A mirror consistency group is a container for the primary and secondary volumes (the mirrored pair), and specifies the desired resynchronization method (manual or automatic) for all pairs in the group.
 
-== Steps
+.Steps
 
 . From the *Manage* page, select the local storage array that you want to use for the source.
-. Select *Actions* > *Create Asynchronous Mirrored Pair*.
+. Select menu:Actions[Create Asynchronous Mirrored Pair].
 +
-The Create Asynchronous Mirrored Pair wizard opens.
+The *Create Asynchronous Mirrored Pair* wizard opens.
 
 . Select either an existing mirror consistency group or create a new one.
 +
@@ -32,23 +33,23 @@ To select an existing group, make sure *An existing mirror consistency group* is
 +
 To create a new group, do the following:
 
- .. Select *A new mirror consistency group*, and then click *Next*.
- .. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 30 characters and may not contain spaces.
- .. Select the remote storage array on which you want to establish a mirror relationship with the local storage array.
+.. Select *A new mirror consistency group*, and then click *Next*.
+.. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 30 characters and may not contain spaces.
+.. Select the remote storage array on which you want to establish a mirror relationship with the local storage array.
 +
 [NOTE]
 ====
 If your remote storage array is password protected, the system prompts for a password.
 ====
 
- .. Choose whether you want to synchronize the mirrored pairs manually or automatically:
-  *** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to *Storage* > *Asynchronous Mirroring*, select the group from the *Mirror Consistency Groups* tab, and then select *More* > *Manually resynchronize*.
-  *** *Automatic* -- Select the desired interval in *Minutes*, *Hours*, or *Days*, from the beginning of the previous update to the beginning of the next update. For example, if the synchronization interval is set at 30 minutes, and the synchronization process starts at 4:00 p.m., the next process starts at 4:30 p.m.
- .. Select the desired alert settings:
-  *** For manual synchronizations, specify the threshold (defined by the percentage of the capacity remaining) for when you receive alerts.
-  *** For automatic synchronizations, you can set three methods of alerting: when the synchronization has not completed in a specific length of time, when the recovery point data on the remote array is older than a specific time limit, and when the reserved capacity is nearing a specific threshold (defined by the percentage of the capacity remaining).
+.. Choose whether you want to synchronize the mirrored pairs manually or automatically:
+*** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to menu:Storage[Asynchronous Mirroring], select the group from the *Mirror Consistency Groups* tab, and then select menu:More[Manually resynchronize].
+*** *Automatic* -- Select the desired interval in *Minutes*, *Hours*, or *Days*, from the beginning of the previous update to the beginning of the next update. For example, if the synchronization interval is set at 30 minutes, and the synchronization process starts at 4:00 p.m., the next process starts at 4:30 p.m.
+.. Select the desired alert settings:
+*** For manual synchronizations, specify the threshold (defined by the percentage of the capacity remaining) for when you receive alerts.
+*** For automatic synchronizations, you can set three methods of alerting: when the synchronization has not completed in a specific length of time, when the recovery point data on the remote array is older than a specific time limit, and when the reserved capacity is nearing a specific threshold (defined by the percentage of the capacity remaining).
 
-. Select *Next* and go to link:step-2-select-the-primary-volume-um-async.md#[Step 2: Select the primary volume].
+. Select *Next* and go to link:step-2-select-the-primary-volume-um-async.html[Step 2: Select the primary volume].
 +
 If you defined a new mirror consistency group, Unified Manager creates the mirror consistency group on the local storage array first and then creates the mirror consistency group on the remote storage array. You can view and manage the mirror consistency group by launching System Manager for each array.
 +

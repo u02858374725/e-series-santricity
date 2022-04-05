@@ -13,8 +13,7 @@ summary: "You can gather various types of inventory, status, and performance dat
 You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis.
 
 .About this task
---
-
+++ ++
 [NOTE]
 ====
 If the AutoSupport feature is enabled, you can also collect this data by going to the *AutoSupport* tab and selecting *Send AutoSupport Dispatch*.

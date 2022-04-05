@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/mirroring-configuration-workflow.html
 sidebar: sidebar
-keywords: 
-summary: 'You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations.'
+keywords: mirroring, configuration, workflow
+summary: "You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations."
 ---
 = Mirroring configuration workflow
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/workflow-for-autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'In SANtricity System Manager, you configure the AutoSupport feature by following these steps.'
+keywords: workflow, autosupport, feature
+summary: "In SANtricity System Manager, you configure the AutoSupport feature by following these steps."
 ---
 = Workflow for the AutoSupport feature
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/workflow-for-controller-software-and-firmware-upgrade.html
 sidebar: sidebar
-keywords: 
-summary: 'In SANtricity System Manager, you can upgrade the controller software and firmware by following these steps.'
+keywords: workflow, controller, software, firmware upgrade
+summary: "In SANtricity System Manager, you can upgrade the controller software and firmware by following these steps."
 ---
 = Workflow for controller software and firmware upgrade
 :icons: font

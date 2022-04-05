@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/create-asynchronous-mirrored-pair-um.html
 sidebar: sidebar
-keywords: 
-summary: 'To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.'
+keywords: create, asynchronous, mirrored, pair
+summary: "To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array."
 ---
 = Create asynchronous mirrored pair
 :experimental:
@@ -12,8 +12,8 @@ summary: 'To configure asynchronous mirroring, you create a mirrored pair that i
 [.lead]
 To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
 
-== Before you begin
-
+.Before you begin
+++ ++
 [NOTE]
 ====
 This feature is not available on the EF600 or EF300 storage system.
@@ -36,6 +36,6 @@ Also be sure to meet the following requirements for storage arrays:
 * Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
 * You have created both the primary and secondary volumes that you want to use in the asynchronous mirror relationship.
 
-== About this task
+.About this task
 
 The process to create an asynchronous mirrored pair is a multi-step procedure.

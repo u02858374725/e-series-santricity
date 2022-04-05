@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/what-are-the-local-users.html
 sidebar: sidebar
-keywords: 
-summary: 'Local users are predefined in the system and include specific permissions.'
+keywords: what, local, users
+summary: "Local users are predefined in the system and include specific permissions."
 ---
 = What are the local users?
 :icons: font

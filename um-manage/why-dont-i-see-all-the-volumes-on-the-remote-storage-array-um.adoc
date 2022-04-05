@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html
 sidebar: sidebar
-keywords: 
-summary: 'When you are selecting a secondary volume on the remote storage array, a list shows all the eligible volumes for that mirrored pair.'
+keywords: why, not, see, volumes, remote, storage, array
+summary: "When you are selecting a secondary volume on the remote storage array, a list shows all the eligible volumes for that mirrored pair."
 ---
 = Why don't I see all the volumes on the remote storage array?
 :icons: font

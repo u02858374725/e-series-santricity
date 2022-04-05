@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html
 sidebar: sidebar
-keywords: 
-summary: 'The AutoSupport feature and the manual Support Data Collection feature provide ways to collect data in a customer support bundle for remote troubleshooting and problem analysis by technical support.'
+keywords: data, collection, autosupport, collection
+summary: "The AutoSupport feature and the manual Support Data Collection feature provide ways to collect data in a customer support bundle for remote troubleshooting and problem analysis by technical support."
 ---
 = What data am I collecting?
 :icons: font

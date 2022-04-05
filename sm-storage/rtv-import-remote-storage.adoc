@@ -10,7 +10,7 @@ summary: "To initiate a storage import from a remote system to a local E-Series 
 :imagesdir: ../media/
 
 [.lead]
-To initiate a storage import from a remote system to a local E-Series storage system, use the Import Remote Storage wizard.
+To initiate a storage import from a remote system to a local E-Series storage system, use the *Import Remote Storage* wizard.
 
 .Before you begin
 
@@ -18,7 +18,7 @@ To initiate a storage import from a remote system to a local E-Series storage sy
 +
 [NOTE]
 ====
-Hardware configuration is described in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
+Hardware configuration is described in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html[Remote Storage Volumes overview^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
 ====
 
 * For the remote storage system, gather the following information:

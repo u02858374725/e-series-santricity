@@ -1,17 +1,18 @@
 ---
 permalink: um-manage/activate-pending-firmware.html
 sidebar: sidebar
-keywords: 
-summary: 'You can choose to activate the software file immediately or wait until a more convenient time. This procedure assumes you chose to activate the software file at a later time.'
+keywords: activate, staged, os, software
+summary: "You can choose to activate the software file immediately or wait until a more convenient time. This procedure assumes you chose to activate the software file at a later time."
 ---
 = Activate staged OS software
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can choose to activate the software file immediately or wait until a more convenient time. This procedure assumes you chose to activate the software file at a later time.
 
-== About this task
+.About this task
 
 You can transfer the firmware files without activating them. You might choose to activate later for these reasons:
 
@@ -23,10 +24,10 @@ You can transfer the firmware files without activating them. You might choose to
 You cannot stop the activation process after it starts.
 ====
 
-== Steps
+.Steps
 
 . From the main view, select *Manage*. If necessary, click the Status column to sort, at the top of the page, all storage arrays with a status of "OS Upgrade (awaiting activation)."
-. Select one or more storage arrays that you want to activate software for, and then select *Upgrade Center* > *Activate Staged OS Software*.
+. Select one or more storage arrays that you want to activate software for, and then select menu:Upgrade Center[Activate Staged OS Software].
 +
 The following actions occur during the upgrade operation:
 
@@ -35,6 +36,6 @@ The following actions occur during the upgrade operation:
  ** You can cancel the activate operation after the pre-upgrade health check.
 On successful completion of the pre-upgrade health check, activation occurs. The time it takes to activate depends on your storage array configuration and the components that you are activating.
 
-. (Optional) After the activation is complete, you can see a list of what was activated for a specific storage array by clicking the ellipsis (...) and then selecting *Save Log*.
+. *Optional:* After the activation is complete, you can see a list of what was activated for a specific storage array by clicking the ellipsis (...) and then selecting *Save Log*.
 +
 The file is saved in the Downloads folder for your browser with the name `activate_log-<date>.json`.

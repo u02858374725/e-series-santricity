@@ -41,7 +41,7 @@ This topic applies only to standard volumes created from pools or volume groups.
 .Steps
 
 . Select menu:Storage[Volumes].
-. Select any volume, and then select *More* > *Initialize volumes*.
+. Select any volume, and then select menu:More[Initialize volumes].
 +
 The *Initialize Volumes* dialog box appears. All volumes on the storage array appear in this dialog box.
 

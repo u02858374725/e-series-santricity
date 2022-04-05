@@ -1,17 +1,18 @@
 ---
 permalink: sm-support/view-iscsi-statistics-packages-support.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view data about the iSCSI connections to your storage array.'
+keywords: view, iscsi, statistics, packages
+summary: "You can view data about the iSCSI connections to your storage array."
 ---
 = View iSCSI statistics packages
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can view data about the iSCSI connections to your storage array.
 
-== About this task
+.About this task
 
 System Manager shows these types of iSCSI statistics. All statistics are read-only and cannot be set.
 
@@ -24,9 +25,9 @@ System Manager shows these types of iSCSI statistics. All statistics are read-on
 
 You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select menu:Support[Support Center > Diagnostics] tab.
 . Select *View iSCSI Statistics Packages*.
 . Click a tab to view the different sets of statistics.
 . To set the baseline, click *Set new baseline*.

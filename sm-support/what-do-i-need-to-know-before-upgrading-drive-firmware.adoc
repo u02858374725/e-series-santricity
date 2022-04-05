@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html
 sidebar: sidebar
-keywords: 
-summary: 'Before upgrading your drive firmware, be aware of these items.'
+keywords: what, do, need, know, before, upgrading, drive, firmware
+summary: "Before upgrading your drive firmware, be aware of these items."
 ---
 = What do I need to know before upgrading drive firmware?
 :icons: font
