@@ -116,15 +116,11 @@ Click in the field and select one of the local user roles to be mapped to the Gr
 ** *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
 ** *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
 ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
-
 |===
 ====
 
 +
-[NOTE]
-====
-The Monitor role is required for all users, including the administrator.
-====
+NOTE: The Monitor role is required for all users, including the administrator.
 
 . If desired, click *Add another mapping* to enter more group-to-role mappings.
 . When you are finished with the mappings, click *Add*.
