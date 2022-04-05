@@ -104,9 +104,9 @@ Enter a list of group attributes on the user, which is used for group-to-role ma
 a|
 Group DN
 a|
-Specify the group distinguished name (DN) for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
+Specify the group distinguished name (DN) for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (\) if they are not part of a regular expression pattern:
 
-`\.[]{}()<>*+-=!?^$\|`
+\.[]{}()<>*+-=!?^$\|
 a|
 Roles
 a|
@@ -116,8 +116,10 @@ Click in the field and select one of the local user roles to be mapped to the Gr
 ** *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
 ** *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
 ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
 |===
 ====
+
 +
 [NOTE]
 ====

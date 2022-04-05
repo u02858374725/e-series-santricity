@@ -30,6 +30,7 @@ The *Directory Server Settings* dialog box opens.
 .Field Details
 [%collapsible]
 ====
+
 [cols="25h,~",options="header"]
 |===
 | Setting| Description
@@ -64,11 +65,14 @@ The LDAP context to search for users, typically in the form of `CN=Users, DC=cop
 a|
 Username attribute
 a|
-The attribute that is bound to the user ID for authentication. For example: `sAMAccountName`.
+The attribute that is bound to the user ID for authentication. For example:
+`sAMAccountName`.
 a|
 Group attribute(s)
 a|
-A list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
+A list of group attributes on the user, which is used for group-to-role mapping. For example:
+`memberOf, managedObjects`.
+
 |===
 ====
 
@@ -85,9 +89,9 @@ A list of group attributes on the user, which is used for group-to-role mapping.
 a|
 Group DN
 a|
-The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
+The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (\) if they are not part of a regular expression pattern:
 
-`\.[]{}()<>*+-=!?^$\|`
+\.[]{}()<>*+-=!?^$\|
 a|
 Roles
 a|
