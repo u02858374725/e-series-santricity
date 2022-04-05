@@ -2,7 +2,7 @@
 permalink: sm-storage/create-volumes-hosts-step-3.html
 sidebar: sidebar
 keywords: add, edit, volumes
-summary: "System Manager may suggest a volume configuration based on the application or workload you selected. This volume configuration is optimized based on the type of application the workload supports. You can accept the recommended volume configuration or you can edit it as needed. If you selected one of the "Other" applications, you must manually specify the volumes and characteristics you want to create."
+summary: "System Manager may suggest a volume configuration based on the application or workload you selected. This volume configuration is optimized based on the type of application the workload supports. You can accept the recommended volume configuration or you can edit it as needed. If you selected one of the 'Other' applications, you must manually specify the volumes and characteristics you want to create."
 ---
 = Step 3: Add or edit volumes
 :experimental:
