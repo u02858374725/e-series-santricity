@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'When you create a secondary volume for the asynchronous mirrored pair, the system displays a list of all the eligible pools and volume groups for that asynchronous mirrored pair. Any pool or volume group that is not eligible to be used does not display in that list.'
+keywords: create, a, secondary, volume, for, the, asynchronous, mirrored, pair,
+summary: "When you create a secondary volume for the asynchronous mirrored pair, the system displays a list of all the eligible pools and volume groups for that asynchronous mirrored pair. Any pool or volume group that is not eligible to be used does not display in that list."
 ---
 = Why don't I see all of my pools and volume groups?
 :icons: font

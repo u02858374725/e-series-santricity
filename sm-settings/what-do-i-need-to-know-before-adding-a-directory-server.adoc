@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html
 sidebar: sidebar
-keywords: 
-summary: 'Before adding a directory server in Access Management, make sure you meet the following requirements.'
+keywords: what, do, I, need, to, know, before, adding, a, directory, server,
+summary: "Before adding a directory server in Access Management, make sure you meet the following requirements."
 ---
 = What do I need to know before adding a directory server?
 :icons: font

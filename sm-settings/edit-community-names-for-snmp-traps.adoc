@@ -1,23 +1,24 @@
 ---
 permalink: sm-settings/edit-community-names-for-snmp-traps.html
 sidebar: sidebar
-keywords: 
-summary: 'You can edit community names for SNMPv2c traps.'
+keywords: edit, communities, for, smpv2c, traps,
+summary: "You can edit community names for SNMPv2c traps."
 ---
 = Edit communities for SNMPv2c traps
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can edit community names for SNMPv2c traps.
 
-== Before you begin
+.Before you begin
 
 A community name must be created.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Setting[Alerts].
 . Select the *SNMP* tab.
 +
 The trap destinations and community names appear in the table.
@@ -25,6 +26,6 @@ The trap destinations and community names appear in the table.
 . Select *Configure Communities*.
 . Enter the new community name, and then click *Save*. Community names can consist of only printable ASCII characters.
 
-== Results
+.Results
 
-The SNMP tab of the Alerts page displays the updated community name.
+The *SNMP* tab of the *Alerts* page displays the updated community name.

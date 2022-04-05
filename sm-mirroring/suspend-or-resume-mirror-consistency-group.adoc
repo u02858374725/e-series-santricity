@@ -1,36 +1,37 @@
 ---
 permalink: sm-mirroring/suspend-or-resume-mirror-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can suspend or resume the synchronization of data on all mirrored pairs within a mirror consistency group, which is more efficient than suspending or resuming synchronization on individual mirrored pairs.'
+keywords: suspend, resume, synchronization, mirror, consistency, group,
+summary: "You can suspend or resume the synchronization of data on all mirrored pairs within a mirror consistency group, which is more efficient than suspending or resuming synchronization on individual mirrored pairs."
 ---
 = Suspend or resume synchronization for mirror consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can suspend or resume the synchronization of data on all mirrored pairs within a mirror consistency group, which is more efficient than suspending or resuming synchronization on individual mirrored pairs.
 
-== About this task
+.About this task
 
 Suspending and resuming synchronization on groups helps to reduce any performance impact to the host application, which might occur while any changed data on the local storage array is copied to the remote storage array.
 
 The state of the mirror consistency group and its mirrored pairs stay suspended until you use the Resume option to resume synchronization activity.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Asynchronous Mirroring*.
+. Select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirrored Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
 
-. Select the mirror consistency group that you want to suspend or resume, and then select either *More* > *Suspend* or *More* > *Resume*.
+. Select the mirror consistency group that you want to suspend or resume, and then select either menu:More[Suspend] or menu:More[Resume].
 +
 The system displays a confirmation.
 
 . Select *Yes* to confirm.
 
-== Results
+.Results
 
 System Manager performs the following actions:
 

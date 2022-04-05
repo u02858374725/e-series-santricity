@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/storage-array-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'A storage array is a storage entity that is managed by the System Manager software. A storage array consists of a collection of both physical components and logical components.'
+keywords: storage, array, overview, system, manager, software,
+summary: "A storage array is a storage entity that is managed by the System Manager software. A storage array consists of a collection of both physical components and logical components."
 ---
 = Storage array overview
 :icons: font
@@ -15,6 +15,7 @@ A storage array is a storage entity that is managed by the System Manager softwa
 
 The physical components of a storage array are described in this table.
 
+[cols="1a,1a" options="header"]
 |===
 | Component| Description
 a|
@@ -63,6 +64,7 @@ A management client is the computer where a browser is installed for accessing S
 
 The drives in the storage array provide the physical storage capacity for data. Use System Manager to configure the physical capacity into logical components, such as pools, volume groups, and volumes. These components are the tools that you use to configure, store, maintain, and preserve data on the storage array. The logical components of a storage array are described in this table.
 
+[cols="1a,1a" options="header"]
 |===
 | Component| Description
 a|

@@ -1,19 +1,20 @@
 ---
 permalink: sm-settings/delete-trap-destinations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a trap destination address so that the storage array’s event monitor no longer sends SNMP traps to that address.'
+keywords: delete, trap, destinations,
+summary: "You can delete a trap destination address so that the storage array’s event monitor no longer sends SNMP traps to that address."
 ---
 = Delete trap destinations
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can delete a trap destination address so that the storage array's event monitor no longer sends SNMP traps to that address.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *SNMP* tab.
 +
 The trap destination addresses appear in the table.
@@ -21,8 +22,8 @@ The trap destination addresses appear in the table.
 . Select a trap destination, and then click *Delete* in the upper right of the page.
 . Confirm the operation, and then click *Delete*.
 +
-The destination address no longer appears on the Alerts page.
+The destination address no longer appears on the *Alerts* page.
 
-== Results
+.Results
 
 The deleted trap destination no longer receives SNMP traps from the storage array's event monitor.

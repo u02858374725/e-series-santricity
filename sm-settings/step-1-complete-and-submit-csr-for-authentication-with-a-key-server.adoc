@@ -1,27 +1,28 @@
 ---
 permalink: sm-settings/step-1-complete-and-submit-csr-for-authentication-with-a-key-server.html
 sidebar: sidebar
-keywords: 
-summary: 'You must first generate a certificate signing request \(CSR\) file, and then use the CSR to request a signed client certificate from a certificate authority \(CA\) that is trusted by the key management server. You can also create and download a client certificate from the key management server using the downloaded CSR file.'
+keywords: step1, complete, and, submit, csr, for, authentication, with, a, key, management, server,
+summary: "You must first generate a certificate signing request (CSR) file, and then use the CSR to request a signed client certificate from a certificate authority (CA) that is trusted by the key management server. You can also create and download a client certificate from the key management server using the downloaded CSR file."
 ---
 = Step 1: Complete and submit CSR for authentication with a key management server
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You must first generate a certificate signing request (CSR) file, and then use the CSR to request a signed client certificate from a certificate authority (CA) that is trusted by the key management server. You can also create and download a client certificate from the key management server using the downloaded CSR file.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
-== About this task
+.About this task
 
 This task describes how to generate the CSR file, which you will then use to request a signed client certificate from a CA that is trusted by the key management server. A client certificate validates the storage array's controllers, so the key management server can trust their Key Management Interoperability Protocol (KMIP) requests. During this task, you must provide information about your organization.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Certificates*.
+. Select menu:Settings[Certificates].
 . From the *Key Management* tab, select *Complete CSR*.
 . Enter the following information:
  ** *Common name* -- A name that identifies this CSR, such as the storage array name, which will be displayed in the certificate files.
@@ -36,6 +37,6 @@ A CSR file is saved to your local system.
 
 . Request a signed client certificate from a CA that is trusted by the key management server.
 
-== After you finish
+.After you finish
 
-When you have a client certificate, go to link:step-2-import-certificates-for-key-management-server.md#[Step 2: Import certificates for the key management server].
+When you have a client certificate, go to link:step-2-import-certificates-for-key-management-server.html[Step 2: Import certificates for the key management server].

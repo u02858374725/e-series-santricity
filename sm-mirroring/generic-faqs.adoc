@@ -1,10 +1,10 @@
 ---
 permalink: sm-mirroring/generic-faqs.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: frequently, asked, questions, faqs, 
+summary: "FAQs"
 ---
-= image:../media/sam1130-icon-faqs.gif[] FAQs
+= FAQs
 :icons: font
 :imagesdir: ../media/
 

@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/iscsi-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the iSCSI terms apply to your storage array.'
+keywords: iscsi terminology
+summary: "Learn how the iSCSI terms apply to your storage array."
 ---
 = iSCSI terminology
 :icons: font
@@ -11,12 +11,13 @@ summary: 'Learn how the iSCSI terms apply to your storage array.'
 [.lead]
 Learn how the iSCSI terms apply to your storage array.
 
+[cols="1a,1a" options="header"]
 |===
 | Term| Description
 a|
 CHAP
 a|
-The Challenge Handshake Authentication Protocol (CHAP) method validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP__secret__.
+The Challenge Handshake Authentication Protocol (CHAP) method validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP __secret__.
 a|
 Controller
 a|

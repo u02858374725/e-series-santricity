@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/setup-wizard-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'Use the Setup wizard to configure your storage array, including hardware, hosts, applications, workloads, pools, alerts, and AutoSupport.'
+keywords: setup, wizard, overview, 
+summary: "Use the Setup wizard to configure your storage array, including hardware, hosts, applications, workloads, pools, alerts, and AutoSupport."
 ---
 = Setup wizard overview
 :icons: font

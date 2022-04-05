@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html
 sidebar: sidebar
-keywords: 
-summary: 'Mirroring is configured in the Unified Manager interface.'
+keywords: can't, access, my, chosen, mirroring, feature, configured, unified, manager, interface,
+summary: "Mirroring is configured in the Unified Manager interface."
 ---
 = Why can't I access my chosen mirroring feature?
 :icons: font

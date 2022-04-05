@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-is-cache-flushing.html
 sidebar: sidebar
-keywords: 
-summary: 'When the amount of unwritten data in the cache reaches a certain level, the controller periodically writes cached data to a drive. This write process is called "flushing."'
+keywords: what, is, cache, flushing,
+summary: "When the amount of unwritten data in the cache reaches a certain level, the controller periodically writes cached data to a drive. This write process is called flushing."
 ---
 = What is cache flushing?
 :icons: font
@@ -17,7 +17,7 @@ In System Manager, you can set the "`Start demand cache flushing`" threshold to 
 
 In an environment where the I/O is erratic (with data bursts), you can use low cache flushing so that the system flushes cache frequently between data bursts. In a diverse I/O environment that processes a variety of loads, or when the type of loads are unknown, set the threshold at 50 percent as a good middle ground. Be aware that if you choose a start percentage lower than 80 percent, you might see decreased performance because data needed for a host read might not be available. Choosing a lower percentage also increases the number of disk writes necessary to maintain the cache level, which increases system overhead.
 
-The age-based algorithm specifies the period of time during which write data can remain in the cache before it is eligible to be flushed to the disks. The controllers use the age-based algorithm until the cache flush threshold is reached. The default is 10 seconds, but this time period is counted only during periods of inactivity. You cannot modify the flush timing in System Manager; instead, you must use the Set Storage Array command in the command-line interface (CLI).
+The age-based algorithm specifies the period of time during which write data can remain in the cache before it is eligible to be flushed to the disks. The controllers use the age-based algorithm until the cache flush threshold is reached. The default is 10 seconds, but this time period is counted only during periods of inactivity. You cannot modify the flush timing in System Manager; instead, you must use the *Set Storage Array* command in the command-line interface (CLI).
 
 [NOTE]
 ====

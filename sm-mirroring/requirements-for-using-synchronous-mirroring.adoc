@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/requirements-for-using-synchronous-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'If you plan to use synchronous mirroring, keep the following requirements in mind.'
+keywords: requirements, using, synchronous, mirroring, requirements,
+summary: "If you plan to use synchronous mirroring, keep the following requirements in mind."
 ---
 = Requirements for using synchronous mirroring
 :experimental:

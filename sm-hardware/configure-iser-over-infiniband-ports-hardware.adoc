@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-iser-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: 
-summary: 'If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host.'
+keywords: configure, iser, infiniband, ports, network, connection
+summary: "If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host."
 ---
 = Configure iSER over InfiniBand ports
 :icons: font
@@ -11,12 +11,12 @@ summary: 'If your controller includes an iSER over InfiniBand port, you can conf
 [.lead]
 If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include an iSER over InfiniBand port; otherwise, the iSER over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.
@@ -29,7 +29,7 @@ The controller's context menu appears.
 
 . Select *Configure iSER over InfiniBand ports*.
 +
-The Configure iSER over InfiniBand Ports dialog box opens.
+The *Configure iSER over InfiniBand Ports* dialog box opens.
 
 . In the drop-down list, select the HIC port you want to configure, and then enter the IP address of the host.
 . Click *Configure*.

@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/step-3-import-signed-certificates-for-the-controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'After you receive signed certificates from the Certificate Authority \(CA\), import the files for the controllers.'
+keywords: step3, import, signed, certificates, for, controllers,
+summary: "After you receive signed certificates from the Certificate Authority (CA), import the files for the controllers."
 ---
 = Step 3: Import signed certificates for controllers
 :experimental:
@@ -12,19 +12,19 @@ summary: 'After you receive signed certificates from the Certificate Authority \
 [.lead]
 After you receive signed certificates from the Certificate Authority (CA), import the files for the controllers.
 
-== Before you begin
+.Before you begin
 
 * The CA returned signed certificate files. These files include the root certificate, one or more intermediate certificates, and the server certificates.
 * If the CA provided a chained certificate file (for example, a .p7b file), you must unpack the chained file into individual files: the root certificate, one or more intermediate certificates, and the server certificates that identify the controllers. You can use the Windows `certmgr` utility to unpack the files (right-click and select menu:All Tasks[Export]). Base-64 encoding is recommended. When the exports are complete, a CER file is shown for each certificate file in the chain.
 * You have copied the certificate files to the host system where you access System Manager.
 
-== About this task
+.About this task
 
 This task describes how to upload the certificate files.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Certificates*.
+. Select menu:Settings[Certificates]
 . From the *Array Management* tab, select *Import*.
 +
 A dialog box opens for importing the certificate file(s).
@@ -37,6 +37,6 @@ The file names are displayed in the dialog box.
 +
 The files are uploaded and validated.
 
-== Results
+.Results
 
 The session is automatically terminated. You must log in again for the certificates to take effect. When you log in again, the new CA-signed certificates are used for your session.

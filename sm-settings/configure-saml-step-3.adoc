@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/configure-saml-step-3.html
 sidebar: sidebar
-keywords: 
-summary: 'To provide users with authorization and access to System Manager, you must map the IdP user attributes and group memberships to the storage array’s predefined roles.'
+keywords: Step3, map, roles,
+summary: "To provide users with authorization and access to System Manager, you must map the IdP user attributes and group memberships to the storage array’s predefined roles."
 ---
 = Step 3: Map roles
 :icons: font
@@ -11,29 +11,32 @@ summary: 'To provide users with authorization and access to System Manager, you 
 [.lead]
 To provide users with authorization and access to System Manager, you must map the IdP user attributes and group memberships to the storage array's predefined roles.
 
-== Before you begin
+.Before you begin
 
 * An IdP administrator has configured user attributes and group membership in the IdP system.
 * The IdP metadata file is imported into System Manager.
 * A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
 
-== About this task
+.About this task
 
 In this task, you use System Manager to map IdP groups to local user roles.
 
-== Steps
+.Steps
 
-. Click the link for mapping System Manager roles.
+. Click the link for *mapping System Manager* roles.
 +
-The Role Mapping dialog box opens.
+The *Role Mapping* dialog box opens.
 
 . Assign IdP user attributes and groups to the predefined roles. A group can have multiple assigned roles.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Mappings*
 a|
 User Attribute
@@ -43,22 +46,21 @@ a|
 Attribute Value
 a|
 Specify the attribute value for the group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
-+
-----
-\.[]{}()<>*+-=!?^$|
-----
+\.[]{}()<>*+-=!?^$\|
+
 a|
 Roles
 a|
-Click in the field and select one of the storage array's roles to be mapped to the Attribute. You must individually select each role you want to include. The Monitor role is required in combination with the other roles to log in to System Manager. The Security Admin role is also required for at least one group.    The mapped roles include the following permissions:
+Click in the field and select one of the storage array's roles to be mapped to the Attribute. You must individually select each role you want to include. The Monitor role is required in combination with the other roles to log in to System Manager. The Security Admin role is also required for at least one group.
+
+The mapped roles include the following permissions:
 
  ** *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
  ** *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
  ** *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
  ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
-
-+
 |===
+====
 +
 [NOTE]
 ====

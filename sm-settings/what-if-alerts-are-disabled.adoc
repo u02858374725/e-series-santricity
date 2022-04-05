@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-if-alerts-are-disabled.html
 sidebar: sidebar
-keywords: 
-summary: 'If you want administrators to receive notifications about important events that occur in the storage array, you must configure an alerting method.'
+keywords: what, if, alerts, are, disabled,
+summary: "If you want administrators to receive notifications about important events that occur in the storage array, you must configure an alerting method."
 ---
 = What if alerts are disabled?
 :icons: font

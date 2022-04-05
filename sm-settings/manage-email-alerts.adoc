@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/manage-email-alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure alerts to be sent by email to the addresses you specify.'
+keywords: manage, email, alerts,
+summary: "You can configure alerts to be sent by email to the addresses you specify."
 ---
 = Manage email alerts
 :icons: font

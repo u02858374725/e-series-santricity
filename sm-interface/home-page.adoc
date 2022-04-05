@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/home-page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed.'
+keywords: home, page, system, manager,
+summary: "The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed."
 ---
 = Home page
 :icons: font

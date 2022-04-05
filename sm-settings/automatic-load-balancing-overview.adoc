@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/automatic-load-balancing-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'Automatic load balancing provides improved I/O resource management by reacting dynamically to load changes over time and automatically adjusting volume controller ownership to correct any load imbalance issues when workloads shift across the controllers.'
+keywords: automatic, load, balancing, overview,
+summary: "Automatic load balancing provides improved I/O resource management by reacting dynamically to load changes over time and automatically adjusting volume controller ownership to correct any load imbalance issues when workloads shift across the controllers."
 ---
 = Automatic load balancing overview
 :icons: font
@@ -40,6 +40,7 @@ This behavior prevents a host from losing access to a volume due to the load bal
 For a host cluster to be considered capable of Automatic Load Balancing, all hosts in that group must be capable of supporting Automatic Load Balancing.
 ====
 
+[cols="1a,1a" options="header"]
 |===
 | Host type supporting Automatic Load Balancing| With this multipath driver
 a|

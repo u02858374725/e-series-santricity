@@ -1,10 +1,10 @@
 ---
 permalink: sm-hardware/controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.'
+keywords: controllers, board, firmware, software,
+summary: "A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions."
 ---
-= image:../media/sam1130-icon-controllers.gif[] Controllers
+= Controllers
 :icons: font
 :imagesdir: ../media/
 

@@ -1,24 +1,25 @@
 ---
 permalink: sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring. You change the role between volumes in a mirrored pair for administrative purposes or in the event of a disaster on the local storage array.'
+keywords: change, role, volumes, mirrored, pair, administrative, purpose,
+summary: "You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring. You change the role between volumes in a mirrored pair for administrative purposes or in the event of a disaster on the local storage array."
 ---
 = Change role between volumes in a mirrored pair
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring. You change the role between volumes in a mirrored pair for administrative purposes or in the event of a disaster on the local storage array.
 
-== About this task
+.About this task
 
 You can either demote the primary volume to the secondary role or promote the secondary volume to the primary role. Any hosts that are accessing the primary volume have read/write access to the volume. When the primary volume becomes a secondary volume, only remote writes initiated by the primary controller are written to the volume.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Synchronous Mirroring*.
-. Select the mirrored pair that contains the volumes for which you want to change the role, and then select *More* > *Change role*.
+. Select menu:Storage[Synchronous Mirroring].
+. Select the mirrored pair that contains the volumes for which you want to change the role, and then select menu:More[Change Role].
 +
 The system displays a confirmation.
 
@@ -26,10 +27,10 @@ The system displays a confirmation.
 +
 [NOTE]
 ====
-If the local storage array cannot communicate with the remote storage array, the system displays the Cannot Contact Storage Array dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
+If the local storage array cannot communicate with the remote storage array, the system displays the *Cannot Contact Storage Array* dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
 ====
 
-== Results
+.Results
 
 System Manager performs the following action:
 

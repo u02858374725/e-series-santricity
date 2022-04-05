@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/create-external-security-key.html
 sidebar: sidebar
-keywords: 
-summary: 'To use the Drive Security feature with a key management server, you must create an external key that is shared by the key management server and the secure-capable drives in the storage array.'
+keywords: create, external, security, key,
+summary: "To use the Drive Security feature with a key management server, you must create an external key that is shared by the key management server and the secure-capable drives in the storage array."
 ---
 = Create external security key
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 To use the Drive Security feature with a key management server, you must create an external key that is shared by the key management server and the secure-capable drives in the storage array.
 
-== Before you begin
+.Before you begin
 
 * Secure-capable drives must be installed in the array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 +
@@ -20,7 +21,7 @@ To use the Drive Security feature with a key management server, you must create 
 If both FDE and FIPS drives are installed in the storage array, they all share the same security key.
 ====
 
-* The Drive Security feature must be enabled. Otherwise, a Cannot Create Security Key dialog box opens during this task. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+* The Drive Security feature must be enabled. Otherwise, a *Cannot Create Security Key* dialog box opens during this task. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
 * You have a signed client certificate file for the storage array's controllers, and you have copied that file to the host where you are accessing System Manager. A client certificate validates the storage array's controllers, so the key management server can trust their Key Management Interoperability Protocol (KMIP) requests.
 * You must retrieve a certificate file from the key management server, and then copy that file to the host where you are accessing System Manager. A key management server certificate validates the key management server, so the storage array can trust its IP address. You can use a root, intermediate, or server certificate for the key management server.
 +
@@ -29,13 +30,13 @@ If both FDE and FIPS drives are installed in the storage array, they all share t
 For more information about the server certificate, consult the documentation for your key management server.
 ====
 
-== About this task
+.About this task
 
 In this task, you define the IP address of the key management server and the port number it uses, and then load certificates for external key management.
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *Security key management*, select *Create External Key*.
 +
 [NOTE]
@@ -43,13 +44,13 @@ In this task, you define the IP address of the key management server and the por
 If internal key management is currently configured, a dialog box opens and asks you to confirm that you want to switch to external key management.
 ====
 +
-The Create External Security Key dialog box opens.
+The *Create External Security Key* dialog box opens.
 
 . Under *Connect to Key Server*, enter information in the following fields.
  ** *Key management server address* -- Enter the fully qualified domain name or the IP address (IPv4 or IPv6) of the server used for key management.
  ** *Key management port number* -- Enter the port number used for KMIP communications. The most common port number used for key management server communications is 5696.
 +
-Optionally, you can include another key server by clicking *Add Key Server*.
+*Optional:* you can include another key server by clicking *Add Key Server*.
 
  ** *Select client certificate* -- Click the first *Browse* button to select the certificate file for the storage array's controllers.
  ** *Select key management server's server certificate* -- Click the second *Browse* button to select the certificate file for the key management server. You can choose a root, intermediate, or server certificate for the key management server.
@@ -90,7 +91,7 @@ The page displays the following message with additional links for external key m
 +
 Test results display in the dialog box.
 
-== Results
+.Results
 
 When external key management is enabled, you can create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.
 
@@ -99,6 +100,6 @@ When external key management is enabled, you can create secure-enabled volume gr
 Whenever power to the drives is turned off and then on again, all the secure-enabled drives change to a Security Locked state. In this state, the data is inaccessible until the controller applies the correct security key during drive initialization. If someone physically removes a locked drive and installs it in another system, the Security Locked state prevents unauthorized access to its data.
 ====
 
-== After you finish
+.After you finish
 
 You should validate the security key to make sure the key file is not corrupted.

@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/how-certificates-work-sam.html
 sidebar: sidebar
-keywords: 
-summary: 'Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet.'
+keywords: how, certificates, work,
+summary: "Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet."
 ---
 = How certificates work
 :icons: font
@@ -28,9 +28,9 @@ When you open a browser and enter a web address, your system performs a certific
 
 The CA takes steps to verify your identity during the application process. They might send an email to your registered business, verify your business address, and perform an HTTP or DNS verification. When the application process is complete, the CA sends you digital files to load on a host management system. Typically, these files include a chain of trust, as follows:
 
-* Root -- At the top of the hierarchy is the root certificate, which contains a private key used to sign other certificates. The root identifies a particular CA organization. If you use the same CA for all your network devices, you need only one root certificate.
-* Intermediate -- Branching off from the root are the intermediate certificates. The CA issues one or more intermediate certificates to act as middlemen between a protected root and server certificates.
-* Server -- At the bottom of the chain is the server certificate, which identifies your specific entity, such as a website or other device. Each controller in an storage array requires a separate server certificate.
+* *Root* -- At the top of the hierarchy is the root certificate, which contains a private key used to sign other certificates. The root identifies a particular CA organization. If you use the same CA for all your network devices, you need only one root certificate.
+* *Intermediate* -- Branching off from the root are the intermediate certificates. The CA issues one or more intermediate certificates to act as middlemen between a protected root and server certificates.
+* *Server* -- At the bottom of the chain is the server certificate, which identifies your specific entity, such as a website or other device. Each controller in an storage array requires a separate server certificate.
 
 == Self-signed certificates
 

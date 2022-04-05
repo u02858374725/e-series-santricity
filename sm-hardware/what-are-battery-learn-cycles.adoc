@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/what-are-battery-learn-cycles.html
 sidebar: sidebar
-keywords: 
-summary: 'A learn cycle is an automatic cycle for calibrating the smart battery gauge.'
+keywords: battery, learn, cycle, automatic
+summary: "A learn cycle is an automatic cycle for calibrating the smart battery gauge."
 ---
 = What are battery learn cycles?
 :icons: font

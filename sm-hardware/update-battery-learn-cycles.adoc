@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/update-battery-learn-cycles.html
 sidebar: sidebar
-keywords: 
-summary: 'A learn cycle is an automatic cycle for calibrating the smart battery gauge. The cycles are scheduled to start automatically, at the same day and time, in 8-week intervals \(per controller\). If you want to set a different schedule, you can adjust the learn cycles.'
+keywords: update, battery, learn, cycles
+summary: "A learn cycle is an automatic cycle for calibrating the smart battery gauge. The cycles are scheduled to start automatically, at the same day and time, in 8-week intervals (per controller). If you want to set a different schedule, you can adjust the learn cycles."
 ---
 = Update battery learn cycles
 :icons: font
@@ -11,18 +11,18 @@ summary: 'A learn cycle is an automatic cycle for calibrating the smart battery 
 [.lead]
 A learn cycle is an automatic cycle for calibrating the smart battery gauge. The cycles are scheduled to start automatically, at the same day and time, in 8-week intervals (per controller). If you want to set a different schedule, you can adjust the learn cycles.
 
-== About this task
+.About this task
 
 Updating the learn cycles affect both controller batteries.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . Select the drop-down list for the Controller Shelf, and then select *View settings*.
 . Select the *Batteries* tab.
 . Select *Update battery learn cycles*.
 +
-The Update Battery Learn Cycles dialog box opens.
+The *Update Battery Learn Cycles* dialog box opens.
 
 . From the drop-down lists, select a new day and time.
 . Click *Save*.

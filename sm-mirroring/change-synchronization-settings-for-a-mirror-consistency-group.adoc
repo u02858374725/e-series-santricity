@@ -1,58 +1,59 @@
 ---
 permalink: sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the synchronization settings and warning thresholds that the mirror consistency group on the local storage array uses when data is initially synchronized or when data is re-synchronized during asynchronous mirroring operations.'
+keywords: change, synchronization, settings, mirror, consistency, group,
+summary: "You can change the synchronization settings and warning thresholds that the mirror consistency group on the local storage array uses when data is initially synchronized or when data is re-synchronized during asynchronous mirroring operations."
 ---
 = Change synchronization settings for a mirror consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the synchronization settings and warning thresholds that the mirror consistency group on the local storage array uses when data is initially synchronized or when data is re-synchronized during asynchronous mirroring operations.
 
-== About this task
+.About this task
 
 Changing the synchronization settings affects the synchronization operations of all mirrored pairs within the mirror consistency group.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Asynchronous Mirroring*.
+. Select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirrored Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
 
-. Select the mirror consistency group that you want to edit, and then select *More* > *Edit settings*.
+. Select the mirror consistency group that you want to edit, and then select menu:More[Edit Settings].
 +
-The system displays the Edit Settings dialog box.
+The system displays the *Edit Settings* dialog box.
 
 . Edit the synchronization and alert settings as appropriate, and then click *Save*.
 +
-Field details
-+
+.Field details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
-|     Field
+|  Field| Description
 
-|     Description
-
-....
 a|
-    Synchronize the mirrored pairs...
+Synchronize the mirrored pairs...
 
 
 a|
-    Specify whether you want to synchronize the mirrored pairs on the remote storage array either manually or automatically.
+Specify whether you want to synchronize the mirrored pairs on the remote storage array either manually or automatically.
 
 
 -   **Manually** – Select this option to manually synchronize the mirrored pairs on the remote storage array.
 -   **Automatically, every** – Select this option to automatically synchronize the mirrored pairs on the remote storage array by specifying the time interval from the beginning of the previous update to the beginning of the next update. The default interval is 10 minutes.
 
 a|
-    Alert me...
+Alert me...
 
 
 a|
-    If you set the synchronization method to occur automatically, set the following alerts:
+If you set the synchronization method to occur automatically, set the following alerts:
 
 
 -   **Synchronization** – Set the length of time after which System Manager sends an alert that synchronization has not completed.
@@ -60,8 +61,8 @@ a|
 -   **Reserved capacity threshold** – Define a reserved capacity amount at which System Manager sends an alert that you are nearing the reserved capacity threshold. Define the threshold by percentage of the capacity remaining.
 
 |===
-....
+====
 
-== Results
+.Results
 
 System Manager changes the synchronization settings for every mirrored pair in the mirror consistency group.

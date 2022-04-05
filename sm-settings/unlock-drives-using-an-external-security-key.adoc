@@ -1,19 +1,23 @@
 ---
 permalink: sm-settings/unlock-drives-using-an-external-security-key.html
 sidebar: sidebar
-keywords: 
-summary: 'If you configured external key management and then later move secure-enabled drives from one storage array to another, you must re-assign the security key to the new storage array to gain access to the encrypted data on the drives.'
+keywords: unlock, drives, when, using, external, key, management,
+summary: "If you configured external key management and then later move secure-enabled drives from one storage array to another, you must re-assign the security key to the new storage array to gain access to the encrypted data on the drives."
 ---
 = Unlock drives when using external key management
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If you configured external key management and then later move secure-enabled drives from one storage array to another, you must re-assign the security key to the new storage array to gain access to the encrypted data on the drives.
 
-== Before you begin
+.Before you begin
 
-* On the source array (the array where you are removing the drives), you have exported volume groups and removed the drives. On the target array, you have re-installed the drives. *Note*: The Export/Import function is not supported in the System Manager user interface; you must use the Command Line Interface (CLI) to export/import a volume group to a different storage array.
+* On the source array (the array where you are removing the drives), you have exported volume groups and removed the drives. On the target array, you have re-installed the drives.
++
+NOTE: The Export/Import function is not supported in the System Manager user interface; you must use the Command Line Interface (CLI) to export/import a volume group to a different storage array.
+
 +
 Detailed instructions for migrating a volume group are provided in the https://kb.netapp.com/[NetApp Knowledge Base]. Be sure to follow the appropriate instructions for newer arrays managed by System Manager or for legacy systems.
 
@@ -27,7 +31,7 @@ Detailed instructions for migrating a volume group are provided in the https://k
 For more information about the server certificate, consult the documentation for your key management server.
 ====
 
-== About this task
+.About this task
 
 When you use external key management, the security key is stored externally on a server designed to safe-guard security keys. A security key is a string of characters that is shared by the controller and drives for read/write access. When the drives are physically removed from the array and installed in another, they cannot operate until you provide the correct security key.
 
@@ -40,17 +44,17 @@ Once you reinstall secure-enabled drives in another array, that array discovers 
 
 If other secure-enabled drives are installed in the new storage array, they might use a different security key than the one you are importing. During the import process, the old security key is used only to unlock the data for the drives you are installing. When the unlock process is successful, the newly installed drives are re-keyed to the target storage array's security key.
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *Security key management*, select *Create External Key*.
 . Complete the wizard with the prerequisite connection information and certificates.
 . Click *Test Communication* to ensure access to the external key management server.
 . Select *Unlock Secure Drives*.
 +
-The Unlock Secure Drives dialog box opens. Any drives that require a security key are shown in the table.
+The *Unlock Secure Drives* dialog box opens. Any drives that require a security key are shown in the table.
 
-. Optionally, hover the mouse over a drive number to see the location of the drive (shelf number and bay number).
+. *Optional:* hover the mouse over a drive number to see the location of the drive (shelf number and bay number).
 . Click *Browse*, and then select the security key file that corresponds to the drive you want to unlock.
 +
 The key file you selected appears in the dialog box.
@@ -63,12 +67,14 @@ The characters you enter are masked.
 +
 If the unlock operation is successful, the dialog box displays: "The associated secure drives have been unlocked."
 
-== Results
+.Results
 
 When all drives are locked and then unlocked, each controller in the storage array will reboot. However, if there are already some unlocked drives in the target storage array, then the controllers will not reboot.
 
-== After you finish
+.After you finish
 
-On the destination array (the array with the newly installed drives), you can now import volume groups. *Note*: The Export/Import function is not supported in the System Manager user interface; you must use the Command Line Interface (CLI) to export/import a volume group to a different storage array.
+On the destination array (the array with the newly installed drives), you can now import volume groups.
+
+NOTE: The Export/Import function is not supported in the System Manager user interface; you must use the Command Line Interface (CLI) to export/import a volume group to a different storage array.
 
 Detailed instructions for migrating a volume group are provided in the https://kb.netapp.com/[NetApp Knowledge Base].

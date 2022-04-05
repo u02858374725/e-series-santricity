@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/access-management-with-saml.html
 sidebar: sidebar
-keywords: 
-summary: 'For Access Management, administrators can use the Security Assertion Markup Language \(SAML\) 2.0 capabilities embedded in the array.'
+keywords: access, management, with, saml, administrators, security, assertion, markup, Language,
+summary: "For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array."
 ---
 = Access Management with SAML
 :icons: font

@@ -1,35 +1,37 @@
 ---
 permalink: sm-settings/edit-directory-server-settings.html
 sidebar: sidebar
-keywords: 
-summary: 'If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings.'
+keywords: edit, directory, server, settings, and, role, mappings,
+summary: "If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings."
 ---
 = Edit directory server settings and role mappings
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
 * A directory server must be defined.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Access Management*.
+. Select menu:Settings[Access Management].
 . Select the *Directory Services* tab.
 . If more than one server is defined, select the server you want to edit from the table.
 . Select *View/Edit Settings*.
 +
-TheDirectory Server Settings dialog box opens.
+The *Directory Server Settings* dialog box opens.
 
 . In the *Server Settings* tab, change the desired settings.
 +
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Configuration settings*
 a|
 Domain(s)
@@ -38,7 +40,7 @@ The domain name(s) of the LDAP server(s). For multiple domains, enter the domain
 a|
 Server URL
 a|
-The URL for accessing the LDAP server in the form of `ldap[s]://*host*:*port*`.
+The URL for accessing the LDAP server in the form of _ldap[s]://*host*:port_.
 a|
 Bind account (optional)
 a|
@@ -51,7 +53,7 @@ a|
 Test server connection before saving
 a|
 Checks that the storage array can communicate with the LDAP server configuration. The test occurs after you click *Save* at the bottom of the dialog box. If this checkbox is selected and the test fails, the configuration is not changed. You must resolve the error or de-select the checkbox to skip the testing and re-edit the configuration.
-a|
+2+a|
 *Privilege settings*
 a|
 Search base DN
@@ -69,18 +71,17 @@ A list of group attributes on the user, which is used for group-to-role mapping.
 
 . In the *Role Mapping* tab, change the desired mapping.
 +
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Mappings*
 a|
 Group DN
 a|
 The domain name for the LDAP user group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
-+
-----
-\.[]{}()<>*+-=!?^$|
-----
+\.[]{}()<>*+-=!?^$\|
+
 a|
 Roles
 a|
@@ -102,6 +103,6 @@ The Monitor role is required for all users, including the administrator. System 
 . If desired, click *Add another mapping* to enter more group-to-role mappings.
 . Click *Save*.
 
-== Results
+.Results
 
 After you complete this task, any active user sessions are terminated. Only your current user session is retained.

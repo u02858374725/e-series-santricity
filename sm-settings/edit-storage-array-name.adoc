@@ -1,19 +1,20 @@
 ---
 permalink: sm-settings/edit-storage-array-name.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the storage array name that appears in the title bar of SANtricity System Manager.'
+keywords: edit, storage, array, name,
+summary: "You can change the storage array name that appears in the title bar of SANtricity System Manager."
 ---
 = Edit storage array name
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the storage array name that appears in the title bar of SANtricity System Manager.
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *General*, look for the *Name:* field.
 +
 If a storage array name has not been defined, this field displays "Unknown."
@@ -33,6 +34,6 @@ A name can contain letters, numbers, and the special characters underscore (_), 
 If you want to close the editable field without making changes, click the *Cancel* (X) icon.
 ====
 
-== Results
+.Results
 
 The new name appears in the title bar of SANtricity System Manager.

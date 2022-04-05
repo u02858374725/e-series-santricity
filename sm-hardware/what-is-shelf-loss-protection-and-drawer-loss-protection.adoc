@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html
 sidebar: sidebar
-keywords: 
-summary: 'Shelf loss protection and drawer loss protection are attributes of pools and volume groups that allow you to maintain data access in the event of a single shelf or drawer failure.'
+keywords: shelf, loss, protection, drawer, loss, protection,
+summary: "Shelf loss protection and drawer loss protection are attributes of pools and volume groups that allow you to maintain data access in the event of a single shelf or drawer failure."
 ---
 = What is shelf loss protection and drawer loss protection?
 :icons: font
@@ -22,6 +22,7 @@ Shelf loss protection is not guaranteed if a drive has already failed in the poo
 
 The criteria for shelf loss protection depends on the protection method, as described in the following table:
 
+[cols="1a,1a,1a" options="header"]
 |===
 | Level| Criteria for Shelf Loss Protection| Minimum number of shelves required
 a|
@@ -67,12 +68,15 @@ Drawer loss protection is not guaranteed if a drive has already failed in the po
 
 The criteria for drawer loss protection depends on the protection method, as described in the following table:
 
+[cols="1a,1a,1a" options="header"]
 |===
 | Level| Criteria for drawer loss protection| Minimum number of drawers required
 a|
 Pool
 a|
-Pool candidates must include drives from all drawers, and there must be an equal number of drives in each drawer. The pool must include drives from at least five drawers and there must be an equal number of drives in each drawer.
+Pool candidates must include drives from all drawers, and there must be an equal number of drives in each drawer.
+
+The pool must include drives from at least five drawers and there must be an equal number of drives in each drawer.
 
 A 60-drive shelf can achieve Drawer Loss Protection when the pool contains 15, 20, 25, 30, 35, 40, 45, 50, 55, or 60 drives. Increments in multiples of 5 can be added to the pool after initial creation.
 a|

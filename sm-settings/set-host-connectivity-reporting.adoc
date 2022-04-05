@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/set-host-connectivity-reporting.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable host connectivity reporting so the storage array continuously monitors the connection between the controllers and the configured hosts, and then alerts you if the connection is disrupted. This feature is enabled by default.'
+keywords: set, host, connectivity, reporting,
+summary: "You can enable host connectivity reporting so the storage array continuously monitors the connection between the controllers and the configured hosts, and then alerts you if the connection is disrupted. This feature is enabled by default."
 ---
 = Set host connectivity reporting
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can enable host connectivity reporting so the storage array continuously monitors the connection between the controllers and the configured hosts, and then alerts you if the connection is disrupted. This feature is enabled by default.
 
-== About this task
+.About this task
 
 If you disable host connectivity reporting, the system no longer monitors connectivity or multipath driver issues with a host connected to the storage array.
 
@@ -20,14 +21,14 @@ If you disable host connectivity reporting, the system no longer monitors connec
 Disabling host connectivity reporting also disables automatic load balancing, which monitors and balances controller resource utilization.
 ====
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Scroll down to *Additional Settings*, and then click *Enable/Disable Host Connectivity Reporting*.
 +
 The text below this option indicates whether it is currently enabled or disabled.
 +
-A confirmation dialog opens.
+A confirmation dialog box opens.
 
 . Click *Yes* to continue.
 +

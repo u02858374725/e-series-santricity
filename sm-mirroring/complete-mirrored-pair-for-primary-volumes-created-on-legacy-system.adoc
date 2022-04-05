@@ -1,26 +1,27 @@
 ---
 permalink: sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html
 sidebar: sidebar
-keywords: 
-summary: 'If you created a primary volume on a legacy storage array that cannot be managed by SANtricity System Manager, you can create the secondary volume on this array with SANtricity System Manager.'
+keywords: complete, mirrored, pair, volumes, created, legacy, system, system, manager,
+summary: "If you created a primary volume on a legacy storage array that cannot be managed by SANtricity System Manager, you can create the secondary volume on this array with SANtricity System Manager."
 ---
 = Complete mirrored pair for primary volumes created on legacy system
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If you created a primary volume on a legacy storage array that cannot be managed by SANtricity System Manager, you can create the secondary volume on this array with SANtricity System Manager.
 
-== About this task
+.About this task
 
 You can perform asynchronous mirroring between legacy arrays that use a different interface and newer arrays that can be managed by SANtricity System Manager.
 
 * If you are mirroring between two storage arrays that use SANtricity System Manager, you can skip this task because you already completed the mirrored pair in the mirrored pair creation sequence.
 * Perform this task on the remote storage array.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Asynchronous Mirroring*.
+. Select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirrored Pair* tab.
 +
 The Mirrored Pairs table appears and displays all the mirrored pairs associated with the storage array.
@@ -50,7 +51,7 @@ The capacity needed varies, depending on the frequency and size of I/O writes to
     ***** A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
 . Select *Complete*.
 
-== Results
+.Results
 
 SANtricity System Manager performs the following actions:
 

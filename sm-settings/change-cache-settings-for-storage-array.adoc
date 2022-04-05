@@ -1,20 +1,22 @@
 ---
 permalink: sm-settings/change-cache-settings-for-storage-array.html
 sidebar: sidebar
-keywords: 
-summary: 'For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size.'
+keywords: change, cache, settings, for, the, storage, array,
+summary: "For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size."
 ---
 = Change cache settings for the storage array
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size.
 
-== About this task
+.About this task
 
 Cache memory is an area of temporary volatile storage on the controller, which has a faster access time than the drive media. To tune cache performance, you can adjust the following settings:
 
+[cols="1a,1a" options="header"]
 |===
 | Cache setting| Description
 a|
@@ -27,14 +29,14 @@ a|
 The cache block size determines the maximum size of each cache block, which is an organizational unit for cache management. By default, the block size is 32 KiB. The system allows the cache block size to be 4, 8, 16, or 32 KiBs. Applications use different block sizes, which have an impact on storage performance. A smaller size is a good choice for file systems or database applications. A larger size is ideal for applications that generate sequential I/O, such as multimedia.
 |===
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Scroll down to *Additional Settings*, and then click *Change Cache Settings*.
 +
-The Change Cache Settings dialog box opens.
+The *Change Cache Settings* dialog box opens.
 
 . Adjust the following values:
  ** *Start demand cache flushing* -- Choose a percentage that is appropriate for the I/O used in your environment. If you choose a value lower than 80%, you may notice decreased performance.
- ** **Cache block size --**Choose a size that is appropriate for your applications.
+ ** **Cache block size -- **Choose a size that is appropriate for your applications.
 . Click *Save*.

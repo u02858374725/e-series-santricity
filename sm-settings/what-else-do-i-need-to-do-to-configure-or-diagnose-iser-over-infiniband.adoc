@@ -1,10 +1,11 @@
 ---
 permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html
 sidebar: sidebar
-keywords: 
-summary: 'The following table lists the System Manager functions that you can use to configure and manage iSER over InfiniBand sessions.'
+keywords: what, else, do, I, need, to, do, to, configure, or, diagnose, iser, over, infiniBand,
+summary: "The following table lists the System Manager functions that you can use to configure and manage iSER over InfiniBand sessions."
 ---
 = What else do I need to do to configure or diagnose iSER over InfiniBand?
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -31,14 +32,14 @@ a|
 
 or
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Scroll down to *iSER over InfiniBand settings*, and then select *Configure iSER over InfiniBand Ports*.
 
 a|
 View iSER over InfiniBand statistics
 a|
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Scroll down to *iSER over InfiniBand settings*, and then select *View iSER over InfiniBand Statistics*.
 
 |===

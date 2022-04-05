@@ -1,10 +1,10 @@
 ---
 permalink: sm-settings/generic-certificates.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create Certificate Signing Requests \(CSRs\), import certificates, and manage existing certificates.'
+keywords: certificates,
+summary: "You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates."
 ---
-= image:../media/sam1140-icon-certs.gif[] Certificates
+= Certificates
 :icons: font
 :imagesdir: ../media/
 

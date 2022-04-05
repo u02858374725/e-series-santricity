@@ -1,30 +1,31 @@
 ---
 permalink: sm-mirroring/re-synchronize-mirror-consistency-group-manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can manually start re-synchronization for all mirrored pairs within a mirror consistency group.'
+keywords: re-synchronize, mirror, consistency, group, manually,
+summary: "You can manually start re-synchronization for all mirrored pairs within a mirror consistency group."
 ---
 = Re-synchronize mirror consistency group manually
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can manually start re-synchronization for all mirrored pairs within a mirror consistency group.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Asynchronous Mirroring*.
+. Select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.
 
-. Select the mirror consistency group that you want to re-synchronize, and then select *More* > *Manually resynchronize*.
+. Select the mirror consistency group that you want to re-synchronize, and then select menu:More[Manually resynchronize].
 +
 The system displays a confirmation.
 
 . Select *Yes* to confirm.
 
-== Results
+.Results
 
 The system performs the following actions:
 

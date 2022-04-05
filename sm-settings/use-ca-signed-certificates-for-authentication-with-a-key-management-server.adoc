@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html
 sidebar: sidebar
-keywords: 
-summary: 'For secure communications between a key management server and the storage array controllers, you must configure the appropriate sets of certificates.'
+keywords: use, ca-signed, certificates, for, authentication, with, a, key, management, server,
+summary: "For secure communications between a key management server and the storage array controllers, you must configure the appropriate sets of certificates."
 ---
 = Use CA-signed certificates for authentication with a key management server
 :icons: font
@@ -11,10 +11,10 @@ summary: 'For secure communications between a key management server and the stor
 [.lead]
 For secure communications between a key management server and the storage array controllers, you must configure the appropriate sets of certificates.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
-== About this task
+.About this task
 
 Authenticating between the controllers and a key management server is a two-step procedure.

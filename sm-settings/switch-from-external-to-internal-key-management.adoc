@@ -1,30 +1,31 @@
 ---
 permalink: sm-settings/switch-from-external-to-internal-key-management.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the management method for Drive Security from an external key server to the internal method used by the storage array. The security key previously defined for external key management is then used for internal key management.'
+keywords: switch, from, external, to, internal, key, management,
+summary: "You can change the management method for Drive Security from an external key server to the internal method used by the storage array. The security key previously defined for external key management is then used for internal key management."
 ---
 = Switch from external to internal key management
+:external:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the management method for Drive Security from an external key server to the internal method used by the storage array. The security key previously defined for external key management is then used for internal key management.
 
-== Before you begin
+.Before you begin
 
 An external key was created.
 
-== About this task
+.About this task
 
 In this task, you disable external key management and download a new backup copy to your local host. The existing key is still used for Drive Security, but will be managed internally in the storage array.
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *Security key management*, select *Disable External Key Management*.
 +
-The Disable External Key Management dialog box opens.
+The *Disable External Key Management* dialog box opens.
 
 . In *Define a pass phrase/Re-enter pass phrase*, enter and confirm a pass phrase for the backup of the key. The value can have between 8 and 32 characters, and must include each of the following:
  ** An uppercase letter (one or more). Keep in mind that the pass phrase is case sensitive.
@@ -42,10 +43,10 @@ The backup key is downloaded to your local host.
 
 . Record your key identifier, pass phrase, and the location of the downloaded key file, and then click *Close*.
 
-== Results
+.Results
 
 Drive Security is now managed internally through the storage array.
 
-== After you finish
+.After you finish
 
 * You should validate the security key to make sure the key file is not corrupted.

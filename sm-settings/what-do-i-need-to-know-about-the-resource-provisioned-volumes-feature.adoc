@@ -1,10 +1,11 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html
 sidebar: sidebar
-keywords: 
-summary: 'Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.'
+keywords: what, do, I, need, to, know, about, the, resource-provisioned, volumes, feature,
+summary: "Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process."
 ---
 = What do I need to know about the resource-provisioned volumes feature?
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -26,4 +27,4 @@ Resource-provisioned volumes are supported only on SSD volume groups and pools, 
 
 Resource provisioning is enabled by default on systems where the drives support DULBE. You can disable that default setting from *Pools & Volume Groups*. Disabling resource provisioning is a permanent action for existing volumes and cannot be reversed (i.e., you cannot re-enable resource provisioning for these volume groups and pools).
 
-However, if you want to re-enable resource provisioning again for any new volumes you create, you can do so from *Settings* > *System*. Be aware that when you re-enable resource provisioning, only newly created volume groups and pools are affected. Any existing volume groups and pools will remain unchanged. If desired, you can also disable resource provisioning again from *Settings* > *System*.
+However, if you want to re-enable resource provisioning again for any new volumes you create, you can do so from menu:Settings[System]. Be aware that when you re-enable resource provisioning, only newly created volume groups and pools are affected. Any existing volume groups and pools will remain unchanged. If desired, you can also disable resource provisioning again from menu:Settings[System].

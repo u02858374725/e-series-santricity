@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/step-2-submit-the-csr-files.html
 sidebar: sidebar
-keywords: 
-summary: 'After you create the certificate signing request \(CSR\) files, send the files to a certificate authority \(CA\).'
+keywords: step2, submit, the, csr, files,
+summary: "After you create the certificate signing request (CSR) files, send the files to a certificate authority (CA)."
 ---
 = Step 2: Submit the CSR files
 :icons: font
@@ -11,17 +11,17 @@ summary: 'After you create the certificate signing request \(CSR\) files, send t
 [.lead]
 After you create the certificate signing request (CSR) files, send the files to a certificate authority (CA).
 
-== Before you begin
+.Before you begin
 
 * You have generated the CSR files.
 
-== About this task
+.About this task
 
 In this task, you send the generated CSR files to a CA to receive signed certificates for the controllers in the storage array.
 
 E-Series systems require PEM format (Base64 ASCII encoding) for signed certificates, which includes the following file types: pem, .crt, .cer, or .key.
 
-== Steps
+.Steps
 
 . Locate the downloaded CSR files.
 . Submit the CSR files to a CA (for example, Verisign or DigiCert), and request signed certificates in PEM format.
@@ -31,6 +31,6 @@ E-Series systems require PEM format (Base64 ASCII encoding) for signed certifica
 *After you submit a CSR file to the CA, do NOT regenerate another CSR file.* Whenever you generate a CSR, the system creates a private and public key pair. The public key is part of the CSR, while the private key is kept in the system's keystore. When you receive the signed certificates and import them, the system ensures that both the private and public keys are the original pair. If the keys do not match, the signed certificates will not work and you must request new certificates from the CA.
 ====
 
-== After you finish
+.After you finish
 
-When the CA returns the signed certificates, go to link:step-3-import-signed-certificates-for-the-controllers.md#[Step 3: Import signed certificates for controllers].
+When the CA returns the signed certificates, go to link:step-3-import-signed-certificates-for-the-controllers.html[Step 3: Import signed certificates for controllers].

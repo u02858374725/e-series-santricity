@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/manage-snmp-alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure alerts to be sent by Simple Network Management Protocol \(SNMP\) traps.'
+keywords: manage, snmp, alerts,
+summary: "You can configure alerts to be sent by Simple Network Management Protocol (SNMP) traps."
 ---
 = Manage SNMP alerts
 :icons: font

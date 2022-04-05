@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in System Manager.'
+keywords: Synchronous mirroring, need, to, know, before, creating, mirrored, pair, 
+summary: "You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in System Manager."
 ---
 = Synchronous mirroring - What do I need to know before creating a mirrored pair?
 :icons: font

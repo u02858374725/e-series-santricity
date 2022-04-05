@@ -1,10 +1,10 @@
 ---
 permalink: sm-interface/system-manager-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This overview describes SANtricity System Manager’s Home page and the new features in this release.'
+keywords: santricity, system, manager, overview,
+summary: "This overview describes SANtricity System Manager’s Home page and the new features in this release."
 ---
-= image:../media/sam1130-icon-overview.gif[] SANtricity System Manager overview
+= SANtricity System Manager overview
 :icons: font
 :imagesdir: ../media/
 

@@ -1,17 +1,18 @@
 ---
 permalink: sm-mirroring/remove-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array.'
+keywords: remove, asynchronous, mirror, relationship, storage, array,
+summary: "You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array."
 ---
 = Remove asynchronous mirror relationship
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array.
 
-== About this task
+.About this task
 
 Review the following information about orphaned mirrored pairs:
 
@@ -19,9 +20,9 @@ Review the following information about orphaned mirrored pairs:
 * Orphaned mirrored pairs are detected when inter-array communication is restored and the two sides of the mirror configuration reconcile mirror parameters.
 * You can remove a mirrored pair to correct an orphaned mirrored pair state.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Asynchronous Mirroring*.
+. Select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirrored Pair* tab.
 +
 The Mirrored Pairs table appears and displays all the mirrored pairs associated with the storage array.
@@ -29,7 +30,7 @@ The Mirrored Pairs table appears and displays all the mirrored pairs associated 
 . Select the mirrored pair that you want to remove, and then click *Remove*.
 . Confirm that you want to remove the mirrored pair, and then click *Remove*.
 
-== Results
+.Results
 
 SANtricity System Manager performs the following actions:
 

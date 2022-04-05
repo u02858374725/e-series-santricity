@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/change-view-order-of-shelves.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the order of shelves displayed on the Hardware page to match the physical order of shelves in a cabinet.'
+keywords: change, view, order, shelves
+summary: "You can change the order of shelves displayed on the Hardware page to match the physical order of shelves in a cabinet."
 ---
 = Change view order of shelves
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can change the order of shelves displayed on the Hardware page to 
 [.lead]
 You can change the order of shelves displayed on the Hardware page to match the physical order of shelves in a cabinet.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . From the top right of a shelf view, select the up or down arrows to rearrange the order of shelves shown on the *Hardware* page.
