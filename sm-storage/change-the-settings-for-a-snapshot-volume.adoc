@@ -1,31 +1,35 @@
 ---
 permalink: sm-storage/change-the-settings-for-a-snapshot-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the settings for a snapshot volume or snapshot consistency group snapshot volume to rename it, enable or disable SSD caching, or change the host, host cluster, or logical unit number \(LUN\) assignment.'
+keywords: change, volume, settings, snapshot, volume
+summary: "You can change the settings for a snapshot volume or snapshot consistency group snapshot volume to rename it, enable or disable SSD caching, or change the host, host cluster, or logical unit number (LUN) assignment."
 ---
 = Change the volume settings for a snapshot volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the settings for a snapshot volume or snapshot consistency group snapshot volume to rename it, enable or disable SSD caching, or change the host, host cluster, or logical unit number (LUN) assignment.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Click the *Snapshot Volumes* tab.
 . Select the snapshot volume that you want to change, and then click *View/Edit Settings*.
 +
-The Snapshot Volume Settings dialog box appears.
+The *Snapshot Volume Settings* dialog box appears.
 
 . View or edit the settings for the snapshot volume as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Snapshot volume*
 a|
 Name
@@ -43,7 +47,7 @@ a|
 SSD Cache
 a|
 You can enable/disable read-only caching on solid state disks (SSDs).
-a|
+2+a|
 *Associated objects*
 a|
 Snapshot image
@@ -58,3 +62,4 @@ Snapshot group
 a|
 You can view the snapshot group associated with the snapshot volume. A snapshot group is a collection of snapshot images from a single base volume.
 |===
+====

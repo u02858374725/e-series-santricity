@@ -1,37 +1,41 @@
 ---
 permalink: sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the settings for a snapshot volume to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot volume is nearing full.'
+keywords: change, reserved, capacity, settings, snapshot, volume
+summary: "You can change the settings for a snapshot volume to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot volume is nearing full."
 ---
 = Change the reserved capacity settings for a snapshot volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the settings for a snapshot volume to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot volume is nearing full.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select menu:Storage[Pools & Volume Groups].
 . Click the *Reserved Capacity* tab.
 . Select the snapshot volume that you want to edit, and then click *View/Edit Settings*.
 +
-The Snapshot Volume Reserved Capacity Settings dialog box appears.
+The *Snapshot Volume Reserved Capacity Settings* dialog box appears.
 
 . Change the reserved capacity settings for the snapshot volume as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+
+[cols="1a,1a" options="header"]
 |===
 | Setting| Description
 a|
 Alert me when...
 a|
-    Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a member volume is nearing full.
-+
+Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a member volume is nearing full.
+
 When the reserved capacity for the snapshot volume exceeds the specified threshold, the system sends an alert, allowing you time to increase reserved capacity or to delete unnecessary objects.
-+
 |===
+====
 
 . Click *Save* to apply your changes to the snapshot volume reserved capacity settings.

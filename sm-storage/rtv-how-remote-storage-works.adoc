@@ -1,10 +1,11 @@
 ---
 permalink: sm-storage/rtv-how-remote-storage-works.html
 sidebar: sidebar
-keywords: 
-summary: 'The Remote Storage feature allows you to import data from a remote storage system to a local E-Series storage system. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades.'
+keywords: how, remote, storage, works
+summary: "The Remote Storage feature allows you to import data from a remote storage system to a local E-Series storage system. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades."
 ---
 = How Remote Storage works
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -17,13 +18,13 @@ To configure the Remote Storage feature, you must set up the hardware and then u
 
 Use the following workflow to prepare the hardware connections.
 
-These steps are described further in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report].
+These steps are described further in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
 
 On the local E-Series storage system:
 
 . Ensure that each controller has an iSCSI connection to the remote storage system. With this connection, the local E-Series system acts as an iSCSI initiator that can be set up as a host on the remote system.
 . Create a destination volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume on the remote storage system, has a matching block size, and is not mapped. See xref:create-volumes-storage.adoc[Create volumes].
-. Gather the iSCSI Qualified Name (IQN) for the local E-Series system from its System Manager interface. The IQN will be used later for setting up the local E-Series system as a host on the remote storage system. In System Manager, go to: *Settings* > *System* > *iSCSI settings* > *Target IQN*.
+. Gather the iSCSI Qualified Name (IQN) for the local E-Series system from its System Manager interface. The IQN will be used later for setting up the local E-Series system as a host on the remote storage system. In System Manager, go to: menu:Settings[System > iSCSI settings > Target IQN].
 
 On the remote storage system:
 

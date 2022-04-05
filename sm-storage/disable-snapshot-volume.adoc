@@ -1,17 +1,18 @@
 ---
 permalink: sm-storage/disable-snapshot-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You can disable a snapshot volume or a snapshot volume in a snapshot consistency group when you no longer need it or want to temporarily stop using it.'
+keywords: disable, snapshot, volume
+summary: "You can disable a snapshot volume or a snapshot volume in a snapshot consistency group when you no longer need it or want to temporarily stop using it."
 ---
 = Disable snapshot volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can disable a snapshot volume or a snapshot volume in a snapshot consistency group when you no longer need it or want to temporarily stop using it.
 
-== About this task
+.About this task
 
 Use the Disable option if one of these conditions applies:
 
@@ -26,17 +27,17 @@ If the snapshot volume or snapshot consistency group snapshot volume is designat
 If the snapshot volume or snapshot consistency group snapshot volume is part of an online copy relationship, you cannot perform the Disable option on the volume.
 ====
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 System Manager displays all the snapshot volumes associated with the storage array.
 
-. Select the snapshot volume that you want to disable, and then select *Uncommon Tasks* > *Disable*.
+. Select the snapshot volume that you want to disable, and then select menu:Uncommon Tasks[Disable].
 . Confirm that you want to perform the operation, and then click *Disable*.
 
-== Results
+.Results
 
 * The snapshot volume remains associated with its base volume.
 * The snapshot volume retains its World Wide Name (WWN).

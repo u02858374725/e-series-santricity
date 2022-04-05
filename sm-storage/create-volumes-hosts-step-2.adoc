@@ -1,24 +1,25 @@
 ---
 permalink: sm-storage/create-volumes-hosts-step-2.html
 sidebar: sidebar
-keywords: 
-summary: 'Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select "Other application" if the application you intend to use on this storage array is not listed.'
+keywords: select, workload, volume
+summary: "Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select 'Other application' if the application you intend to use on this storage array is not listed."
 ---
 = Step 2: Select a workload for a volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select "Other application" if the application you intend to use on this storage array is not listed.
 
-== About this task
+.About this task
 
 This task describes how to create volumes for an existing workload.
 
-* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
-* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the Add/Edit Volumes dialog box.
+* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the *Add/Edit Volumes* dialog box.
+* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the *Add/Edit Volumes* dialog box.
 
-== Steps
+.Steps
 
 . Do one of the following:
  ** Select the *Create volumes for an existing workload* option to create volumes for an existing workload.

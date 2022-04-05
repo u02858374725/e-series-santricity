@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-cant-i-increase-my-preservation-capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'If you have created volumes on all available usable capacity, you might not be able to increase preservation capacity.'
+keywords: why, can't, increase, my, preservation, capacity
+summary: "If you have created volumes on all available usable capacity, you might not be able to increase preservation capacity."
 ---
 = Why can't I increase my preservation capacity?
 :icons: font

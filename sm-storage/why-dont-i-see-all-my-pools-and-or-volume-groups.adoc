@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'Any pool or volume group to which you cannot move the volume does not display in the list.'
+keywords: why, see, pools, volume groups
+summary: "Any pool or volume group to which you cannot move the volume does not display in the list."
 ---
 = Why don't I see all my pools and/or volume groups?
 :icons: font

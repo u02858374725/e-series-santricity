@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/how-snapshot-images-are-used.html
 sidebar: sidebar
-keywords: 
-summary: 'A snapshot image is a logical, read-only copy of volume content, captured at a particular point in time. You can use snapshots to protect against data loss.'
+keywords: how, snapshot, images, used
+summary: "A snapshot image is a logical, read-only copy of volume content, captured at a particular point in time. You can use snapshots to protect against data loss."
 ---
 = How snapshot images are used
 :icons: font

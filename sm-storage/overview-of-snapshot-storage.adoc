@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/overview-of-snapshot-storage.html
 sidebar: sidebar
-keywords: 
-summary: 'The Snapshots feature uses copy-on-write technology to store snapshot images and use allocated reserved capacity.'
+keywords: overview, snapshot, storage
+summary: "The Snapshots feature uses copy-on-write technology to store snapshot images and use allocated reserved capacity."
 ---
 = Overview of snapshot storage
 :icons: font
@@ -17,15 +17,10 @@ As snapshots are created, the Snapshots feature stores image data as follows:
 * Subsequent snapshots include only changed data blocks. Before data is overwritten on the base volume, the Snapshots feature uses its copy-on-write technology to save the required images of the affected sectors to the snapshot reserved capacity.
 +
 image::../media/sam1130-dwg-snapshots-cow-overview.gif[]
-+
-|===
-    a|
-1   Base volume (physical disk capacity)
-a|
-2   Snapshots (logical disk capacity)
-a|
-3   Reserved capacity (physical disk capacity)
-|===
+
+^1^ Base volume (physical disk capacity)
+^2^ Snapshots (logical disk capacity)
+^3^ Reserved capacity (physical disk capacity)
 
 * The reserved capacity stores original data blocks for portions of the base volume that have changed after the snapshot was taken and includes an index for tracking changes. Generally, the size of the reserved capacity defaults to 40 percent of the base volume. (If you need more reserved capacity, you can increase reserved capacity.)
 * Snapshot images are stored in a specific order, based on their timestamp. Only the oldest snapshot image of a base volume is available for manual deletion.

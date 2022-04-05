@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/dcbx-operational-state-statistics.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: dcbx, operational, state, statistics
+summary: "When you select Data Center Bridging Exchange (DCBX) Operational State Statistics, these statistics appear."
 ---
 = DCBX operational state statistics
 :icons: font
@@ -10,6 +10,7 @@ summary: ''
 
 When you select Data Center Bridging Exchange (DCBX) Operational State Statistics, these statistics appear.
 
+[cols="25h,~",options="header"]
 |===
 | Statistic| Definition
 a|
@@ -37,4 +38,5 @@ No FCoE/FIP Map Mismatch
 a|
 Indicates whether a map mismatch exists between FCoE and FCoE Initialization Protocol (FIP). The value is either True or False.
 |===
+
 You can find additional DCBX operational state statistics in the state capture file.

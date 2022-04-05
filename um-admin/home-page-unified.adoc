@@ -1,8 +1,8 @@
 ---
 permalink: um-admin/home-page-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager is a web-based interface that allows you to manage multiple storage arrays in a single view.'
+keywords: interface, overview, main, page, single view, web-based, interface, unified, manager
+summary: "Unified Manager is a web-based interface that allows you to manage multiple storage arrays in a single view."
 ---
 = Interface overview
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/manage-application-workloads.html
 sidebar: sidebar
-keywords: 
-summary: 'You can manage applications and workloads to view all the existing volumes on the storage array grouped by workload name and application type. You can also add volumes to an existing or new workload, change the settings for an existing workload, and create new volumes and workloads.'
+keywords: manage, applications, workloads
+summary: "You can manage applications and workloads to view all the existing volumes on the storage array grouped by workload name and application type. You can also add volumes to an existing or new workload, change the settings for an existing workload, and create new volumes and workloads."
 ---
 = Manage applications and workloads
 :icons: font

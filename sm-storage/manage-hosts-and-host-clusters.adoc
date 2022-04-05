@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/manage-hosts-and-host-clusters.html
 sidebar: sidebar
-keywords: 
-summary: 'Manage hosts and host clusters to change configuration settings, add or delete host ports, and delete hosts or host clusters from the storage array.'
+keywords: manage, host, host, clusters
+summary: "Manage hosts and host clusters to change configuration settings, add or delete host ports, and delete hosts or host clusters from the storage array."
 ---
 = Manage hosts and host clusters
 :icons: font

@@ -1,41 +1,42 @@
 ---
 permalink: sm-storage/decrease-reserved-capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'You use the Decrease Capacity option to decrease the reserved capacity for the following storage objects: snapshot group, snapshot volume, and consistency group member volume. You can decrease reserved capacity only by the amount\(s\) you used to increase it.'
+keywords: decrease, reserved, capacity
+summary: "You use the Decrease Capacity option to decrease the reserved capacity for the following storage objects; snapshot group, snapshot volume, and consistency group member volume. You can decrease reserved capacity only by the amount(s) you used to increase it."
 ---
 = Decrease reserved capacity
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You use the Decrease Capacity option to decrease the reserved capacity for the following storage objects: snapshot group, snapshot volume, and consistency group member volume. You can decrease reserved capacity only by the amount(s) you used to increase it.
 
-== Before you begin
+.Before you begin
 
 * The storage object must contain more than one reserved capacity volume.
 * The storage object must not be a mirrored pair volume.
 * If the storage object is a snapshot volume, then it must be a disabled snapshot volume.
 * If the storage object is a snapshot group, then it must not contain any associated snapshot images.
 
-== About this task
+.About this task
 
 Review the following guidelines:
 
 * You can remove reserved capacity volumes only in the reverse order that they were added.
 * You cannot decrease the reserved capacity for a snapshot volume that is read-only because it does not have any associated reserved capacity. Only snapshot volumes that are read-write require reserved capacity.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select menu:Storage[Pools & Volume Groups].
 . Click the *Reserved Capacity* tab.
 . Select the storage object for which you want to decrease reserved capacity, and then click *Decrease Capacity*.
 +
-The Decrease Reserved Capacity dialog box appears.
+The *Decrease Reserved Capacity* dialog box appears.
 
 . Select the capacity amount by which you want to decrease reserved capacity, and then click *Decrease*.
 
-== Results
+.Results
 
 System Manager performs the following actions:
 

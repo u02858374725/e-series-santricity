@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/performance-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'The Performance page provides graphs and tables of data that enable you to assess the storage array’s performance in several key areas.'
+keywords: performance, overview
+summary: "The Performance page provides graphs and tables of data that enable you to assess the storage array’s performance in several key areas."
 ---
 = Performance overview
 :icons: font
@@ -20,26 +20,25 @@ Performance functions allow you to accomplish these tasks:
 
 You can view performance data in three formats:
 
-* *Real-time graphical* -- Plots performance data on a graph in near real-time.
+* *Real-time graphical*  -- Plots performance data on a graph in near real-time.
 * *Near real-time tabular* -- Lists performance data in a table in near real-time.
 * *Exported CSV file* -- Allows you to save tabular performance data in a file of comma-separated values for further viewing and analysis.
 
 == Characteristics of performance data formats
 
+[cols="1a,1a,1a,1a,1a" options="header"]
 |===
 | *Type of performance monitoring*| *Sampling interval*| *Length of time displayed*| *Maximum number of objects displayed*| *Ability to save data*
 a|
 Real-time graphical, live
 
 Real-time graphical, historical
-
 a|
 10 sec (live)
 
 5 min (historical)
 
 Data points shown depend on selected time frame
-
 a|
 Default time frame is 1 hour.
 
@@ -51,7 +50,6 @@ Choices:
 * 1 day
 * 7 days
 * 30 days
-
 a|
 5
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/application-specific-workloads.html
 sidebar: sidebar
-keywords: 
-summary: 'When creating a volume, you select a workload to customize the storage array configuration for a specific application.'
+keywords: application, specific, workloads, volume, storage, configuration
+summary: "When creating a volume, you select a workload to customize the storage array configuration for a specific application."
 ---
 = Application-specific workloads
 :icons: font
@@ -24,8 +24,9 @@ You can create two types of workloads: application-specific and other.
  ** Microsoft®Exchange Server™
  ** Video Surveillance applications
  ** VMware ESXi ™ (for volumes to be used with Virtual Machine File System)
-You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
-* *Other* (or applications without specific volume creation support). Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if the system does not have built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the Add/Edit Volumes dialog box.
+
+You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the *Add/Edit Volumes* dialog box.
+* *Other* (or applications without specific volume creation support). Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if the system does not have built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the *Add/Edit Volumes* dialog box.
 
 == Application and workload views
 

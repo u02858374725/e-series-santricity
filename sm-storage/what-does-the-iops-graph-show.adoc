@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-does-the-iops-graph-show.html
 sidebar: sidebar
-keywords: 
-summary: 'The IOPS graph displays statistics for input/output operations per second. On the Home page, this graph displays statistics for the storage array. In the Logical View, Physical View, and Applications & Workloads View tabs of the Performance tile, this graph displays statistics for the storage array, volumes, volume groups, pools, applications, and workloads.'
+keywords: iops, graph, show
+summary: "The IOPS graph displays statistics for input/output operations per second. On the Home page, this graph displays statistics for the storage array. In the Logical View, Physical View, and Applications & Workloads View tabs of the Performance tile, this graph displays statistics for the storage array, volumes, volume groups, pools, applications, and workloads."
 ---
 = What does the IOPS graph show?
 :icons: font

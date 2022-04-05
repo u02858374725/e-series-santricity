@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-storage.html
 sidebar: sidebar
-keywords: 
-summary: 'You create storage by first creating a workload for a specific application type. Next, you add storage capacity to the workload by creating volumes with similar underlying volume characteristics.'
+keywords: create, storage
+summary: "You create storage by first creating a workload for a specific application type. Next, you add storage capacity to the workload by creating volumes with similar underlying volume characteristics."
 ---
 = Create storage
 :icons: font

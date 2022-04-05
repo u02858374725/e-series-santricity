@@ -1,17 +1,18 @@
 ---
 permalink: sm-support/collect-i-o-path-statistics.html
 sidebar: sidebar
-keywords: 
-summary: 'You can save the I/O path statistics file and send it to technical support for analysis.'
+keywords: collect, i/o path, statistics
+summary: "You can save the I/O path statistics file and send it to technical support for analysis."
 ---
 = Collect I/O path statistics
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can save the I/O path statistics file and send it to technical support for analysis.
 
-== About this task
+.About this task
 
 Technical support uses the I/O path statistics to help diagnose performance issues. Application performance issues can be caused by memory utilization, CPU utilization, network latency, I/O latency, or other issues. The I/O path statistics are collected automatically during support data collection or you can collect them manually. In addition, if you have AutoSupport turned on, the I/O path statistics are automatically collected and sent to technical support.
 
@@ -22,9 +23,9 @@ The counters for the I/O path statistics are reset after you confirm that you wa
 Perform this operation only when instructed to do so by technical support.
 ====
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select menu:Support[Support Center > Diagnostics] tab.
 . Select *Collect I/O Path Statistics*.
 . Confirm that you want to perform the operation by typing `collect`, and then click *Collect*.
 +

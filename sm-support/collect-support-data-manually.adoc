@@ -1,17 +1,19 @@
 ---
 permalink: sm-support/collect-support-data-manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis.'
+keywords: collect, support, data, manually
+summary: "You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis."
 ---
 = Collect support data manually
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis.
 
-== About this task
+.About this task
+--
 
 [NOTE]
 ====
@@ -25,9 +27,9 @@ You can run only one collection operation at a time. If you try to start another
 Perform this operation only when instructed to do so by technical support.
 ====
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select menu:Support[Support Center > Diagnostics] tab.
 . Select *Collect Support Data*.
 . Click *Collect*.
 +

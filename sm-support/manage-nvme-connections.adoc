@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/manage-nvme-connections.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view statistics data for NVMe connections.'
+keywords: manage, nvme, connections
+summary: "You can view statistics data for NVMe connections."
 ---
 = Manage NVMe connections
 :icons: font
