@@ -132,8 +132,6 @@ sidebar:
             url: "/sm-storage/capacity-terminology.html"
           - title: Determine whether to use pools or volume groups
             url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
-          - title: Pools versus volume groups
-            url: "/sm-storage/functional-comparison-of-pools-and-volume-groups.html"
           - title: Automatic versus manual pool creation
             url: "/sm-storage/automatic-versus-manual-pool-creation.html"
         - title: Configure storage
