@@ -3,9 +3,9 @@ indexpage:
   tiles:
      - title: Get started
        links:
-         - title: System manger interface
+         - title: System Manager interface
            url: /sm-interface/home-page.html
-         - title: Unified manger interface
+         - title: Unified Manager interface
            url: /um-admin/home-page-unified.html
          - title: SANtricity software datasheet
            url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf^

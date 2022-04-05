@@ -59,7 +59,7 @@ The *Create Volumes* dialog box appears.
 +
 The *Select Workload* dialog box appears.
 
-= Step 2: Select a workload for a volume
+== Step 2: Select a workload for a volume
 Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select "Other application" if the application you intend to use on this storage array is not listed.
 
 .About this task
@@ -82,7 +82,7 @@ Select one of the "Other" entries if the application you intend to use on this s
 . Click *Next*.
 . If your workload is associated with a supported application type, enter the information requested; otherwise, go to <<Step 3: Add or edit volumes>>.
 
-= Step 3: Add or edit volumes
+== Step 3: Add or edit volumes
 System Manager may suggest a volume configuration based on the application or workload you selected. This volume configuration is optimized based on the type of application the workload supports. You can accept the recommended volume configuration or you can edit it as needed. If you selected one of the "Other" applications, you must manually specify the volumes and characteristics you want to create.
 
 .Before you begin
@@ -264,7 +264,7 @@ a|
 
 . To continue the volume creation sequence for the selected application, click *Next*, and go to <<Step 4: Review volume configuration>>.
 
-= Step 4: Review volume configuration
+== Step 4: Review volume configuration
 Review a summary of the volumes you intend to create and make any necessary changes.
 
 .Steps

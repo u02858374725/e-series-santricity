@@ -287,15 +287,6 @@ sidebar:
             url: "/sm-storage/create-workloads.html"
           - title: Create volumes
             url: "/sm-storage/create-volumes.html"
-            entries:
-            - title: 'Step 1: Select host for a volume'
-              url: "/sm-storage/create-volumes-storage-step-1.html"
-            - title: 'Step 2: Select a workload for a volume'
-              url: "/sm-storage/create-volumes-storage-step-2.html"
-            - title: 'Step 3: Add or edit volumes'
-              url: "/sm-storage/create-volumes-storage-step-3.html"
-            - title: 'Step 4: Review volume configuration'
-              url: "/sm-storage/create-volumes-storage-step-4.html"
           - title: Add to workload
             url: "/sm-storage/add-to-workload.html"
         - title: Manage volumes
@@ -389,17 +380,6 @@ sidebar:
             url: "/sm-storage/create-host-manually.html"
           - title: Create host cluster
             url: "/sm-storage/create-host-cluster.html"
-          - title: Create volumes
-            url: "/sm-storage/create-volumes-hosts.html"
-            entries:
-            - title: 'Step 1: Select host for a volume'
-              url: "/sm-storage/create-volumes-hosts-step-1.html"
-            - title: 'Step 2: Select a workload for a volume'
-              url: "/sm-storage/create-volumes-hosts-step-2.html"
-            - title: 'Step 3: Add or edit volumes'
-              url: "/sm-storage/create-volumes-hosts-step-3.html"
-            - title: 'Step 4: Review volume configuration'
-              url: "/sm-storage/create-volumes-hosts-step-4.html"
           - title: Assign volumes to hosts
             url: "/sm-storage/assign-volumes.html"
         - title: Manage hosts and clusters
@@ -460,7 +440,6 @@ sidebar:
             url: "/sm-storage/snapshot-volumes.html"
           - title: Snapshot rollback
             url: "/sm-storage/snapshot-rollback.html"
-
         - title: Create snapshots and snapshot objects
           entries:
           - title: Create snapshot image
@@ -469,24 +448,8 @@ sidebar:
             url: "/sm-storage/schedule-snapshot-images.html"
           - title: Create snapshot consistency group
             url: "/sm-storage/create-snapshot-consistency-group.html"
-            entries:
-            - title: 'Step 1: Add members to snapshot consistency group'
-              url: "/sm-storage/create-snapshot-consistency-group-step-1.html"
-            - title: 'Step 2: Reserve capacity for snapshot consistency group'
-              url: "/sm-storage/create-snapshot-consistency-group-step-2.html"
-            - title: 'Step 3: Edit settings for snapshot consistency group'
-              url: "/sm-storage/create-snapshot-consistency-group-step-3.html"
-          - title: Create snapshot volume
+          - title: Create snapshot volumes
             url: "/sm-storage/create-snapshot-volume.html"
-            entries:
-            - title: 'Step 1: Review members for a snapshot volume'
-              url: "/sm-storage/create-snapshot-volume-step-1.html"
-            - title: 'Step 2: Assign snapshot volume to host'
-              url: "/sm-storage/create-snapshot-volume-step-2.html"
-            - title: 'Step 3: Reserve capacity for a snapshot volume'
-              url: "/sm-storage/create-snapshot-volume-step-3.html"
-            - title: 'Step 4: Edit settings for a snapshot volume'
-              url: "/sm-storage/create-snapshot-volume-step-4.html"
         - title: Manage snapshot schedules
           entries:
           - title: Change settings
@@ -797,22 +760,7 @@ sidebar:
             - title: Enable iSCSI discovery settings
               url: "/sm-settings/enable-iscsi-discovery-settings.html"
             - title: View iSCSI statistics packages
-              url: "/sm-settings/view-iscsi-statistics-packages-system.html"
-            - title: View the different types of iSCSI statistics
-              url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
-              entries:
-              - title: MAC transmit and MAC receive statistics
-                url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
-              - title: Ethernet TCP/IP statistics
-                url: "/sm-support/ethernet-tcp-ip-statistics.html"
-              - title: iSCSI target statistics and local initiator statistics
-                url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
-              - title: DCBX operational state statistics
-                url: "/sm-support/dcbx-operational-state-statistics.html"
-              - title: LLDP TLV statistics
-                url: "/sm-support/lldp-tlv-statistics.html"
-              - title: DCBX TLV statistics
-                url: "/sm-support/dcbx-tlv-statistics.html"
+              url: "/sm-settings/view-iscsi-statistics-packages.html"
             - title: View iSCSI sessions
               url: "/sm-settings/view-iscsi-sessions-system.html"
             - title: End iSCSI session
@@ -1113,16 +1061,6 @@ sidebar:
           entries:
             - title: Configure SAML
               url: "/sm-settings/configure-saml.html"
-            - title: 'Step 1: Upload the IdP metadata file'
-              url: "/sm-settings/configure-saml-step-1.html"
-            - title: 'Step 2: Export Service Provider files'
-              url: "/sm-settings/configure-saml-step-2.html"
-            - title: 'Step 3: Map roles'
-              url: "/sm-settings/configure-saml-step-3.html"
-            - title: 'Step 4: Test SSO login'
-              url: "/sm-settings/configure-saml-step-4.html"
-            - title: 'Step 5: Enable SAML'
-              url: "/sm-settings/configure-saml-step-5.html"
             - title: Change SAML role mappings
               url: "/sm-settings/change-saml-role-mappings.html"
             - title: Export SAML Service Provider files
@@ -1171,13 +1109,6 @@ sidebar:
           entries:
           - title: Use CA-signed certificates for controllers
             url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
-            entries:
-            - title: 'Step 1: Complete CSRs for the controllers'
-              url: "/sm-settings/step-1-complete-a-csr.html"
-            - title: 'Step 2: Submit the CSR files'
-              url: "/sm-settings/step-2-submit-the-csr-files.html"
-            - title: 'Step 3: Import signed certificates for controllers'
-              url: "/sm-settings/step-3-import-signed-certificates-for-the-controllers.html"
           - title: Reset management certificates
             url: "/sm-settings/reset-management-certificates.html"
           - title: View imported certificate info
@@ -1191,12 +1122,6 @@ sidebar:
           - title: Use CA-signed certificates for authentication
               server
             url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
-            entries:
-            - title: 'Step 1: Complete and submit CSR for authentication with a key
-                management server'
-              url: "/sm-settings/step-1-complete-and-submit-csr-for-authentication-with-a-key-server.html"
-            - title: 'Step 2: Import certificates for the key management server'
-              url: "/sm-settings/step-2-import-certificates-for-key-management-server.html"
           - title: Export key management server certificates
             url: "/sm-settings/export-key-management-certificates.html"
         - title: FAQs
@@ -1469,22 +1394,7 @@ sidebar:
         entries:
         - title: Create asynchronous mirrored pair
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
-          entries:
-          - title: 'Step 1: Create or select a mirror consistency group'
-            url: "/um-manage/step-1-create-or-select-a-mirror-consistency-group-um-async.html"
-          - title: 'Step 2: Select the primary volume'
-            url: "/um-manage/step-2-select-the-primary-volume-um-async.html"
-          - title: 'Step 3: Select the secondary volume'
-            url: "/um-manage/step-3-select-the-secondary-volume-um-async.html"
         - title: Create synchronous mirrored pair
-          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
-          entries:
-          - title: 'Step 1: Select the primary volume'
-            url: "/um-manage/step-1-select-the-primary-volume-um-sync.html"
-          - title: 'Step 2: Select the secondary volume'
-            url: "/um-manage/step-2-select-the-secondary-volume-um-sync.html"
-          - title: 'Step 3: Select synchronization settings'
-            url: "/um-manage/step-3-select-sync-settings-um-sync.html"
       - title: FAQs
         entries:
         - title: What do I need to know before creating a mirror consistency group?
@@ -1516,13 +1426,6 @@ sidebar:
           url: "/um-certificates/certificate-terminology-unified.html"
       - title: Use management host certificates
         url: "/um-certificates/use-ca-signed-certificate-um.html"
-        entries:
-          - title: 'Step 1: Complete a CSR file'
-            url: "/um-certificates/step-1-complete-csr-file-unified.html"
-          - title: 'Step 2: Submit CSR file'
-            url: "/um-certificates/step-2-submit-csr-files-unified.html"
-          - title: 'Step 3: Import management certificates'
-            url: "/um-certificates/step-3-import-management-certificates-unified.html"
       - title: Reset management certificates
         url: "/um-certificates/reset-management-certificates-unified.html"
       - title: Use array certificates
@@ -1557,12 +1460,12 @@ sidebar:
           url: "/um-certificates/access-management-with-directory-services-unified.html"
       - title: Use local user roles
         entries:
-            - title: View local user roles
-              url: "/um-certificates/view-local-user-roles-unified.html"
-            - title: Change passwords
-              url: "/um-certificates/change-passwords-unified.html"
-            - title: Change local user password settings
-              url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+        - title: View local user roles
+          url: "/um-certificates/view-local-user-roles-unified.html"
+        - title: Change passwords
+          url: "/um-certificates/change-passwords-unified.html"
+        - title: Change local user password settings
+          url: "/um-certificates/change-local-user-passwords-settings-unified.html"
       - title: Use directory services
         entries:
           - title: Add directory server
