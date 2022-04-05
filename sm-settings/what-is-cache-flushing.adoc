@@ -2,7 +2,7 @@
 permalink: sm-settings/what-is-cache-flushing.html
 sidebar: sidebar
 keywords: what, is, cache, flushing,
-summary: "When the amount of unwritten data in the cache reaches a certain level, the controller periodically writes cached data to a drive. This write process is called "flushing."
+summary: "When the amount of unwritten data in the cache reaches a certain level, the controller periodically writes cached data to a drive. This write process is called flushing."
 ---
 = What is cache flushing?
 :icons: font

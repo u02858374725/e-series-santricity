@@ -2,7 +2,7 @@
 permalink: sm-settings/access-management-with-local-user-roles.html
 sidebar: sidebar
 keywords: access, management, with, local, user, roles,
-summary: "For Access Management, administrators can use RBAC (role-based access control) capabilities enforced in the storage array. These capabilities are referred to as "local user roles.""
+summary: "For Access Management, administrators can use RBAC (role-based access control) capabilities enforced in the storage array. These capabilities are referred to as local user roles."
 ---
 = Access Management with local user roles
 :icons: font

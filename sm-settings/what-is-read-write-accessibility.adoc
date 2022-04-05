@@ -2,7 +2,7 @@
 permalink: sm-settings/what-is-read-write-accessibility.html
 sidebar: sidebar
 keywords: what, is, read/write, accessibility,
-summary: "The Drive Settings window includes information about the Drive Security attributes. "Read/Write Accessible" is one of the attributes that displays if a drive’s data has been locked."
+summary: "The Drive Settings window includes information about the Drive Security attributes. Read/Write Accessible is one of the attributes that displays if a drive’s data has been locked."
 ---
 = What is read/write accessibility?
 :experimental:
