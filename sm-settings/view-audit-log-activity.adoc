@@ -19,7 +19,7 @@ By viewing audit logs, users with Security Admin permissions can monitor user ac
 .Steps
 
 . Select menu:Settings[Access Management].
-. Select the **Audit Log**tab.
+. Select the **Audit Log** tab.
 +
 Audit log activity appears in tabular format, which includes the following columns of information:
 

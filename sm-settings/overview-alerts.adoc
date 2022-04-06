@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/generic-alerts.html
+sidebar: sidebar
+keywords: Alerts,
+summary: "You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages."
+---
+= Alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages.
+
+== What are alerts?
+Alerts notify administrators about important events that occur on the storage array. Events can include such issues as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller. All Critical events are considered "alertable," along with some Warning and Informational events.
+
+Learn more:
+
+* link:how-alerts-work.html[How alerts work]
+* link:alerts-terminology.html[Alerts terminology]
+
+== How do I configure alerts?
+You can configure alerts to be sent as a message to one or more email addresses, as an SNMP trap to an SNMP server, or as a message to a syslog server. Alert configuraion is available from the Alerts page, under Settings.
+
+Learn more:
+
+* link:configure-mail-server-and-recipients-for-alerts.html[Configure mail server and recipients for alerts]
+* link:configure-syslog-server-for-alerts.html[Configure syslog server for alerts]
+* link:configure-snmp-alerts.html[Configure SNMP alerts]
+
+== Related information
+
+* link:event-log.html[Event log]
+* link:critical-events.html[Critical events]

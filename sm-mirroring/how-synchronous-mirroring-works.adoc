@@ -1,10 +1,10 @@
 ---
 permalink: sm-mirroring/how-synchronous-mirroring-works.html
 sidebar: sidebar
-keywords: how, synchronous, mirroring, works, 
+keywords: how, synchronous, mirroring, works,
 summary: "Synchronous mirroring replicates data volumes in real time to ensure continuous availability."
 ---
-= How synchronous mirroring works?
+= How synchronous mirroring works
 :icons: font
 :imagesdir: ../media/
 

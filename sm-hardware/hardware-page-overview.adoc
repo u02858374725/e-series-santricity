@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: hardware, page, overview, graphical, depiction, components,
 summary: "The Hardware page provides a graphical depiction of the storage array’s physical components. From here, you can check component status and perform some functions related to those components."
 ---
-= Hardware page overview
+= Hardware page and components
 :icons: font
 :imagesdir: ../media/
 

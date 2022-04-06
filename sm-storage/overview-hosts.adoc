@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: hosts
 summary: "You can configure hosts and host clusters, which define the connections between the storage array and the data servers."
 ---
-= Hosts and host clusters
+= Hosts and host clusters overview
 :icons: font
 :imagesdir: ../media/
 

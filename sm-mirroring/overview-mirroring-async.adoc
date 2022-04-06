@@ -1,0 +1,48 @@
+---
+permalink: sm-mirroring/generic-asynchronous-mirroring.html
+sidebar: sidebar
+keywords: asynchronous, mirroring, firm-ware, storage, array,
+summary: "The Asynchronous Mirroring feature provides a controller-level, firmware-based mechanism for data replication between a local storage array and a remote storage array."
+---
+= Asynchronous mirroring overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Asynchronous Mirroring feature provides a controller-level, firmware-based mechanism for data replication between a local storage array and a remote storage array.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== What is asynchronous mirroring?
+Asynchronous mirroring captures the state of the primary volume at a particular point in time and copies just the data that has changed since the last image capture. The primary site can be updated immediately and the secondary site can be updated as bandwidth allows. The information is cached and sent later, as network resources become available.
+
+Asynchronous mirroring is created on a per-volume basis but managed at a group level, allowing you to associate a distinct remote mirrored volume with any primary volume on a given storage array.
+
+This type of mirroring is ideal for satisfying the demand for non-stop operations and, in general, is far more network efficient for periodic processes.
+
+Learn more:
+
+* link:how-synchronous-mirroring-works.html[How asynchronous mirroring works]
+* link:asynchronous-terminology.html[Asynchronous mirroring terms]
+* link:asynchronous-mirror-status.html[Asynchronous mirror status]
+* link:volume-ownership-sync.html[Volume ownership]
+* link:role-change-of-a-mirror-consistency-group.html[Role change of a mirror consistency group]
+
+== How do I configure asynchronous mirroring?
+You must perform the initial configuration between the arrays in the Unified Manager interface. Once it is configured, you can manage mirrored pairs and consistency groups in System Manager.
+
+Learn more:
+
+* link:requirements-for-using-asynchronous-mirroring.html[Requirements for using asynchronous mirroring]
+* link:workflow-for-mirroring-a-volume-asynchronously.html[Workflow for mirroring a volume asynchronously]
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html[Create asynchronous mirrored pair]
+
+== Related information
+Learn more about concepts related to asynchronous mirroring:
+
+* link:what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html[What you need to know before creating a mirror consistency group]
+* link:asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html[What you need to know before creating a mirrored pair]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html[How asynchronous mirroring differs from synchronous mirroring]

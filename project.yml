@@ -36,7 +36,7 @@ sidebar:
             url: "/sm-interface/setup-wizard-overview.html"
           - title: Setup wizard terminology
             url: "/sm-interface/setup-wizard-terminology.html"
-          - title: FAQs
+          - title: FAQs for the Setup Wizard
             entries:
               - title: What if I don&#8217;t see all of my hardware components?
                 url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
@@ -99,7 +99,7 @@ sidebar:
               url: "/sm-interface/view-and-act-on-operations-in-progress.html"
             - title: Recover from problems using Recovery Guru
               url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-        - title: FAQs
+        - title: FAQs for the main interface
           entries:
             - title: What are the supported browsers?
               url: "/sm-interface/what-are-the-supported-browsers.html"
@@ -203,7 +203,7 @@ sidebar:
             url: "/sm-storage/cancel-pending-snapshot-image.html"
           - title: Delete snapshot group
             url: "/sm-storage/delete-snapshot-group.html"
-        - title: FAQs
+        - title: FAQs for pools and volume groups
           entries:
           - title: What is a volume group?
             url: "/sm-storage/what-is-a-volume-group.html"
@@ -323,7 +323,7 @@ sidebar:
               url: "/sm-storage/copy-volume.html"
             - title: Manage operations
               url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
-        - title: FAQs
+        - title: FAQs for volumes and workloads
           entries:
           - title: What is a volume?
             url: "/sm-storage/what-is-a-volume.html"
@@ -400,7 +400,7 @@ sidebar:
             url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
           - title: Change host port identifiers for host
             url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
-        - title: FAQs
+        - title: FAQs for hosts and clusters
           entries:
           - title: What are hosts and host clusters?
             url: "/sm-storage/what-are-hosts-and-host-clusters.html"
@@ -497,7 +497,7 @@ sidebar:
             url: "/sm-storage/disable-snapshot-volume.html"
           - title: Delete snapshot volume
             url: "/sm-storage/delete-snapshot-volume.html"
-        - title: FAQs
+        - title: FAQs for snapshots
           entries:
           - title: Why don&#8217;t I see all my volumes, hosts, or host clusters?
             url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
@@ -524,9 +524,9 @@ sidebar:
         - title: Overview
           entries:
           - title: Async mirroring
-            url: "/sm-mirroring/generic-asynchronous-mirroring.html"
+            url: "/sm-mirroring/overview-mirroring-async.html"
           - title: Sync mirroring
-            url: "/sm-mirroring/synchronous-mirroring.html"
+            url: "/sm-mirroring/overview-mirroring-sync.html"
         - title: Async concepts
           entries:
           - title: How asynchronous mirroring works
@@ -605,7 +605,7 @@ sidebar:
             url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
           - title: Deactivate sync mirroring
             url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-        - title: FAQs
+        - title: FAQs for async mirroring
           entries:
           - title: How does asynchronous mirroring differ from synchronous mirroring?
             url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
@@ -636,6 +636,10 @@ sidebar:
             url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
           - title: Why would I update my remote storage array&#8217;s IP address?
             url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+        - title: FAQs for sync mirroring
+          entries:
+          - title: How does synchronous mirroring differ from asynchronous mirroring?
+            url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
           - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
             url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
           - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
@@ -673,7 +677,7 @@ sidebar:
               url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
             - title: Remove remote storage object
               url: "/sm-storage/rtv-remove-remote-storage.html"
-          - title: FAQs
+          - title: FAQs for remote storage
             entries:
             - title: What do I need to know before creating a remote storage connection?
               url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
@@ -688,25 +692,17 @@ sidebar:
       - title: Hardware components
         entries:
         - title: Overview
-          url: "/sm-hardware/hardware-page-overview.html"
+          url: "/sm-hardware/overview-hardware.html"
         - title: Concepts
           entries:
             - title: Hardware terms
               url: "/sm-hardware/hardware-terminology.html"
-            - title: Controller terms
-              url: "/sm-hardware/controller-terminology.html"
             - title: Controller states
               url: "/sm-hardware/controller-states.html"
             - title: Considerations for assigning IP addresses
               url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
-            - title: iSCSI terms
-              url: "/sm-settings/iscsi-terminology.html"
             - title: NVMe overview
               url: "/sm-settings/nvme-overview.html"
-            - title: NVMe terms
-              url: "/sm-settings/nvme-terminology.html"
-            - title: Drive terms
-              url: "/sm-hardware/drive-terminology.html"
             - title: Drive states
               url: "/sm-hardware/drive-states.html"
             - title: Solid State Disks (SSDs)
@@ -801,64 +797,72 @@ sidebar:
               url: "/sm-hardware/erase-drive.html"
             - title: Unlock or reset locked NVMe or FIPS drives
               url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
-        - title: FAQs
+        - title: FAQs for shelves
           entries:
-            - title: What is a hot spare drive?
-              url: "/sm-storage/what-is-a-hot-spare-drive.html"
-            - title: What is shelf loss protection and drawer loss protection?
-              url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
-            - title: What are battery learn cycles?
-              url: "/sm-hardware/what-are-battery-learn-cycles.html"
-            - title: What is auto-negotiation?
-              url: "/sm-hardware/what-is-auto-negotiation.html"
-            - title: What is IPv6 stateless address auto-configuration?
-              url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
-            - title: Which do I choose&#8201;&#8212;&#8201;DHCP or manual configuration?
-              url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
-            - title: What is a DHCP server?
-              url: "/sm-hardware/what-is-a-dhcp-server.html"
-            - title: How do I configure my DHCP server?
-              url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
-            - title: Why do I need to change the controller network configuration?
-              url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
-            - title: Where do I get the network configuration?
-              url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
-            - title: What are ICMP PING responses?
-              url: "/sm-hardware/what-are-icmp-ping-responses.html"
-            - title: When should I refresh the port configuration?
-              url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
-            - title: What should I do after configuring the management ports?
-              url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
-            - title: Why is the storage system in non-optimal mode?
-              url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
-            - title: What is preservation capacity?
-              url: "/sm-hardware/what-is-preservation-capacity.html"
-            - title: Why would I logically replace a drive?
-              url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
-            - title: Where can I view the status of a drive undergoing reconstruction?
-              url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
-            - title: What happens when I use an iSNS server for registration?
-              url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
-            - title: Which registration methods are automatically supported for iSCSI?
-              url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
-            - title: How do I interpret iSER over InfiniBand statistics?
-              url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
-            - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
-              url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
-            - title: How do I interpret NVMe over Fabrics statistics?
-              url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
-            - title: What else do I need to do to configure or diagnose NVMe over InfiniBand?
-              url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
-            - title: What else do I need to do to configure or diagnose NVMe over RoCE?
-              url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
-            - title: Why are there two IP addresses for one physical port?
-              url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
-            - title: Why are there two sets of parameters for one physical port?
-              url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+          - title: What is shelf loss protection and drawer loss protection?
+            url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+          - title: What are battery learn cycles?
+            url: "/sm-hardware/what-are-battery-learn-cycles.html"
+        - title: FAQs for controllers
+          entries:
+          - title: What is auto-negotiation?
+            url: "/sm-hardware/what-is-auto-negotiation.html"
+          - title: What is IPv6 stateless address auto-configuration?
+            url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+          - title: Which do I choose&#8201;&#8212;&#8201;DHCP or manual configuration?
+            url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+          - title: What is a DHCP server?
+            url: "/sm-hardware/what-is-a-dhcp-server.html"
+          - title: How do I configure my DHCP server?
+            url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+          - title: Why do I need to change the controller network configuration?
+            url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+          - title: Where do I get the network configuration?
+            url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+          - title: What are ICMP PING responses?
+            url: "/sm-hardware/what-are-icmp-ping-responses.html"
+          - title: When should I refresh the port configuration?
+            url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+          - title: What should I do after configuring the management ports?
+            url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+          - title: Why is the storage system in non-optimal mode?
+            url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
+        - title: FAQs for iSCSI
+          entries:
+          - title: What happens when I use an iSNS server for registration?
+            url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+          - title: Which registration methods are automatically supported for iSCSI?
+            url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+          - title: How do I interpret iSER over InfiniBand statistics?
+            url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+          - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
+            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+        - title: FAQs for NVMe
+          entries:
+          - title: How do I interpret NVMe over Fabrics statistics?
+            url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+          - title: What else do I need to do to configure or diagnose NVMe over InfiniBand?
+            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+          - title: What else do I need to do to configure or diagnose NVMe over RoCE?
+            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+          - title: Why are there two IP addresses for one physical port?
+            url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+          - title: Why are there two sets of parameters for one physical port?
+            url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+        - title: FAQs for drives
+          entries:
+          - title: What is a hot spare drive?
+            url: "/sm-storage/what-is-a-hot-spare-drive.html"
+          - title: What is preservation capacity?
+            url: "/sm-hardware/what-is-preservation-capacity.html"
+          - title: Why would I logically replace a drive?
+            url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
+          - title: Where can I view the status of a drive undergoing reconstruction?
+            url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
       - title: Alerts
         entries:
         - title: Overview
-          url: "/sm-settings/generic-alerts.html"
+          url: "/sm-settings/overview-alerts.html"
         - title: Concepts
           entries:
           - title: How alerts work
@@ -912,7 +916,7 @@ sidebar:
             url: "/sm-settings/add-syslog-servers-for-alerts.html"
           - title: Delete syslog servers
             url: "/sm-settings/delete-syslog-servers-for-alerts.html"
-        - title: FAQs
+        - title: FAQs for alerts
           entries:
           - title: What if alerts are disabled?
             url: "/sm-settings/what-if-alerts-are-disabled.html"
@@ -960,7 +964,7 @@ sidebar:
               url: "/sm-settings/enable-feature-pack.html"
             - title: Download CLI
               url: "/sm-settings/download-cli.html"
-          - title: FAQs
+          - title: FAQs for settings
             entries:
             - title: What is Automatic Load Balancing?
               url: "/sm-storage/what-is-automatic-load-balancing.html"
@@ -1004,7 +1008,7 @@ sidebar:
             url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
           - title: Unlock drives when using external key management
             url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
-        - title: FAQs
+        - title: FAQs for drive security
           entries:
           - title: What do I need to know before creating a security key?
             url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
@@ -1026,7 +1030,7 @@ sidebar:
       - title: Authentication
         entries:
         - title: Overview
-          url: "/sm-settings/generic-access-management.html"
+          url: "/sm-settings/overview-access-management.html"
         - title: Concepts
           entries:
           - title: How Access Management works
@@ -1077,7 +1081,7 @@ sidebar:
             url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
           - title: Edit syslog server settings for audit log records
             url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
-        - title: FAQs
+        - title: FAQs for authentication
           entries:
           - title: Why can&#8217;t I log in?
             url: "/sm-settings/why-cant-i-log-in.html"
@@ -1098,7 +1102,7 @@ sidebar:
       - title: Certificates
         entries:
         - title: Overview
-          url: "/sm-settings/generic-certificates.html"
+          url: "/sm-settings/overview-certificates.html"
         - title: Concepts
           entries:
           - title: How certificates work
@@ -1124,7 +1128,7 @@ sidebar:
             url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
           - title: Export key management server certificates
             url: "/sm-settings/export-key-management-certificates.html"
-        - title: FAQs
+        - title: FAQs for certificates
           entries:
           - title: Why does the Cannot Access Other Controller dialog box appear?
             url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
@@ -1199,7 +1203,7 @@ sidebar:
               url: "/sm-support/event-log.html"
             - title: View events
               url: "/sm-support/view-events-using-the-event-log.html"
-        - title: FAQs
+        - title: FAQs for support
           entries:
           - title: What data am I collecting?
             url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
@@ -1239,7 +1243,7 @@ sidebar:
             url: "/sm-support/upgrade-drive-firmware.html"
           - title: Review the possible software and firmware upgrade errors
             url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
-        - title: FAQs
+        - title: FAQs for upgrades
           entries:
           - title: What do I need to know before upgrading the SANtricity OS Software?
             url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
@@ -1324,7 +1328,7 @@ sidebar:
           url: "/um-manage/import-system-settings.html"
         - title: Import storage configuration settings
           url: "/um-manage/import-storage-configuration-settings.html"
-      - title: FAQs
+      - title: FAQs for settings
         entries:
         - title: What settings will be imported?
           url: "/um-manage/what-settings-will-be-imported.html"
@@ -1335,7 +1339,6 @@ sidebar:
       - title: Overview
         url: "/um-manage/generic-manage-groups.html"
       - title: Concepts
-        url: "/um-manage/generic-concepts.html"
         entries:
         - title: Storage array groups
           url: "/um-manage/storage-array-groups.html"
@@ -1380,7 +1383,6 @@ sidebar:
       - title: Overview
         url: "/um-manage/generic-mirroring.html"
       - title: Concepts
-        url: "/um-manage/generic-concepts.html"
         entries:
         - title: Mirroring overview
           url: "/um-manage/mirroring-overview.html"
@@ -1395,7 +1397,7 @@ sidebar:
         - title: Create asynchronous mirrored pair
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
         - title: Create synchronous mirrored pair
-      - title: FAQs
+      - title: FAQs for mirroring
         entries:
         - title: What do I need to know before creating a mirror consistency group?
           url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
@@ -1474,7 +1476,7 @@ sidebar:
             url: "/um-certificates/edit-directory-server-settings-unified.html"
           - title: Remove directory server
             url: "/um-certificates/remove-directory-server-unified.html"
-      - title: FAQs
+      - title: FAQs for authentication
         entries:
         - title: Why can&#8217;t I log in?
           url: "/um-certificates/why-cant-i-log-in-unified.html"
