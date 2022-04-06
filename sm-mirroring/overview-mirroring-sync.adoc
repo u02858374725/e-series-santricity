@@ -1,5 +1,5 @@
 ---
-permalink: sm-mirroring/synchronous-mirroring.html
+permalink: sm-mirroring/overview-mirroring-sync.html
 sidebar: sidebar
 keywords: synchronous, mirroring, storage, array, controllers, manage, the, mirroring, operation,
 summary: "The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance."

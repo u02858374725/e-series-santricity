@@ -44,7 +44,7 @@ Learn more:
 * link:start-snapshot-image-rollback-for-consistency-group-member-volumes.html[Start a snapshot image rollback for a consistency group member]
 
 == Related information
-Learn more about concepts related to snapshots:
+Learn more about tasks related to snapshots:
 
 * link:change-the-reserved-capacity-settings-for-a-snapshot-volume.html[Change reserved capacity for a snapshot volume]
 * link:change-the-reserved-capacity-settings-for-a-snapshot-group.html[Change reserved capacity for a snapshot group]

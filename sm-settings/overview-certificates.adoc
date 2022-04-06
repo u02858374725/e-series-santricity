@@ -1,5 +1,5 @@
 ---
-permalink: sm-settings/generic-certificates.html
+permalink: sm-settings/overview-certificates.html
 sidebar: sidebar
 keywords: certificates,
 summary: "You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates."
@@ -28,6 +28,8 @@ Learn more:
 * link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html[Use CA-signed certificates for authentication with a key management server]
 
 == Related information
+
+Learn more about tasks related to certificates:
 
 * link:view-imported-certificates.html[View imported certificate information]
 * link:enable-certificate-revocation-checking.html[Enable certificate revocation checking]

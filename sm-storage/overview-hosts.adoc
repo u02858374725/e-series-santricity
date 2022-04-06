@@ -36,7 +36,7 @@ Learn more:
 * link:assign-volumes.html[Assign volumes to hosts]
 
 == Related information
-Learn more about concepts related to hosts:
+Learn more about tasks related to hosts:
 
 * link:../sm-settings/set-automatic-load-balancing.html[Set automatic load balancing]
 * link:../sm-settings/set-host-connectivity-reporting.html[Set host connectivity reporting]

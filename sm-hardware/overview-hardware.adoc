@@ -1,5 +1,5 @@
 ---
-permalink: sm-hardware/hardware-overview.html
+permalink: sm-hardware/overview-hardware.html
 sidebar: sidebar
 keywords: hardware, page, overview, graphical, depiction, components,
 summary: "You can check component status on the Hardware page and perform some functions related to those components."
