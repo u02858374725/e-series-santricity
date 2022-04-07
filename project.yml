@@ -1203,25 +1203,15 @@ sidebar:
           entries:
           - title: Overview
             url: "/sm-support/overview-upgrade-center.html"
-          - title: Concepts
-            entries:
-            - title: Controller upgrade overview
-              url: "/sm-support/controller-software-and-firmware-upgrades.html"
-            - title: Workflow for controller software and firmware upgrade
-              url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
-            - title: Drive upgrade overview
-              url: "/sm-support/drive-firmware-upgrades.html"
-          - title: Perform upgrades
-            entries:
-            - title: Upgrade software and firmware
-              url: "/sm-support/upgrade-controller-software-and-firmware.html"
-            - title: Activate controller software and firmware
-              url: "/sm-support/activate-controller-software-and-firmware.html"
-            - title: Upgrade drive firmware
-              url: "/sm-support/upgrade-drive-firmware.html"
-            - title: Review the possible software and firmware upgrade errors
-              url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
-        - title: FAQs for Support Center
+          - title: Upgrade software and firmware
+            url: "/sm-support/upgrade-controller-software-and-firmware.html"
+          - title: Activate controller software and firmware
+            url: "/sm-support/activate-controller-software-and-firmware.html"
+          - title: Upgrade drive firmware
+            url: "/sm-support/upgrade-drive-firmware.html"
+          - title: Review the possible software and firmware upgrade errors
+            url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+        - title: FAQs for support
           entries:
             - title: What data am I collecting?
               url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
