@@ -5,6 +5,7 @@ keywords: upgrade, center
 summary: "Use the Upgrade Center to download the latest software and firmware and upgrade your storage array for the latest features and bug fixes."
 ---
 = Upgrade Center overview
+:experimental
 :icons: font
 :imagesdir: ../media/
 

@@ -978,6 +978,8 @@ sidebar:
               url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
       - title: Drive security
         entries:
+        - title: Overview
+          url: "/sm-settings/overview-drive-security.html"
         - title: Concepts
           entries:
           - title: How Drive Security feature works
