@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: controller, software, firmware, upgrades
 summary: "You can upgrade your storage array’s software and firmware for all the latest features and bug fixes."
 ---
-= Controller software and firmware upgrades
+= Controller upgrade overview
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: drive, firmware, upgrades
 summary: "Drive firmware controls the low-level operating characteristics of a drive. Periodically, the drive manufacturers release updates to drive firmware to add new features, improve performance, and fix defects."
 ---
-= Drive firmware upgrades
+= Drive upgrade overview 
 :icons: font
 :imagesdir: ../media/
 

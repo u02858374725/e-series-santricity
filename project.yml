@@ -1142,7 +1142,7 @@ sidebar:
       - title: Support
         entries:
         - title: Overview
-          url: "/sm-support/generic-support-center.html"
+          url: "/sm-support/overview-support.html"
         - title: View information and diagnostics
           entries:
             - title: View storage array profile
@@ -1195,66 +1195,62 @@ sidebar:
               url: "/sm-support/disable-autosupport-maintenance-window.html"
         - title: View events
           entries:
-            - title: Overview
-              url: "/sm-support/generic-event-log.html"
-            - title: Critical events
-              url: "/sm-support/critical-events.html"
-            - title: Event log
-              url: "/sm-support/event-log.html"
-            - title: View events
+            - title: Event log overview
+              url: "/sm-support/overview-event-log.html"
+            - title: View event log
               url: "/sm-support/view-events-using-the-event-log.html"
-        - title: FAQs for support
+        - title: Manage upgrades
           entries:
-          - title: What data am I collecting?
-            url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
-          - title: What does unreadable sectors data show me?
-            url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
-          - title: What is a health image?
-            url: "/sm-support/what-is-a-health-image.html"
-          - title: What else do I need to do to configure or diagnose iSCSI?
-            url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
-          - title: What do the AutoSupport features do?
-            url: "/sm-support/what-do-the-autosupport-features-do.html"
-          - title: What type of data is collected through the AutoSupport feature?
-            url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
-          - title: How do I configure the delivery method for the AutoSupport feature?
-            url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
-          - title: What is configuration data?
-            url: "/sm-support/what-is-configuration-data.html"
-      - title: Upgrades
-        entries:
-        - title: Overview
-          url: "/sm-support/generic-upgrade-center.html"
-        - title: Concepts
+          - title: Overview
+            url: "/sm-support/overview-upgrade-center.html"
+          - title: Concepts
+            entries:
+            - title: Controller upgrade overview
+              url: "/sm-support/controller-software-and-firmware-upgrades.html"
+            - title: Workflow for controller software and firmware upgrade
+              url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
+            - title: Drive upgrade overview
+              url: "/sm-support/drive-firmware-upgrades.html"
+          - title: Perform upgrades
+            entries:
+            - title: Upgrade software and firmware
+              url: "/sm-support/upgrade-controller-software-and-firmware.html"
+            - title: Activate controller software and firmware
+              url: "/sm-support/activate-controller-software-and-firmware.html"
+            - title: Upgrade drive firmware
+              url: "/sm-support/upgrade-drive-firmware.html"
+            - title: Review the possible software and firmware upgrade errors
+              url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+        - title: FAQs for Support Center
           entries:
-          - title: Controller software and firmware upgrades
-            url: "/sm-support/controller-software-and-firmware-upgrades.html"
-          - title: Workflow for controller software and firmware upgrade
-            url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
-          - title: Drive firmware upgrades
-            url: "/sm-support/drive-firmware-upgrades.html"
-        - title: Perform upgrades
-          entries:
-          - title: Upgrade software and firmware
-            url: "/sm-support/upgrade-controller-software-and-firmware.html"
-          - title: Activate controller software and firmware
-            url: "/sm-support/activate-controller-software-and-firmware.html"
-          - title: Upgrade drive firmware
-            url: "/sm-support/upgrade-drive-firmware.html"
-          - title: Review the possible software and firmware upgrade errors
-            url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+            - title: What data am I collecting?
+              url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+            - title: What does unreadable sectors data show me?
+              url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+            - title: What is a health image?
+              url: "/sm-support/what-is-a-health-image.html"
+            - title: What else do I need to do to configure or diagnose iSCSI?
+              url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+            - title: What do the AutoSupport features do?
+              url: "/sm-support/what-do-the-autosupport-features-do.html"
+            - title: What type of data is collected through the AutoSupport feature?
+              url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+            - title: How do I configure the delivery method for the AutoSupport feature?
+              url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+            - title: What is configuration data?
+              url: "/sm-support/what-is-configuration-data.html"
         - title: FAQs for upgrades
           entries:
-          - title: What do I need to know before upgrading the SANtricity OS Software?
-            url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
-          - title: What do I need to know before suspending IOM auto-synchronization?
-            url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
-          - title: Why is my firmware upgrade progressing so slowly?
-            url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
-          - title: What do I need to know before upgrading drive firmware?
-            url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
-          - title: How do I choose which type of upgrade to perform?
-            url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
+            - title: What do I need to know before upgrading the SANtricity OS Software?
+              url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+            - title: What do I need to know before suspending IOM auto-synchronization?
+              url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+            - title: Why is my firmware upgrade progressing so slowly?
+              url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+            - title: What do I need to know before upgrading drive firmware?
+              url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+            - title: How do I choose which type of upgrade to perform?
+              url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
 
   - title: Unified Manager
     url: "/unified-manager/index.html"

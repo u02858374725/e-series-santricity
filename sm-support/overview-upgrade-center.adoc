@@ -1,0 +1,36 @@
+---
+permalink: sm-support/overview-upgrade-center.html
+sidebar: sidebar
+keywords: upgrade, center
+summary: "Use the Upgrade Center to download the latest software and firmware and upgrade your storage array for the latest features and bug fixes."
+---
+= Upgrade Center overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Upgrade Center to download the latest software and firmware and upgrade your storage array for the latest features and bug fixes.
+
+== What types of upgrades are available?
+You can upgrade the controller software and firmware, and also the drive firmware.
+
+Learn more:
+
+* link:controller-software-and-firmware-upgrades.html[Controller upgrade overview]
+* link:drive-firmware-upgrades.html[Drive upgrade overview]
+
+== How do I upgrade the controller firmware and software?
+To upgrade the controller, you download files from the Support site, transfer files to the controller, and then activate the files.
+
+Learn more:
+
+* link:what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html[What you need to know before upgrading the SANtricity OS Software]
+* link:upgrade-controller-software-and-firmware.html[Upgrade controller software and firmware]
+
+== How do I upgrade the drive firmware?
+To upgrade the drives, you download files from the Support site and then activate the files.
+
+Learn more:
+
+* link:what-do-i-need-to-know-before-upgrading-drive-firmware.html[What you need to know before upgrading drive firmware]
+* link:upgrade-drive-firmware.html[Upgrade drive firmware]
