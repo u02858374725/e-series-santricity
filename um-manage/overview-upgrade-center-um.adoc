@@ -1,20 +1,23 @@
 ---
-permalink: um-manage/how-upgrades-work.html
+permalink: um-manage/overview-upgrade-center-um.html
 sidebar: sidebar
-keywords: how, upgrades, work
-summary: "You can use Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version."
+keywords: upgrade, center
+summary: "From the Upgrade Center, you can manage SANtricity OS software and NVSRAM upgrades for multiple storage arrays."
 ---
-= How upgrades work
+= Upgrade Center overview
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version.
+From the Upgrade Center, you can manage SANtricity OS software and NVSRAM upgrades for multiple storage arrays.
 
-== Upgrade workflow
+== How do upgrades work?
+You download the latest OS software and then upgrade one or more arrays.
 
-The following steps provide a high-level workflow for performing software upgrades:
+=== Upgrade workflow
+
+The following steps provide a high-level workflow for performing software upgrades.
 
 . You download the latest SANtricity OS software file from the Support site (a link is available from Unified Manager in the *Support* page). Save the file on the management host system (the host where you access Unified Manager in a browser), and then unzip the file.
 . In Unified Manager, you load the SANtricity OS software file and the NVSRAM file into the repository (an area of the Web Services Proxy server where files are stored). You can add files either from menu:Upgrade Center[Upgrade SANtricity OS Software or from Upgrade Center > Manage Software Repository].
@@ -29,7 +32,7 @@ The following steps provide a high-level workflow for performing software upgrad
 You can also specify that the software is activated at a later time.
 ====
 
-== Immediate or staged upgrade
+=== Immediate or staged upgrade
 
 You can activate the upgrade immediately or stage it for a later time. You might choose to activate later for these reasons:
 
@@ -38,7 +41,7 @@ You can activate the upgrade immediately or stage it for a later time. You might
 
 To activate staged software, go to menu:Support[Upgrade Center] and click *Activate* in the area labeled SANtricity OS Controller Software upgrade.
 
-== Health check
+=== Health check
 
 A health check runs as part of the upgrade process, but you can also run a health check separately before you begin (go to menu:Upgrade Center[Pre-Upgrade Health Check]).
 
@@ -53,3 +56,28 @@ The health check assesses all storage system components to make sure that the up
 * Excess number of event log events
 * Configuration database validation failure
 * Drives with old versions of DACstore
+
+== What do I need to know before upgrading?
+
+Before you upgrade multiple storage arrays, review the key considerations as part of your planning.
+
+=== Current versions
+
+You can view the current SANtricity OS software versions from the Manage page of Unified Manager for each discovered storage array. The version is shown in the SANtricity OS Software column. The controller firmware and NVSRAM information is available in a pop-up dialog box when you click on the SANtricity OS version in each row.
+
+=== Other components requiring upgrade
+
+As part of the upgrade process, you might also need to upgrade the host's multipath/failover driver or the HBA driver so that the host can interact with the controllers correctly.
+
+For compatibility information, refer to the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix^]. Also, see the procedures in the Express Guides for your operating system. Express Guides are available from the https://docs.netapp.com/us-en/e-series/index.html[E-Series and SANtricity documentation^].
+
+=== Dual controllers
+
+If a storage array contains two controllers and you have a multipath driver installed, the storage array can continue to process I/O while the upgrade occurs. During the upgrade, the following process occurs:
+
+. Controller A fails over all its LUNs to controller B.
+. Upgrade occurs on controller A.
+. Controller A takes back its LUNs and all of controller B's LUNs.
+. Upgrade occurs on controller B.
+
+After the upgrade completes, you might need to manually redistribute volumes between the controllers to ensure volumes return to the correct owning controller.

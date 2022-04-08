@@ -2,14 +2,14 @@
 permalink: um-manage/upgrade-considerations.html
 sidebar: sidebar
 keywords: upgrade, considerations
-summary: "Before you use SANtricity Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning."
+summary: "Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning."
 ---
 = Upgrade considerations
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Before you use SANtricity Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
+Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
 
 == Current versions
 

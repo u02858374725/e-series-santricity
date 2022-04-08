@@ -1288,7 +1288,7 @@ sidebar:
     - title: Settings import
       entries:
       - title: Overview
-        url: "/um-manage/generic-import-settings.html"
+        url: "/um-manage/overview-import-settings.html"
       - title: Concepts
         entries:
         - title: How Import Settings works
@@ -1316,35 +1316,19 @@ sidebar:
     - title: Array groups
       entries:
       - title: Overview
-        url: "/um-manage/generic-manage-groups.html"
-      - title: Concepts
-        entries:
-        - title: Storage array groups
-          url: "/um-manage/storage-array-groups.html"
+        url: "/um-manage/overview-manage-groups.html"
       - title: Configure groups
-        entries:
-          - title: Create group
-            url: "/um-manage/create-storage-array-group.html"
-          - title: Add array to group
-            url: "/um-manage/add-storage-array-to-group.html"
-          - title: Remove arrays from group
-            url: "/um-manage/remove-storage-arrays-from-group.html"
-      - title: Manage groups
-        entries:
-          - title: Delete group
-            url: "/um-manage/delete-storage-array-group.html"
-          - title: Rename group
-            url: "/um-manage/rename-storage-array-group.html"
+        url: "/um-manage/create-storage-array-group.html"
+      - title: Remove arrays from group
+        url: "/um-manage/remove-storage-arrays-from-group.html"
+      - title: Delete group
+        url: "/um-manage/delete-storage-array-group.html"
+      - title: Rename group
+        url: "/um-manage/rename-storage-array-group.html"
     - title: Upgrade
       entries:
       - title: Overview
-        url: "/um-manage/generic-upgrade-center.html"
-      - title: Concepts
-        entries:
-        - title: How upgrades work
-          url: "/um-manage/how-upgrades-work.html"
-        - title: Upgrade considerations
-          url: "/um-manage/upgrade-considerations.html"
+        url: "/um-manage/generic-upgrade-center-um.html"
       - title: Upgrade software and firmware
         entries:
         - title: Perform pre-upgrade health check
