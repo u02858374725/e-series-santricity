@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, array, status, communication, santricity
 summary: "When you open SANtricity Unified Manager, communication with each storage array is established and the status for each storage array is displayed."
 ---
-= Storage array status
+= View storage array status
 :icons: font
 :imagesdir: ../media/
 

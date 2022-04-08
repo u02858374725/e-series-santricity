@@ -59,4 +59,4 @@ For further information on users and passwords, see:
 
 * link:administrator-password-protection-unified.html[Set admin password protection]
 * link:change-admin-password-unified.html[Change the admin password]
-* link:change-passwords-unified.html[Change passwords for local user profiles]
+* link:../um-certificates/change-passwords-unified.html[Change passwords for local user profiles]

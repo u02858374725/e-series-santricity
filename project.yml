@@ -1262,7 +1262,7 @@ sidebar:
     - title: Storage arrays
       entries:
       - title: Overview
-        url: "/um-manage/generic-discover-storage-arrays.html"
+        url: "/um-manage/overview-storage-arrays.html"
       - title: Concepts
         entries:
         - title: Considerations for discovering arrays
@@ -1273,27 +1273,18 @@ sidebar:
         entries:
         - title: Discover multiple storage arrays
           url: "/um-manage/discover-multiple-arrays.html"
-          entries:
-          - title: Enter network address
-            url: "/um-manage/enter-network-address.html"
-          - title: Resolve self-signed certificates during discovery
-            url: "/um-manage/resolve-self-signed-certificates-during-discovery.html"
-          - title: Resolve untrusted certificates during discovery
-            url: "/um-manage/resolve-untrusted-certificates-during-discovery.html"
-          - title: Provide passwords
-            url: "/um-manage/provide-passwords.html"
         - title: Discover single array
           url: "/um-manage/discover-single-array.html"
-        - title: Manage arrays
-          entries:
-            - title: View array status
-              url: "/um-manage/storage-array-status.html"
-            - title: Launch System Manager
-              url: "/um-manage/launch-system-manager.html"
-            - title: Change array passwords
-              url: "/um-admin/change-storage-array-passwords.html"
-            - title: Remove arrays from view
-              url: "/um-manage/remove-storage-array.html"
+      - title: Manage arrays
+        entries:
+          - title: View array status
+            url: "/um-manage/storage-array-status.html"
+          - title: Launch System Manager
+            url: "/um-manage/launch-system-manager.html"
+          - title: Change array passwords
+            url: "/um-admin/change-storage-array-passwords.html"
+          - title: Remove arrays from view
+            url: "/um-manage/remove-storage-array.html"
     - title: Settings import
       entries:
       - title: Overview
