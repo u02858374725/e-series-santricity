@@ -19,7 +19,7 @@ Learn more:
 * link:mirroring-overview.html[How mirroring works]
 * link:mirroring-terminology.html[Mirroring terminology]
 
-== How to I configure mirroring?
+== How do I configure mirroring?
 You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations.
 
 Learn more:
