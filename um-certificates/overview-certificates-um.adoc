@@ -1,0 +1,28 @@
+---
+permalink: um-certificates/overview-certificates-um.html
+sidebar: sidebar
+keywords: certificate management
+summary: "Certificate Management allows you to create certificate signing requests (CSRs), import certificates, and manage existing certificates."
+---
+= Certificate Management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Certificate Management allows you to create certificate signing requests (CSRs), import certificates, and manage existing certificates.
+
+== What are certificates?
+Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet. There are two types of certificates: a signed certificate is validated by a certificate authority (CA), which is a trusted third-party organization, and a self-signed certificate that it is validated by the owner of the entity instead of a third party.
+
+Learn more:
+
+* link:how-certificates-work-unified.html[How certificates work]
+* link:certificate-terminology-unified.html[Certificate terminology]
+
+== How do I configure certificates?
+You can configure certificates for the management station hosting Unified Manager and import them for the controllers in the arrays.
+
+Learn more:
+
+* link:use-ca-signed-certificate-um.html[Use CA-signed certificates for the management system]
+* link:import-array-certificates-unified.html[Import certificates for arrays]

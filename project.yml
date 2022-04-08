@@ -1325,10 +1325,10 @@ sidebar:
         url: "/um-manage/delete-storage-array-group.html"
       - title: Rename group
         url: "/um-manage/rename-storage-array-group.html"
-    - title: Upgrade
+    - title: Upgrades
       entries:
       - title: Overview
-        url: "/um-manage/generic-upgrade-center-um.html"
+        url: "/um-manage/overview-upgrade-center-um.html"
       - title: Upgrade software and firmware
         entries:
         - title: Perform pre-upgrade health check
@@ -1344,7 +1344,7 @@ sidebar:
     - title: Mirroring
       entries:
       - title: Overview
-        url: "/um-manage/generic-mirroring.html"
+        url: "/um-manage/overview-mirroring-um.html"
       - title: Concepts
         entries:
         - title: Mirroring overview
@@ -1360,6 +1360,7 @@ sidebar:
         - title: Create asynchronous mirrored pair
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
         - title: Create synchronous mirrored pair
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html.html"
       - title: FAQs for mirroring
         entries:
         - title: What do I need to know before creating a mirror consistency group?
@@ -1382,7 +1383,7 @@ sidebar:
     - title: Certificates
       entries:
       - title: Overview
-        url: "/um-certificates/generic-certificate-management.html"
+        url: "/um-certificates/overview-certificates-um.html"
       - title: Concepts
         entries:
         - title: How certificates work
@@ -1410,7 +1411,7 @@ sidebar:
     - title: Authentication
       entries:
       - title: Overview
-        url: "/um-certificates/generic-access-management.html"
+        url: "/um-certificates/overview-access-management-um.html"
       - title: Concepts
         entries:
         - title: How Access Management works

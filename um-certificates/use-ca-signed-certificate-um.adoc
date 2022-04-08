@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, ca-signed, certificates
 summary: "You can obtain and import CA-signed certificates for secure access to the management system hosting Unified Manager."
 ---
-= Use CA-signed certificates
+= Use CA-signed certificates for the management system
 :experimental:
 :icons: font
 :imagesdir: ../media/

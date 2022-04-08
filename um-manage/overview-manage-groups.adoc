@@ -28,4 +28,3 @@ From the Manage Groups page, you can create and group and then add arrays to tha
 Learn more:
 
 * link:create-storage-array-group.html[Configure storage array group]
-* link:
