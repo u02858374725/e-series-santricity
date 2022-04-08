@@ -1,5 +1,5 @@
 ---
-permalink: sm-settings/overveiw-drive-security.html
+permalink: sm-settings/overview-drive-security.html
 sidebar: sidebar
 keywords: system, security, key, management,
 summary: "Security key management is available from the System page."

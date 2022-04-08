@@ -79,7 +79,7 @@ sidebar:
           url: "/sm-interface/storage-array-overview.html"
         - title: Manage interface settings
           entries:
-            - title: Administrator password protection
+            - title: Set password protection
               url: "/sm-interface/administrator-password-protection.html"
             - title: Set default capacity values
               url: "/sm-interface/set-default-units-for-capacity-values.html"
@@ -1250,10 +1250,10 @@ sidebar:
     - title: Main interface
       entries:
         - title: Interface overview
-          url: "/um-admin/home-page-unified.html"
+          url: "/um-admin/overview-interface-unified.html"
         - title: Supported browsers
           url: "/um-admin/supported-browsers-unified.html"
-        - title: Administrator password protection
+        - title: Set admin password protection
           url: "/um-admin/administrator-password-protection-unified.html"
         - title: Change the admin password
           url: "/um-admin/change-admin-password-unified.html"
