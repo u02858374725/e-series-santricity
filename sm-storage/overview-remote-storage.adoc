@@ -25,7 +25,7 @@ Learn more:
 * link:rtv-remote-storage-volume-requirements.html[Remote Storage volume requirements]
 
 == How do I import data with this feature?
-Using the Remote Storage wizard, you map a remote storage device (the source for the data import) to a target volume on the E-Series system. This wizard is available from menu:Storage[Remote storage]..
+Using the Remote Storage wizard, you map a remote storage device (the source for the data import) to a target volume on the E-Series system. This wizard is available from menu:Storage[Remote storage].
 
 Learn more:
 

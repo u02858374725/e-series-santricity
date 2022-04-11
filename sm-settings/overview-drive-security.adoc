@@ -29,8 +29,8 @@ Learn more:
 
 * link:create-internal-security-key.html[Create internal security key]
 * link:create-external-security-key.html[Create external security key]
-* link:create-pool-manually.html[Create pool manually]
-* link:create-volume-group.html[Create volume groups]
+* link:../sm-storage/create-pool-manually.html[Create pool manually]
+* link:../sm-storage/create-volume-group.html[Create volume groups]
 
 
 == How do I unlock drives?

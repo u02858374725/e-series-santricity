@@ -33,5 +33,5 @@ Learn more:
 
 Learn more about concepts related to alerts:
 
-* link:overview-event-log.html[Event log overview]
+* link:../sm-support/overview-event-log.html[Event log overview]
 * link:why-are-timestamps-inconsistent-between-the-array-and-alerts.html[Inconsistent time stamps]
