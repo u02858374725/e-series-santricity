@@ -12,7 +12,7 @@ summary: "Use the Support Center to perform diagnostic, recovery, and informatio
 [.lead]
 The Support page provides access to technical support resources.
 
-== What tasks are available?
+== What Support tasks are available?
 In Support, you can view technical support contacts, perform diagnostics, configure AutoSupport, view the event log, and perform software upgrades.
 
 Learn more:

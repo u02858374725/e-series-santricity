@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remote, storage, requirements
 summary: "Before using the Remote Storage feature, review the following requirements and restrictions."
 ---
-= Remote storage requirements
+= Remote Storage feature requirements
 :icons: font
 :imagesdir: ../media/
 

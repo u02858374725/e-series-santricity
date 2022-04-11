@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: certificates,
 summary: "You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates."
 ---
-= Certificates
+= Certificates overview
 :icons: font
 :imagesdir: ../media/
 
@@ -12,12 +12,12 @@ summary: "You can use System Manager to create Certificate Signing Requests (CSR
 You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates.
 
 == What are certificates?
-Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet. There are two types of certificates: a signed certificate is validated by a certificate authority (CA), which is a trusted third-party organization, and a self-signed certificate that it is validated by the owner of the entity instead of a third party.
+_Certificates_ are digital files that identify online entities, such as websites and servers, for secure communications on the internet. There are two types of certificates: a _signed certificate_ is validated by a certificate authority (CA) and a _self-signed certificate_ is validated by the owner of the entity instead of a third party.
 
 Learn more:
 
 * link:how-certificates-work-sam.html[How certificates work]
-* link:certificate-terminology.html[Certificate terms]
+* link:certificate-terminology.html[Certificate terminology]
 
 == How do I configure signed certificates?
 You first generate a signing request from System Manager, then send the file to a CA. Once the CA returns the certificate files, you import them using System Manager.

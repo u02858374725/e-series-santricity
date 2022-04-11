@@ -17,20 +17,20 @@ This feature is not available on the EF600 or EF300 storage system.
 ====
 
 == What is synchronous mirroring?
-Synchronous mirroring replicates data volumes in real time to ensure continuous availability. Storage array controllers manage the mirroring operation, which is transparent to host machines and software applications.
+_Synchronous mirroring_ replicates data volumes in real time to ensure continuous availability. Storage array controllers manage the mirroring operation, which is transparent to host machines and software applications.
 
 This type of mirroring is ideal for business continuity purposes such as disaster recovery.
 
 Learn more:
 
 * link:how-asynchronous-mirroring-works.html[How synchronous mirroring works]
-* link:synchronous-mirroring-terminology.html[Synchronous mirroring terms]
+* link:synchronous-mirroring-terminology.html[Synchronous mirroring terminology]
 * link:synchronous-mirroring-status.html[Synchronous mirroring status]
 * link:volume-ownership-sync.html[Volume ownership]
 * link:role-change-of-volumes-in-a-mirrored-pair.html[Role change between volumes in a mirrored pair]
 
 == How do I configure synchronous mirroring?
-You must perform the initial configuration between the arrays in the Unified Manager interface. Once it is configured, you can manage mirrored pairs in System Manager.
+You must use the Unified Manager interface to perform the initial mirroring configuration between the arrays. Once it is configured, you can manage mirrored pairs in System Manager.
 
 Learn more:
 

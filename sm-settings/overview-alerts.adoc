@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: Alerts,
 summary: "You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages."
 ---
-= Alerts
+= Alerts overview
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -12,7 +13,7 @@ summary: "You can configure System Manager to send storage array alerts by email
 You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages.
 
 == What are alerts?
-Alerts notify administrators about important events that occur on the storage array. Events can include such issues as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller. All Critical events are considered "alertable," along with some Warning and Informational events.
+_Alerts_ notify administrators about important events that occur on the storage array. Events can include such issues as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller. All Critical events are considered "alertable," along with some Warning and Informational events.
 
 Learn more:
 
@@ -20,7 +21,7 @@ Learn more:
 * link:alerts-terminology.html[Alerts terminology]
 
 == How do I configure alerts?
-You can configure alerts to be sent as a message to one or more email addresses, as an SNMP trap to an SNMP server, or as a message to a syslog server. Alert configuraion is available from the Alerts page, under Settings.
+You can configure alerts to be sent as a message to one or more email addresses, as an SNMP trap to an SNMP server, or as a message to a syslog server. Alert configuration is available from menu:Settings[Alerts].
 
 Learn more:
 
@@ -32,5 +33,5 @@ Learn more:
 
 Learn more about concepts related to alerts:
 
-* link:event-log.html[Event log]
-* link:critical-events.html[Critical events]
+* link:overview-event-log.html[Event log overview]
+* link:why-are-timestamps-inconsistent-between-the-array-and-alerts.html[Inconsistent time stamps]
