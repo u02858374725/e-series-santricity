@@ -22,12 +22,6 @@ sidebar:
           url: "/san-getstarted/santricity-overview.html"
         - title: Supported browsers and OSs
           url: "/san-getstarted/supported-browsers-os.html"
-        - title: Unified Manager setup
-          entries:
-          - title: Install Unified Manager
-            url: "/san-getstarted/install-um.html"
-          - title: Access Unified Manager
-            url: "/san-getstarted/login-um.html"
         - title: System Manager setup
           entries:
           - title: Access System Manager
@@ -54,12 +48,18 @@ sidebar:
                 url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
               - title: Where can I find more information about display preferences?
                 url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+        - title: Unified Manager setup
+          entries:
+          - title: Install Unified Manager
+            url: "/san-getstarted/install-um.html"
+          - title: Access Unified Manager
+            url: "/san-getstarted/login-um.html"
   - title: System Manager
     url: "/system-manager/index.html"
     entries:
       - title: Main interface
         entries:
-        - title: Interface overview
+        - title: System Manager interface overview
           url: "/sm-interface/home-page.html"
         - title: View performance data
           entries:
@@ -1249,7 +1249,7 @@ sidebar:
     entries:
     - title: Main interface
       entries:
-        - title: Interface overview
+        - title: Unified Manager interface overview
           url: "/um-admin/overview-interface-unified.html"
         - title: Supported browsers
           url: "/um-admin/supported-browsers-unified.html"
