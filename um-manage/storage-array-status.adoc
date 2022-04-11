@@ -2,16 +2,18 @@
 permalink: um-manage/storage-array-status.html
 sidebar: sidebar
 keywords: storage, array, status, communication, santricity
-summary: "When you open SANtricity Unified Manager, communication with each storage array is established and the status for each storage array is displayed."
+summary: "Unified Manager displays the status of each storage array that has been discovered."
 ---
-= Storage array status
+= View storage array status
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-When you open SANtricity Unified Manager, communication with each storage array is established and the status for each storage array is displayed.
+Unified Manager displays the status of each storage array that has been discovered.
 
-You can view the status of the storage array and the status of the connection between the Web Services Proxy and that storage array.
+Go to the *Manage - All* page. From this page, you can view the status of the connection between the Web Services Proxy and that storage array.
+
+Status indicators are described in the following table.
 
 [cols="25h,~",options="header"]
 |===

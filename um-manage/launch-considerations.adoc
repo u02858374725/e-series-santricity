@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: considerations, accessing, santtricity, system manager
 summary: "You select one or more storage arrays and use the Launch option to open SANtricity System Manager when you want to configure and manage storage arrays."
 ---
-= Considerations for accessing SANtricity System Manager
+= Considerations for accessing System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -2,7 +2,7 @@
 permalink: um-manage/how-upgrades-work.html
 sidebar: sidebar
 keywords: how, upgrades, work
-summary: "You can use SANtricity Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version."
+summary: "You can use Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version."
 ---
 = How upgrades work
 :experimental:
@@ -10,7 +10,7 @@ summary: "You can use SANtricity Unified Manager to upgrade the SANtricity OS so
 :imagesdir: ../media/
 
 [.lead]
-You can use SANtricity Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version.
+You can use Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version.
 
 == Upgrade workflow
 

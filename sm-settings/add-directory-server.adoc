@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, directory, server,
 summary: "To configure authentication for Access Management, you can establish communications between the storage array and an LDAP server, and then map the LDAP user groups to the array’s predefined roles."
 ---
-= Add directory server
+= Add an LDAP directory server
 :experimental:
 :icons: font
 :imagesdir: ../media/

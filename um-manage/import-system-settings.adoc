@@ -14,8 +14,8 @@ You can import the system configuration from one storage array to other storage 
 
 .Before you begin
 
-* System settings are configured in SANtricity System Manager for the storage array you want to use as the source.
-* The existing configuration for the target storage arrays are backed up in SANtricity System Manager (menu:Settings[System > Save Storage Array Configuration]).
+* System settings are configured in System Manager for the storage array you want to use as the source.
+* The existing configuration for the target storage arrays are backed up in System Manager (menu:Settings[System > Save Storage Array Configuration]).
 
 .About this task
 
