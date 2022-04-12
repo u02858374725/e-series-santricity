@@ -17,7 +17,7 @@ indexpage:
     - title: Manage arrays
       links:
          - title: Storage array groups
-           url: ../um-manage/storage-array-groups.html
+           url: ../um-manage/overview-manage-groups.html
          - title: Storage array status
            url: ../um-manage/storage-array-status.html
          - title: Upgrade software
