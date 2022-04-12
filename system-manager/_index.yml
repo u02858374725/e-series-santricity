@@ -19,7 +19,7 @@ indexpage:
         - title: SSD cache
           url: ../sm-storage/create-ssd-cache.html
         - title: Volumes
-          url: ../sm-storage/create-volumes-storage.html
+          url: ../sm-storage/create-volumes.html
     - title: Manage hardware
       links:
         - title: Shelves
@@ -52,8 +52,8 @@ indexpage:
           url: ../sm-interface/operations-in-progress.html
     - title: Recovery and events
       links:
-        - title: Recovery actions
-          url: ../sm-support/take-recovery-action-on-storage-array-status.html
+        - title: View sector log
+          url: ../sm-support/view-unreadable-sectors-log.html
         - title: Recovery Guru
           url: ../sm-interface/recover-from-problems-using-recovery-guru.html
         - title: Critical events
