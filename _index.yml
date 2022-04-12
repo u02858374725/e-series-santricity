@@ -18,9 +18,9 @@ indexpage:
      - title: SANtricity APIs
        links:
          - title: Web services
-           url: /web-services-proxy/index.html
+           url: https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html
          - title: Plug-in for vCenter
-           url: /san-spvc-ic-overview.html
+           url: https://docs.netapp.com/us-en/e-series/vcenter-plugin/san-spvc-ic-overview.html
          - title: SMI-S providers
            url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
      - title: Performance apps & add-ons
