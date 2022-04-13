@@ -3,7 +3,7 @@ indexpage:
     - title: Get started
       links:
       - title: Unified Manager interface overview
-        url: ../um-admin/overview-interface-unified.html.html
+        url: ../um-admin/overview-interface-unified.html
       - title: Set admin password
         url: ../um-admin/administrator-password-protection-unified.html
     - title: Discover arrays

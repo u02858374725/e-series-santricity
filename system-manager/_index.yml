@@ -46,17 +46,17 @@ indexpage:
           url: ../sm-support/collect-support-data-manually.html
         - title: Download errors
           url: ../sm-support/review-the-possible-software-and-firmware-upgrade-errors.html
-        - title: Problem notification
+        - title: Problem notifications
           url: ../sm-interface/problem-notification.html
         - title: Operations in progress
-          url: ../sm-interface/operations-in-progress.html
+          url: ../sm-interface/view-and-act-on-operations-in-progress.html
     - title: Recovery and events
       links:
         - title: Unredable sectors log
           url: ../sm-support/view-unreadable-sectors-log.html
         - title: Recovery Guru
           url: ../sm-interface/recover-from-problems-using-recovery-guru.html
-        - title: Critical events
-          url: ../sm-support/critical-events.html
+        - title: Event log
+          url: ../sm-support/overview-event-log.html
         - title: Recovery support files
           url: ../sm-support/retrieve-recovery-support-files.html
