@@ -46,8 +46,6 @@ sidebar:
                 url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
               - title: System Manager has not detected any hosts. What do I do?
                 url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-              - title: Where can I find more information about display preferences?
-                url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
         - title: Unified Manager setup
           entries:
           - title: Install Unified Manager
@@ -60,7 +58,7 @@ sidebar:
       - title: Main interface
         entries:
         - title: System Manager interface overview
-          url: "/sm-interface/home-page.html"
+          url: "/sm-interface/overview-interface-sam.html"
         - title: View performance data
           entries:
           - title: Overview
@@ -120,6 +118,8 @@ sidebar:
               url: "/sm-storage/what-does-the-cpu-graph-show.html"
             - title: What does the Headroom graph show?
               url: "/sm-storage/what-does-the-headroom-graph-show.html"
+            - title: Where can I find more information about display preferences?
+              url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
       - title: Pools and volume groups
         entries:
         - title: Overview
@@ -750,7 +750,7 @@ sidebar:
             - title: Enable iSCSI discovery settings
               url: "/sm-settings/enable-iscsi-discovery-settings.html"
             - title: View iSCSI statistics packages
-              url: "/sm-settings/view-iscsi-statistics-packages.html"
+              url: "/sm-support/view-iscsi-statistics-packages.html"
             - title: View iSCSI sessions
               url: "/sm-settings/view-iscsi-sessions-system.html"
             - title: End iSCSI session

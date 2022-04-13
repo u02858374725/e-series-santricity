@@ -14,6 +14,7 @@ SANtricity software supports several types of browsers and operating systems.
 == Browsers
 The following browsers and versions are supported.
 
+[cols="1a,1a" options="header"]
 |===
 | Browser| Minimum version
 a|
@@ -50,6 +51,7 @@ For Unified Manager, the Web Services Proxy must be installed and available to t
 == Operating systems
 The following operating systems and versions are supported.
 
+[cols="1a,1a" options="header"]
 |===
 | Operating system| Minimum version/architecture
 a|

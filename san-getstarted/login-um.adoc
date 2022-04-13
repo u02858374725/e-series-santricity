@@ -26,4 +26,6 @@ The Unified Manager login page opens.
 
 . For first-time login, enter `admin` for the user name, and then set and confirm a password for the admin user.
 +
-The password can include up to 30 characters. For further information about users and passwords, see the Access Management section of the Unified Manager online help.
+The password can include up to 30 characters.
+
+For further information about users and passwords, see link:../um-certificates/how-access-management-works-unified.html[How Access Management works].

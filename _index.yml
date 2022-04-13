@@ -4,9 +4,9 @@ indexpage:
      - title: Get started
        links:
          - title: System Manager interface
-           url: /sm-interface/home-page.html
+           url: /sm-interface/overview-interface-sam.html"
          - title: Unified Manager interface
-           url: /um-admin/home-page-unified.html
+           url: /um-admin/overview-interface-unified.html
          - title: SANtricity software datasheet
            url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
      - title: E-series docs

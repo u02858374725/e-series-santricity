@@ -1,5 +1,5 @@
 ---
-permalink: sm-interface/home-page.html
+permalink: sm-interface/overview-interface-sam.html
 sidebar: sidebar
 keywords:
 summary: 'You navigate the main interface to access System Manager features and tasks.'
