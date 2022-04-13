@@ -694,7 +694,7 @@ sidebar:
         - title: Concepts
           entries:
             - title: Hardware page
-              url: "hardware-page-overview.html"
+              url: "/sm-hardware/hardware-page-overview.html"
             - title: Hardware terms
               url: "/sm-hardware/hardware-terminology.html"
         - title: Manage shelf components
@@ -870,7 +870,6 @@ sidebar:
           - title: Alerts terminology
             url: "/sm-settings/alerts-terminology.html"
         - title: Manage email alerts
-          url: "/sm-settings/manage-email-alerts.html"
           entries:
           - title: Configure mail server and recipients
             url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
@@ -883,7 +882,6 @@ sidebar:
           - title: Edit mail server
             url: "/sm-settings/edit-mail-server-for-alerts.html"
         - title: Manage SNMP alerts
-          url: "/sm-settings/manage-snmp-alerts.html"
           entries:
           - title: Configure SNMP alerts
             url: "/sm-settings/configure-snmp-alerts.html"
@@ -906,7 +904,6 @@ sidebar:
           - title: Delete trap destinations
             url: "/sm-settings/delete-trap-destinations.html"
         - title: Manage syslog alerts
-          url: "/sm-settings/manage-syslog-alerts.html"
           entries:
           - title: Configure syslog server
             url: "/sm-settings/configure-syslog-server-for-alerts.html"
@@ -932,10 +929,6 @@ sidebar:
               url: "/sm-settings/cache-settings-and-performance.html"
             - title: Automatic load balancing overview
               url: "/sm-settings/automatic-load-balancing-overview.html"
-            - title: How add-on features work
-              url: "/sm-settings/how-add-on-features-work.html"
-            - title: Add-on terms
-              url: "/sm-settings/add-on-feature-terminology.html"
           - title: Configure array settings
             entries:
             - title: Edit storage array name
@@ -956,14 +949,18 @@ sidebar:
               url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
           - title: Configure add-on features
             entries:
+            - title: How add-on features work
+              url: "/sm-settings/how-add-on-features-work.html"
+            - title: Add-on terms
+              url: "/sm-settings/add-on-feature-terminology.html"
             - title: Obtain feature key file
               url: "/sm-settings/obtain-a-feature-key-file.html"
             - title: Enable premium feature
               url: "/sm-settings/enable-premium-feature.html"
             - title: Enable feature pack
               url: "/sm-settings/enable-feature-pack.html"
-            - title: Download CLI
-              url: "/sm-settings/download-cli.html"
+          - title: Download CLI
+            url: "/sm-settings/download-cli.html"
           - title: FAQs
             entries:
             - title: What is Automatic Load Balancing?
@@ -986,7 +983,7 @@ sidebar:
             url: "/sm-settings/how-the-drive-security-feature-works.html"
           - title: How security key management works
             url: "/sm-settings/how-security-key-management-works.html"
-          - title: Terminology
+          - title: Terms
             url: "/sm-settings/drive-security-terminology.html"
         - title: Configure security keys
           entries:
@@ -1265,7 +1262,7 @@ sidebar:
         entries:
         - title: Considerations for discovering arrays
           url: "/um-manage/considerations-for-discovering-arrays.html"
-        - title: Considerations for accessing SANtricity System Manager
+        - title: Considerations for accessing System Manager
           url: "/um-manage/launch-considerations.html"
       - title: Discover arrays
         entries:
@@ -1358,7 +1355,7 @@ sidebar:
         - title: Create asynchronous mirrored pair
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
         - title: Create synchronous mirrored pair
-          url: "/um-manage/create-synchronous-mirrored-pair-um.html.html"
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
       - title: FAQs
         entries:
         - title: What do I need to know before creating a mirror consistency group?
@@ -1414,13 +1411,13 @@ sidebar:
         entries:
         - title: How Access Management works
           url: "/um-certificates/how-access-management-works-unified.html"
-        - title: Access Management terminology
+        - title: Terms
           url: "/um-certificates/access-management-terminology-unified.html"
         - title: Permissions for mapped roles
           url: "/um-certificates/permissions-for-mapped-roles-unified.html"
-        - title: Access Management with local user roles
+        - title: Local user roles
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
-        - title: Access Management with directory services
+        - title: Directory services
           url: "/um-certificates/access-management-with-directory-services-unified.html"
       - title: Use local user roles
         entries:
