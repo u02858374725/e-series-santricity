@@ -750,7 +750,7 @@ sidebar:
             - title: Enable iSCSI discovery settings
               url: "/sm-settings/enable-iscsi-discovery-settings.html"
             - title: View iSCSI statistics packages
-              url: "/sm-support/view-iscsi-statistics-packages.html"
+              url: "/sm-support/view-iscsi-statistics-packages-support.html"
             - title: View iSCSI sessions
               url: "/sm-settings/view-iscsi-sessions-system.html"
             - title: End iSCSI session
