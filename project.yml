@@ -10,7 +10,7 @@ sidebar:
   entries:
   - title: SANtricity docs
     url: "/index.html"
-  - title: Release notes
+  - title: Release notes 
     entries:
       - title: What's new
         url: /whats-new.html
