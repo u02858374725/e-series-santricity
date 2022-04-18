@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: error, problem, notification,
 summary: "System Manager uses icons and several other methods to notify you that problems exist with the storage array."
 ---
-= Problem notification
+= Problem notifications overview 
 :icons: font
 :imagesdir: ../media/
 

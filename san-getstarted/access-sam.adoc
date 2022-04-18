@@ -30,7 +30,7 @@ To access the System Manager user interface, you point a browser to the controll
 
 .Steps
 
-. From your browser, enter the following URL: `+https://<DomainNameOrIPAddress>+`
+. From your browser, enter the following URL: `+https://<IPAddress>+`
 +
 `IPAddress` is the address for one of the storage array controllers.
 +
@@ -47,4 +47,4 @@ The Setup wizard launches on first-time login.
  ** *Configure alerts* -- Allow System Manager to receive automatic notifications when a problem occurs with the storage array.
  ** *Enable AutoSupport* -- Automatically monitor the health of your storage array and have dispatches sent to technical support.
 
-For more information on the Setup Wizard, see link:/sm-interface/setup-wizard-overview.html[Setup Wizard overview].
+For more information on the Setup Wizard, see link:../sm-interface/setup-wizard-overview.html[Setup Wizard overview].

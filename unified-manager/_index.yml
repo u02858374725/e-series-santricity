@@ -2,8 +2,8 @@ indexpage:
   tiles:
     - title: Get started
       links:
-      - title: Unified Manager overview
-        url: ../um-admin/home-page-unified.html
+      - title: Unified Manager interface overview
+        url: ../um-admin/overview-interface-unified.html
       - title: Set admin password
         url: ../um-admin/administrator-password-protection-unified.html
     - title: Discover arrays
@@ -28,13 +28,13 @@ indexpage:
            url: ../um-certificates/how-access-management-works-unified.html
          - title: Certificates
            url: ../um-certificates/how-certificates-work-unified.html
-         - title: CA-signed certificates
-           url: ../um-certificates/use-ca-signed-certificate-um.html
-    - title: Settings
+         - title: Directory services
+           url: ../um-certificates/access-management-with-directory-services-unified.html
+    - title: Manage settings
       links:
          - title: Import settings
            url: ../um-manage/how-import-settings-works.html
-         - title: Password settings
+         - title: Change password settings
            url: ../um-certificates/change-local-user-passwords-settings-unified.html
-         - title: Server settings
+         - title: Change Directory Server settings
            url: ../um-certificates/edit-directory-server-settings-unified.html
