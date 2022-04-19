@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system settings
 summary: "You can configure System Manager for some general array settings and add-on features.."
 ---
-= System Settings overview
+= Settings overview
 :experimental:
 :icons: font
 :imagesdir: ../media/
@@ -27,7 +27,7 @@ Array settings include:
 Learn more about tasks related to System Settings:
 
 * link:download-cli.html[Download the command line interface (CLI)]
-* link:sm-settings/create-internal-security-key.html[Create internal security key]
+* link:create-internal-security-key.html[Create internal security key]
 * link:create-external-security-key.html[Create external security key]
 * link:../sm-hardware/configure-iscsi-ports-hardware.html[Configure iSCSI ports]
 * link:../sm-hardware/configure-nvme-over-infiniband-ports-hardware.html[Configure NVME over IB ports]
