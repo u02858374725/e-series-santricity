@@ -928,6 +928,8 @@ sidebar:
             url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
       - title: Array settings
         entries:
+          - title: System Settings overview
+            url: "/sm-settings/overview-settings.html"
           - title: Concepts
             entries:
             - title: Cache settings and performance
@@ -964,8 +966,8 @@ sidebar:
               url: "/sm-settings/enable-premium-feature.html"
             - title: Enable feature pack
               url: "/sm-settings/enable-feature-pack.html"
-            - title: Download CLI
-              url: "/sm-settings/download-cli.html"
+          - title: Download CLI
+            url: "/sm-settings/download-cli.html"
           - title: FAQs
             entries:
             - title: What is Automatic Load Balancing?
