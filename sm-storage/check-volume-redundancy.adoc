@@ -16,7 +16,7 @@ Under the guidance of technical support or as instructed by the Recovery Guru, y
 
 * The status of the pool or volume group must be Optimal.
 * The pool or volume group must have no volume modification operations in progress.
-* You can check redundancy on any RAID level except on RAID 0, because RAID 0 has no data redundancy. (Pools are configured only as RAID 6.)
+* You can check redundancy on any RAID level except on RAID 0, because RAID 0 has no data redundancy.
 
 [NOTE]
 ====
