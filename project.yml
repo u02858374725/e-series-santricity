@@ -8,7 +8,7 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-  - title: SANtricity docs
+  - title: SANtricity 11.7 docs
     url: "/index.html"
   - title: Release notes
     entries:
