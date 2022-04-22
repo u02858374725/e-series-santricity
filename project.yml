@@ -923,6 +923,8 @@ sidebar:
             url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
       - title: Array settings
         entries:
+          - title: Settings overview
+            url: "/sm-settings/overview-settings.html"
           - title: Concepts
             entries:
             - title: Cache settings and performance
