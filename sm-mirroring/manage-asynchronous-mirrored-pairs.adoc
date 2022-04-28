@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/manage-asynchronous-mirrored-pairs.html
 sidebar: sidebar
-keywords: manage, asynchronous, mirrored, pairs, reserved, capacity,
+keywords: SANtricity, 11.7, System Manager, E-Series, manage, asynchronous, mirrored, pairs, reserved, capacity,
 summary: "You can manage a mirrored pair to remove a mirror relationship from a mirror consistency group, increase reserved capacity, and change the alert thresholds for reserved capacity settings."
 ---
 = Manage asynchronous mirrored pairs

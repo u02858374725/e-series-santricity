@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html
 sidebar: sidebar
-keywords: change, role, volumes, mirrored, pair, administrative, purpose,
-summary: "You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring. You change the role between volumes in a mirrored pair for administrative purposes or in the event of a disaster on the local storage array."
+keywords: SANtricity, 11.7, System Manager, E-Series, change, role, volumes, mirrored, pair,
+summary: "You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring for administrative purposes or in the event of a disaster on the local storage array."
 ---
 = Change role between volumes in a mirrored pair
 :experimental:
@@ -10,7 +10,7 @@ summary: "You can perform a role reversal between the two volumes in a mirrored 
 :imagesdir: ../media/
 
 [.lead]
-You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring. You change the role between volumes in a mirrored pair for administrative purposes or in the event of a disaster on the local storage array.
+You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring. This task might be necessary for administrative purposes or in the event of a disaster on the local storage array.
 
 .About this task
 
@@ -27,7 +27,7 @@ The system displays a confirmation.
 +
 [NOTE]
 ====
-If the local storage array cannot communicate with the remote storage array, the system displays the *Cannot Contact Storage Array* dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
+If the local storage array cannot communicate with the remote storage array, the system displays the Cannot Contact Storage Array dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
 ====
 
 .Results

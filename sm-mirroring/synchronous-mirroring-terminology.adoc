@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-terminology.html
 sidebar: sidebar
-keywords: synchronous, mirroring, terminology
+keywords: SANtricity, 11.7, System Manager, E-Series, synchronous, mirroring, terms
 summary: "Learn how the synchronous mirroring terms apply to your storage array."
 ---
 = Synchronous mirroring terminology
@@ -11,6 +11,7 @@ summary: "Learn how the synchronous mirroring terms apply to your storage array.
 [.lead]
 Learn how the synchronous mirroring terms apply to your storage array.
 
+[cols="25h,~",options="header"]
 |===
 | Term| Description
 

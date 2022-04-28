@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html
 sidebar: sidebar
-keywords: view, unsynchronized, data, amount, between, mirror, consistency, groups,
+keywords: SANtricity, 11.7, System Manager, E-Series, view, unsynchronized, data, mirror, consistency, groups,
 summary: "You can view the amount of unsynchronized data between the mirror consistency groups on the local storage array and on the remote storage array. While the mirror consistency group is in an Unsynchronized status, no mirroring activity takes place."
 ---
 = View unsynchronized data amount between mirror consistency groups

@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html
 sidebar: sidebar
-keywords: change, synchronization, settings, mirror, consistency, group,
+keywords: SANtricity, 11.7, System Manager, E-Series, change, synchronization, settings, mirror, consistency, group,
 summary: "You can change the synchronization settings and warning thresholds that the mirror consistency group on the local storage array uses when data is initially synchronized or when data is re-synchronized during asynchronous mirroring operations."
 ---
 = Change synchronization settings for a mirror consistency group
@@ -25,7 +25,7 @@ The Mirrored Consistency Group table appears and displays all the mirror consist
 
 . Select the mirror consistency group that you want to edit, and then select menu:More[Edit Settings].
 +
-The system displays the *Edit Settings* dialog box.
+The system displays the Edit Settings dialog box.
 
 . Edit the synchronization and alert settings as appropriate, and then click *Save*.
 +
@@ -33,7 +33,7 @@ The system displays the *Edit Settings* dialog box.
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 |  Field| Description
 

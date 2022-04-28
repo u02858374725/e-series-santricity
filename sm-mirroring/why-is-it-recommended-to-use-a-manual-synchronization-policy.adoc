@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html
 sidebar: sidebar
-keywords: manual, resynchronization, is, recommended, because, it, lets, you,, manage, the, resynchronization, process,
+keywords: SANtricity, 11.7, System Manager, E-Series, manual, resynchronization
 summary: "Manual resynchronization is recommended because it lets you manage the resynchronization process in a way that provides the best opportunity for recovering data."
 ---
 = Why is it recommended to use a manual synchronization policy?

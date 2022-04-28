@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html
 sidebar: sidebar
-keywords: can't, increase, reserved, capacity, with, my, requested, amount,
+keywords: SANtricity, 11.7, System Manager, E-Series, increase, reserved, capacity,
 summary: "You can increase reserved capacity only in increments of 4 GiB."
 ---
 = Why can't I increase reserved capacity with my requested amount?

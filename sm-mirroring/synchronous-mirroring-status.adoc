@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-status.html
 sidebar: sidebar
-keywords: synchronous, mirroring, status,
+keywords: SANtricity, 11.7, System Manager, E-Series, synchronous, mirroring, status,
 summary: "A synchronous mirrored pair’s status indicates whether the data on the primary volume and on the secondary volume is synchronized. A mirror status is independent of the component status of the volumes in the mirrored pair."
 ---
 = Synchronous mirroring status

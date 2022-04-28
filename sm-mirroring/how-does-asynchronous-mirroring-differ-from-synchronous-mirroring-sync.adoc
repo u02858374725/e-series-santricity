@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html
 sidebar: sidebar
-keywords: 
+keywords: SANtricity, 11.7, System Manager, E-Series, asynchronous, mirroring, differ, synchronous, mirroring,
 summary: 'The Asynchronous Mirroring feature differs from the Synchronous Mirroring feature in one essential way: it captures the state of the source volume at a particular point in time and copies just the data that has changed since the last image capture.'
 ---
 = How does asynchronous mirroring differ from synchronous mirroring?
@@ -15,7 +15,7 @@ With synchronous mirroring, the state of the primary volume is not captured at s
 
 With asynchronous mirroring, the remote storage array is not fully synchronized with the local storage array, so if the application needs to transition to the remote storage array due to a loss of the local storage array, some transactions could be lost.
 
-Comparison between mirroring features
+Comparison between mirroring features:
 
 |===
 | Asynchronous Mirroring| Synchronous Mirroring
