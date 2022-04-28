@@ -21,11 +21,11 @@ A list of the current iSCSI sessions appears.
 
 . *Optional:* To see additional information about a specific iSCSI session, select a session, and then click *View Details*.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Item| Description
 a|

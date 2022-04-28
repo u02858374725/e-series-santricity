@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-management-ports.html
 sidebar: sidebar
-keywords: configure, management, port, transmission, parameter,
+keywords: SANtricity, 11.7, System Manager, E-Series, configure, management, port,
 summary: "The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses."
 ---
 = Configure management port
@@ -34,22 +34,22 @@ The controller's context menu appears.
 
 . Select *Configure management ports*.
 +
-The *Configure Management Ports* dialog box opens.
+The Configure Management Ports dialog box opens.
 
 . Make sure port 1 is displayed, and then click *Next*.
 . Select the configuration port settings, and then click *Next*.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Field| Description
 a|
 Speed and duplex mode
 a|
-Keep the *Auto-negotiate* setting if you want System Manager to determine the transmission parameters between the storage array and the network; or if you know the speed and mode of your network, select the parameters from the drop-down list. Only the valid speed and duplex combinations appear in the list.
+Keep the Auto-negotiate setting if you want System Manager to determine the transmission parameters between the storage array and the network; or if you know the speed and mode of your network, select the parameters from the drop-down list. Only the valid speed and duplex combinations appear in the list.
 a|
 Enable IPv4 / Enable IPv6
 a|
@@ -60,11 +60,11 @@ If you select *Enable IPv4*, a dialog box opens for selecting IPv4 settings afte
 
 . Configure the IPv4 and/or IPv6 settings, either automatically or manually.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Field| Description
 a|

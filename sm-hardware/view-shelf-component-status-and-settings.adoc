@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-shelf-component-status-and-settings.html
 sidebar: sidebar
-keywords: view, shelf, component, status, settings,
+keywords: SANtricity, 11.7, System Manager, E-Series, view, shelf, component, status, settings,
 summary: "The Hardware page provides status and settings for shelf components, including the power supplies, fans, and batteries."
 ---
 = View shelf component status and settings
@@ -24,9 +24,9 @@ The available components depend on the type of shelf:
 . Select *Hardware*.
 . Select the drop-down list for the Controller Shelf or Drive Shelf, and then select *View Settings*.
 +
-The *Shelf Components Settings* dialog box opens, with tabs that show the status and settings related to the shelf components. Depending on the type of shelf selected, some tabs described in the table might not appear.
+The Shelf Components Settings dialog box opens, with tabs that show the status and settings related to the shelf components. Depending on the type of shelf selected, some tabs described in the table might not appear.
 +
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Tab| Description
 a|

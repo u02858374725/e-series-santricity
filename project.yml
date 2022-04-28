@@ -771,8 +771,6 @@ sidebar:
               url: "/sm-hardware/drive-states.html"
             - title: Solid State Disks (SSDs)
               url: "/sm-hardware/solid-state-disks-ssds.html"
-            - title: Hot spare drives
-              url: "/sm-hardware/hot-spare-drives.html"
             - title: Limit drive view
               url: "/sm-hardware/limit-the-drive-view.html"
             - title: Turn on drive locator light
@@ -787,14 +785,18 @@ sidebar:
               url: "/sm-hardware/initialize-format-drive.html"
             - title: Fail drive
               url: "/sm-hardware/fail-drive.html"
-            - title: Assign hot spares
-              url: "/sm-hardware/assign-hot-spares-hardware.html"
-            - title: Unassign hot spares
-              url: "/sm-hardware/unassign-hot-spares.html"
             - title: Erase drives
               url: "/sm-hardware/erase-drive.html"
             - title: Unlock or reset locked NVMe or FIPS drives
               url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+        - title: Manage hot spares
+          entries:
+            - title: Hot spare drive overview
+              url: "/sm-hardware/hot-spare-drives.html"
+            - title: Assign hot spares
+              url: "/sm-hardware/assign-hot-spares-hardware.html"
+            - title: Unassign hot spares
+              url: "/sm-hardware/unassign-hot-spares.html"
         - title: Shelf FAQs
           entries:
           - title: What is shelf loss protection and drawer loss protection?

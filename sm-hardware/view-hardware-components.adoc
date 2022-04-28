@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-hardware-components.html
 sidebar: sidebar
-keywords: view, hardware, components, filtering,
+keywords: SANtricity, 11.7, System Manager, E-Series, view, hardware, components, filtering,
 summary: "The Hardware page provides sorting and filtering functions that make it easier to find components."
 ---
 = View hardware components
@@ -16,7 +16,7 @@ The Hardware page provides sorting and filtering functions that make it easier t
 . Select *Hardware*.
 . Use the functions described in the following table to view hardware components.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Function| Description
 a|

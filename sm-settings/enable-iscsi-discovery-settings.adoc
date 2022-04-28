@@ -2,7 +2,7 @@
 permalink: sm-settings/enable-iscsi-discovery-settings.html
 sidebar: sidebar
 keywords: enable, iscsi, discovery, settings,
-summary: "You can enable settings related to the discovery of storage devices in an iSCSI network. The Target Discovery Settings allow you to register the storage array’s iSCSI information using the Internet Storage Name Service (iSNS) protocol, and also determine whether to allow unnamed discovery sessions."
+summary: "You can enable settings related to the discovery of storage devices in an iSCSI network. "
 ---
 = Enable iSCSI discovery settings
 :experimental:
@@ -10,7 +10,9 @@ summary: "You can enable settings related to the discovery of storage devices in
 :imagesdir: ../media/
 
 [.lead]
-You can enable settings related to the discovery of storage devices in an iSCSI network. The Target Discovery Settings allow you to register the storage array's iSCSI information using the Internet Storage Name Service (iSNS) protocol, and also determine whether to allow unnamed discovery sessions.
+You can enable settings related to the discovery of storage devices in an iSCSI network.
+
+The Target Discovery Settings allow you to register the storage array's iSCSI information using the Internet Storage Name Service (iSNS) protocol, and also determine whether to allow unnamed discovery sessions.
 
 .Before you begin
 
@@ -33,7 +35,7 @@ The iSCSI settings and functions only display on the Settings page if your stora
 . Select menu:Settings[System].
 . Under *iSCSI settings*, click *View/Edit Target Discovery Settings*.
 +
-The *Target Discovery Settings* dialog box appears. Below the *Enable iSNS server*... field, the dialog box indicates if the controller is already registered.
+The Target Discovery Settings dialog box appears. Below the *Enable iSNS server*... field, the dialog box indicates if the controller is already registered.
 
 . To register the controller, select *Enable iSNS server to register my target*, and then select one of the following:
  ** *Automatically obtain configuration from DHCP server* -- Select this option if you want to configure the iSNS server using a Dynamic Host Configuration Protocol (DHCP) server. Be aware that if you use this option, all iSCSI ports on the controller must be configured to use DHCP as well. If necessary, update your controller iSCSI port settings to enable this option.

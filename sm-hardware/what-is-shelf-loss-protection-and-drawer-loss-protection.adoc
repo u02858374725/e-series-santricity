@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html
 sidebar: sidebar
-keywords: shelf, loss, protection, drawer, loss, protection,
+keywords: SANtricity, 11.7, System Manager, E-Series, shelf, loss, protection, drawer,
 summary: "Shelf loss protection and drawer loss protection are attributes of pools and volume groups that allow you to maintain data access in the event of a single shelf or drawer failure."
 ---
 = What is shelf loss protection and drawer loss protection?

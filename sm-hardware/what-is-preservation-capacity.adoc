@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/what-is-preservation-capacity.html
 sidebar: sidebar
-keywords: preservation, capacity, reserved, pool,
+keywords: SANtricity, 11.7, System Manager, E-Series, preservation, capacity, reserved, pool,
 summary: "Preservation capacity is the amount of capacity (number of drives) that is reserved in a pool to support potential drive failures."
 ---
 = What is preservation capacity?

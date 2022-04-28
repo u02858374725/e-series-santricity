@@ -9,7 +9,7 @@ summary: "The View NVMe over Fabrics Statistics dialog box displays statistics f
 :imagesdir: ../media/
 
 [.lead]
-The *View NVMe over Fabrics Statistics* dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set.
+The View NVMe over Fabrics Statistics dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set.
 
 * *NVMe Subsystem statistics* -- Shows statistics for the NVMe controller and its queue. The NVMe controller provides an access path between a host and the namespaces in the storage array. You can review the NVMe subsystem statistics for such items as connection failures, resets, and shutdowns. For more information about these statistics, click *View legend for table headings*.
 * *RDMA Interface statistics* -- Provides statistics for all NVMe over Fabrics ports on the RDMA interface, which includes performance statistics and link error information associated with each switch port. This tab only appears when NVMe over Fabrics ports are available. For more information about the statistics, click *View legend for table headings*.

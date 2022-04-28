@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/drive-states.html
 sidebar: sidebar
-keywords: drive, states, system, manager, reports,
+keywords: SANtricity, 11.7, System Manager, E-Series, drive, states,
 summary: "System Manager reports various states for drives."
 ---
 = Drive states
@@ -13,7 +13,7 @@ System Manager reports various states for drives.
 
 == Accessibility states
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | State| Definition
 a|
@@ -45,7 +45,7 @@ The drive is not responding to commands.
 
 == Role states
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | State| Definition
 a|
@@ -68,7 +68,7 @@ The drive is not a member of a pool or volume group.
 
 == Availability states
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | State| Definition
 a|

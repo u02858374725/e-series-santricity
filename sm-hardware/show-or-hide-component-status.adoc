@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/show-or-hide-component-status.html
 sidebar: sidebar
-keywords: show, hide, component, status,
+keywords: SANtricity, 11.7, System Manager, E-Series, show, hide, component, status,
 summary: "You can display status descriptions for drives, controllers, fans, and power supplies."
 ---
 = Show or hide component status

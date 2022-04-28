@@ -2,7 +2,7 @@
 permalink: sm-settings/configure-iscsi-authentication.html
 sidebar: sidebar
 keywords: configure, iscsi, authentication,
-summary: "For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators). System Manager uses the Challenge Handshake Authentication Protocol (CHAP) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP secret."
+summary: "For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators)."
 ---
 = Configure iSCSI authentication
 :experimental:
@@ -10,7 +10,9 @@ summary: "For extra security in an iSCSI network, you can set authentication bet
 :imagesdir: ../media/
 
 [.lead]
-For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators). System Manager uses the Challenge Handshake Authentication Protocol (CHAP) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP__secret__.
+For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators).
+
+System Manager uses the Challenge Handshake Authentication Protocol (CHAP) method, which validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a _CHAP secret_.
 
 .Before you begin
 
@@ -33,11 +35,11 @@ The iSCSI settings and functions only display on the Settings page if your stora
 . Select menu:Settings[System].
 . Under *iSCSI settings*, click *Configure Authentication*.
 +
-The *Configure Authentication* dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
+The Configure Authentication dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
 
 . Select one of the following:
  ** *No authentication* -- If you do not want the controller to authenticate the identity of iSCSI hosts, select this option and click *Finish*. The dialog box closes, and you are done with configuration.
- ** *One-way authentication* -- To allow the controller to authenticate the identity of the iSCSI hosts, select this option and click *Next* to display the *Configure Target CHAP* dialog box.
+ ** *One-way authentication* -- To allow the controller to authenticate the identity of the iSCSI hosts, select this option and click *Next* to display the Configure Target CHAP dialog box.
  ** *Two-way authentication* -- To allow both the controller and the iSCSI hosts to perform authentication, select this option and click *Next* to display the Configure Target CHAP dialog box.
 . For one-way or two-way authentication, enter or confirm the CHAP secret for the controller (the target). The CHAP secret must be between 12 and 57 printable ASCII characters.
 +
@@ -49,7 +51,7 @@ If the CHAP secret for the controller was configured previously, the characters 
 . Do one of the following:
  ** If you are configuring _one-way_ authentication, click *Finish*. The dialog box closes, and you are done with configuration.
  ** If you are configuring _two-way_ authentication, click *Next* to display the *Configure Initiator CHAP* dialog box.
-. For two-way authentication, enter or confirm a CHAP secret for any of the iSCSI hosts (the initiators), which can be between 12 and 57 printable ASCII characters. If you do not want to configure two-way authentication for a particular host, leave the *Initiator CHAP Secret* field blank.
+. For two-way authentication, enter or confirm a CHAP secret for any of the iSCSI hosts (the initiators), which can be between 12 and 57 printable ASCII characters. If you do not want to configure two-way authentication for a particular host, leave the Initiator CHAP Secret field blank.
 +
 [NOTE]
 ====

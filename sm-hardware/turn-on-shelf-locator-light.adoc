@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/turn-on-shelf-locator-light.html
 sidebar: sidebar
-keywords: on, shelf, locator, light, hardware, page, locator
+keywords: SANtricity, 11.7, System Manager, E-Series, shelf, locator, light, LED
 summary: "To find the physical location of a shelf shown on the Hardware page, you can turn on the shelf’s locator light."
 ---
 = Turn on shelf locator light

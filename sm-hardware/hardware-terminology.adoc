@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/hardware-terminology.html
 sidebar: sidebar
-keywords: hardware, terminology, storage, array,
+keywords: SANtricity, 11.7, System Manager, E-Series, hardware, terms
 summary: "Learn how the hardware terms apply to your storage array."
 ---
 = Hardware terminology

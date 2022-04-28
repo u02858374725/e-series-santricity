@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/place-controller-offline.html
 sidebar: sidebar
-keywords: place, contoller, offline,
+keywords: SANtricity, 11.7, System Manager, E-Series, place, contoller, offline,
 summary: "If you are instructed to do so, you can place a controller offline."
 ---
 = Place controller offline
