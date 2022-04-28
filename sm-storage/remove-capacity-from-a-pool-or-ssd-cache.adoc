@@ -40,9 +40,9 @@ Any new volumes that you create on the pool will be DA-capable. If you want exis
 .Steps
 
 . Select menu:Storage[Pools & Volume Groups].
-. Select the pool or SSD Cache, and then click *More* > *Remove capacity*.
+. Select the pool or SSD Cache, and then click menu:More[Remove capacity].
 +
-The *Remove Capacity* dialog box appears.
+The Remove Capacity dialog box appears.
 
 . Select one or more drives in the list.
 +
@@ -50,6 +50,5 @@ As you select or de-select drives in the list, the *Total capacity selected* fie
 
 . Click *Remove*, and then confirm you want to remove the drives.
 
-.Results
-
-The newly reduced capacity of the pool or SSD Cache is reflected in the *Pools and Volume Groups* view.
++
+The newly reduced capacity of the pool or SSD Cache is reflected in the Pools and Volume Groups view.

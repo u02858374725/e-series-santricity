@@ -45,7 +45,7 @@ The *Create SSD Cache* dialog box appears.
 . Type a name for the SSD Cache.
 . Select the SSD Cache candidate that you want to use based on the following characteristics.
 +
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Characteristic| Use
 a|

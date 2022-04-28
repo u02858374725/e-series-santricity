@@ -18,7 +18,7 @@ To view SSD Cache statistics, select menu:Storage[Pools & Volume Groups]. Select
 
 The following list includes nominal statistics, which are a subset of the detailed statistics.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Nominal statistic| Description
 a|

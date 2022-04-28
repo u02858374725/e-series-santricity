@@ -32,7 +32,7 @@ Review the following guidelines:
 . Click the *Reserved Capacity* tab.
 . Select the storage object for which you want to decrease reserved capacity, and then click *Decrease Capacity*.
 +
-The *Decrease Reserved Capacity* dialog box appears.
+The Decrease Reserved Capacity dialog box appears.
 
 . Select the capacity amount by which you want to decrease reserved capacity, and then click *Decrease*.
 

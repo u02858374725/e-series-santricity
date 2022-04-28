@@ -22,7 +22,7 @@ When a snapshot group is deleted, all snapshot images in the group also are dele
 . Click the *Reserved Capacity* tab.
 . Select the snapshot group that you want to delete, and then click menu:Uncommon Tasks[Delete snapshot group].
 +
-The *Confirm Delete Snapshot Group* dialog box appears.
+The Confirm Delete Snapshot Group dialog box appears.
 
 . Type `delete` to confirm.
 

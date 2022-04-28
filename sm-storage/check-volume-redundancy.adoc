@@ -41,7 +41,7 @@ Immediately running a redundancy check on the same pool or volume group might ca
 . Select menu:Storage[Pools & Volume Groups].
 . Select menu:Uncommon Tasks[Check volume redundancy].
 +
-The *Check Redundancy* dialog box appears.
+The Check Redundancy dialog box appears.
 
 . Select the volumes you want to check, and then type `check` to confirm you want to perform this operation.
 . Click *Check*.
@@ -56,7 +56,7 @@ The check volume redundancy operation starts. The volumes in the pool or volume 
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Status| Description
 a|

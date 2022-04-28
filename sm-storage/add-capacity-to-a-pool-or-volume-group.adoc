@@ -52,9 +52,9 @@ The *Add Capacity* dialog box appears. Only the unassigned drives that are compa
 The controller firmware arranges the unassigned drives with the best options listed at the top. The total free capacity that is added to the pool or volume group appears below the list in *Total capacity selected*.
 +
 [%collapsible]
-.Field Details
+.Field details
 ====
-[cols="2*",options="header"]
+[cols="25h,~",options="header"]
 |===
 | Field| Description
 a|
@@ -106,7 +106,7 @@ If you are adding drives to a pool or volume group, a confirmation dialog box ap
  ** Data Assurance capability
  ** DULBE capability
 
-To continue, click *Yes*; otherwise, click *Cancel*.
+. To continue, click *Yes*; otherwise, click *Cancel*.
 
 .Results
 

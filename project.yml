@@ -28,8 +28,6 @@ sidebar:
             url: "/san-getstarted/access-sam.html"
           - title: Setup wizard overview
             url: "/sm-interface/setup-wizard-overview.html"
-          - title: Setup wizard terminology
-            url: "/sm-interface/setup-wizard-terminology.html"
           - title: FAQs
             entries:
               - title: What if I don&#8217;t see all of my hardware components?

@@ -17,7 +17,7 @@ You can view statistics for the SSD Cache, such as reads, writes, cache hits, ca
 This feature is not available on the EF600 or EF300 storage system.
 ====
 
-The nominal statistics, which are a subset of the detailed statistics, are shown on the *View SSD Cache Statistics* dialog box. You can view detailed statistics for the SSD Cache only when you export all SSD statistics to a `.csv` file.
+The nominal statistics, which are a subset of the detailed statistics, are shown on the View SSD Cache Statistics dialog box. You can view detailed statistics for the SSD Cache only when you export all SSD statistics to a `.csv` file.
 
 As you review and interpret the statistics, keep in mind that some interpretations are derived by looking at a combination of statistics.
 
@@ -28,7 +28,7 @@ As you review and interpret the statistics, keep in mind that some interpretatio
 +
 The *View SSD Cache Statistics* dialog box appears and displays the nominal statistics for the selected SSD cache.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 

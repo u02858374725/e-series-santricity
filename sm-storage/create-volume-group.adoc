@@ -16,7 +16,7 @@ You use a volume group to create one or more volumes that are accessible to the 
 
 With larger capacity drives and the ability to distribute volumes across controllers, creating more than one volume per volume group is a good way to make use of your storage capacity and to protect your data.
 
-Follow these guidelines when you create a volume group.
+Follow these guidelines when you create a volume group:
 
 * You need at least one unassigned drive.
 * Limits exist as to how much drive capacity you can have in a single volume group. These limits vary according to your host type.
@@ -34,7 +34,7 @@ Review how your choice of RAID level affects the resulting capacity of the volum
 . Select menu:Storage[Pools & Volume Groups].
 . Click menu:Create[Volume group].
 +
-The *Create Volume Group* dialog box appears.
+The Create Volume Group dialog box appears.
 
 . Type a name for the volume group.
 . Select the RAID level that best meets your requirements for data storage and protection.
@@ -60,9 +60,11 @@ Only experts who understand drive redundancy and optimal drive configurations sh
 +
 The drive characteristics displayed depend on whether you selected the automatic method or manual method.
 +
-*Automatic method drive characteristics*
-+
-[cols="1a,1a" options="header"]
+[%collapsible]
+.Automatic method drive characteristics
+====
+
+[cols="25h,~",options="header"]
 |===
 | Characteristic| Use
 a|
@@ -92,11 +94,9 @@ a|
 Enable Security?
 a|
 Provides the option for enabling the Drive Security feature with secure-capable drives. If the volume group is secure-capable and you have set up a security key, you can enable Drive Security by selecting the check box.
-+
-[NOTE]
-====
-The only way to remove Drive Security after it is enabled is to delete the volume group and erase the drives.
-====
+
+NOTE: The only way to remove Drive Security after it is enabled is to delete the volume group and erase the drives.
+
 a|
 DA Capable
 a|
@@ -126,10 +126,14 @@ Shows the block sizes that can be created for the volumes in the group:
  ** 512e -- 512 bytes emulated.
  ** 4K -- 4,096 bytes.
 |===
+====
+
 +
-*Manual method drive characteristics*
-+
-[cols="1a,1a" options="header"]
+[%collapsible]
+.Manual method drive characteristics
+====
+
+[cols="25h,~",options="header"]
 |===
 | Characteristic| Use
 a|
@@ -145,6 +149,7 @@ a|
 Drive Block Size (EF300 and EF600 only)
 a|
 Shows the block size (sector size) that the drives in the group can write. Values may include:
+
  ** 512 -- 512-byte sector size.
  ** 4K -- 4,096-byte sector size.
 a|
@@ -202,3 +207,4 @@ Resource Provisioning Capable (EF300 and EF600 only)
 a|
 Shows if Resource Provisioning is available for this group. Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
 |===
+====

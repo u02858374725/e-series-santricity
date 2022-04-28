@@ -22,15 +22,15 @@ During the creation of a snapshot group, reserved capacity is created to store t
 . Click the *Reserved Capacity* tab.
 . Select the snapshot group that you want to edit, and then click *View/Edit Settings*.
 +
-The *Snapshot Group Settings* dialog box appears.
+The Snapshot Group Settings dialog box appears.
 
 . Change the settings for the snapshot group as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|

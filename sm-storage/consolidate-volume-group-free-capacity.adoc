@@ -22,10 +22,10 @@ Use the Consolidate Free Capacity option to consolidate existing free extents on
 
 You cannot cancel the operation after it begins. Your data remains accessible during the consolidation operation.
 
-You can launch the *Consolidate Free Capacity* dialog box using any of the following methods:
+You can launch the Consolidate Free Capacity dialog box using any of the following methods:
 
-* When at least one free capacity area is detected for a volume group, the *Consolidate free capacity* recommendation appears on the Home page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
-* You can also launch the *Consolidate Free Capacity* dialog box from the Pools & Volume Groups page as described in the following task.
+* When at least one free capacity area is detected for a volume group, the "Consolidate free capacity" recommendation appears on the Home page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
+* You can also launch the Consolidate Free Capacity dialog box from the Pools & Volume Groups page as described in the following task.
 
 .More about free capacity areas
 [%collapsible]
@@ -42,13 +42,11 @@ By consolidating free capacity on a selected volume group, you will notice impro
 . Select menu:Storage[Pools & Volume Groups].
 . Select the volume group with free capacity that you want to consolidate, and then select menu:Uncommon Tasks[Consolidate volume group free capacity].
 +
-The *Consolidate Free Capacity* dialog box appears.
+The Consolidate Free Capacity dialog box appears.
 
 . Type `consolidate` to confirm you want to perform this operation.
 . Click *Consolidate*.
-
-.Results
-
++
 System Manager begins consolidating (defragmenting) the volume group's free capacity areas into one contiguous amount for subsequent storage configuration tasks.
 
 .After you finish

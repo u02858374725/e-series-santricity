@@ -18,15 +18,15 @@ You can change the settings for a mirrored pair volume to adjust the percentage 
 . Select the *Reserved Capacity* tab.
 . Select the mirrored pair volume that you want to edit, and then click *View/Edit Settings*.
 +
-The *Mirrored Pair Volume Reserved Capacity Settings* dialog box appears.
+The Mirrored Pair Volume Reserved Capacity Settings dialog box appears.
 
 . Change the reserved capacity settings for the mirrored pair volume as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|
