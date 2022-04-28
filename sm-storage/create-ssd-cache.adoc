@@ -40,7 +40,7 @@ Follow these guidelines when you create SSD Cache.
 . Select menu:Storage[Pools & Volume Groups].
 . Click menu:Create[SSD Cache].
 +
-The *Create SSD Cache* dialog box appears.
+The Create SSD Cache dialog box appears.
 
 . Type a name for the SSD Cache.
 . Select the SSD Cache candidate that you want to use based on the following characteristics.

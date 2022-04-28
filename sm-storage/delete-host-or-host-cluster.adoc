@@ -25,7 +25,7 @@ Keep these guidelines in mind when you delete a host or a host cluster:
 . Select menu:Storage[Hosts].
 . Select the host or host cluster that you want to delete, and then click *Delete*.
 +
-The *confirmation* dialog box appears.
+The confirmation dialog box appears.
 
 . Confirm that you want to perform the operation, and then click *Delete*.
 

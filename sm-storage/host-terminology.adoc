@@ -11,7 +11,7 @@ summary: "Learn how the host terms apply to your storage array."
 [.lead]
 Learn how the host terms apply to your storage array.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Component| Definition
 a|

@@ -16,6 +16,8 @@ You can add a volume to SSD Cache as a way to improve read-only performance. SSD
 This feature is not available on the EF600 or EF300 storage system.
 ====
 
+== Volumes
+
 Simple volume I/O mechanisms are used to move data to and from the SSD Cache. After data is cached and stored on the SSDs, subsequent reads of that data are performed on the SSD Cache, thereby eliminating the need to access the HDD volume.
 
 SSD Cache is a secondary cache for use with the primary cache in the controller's dynamic random-access memory (DRAM).
@@ -30,6 +32,6 @@ The internal RAID volumes are used for internal cache processing purposes. These
 Any volume assigned to use a controller's SSD Cache is not eligible for an automatic load balance transfer.
 ====
 
-== SSD Cache and the Drive Security feature
+== Drive Security feature
 
 To use SSD Cache on a volume that is also using Drive Security (is secure-enabled), the Drive Security capabilities of the volume and the SSD Cache must match. If they do not match, the volume will not be secure-enabled.

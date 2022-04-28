@@ -46,7 +46,7 @@ A Copy Volume operation overwrites data on the target volume and fails all snaps
 . Select menu:Storage[Volumes].
 . Select the volume that you want to use as the source for the Copy Volume operation, and then select menu:Copy Services[Copy volume].
 +
-The *Copy Volume-Select Target* dialog box appears.
+The Copy Volume-Select Target dialog box appears.
 
 . Select the target volume to which you want to copy the data.
 +

@@ -21,15 +21,15 @@ When this feature is enabled, the storage array appends error-checking codes (al
 
 Drive Security is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or drives that are certified to meet Federal Information Processing Standards 140-2 level 2 (FIPS drives).
 
-*How Drive Security works at the drive level*
+=== How Drive Security works at the drive level
 
 A secure-capable drive, either FDE or FIPS, encrypts data during writes and decrypts data during reads. This encryption and decryption does not affect the performance or user workflow. Each drive has its own unique encryption key, which can never be transferred from the drive.
 
-*How Drive Security works at the volume level*
+=== How Drive Security works at the volume level
 
 When you create a pool or volume group from secure-capable drives, you can also enable Drive Security for those pools or volume groups. The Drive Security option makes the drives and associated volume groups and pools secure-_enabled_. A pool or volume group can contain both secure-capable and non-secure-capable drives, but all drives must be secure-capable to use their encryption capabilities.
 
-*How to implement Drive Security*
+=== How to implement Drive Security
 
 To implement Drive Security, you perform the following steps.
 

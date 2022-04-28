@@ -33,11 +33,11 @@ Increasing the capacity of a volume is supported only on certain operating syste
 . Select menu:Storage[Volumes].
 . Select the volume for which you want to increase capacity, and then select *Increase Capacity*.
 +
-The *Confirm Increase Capacity* dialog box appears.
+The Confirm Increase Capacity dialog box appears.
 
 . Select *Yes* to continue.
 +
-The *Increase Reported Capacity* dialog box appears.
+The Increase Reported Capacity dialog box appears.
 +
 This dialog box displays the volume's current reported capacity and the free capacity available in the volume's associated pool or volume group.
 

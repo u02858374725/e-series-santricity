@@ -22,11 +22,11 @@ A dialog box appears that shows the current host settings.
 . If it is not already selected, click the *Properties* tab.
 . Change the settings as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|

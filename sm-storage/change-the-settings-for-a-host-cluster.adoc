@@ -21,11 +21,11 @@ A dialog box appears that shows the current host cluster settings.
 
 . Change the settings for the host cluster as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|

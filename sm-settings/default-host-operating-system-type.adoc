@@ -13,9 +13,8 @@ The default host type is used by the storage array when hosts are initially conn
 
 Generally, you will change the default host type before you connect hosts to the storage array or when you connect additional hosts.
 
-.Keep these guidelines in mind:
-[%collapsible]
-====
+Keep these guidelines in mind:
+
 * If all of the hosts you plan to connect to the storage array have the same operating system (homogenous host environment), then change the host type to match the operating system.
 * If there are hosts with different operating systems that you plan to connect to the storage array (heterogeneous host environment), change the host type to match the majority of the hosts' operating systems.
 +

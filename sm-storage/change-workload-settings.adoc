@@ -17,11 +17,11 @@ You can change the name for a workload and view its associated application type.
 . Select menu:Storage[Volumes].
 . Select the *Applications & Workloads* tab.
 +
-The *Applications & Workloads* view appears.
+The Applications & Workloads view appears.
 
 . Select the workload that you want to change, and then select *View/Edit Settings*.
 +
-The *Applications & Workloads Settings* dialog box appears.
+The Applications & Workloads Settings dialog box appears.
 
 . *Optional:* Change the user-supplied name of the workload.
 . Click *Save*.

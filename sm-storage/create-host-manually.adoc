@@ -26,15 +26,15 @@ Keep these guidelines in mind when you create a host:
 . Select menu:Storage[Hosts].
 . Click menu:Create[Host].
 +
-The *Create Host* dialog box appears.
+The Create Host dialog box appears.
 
 . Select the settings for the host as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|
@@ -55,15 +55,15 @@ a|
 Do one of the following:
 
 ** *Select I/O Interface*
-
++
 Generally, the host ports should have logged in and be available from the drop-down list. You can select the host port identifiers from the list.
 
 ** *Manual add*
-
++
 If a host port identifier is not displayed in the list, it means that the host port has not logged in. An HBA utility or the iSCSI initiator utility may be used to find the host port identifiers and associate them with the host.
-
++
 You can manually enter the host port identifiers or copy/paste them from the utility (one at a time) into the *Host ports* field.
-
++
 You must select one host port identifier at a time to associate it with the host, but you can continue to select as many identifiers that are associated with the host. Each identifier is displayed in the *Host ports* field. If necessary, you also can remove an identifier by selecting the *X* next to it.
 a|
 CHAP initiator

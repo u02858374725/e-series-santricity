@@ -31,15 +31,15 @@ If any of the host connections on the controllers in your storage array do not s
 . Select menu:Storage[Hosts].
 . Select menu:Create[Host Cluster].
 +
-The *Create Host Cluster* dialog box appears.
+The Create Host Cluster dialog box appears.
 
 . Select the settings for the host cluster as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|
