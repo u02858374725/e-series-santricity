@@ -1,7 +1,7 @@
 ---
 permalink: san-getstarted/login-um.html
 sidebar: sidebar
-keywords: log in Unified Manager
+keywords: SANtricity, 11.7, System Manager, E-Series, log in Unified Manager
 summary: Access and log in to Unified Manager.
 ---
 = Access Unified Manager

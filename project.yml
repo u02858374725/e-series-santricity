@@ -73,11 +73,11 @@ sidebar:
             url: "/sm-storage/view-and-save-performance-data-tabular.html"
           - title: Interpret performance data
             url: "/sm-storage/interpret-performance-data.html"
-        - title: View array components
-          url: "/sm-interface/storage-array-overview.html"
+        - title: View storage hierarchy
+          url: "/sm-interface/view-storage-hierarchy.html"
         - title: Manage interface settings
           entries:
-            - title: Set password protection
+            - title: Manage password protection
               url: "/sm-interface/administrator-password-protection.html"
             - title: Set default capacity values
               url: "/sm-interface/set-default-units-for-capacity-values.html"

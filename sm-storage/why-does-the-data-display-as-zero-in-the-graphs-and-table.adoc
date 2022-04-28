@@ -15,7 +15,7 @@ The historical data for the object is still available for viewing. The graphs an
 
 The following table lists the most common reasons why a data point value might be zero for any given object.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Array-level object type| Reason data displays as zero
 a|

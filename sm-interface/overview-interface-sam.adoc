@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/overview-interface-sam.html
 sidebar: sidebar
-keywords:
+keywords: SANtricity, 11.7, System Manager, E-Series,
 summary: 'You navigate the main interface to access System Manager features and tasks.'
 ---
 = System Manager interface overview
@@ -16,7 +16,7 @@ The Home page provides a dashboard view for the daily management of your storage
 
 The dashboard view comprises four summary areas that contain key information about the state and health of your storage array. You can find more information from the summary area.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Area| Description
 a|
@@ -40,7 +40,7 @@ The Storage Hierarchy area provides an organized view of the various hardware co
 == Interface settings
 You can change display preferences and other settings from the main interface.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|

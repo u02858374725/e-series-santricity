@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html
 sidebar: sidebar
-keywords: where, can, find, information, about, display, preferences,
+keywords: SANtricity, 11.7, System Manager, E-Series, display preferences
 summary: "You can find information about the available display options in the following help topics."
 ---
 = Where can I find more information about display preferences?
@@ -9,7 +9,7 @@ summary: "You can find information about the available display options in the fo
 :imagesdir: ../media/
 
 [.lead]
-You can find information about the available display options in the following help topics.
+To find information about the available display options:
 
 * To read more about the default units for displaying capacity values, see link:set-default-units-for-capacity-values.html[Set default units for capacity values].
 * To read more about the default time frame for displaying performance graphs, see link:set-default-time-frame-for-performance-graphs.html[Set default time frame for performance graphs].

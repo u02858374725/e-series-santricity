@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html
 sidebar: sidebar
-keywords: system, manager, detected, hosts,
+keywords: SANtricity, 11.7, System Manager, E-Series, host detection
 summary: "If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected."
 ---
 = System Manager has not detected any hosts. What do I do?

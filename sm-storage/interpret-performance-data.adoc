@@ -13,7 +13,7 @@ Performance data can guide you in tuning the performance of your storage array.
 
 When interpreting Performance data, keep in mind that several factors affect the performance of your storage array. The following table describes the main areas to consider.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Performance data| Implications for performance tuning
 a|

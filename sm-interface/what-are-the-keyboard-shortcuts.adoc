@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/what-are-the-keyboard-shortcuts.html
 sidebar: sidebar
-keywords: keyboard, shortcuts, navigate, system, manager,
+keywords: SANtricity, 11.7, System Manager, E-Series, keyboard shortcuts
 summary: "You can navigate around System Manager using the keyboard alone."
 ---
 = What are the keyboard shortcuts?

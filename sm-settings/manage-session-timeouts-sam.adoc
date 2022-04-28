@@ -26,7 +26,7 @@ If Access Management is configured using the Security Assertion Markup Language 
 . Select menu:Settings[System].
 . Under the *General* section, select *Enable/Disable Session Timeout*.
 +
-The *Enable/Disable Session Timeout* dialog box opens.
+The Enable/Disable Session Timeout dialog box opens.
 
 . Use the spinner controls to increase or decrease the time in minutes.
 +

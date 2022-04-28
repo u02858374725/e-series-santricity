@@ -1,8 +1,8 @@
 ---
 permalink: san-getstarted/supported-browsers-os.html
 sidebar: sidebar
-keywords:
-summary: 'SANtricity can be accessed from several types of browsers and operating systems.'
+keywords: SANtricity, 11.7, System Manager, E-Series,
+summary: SANtricity can be accessed from several types of browsers and operating systems.
 ---
 = Supported browsers and operating systems
 :icons: font

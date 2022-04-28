@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/what-are-the-supported-browsers.html
 sidebar: sidebar
-keywords:
+keywords: SANtricity, 11.7, System Manager, E-Series, browser support
 summary: 'System Manager supports these browser versions.'
 ---
 = What are the supported browsers?
