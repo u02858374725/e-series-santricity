@@ -31,7 +31,7 @@ If the snapshot volume or snapshot consistency group snapshot volume is part of 
 . Select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
-The *Snapshot Volumes* table appears and displays all the snapshot volumes associated with the storage array.
+The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.
 
 . Select the snapshot volume that you want to re-create, and then select menu:Uncommon Tasks[Recreate].
 +

@@ -37,7 +37,7 @@ Select the object (volume or snapshot consistency group) for this snapshot sched
 Select the *Schedules* tab, and then click *Create*.
 . Select the object (volume or snapshot consistency group) for this snapshot schedule, and then click *Next*.
 +
-The *Create Snapshot Schedule* dialog box appears.
+The Create Snapshot Schedule dialog box appears.
 
 . Do one of the following actions:
  ** *Use a previously defined schedule from another snapshot object*.
@@ -49,7 +49,7 @@ Make sure advanced options are displayed. Click *Show more options*. Click *Impo
 In the upper right of the dialog box, click *Show more options* to display all options, and then refer to the following table.
 
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
@@ -123,11 +123,11 @@ Allocate the reserved capacity using the following guidelines:
   *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
 . Click *Next*.
 +
-The *Edit Settings* dialog box appears.
+The Edit Settings dialog box appears.
 
 . Edit the settings for the snapshot schedule as needed, and then click *Finish*.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 

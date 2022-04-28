@@ -33,11 +33,11 @@ The host can immediately access the new rolled-back base volume, but the existin
 . Select the *Snapshot Images* tab.
 . Select the snapshot image, and then select menu:Rollback[Start].
 +
-The *Confirm Start Rollback* dialog box appears.
+The Confirm Start Rollback dialog box appears.
 
 . *Optional:* Select the option to *Increase Capacity* if necessary.
 +
-The *Increase Reserved Capacity* dialog box appears.
+The Increase Reserved Capacity dialog box appears.
 
  .. Use the spinner box to adjust the capacity percentage.
 +

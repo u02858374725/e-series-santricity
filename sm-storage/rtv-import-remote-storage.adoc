@@ -18,19 +18,19 @@ To initiate a storage import from a remote system to a local E-Series storage sy
 +
 [NOTE]
 ====
-Hardware configuration is described in the user guide for the Remote Storage feature, which is available from the https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html[Remote Storage Volumes overview^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
+Hardware configuration is described in the user guide for the Remote Storage feature, which is available from the E-Series and SANtricity documentation cednter at  https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html[Remote Storage Volumes overview^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
 ====
 
 * For the remote storage system, gather the following information:
  ** iSCSI IQN
  ** iSCSI IP addresses
  ** LUN number of the remote storage device (source volume)
-* For the local E-Series storage system, create or select a volume to be used for the data import. See xref:create-volumes-storage.adoc[Create volumes]. The target volume must meet the following requirements:
+* For the local E-Series storage system, create or select a volume to be used for the data import. See link:create-volumes-storage.adoc[Create volumes]. The target volume must meet the following requirements:
  ** Matches the block size of the remote storage device (the source volume).
  ** Has a capacity that is equal to or larger than the remote storage device.
  ** Has a state of Optimal and is available.
 
-For a full list of requirements, see xref:rtv-remote-storage-volume-requirements.adoc[Remote storage volume requirements].
+For a full list of requirements, see link:rtv-remote-storage-volume-requirements.adoc[Remote storage volume requirements].
 
 * Recommended: Back up volumes on the remote storage system before starting the import process.
 
@@ -50,9 +50,9 @@ Because many variables can impact the import operation and its completion time, 
 +
 A wizard for importing remote storage is displayed.
 
-. In *Step 1a* of the *Configure Source* panel, enter connection information. If you want to add another iSCSI connection, click *Add another IP address* to include an additional IP address for the remote storage. When you are done, click *Next*.
+. In *Step 1a* of the Configure Source panel, enter connection information. If you want to add another iSCSI connection, click *Add another IP address* to include an additional IP address for the remote storage. When you are done, click *Next*.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
@@ -76,7 +76,7 @@ Enter the connection properties of the remote storage device:
 |===
 ====
 +
-After you click *Next*, *Step 1b* of the *Configure Source* panel is displayed.
+After you click *Next*, *Step 1b* of the Configure Source panel is displayed.
 
 . In the *LUN* field, select the LUN number of the remote storage device to be used as the source, and then click *Next*.
 +
@@ -92,7 +92,7 @@ After you confirm the configuration in the dialog, the Review panel is displayed
 +
 Another dialog box opens asking if you want to initiate another import.
 
-. If needed, click *Yes* to create another remote storage import. Clicking *Yes* returns to *Step 1a* of the *Configure Source* panel, where you can select the existing configuration or add a new one. If you do not want to create another import, click *No* to exit the dialog box.
+. If needed, click *Yes* to create another remote storage import. Clicking *Yes* returns to *Step 1a* of the Configure Source panel, where you can select the existing configuration or add a new one. If you do not want to create another import, click *No* to exit the dialog box.
 +
 Once the import process begins, the entire target volume is overwritten with the copied data. If the host writes any new data to the target volume during this process, that new data is propagated back to the remote device (source volume).
 
@@ -106,4 +106,4 @@ Once the import is complete, the local volume is a duplicate of the remote stora
 
 .After you finish
 
-When you are ready to break the relationship between the two volumes, select *Disconnect* on the import object from the *Operations In Progress* view. Once the relationship is disconnected, performance of the local volume returns to normal and is no longer impacted by the remote connection.
+When you are ready to break the relationship between the two volumes, select *Disconnect* on the import object from the Operations In Progress view. Once the relationship is disconnected, performance of the local volume returns to normal and is no longer impacted by the remote connection.

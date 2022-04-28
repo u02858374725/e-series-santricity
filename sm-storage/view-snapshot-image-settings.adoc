@@ -22,6 +22,6 @@ Associated objects for a snapshot image include the base volume or snapshot cons
 . Click the *Snapshot Images* tab.
 . Select the snapshot image that you want to view, and then click *View Settings*.
 +
-The *Snapshot Image Settings* dialog box appears.
+The Snapshot Image Settings dialog box appears.
 
 . View the settings for the snapshot image.

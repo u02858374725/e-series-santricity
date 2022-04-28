@@ -17,9 +17,7 @@ The following figure shows the relationship between snapshot objects and the bas
 
 image::../media/sam1130-dwg-snapshots-images-overview.gif[]
 
-^1^ Base volume
-^2^ Snapshot objects in the group (images and reserved capacity)
-^3^ Reserved capacity for the snapshot group.
+^1^ Base volume;  ^2^ Snapshot objects in the group (images and reserved capacity);  ^3^ Reserved capacity for the snapshot group.
 
 == Reserved capacity and snapshot groups
 

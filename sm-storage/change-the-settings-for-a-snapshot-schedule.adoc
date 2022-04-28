@@ -24,17 +24,17 @@ Because a snapshot schedule is associated to a snapshot group or snapshot consis
 . Click the *Schedules* tab.
 . Select the snapshot schedule that you want to change, and then click *Edit*.
 +
-The *Edit Snapshot Schedule* dialog box appears.
+The Edit Snapshot Schedule dialog box appears.
 
 . Do one of the following:
  ** *Use a previously defined schedule from another snapshot object* -- Click *Import Schedule*, select the object with the schedule you want to import, and then click *Import*.
  ** *Edit the schedule settings* -- Refer to Field Details below.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|

@@ -18,15 +18,15 @@ You can change the settings for a snapshot volume or snapshot consistency group 
 . Click the *Snapshot Volumes* tab.
 . Select the snapshot volume that you want to change, and then click *View/Edit Settings*.
 +
-The *Snapshot Volume Settings* dialog box appears.
+The Snapshot Volume Settings dialog box appears.
 
 . View or edit the settings for the snapshot volume as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|

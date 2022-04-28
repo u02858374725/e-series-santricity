@@ -26,7 +26,7 @@ When you remove a remote storage object, connections between the local and remot
 . From the list, select the remote storage object that you want to remove.
 . Click *Remove*.
 +
-The *Confirm Remove Remote Storage Connection* dialog box is displayed.
+The Confirm Remove Remote Storage Connection dialog box is displayed.
 
 . Confirm the operation by typing `remove` and then clicking *Remove*.
 +
