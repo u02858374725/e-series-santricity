@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html
 sidebar: sidebar
-keywords: what do, need, know about, remote, volume, import
+keywords: SANtricity, 11.7, System Manager, E-Series, remote, volume, import
 summary: "When using the Remote Storage feature, be aware that the remote volume is the source where the data originates from."
 ---
 = What do I need to know about the remote volume in an import?

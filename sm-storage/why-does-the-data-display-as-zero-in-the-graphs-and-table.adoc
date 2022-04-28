@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html
 sidebar: sidebar
-keywords: why, data, display, zero, graphs, table
+keywords: SANtricity, 11.7, System Manager, E-Series, zero, graphs, table
 summary: "When a zero is displayed for a data point in the graphs and table, it means there is no I/O activity for the object for that point in time. This situation could occur because the host is not initiating I/O to that object, or it could be a problem with the object itself."
 ---
 = Why does data display as zero in the graphs and table?

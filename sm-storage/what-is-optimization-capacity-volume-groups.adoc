@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-optimization-capacity-volume-groups.html
 sidebar: sidebar
-keywords: what, optimization, capacity, volume, groups
+keywords: SANtricity, 11.7, System Manager, E-Series, optimization, capacity, volume, groups
 summary: "SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated."
 ---
 = What is optimization capacity for volume groups?

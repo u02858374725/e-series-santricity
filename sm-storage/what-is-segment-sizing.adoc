@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-segment-sizing.html
 sidebar: sidebar
-keywords: what, segment, size, storage, raid
+keywords: SANtricity, 11.7, System Manager, E-Series, segment, size, storage, raid
 summary: "A segment is the amount of data in kilobytes (KiB) that is stored on a drive before the storage array moves to the next drive in the stripe (RAID group). Segment size applies only to volume groups, not pools."
 ---
 = What is segment size?

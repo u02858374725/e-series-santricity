@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-settings-for-a-snapshot-schedule.html
 sidebar: sidebar
-keywords: change, settings, snapshot, schedule
+keywords: SANtricity, 11.7, System Manager, E-Series, settings, snapshot, schedule
 summary: "For a snapshot schedule, you can change automatic collection times or the frequency of collection."
 ---
 = Change the settings for a snapshot schedule

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-snapshot-storage-works.html
 sidebar: sidebar
-keywords: overview, snapshot, storage
+keywords: SANtricity, 11.7, System Manager, E-Series, snapshot, storage
 summary: "The Snapshots feature uses copy-on-write technology to store snapshot images and use allocated reserved capacity."
 ---
 = How snapshot storage works

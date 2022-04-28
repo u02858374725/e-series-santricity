@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html
 sidebar: sidebar
-keywords: change, allocated, capacity, limit, thin, volume
-summary: "For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand. You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification."
+keywords: SANtricity, 11.7, System Manager, E-Series, allocated capacity, thin volume
+summary: "For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand."
 ---
 = Change allocated capacity limit for a thin volume
 :experimental:
@@ -10,7 +10,9 @@ summary: "For thin volumes capable of allocating space on demand, you can change
 :imagesdir: ../media/
 
 [.lead]
-For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand. You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
+For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand.
+
+You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
 
 [NOTE]
 ====

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/add-capacity-to-a-pool-or-volume-group.html
 sidebar: sidebar
-keywords: add, capacity, pool, volume, group, free
-summary: "You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation."
+keywords: SANtricity, 11.7, System Manager, E-Series, add, capacity, pool, volume, group
+summary: "You can add drives to expand the free capacity in an existing pool or volume group. "
 ---
 = Add capacity to a pool or volume group
 :experimental:
@@ -10,7 +10,9 @@ summary: "You can add drives to expand the free capacity in an existing pool or 
 :imagesdir: ../media/
 
 [.lead]
-You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation.
+You can add drives to expand the free capacity in an existing pool or volume group.
+
+The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation.
 
 .Before you begin
 

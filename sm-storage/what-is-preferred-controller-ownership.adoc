@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-preferred-controller-ownership.html
 sidebar: sidebar
-keywords: what, preferred, controller, ownership
+keywords: SANtricity, 11.7, System Manager, E-Series, preferred, controller, ownership
 summary: "Preferred controller ownership defines the controller that is designated to be the owning, or primary, controller of the volume."
 ---
 = What is preferred controller ownership?

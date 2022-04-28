@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/take-action-on-a-copy-volume-operation.html
 sidebar: sidebar
-keywords: take, action, copy, volume, operation
+keywords: SANtricity, 11.7, System Manager, E-Series, copy, volume,
 summary: "You can view a Copy Volume operation in progress and stop, change priority, re-copy, or clear a Copy Volume operation."
 ---
 = Take action on a Copy Volume operation

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-how-remote-storage-works.html
 sidebar: sidebar
-keywords: how, remote, storage, works
+keywords: SANtricity, 11.7, System Manager, E-Series, remote, storage
 summary: "The Remote Storage feature allows you to import data from a remote storage system to a local E-Series storage system. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades."
 ---
 = How Remote Storage works
@@ -23,13 +23,13 @@ These steps are described further in the user guide for the Remote Storage featu
 On the local E-Series storage system:
 
 . Ensure that each controller has an iSCSI connection to the remote storage system. With this connection, the local E-Series system acts as an iSCSI initiator that can be set up as a host on the remote system.
-. Create a destination volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume on the remote storage system, has a matching block size, and is not mapped. See link:create-volumes-storage.adoc[Create volumes].
+. Create a destination volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume on the remote storage system, has a matching block size, and is not mapped. See link:create-volumes-storage.html[Create volumes].
 . Gather the iSCSI Qualified Name (IQN) for the local E-Series system from its System Manager interface. The IQN will be used later for setting up the local E-Series system as a host on the remote storage system. In System Manager, go to: menu:Settings[System > iSCSI settings > Target IQN].
 
 On the remote storage system:
 
 . Set up the local E-Series system as a host on the remote system, using its IQN. Be sure to set the appropriate host type, as follows:
- ** If the remote system is an E-Series model, see link:configure-host-access.adoc[Configure host access]. Use a host type of "Factory Default."
+ ** If the remote system is an E-Series model, see link:configure-host-access.html[Configure host access]. Use a host type of "Factory Default."
  ** If the remote system is from another vendor, select an appropriate host type based on the options available.
 . Stop all I/Os, unmount any file systems, and remove any assignments to hosts or applications for the source volume.
 . Assign the volume to the newly created local E-Series storage system host.

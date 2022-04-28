@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-manage-progress-of-remote-volume-import.html
 sidebar: sidebar
-keywords: manage, progress, remote, storage, imports
+keywords: SANtricity, 11.7, System Manager, E-Series, remote, storage, imports
 summary: "After the import process begins, you can view and take action on its progress."
 ---
 = Manage progress of remote storage imports

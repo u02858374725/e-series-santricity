@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/snapshot-rollback.html
 sidebar: sidebar
-keywords: snapshot, rollback
+keywords: SANtricity, 11.7, System Manager, E-Series, snapshot, rollback
 summary: "A rollback operation returns a base volume to a previous state, determined by the selected snapshot."
 ---
 = Snapshot rollback

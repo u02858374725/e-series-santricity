@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/ssd-cache-restrictions.html
 sidebar: sidebar
-keywords: ssd, cache, restrictions
+keywords: SANtricity, 11.7, System Manager, E-Series, ssd, cache, restrictions
 summary: "Learn about the restrictions when using SSD Cache on your storage array."
 ---
 = SSD Cache restrictions

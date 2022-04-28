@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-automatic-load-balancing.html
 sidebar: sidebar
-keywords: automatic, load, Balancing
+keywords: SANtricity, 11.7, System Manager, E-Series, ALB, automatic, load, balancing
 summary: "The Automatic Load Balancing feature provides automated I/O balancing and ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers."
 ---
 = What is Automatic Load Balancing?

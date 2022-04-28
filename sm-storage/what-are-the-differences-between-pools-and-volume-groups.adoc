@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-are-the-differences-between-pools-and-volume-groups.html
 sidebar: sidebar
-keywords: differences, between, pools, volume, groups
+keywords: SANtricity, 11.7, System Manager, E-Series, pools, volume, groups
 summary: "A pool is similar to a volume group, with the following differences."
 ---
 = What are the differences between pools and volume groups?

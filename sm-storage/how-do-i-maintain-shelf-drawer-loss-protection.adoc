@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html
 sidebar: sidebar
-keywords: how to, maintain, shelf, drawer, loss, protection
+keywords: SANtricity, 11.7, System Manager, E-Series, shelf, drawer, loss, protection
 summary: "To maintain shelf/drawer loss protection for a pool or volume group, use the criteria specified in the following table."
 ---
 = How do I maintain shelf/drawer loss protection?

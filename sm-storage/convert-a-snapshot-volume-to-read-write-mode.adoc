@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/convert-a-snapshot-volume-to-read-write-mode.html
 sidebar: sidebar
-keywords: convert, snapshot, volume, read-write, mode
+keywords: SANtricity, 11.7, System Manager, E-Series, convert, snapshot, volume, read-write mode
 summary: "You can convert a read-only snapshot volume or a snapshot consistency group snapshot volume to read-write mode if needed."
 ---
 = Convert snapshot volume to read-write mode

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/volume-terminology.html
 sidebar: sidebar
-keywords: volume, terminology
+keywords: SANtricity, 11.7, System Manager, E-Series, volume, terms
 summary: "Learn how the volume terms apply to your storage array."
 ---
 = Volume terminology

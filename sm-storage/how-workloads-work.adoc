@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-workloads-work.html
 sidebar: sidebar
-keywords: application, specific, workloads, volume, storage, configuration
+keywords: SANtricity, 11.7, System Manager, E-Series, application, workloads, volume,
 summary: "When creating a volume, you select a workload to customize the storage array configuration for a specific application."
 ---
 = How workloads work

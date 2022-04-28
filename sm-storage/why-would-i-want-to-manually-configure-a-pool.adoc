@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-would-i-want-to-manually-configure-a-pool.html
 sidebar: sidebar
-keywords: why, would, want, manually, configure, pool
+keywords: SANtricity, 11.7, System Manager, E-Series, manually, configure, pool
 summary: "The following examples describe why you would want to manually configure a pool."
 ---
 = Why would I want to manually configure a pool?

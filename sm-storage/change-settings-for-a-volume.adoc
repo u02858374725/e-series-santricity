@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-settings-for-a-volume.html
 sidebar: sidebar
-keywords: change, settings, volume
+keywords: SANtricity, 11.7, System Manager, E-Series, settings, volume
 summary: "You can change a volume’s settings such as its name, host assignment, segment size, modification priority, caching, and so on."
 ---
 = Change settings for a volume

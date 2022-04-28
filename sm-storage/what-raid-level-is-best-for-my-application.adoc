@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-raid-level-is-best-for-my-application.html
 sidebar: sidebar
-keywords: raid, level, application, performance, maximize
+keywords: SANtricity, 11.7, System Manager, E-Series, raid, level, application, performance,
 summary: "To maximize the performance of a volume group, you must select the appropriate RAID level. You can determine the appropriate RAID level by knowing the read and write percentages for the applications that are accessing the volume group. Use the Performance page to obtain these percentages."
 ---
 = What RAID level is best for my application?

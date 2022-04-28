@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/resume-snapshot-image-rollback.html
 sidebar: sidebar
-keywords: resume, snapshot, image, rollback
+keywords: SANtricity, 11.7, System Manager, E-Series, resume, snapshot, image, rollback
 summary: "If an error occurs during a snapshot image rollback operation, the operation is automatically paused. You can resume a rollback operation that is in a paused state."
 ---
 = Resume snapshot image rollback

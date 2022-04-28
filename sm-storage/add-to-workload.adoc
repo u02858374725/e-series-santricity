@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/add-to-workload.html
 sidebar: sidebar
-keywords: add, workload, volumes, new
+keywords: SANtricity, 11.7, System Manager, E-Series, add workload, volume
 summary: "You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload."
 ---
 = Add volumes to workload

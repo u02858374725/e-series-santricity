@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/monitor-thin-volumes.html
 sidebar: sidebar
-keywords: monitor, thin, volumes
+keywords: SANtricity, 11.7, System Manager, E-Series, monitor, thin, volumes
 summary: "You can monitor thin volumes for space and generate appropriate alerts, so that you can prevent out-of-capacity conditions."
 ---
 = Monitor thin volumes

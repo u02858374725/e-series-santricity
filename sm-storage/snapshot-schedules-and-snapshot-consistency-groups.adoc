@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html
 sidebar: sidebar
-keywords: snapshot, schedules, snapshot, consistency, groups
+keywords: SANtricity, 11.7, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups
 summary: "Use schedules for collection of snapshot images, and use snapshot consistency groups to manage multiple base volumes."
 ---
 = Snapshot schedules and snapshot consistency groups

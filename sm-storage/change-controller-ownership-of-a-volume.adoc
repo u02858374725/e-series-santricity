@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-controller-ownership-of-a-volume.html
 sidebar: sidebar
-keywords: change, controller, ownership, volume
+keywords: SANtricity, 11.7, System Manager, E-Series, controller ownership, volume
 summary: "You can change the preferred controller ownership of a volume, so that I/O for host applications is directed through the new path."
 ---
 = Change controller ownership of a volume

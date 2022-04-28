@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html
 sidebar: sidebar
-keywords: need, recognize, expanded, capacity
+keywords: SANtricity, 11.7, System Manager, E-Series, expanded, capacity
 summary: "If you increase the capacity for a volume, the host might not immediately recognize the increase in volume capacity."
 ---
 = What do I need to do to recognize the expanded capacity?

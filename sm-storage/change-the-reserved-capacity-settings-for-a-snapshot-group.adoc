@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html
 sidebar: sidebar
-keywords: change, reserved, capacity, settings, snapshot, group
+keywords: SANtricity, 11.7, System Manager, E-Series, reserved capacity, settings, snapshot, group
 summary: "You can change the settings for a snapshot group to change its name, auto-delete settings, the maximum number of allowed snapshot images, the percentage point at which System Manager sends a reserved capacity alert notification, or the policy to use when the reserved capacity reaches its maximum defined percentage."
 ---
 = Change the reserved capacity settings for a snapshot group

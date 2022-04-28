@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html
 sidebar: sidebar
-keywords: workflow, host, creation, volume, assignment
+keywords: SANtricity, 11.7, System Manager, E-Series, workflow, host, creation, volume, assignment
 summary: "The following figure illustrates how to configure host access."
 ---
 = Workflow for host creation and volume assignment

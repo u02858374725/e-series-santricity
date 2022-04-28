@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/cancel-pending-snapshot-image.html
 sidebar: sidebar
-keywords: cancel, pending, snapshot, image
+keywords: SANtricity, 11.7, System Manager, E-Series, cancel, pending, snapshot, image
 summary: "You can cancel a pending snapshot image before it completes. Snapshots occur asynchronously, and the status of the snapshot is pending until the snapshot is complete. The snapshot image completes as soon as the synchronization operation is complete."
 ---
 = Cancel pending snapshot image

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-ssd-cache.html
 sidebar: sidebar
-keywords: create, ssd, cache
+keywords: SANtricity, 11.7, System Manager, E-Series, create, ssd, cache
 summary: "To dynamically accelerate system performance, you can use the SSD Cache feature to cache the most frequently accessed data ('hot' data) onto lower latency Solid State Drives (SSDs). SSD Cache is used exclusively for host reads."
 ---
 = Create SSD Cache

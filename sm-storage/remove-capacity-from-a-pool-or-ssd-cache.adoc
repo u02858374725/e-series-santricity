@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html
 sidebar: sidebar
-keywords: remove, capacity, pool, ssd, cache
+keywords: SANtricity, 11.7, System Manager, E-Series, remove, capacity, pool, ssd cache
 summary: "You can remove drives to decrease the capacity of an existing pool or SSD Cache. After you remove drives, the data in each volume of the pool or SSD Cache is redistributed to the remaining drives. The removed drives become unassigned and their capacity becomes part of the total free capacity of the storage array."
 ---
 = Remove capacity from a pool or SSD Cache

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-terminology.html
 sidebar: sidebar
-keywords: remote, storage, terminology
+keywords: SANtricity, 11.7, System Manager, E-Series, remote, storage, terms
 summary: "Learn how the remote storage terms apply to your storage array."
 ---
 = Remote Storage terminology

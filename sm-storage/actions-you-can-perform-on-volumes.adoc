@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/actions-you-can-perform-on-volumes.html
 sidebar: sidebar
-keywords: actions, perform, volumes, increase, capacity, delete, copy, change, ownership
+keywords: SANtricity, 11.7, System Manager, E-Series, volumes
 summary: "You can perform a number of different actions on a volume: increasing capacity, deleting, copying, initializing, redistributing, changing ownership, changing cache settings, and changing media scan settings."
 ---
 = Actions you can perform on volumes

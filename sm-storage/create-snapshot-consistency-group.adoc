@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: create, snapshot, consistency, group
+keywords: SANtricity, 11.7, System Manager, E-Series, create, snapshot, consistency group
 summary: "To ensure that you have consistent copies, you can create a set of multiple volumes called a snapshot consistency group."
 ---
 = Create snapshot consistency group

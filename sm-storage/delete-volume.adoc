@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/delete-volume.html
 sidebar: sidebar
-keywords: delete, volume
-summary: "Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing. Deleting a volume increases the free capacity in the pool or volume group. You can select one or more volumes to delete."
+keywords: SANtricity, 11.7, System Manager, E-Series, delete, volume
+summary: "Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing."
 ---
 = Delete volume
 :experimental:
@@ -10,7 +10,9 @@ summary: "Typically, you delete volumes if the volumes were created with the wro
 :imagesdir: ../media/
 
 [.lead]
-Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing. Deleting a volume increases the free capacity in the pool or volume group. You can select one or more volumes to delete.
+Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing.
+
+Deleting a volume increases the free capacity in the pool or volume group. You can select one or more volumes to delete.
 
 .Before you begin
 

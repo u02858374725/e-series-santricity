@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html
 sidebar: sidebar
-keywords: change, reserved, capacity, settings, snapshot, volume
+keywords: SANtricity, 11.7, System Manager, E-Series, reserved capacity, settings, snapshot, volume
 summary: "You can change the settings for a snapshot volume to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot volume is nearing full."
 ---
 = Change the reserved capacity settings for a snapshot volume

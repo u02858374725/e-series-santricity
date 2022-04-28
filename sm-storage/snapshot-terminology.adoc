@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/snapshot-terminology.html
 sidebar: sidebar
-keywords: snapshot, terminology
+keywords: SANtricity, 11.7, System Manager, E-Series, snapshot, terms
 summary: "Learn how the snapshot terms apply to your storage array."
 ---
 = Snapshot terminology

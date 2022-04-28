@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-configuration-settings-for-a-volume-group.html
 sidebar: sidebar
-keywords: change, configuration, settings, volume group
+keywords: SANtricity, 11.7, System Manager, E-Series, configuration settings, volume group
 summary: "You can edit the settings for a volume group, including its name and RAID level."
 ---
 = Change configuration settings for a volume group

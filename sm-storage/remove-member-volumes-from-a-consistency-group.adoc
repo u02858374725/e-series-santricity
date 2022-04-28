@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/remove-member-volumes-from-a-consistency-group.html
 sidebar: sidebar
-keywords: remove, member, volume, snapshot, consistency, group
+keywords: SANtricity, 11.7, System Manager, E-Series, remove, member volume, snapshot, consistency group
 summary: "You can remove a member volume from an existing snapshot consistency group."
 ---
 = Remove a member volume from a snapshot consistency group

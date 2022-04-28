@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html
 sidebar: sidebar
-keywords: start, snapshot, image, rollback, snapshot, consistency, group, member, volumes
-summary: "You can perform a rollback operation to change the content of snapshot consistency group member volumes to match the content that is saved in a snapshot image. The rollback operation does not change the content of the snapshot images that are associated with the snapshot consistency group."
+keywords: SANtricity, 11.7, System Manager, E-Series, start, snapshot, image, rollback, snapshot, consistency, group, member, volumes
+summary: "You can perform a rollback operation to change the content of snapshot consistency group member volumes to match the content that is saved in a snapshot image."
 ---
 = Start snapshot image rollback for snapshot consistency group member volumes
 :experimental:
@@ -10,7 +10,9 @@ summary: "You can perform a rollback operation to change the content of snapshot
 :imagesdir: ../media/
 
 [.lead]
-You can perform a rollback operation to change the content of snapshot consistency group member volumes to match the content that is saved in a snapshot image. The rollback operation does not change the content of the snapshot images that are associated with the snapshot consistency group.
+You can perform a rollback operation to change the content of snapshot consistency group member volumes to match the content that is saved in a snapshot image.
+
+The rollback operation does not change the content of the snapshot images that are associated with the snapshot consistency group.
 
 .Before you begin
 

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html
 sidebar: sidebar
-keywords: why, see, pools, volume groups
+keywords: SANtricity, 11.7, System Manager, E-Series, pools, volume groups
 summary: "Any pool or volume group to which you cannot move the volume does not display in the list."
 ---
 = Why don't I see all my pools and/or volume groups?
