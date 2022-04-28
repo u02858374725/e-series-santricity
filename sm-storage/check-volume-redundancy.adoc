@@ -52,8 +52,10 @@ The check volume redundancy operation starts. The volumes in the pool or volume 
  ** The status of the redundancy check is shown in the *Status* column.
  ** The check stops on any media or parity error encountered, and then reports the error.
 +
-More about the status of the redundancy check
-+
+.More about the status of the redundancy check
+[%collapsible]
+====
+
 [cols="1a,1a" options="header"]
 |===
 | Status| Description
@@ -86,5 +88,6 @@ Parity error
 a|
 The parity is not what it should be for a given portion of the data. A parity error is potentially serious and could cause a permanent loss of data.
 |===
+====
 
 . Click *Done* after the last volume in the pool or volume group has been checked.

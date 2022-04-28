@@ -72,7 +72,7 @@ Write Caching without Batteries
 a|
 The write caching without batteries setting lets write caching continue even when the batteries are missing, failed, discharged completely, or not fully charged. Choosing write caching without batteries is not typically recommended, because data might be lost if power is lost. Typically, write caching is turned off temporarily by the controller until the batteries are charged or a failed battery is replaced.
 
-NOTE: *Possible loss of data* -- If you select this option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
+CAUTION: *Possible loss of data* -- If you select this option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
 
 This setting is available only if you enabled write caching. This setting is not available for thin volumes.
 a|

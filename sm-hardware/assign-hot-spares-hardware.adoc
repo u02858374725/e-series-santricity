@@ -24,7 +24,7 @@ You can assign a hot spare as a standby drive for additional data protection in 
 
 This task describes how to manually assign a hot spare from the Hardware page. The recommended coverage is two hot spares per drive set.
 
-[CAUTION]
+[NOTE]
 ====
 Hot spares can also be assigned from the Initial Setup wizard. You can determine if hot spares are already assigned by looking for drive bays shown in pink on the Hardware page.
 ====

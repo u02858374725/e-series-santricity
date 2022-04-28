@@ -39,9 +39,9 @@ You can choose to upgrade only the OS software file or only the Controller NVSRA
 
 Perform this operation only when instructed to do so by technical support.
 
-[NOTE]
+[CAUTION]
 ====
-*Risk of data loss or risk of damage to the storage array* - Do not make changes to the storage array while the upgrade is occurring. Maintain power to the storage array.
+*Risk of data loss or risk of damage to the storage array* -- Do not make changes to the storage array while the upgrade is occurring. Maintain power to the storage array.
 ====
 
 .Steps

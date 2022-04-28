@@ -95,22 +95,29 @@ System Manager may suggest a volume configuration based on the application or wo
  ** 512 volumes (E2800 series)
 * To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
 +
-Selecting a DA capable pool or volume group
-+
+.Selecting a secure-capable pool or volume group
+[%collapsible]
+====
+
 If you want to create a DA-enabled volume, select a pool or volume group that is DA capable (look for *Yes* next to "DA" in the pool and volume group candidates table).
-+
+
 DA capabilities are presented at the pool and volume group level in System Manager. DA protection checks for and corrects errors that might occur as data is transferred through the controllers down to the drives. Selecting a DA-capable pool or volume group for the new volume ensures that any errors are detected and corrected.
-+
+
 If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
+====
+
 * To create a secure-enabled volume, a security key must be created for the storage array.
 +
-Selecting a secure-capable pool or volume group
-+
+.Selecting a secure-capable pool or volume group
+[%collapsible]
+====
+
 If you want to create a secure-enabled volume, select a pool or volume group that is secure capable (look for *Yes* next to "Secure-capable" in the pool and volume group candidates table).
-+
+
 Drive security capabilities are presented at the pool and volume group level in System Manager. Secure-capable drives prevent unauthorized access to the data on a drive that is physically removed from the storage array. A secure-enabled drive encrypts data during writes and decrypts data during reads using a unique _encryption key_.
-+
+
 A pool or volume group can contain both secure-capable and non-secure-capable drives, but all drives must be secure-capable to use their encryption capabilities.
+====
 
 * To create a resource-provisioned volume, all drives must be NVMe drives with the Deallocated or Unwritten Logical Block Error (DULBE) option.
 

@@ -32,12 +32,7 @@ Several storage array components contain software or hardware that you might wan
 
 image::../media/sam1130-dwg-upgrade-firmware-locations.gif[]
 
-^1^ Controller shelf
-^2^ Drive shelf
-^3^ Software, controller firmware, controller NVSRAM, supervisor software
-^4^ Drive firmware
-^5^ IOM firmware
-^6^ Drive firmware
+^1^ Controller shelf; ^2^ Drive shelf; ^3^ Software, controller firmware, controller NVSRAM, supervisor software; ^4^ Drive firmware; ^5^ IOM firmware; ^6^ Drive firmware
 
 You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*.
 

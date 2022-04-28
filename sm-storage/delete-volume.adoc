@@ -31,7 +31,7 @@ You cannot delete a volume that has one of these conditions:
 * The volume is holding any type of persistent reservation.
 * The volume is a source volume or a target volume in a Copy Volume that has a status of Pending, In Progress, or Failed.
 
-[NOTE]
+[CAUTION]
 ====
 Deleting a volume causes loss of all data on those volumes.
 ====

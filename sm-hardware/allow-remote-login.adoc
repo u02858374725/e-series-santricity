@@ -11,7 +11,7 @@ summary: "Remote login lets users from outside of the local area network start a
 [.lead]
 Remote login lets users from outside of the local area network start an SSH session and change settings on the controller.
 
-[NOTE]
+[CAUTION]
 ====
 *Security risk* -- For security reasons, enable remote login for use only by technical support.
 ====

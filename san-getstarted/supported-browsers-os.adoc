@@ -55,7 +55,7 @@ The following operating systems and versions are supported.
 |===
 | Operating system| Minimum version/architecture
 a|
-Redhat Enterprise Linux (RHEL)
+Red Hat Enterprise Linux (RHEL)
 a|
 7.x, 8.x / 64-bit
 a|
@@ -69,7 +69,7 @@ a|
 a|
 Windows Server
 a|
-2016, 2019 / 64-bit
+2016, 2019, 2022 / 64-bit
 a|
 Ubuntu
 a|

@@ -22,7 +22,7 @@ The controller cache affects the overall performance of the storage array in sev
 * If write caching is used, the host can send subsequent write commands before the data from a previous write operation is written to disk.
 * If cache prefetch is enabled, sequential read access is optimized. Cache prefetch makes a read operation more likely to find its data in the cache, instead of reading the data from disk.
 
-[NOTE]
+[CAUTION]
 ====
 *Possible loss of data* -- If you enable the *Write caching without batteries* option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
 ====

@@ -17,7 +17,7 @@ Initializing removes the previous configuration information from a drive and ret
 
 Use the initialize drive operation when you are moving a single drive. You do not need to initialize drives if you are moving an entire volume group from one storage array to another.
 
-[NOTE]
+[CAUTION]
 ====
 *Possible loss of data* -- When you initialize a drive, all data on the drive is lost. Perform this operation only when instructed to do so by technical support.
 ====
