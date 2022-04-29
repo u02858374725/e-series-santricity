@@ -1,6 +1,6 @@
 indexpage:
   tiles:
-    - title: Get started
+    - title: Set up
       links:
       - title: Unified Manager interface overview
         url: ../um-admin/overview-interface-unified.html
