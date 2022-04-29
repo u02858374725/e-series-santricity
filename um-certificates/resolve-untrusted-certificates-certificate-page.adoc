@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/resolve-untrusted-certificates-certificate-page.html
 sidebar: sidebar
-keywords: resolve, untrusted, certificates
-summary: "Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. From the Certificate page, you can resolve untrusted certificates by importing a self-signed certificate from the storage array or by importing a certificate authority (CA) certificate that has been issued by a trusted third party."
+keywords: SANtricity, Unified Manager, E-Series, resolve, untrusted, certificates
+summary: "Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure."
 ---
 = Resolve untrusted certificates
 :experimental:
@@ -10,7 +10,9 @@ summary: "Untrusted certificates occur when a storage array attempts to establis
 :imagesdir: ../media/
 
 [.lead]
-Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure. From the Certificate page, you can resolve untrusted certificates by importing a self-signed certificate from the storage array or by importing a certificate authority (CA) certificate that has been issued by a trusted third party.
+Untrusted certificates occur when a storage array attempts to establish a secure connection to Unified Manager, but the connection fails to confirm as secure.
+
+From the Certificate page, you can resolve untrusted certificates by importing a self-signed certificate from the storage array or by importing a certificate authority (CA) certificate that has been issued by a trusted third party.
 
 .Before you begin
 

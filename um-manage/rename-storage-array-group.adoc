@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/rename-storage-array-group.html
 sidebar: sidebar
-keywords: rename, storage, array, group
+keywords: SANtricity, Unified Manager, E-Series, rename, storage, array, group
 summary: "You can change the name of a storage array group when the current name is no longer meaningful or applicable."
 ---
 = Rename storage array group

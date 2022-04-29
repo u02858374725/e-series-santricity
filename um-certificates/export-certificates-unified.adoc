@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/export-certificates-unified.html
 sidebar: sidebar
-keywords: export certificates
+keywords: SANtricity, Unified Manager, E-Series, export, certificates
 summary: "You can export a certificate to view its complete details."
 ---
 = Export certificates

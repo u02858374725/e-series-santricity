@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/overview-upgrade-center-um.html
 sidebar: sidebar
-keywords: upgrade, center
+keywords: SANtricity, Unified Manager, E-Series, upgrade, center
 summary: "From the Upgrade Center, you can manage SANtricity OS software and NVSRAM upgrades for multiple storage arrays."
 ---
 = Upgrade Center overview
@@ -19,7 +19,7 @@ You download the latest OS software and then upgrade one or more arrays.
 
 The following steps provide a high-level workflow for performing software upgrades.
 
-. You download the latest SANtricity OS software file from the Support site (a link is available from Unified Manager in the *Support* page). Save the file on the management host system (the host where you access Unified Manager in a browser), and then unzip the file.
+. You download the latest SANtricity OS software file from the Support site (a link is available from Unified Manager in the Support page). Save the file on the management host system (the host where you access Unified Manager in a browser), and then unzip the file.
 . In Unified Manager, you load the SANtricity OS software file and the NVSRAM file into the repository (an area of the Web Services Proxy server where files are stored). You can add files either from menu:Upgrade Center[Upgrade SANtricity OS Software or from Upgrade Center > Manage Software Repository].
 . After the files are loaded in the repository, you can then select the file to be used in the upgrade. From the Upgrade SANtricity OS software page (menu:Upgrade Center[Upgrade SANtricity OS software]), you select the SANtricity OS software file and the NVSRAM file. After you select a software file, a list of compatible storage arrays appear on this page. You then select the storage arrays that you want to upgrade with the new software. (You cannot select incompatible arrays.)
 . You can then begin an immediate software transfer and activation, or you can choose to stage the files for activation at a later time. During the upgrade process, Unified Manager performs the following tasks:

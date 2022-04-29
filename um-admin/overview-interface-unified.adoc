@@ -1,7 +1,7 @@
 ---
 permalink: um-admin/overview-interface-unified.html
 sidebar: sidebar
-keywords: interface, overview, main, page, single view, web-based, interface, unified, manager
+keywords: SANtricity, Unified Manager, E-Series, interface, GUI
 summary: "Unified Manager is a web-based interface that allows you to manage multiple storage arrays in a single view."
 ---
 = Unified Manager interface overview
@@ -20,7 +20,7 @@ When you log in to Unified Manager, the main page opens to *Manage - All*. From 
 You can access Unified Manager features and functions from the navigation sidebar.
 
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Area| Description
 a|

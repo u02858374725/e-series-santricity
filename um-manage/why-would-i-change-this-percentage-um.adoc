@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/why-would-i-change-this-percentage-um.html
 sidebar: sidebar
-keywords: why, change, percentage
+keywords: SANtricity, Unified Manager, E-Series, change, percentage
 summary: "Reserved capacity is typically 20 percent of the base volume for asynchronous mirroring operations. Usually this capacity is sufficient."
 ---
 = Why would I change this percentage?

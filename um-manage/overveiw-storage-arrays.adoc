@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/overview-storage-arrays.html
 sidebar: sidebar
-keywords: discover, storage, arrays
+keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays
 summary: "Before Unified Manager can display and manage storage resources, it must discover the storage arrays you want to manage in the network."
 ---
 = Discovery overview

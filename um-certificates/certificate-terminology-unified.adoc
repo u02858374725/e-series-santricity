@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/certificate-terminology-unified.html
 sidebar: sidebar
-keywords: certificate, terminology
+keywords: SANtricity, Unified Manager, E-Series, certificate, terminology
 summary: "The following terms apply to certificate management."
 ---
 = Certificate terminology

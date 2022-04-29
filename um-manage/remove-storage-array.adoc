@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/remove-storage-array.html
 sidebar: sidebar
-keywords: remove, storage, arrays, santricity, unified manager
+keywords: SANtricity, Unified Manager, E-Series, remove, storage, arrays,
 summary: "You can remove one or more storage arrays if you no longer want to manage it from SANtricity Unified Manager."
 ---
 = Remove storage arrays from SANtricity Unified Manager
@@ -10,7 +10,7 @@ summary: "You can remove one or more storage arrays if you no longer want to man
 :imagesdir: ../media/
 
 [.lead]
-You can remove one or more storage arrays if you no longer want to manage it from SANtricity Unified Manager.
+You can remove one or more storage arrays if you no longer want to manage it from Unified Manager.
 
 .About this task
 

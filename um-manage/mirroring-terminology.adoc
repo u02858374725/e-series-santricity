@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/mirroring-terminology.html
 sidebar: sidebar
-keywords: mirroring, terminology
+keywords: SANtricity, Unified Manager, E-Series, mirroring, terminology
 summary: "Learn how the mirroring terms apply to your storage array."
 ---
 = Mirroring terminology

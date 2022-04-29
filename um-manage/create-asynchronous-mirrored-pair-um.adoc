@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/create-asynchronous-mirrored-pair-um.html
 sidebar: sidebar
-keywords: create, asynchronous, mirrored, pair
+keywords: SANtricity, Unified Manager, E-Series, create, asynchronous, mirrored, pair
 summary: "To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array."
 ---
 = Create asynchronous mirrored pair
@@ -12,12 +12,12 @@ summary: "To configure asynchronous mirroring, you create a mirrored pair that i
 [.lead]
 To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
 
-.Before you begin
-++ ++
 [NOTE]
 ====
 This feature is not available on the EF600 or EF300 storage system.
 ====
+
+.Before you begin
 
 Before you create a mirrored pair, meet the following requirements for Unified Manager:
 
@@ -42,22 +42,18 @@ The process to create an asynchronous mirrored pair is a multi-step procedure.
 
 == Step 1: Create or select a mirror consistency group
 
-You can create a new mirror consistency group or select an existing one.
+In this step, you create a new mirror consistency group or select an existing one. A mirror consistency group is a container for the primary and secondary volumes (the mirrored pair), and specifies the desired resynchronization method (manual or automatic) for all pairs in the group.
 
 .Before you begin
 
-* To create a new mirror consistency group, the local and remote storage arrays must be discovered in Unified Manager.
-
-.About this task
-
-A mirror consistency group is a container for the primary and secondary volumes (the mirrored pair), and specifies the desired resynchronization method (manual or automatic) for all pairs in the group.
+The local and remote storage arrays must be discovered in Unified Manager.
 
 .Steps
 
 . From the *Manage* page, select the local storage array that you want to use for the source.
 . Select menu:Actions[Create Asynchronous Mirrored Pair].
 +
-The *Create Asynchronous Mirrored Pair* wizard opens.
+The Create Asynchronous Mirrored Pair wizard opens.
 
 . Select either an existing mirror consistency group or create a new one.
 +
@@ -92,17 +88,13 @@ If Unified Manager successfully creates the mirror consistency group on the loca
 
 == Step 2: Select the primary volume
 
-Select the primary volume that you want to use in the mirror relationship and allocate its reserved capacity.
+In this step, you select the primary volume to use in the mirror relationship and allocate its reserved capacity. When you select a primary volume on the local storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
+
+Any volumes you add to the mirror consistency group on the local storage array will hold the primary role in the mirror relationship.
 
 .Before you begin
 
-* You must have created the primary volume on the local storage array that you want to use in the asynchronous mirror relationship.
-
-.About this task
-
-When you select a primary volume on the local storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
-
-Any volumes you add to the mirror consistency group on the local storage array will hold the primary role in the mirror relationship.
+You must have created the primary volume on the local storage array that you want to use in the asynchronous mirror relationship.
 
 .Steps
 
@@ -121,18 +113,14 @@ Keep the following guidelines in mind:
 
 == Step 3: Select the secondary volume
 
-Select the secondary volume that you want to use in the mirror relationship and allocate its reserved capacity.
+In this step, you select the secondary volume to use in the mirror relationship and allocate its reserved capacity. When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
+
+Any volumes you add to the mirror consistency group on the remote storage array will hold the secondary role in the mirror relationship.
 
 .Before you begin
 
 * You must have created the secondary volume on the remote storage array that you want to use in the asynchronous mirror relationship.
 * The secondary volume must be at least as large as the primary volume.
-
-.About this task
-
-When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
-
-Any volumes you add to the mirror consistency group on the remote storage array will hold the secondary role in the mirror relationship.
 
 .Steps
 

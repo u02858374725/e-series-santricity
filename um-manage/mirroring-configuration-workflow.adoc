@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/mirroring-configuration-workflow.html
 sidebar: sidebar
-keywords: mirroring, configuration, workflow
+keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow
 summary: "You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations."
 ---
 = Mirroring configuration workflow
