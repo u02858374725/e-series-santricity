@@ -1,7 +1,7 @@
 ---
 permalink: san-getstarted/santricity-overview.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series,
+keywords: SANtricity, System Manager, E-Series,
 summary: E-Series systems include SANtricity software for storage provisioning and other tasks.
 ---
 = SANtricity software overview

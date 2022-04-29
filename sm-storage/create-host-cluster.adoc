@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-host-cluster.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, create, host, cluster
+keywords: SANtricity, System Manager, E-Series, create, host, cluster
 summary: "You create a host cluster when two or more hosts require I/O access to the same volumes."
 ---
 = Create host cluster

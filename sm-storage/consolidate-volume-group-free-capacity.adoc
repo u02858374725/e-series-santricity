@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/consolidate-volume-group-free-capacity.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, consolidate, free capacity, volume group
+keywords: SANtricity, System Manager, E-Series, consolidate, free capacity, volume group
 summary: "Use the Consolidate Free Capacity option to consolidate existing free extents on a selected volume group. By performing this action, you can create additional volumes from the maximum amount of free capacity in a volume group."
 ---
 = Consolidate free capacity for a volume group

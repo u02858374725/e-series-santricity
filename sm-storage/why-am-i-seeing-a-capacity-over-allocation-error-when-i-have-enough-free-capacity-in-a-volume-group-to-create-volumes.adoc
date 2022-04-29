@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, capacity, over-allocation, error,
+keywords: SANtricity, System Manager, E-Series, capacity, over-allocation, error,
 summary: "The selected volume group might have one or more free capacity areas. A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation."
 ---
 = Why am I seeing a capacity over-allocation error when I have enough free capacity in a volume group to create volumes?

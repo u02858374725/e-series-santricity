@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-remove-remote-storage.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, remove, remote, storage,
+keywords: SANtricity, System Manager, E-Series, remove, remote, storage,
 summary: "After an import completes, you can remove a remote storage object if you no longer want data copied between the local and remote devices."
 ---
 = Remove remote storage object

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-how-remote-storage-works.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, remote, storage
+keywords: SANtricity, System Manager, E-Series, remote, storage
 summary: "The Remote Storage feature allows you to import data from a remote storage system to a local E-Series storage system. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades."
 ---
 = How Remote Storage works

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/delete-host-or-host-cluster.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, delete, host, host cluster
+keywords: SANtricity, System Manager, E-Series, delete, host, host cluster
 summary: "You can delete a host or host cluster."
 ---
 = Delete host or host cluster

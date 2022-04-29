@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, display preferences
+keywords: SANtricity, System Manager, E-Series, display preferences
 summary: "You can find information about the available display options in the following help topics."
 ---
 = Where can I find more information about display preferences?

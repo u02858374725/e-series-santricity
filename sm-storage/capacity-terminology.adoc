@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/capacity-terminology.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, capacity terms
+keywords: SANtricity, System Manager, E-Series, capacity terms
 summary: "Learn how the capacity terms apply to your storage array."
 ---
 = Capacity terminology

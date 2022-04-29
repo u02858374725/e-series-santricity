@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-volumes-work.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, volume, copy,
+keywords: SANtricity, System Manager, E-Series, volume, copy,
 summary: "Volumes are data containers that manage and organize the storage space on your storage array. Volumes are created from the storage capacity available on your storage array and make it easy to organize and use your system’s resources. This concept is similar to using folders/directories on a computer to organize files for easy and quick access."
 ---
 = How volumes work

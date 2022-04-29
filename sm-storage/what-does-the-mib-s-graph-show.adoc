@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-does-the-mib-s-graph-show.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, mibs, graph, 
+keywords: SANtricity, System Manager, E-Series, mibs, graph,
 summary: "The MiB/s graph displays transfer speed statistics in mebibytes per second. On the Home page, this graph displays statistics for the storage array. In the Logical View, Physical View, and Applications & Workloads View tabs of the Performance tile, this graph displays statistics for the storage array, volumes, volume groups, pools, applications, and workloads."
 ---
 = What does the MiB/s graph show?

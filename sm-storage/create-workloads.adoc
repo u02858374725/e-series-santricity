@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-workloads.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, create, workloads
+keywords: SANtricity, System Manager, E-Series, create, workloads
 summary: "You can create workloads for any type of application."
 ---
 = Create workloads

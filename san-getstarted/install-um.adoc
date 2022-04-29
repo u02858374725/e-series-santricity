@@ -1,7 +1,7 @@
 ---
 permalink: san-getstarted/install-um.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, Unified Manager installation
+keywords: SANtricity, System Manager, E-Series, Unified Manager installation
 summary: Overview of Unified Manager installation
 ---
 = Install Unified Manager

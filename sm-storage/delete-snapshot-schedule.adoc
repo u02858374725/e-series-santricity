@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/delete-snapshot-schedule.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, delete, snapshot, schedule
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, schedule
 summary: "If you no longer want to collect snapshot images, you can delete an existing snapshot schedule."
 ---
 = Delete snapshot schedule

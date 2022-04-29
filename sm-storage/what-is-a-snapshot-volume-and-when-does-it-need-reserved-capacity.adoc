@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, snapshot, volume, reserved, capacity
+keywords: SANtricity, System Manager, E-Series, snapshot, volume, reserved, capacity
 summary: "A snapshot volume allows the host to access data in the snapshot image. The snapshot volume contains its own reserved capacity, which saves any modifications to the base volume without affecting the original snapshot image. Snapshot images are not read- or write-accessible to hosts. If you want to read or write to snapshot data, create a snapshot volume and assign it to a host."
 ---
 = What is a snapshot volume and when does it need reserved capacity?

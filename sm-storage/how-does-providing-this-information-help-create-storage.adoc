@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-does-providing-this-information-help-create-storage.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, workload
+keywords: SANtricity, System Manager, E-Series, workload
 summary: "The workload information is used to optimize the volume characteristics such as I/O type, segment size, and read/write cache for the workload selected. These optimized characteristics dictate how your workload interacts with the storage array components."
 ---
 = How does providing this information help create storage?

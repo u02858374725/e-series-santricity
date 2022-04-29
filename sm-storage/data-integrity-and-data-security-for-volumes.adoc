@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/data-integrity-and-data-security-for-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, data, integrity, security, volumes
+keywords: SANtricity, System Manager, E-Series, data, integrity, security, volumes
 summary: "You can enable volumes to use the Data Assurance (DA) feature and the Drive Security feature. These features are presented at the pool and volume group level."
 ---
 = Data integrity and data security for volumes

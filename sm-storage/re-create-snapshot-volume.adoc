@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/re-create-snapshot-volume.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, re-create, snapshot, volume
+keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume
 summary: "You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one."
 ---
 = Re-create snapshot volume

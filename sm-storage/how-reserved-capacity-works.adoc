@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-reserved-capacity-works.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, reserved, capacity,
+keywords: SANtricity, System Manager, E-Series, reserved, capacity,
 summary: "Reserved capacity is automatically created when copy service operations, such as snapshots or asynchronous mirroring operations, are provided for your volumes."
 ---
 = How reserved capacity works

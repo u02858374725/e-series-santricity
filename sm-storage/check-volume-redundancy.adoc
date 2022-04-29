@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/check-volume-redundancy.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, check, volume, redundancy
+keywords: SANtricity, System Manager, E-Series, check, volume, redundancy
 summary: "Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails."
 ---
 = Check volume redundancy
@@ -10,7 +10,9 @@ summary: "Under the guidance of technical support or as instructed by the Recove
 :imagesdir: ../media/
 
 [.lead]
-Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.
+Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent.
+
+Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.
 
 .Before you begin
 

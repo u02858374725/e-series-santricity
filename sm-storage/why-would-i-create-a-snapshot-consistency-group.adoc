@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-would-i-create-a-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, create, snapshot, consistency, group
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency, group
 summary: "You create a snapshot consistency group when you want to make sure snapshot images are taken on multiple volumes at the same time."
 ---
 = Why would I create a snapshot consistency group?

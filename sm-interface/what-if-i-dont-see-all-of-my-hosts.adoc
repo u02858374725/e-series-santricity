@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/what-if-i-dont-see-all-of-my-hosts.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, host detection
+keywords: SANtricity, System Manager, E-Series, host detection
 summary: "If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected."
 ---
 = What if I don't see all of my hosts?

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-the-default-cluster.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, default, cluster,
+keywords: SANtricity, System Manager, E-Series, default, cluster,
 summary: "The default cluster is a system-defined entity that allows any unassociated host port identifier that has logged into the storage array to gain access to volumes assigned to the default cluster. An unassociated host port identifier is a host port that is not logically associated with a particular host, but is physically installed in a host and logged into the storage array."
 ---
 = What is the default cluster?

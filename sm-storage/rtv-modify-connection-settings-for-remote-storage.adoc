@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-modify-connection-settings-for-remote-storage.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, modify, connection, settings, remote, storage
+keywords: SANtricity, System Manager, E-Series, modify, connection, settings, remote, storage
 summary: "You can edit, add, or delete connection settings for any remote storage configuration through the View/Edit Settings option."
 ---
 = Modify connection settings for remote storage

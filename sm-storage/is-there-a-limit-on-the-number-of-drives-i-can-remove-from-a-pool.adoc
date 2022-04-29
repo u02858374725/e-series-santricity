@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, limit, number, pool, drive,
+keywords: SANtricity, System Manager, E-Series, limit, number, pool, drive,
 summary: "System Manager sets limits for how many drives you can remove from a pool."
 ---
 = Is there a limit on the number of drives I can remove from a pool?

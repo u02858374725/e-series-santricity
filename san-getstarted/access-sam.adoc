@@ -1,7 +1,7 @@
 ---
 permalink: san-getstarted/access-sam.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, access System Manager
+keywords: SANtricity, System Manager, E-Series, access System Manager
 summary: To access the System Manager user interface, you point a browser to the controller’s IP address. A setup wizard helps you get started with system configuration.
 ---
 = Access System Manager

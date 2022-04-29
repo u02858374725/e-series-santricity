@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series,
+keywords: SANtricity, System Manager, E-Series,
 summary: "When you identify applications, System Manager automatically recommends a volume configuration that optimizes storage based on application type."
 ---
 = How does identifying applications help me manage my storage array?

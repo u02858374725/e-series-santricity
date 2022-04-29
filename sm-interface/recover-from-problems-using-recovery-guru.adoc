@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/recover-from-problems-using-recovery-guru.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, Recovery Guru
+keywords: SANtricity, System Manager, E-Series, Recovery Guru
 summary: "The Recovery Guru is a component of System Manager that diagnoses storage array problems and recommends recovery procedures to fix the problems."
 ---
 = Recover from problems using Recovery Guru

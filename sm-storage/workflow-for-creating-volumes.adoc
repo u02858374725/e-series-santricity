@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/workflow-for-creating-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, workflow, create, volumes
+keywords: SANtricity, System Manager, E-Series, workflow, create, volumes
 summary: "In SANtricity System Manager, you can create volumes by following these steps."
 ---
 = Workflow for creating volumes

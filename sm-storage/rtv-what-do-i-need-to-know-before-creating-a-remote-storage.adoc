@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, remote, storage, connection
+keywords: SANtricity, System Manager, E-Series, remote, storage, connection
 summary: "To configure the Remote Storage feature, you must directly connect the remote device and target storage systems via iSCSI."
 ---
 = What do I need to know before creating a remote storage connection?

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, remove, remote, volumes
+keywords: SANtricity, System Manager, E-Series, remove, remote, volumes
 summary: "When it reaches its maximum number of remote volumes, the storage system automatically detects any unused remote volumes and prompts you to remove them."
 ---
 = Why am I being prompted to remove my remote volumes?

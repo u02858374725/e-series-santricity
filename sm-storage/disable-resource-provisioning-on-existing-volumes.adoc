@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/disable-resource-provisioning-on-existing-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, disable, resource provisioning,
+keywords: SANtricity, System Manager, E-Series, disable, resource provisioning,
 summary: "You can permanently disable resource provisioning on an existing pool or volume group."
 ---
 = Disable resource provisioning on existing volumes

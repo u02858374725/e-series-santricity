@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/unassign-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, unassign, volumes
+keywords: SANtricity, System Manager, E-Series, unassign, volumes
 summary: "Unassign volumes from hosts or host clusters if you no longer need I/O access to that volume from the host or host cluster."
 ---
 = Unassign volumes

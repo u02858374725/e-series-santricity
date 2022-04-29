@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/view-and-act-on-operations-in-progress.html
 sidebar: sidebar
-keywords: view, act, operations, progress,
+keywords: SANtricity, System Manager, E-Series, view, act, operations, progress,
 summary: "To view and take action on long-running operations, use the Operations in Progress page."
 ---
 = View and act on operations in progress

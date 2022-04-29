@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-a-pool.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, pool,
+keywords: SANtricity, System Manager, E-Series, pool,
 summary: "A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)"
 ---
 = What is a pool?

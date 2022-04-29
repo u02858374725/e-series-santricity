@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/work-with-copy-services.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, copy, services
+keywords: SANtricity, System Manager, E-Series, copy, services
 summary: "You can use copy services to copy volumes and take other actions on volumes."
 ---
 = Work with copy services

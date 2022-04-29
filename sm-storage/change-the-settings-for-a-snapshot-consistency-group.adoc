@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-settings-for-a-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, settings, snapshot, consistency group
+keywords: SANtricity, System Manager, E-Series, settings, snapshot, consistency group
 summary: "Change the settings for a snapshot consistency group when you want to change its name, automatic deletion settings, or the maximum number of allowed snapshot images."
 ---
 = Change the settings for a snapshot consistency group

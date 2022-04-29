@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-settings-for-a-host.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, settings, host
+keywords: SANtricity, System Manager, E-Series, settings, host
 summary: "You can change the name, host operating system type, and associated host clusters for a host."
 ---
 = Change the settings for a host

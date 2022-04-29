@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, remote, storage, import
+keywords: SANtricity, System Manager, E-Series, remote, storage, import
 summary: "The Remote Storage feature allows you to copy data from a remote storage system to a volume on a local E-Series storage system. Before using this feature, review the following guidelines."
 ---
 = What do I need to know before starting a remote storage import?

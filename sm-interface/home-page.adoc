@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/home-page.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, home page
+keywords: SANtricity, System Manager, E-Series, home page
 summary: "The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed."
 ---
 = Home page

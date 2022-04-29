@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-use-snapshot-images.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, snapshot, images
+keywords: SANtricity, System Manager, E-Series, snapshot, images
 summary: "You can use snapshots to protect against and allow recovery from accidental or malicious loss or corruption of data."
 ---
 = Why use snapshot images?

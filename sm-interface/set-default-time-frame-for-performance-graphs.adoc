@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/set-default-time-frame-for-performance-graphs.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, time, graphs
+keywords: SANtricity, System Manager, E-Series, time, graphs
 summary: "You can change the default time frame shown by the performance graphs."
 ---
 = Set default time frame for performance graphs

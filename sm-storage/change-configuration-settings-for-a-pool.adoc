@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-configuration-settings-for-a-pool.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configuration settings, pool
+keywords: SANtricity, System Manager, E-Series, configuration settings, pool
 summary: "You can edit the settings for a pool, including its name, capacity alerts settings, modification priorities, and preservation capacity."
 ---
 = Change configuration settings for a pool

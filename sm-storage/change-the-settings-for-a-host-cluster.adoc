@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-settings-for-a-host-cluster.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, settings, host, cluster
+keywords: SANtricity, System Manager, E-Series, settings, host, cluster
 summary: "You can change the host cluster name, or add or remove hosts in a host cluster."
 ---
 = Change the settings for a host cluster

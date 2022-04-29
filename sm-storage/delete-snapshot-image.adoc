@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/delete-snapshot-image.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, delete, snapshot, image
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, image
 summary: "You delete snapshot images to clean up the oldest snapshot image from a snapshot group or snapshot consistency group."
 ---
 = Delete snapshot image

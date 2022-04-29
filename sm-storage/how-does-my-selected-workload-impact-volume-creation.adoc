@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-does-my-selected-workload-impact-volume-creation.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, workload, impact, volume,
+keywords: SANtricity, System Manager, E-Series, workload, impact, volume,
 summary: "During volume creation, you are prompted for information about a workload’s use. The system uses this information to create an optimal volume configuration for you, which can be edited as needed. Optionally, you can skip this step in the volume creation sequence."
 ---
 = How does my selected workload impact volume creation?

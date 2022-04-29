@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, lights, LEDs
+keywords: SANtricity, System Manager, E-Series, lights, LEDs
 summary: "You can locate drives to physically identify all of the drives that comprise a selected pool, volume group, or SSD Cache. An LED indicator lights up on each drive in the selected pool, volume group, or SSD Cache."
 ---
 = Turn on locator lights in a pool, volume group, or SSD Cache

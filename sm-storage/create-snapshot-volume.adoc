@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-snapshot-volume.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, create, snapshot, volume
+keywords: SANtricity, System Manager, E-Series, create, snapshot, volume
 summary: "You create a snapshot volume to provide host access to a snapshot image of a volume or snapshot consistency group. You can designate the snapshot volume as either read-only or read-write."
 ---
 = Create snapshot volume

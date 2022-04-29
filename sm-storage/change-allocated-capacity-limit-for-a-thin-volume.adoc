@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, allocated capacity, thin volume
+keywords: SANtricity, System Manager, E-Series, allocated capacity, thin volume
 summary: "For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand."
 ---
 = Change allocated capacity limit for a thin volume

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/redistribute-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, redistribute, volumes
+keywords: SANtricity, System Manager, E-Series, redistribute, volumes
 summary: "You redistribute volumes to move volumes back to their preferred controller owners. Typically, multipath drivers move volumes from their preferred controller owner when a problem occurs along the data path between the host and storage array."
 ---
 = Redistribute volumes

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/decide-to-use-a-pool-or-volume-group.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, pool, volume group
+keywords: SANtricity, System Manager, E-Series, pool, volume group
 summary: "You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements."
 ---
 = Decide whether to use a pool or a volume group

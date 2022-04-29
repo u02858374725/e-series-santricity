@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-volume-group.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, create, volume, group
+keywords: SANtricity, System Manager, E-Series, create, volume, group
 summary: "You use a volume group to create one or more volumes that are accessible to the host. A volume group is a container for volumes with shared characteristics such as RAID level and capacity."
 ---
 = Create a volume group

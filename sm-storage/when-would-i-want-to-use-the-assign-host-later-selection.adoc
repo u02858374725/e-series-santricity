@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, offline, volumes, use, assign, host,
+keywords: SANtricity, System Manager, E-Series, offline, volumes, use, assign, host,
 summary: "If you want to speed the process for creating volumes, you can skip the host assignment step so that newly created volumes are initialized offline."
 ---
 = When would I want to use the assign host later selection?

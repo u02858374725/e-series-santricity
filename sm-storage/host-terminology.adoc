@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/host-terminology.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, host, terms
+keywords: SANtricity, System Manager, E-Series, host, terms
 summary: "Learn how the host terms apply to your storage array."
 ---
 = Host terminology

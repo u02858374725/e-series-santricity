@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/interpret-performance-data.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, interpret, performance data
+keywords: SANtricity, System Manager, E-Series, interpret, performance data
 summary: "Performance data can guide you in tuning the performance of your storage array."
 ---
 = Interpret performance data

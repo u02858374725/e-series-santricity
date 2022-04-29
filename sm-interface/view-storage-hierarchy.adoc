@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/view-storage-hierarchy.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, storage hierarchy
+keywords: SANtricity, System Manager, E-Series, storage hierarchy
 summary: "The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array."
 ---
 = View storage hierarchy

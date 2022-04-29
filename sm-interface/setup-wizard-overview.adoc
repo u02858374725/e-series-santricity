@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/setup-wizard-overview.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, setup wizard
+keywords: SANtricity, System Manager, E-Series, setup wizard
 summary: "Use the Setup wizard to configure your storage array, including hardware, hosts, applications, workloads, pools, alerts, and AutoSupport."
 ---
 = Setup wizard overview

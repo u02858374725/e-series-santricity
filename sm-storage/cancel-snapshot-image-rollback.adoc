@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/cancel-snapshot-image-rollback.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, cancel, snapshot, image, rollback
+keywords: SANtricity, System Manager, E-Series, cancel, snapshot, image, rollback
 summary: "You can cancel an active rollback that is in progress (actively copying data), a pending rollback (in a pending queue awaiting resources to start), or a rollback that has been paused due to an error."
 ---
 = Cancel snapshot image rollback

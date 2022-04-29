@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, ssd cache, statistics
+keywords: SANtricity, System Manager, E-Series, ssd cache, statistics
 summary: "You can view nominal statistics and detailed statistics for SSD Cache. Nominal statistics are a subset of the detailed statistics."
 ---
 = How do I view and interpret all SSD Cache statistics?
