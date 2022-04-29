@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/reset-reboot-controller.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, reset, reboot, controller
+keywords: SANtricity, System Manager, E-Series, reset, reboot, controller
 summary: "Some issues require a controller reset (reboot). You can reset the controller even if you don’t have physical access to it."
 ---
 = Reset (reboot) controller

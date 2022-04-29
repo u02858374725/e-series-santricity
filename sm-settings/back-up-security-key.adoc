@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/back-up-security-key.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, backup, security, key,
+keywords: SANtricity, System Manager, E-Series, backup, security, key,
 summary: "After creating or changing a security key, you can create a backup copy of the key file in case the original gets corrupted."
 ---
 = Back up security key

@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, change, role, volumes, mirrored, pair,
+keywords: SANtricity, System Manager, E-Series, change, role, volumes, mirrored, pair,
 summary: "You can perform a role reversal between the two volumes in a mirrored pair that are participating in synchronous mirroring for administrative purposes or in the event of a disaster on the local storage array."
 ---
 = Change role between volumes in a mirrored pair

@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-does-unreadable-sectors-data-show-me.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, unreadable, sectors,
+keywords: SANtricity, System Manager, E-Series, unreadable, sectors,
 summary: "You can display detailed data about unreadable sectors detected on the drives in your storage array."
 ---
 = What does unreadable sectors data show me?

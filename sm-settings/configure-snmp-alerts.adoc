@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-snmp-alerts.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configure, snmp, alerts,
+keywords: SANtricity, System Manager, E-Series, configure, snmp, alerts,
 summary: "To configure Simple Network Management Protocol (SNMP) alerts, you must identify at least one server where the storage array’s event monitor can send SNMP traps. The configuration requires a community name or user name, and an IP address for the server."
 ---
 = Configure SNMP alerts

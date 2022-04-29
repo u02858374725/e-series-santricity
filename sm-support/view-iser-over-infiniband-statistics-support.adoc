@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-iser-over-infiniband-statistics-support.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, iser, over, infiniband, statistics
+keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniband, statistics
 summary: "If your storage array’s controller includes an iSER over InfiniBand port, you can view data about the host connections."
 ---
 = View iSER over InfiniBand statistics

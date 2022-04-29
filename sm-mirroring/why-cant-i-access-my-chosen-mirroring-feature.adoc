@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, mirroring, access
+keywords: SANtricity, System Manager, E-Series, mirroring, access
 summary: "Mirroring is configured in the Unified Manager interface."
 ---
 = Why can't I access my chosen mirroring feature?

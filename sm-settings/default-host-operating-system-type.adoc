@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/default-host-operating-system-type.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, default, host, operating, system,
+keywords: SANtricity, System Manager, E-Series, default, host, operating, system,
 summary: "The default host type is used by the storage array when hosts are initially connected. It defines how the controllers in the storage array work with the host’s operating system when volumes are accessed."
 ---
 = Default host operating system type

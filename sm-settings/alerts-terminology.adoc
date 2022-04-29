@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/alerts-terminology.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, alerts, terms,
+keywords: SANtricity, System Manager, E-Series, alerts, terms,
 summary: "Learn how the alerts terms apply to your storage array."
 ---
 = Alerts terminology

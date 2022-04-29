@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-shelf-component-status-and-settings.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, shelf, component, status, settings,
+keywords: SANtricity, System Manager, E-Series, view, shelf, component, status, settings,
 summary: "The Hardware page provides status and settings for shelf components, including the power supplies, fans, and batteries."
 ---
 = View shelf component status and settings

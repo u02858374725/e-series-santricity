@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, syslog, server, audit, logs,
+keywords: SANtricity, System Manager, E-Series, syslog, server, audit, logs,
 summary: "If you configured a syslog server with a TLS protocol, the server cannot receive messages if the certificate becomes invalid for any reason. An error message about the invalid certificate is posted to the audit log."
 ---
 = The syslog server is no longer receiving audit logs. What do I do?

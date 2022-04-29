@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-alert-email-addresses.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, add, email, addresses, alerts,
+keywords: SANtricity, System Manager, E-Series, add, email, addresses, alerts,
 summary: "You can add up to 20 recipients for email alerts."
 ---
 = Add email addresses for alerts

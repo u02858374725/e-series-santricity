@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/initialize-format-drive.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, initialize, format, drive,
+keywords: SANtricity, System Manager, E-Series, initialize, format, drive,
 summary: "If you move assigned drives from one storage array to another, you must initialize (format) the drives before they can be used in the new storage array."
 ---
 = Initialize (format) drive

@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-events-using-the-event-log.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, events,
+keywords: SANtricity, System Manager, E-Series, view, events,
 summary: "You can view the event log, which provides a historical record of events that have occurred on the storage array."
 ---
 = View events using the event log

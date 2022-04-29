@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/asynchronous-terminology.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, asynchronous, mirroring, terms,
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, terms,
 summary: "Learn how the asynchronous mirroring terms apply to your storage array."
 ---
 = Asynchronous mirroring terminology

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/overview-settings.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, system settings
+keywords: SANtricity, System Manager, E-Series, system settings
 summary: "You can configure System Manager for some general array settings and add-on features.."
 ---
 = Settings overview

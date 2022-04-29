@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/requirements-for-using-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, requirements, asynchronous, mirroring,
+keywords: SANtricity, System Manager, E-Series, requirements, asynchronous, mirroring,
 summary: "If you plan to use asynchronous mirroring, keep the following requirements in mind."
 ---
 = Requirements for using asynchronous mirroring

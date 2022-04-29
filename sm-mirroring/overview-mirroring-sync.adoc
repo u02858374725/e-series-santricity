@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/overview-mirroring-sync.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, RVM, synchronous, mirroring, controllers,
+keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers,
 summary: "The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance."
 ---
 = Synchronous mirroring overview

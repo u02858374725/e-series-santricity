@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/unlock-drives-using-an-internal-security-key.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, unlock, drives, internal, key, management,
+keywords: SANtricity, System Manager, E-Series, unlock, drives, internal, key, management,
 summary: "If you configured internal key management and then later move secure-enabled drives from one storage array to another, you must re-assign the security key to the new storage array to gain access to the encrypted data on the drives."
 ---
 = Unlock drives when using internal key management

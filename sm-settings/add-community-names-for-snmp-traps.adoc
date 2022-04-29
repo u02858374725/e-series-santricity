@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-community-names-for-snmp-traps.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, add, communities, snmpv2c, traps,
+keywords: SANtricity, System Manager, E-Series, add, communities, snmpv2c, traps,
 summary: "You can add up to 256 community names for SNMPv2c traps."
 ---
 = Add communities for SNMPv2c traps

@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/re-enable-drive-ports.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, re-enable, drive, ports
+keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports
 summary: "You can indicate to the controller that corrective action has been taken to recover from a mis-wire condition."
 ---
 = Re-enable drive ports

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/export-key-management-certificates.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, export, key, management, server, certificates,
+keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates,
 summary: "You can save a certificate for a key management server to your local machine."
 ---
 = Export key management server certificates

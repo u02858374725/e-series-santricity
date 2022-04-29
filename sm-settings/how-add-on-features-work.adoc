@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/how-add-on-features-work.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, add-on, features,
+keywords: SANtricity, System Manager, E-Series, add-on, features,
 summary: "Add-ons are features that are not included in the standard configuration of System Manager and might require a key to enable. An add-on feature can be either a single premium feature or a bundled feature pack."
 ---
 = How add-on features work

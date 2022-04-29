@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/why-would-i-change-this-percentage.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, reserved, capacity,
+keywords: SANtricity, System Manager, E-Series, reserved, capacity,
 summary: "Reserved capacity is typically 40 percent of the base volume for snapshot operations and 20 percent of the base volume for asynchronous mirroring operations. Usually this capacity is sufficient. "
 ---
 = Why would I change this percentage?

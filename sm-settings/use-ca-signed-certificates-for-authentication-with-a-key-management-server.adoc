@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server,
+keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server,
 summary: "For secure communications between a key management server and the storage array controllers, you must configure the appropriate sets of certificates."
 ---
 = Use CA-signed certificates for authentication with a key management server

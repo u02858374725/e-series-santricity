@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-nvme-over-roce-ports-hardware.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configure, nvme, over, roce, ports
+keywords: SANtricity, System Manager, E-Series, configure, nvme, over, roce, ports
 summary: "If your controller includes a connection for NVMe over RoCE (RDMA over Converged Ethernet), you can configure the NVMe port settings from the Hardware page."
 ---
 = Configure NVMe over RoCE ports

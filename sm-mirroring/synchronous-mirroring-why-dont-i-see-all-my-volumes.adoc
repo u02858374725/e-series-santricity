@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, synchronous, mirroring,
+keywords: SANtricity, System Manager, E-Series, synchronous, mirroring,
 summary: "When you are selecting a primary volume for a mirrored pair, a list shows all the eligible volumes."
 ---
 = Synchronous mirroring - Why don't I see all my volumes?

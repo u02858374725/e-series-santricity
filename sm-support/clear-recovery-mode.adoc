@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/clear-recovery-mode.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, clear, recovery, mode
+keywords: SANtricity, System Manager, E-Series, clear, recovery, mode
 summary: "After restoring a storage array configuration, use the Clear Recovery Mode operation to resume I/O on the storage array and return it to normal operations."
 ---
 = Clear recovery mode

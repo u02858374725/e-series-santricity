@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/overview-certificates.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, certificates,
+keywords: SANtricity, System Manager, E-Series, certificates,
 summary: "You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates."
 ---
 = Certificates overview

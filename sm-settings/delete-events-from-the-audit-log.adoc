@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/delete-events-from-the-audit-log.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, delete, events, audit, log,
+keywords: SANtricity, System Manager, E-Series, delete, events, audit, log,
 summary: "You can clear the audit log of old events, which makes searching through events more manageable. You have the option of saving old events to a CSV (comma-separated values) file upon deletion."
 ---
 = Delete events from the audit log

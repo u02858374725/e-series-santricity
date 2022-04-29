@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/obtain-a-feature-key-file.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, obtain, feature, key, file,
+keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file,
 summary: "To enable a premium feature or feature pack on your storage array, you must first obtain a feature key file. A key is associated with only one storage array."
 ---
 = Obtain a feature key file

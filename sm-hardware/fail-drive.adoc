@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/fail-drive.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, fail, drive,
+keywords: SANtricity, System Manager, E-Series, fail, drive,
 summary: "If instructed to do so, you can manually fail a drive."
 ---
 = Fail drive

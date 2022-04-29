@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/deactivate-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, deactivate, asynchronous, mirroring, remote,
+keywords: SANtricity, System Manager, E-Series, deactivate, asynchronous, mirroring, remote,
 summary: "You can deactivate asynchronous mirroring on the local and remote storage arrays to re-establish normal use of dedicated ports on the storage arrays."
 ---
 = Deactivate asynchronous mirroring

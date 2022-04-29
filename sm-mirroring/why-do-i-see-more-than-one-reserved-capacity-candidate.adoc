@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, volume, pool,
+keywords: SANtricity, System Manager, E-Series, volume, pool,
 summary: "If there is more than one volume in a pool or volume group that meets the capacity percentage amount you selected for the storage object, you will see multiple candidates."
 ---
 = Why do I see more than one reserved capacity candidate?

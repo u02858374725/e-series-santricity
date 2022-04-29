@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-storage-array-profile.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, storage, array, profile
+keywords: SANtricity, System Manager, E-Series, view, storage, array, profile
 summary: "The storage array profile provides a description of all of the components and properties of the storage array."
 ---
 = View storage array profile

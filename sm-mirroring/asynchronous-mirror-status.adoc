@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/asynchronous-mirror-status.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, asynchronous, mirror, status, consistency, group,
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirror, status, consistency, group,
 summary: "The mirror status defines the state of mirror consistency groups and mirrored volume pairs."
 ---
 = Asynchronous mirror status

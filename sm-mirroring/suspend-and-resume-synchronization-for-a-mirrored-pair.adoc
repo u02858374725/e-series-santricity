@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair,
+keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair,
 summary: "You can use the Suspend option and Resume option to control when to synchronize the data on the primary volume and the secondary volume in a mirrored pair."
 ---
 = Suspend and resume synchronization for a mirrored pair

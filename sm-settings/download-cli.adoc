@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/download-cli.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, download, command line interface, CLI,
+keywords: SANtricity, System Manager, E-Series, download, command line interface, CLI,
 summary: "From System Manager you can download the command line interface (CLI) package."
 ---
 = Download the command line interface (CLI)

@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/place-controller-in-service-mode.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, place, controller, service, mode,
+keywords: SANtricity, System Manager, E-Series, place, controller, service, mode,
 summary: "If you are instructed to do so, you can place a controller in service mode."
 ---
 = Place controller in service mode

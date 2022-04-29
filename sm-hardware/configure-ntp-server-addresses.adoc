@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-ntp-server-addresses.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configure, ntp, server, addresses, network, time, protocol,
+keywords: SANtricity, System Manager, E-Series, configure, ntp, server, addresses, network, time, protocol,
 summary: "You can configure a connection to the Network Time Protocol (NTP) server so that the controller periodically queries the NTP server to update its internal time-of-day clock."
 ---
 = Configure NTP server addresses

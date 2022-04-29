@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-alert-email-addresses.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, edit, email, addresses, alerts,
+keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts,
 summary: "You can change the email addresses of the recipients who receive email alerts."
 ---
 = Edit email addresses for alerts

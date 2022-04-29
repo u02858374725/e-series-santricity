@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/what-should-i-do-after-configuring-the-management-ports.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, management, ports,
+keywords: SANtricity, System Manager, E-Series, management, ports,
 summary: "If you changed the IP address for the storage array, you might want to update the global array view in SANtricity Unified Manager."
 ---
 = What should I do after configuring the management ports?

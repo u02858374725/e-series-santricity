@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, dhcp, manual, configuration, protocol,
+keywords: SANtricity, System Manager, E-Series, dhcp, manual, configuration, protocol,
 summary: "The default method for network configuration is Dynamic Host Configuration Protocol (DHCP). Always use this option unless your network does not have a DHCP server."
 ---
 = Which do I choose -- DHCP or manual configuration?

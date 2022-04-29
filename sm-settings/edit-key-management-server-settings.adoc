@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-key-management-server-settings.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, edit, key, management, server, settings,
+keywords: SANtricity, System Manager, E-Series, edit, key, management, server, settings,
 summary: "If you configured external key management, you can view and edit the key management server settings at any time."
 ---
 = Edit key management server settings

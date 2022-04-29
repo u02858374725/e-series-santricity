@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-is-a-health-image.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, health, images, controller, memory, processor
+keywords: SANtricity, System Manager, E-Series, health, images, controller, memory, processor
 summary: "A health image is a raw data dump of the controller’s processor memory that technical support can use to diagnose a problem with a controller."
 ---
 = What is a health image?

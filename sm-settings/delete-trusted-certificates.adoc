@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/delete-trusted-certificates.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, delete, trusted, certificates,
+keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates,
 summary: "You can delete the user-installed certificates previously imported from the Trusted tab."
 ---
 = Delete trusted certificates

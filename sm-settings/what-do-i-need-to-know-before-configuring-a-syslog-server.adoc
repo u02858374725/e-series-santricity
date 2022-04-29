@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configuring, syslog, server,
+keywords: SANtricity, System Manager, E-Series, configuring, syslog, server,
 summary: "You can archive audit logs onto an external syslog server."
 ---
 = What do I need to know before configuring a syslog server?

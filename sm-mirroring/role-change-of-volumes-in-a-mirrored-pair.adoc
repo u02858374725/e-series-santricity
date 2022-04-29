@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, role, change, between, volume, mirrored, pair,
+keywords: SANtricity, System Manager, E-Series, role, change, between, volume, mirrored, pair,
 summary: "You can change the role between volumes in a mirrored pair. You can do this by demoting the primary volume to the secondary role or promoting the secondary volume to the primary role."
 ---
 = Role change between volumes in a mirrored pair

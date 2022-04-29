@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/what-is-a-dhcp-server.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, dhcp, server, configuration, protocol,
+keywords: SANtricity, System Manager, E-Series, dhcp, server, configuration, protocol,
 summary: "Dynamic Host Configuration Protocol (DHCP) is a protocol that automates the task of assigning an Internet Protocol (IP) address."
 ---
 = What is a DHCP server?

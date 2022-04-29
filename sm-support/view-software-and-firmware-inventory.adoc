@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-software-and-firmware-inventory.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, software, firmware, inventory
+keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory
 summary: "The software and firmware inventory lists the firmware versions for each component in your storage array."
 ---
 = View software and firmware inventory

@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, reserved, capacity, mirrored, pair, volume,
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, mirrored, pair, volume,
 summary: "Typically, you should increase reserved capacity when you receive a warning that the reserved capacity for a mirrored pair is becoming full. You can increase reserved capacity only in increments of 8 GiB."
 ---
 = What do I need to know before increasing my reserved capacity on a mirrored pair volume?

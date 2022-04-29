@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, update, remote, ip, address,
+keywords: SANtricity, System Manager, E-Series, update, remote, ip, address,
 summary: "You update your remote storage array’s IP address when the IP address of an iSCSI port changes and the local storage array is unable to communicate with the remote storage array."
 ---
 = Why would I update my remote storage array's IP address?

@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-drive-status-and-settings.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, drive, status, settings, media,
+keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media,
 summary: "You can view status and settings for the drives, such as the media type, interface type, and capacity."
 ---
 = View drive status and settings

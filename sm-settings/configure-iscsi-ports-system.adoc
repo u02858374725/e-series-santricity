@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-iscsi-ports-system.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configure, iSCSI, ports, systems
+keywords: SANtricity, System Manager, E-Series, configure, iSCSI, ports, systems
 summary: "If your controller includes an iSCSI host connection, you can configure the iSCSI port settings from the System page."
 ---
 = Configure iSCSI ports

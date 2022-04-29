@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/create-external-security-key.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, create, external, security, key,
+keywords: SANtricity, System Manager, E-Series, create, external, security, key,
 summary: "To use the Drive Security feature with a key management server, you must create an external key that is shared by the key management server and the secure-capable drives in the storage array."
 ---
 = Create external security key

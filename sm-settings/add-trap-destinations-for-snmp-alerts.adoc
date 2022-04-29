@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-trap-destinations-for-snmp-alerts.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, add, trap, destinations, SNMP, alerts,
+keywords: SANtricity, System Manager, E-Series, add, trap, destinations, SNMP, alerts,
 summary: "You can add up to 10 servers for sending SNMP traps."
 ---
 = Add trap destinations for SNMP alerts

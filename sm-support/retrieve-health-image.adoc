@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/retrieve-health-image.html
 sidebar: sidebar
-keywords:  SANtricity, 11.7, System Manager, E-Series, retrieve, health, image
+keywords:  SANtricity, System Manager, E-Series, retrieve, health, image
 summary: "You can review a health image for the controller. A health image is a raw data dump of the controller’s processor memory that technical support can use to diagnose a problem with a controller."
 ---
 = Retrieve health image

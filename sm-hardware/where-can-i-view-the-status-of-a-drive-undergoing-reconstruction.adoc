@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, drive, reconstruction,
+keywords: SANtricity, System Manager, E-Series, drive, reconstruction,
 summary: "You can view drive reconstruction status from the Operations in Progress dashboard."
 ---
 = Where can I view the status of a drive undergoing reconstruction?

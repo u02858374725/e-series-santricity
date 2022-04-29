@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/export-saml-service-provider-files.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, export, saml, Service Provider, files,
+keywords: SANtricity, System Manager, E-Series, export, saml, Service Provider, files,
 summary: "If necessary, you can export Service Provider metadata for the storage array and re-import the file(s) into the Identity Provider (IdP) system."
 ---
 = Export SAML Service Provider files

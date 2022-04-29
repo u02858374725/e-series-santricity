@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/autosupport-feature-overview.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, autosupport, ASUP
+keywords: SANtricity, System Manager, E-Series, autosupport, ASUP
 summary: "The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support."
 ---
 = AutoSupport feature overview

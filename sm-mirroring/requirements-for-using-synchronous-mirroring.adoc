@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/requirements-for-using-synchronous-mirroring.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, requirements, synchronous, mirroring,
+keywords: SANtricity, System Manager, E-Series, requirements, synchronous, mirroring,
 summary: "If you plan to use synchronous mirroring, keep the following requirements in mind."
 ---
 = Requirements for using synchronous mirroring

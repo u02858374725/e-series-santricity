@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-management-ports.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configure, management, port,
+keywords: SANtricity, System Manager, E-Series, configure, management, port,
 summary: "The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses."
 ---
 = Configure management port

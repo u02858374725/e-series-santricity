@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, synchronous mirroring,
+keywords: SANtricity, System Manager, E-Series, synchronous mirroring,
 summary: "You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in System Manager."
 ---
 = Synchronous mirroring - What do I need to know before creating a mirrored pair?

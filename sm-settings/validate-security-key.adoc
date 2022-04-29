@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/validate-security-key.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, validate, security, key,
+keywords: SANtricity,System Manager, E-Series, validate, security, key,
 summary: "You can validate the security key to make sure it has not been corrupted and to verify that you have a correct pass phrase."
 ---
 = Validate security key

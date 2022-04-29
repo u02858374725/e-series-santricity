@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/enable-premium-feature.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, enable, premium, feature,
+keywords: SANtricity, System Manager, E-Series, enable, premium, feature,
 summary: "A premium feature is an extra option that requires a key to enable."
 ---
 = Enable a premium feature

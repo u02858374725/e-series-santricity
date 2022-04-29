@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/enable-certificate-revocation-checking.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, enable, certificate, revocation checking,
+keywords: SANtricity, System Manager, E-Series, enable, certificate, revocation checking,
 summary: "You can enable automatic checks for revoked certificates, so that an Online Certificate Status Protocol (OCSP) server blocks users from making non-secure connections."
 ---
 = Enable certificate revocation checking

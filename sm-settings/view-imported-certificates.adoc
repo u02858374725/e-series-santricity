@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/view-imported-certificates.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, imported, certificate, information,
+keywords: SANtricity, System Manager, E-Series, view, imported, certificate, information,
 summary: "From the Certificates page, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array."
 ---
 = View imported certificate information

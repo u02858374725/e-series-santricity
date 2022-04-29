@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-nvme-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, configure, infiniband, ports, nvme,
+keywords: SANtricity, System Manager, E-Series, configure, infiniband, ports, nvme,
 summary: "If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page."
 ---
 = Configure NVMe over InfiniBand ports

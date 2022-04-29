@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, ipv6, stateless, address, auto, configuration,
+keywords: SANtricity, System Manager, E-Series, ipv6, stateless, address, auto, configuration,
 summary: "With stateless auto-configuration, hosts do not obtain addresses and other configuration information from a server."
 ---
 = What is IPv6 stateless address auto-configuration?

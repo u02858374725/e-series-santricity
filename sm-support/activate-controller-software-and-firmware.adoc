@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/activate-controller-software-and-firmware.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, activate, controller, software, firmware
+keywords: SANtricity, System Manager, E-Series, activate, controller, software, firmware
 summary: "You can choose to activate the upgrade files immediately or wait until a more convenient time."
 ---
 = Activate controller software and firmware

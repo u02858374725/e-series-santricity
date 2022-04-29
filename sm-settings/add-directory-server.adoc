@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-directory-server.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, add, directory, server,
+keywords: SANtricity, System Manager, E-Series, add, directory, server,
 summary: "To configure authentication for Access Management, you can establish communications between the storage array and an LDAP server, and then map the LDAP user groups to the array’s predefined roles."
 ---
 = Add an LDAP directory server

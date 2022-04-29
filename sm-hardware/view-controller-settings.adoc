@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-controller-settings.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, view, controller, settings
+keywords: SANtricity, System Manager, E-Series, view, controller, settings
 summary: "You can view information about a controller, such as the status of the host interfaces, drive interfaces, and management ports."
 ---
 = View controller settings

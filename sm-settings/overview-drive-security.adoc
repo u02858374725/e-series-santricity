@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/overview-drive-security.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, system, security, key, management,
+keywords: SANtricity, System Manager, E-Series, system, security, key, management,
 summary: "Security key management is available from the System page."
 ---
 = Drive Security overview

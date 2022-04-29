@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/change-cache-settings-for-storage-array.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, change, cache, settings,
+keywords: SANtricity, System Manager, E-Series, change, cache, settings,
 summary: "For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size."
 ---
 = Change cache settings for the storage array

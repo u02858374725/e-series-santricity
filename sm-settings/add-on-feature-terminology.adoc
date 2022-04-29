@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-on-feature-terminology.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, add-on, feature, terms
+keywords: SANtricity, System Manager, E-Series, add-on, feature, terms
 summary: "Learn how the add-on feature terms apply to your storage array."
 ---
 = Add-on feature terminology

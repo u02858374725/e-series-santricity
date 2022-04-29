@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/define-log-policies.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, define, audit, log, policies,
+keywords: SANtricity, System Manager, E-Series, define, audit, log, policies,
 summary: 'You can change the overwrite policy and the types of events recorded in the audit log.'
 ---
 = Define audit log policies

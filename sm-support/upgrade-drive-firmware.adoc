@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/upgrade-drive-firmware.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, upgrade, drive, firmware
+keywords: SANtricity, System Manager, E-Series, upgrade, drive, firmware
 summary: "You can upgrade your drives’ firmware to make sure you have all the latest features and bug fixes."
 ---
 = Upgrade drive firmware

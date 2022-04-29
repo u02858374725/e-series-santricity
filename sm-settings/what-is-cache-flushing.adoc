@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-is-cache-flushing.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, cache, flushing,
+keywords: SANtricity, System Manager, E-Series, cache, flushing,
 summary: "When the amount of unwritten data in the cache reaches a certain level, the controller periodically writes cached data to a drive. This write process is called flushing."
 ---
 = What is cache flushing?

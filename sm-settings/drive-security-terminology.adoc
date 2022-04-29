@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/drive-security-terminology.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, drive, security, terms,
+keywords: SANtricity, System Manager, E-Series, drive, security, terms,
 summary: "Learn how the Drive Security terms apply to your storage array."
 ---
 = Drive Security terminology

@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/drive-states.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, drive, states,
+keywords: SANtricity, System Manager, E-Series, drive, states,
 summary: "System Manager reports various states for drives."
 ---
 = Drive states
