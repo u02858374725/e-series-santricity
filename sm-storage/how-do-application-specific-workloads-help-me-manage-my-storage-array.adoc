@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html
 sidebar: sidebar
-keywords: how, application, specific, workloads, help, manage, storage, array
+keywords: SANtricity, System Manager, E-Series, application, workloads,
 summary: "The volume characteristics of your application-specific workload dictate how the workload interacts with the components of your storage array and helps determine the performance of your environment under a given configuration."
 ---
 = How do application-specific workloads help me manage my storage array?

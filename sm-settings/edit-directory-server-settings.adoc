@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-directory-server-settings.html
 sidebar: sidebar
-keywords: edit, directory, server, settings, and, role, mappings,
+keywords: SANtricity, System Manager, E-Series, edit, directory, server, settings, role, mappings,
 summary: "If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings."
 ---
 = Edit directory server settings and role mappings
@@ -24,11 +24,16 @@ If you previously configured a directory server in Access Management, you can ch
 . If more than one server is defined, select the server you want to edit from the table.
 . Select *View/Edit Settings*.
 +
-The *Directory Server Settings* dialog box opens.
+The Directory Server Settings dialog box opens.
 
 . In the *Server Settings* tab, change the desired settings.
+
 +
-[cols="1a,1a" options="header"]
+.Field details
+[%collapsible]
+
+====
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|
@@ -68,10 +73,16 @@ Group attribute(s)
 a|
 A list of group attributes on the user, which is used for group-to-role mapping. For example: `memberOf, managedObjects`.
 |===
+====
 
 . In the *Role Mapping* tab, change the desired mapping.
 +
-[cols="1a,1a" options="header"]
+
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|
@@ -94,6 +105,7 @@ The storage array's roles to be mapped to the Group DN. You must individually se
 
 +
 |===
+====
 +
 [NOTE]
 ====

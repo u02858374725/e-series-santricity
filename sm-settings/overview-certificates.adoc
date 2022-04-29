@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/overview-certificates.html
 sidebar: sidebar
-keywords: certificates,
+keywords: SANtricity, System Manager, E-Series, certificates,
 summary: "You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates."
 ---
 = Certificates overview
@@ -20,7 +20,7 @@ Learn more:
 * link:certificate-terminology.html[Certificate terminology]
 
 == How do I configure signed certificates?
-You first generate a signing request from System Manager, then send the file to a CA. Once the CA returns the certificate files, you import them using System Manager.
+You first generate a signing request from System Manager, and then send the file to a CA. Once the CA returns the certificate files, you import them using System Manager.
 
 Learn more:
 

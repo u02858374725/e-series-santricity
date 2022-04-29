@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/set-host-connectivity-reporting.html
 sidebar: sidebar
-keywords: set, host, connectivity, reporting,
+keywords: SANtricity, System Manager, E-Series, set, host, connectivity, reporting,
 summary: "You can enable host connectivity reporting so the storage array continuously monitors the connection between the controllers and the configured hosts, and then alerts you if the connection is disrupted. This feature is enabled by default."
 ---
 = Set host connectivity reporting

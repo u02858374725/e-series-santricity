@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-controller-settings.html
 sidebar: sidebar
-keywords: view, controller, settings
+keywords: SANtricity, System Manager, E-Series, view, controller, settings
 summary: "You can view information about a controller, such as the status of the host interfaces, drive interfaces, and management ports."
 ---
 = View controller settings
@@ -22,16 +22,16 @@ The graphic changes to show the controllers instead of the drives.
  ** Click the controller to display the context menu, and then select *View settings*.
  ** Select the controller icon (next to the *Shelf* drop-down list). For duplex configurations, select either *Controller A* or *Controller B* from the dialog box, and then click *Next*.
 +
-The *Controller Settings* dialog box opens.
+The Controller Settings dialog box opens.
 . Select the tabs to move between property settings.
 +
 Some tabs have a link for *Show more settings* at the top right.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Tab| Description
 a|

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html
 sidebar: sidebar
-keywords: base, volumes, reserved, capacity, snapshot, groups
+keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups
 summary: "A base volume is the volume used as the source for a snapshot image. A base volume can be either a thick volume or a thin volume and can reside in either a pool or volume group."
 ---
 = Base volumes, reserved capacity, and snapshot groups
@@ -17,10 +17,7 @@ The following figure shows the relationship between snapshot objects and the bas
 
 image::../media/sam1130-dwg-snapshots-images-overview.gif[]
 
-^1^ Base volume
-^2^ Snapshot objects in the group (images and reserved capacity)
-^3^ Reserved capacity for the snapshot group.
-|===
+^1^ Base volume;  ^2^ Snapshot objects in the group (images and reserved capacity);  ^3^ Reserved capacity for the snapshot group.
 
 == Reserved capacity and snapshot groups
 

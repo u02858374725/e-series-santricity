@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-remote-storage-requirements.html
 sidebar: sidebar
-keywords: remote, storage, requirements
+keywords: SANtricity, System Manager, E-Series, remote, storage, requirements
 summary: "Before using the Remote Storage feature, review the following requirements and restrictions."
 ---
 = Remote Storage feature requirements

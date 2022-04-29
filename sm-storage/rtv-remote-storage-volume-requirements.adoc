@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-remote-storage-volume-requirements.html
 sidebar: sidebar
-keywords: remote, storage, volume, requirements
+keywords: SANtricity, System Manager, E-Series, remote, storage, volume, requirements
 summary: "Volumes used for imports must meet the requirements for size, status, and other criteria."
 ---
 = Remote Storage volume requirements
@@ -45,4 +45,4 @@ The target volume is the destination volume on the local E-Series system. The de
 * Cannot be mapped to a host before the import starts (however, it can be mapped after import completes).
 * Cannot have Flash Read Cached (FRC) enabled.
 
-System Manager automatically checks these requirements as part of the *Import Remote Storage* wizard. Only volumes that meet all the requirements are displayed for destination volume selection.
+System Manager automatically checks these requirements as part of the Import Remote Storage wizard. Only volumes that meet all the requirements are displayed for destination volume selection.

@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/activate-pending-firmware.html
 sidebar: sidebar
-keywords: activate, staged, os, software
+keywords: SANtricity, Unified Manager, E-Series, activate, staged, os, software
 summary: "You can choose to activate the software file immediately or wait until a more convenient time. This procedure assumes you chose to activate the software file at a later time."
 ---
 = Activate staged OS software

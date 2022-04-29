@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/take-action-on-a-copy-volume-operation.html
 sidebar: sidebar
-keywords: take, action, copy, volume, operation
+keywords: SANtricity, System Manager, E-Series, copy, volume,
 summary: "You can view a Copy Volume operation in progress and stop, change priority, re-copy, or clear a Copy Volume operation."
 ---
 = Take action on a Copy Volume operation
@@ -16,7 +16,7 @@ You can view a Copy Volume operation in progress and stop, change priority, re-c
 
 . Select menu:Home[View Operations in Progress].
 +
-The *Operations in Progress* dialog box appears.
+The Operations in Progress dialog box appears.
 
 . Find the Copy Volume operation that you want to take action on, and then click the link in the *Actions* column to take one of the following actions.
 +

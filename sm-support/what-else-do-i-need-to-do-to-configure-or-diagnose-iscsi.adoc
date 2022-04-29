@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html
 sidebar: sidebar
-keywords: what, configure, diagnose, iscsi
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iscsi
 summary: "iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship. The following tables list the System Manager functions that you can use to configure and manage these iSCSI sessions."
 ---
 = What else do I need to do to configure or diagnose iSCSI?

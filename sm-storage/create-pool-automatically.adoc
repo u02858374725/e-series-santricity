@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-pool-automatically.html
 sidebar: sidebar
-keywords: create, pool, automatically
+keywords: SANtricity, System Manager, E-Series, create, pool, automatically
 summary: "Pool creation is initiated automatically when System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools."
 ---
 = Create pool automatically
@@ -14,7 +14,7 @@ Pool creation is initiated automatically when System Manager detects unassigned 
 
 .Before you begin
 
-You can launch the *Pool Auto-Configuration* dialog box when one of these conditions are true:
+You can launch the Pool Auto-Configuration dialog box when one of these conditions are true:
 
 * At least one unassigned drive has been detected that can be added to an existing pool with similar drive types.
 * Eleven (11) or more unassigned drives have been detected that can be used to create a new pool (if they cannot be added to an existing pool due to dissimilar drive types).
@@ -27,10 +27,10 @@ Keep in mind the following:
 * If pools were previously defined, System Manager automatically prompts you with the option of adding the compatible drives to an existing pool. When new drives are added to an existing pool, System Manager automatically redistributes the data across the new capacity, which now includes the new drives that you added.
 * When configuring an EF600 or EF300 storage array, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group. For pool creation, it is recommended to use all drives in the storage array.
 
-You can launch the *Pool Auto-Configuration* dialog box using any of the following methods:
+You can launch the Pool Auto-Configuration dialog box using any of the following methods:
 
 * When unassigned capacity is detected, the Pool Auto-Configuration recommendation appears on the Home page in the Notification area. Click *View Pool Auto-Configuration* to launch the dialog box.
-* You can also launch the *Pool Auto-Configuration* dialog box from the Pools and Volume Groups page as described in the following task.
+* You can also launch the Pool Auto-Configuration dialog box from the Pools and Volume Groups page as described in the following task.
 
 .Steps
 
@@ -39,7 +39,7 @@ You can launch the *Pool Auto-Configuration* dialog box using any of the followi
 +
 The results table lists new pools, existing pools with drives added, or both. A new pool is named with a sequential number by default.
 +
-Notice that System Manager will do the following:
+System Manager performs the following tasks:
 
  ** Create a single pool if there are a sufficient number of drives with the same drive type (HDD or SSD) and have similar capacity.
  ** Create multiple pools if the unassigned capacity consists of different drive types.

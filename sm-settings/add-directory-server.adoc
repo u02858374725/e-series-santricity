@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-directory-server.html
 sidebar: sidebar
-keywords: add, directory, server,
+keywords: SANtricity, System Manager, E-Series, add, directory, server,
 summary: "To configure authentication for Access Management, you can establish communications between the storage array and an LDAP server, and then map the LDAP user groups to the array’s predefined roles."
 ---
 = Add an LDAP directory server
@@ -33,15 +33,15 @@ During the procedure to add an LDAP server, the legacy management interface will
 . Select menu:Settings[Access Management].
 . From the *Directory Services* tab, select *Add Directory Server*.
 +
-The *Add Directory Server* dialog box opens.
+The Add Directory Server dialog box opens.
 
 . In the *Server Settings* tab, enter the credentials for the LDAP server.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|
@@ -98,11 +98,11 @@ Enter a list of group attributes on the user, which is used for group-to-role ma
 
 . Assign LDAP groups to the predefined roles. A group can have multiple assigned roles.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|

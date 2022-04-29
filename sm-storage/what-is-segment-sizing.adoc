@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-segment-sizing.html
 sidebar: sidebar
-keywords: what, segment, size, storage, raid
+keywords: SANtricity, System Manager, E-Series, segment, size, storage, raid
 summary: "A segment is the amount of data in kilobytes (KiB) that is stored on a drive before the storage array moves to the next drive in the stripe (RAID group). Segment size applies only to volume groups, not pools."
 ---
 = What is segment size?
@@ -15,10 +15,10 @@ Segment size is defined by the number of data blocks it contains. When determini
 
 Whether an application uses small random reads and writes, or large sequential reads and writes, the storage array performs better if the segment size is larger than the typical data block chunk size. This normally makes it easier and faster for the drives to access the data, which is important for better storage array performance.
 
-== In an environment where IOPS performance is important
+== Environments where IOPS performance is important
 
 In an I/O operations per second (IOPS) environment, the storage array performs better if you use a segment size that is larger than the typical data block size ("`chunk`") that is read/written to a drive. This ensures that each chunk is written to a single drive.
 
-== In an environment where throughput is important
+== Environments where throughput is important
 
 In a throughput environment, the segment size should be an even fraction of the total drives for data and the typical data chunk size (I/O size). This spreads the data as a single stripe across the drives in the volume group leading to faster reads and writes.

@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/overview-import-settings.html
 sidebar: sidebar
-keywords: import, settings
+keywords: SANtricity, Unified Manager, E-Series, import, settings
 summary: "You can import settings from one storage array to another, including alerts, AutoSupport, and directory services."
 ---
 = Settings import overview

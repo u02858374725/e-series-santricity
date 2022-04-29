@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/import-storage-configuration-settings.html
 sidebar: sidebar
-keywords: import, storage, configuration, settings
+keywords: SANtricity, Unified Manager, E-Series, import, storage, configuration, settings
 summary: "You can import the storage configuration from one storage array to other storage arrays. This batch operation saves time when you need to configure multiple arrays in the network."
 ---
 = Import storage configuration settings
@@ -35,16 +35,16 @@ Imported settings include configured volumes (thick and non-repository volumes o
 
 .Steps
 
-. From the *Manage* page, click *Import Settings*.
+. From the Manage page, click *Import Settings*.
 +
-The *Import Settings* wizard opens.
+The Import Settings wizard opens.
 
-. In the *Select Settings* dialog box, select *Storage configuration* and then click *Next*.
+. In the Select Settings dialog box, select *Storage configuration* and then click *Next*.
 +
 A dialog box opens for selecting the source array.
 
-. In the *Select Source* dialog box, select the array with the settings you want to import, and then click *Next*.
-. In the *Select Targets* dialog box, select one or more arrays to receive the new settings.
+. In the Select Source dialog box, select the array with the settings you want to import, and then click *Next*.
+. In the Select Targets dialog box, select one or more arrays to receive the new settings.
 +
 [NOTE]
 ====
@@ -53,7 +53,7 @@ Storage arrays with firmware below 8.50 are not available for selection. In addi
 
 . Click *Finish*.
 +
-The *Operations* page displays the results of the import operation. If the operation fails, you can click on its row to see more information.
+The Operations page displays the results of the import operation. If the operation fails, you can click on its row to see more information.
 
 .Results
 

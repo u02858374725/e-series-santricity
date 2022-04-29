@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/storage-array-status.html
 sidebar: sidebar
-keywords: storage, array, status, communication, santricity
+keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication,
 summary: "Unified Manager displays the status of each storage array that has been discovered."
 ---
 = View storage array status

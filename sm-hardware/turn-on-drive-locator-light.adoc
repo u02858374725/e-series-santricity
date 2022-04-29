@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/turn-on-drive-locator-light.html
 sidebar: sidebar
-keywords: turn, drive, locator, light,
+keywords: SANtricity, System Manager, E-Series, turn, drive, locator, light, LEDs
 summary: "From the Hardware page, you can turn on the locator light to find the physical location of a drive in the storage array."
 ---
 = Turn on drive locator light

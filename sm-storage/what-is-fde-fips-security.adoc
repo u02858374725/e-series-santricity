@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-fde-fips-security.html
 sidebar: sidebar
-keywords: fde, fips, security, drives, data, capable, encrypt
+keywords: SANtricity, System Manager, E-Series, fde, fips, security, drives, encrypt
 summary: "FDE/FIPS security refers to secure-capable drives that encrypt data during writes and decrypt data during reads using a unique encryption key. These secure-capable drives prevent unauthorized access to the data on a drive that is physically removed from the storage array."
 ---
 = What is FDE/FIPS security?

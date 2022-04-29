@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/assign-volumes.html
 sidebar: sidebar
-keywords: assign, volumes, hosts, cluster
+keywords: SANtricity, System Manager, E-Series, assign volumes
 summary: "You must assign a volume to a host or a host cluster so it can be used for I/O operations. This assignment grants a host or host cluster access to one or more volumes in a storage array."
 ---
 = Assign volumes to hosts

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/initialize-volumes.html
 sidebar: sidebar
-keywords: initialize, volumes
+keywords: SANtricity, System Manager, E-Series, initialize, volumes
 summary: "A volume is automatically initialized when it is first created. However, the Recovery Guru might advise that you manually initialize a volume to recover from certain failure conditions. Use this option only under the guidance of technical support. You can select one or more volumes to initialize."
 ---
 = Initialize volumes
@@ -18,7 +18,7 @@ A volume is automatically initialized when it is first created. However, the Rec
 * Any devices or file systems on the volumes you want to initialize must be unmounted.
 * The volume is in Optimal status and no modification operations are in progress on the volume.
 
-[NOTE]
+[CAUTION]
 ====
 You cannot cancel the operation after it starts. All volume data is erased. Do not try this operation unless the Recovery Guru advises you to do so. Contact technical support before you begin this procedure.
 ====
@@ -43,7 +43,7 @@ This topic applies only to standard volumes created from pools or volume groups.
 . Select menu:Storage[Volumes].
 . Select any volume, and then select menu:More[Initialize volumes].
 +
-The *Initialize Volumes* dialog box appears. All volumes on the storage array appear in this dialog box.
+The Initialize Volumes dialog box appears. All volumes on the storage array appear in this dialog box.
 
 . Select one or more volumes that you want to initialize, and confirm that you want to perform the operation.
 

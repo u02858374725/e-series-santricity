@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-software-and-firmware-inventory.html
 sidebar: sidebar
-keywords: view, software, firmware, inventory
+keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory
 summary: "The software and firmware inventory lists the firmware versions for each component in your storage array."
 ---
 = View software and firmware inventory
@@ -21,7 +21,7 @@ A storage array is made up of many components, which might include controllers, 
 . Select menu:Support[Support Center > Support Resources] tab.
 . Scroll down to *Launch detailed storage array information*, and then select *Software and Firmware Inventory*.
 +
-The *software and firmware inventory report* appears on the screen.
+The Software and Firmware Inventory report appears on the screen.
 
 . To save the software and firmware inventory, click *Save*.
 +

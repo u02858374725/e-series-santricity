@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html
 sidebar: sidebar
-keywords: what, else, do, I, need, to, do, to, configure, or, diagnose, iser, over, infiniBand,
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iser, infiniBand,
 summary: "The following table lists the System Manager functions that you can use to configure and manage iSER over InfiniBand sessions."
 ---
 = What else do I need to do to configure or diagnose iSER over InfiniBand?

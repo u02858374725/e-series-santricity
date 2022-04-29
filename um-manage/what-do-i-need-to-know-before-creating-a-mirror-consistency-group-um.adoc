@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html
 sidebar: sidebar
-keywords: what, do, need, know, before, creating, mirror, consistency, group
+keywords: SANtricity, Unified Manager, E-Series, mirror, consistency, group
 summary: "Follow these guidelines before you create a mirror consistency group."
 ---
 = What do I need to know before creating a mirror consistency group?

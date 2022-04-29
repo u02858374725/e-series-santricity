@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/import-alert-settings.html
 sidebar: sidebar
-keywords: import, alert, settings
+keywords: SANtricity, Unified Manager, E-Series, import, alert, settings
 summary: "You can import alert configurations from one storage array to other storage arrays. This batch operation saves time when you need to configure multiple arrays in the network."
 ---
 = Import alert settings
@@ -22,21 +22,21 @@ You can import alert configurations from one storage array to other storage arra
 You can select email, SNMP, or syslog alerts for the import operation. The imported settings include:
 
 * *Email alerts* -- A mail server address and the email addresses of the alert recipients.
-* *Syslog alerts*-- A syslog server address and a UDP port.
+* *Syslog alerts* -- A syslog server address and a UDP port.
 * *SNMP alerts* -- A community name and IP address for the SNMP server.
 
 .Steps
 
-. From the *Manage* page, click *Import Settings*.
+. From the Manage page, click *Import Settings*.
 +
-The *Import Settings* wizard opens.
+The Import Settings wizard opens.
 
-. In the *Select Settings* dialog box, select either *Email alerts*, *SNMP alerts*, or *Syslog alerts*, and then click *Next*.
+. In the Select Settings dialog box, select either *Email alerts*, *SNMP alerts*, or *Syslog alerts*, and then click *Next*.
 +
 A dialog box opens for selecting the source array.
 
-. In the *Select Source* dialog box, select the array with the settings you want to import, and then click *Next*.
-. In the *Select Targets* dialog box, select one or more arrays to receive the new settings.
+. In the Select Source dialog box, select the array with the settings you want to import, and then click *Next*.
+. In the Select Targets dialog box, select one or more arrays to receive the new settings.
 +
 [NOTE]
 ====
@@ -45,7 +45,7 @@ Storage arrays with firmware below 8.50 are not available for selection. In addi
 
 . Click *Finish*.
 +
-The *Operations* page displays the results of the import operation. If the operation fails, you can click on its row to see more information.
+The Operations page displays the results of the import operation. If the operation fails, you can click on its row to see more information.
 
 .Results
 

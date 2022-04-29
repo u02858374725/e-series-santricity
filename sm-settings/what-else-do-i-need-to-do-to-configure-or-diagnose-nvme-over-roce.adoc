@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html
 sidebar: sidebar
-keywords: what, else, do, I, need, to, do, to, configure, or, diagnose, nvme, over, roce,
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, nvme, roce,
 summary: "You can configure and manage NVMe over RoCE from the Hardware and Settings pages."
 ---
 = What else do I need to do to configure or diagnose NVMe over RoCE?

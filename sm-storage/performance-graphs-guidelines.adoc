@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/performance-graphs-guidelines.html
 sidebar: sidebar
-keywords: performance, overview
+keywords: SANtricity, System Manager, E-Series, performance,
 summary: "The Performance page provides graphs and tables of data that enable you to assess the storage array’s performance in several key areas."
 ---
 = Performance graphs and guidelines

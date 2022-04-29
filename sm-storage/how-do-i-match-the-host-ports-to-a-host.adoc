@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-do-i-match-the-host-ports-to-a-host.html
 sidebar: sidebar
-keywords: how to, match, host, ports, host
+keywords: SANtricity, System Manager, E-Series, match, host, ports,
 summary: "If you are manually creating a host, you first must use the appropriate host bus adapter (HBA) utility available on the host to determine the host port identifiers associated with each HBA installed in the host."
 ---
 = How do I match the host ports to a host?

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/delete-snapshot-group.html
 sidebar: sidebar
-keywords: delete, snapshot, group
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, group
 summary: "You delete a snapshot group when you want to permanently delete its data and remove it from the system. Deleting a snapshot group reclaims reserved capacity for reuse in the pool or volume group."
 ---
 = Delete snapshot group
@@ -22,7 +22,7 @@ When a snapshot group is deleted, all snapshot images in the group also are dele
 . Click the *Reserved Capacity* tab.
 . Select the snapshot group that you want to delete, and then click menu:Uncommon Tasks[Delete snapshot group].
 +
-The *Confirm Delete Snapshot Group* dialog box appears.
+The Confirm Delete Snapshot Group dialog box appears.
 
 . Type `delete` to confirm.
 

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-syslog-server-for-alerts.html
 sidebar: sidebar
-keywords: configure, syslog, server, for, alerts,
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts,
 summary: "To configure syslog alerts, you must enter a syslog server address and a UDP port. Up to five syslog servers are allowed."
 ---
 = Configure syslog server for alerts
@@ -26,11 +26,11 @@ This task describes how to enter the address and port for the syslog server, and
 . Select menu:Settings[Alerts].
 . Select the *Syslog* tab.
 +
-If a syslog server is not yet defined, the *Alerts* page displays "Add Syslog Servers."
+If a syslog server is not yet defined, the Alerts page displays "Add Syslog Servers."
 
 . Click *Add Syslog Servers*.
 +
-The *Add Syslog Server* dialog box opens.
+The Add Syslog Server dialog box opens.
 
 . Enter information for one or more syslog servers (maximum of five), and then click *Add*.
  ** *Server Address* -- Enter a fully qualified domain name, an IPv4 address, or an IPv6 address.

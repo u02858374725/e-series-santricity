@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-saml.html
 sidebar: sidebar
-keywords: configure, saml,
+keywords: SANtricity, System Manager, E-Series, configure, saml,
 summary: "To configure authentication for Access Management, you can use the Security Assertion Markup Language (SAML) capabilities embedded in the storage array. This configuration establishes a connection between an Identity Provider and the Storage Provider."
 ---
 = Configure SAML
@@ -52,7 +52,7 @@ The page displays an overview of configuration steps.
 
 . Click the *Import Identity Provider (IdP) file* link.
 +
-The *Import Identity Provider File* dialog box opens.
+The Import Identity Provider File dialog box opens.
 
 . Click *Browse* to select and upload the IdP metadata file you copied to your local system.
 +
@@ -75,7 +75,7 @@ In this task, you export metadata from the controllers (one file for each contro
 
 . Click the *Export Service Provider files* link.
 +
-The *Export Service Provider Files* dialog box opens.
+The Export Service Provider Files dialog box opens.
 
 . Enter the controller IP address or DNS name in the *Controller A* field, and then click *Export* to save the metadata file to your local system. If the storage array includes two controllers, repeat this step for the second controller in the *Controller B* field.
 +
@@ -104,15 +104,15 @@ In this task, you use System Manager to map IdP groups to local user roles.
 
 . Click the link for *mapping System Manager* roles.
 +
-The *Role Mapping* dialog box opens.
+The Role Mapping dialog box opens.
 
 . Assign IdP user attributes and groups to the predefined roles. A group can have multiple assigned roles.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 2+a|
@@ -203,7 +203,7 @@ This task describes how to finish the SAML configuration for user authentication
 
 . From the *SAML* tab, select the *Enable SAML* link.
 +
-The *Confirm Enable SAML* dialog box opens.
+The Confirm Enable SAML dialog box opens.
 
 . Type `enable`, and then click *Enable*.
 . Enter user credentials for an SSO login test.

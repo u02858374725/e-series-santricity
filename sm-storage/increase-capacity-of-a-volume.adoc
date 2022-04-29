@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/increase-capacity-of-a-volume.html
 sidebar: sidebar
-keywords: increase, capacity, volume
+keywords: SANtricity, System Manager, E-Series, increase, capacity, volume
 summary: "You can increase the reported capacity (the capacity reported to hosts) of a volume by using the free capacity that is available in the pool or volume group."
 ---
 = Increase capacity of a volume
@@ -33,11 +33,11 @@ Increasing the capacity of a volume is supported only on certain operating syste
 . Select menu:Storage[Volumes].
 . Select the volume for which you want to increase capacity, and then select *Increase Capacity*.
 +
-The *Confirm Increase Capacity* dialog box appears.
+The Confirm Increase Capacity dialog box appears.
 
 . Select *Yes* to continue.
 +
-The *Increase Reported Capacity* dialog box appears.
+The Increase Reported Capacity dialog box appears.
 +
 This dialog box displays the volume's current reported capacity and the free capacity available in the volume's associated pool or volume group.
 

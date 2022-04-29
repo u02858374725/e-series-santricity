@@ -1,7 +1,7 @@
 ---
 permalink: um-admin/supported-browsers-unified.html
 sidebar: sidebar
-keywords: supported, browsers
+keywords: SANtricity, Unified Manager, E-Series, supported, browsers
 summary: "SANtricity Unified Manager can be accessed from several types of browsers."
 ---
 = Supported browsers
@@ -9,7 +9,7 @@ summary: "SANtricity Unified Manager can be accessed from several types of brows
 :imagesdir: ../media/
 
 [.lead]
-SANtricity Unified Manager can be accessed from several types of browsers.
+Unified Manager can be accessed from several types of browsers.
 
 The following browsers and versions are supported.
 

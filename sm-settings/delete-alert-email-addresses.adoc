@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/delete-alert-email-addresses.html
 sidebar: sidebar
-keywords: delete, mail, server, or, email, addresses, for, alerts,
+keywords: SANtricity, System Manager, E-Series, delete, mail, server, email, addresses, alerts,
 summary: "You can remove the previously defined mail server so that alerts are no longer sent to the email addresses, or you can remove individual email addresses."
 ---
 = Delete mail server or email addresses for alerts

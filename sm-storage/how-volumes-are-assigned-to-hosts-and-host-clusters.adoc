@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html
 sidebar: sidebar
-keywords: how, volumes, assigned, hosts, clusters
+keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters
 summary: "For a host or host cluster to send I/O to a volume, you must assign the volume to the host or host cluster."
 ---
 = How volumes are assigned to hosts and host clusters

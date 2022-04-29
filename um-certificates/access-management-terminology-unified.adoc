@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/access-management-terminology-unified.html
 sidebar: sidebar
-keywords: access, management, terminology
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology
 summary: "Learn how the Access Management terms apply to SANtricity Unified Manager."
 ---
 = Access Management terminology

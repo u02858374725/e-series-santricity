@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/mirroring-overview.html
 sidebar: sidebar
-keywords: mirroring, overview, unified, manager, santricity
+keywords: SANtricity, Unified Manager, E-Series, mirroring,
 summary: "Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection."
 ---
 = How mirroring works

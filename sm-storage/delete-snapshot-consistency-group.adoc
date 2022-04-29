@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/delete-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: delete, snapshot, consistency, group
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, consistency, group
 summary: "You can delete snapshot consistency groups that are no longer needed."
 ---
 = Delete snapshot consistency group
@@ -26,7 +26,7 @@ This operation deletes all the snapshot images or schedules associated with the 
 . Select the *Snapshot Consistency Groups* tab.
 . Select the snapshot consistency group that you want to delete, and then select menu:Uncommon Tasks[Delete].
 +
-The *Confirm Delete Snapshot Consistency Group* dialog box appears.
+The Confirm Delete Snapshot Consistency Group dialog box appears.
 
 . Confirm that you want to perform this operation, and then click *Delete*.
 

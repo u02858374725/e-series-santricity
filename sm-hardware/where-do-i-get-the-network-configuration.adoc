@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/where-do-i-get-the-network-configuration.html
 sidebar: sidebar
-keywords: network, configuration, internet, protocol, 
+keywords: SANtricity, System Manager, E-Series, network, configuration, internet, protocol,
 summary: "You can get the Internet Protocol (IP) address, subnetwork mask (subnet mask), and gateway information from your network administrator."
 ---
 = Where do I get the network configuration?

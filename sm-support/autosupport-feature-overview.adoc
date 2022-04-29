@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/autosupport-feature-overview.html
 sidebar: sidebar
-keywords: autosupport, feature, overview
+keywords: SANtricity, System Manager, E-Series, autosupport, ASUP
 summary: "The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support."
 ---
 = AutoSupport feature overview
@@ -38,7 +38,7 @@ The AutoSupport feature is made up of three individual features that you enable 
 
 Two methods of collecting support data exist in the storage array:
 
-* The AutoSupport feature -- Data is automatically collected.
-* The Collect Support Data option -- Data must be collected and sent manually.
+* *AutoSupport feature* -- Data is automatically collected.
+* *Collect Support Data option* -- Data must be collected and sent manually.
 
 The AutoSupport feature is easier to use because data is collected and sent automatically. AutoSupport data can be used proactively to prevent problems before they occur. The AutoSupport feature speeds troubleshooting because technical support already has access to the data. For these reasons, the AutoSupport feature is the preferred data collection method to use.

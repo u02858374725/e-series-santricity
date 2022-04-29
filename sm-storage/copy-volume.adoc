@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/copy-volume.html
 sidebar: sidebar
-keywords: copy volume
+keywords: SANtricity, System Manager, E-Series, copy volume
 summary: "You can copy data from one volume to another volume in the same storage array, and create a physical, point-in-time duplicate (clone) of a source volume."
 ---
 = Copy volume
@@ -46,7 +46,7 @@ A Copy Volume operation overwrites data on the target volume and fails all snaps
 . Select menu:Storage[Volumes].
 . Select the volume that you want to use as the source for the Copy Volume operation, and then select menu:Copy Services[Copy volume].
 +
-The *Copy Volume-Select Target* dialog box appears.
+The Copy Volume-Select Target dialog box appears.
 
 . Select the target volume to which you want to copy the data.
 +

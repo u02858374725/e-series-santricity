@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html
 sidebar: sidebar
-keywords: need, know, increasing, reserved, capacity
+keywords: SANtricity, System Manager, E-Series, reserved, capacity
 summary: "Typically, you should increase capacity when you receive a warning that the reserved capacity is in danger of becoming full. You can increase reserved capacity only in increments of 8 GiB."
 ---
 = What do I need to know about increasing reserved capacity?

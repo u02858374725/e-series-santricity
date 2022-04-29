@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/use-ca-signed-certificate-um.html
 sidebar: sidebar
-keywords: use, ca-signed, certificates
+keywords: SANtricity, Unified Manager, E-Series, ca-signed, certificates
 summary: "You can obtain and import CA-signed certificates for secure access to the management system hosting Unified Manager."
 ---
 = Use CA-signed certificates for the management system
@@ -14,7 +14,7 @@ You can obtain and import CA-signed certificates for secure access to the manage
 
 .Before you begin
 
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
 .About this task
 
@@ -23,23 +23,15 @@ Using CA-signed certificates is a three-step procedure.
 == Step 1: Complete a CSR file
 You must first generate a certificate signing request (CSR) file, which identifies your organization and the host system where the Web Services Proxy and Unified Manager are installed.
 
-.Before you begin
-
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
-
-.About this task
-
-This task describes how to generate the CSR file from Unified Manager.
-
 [NOTE]
 ====
-Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip to xref:step-2-submit-csr-files-unified.adoc[Step 2: Submit CSR file].
+Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip to <<Step 2: Submit CSR file>>.
 ====
 
 .Steps
 
 . Select *Certificate Management*.
-. From the *Management* tab, select *Complete CSR*.
+. From the Management tab, select *Complete CSR*.
 . Enter the following information, and then click *Next*:
  ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
  ** *Organizational unit (optional)* -- The division of your organization that is handling the certificate.
@@ -53,23 +45,13 @@ Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip
 . Make sure that the host information is correct. If it is not, the certificates returned from the CA will fail when you try to import them.
 . Click *Finish*.
 
-.After you finish
-
-Go to <<Step 2: Submit CSR file>>.
+. Go to <<Step 2: Submit CSR file>>.
 
 == Step 2: Submit CSR file
 
-After you create a certificate signing request (CSR) file, send it to a Certificate Authority (CA).
+After you create a certificate signing request (CSR) file, you send it to a Certificate Authority (CA) to receive signed, management certificates for the system hosting Unified Manager and the Web Services Proxy.
 
-.Before you begin
-
-* You have generated the CSR file.
-
-.About this task
-
-In this task, you send the generated CSR file to a CA to receive signed, management certificates for the system hosting Unified Manager and the Web Services Proxy.
-
-E-Series systems require PEM format (Base64 ASCII encoding) for signed certificates, which includes the following file types: .pem, .crt, .cer, or .key.
+NOTE: E-Series systems require PEM format (Base64 ASCII encoding) for signed certificates, which includes the following file types: .pem, .crt, .cer, or .key.
 
 .Steps
 
@@ -84,9 +66,7 @@ The folder location of the download depends on your browser.
 *After you submit a CSR file to the CA, do NOT regenerate another CSR file.* Whenever you generate a CSR, the system creates a private and public key pair. The public key is part of the CSR, while the private key is kept in the system's keystore. When you receive the signed certificates and import them, the system ensures that both the private and public keys are the original pair. If the keys do not match, the signed certificates will not work and you must request new certificates from the CA.
 ====
 
-.After you finish
-
-When the CA returns the signed certificates, go to <<Step 3: Import management certificates>>.
+. When the CA returns the signed certificates, go to <<Step 3: Import management certificates>>.
 
 == Step 3: Import management certificates
 After you receive signed certificates from the Certificate Authority (CA), import the certificates into the host system where the Web Services Proxy and Unified Manager interface are installed.
@@ -101,7 +81,7 @@ After you receive signed certificates from the Certificate Authority (CA), impor
 .Steps
 
 . Select *Certificate Management*.
-. From the *Management* tab, select *Import*.
+. From the Management tab, select *Import*.
 +
 A dialog box opens for importing the certificate files.
 

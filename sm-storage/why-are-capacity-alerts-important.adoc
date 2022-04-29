@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-are-capacity-alerts-important.html
 sidebar: sidebar
-keywords: why, capacity, alerts, important
+keywords: SANtricity, System Manager, E-Series, capacity, alerts, important
 summary: "Capacity alerts indicate when to add drives to a pool. A pool needs sufficient free capacity to successfully perform storage array operations. You can prevent interruptions to these operations by configuring System Manager to send alerts when the free capacity of a pool reaches or exceeds a specified percentage."
 ---
 = Why are capacity alerts important?

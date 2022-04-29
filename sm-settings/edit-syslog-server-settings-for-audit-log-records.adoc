@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-syslog-server-settings-for-audit-log-records.html
 sidebar: sidebar
-keywords: edit, syslog, server, settings, for, audit, log, records,
+keywords: SANtricity, System Manager, E-Series, edit, syslog, server, settings, audit, log, records,
 summary: "You can change the settings for the syslog server used for archiving audit logs, and also upload a new Certificate Authority (CA) certificate for the server."
 ---
 = Edit syslog server settings for audit log records

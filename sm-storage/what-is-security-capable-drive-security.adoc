@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-is-security-capable-drive-security.html
 sidebar: sidebar
-keywords: what, secure-capable, drive, security
+keywords: SANtricity, System Manager, E-Series, secure-capable, drive, security
 summary: "Drive Security is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives."
 ---
 = What is secure-capable (Drive Security)?

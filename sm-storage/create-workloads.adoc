@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-workloads.html
 sidebar: sidebar
-keywords: create, workloads
+keywords: SANtricity, System Manager, E-Series, create, workloads
 summary: "You can create workloads for any type of application."
 ---
 = Create workloads
@@ -25,15 +25,15 @@ System Manager recommends an optimized volume configuration only for the followi
 
 Keep these guidelines in mind:
 
-* _When using an application-specific workload_, the system recommends an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration, and then edit, add, or delete the system-recommended volumes and characteristics using the *Add/Edit Volumes* dialog box.
-* _When using other application types_, you manually specify the volume configuration using the *Add/Edit Volumes* dialog box.
+* _When using an application-specific workload_, the system recommends an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration, and then edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+* _When using other application types_, you manually specify the volume configuration using the Add/Edit Volumes dialog box.
 
 .Steps
 
 . Select menu:Storage[Volumes].
 . Select menu:Create[Workload].
 +
-The *Create Application Workload* dialog box appears.
+The Create Application Workload dialog box appears.
 
 . Use the drop-down list to select the type of application that you want to create the workload for and then type a workload name.
 . Click *Create*.

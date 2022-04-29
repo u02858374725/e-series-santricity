@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/what-are-icmp-ping-responses.html
 sidebar: sidebar
-keywords: icmp, ping, responses, message, protocol,
+keywords: SANtricity, System Manager, E-Series, icmp, ping, responses, message, protocol,
 summary: "Internet Control Message Protocol (ICMP) is one of the protocols of the TCP/IP suite."
 ---
 = What are ICMP PING responses?

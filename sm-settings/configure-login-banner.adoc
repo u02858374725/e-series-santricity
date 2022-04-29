@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-login-banner.html
 sidebar: sidebar
-keywords: configure, login, banner,
+keywords: SANtricity, System Manager, E-Series, configure, login, banner,
 summary: "You can create a login banner that is presented to users before they establish sessions in SANtricity System Manager. The banner can include an advisory notice and a consent message."
 ---
 = Configure login banner
@@ -10,7 +10,7 @@ summary: "You can create a login banner that is presented to users before they e
 :imagesdir: ../media/
 
 [.lead]
-You can create a login banner that is presented to users before they establish sessions in SANtricity System Manager. The banner can include an advisory notice and a consent message.
+You can create a login banner that is presented to users before they establish sessions in System Manager. The banner can include an advisory notice and a consent message.
 
 .About this task
 
@@ -21,7 +21,7 @@ When you create a banner, it appears before the login screen in a dialog box.
 . Select menu:Settings[System].
 . Under the *General* section, select *Configure Login Banner*.
 +
-The *Configure Login Banner* dialog box opens.
+The Configure Login Banner dialog box opens.
 
 . Enter the text you want to appear in the login banner.
 +

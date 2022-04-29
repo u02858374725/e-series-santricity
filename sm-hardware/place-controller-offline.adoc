@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/place-controller-offline.html
 sidebar: sidebar
-keywords: place, contoller, offline,
+keywords: SANtricity, System Manager, E-Series, place, contoller, offline,
 summary: "If you are instructed to do so, you can place a controller offline."
 ---
 = Place controller offline
@@ -16,7 +16,9 @@ If you are instructed to do so, you can place a controller offline.
 * Your storage array must have two controllers. The controller that you are not placing offline must be online (in the optimal state).
 * Make sure that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
 
-[NOTE]
+.About this task
+++ ++
+[CAUTION]
 ====
 Do not place a controller offline unless you are instructed to do so by the Recovery Guru or technical support.
 ====

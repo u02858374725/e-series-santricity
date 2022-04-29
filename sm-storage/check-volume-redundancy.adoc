@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/check-volume-redundancy.html
 sidebar: sidebar
-keywords: check, volume, redundancy
+keywords: SANtricity, System Manager, E-Series, check, volume, redundancy
 summary: "Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails."
 ---
 = Check volume redundancy
@@ -10,7 +10,9 @@ summary: "Under the guidance of technical support or as instructed by the Recove
 :imagesdir: ../media/
 
 [.lead]
-Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.
+Under the guidance of technical support or as instructed by the Recovery Guru, you can check the redundancy on a volume in a pool or volume group to determine whether the data on that volume is consistent.
+
+Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.
 
 .Before you begin
 
@@ -41,7 +43,7 @@ Immediately running a redundancy check on the same pool or volume group might ca
 . Select menu:Storage[Pools & Volume Groups].
 . Select menu:Uncommon Tasks[Check volume redundancy].
 +
-The *Check Redundancy* dialog box appears.
+The Check Redundancy dialog box appears.
 
 . Select the volumes you want to check, and then type `check` to confirm you want to perform this operation.
 . Click *Check*.
@@ -52,9 +54,11 @@ The check volume redundancy operation starts. The volumes in the pool or volume 
  ** The status of the redundancy check is shown in the *Status* column.
  ** The check stops on any media or parity error encountered, and then reports the error.
 +
-More about the status of the redundancy check
-+
-[cols="1a,1a" options="header"]
+.More about the status of the redundancy check
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
 |===
 | Status| Description
 a|
@@ -86,5 +90,6 @@ Parity error
 a|
 The parity is not what it should be for a given portion of the data. A parity error is potentially serious and could cause a permanent loss of data.
 |===
+====
 
 . Click *Done* after the last volume in the pool or volume group has been checked.

@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/view-drive-status-and-settings.html
 sidebar: sidebar
-keywords: view, drive, status, settings, media,
+keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media,
 summary: "You can view status and settings for the drives, such as the media type, interface type, and capacity."
 ---
 = View drive status and settings
@@ -24,15 +24,15 @@ The drive's context menu opens.
 
 . Select *View settings*.
 +
-The *Drive Settings* dialog box opens.
+The Drive Settings dialog box opens.
 
 . To see all settings, click *Show more settings* in the upper right of the dialog box.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Settings| Description
 a|
@@ -125,7 +125,7 @@ Shows whether the drive is secure-capable (Yes) or not (No). Secure-capable driv
 a|
 Secure-enabled
 a|
-Shows whether the drive is secure-enabled (Yes) or not (No). Secure-enabled drives are used with the Drive Security feature. When you enable the Drive Security feature and then apply Drive Security to a pool or volume group on secure-_capable_ drives, the drives become secure__-enabled__. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
+Shows whether the drive is secure-enabled (Yes) or not (No). Secure-enabled drives are used with the Drive Security feature. When you enable the Drive Security feature and then apply Drive Security to a pool or volume group on secure-_capable_ drives, the drives become secure-_enabled_. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
 a|
 Data Assurance (DA) capable
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/manage-repository.html
 sidebar: sidebar
-keywords: manage, software, repository
-summary: "The software repository lists all software files associated with the Web Services Proxy. If you do not see the file that you want to use, you can use the Manage Software Repository option to import one or more SANtricity OS files to the host system where the Web Services Proxy and Unified Manager are running. You can also choose to delete one or more SANtricity OS files that are available in the software repository."
+keywords: SANtricity, Unified Manager, E-Series, manage, software, repository
+summary: "The software repository lists all software files associated with the Web Services Proxy."
 ---
 = Manage software repository
 :experimental:
@@ -10,21 +10,23 @@ summary: "The software repository lists all software files associated with the W
 :imagesdir: ../media/
 
 [.lead]
-The software repository lists all software files associated with the Web Services Proxy. If you do not see the file that you want to use, you can use the Manage Software Repository option to import one or more SANtricity OS files to the host system where the Web Services Proxy and Unified Manager are running. You can also choose to delete one or more SANtricity OS files that are available in the software repository.
+The software repository lists all software files associated with the Web Services Proxy.
+
+If you do not see the file that you want to use, you can use the Manage Software Repository option to import one or more SANtricity OS files to the host system where the Web Services Proxy and Unified Manager are running. You can also choose to delete one or more SANtricity OS files that are available in the software repository.
 
 .Before you begin
 
-* If you are adding SANtricity OS files, make sure that the OS files are available on your local system.
+If you are adding SANtricity OS files, make sure that the OS files are available on your local system.
 
 .Steps
 
 . From the main view, select *Manage*, and then select menu:Upgrade Center[Manage Software Repository].
 +
-The *Manage Software Repository* dialog box appears.
+The Manage Software Repository dialog box appears.
 
 . Do one of the following actions:
 +
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Option| Do this....
 a|
@@ -42,5 +44,7 @@ a|
 .. Select one or more OS files that you want to remove from the software repository.
 .. Click *Delete*.
 |===
+
+.Results
 
 If you selected import, the file(s) are uploaded and validated. If you selected delete, the files are removed from the software repository.

@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/how-do-i-configure-my-dhcp-server.html
 sidebar: sidebar
-keywords: configure, dhcp, server, static, internet, protocol,
+keywords: SANtricity, System Manager, E-Series, configure, dhcp, server, static, internet, protocol,
 summary: "You must configure a Dynamic Host Configuration Protocol (DHCP) server to use static Internet Protocol (IP) addresses for the controllers in your storage array."
 ---
 = How do I configure my DHCP server?

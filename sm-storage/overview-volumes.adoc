@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/overview-volumes.html
 sidebar: sidebar
-keywords: volumes
+keywords: SANtricity, System Manager, E-Series, volumes
 summary: "You can create a volume as a container in which applications, databases, and file systems store data. When creating a volume, you also select a workload to customize the storage array configuration for a specific application."
 ---
 = Volumes and workloads overview
@@ -24,7 +24,7 @@ Learn more:
 * link:actions-you-can-perform-on-volumes.html[Actions you can perform on volumes]
 
 == How do you create volumes and workloads?
-To create workloads, you go to menu:Storage[Volumes] and open a wizard from that guides you through the steps. Next, you can create a volume from the capacity available in a pool or a volume group, and then assign the workload you created.
+First, you create a workload. Go to menu:Storage[Volumes] and open a wizard that guides you through the steps. Next, you create a volume from the capacity available in a pool or a volume group, and then assign the workload you created.
 
 Learn more:
 

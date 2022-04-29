@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/cache-settings-and-performance.html
 sidebar: sidebar
-keywords: cache, settings, and, performance,
+keywords: SANtricity, System Manager, E-Series, cache, settings, performance,
 summary: "Cache memory is an area of temporary volatile storage on the controller that has a faster access time than the drive media."
 ---
 = Cache settings and performance

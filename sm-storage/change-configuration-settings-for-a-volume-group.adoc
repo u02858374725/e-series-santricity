@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-configuration-settings-for-a-volume-group.html
 sidebar: sidebar
-keywords: change, configuration, settings, volume group
+keywords: SANtricity, System Manager, E-Series, configuration settings, volume group
 summary: "You can edit the settings for a volume group, including its name and RAID level."
 ---
 = Change configuration settings for a volume group
@@ -24,15 +24,15 @@ If you are changing the RAID level to accommodate the performance needs of the a
 . Select menu:Storage[Pools & Volume Groups].
 . Select the volume group that you want to edit, and then click *View/Edit Settings*.
 +
-The *Volume Group Settings* dialog box appears.
+The Volume Group Settings dialog box appears.
 
 . Select the *Settings* tab, and then edit the volume group settings as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|
@@ -44,11 +44,11 @@ RAID level
 a|
 Select the new RAID level from the drop-down menu.
 
-** *RAID 0 striping*. Offers high performance, but does not provide any data redundancy. If a single drive fails in the volume group, all of the associated volumes fail, and all data is lost. A striping RAID group combines two or more drives into one large, logical drive.
-** *RAID 1 mirroring*. Offers high performance and the best data availability, and is suitable for storing sensitive data on a corporate or personal level. Protects your data by automatically mirroring the contents of one drive to the second drive in the mirrored pair. It provides protection in the event of a single drive failure.
-** *RAID 10 striping/mirroring*. Provides a combination of RAID 0 (striping) and RAID 1 (mirroring), and is achieved when four or more drives are selected. RAID 10 is suitable for high volume transaction applications, such as a database, that require high performance and fault tolerance.
-** *RAID 5*. Optimal for multi-user environments (such as database or file system storage) where typical I/O size is small and there is a high proportion of read activity.
-** *RAID 6*. Optimal for environments requiring redundancy protection beyond RAID 5, but not requiring high write performance.
+** *RAID 0 striping* -- Offers high performance, but does not provide any data redundancy. If a single drive fails in the volume group, all of the associated volumes fail, and all data is lost. A striping RAID group combines two or more drives into one large, logical drive.
+** *RAID 1 mirroring* -- Offers high performance and the best data availability, and is suitable for storing sensitive data on a corporate or personal level. Protects your data by automatically mirroring the contents of one drive to the second drive in the mirrored pair. It provides protection in the event of a single drive failure.
+** *RAID 10 striping/mirroring* -- Provides a combination of RAID 0 (striping) and RAID 1 (mirroring), and is achieved when four or more drives are selected. RAID 10 is suitable for high volume transaction applications, such as a database, that require high performance and fault tolerance.
+** *RAID 5* -- Optimal for multi-user environments (such as database or file system storage) where typical I/O size is small and there is a high proportion of read activity.
+** *RAID 6* -- Optimal for environments requiring redundancy protection beyond RAID 5, but not requiring high write performance.
 
 RAID 3 can be assigned only to volume groups using the command line interface (CLI).
 

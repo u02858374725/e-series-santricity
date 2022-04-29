@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html
 sidebar: sidebar
-keywords: what do, need, know, before, starting, remote, storage, import
+keywords: SANtricity, System Manager, E-Series, remote, storage, import
 summary: "The Remote Storage feature allows you to copy data from a remote storage system to a volume on a local E-Series storage system. Before using this feature, review the following guidelines."
 ---
 = What do I need to know before starting a remote storage import?
@@ -17,7 +17,7 @@ The Remote Storage feature allows you to copy data from a remote storage system 
 Before you create the remote storage import, you must complete the following actions and verify the following conditions:
 
 * Ensure that each controller of the local E-Series storage system has an iSCSI connection to the remote storage system.
-* On your local E-Series storage system, create a target volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume, has a block size that matches the source volume, and is not mapped. See xref:create-volumes-storage.adoc[Create volumes].
+* On your local E-Series storage system, create a target volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume, has a block size that matches the source volume, and is not mapped. See link:create-volumes-storage.html[Create volumes].
 * Set up the local E-Series storage system as a host on the remote system using its iSCSI Qualified Name (IQN). You can view the IQN from menu:Settings[System > iSCSI settings > Target IQN]. Also, be sure to set the appropriate host type based on the system being used.
 * Stop all I/Os, unmount any file systems, and remove any assignments to hosts or applications for the selected volume on the remote storage system.
 * Assign the volume to the remote storage system to the newly created local E-Series storage system host.
@@ -31,7 +31,7 @@ Before you create the remote storage import, you must complete the following act
 
 The following steps outline the import process.
 
-. Access the System Manager interface, and then go to the *Remote Storage* page. Select *Import* to start a new import creation. For detailed instructions, see xref:rtv-import-remote-storage.adoc[Import remote storage].
+. Access the System Manager interface, and then go to the *Remote Storage* page. Select *Import* to start a new import creation. For detailed instructions, see link:rtv-import-remote-storage.html[Import remote storage].
 +
 If you want to perform an offline import, do not map the destination volume until after the import completes.
 

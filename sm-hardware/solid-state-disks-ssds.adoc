@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/solid-state-disks-ssds.html
 sidebar: sidebar
-keywords: solid, state, disk,
+keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD
 summary: "Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use."
 ---
 = Solid State Disks (SSDs)

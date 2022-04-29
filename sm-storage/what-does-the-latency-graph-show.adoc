@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/what-does-the-latency-graph-show.html
 sidebar: sidebar
-keywords: latency, graph, what, show, statistics, milliseconds
+keywords: SANtricity, System Manager, E-Series, latency, graph, show, statistics,
 summary: "The Latency graph provides latency statistics, in milliseconds (ms), for volumes, volume groups, pools, applications, and workloads. This graph appears in the Logical View, Physical View, and Applications & Workloads View tabs."
 ---
 = What does the Latency graph show?

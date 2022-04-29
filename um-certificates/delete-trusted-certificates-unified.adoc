@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/delete-trusted-certificates-unified.html
 sidebar: sidebar
-keywords: delete, trusted, certificates
+keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates
 summary: "You can delete one or more certificates that are no longer needed, such as an expired certificate."
 ---
 = Delete trusted certificates
@@ -31,7 +31,7 @@ Be aware that deleting a root or intermediate certificate can impact multiple st
 The *Delete* function is not available for pre-installed certificates.
 ====
 +
-The *Confirm Delete Trusted Certificate* dialog box opens.
+The Confirm Delete Trusted Certificate dialog box opens.
 
 . Confirm the deletion, and then click *Delete*.
 +

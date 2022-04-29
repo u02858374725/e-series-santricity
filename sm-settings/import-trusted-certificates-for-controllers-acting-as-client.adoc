@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html
 sidebar: sidebar
-keywords: import, certificates, for, controllers, when, acting, as, clients,
+keywords: SANtricity, System Manager, E-Series, import, certificates, 
 summary: "If the controller rejects a connection because it cannot validate the chain of trust for a network server, you can import a certificate from the Trusted tab that allows the controller (acting as a client) to accept communications from that server."
 ---
 = Import certificates for controllers when acting as clients
@@ -24,7 +24,7 @@ Importing certificates from the Trusted tab might be necessary if you want to al
 .Steps
 
 . Select menu:Settings[Certificates].
-. From the **Trusted**tab, select *Import*.
+. From the *Trusted* tab, select *Import*.
 +
 A dialog box opens for importing the trusted certificate files.
 

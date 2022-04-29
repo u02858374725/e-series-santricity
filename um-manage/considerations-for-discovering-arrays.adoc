@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/considerations-for-discovering-arrays.html
 sidebar: sidebar
-keywords: considerations, discovering, arrays
+keywords: SANtricity, Unified Manager, E-Series, considerations, discovering, arrays
 summary: "Before Unified Manager can display and manage storage resources, it must discover the storage arrays you want to manage in your organization’s network. You can discover multiple arrays or you can discover a single array."
 ---
 = Considerations for discovering arrays
@@ -13,7 +13,7 @@ Before Unified Manager can display and manage storage resources, it must discove
 
 == Discovering multiple storage arrays
 
-If you choose to discover multiple arrays, you enter a network IP address range and then Unified Manager attempts individual connections to each IP address in that range. Any storage array successfully reached appears on the *Discover* page and may be added to your management domain.
+If you choose to discover multiple arrays, you enter a network IP address range and then Unified Manager attempts individual connections to each IP address in that range. Any storage array successfully reached appears on the Discover page and may be added to your management domain.
 
 == Discovering a single storage array
 
@@ -21,7 +21,7 @@ If you choose to discover a single array, you enter the single IP address for on
 
 [NOTE]
 ====
-Unified Manager discovers and displays only the single IP address or IP address within a range assigned to a controller. If there are alternate controllers or IP addresses assigned to these controllers that fall outside of this single IP address or IP address range, then Unified Manager will not discover or display them. However, once you add the storage array, all associated IP addresses will be discovered and displayed in the *Manage* view.
+Unified Manager discovers and displays only the single IP address or IP address within a range assigned to a controller. If there are alternate controllers or IP addresses assigned to these controllers that fall outside of this single IP address or IP address range, then Unified Manager will not discover or display them. However, once you add the storage array, all associated IP addresses will be discovered and displayed in the Manage view.
 ====
 
 == User credentials

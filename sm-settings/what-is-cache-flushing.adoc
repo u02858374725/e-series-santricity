@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-is-cache-flushing.html
 sidebar: sidebar
-keywords: what, is, cache, flushing,
+keywords: SANtricity, System Manager, E-Series, cache, flushing,
 summary: "When the amount of unwritten data in the cache reaches a certain level, the controller periodically writes cached data to a drive. This write process is called flushing."
 ---
 = What is cache flushing?
@@ -19,7 +19,7 @@ In an environment where the I/O is erratic (with data bursts), you can use low c
 
 The age-based algorithm specifies the period of time during which write data can remain in the cache before it is eligible to be flushed to the disks. The controllers use the age-based algorithm until the cache flush threshold is reached. The default is 10 seconds, but this time period is counted only during periods of inactivity. You cannot modify the flush timing in System Manager; instead, you must use the *Set Storage Array* command in the command-line interface (CLI).
 
-[NOTE]
+[CAUTION]
 ====
 *Possible loss of data* -- If you enable the *Write caching without batteries* option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
 ====

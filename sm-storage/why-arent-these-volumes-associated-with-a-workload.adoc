@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-arent-these-volumes-associated-with-a-workload.html
 sidebar: sidebar
-keywords: why, volumes, associated, workload
+keywords: SANtricity, System Manager, E-Series, volumes, associated, workload
 summary: "Volumes are not associated with a workload if they have been created using the command line interface (CLI) or if they have been migrated (imported/exported) from a different storage array."
 ---
 = Why aren't these volumes associated with a workload?

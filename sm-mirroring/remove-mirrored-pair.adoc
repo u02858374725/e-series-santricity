@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/remove-mirrored-pair.html
 sidebar: sidebar
-keywords: remove, asynchronous, mirror, relationship, storage, array,
+keywords: SANtricity, System Manager, E-Series, remove, asynchronous, mirror, relationship,
 summary: "You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array."
 ---
 = Remove asynchronous mirror relationship
@@ -32,7 +32,7 @@ The Mirrored Pairs table appears and displays all the mirrored pairs associated 
 
 .Results
 
-SANtricity System Manager performs the following actions:
+System Manager performs the following actions:
 
 * Removes the mirror relationship from the mirror consistency group on the local storage array and on the remote storage array, and deletes the reserved capacity.
 * Returns the primary volume and the secondary volume to host-accessible, non-mirrored volumes.

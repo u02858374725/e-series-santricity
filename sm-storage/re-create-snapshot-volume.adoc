@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/re-create-snapshot-volume.html
 sidebar: sidebar
-keywords: re-create, snapshot, volume
+keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume
 summary: "You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one."
 ---
 = Re-create snapshot volume
@@ -31,7 +31,7 @@ If the snapshot volume or snapshot consistency group snapshot volume is part of 
 . Select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
-The *Snapshot Volumes* table appears and displays all the snapshot volumes associated with the storage array.
+The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.
 
 . Select the snapshot volume that you want to re-create, and then select menu:Uncommon Tasks[Recreate].
 +

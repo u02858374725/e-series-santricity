@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html
 sidebar: sidebar
-keywords: change, reserved, capacity, settings, consistency, group, member, volume
+keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, consistency group, member volume
 summary: "You can change the settings for a consistency group member volume to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a member volume is nearing full and to change the policy to use when the reserved capacity reaches its maximum defined percentage."
 ---
 = Change the reserved capacity settings for a consistency group member volume
@@ -22,15 +22,15 @@ Changing the reserved capacity settings for an individual member volume also cha
 . Click the *Reserved Capacity* tab.
 . Select the consistency group member volume that you want to edit, and then click *View/Edit Settings*.
 +
-The *Member Volume Reserved Capacity Settings* dialog box appears.
+The Member Volume Reserved Capacity Settings dialog box appears.
 
 . Change the reserved capacity settings for the member volume as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|

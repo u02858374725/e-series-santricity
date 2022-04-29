@@ -1,8 +1,8 @@
 ---
 permalink: san-getstarted/supported-browsers-os.html
 sidebar: sidebar
-keywords:
-summary: 'SANtricity can be accessed from several types of browsers and operating systems.'
+keywords: SANtricity, System Manager, E-Series,
+summary: SANtricity can be accessed from several types of browsers and operating systems.
 ---
 = Supported browsers and operating systems
 :icons: font
@@ -55,7 +55,7 @@ The following operating systems and versions are supported.
 |===
 | Operating system| Minimum version/architecture
 a|
-Redhat Enterprise Linux (RHEL)
+Red Hat Enterprise Linux (RHEL)
 a|
 7.x, 8.x / 64-bit
 a|
@@ -69,7 +69,7 @@ a|
 a|
 Windows Server
 a|
-2016, 2019 / 64-bit
+2016, 2019, 2022 / 64-bit
 a|
 Ubuntu
 a|

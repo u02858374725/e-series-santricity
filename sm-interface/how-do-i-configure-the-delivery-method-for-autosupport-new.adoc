@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html
 sidebar: sidebar
-keywords: configure, delivery, method, autosupport,
+keywords: SANtricity, System Manager, E-Series, AutoSupport, ASUP
 summary: "To access configuration tasks for AutoSupport delivery methods, go to Support > Support Center, and then click the AutoSupport tab."
 ---
 = How do I configure the delivery method for AutoSupport?

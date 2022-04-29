@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/redistribute-volumes.html
 sidebar: sidebar
-keywords: redistribute, volumes
+keywords: SANtricity, System Manager, E-Series, redistribute, volumes
 summary: "You redistribute volumes to move volumes back to their preferred controller owners. Typically, multipath drivers move volumes from their preferred controller owner when a problem occurs along the data path between the host and storage array."
 ---
 = Redistribute volumes
@@ -28,10 +28,10 @@ Most host multipath drivers attempt to access each volume on a path to its prefe
 . Select menu:Storage[Volumes].
 . Select menu:More[Redistribute volumes].
 +
-The *Redistribute Volumes* dialog box appears. All volumes on the storage array whose preferred controller owner does not match its current owner appear in this dialog box.
+The Redistribute Volumes dialog box appears. All volumes on the storage array whose preferred controller owner does not match its current owner appear in this dialog box.
 
 . Select one or more volumes that you want to redistribute, and confirm that you want to perform the operation.
 
 .Results
 
-System Manager moves the selected volumes to their preferred controller owners or you might see a *Redistribute Volumes Unnecessary* dialog box.
+System Manager moves the selected volumes to their preferred controller owners or you might see a Redistribute Volumes Unnecessary dialog box.

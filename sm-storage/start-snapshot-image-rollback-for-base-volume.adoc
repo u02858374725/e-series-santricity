@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/start-snapshot-image-rollback-for-base-volume.html
 sidebar: sidebar
-keywords: start, snapshot, image, rollback, base, volume
+keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, base, volume
 summary: "You can perform a rollback operation to change the content of a base volume to match the content that is saved in a snapshot image. The rollback operation does not change the content of the snapshot images that are associated with the base volume."
 ---
 = Start snapshot image rollback for a base volume
@@ -33,11 +33,11 @@ The host can immediately access the new rolled-back base volume, but the existin
 . Select the *Snapshot Images* tab.
 . Select the snapshot image, and then select menu:Rollback[Start].
 +
-The *Confirm Start Rollback* dialog box appears.
+The Confirm Start Rollback dialog box appears.
 
 . *Optional:* Select the option to *Increase Capacity* if necessary.
 +
-The *Increase Reserved Capacity* dialog box appears.
+The Increase Reserved Capacity dialog box appears.
 
  .. Use the spinner box to adjust the capacity percentage.
 +

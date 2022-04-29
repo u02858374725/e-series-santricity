@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-iscsi-sessions-support.html
 sidebar: sidebar
-keywords: view, iscsi, sessions
+keywords: SANtricity, System Manager, E-Series, view, iscsi, sessions
 summary: "You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship."
 ---
 = View iSCSI sessions

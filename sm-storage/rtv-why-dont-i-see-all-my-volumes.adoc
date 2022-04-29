@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-why-dont-i-see-all-my-volumes.html
 sidebar: sidebar
-keywords: why, don't, see, all, volumes, destination, array
+keywords: SANtricity, System Manager, E-Series, volumes, destination, array
 summary: "When configuring an import for the Remote Storage feature, you might notice that some volumes do not appear in the list of target candidates due to block size, capacity, or volume availability."
 ---
 = Why don't I see all my volumes on my destination array?

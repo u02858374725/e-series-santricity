@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html
 sidebar: sidebar
-keywords: what, do, I, need, to, know, about, mapping, to, storage, array, roles,
+keywords: SANtricity, System Manager, E-Series, mapping, roles,
 summary: "Before mapping groups to roles, review the following guidelines."
 ---
 = What do I need to know about mapping to storage array roles?

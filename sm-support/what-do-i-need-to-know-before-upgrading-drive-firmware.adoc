@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html
 sidebar: sidebar
-keywords: what, do, need, know, before, upgrading, drive, firmware
+keywords: SANtricity, System Manager, E-Series, upgrading, drive, firmware
 summary: "Before upgrading your drive firmware, be aware of these items."
 ---
 = What do I need to know before upgrading drive firmware?

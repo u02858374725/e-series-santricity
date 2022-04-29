@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/why-dont-i-see-all-of-my-storage-arrays.html
 sidebar: sidebar
-keywords: why, not, see, storage, arrays
+keywords: SANtricity, Unified Manager, E-Series, arrays missing
 summary: "During the Import Settings operation, some of your storage arrays might not be available in the target selection dialog box."
 ---
 = Why don't I see all of my storage arrays?

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: create, snapshot, consistency, group
-summary: "To ensure that you have consistent copies, you can create a set of multiple volumes called a snapshot consistency group. This group allows you to make snapshot images of all the volumes at the same time for consistency. Each volume that belongs to a snapshot consistency group is referred to as a member volume. When you add a volume to a snapshot consistency group, the system automatically creates a new snapshot group that corresponds to this member volume."
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency group
+summary: "To ensure that you have consistent copies, you can create a set of multiple volumes called a snapshot consistency group."
 ---
 = Create snapshot consistency group
 :experimental:
@@ -10,7 +10,9 @@ summary: "To ensure that you have consistent copies, you can create a set of mul
 :imagesdir: ../media/
 
 [.lead]
-To ensure that you have consistent copies, you can create a set of multiple volumes called a _snapshot consistency group_. This group allows you to make snapshot images of all the volumes at the same time for consistency. Each volume that belongs to a snapshot consistency group is referred to as a _member volume_. When you add a volume to a snapshot consistency group, the system automatically creates a new snapshot group that corresponds to this member volume.
+To ensure that you have consistent copies, you can create a set of multiple volumes called a _snapshot consistency group_.
+
+This group allows you to make snapshot images of all the volumes at the same time for consistency. Each volume that belongs to a snapshot consistency group is referred to as a _member volume_. When you add a volume to a snapshot consistency group, the system automatically creates a new snapshot group that corresponds to this member volume.
 
 .About this task
 
@@ -31,7 +33,7 @@ The member volumes must be Optimal.
 . Click the *Snapshot Consistency Groups* tab.
 . Select menu:Create[Snapshot consistency group].
 +
-The *Create Snapshot Consistency Group* dialog box appears.
+The Create Snapshot Consistency Group dialog box appears.
 
 . Select the volume(s) to be added as member volumes to the snapshot consistency group.
 . Click *Next*, and go to <<Step 2: Reserve capacity for snapshot consistency group>>.
@@ -41,7 +43,7 @@ Associate reserved capacity to the snapshot consistency group. System Manager su
 
 .About this task
 
-On the *Reserve Capacity* dialog box, the volume candidate table displays only the candidates that support the reserved capacity specified. Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
+On the Reserve Capacity dialog box, the volume candidate table displays only the candidates that support the reserved capacity specified. Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
 
 .Steps
 
@@ -70,11 +72,11 @@ The snapshot consistency group creation sequence lets you select member volumes 
 
 . Accept or change the default settings for the snapshot consistency group as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 
 |===
 | Setting| Description

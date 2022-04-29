@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html
 sidebar: sidebar
-keywords: workflow, for, mirroring, a, volume, asynchronously,
+keywords: SANtricity, System Manager, E-Series, workflow, mirroring, asynchronously,
 summary: "You configure asynchronous mirroring using the following workflow."
 ---
 = Workflow for mirroring a volume asynchronously

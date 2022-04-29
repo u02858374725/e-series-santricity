@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/upgrade-drive-firmware.html
 sidebar: sidebar
-keywords: upgrade, drive, firmware
+keywords: SANtricity, System Manager, E-Series, upgrade, drive, firmware
 summary: "You can upgrade your drives’ firmware to make sure you have all the latest features and bug fixes."
 ---
 = Upgrade drive firmware
@@ -45,7 +45,7 @@ The *Select Drives* dialog box appears, which lists the drives that you can upgr
 +
 Only drives that are compatible appear.
 +
-The selected firmware for the drive appears in the *Proposed Firmware* information area. If you must change the firmware, click *Back* to return to the previous dialog.
+The selected firmware for the drive appears in the Proposed Firmware information area. If you must change the firmware, click *Back* to return to the previous dialog.
 
 . Select the type of upgrade you want to perform:
  ** *Online (default)* -- Shows the drives that can support a firmware download _while the storage array is processing I/O_. You do not have to stop I/O to the associated volumes using these drives when you select this upgrade method. These drives are upgraded one at a time while the storage array is processing I/O to those drives.
@@ -65,7 +65,12 @@ Stopping the drive firmware upgrade might result in data loss or unavailable dri
 The file is saved in the Downloads folder for your browser with the name `drive_upgrade_log-timestamp.txt`.
 
 . If any of the following errors occur during the upgrade procedure, take the appropriate recommended action.
-+
+
+.Errors and recommended actions
+
+[%collapsible]
+====
+
 [cols="40h,~" options="header"]
 |===
 | If you encounter this firmware download error...| Then do the following...
@@ -136,6 +141,7 @@ More than 4 critical MEL entries in the last 7 days
 a|
 Contact technical support to resolve this issue.
 |===
+====
 
 .After you finish
 

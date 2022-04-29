@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/increase-reserved-capacity.html
 sidebar: sidebar
-keywords: increase, reserved, capacity
-summary: "You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object. For snapshot operations, it is typically 40 percent of the base volume; for asynchronous mirroring operations, it is typically 20 percent of the base volume. Typically, you increase reserved capacity when you receive a warning that the storage object’s reserved capacity is becoming full."
+keywords: SANtricity, System Manager, E-Series, increase, reserved, capacity
+summary: "You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object."
 ---
 = Increase reserved capacity
 :experimental:
@@ -10,7 +10,9 @@ summary: "You can increase reserved capacity, which is the physically allocated 
 :imagesdir: ../media/
 
 [.lead]
-You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object. For snapshot operations, it is typically 40 percent of the base volume; for asynchronous mirroring operations, it is typically 20 percent of the base volume. Typically, you increase reserved capacity when you receive a warning that the storage object's reserved capacity is becoming full.
+You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object.
+
+For snapshot operations, it is typically 40 percent of the base volume; for asynchronous mirroring operations, it is typically 20 percent of the base volume. Typically, you increase reserved capacity when you receive a warning that the storage object's reserved capacity is becoming full.
 
 .Before you begin
 
@@ -41,7 +43,7 @@ You cannot increase reserved capacity for a snapshot volume that is read-only. O
 . Select the *Reserved Capacity* tab.
 . Select the storage object for which you want to increase reserved capacity, and then click *Increase Capacity*.
 +
-The *Increase Reserved Capacity* dialog box appears.
+The Increase Reserved Capacity dialog box appears.
 
 . Use the spinner box to adjust the capacity percentage.
 +

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/add-capacity-to-a-pool-or-volume-group.html
 sidebar: sidebar
-keywords: add, capacity, pool, volume, group, free
-summary: "You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation."
+keywords: SANtricity, System Manager, E-Series, add, capacity, pool, volume, group
+summary: "You can add drives to expand the free capacity in an existing pool or volume group. "
 ---
 = Add capacity to a pool or volume group
 :experimental:
@@ -10,7 +10,9 @@ summary: "You can add drives to expand the free capacity in an existing pool or 
 :imagesdir: ../media/
 
 [.lead]
-You can add drives to expand the free capacity in an existing pool or volume group. The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation.
+You can add drives to expand the free capacity in an existing pool or volume group.
+
+The expansion causes additional free capacity to be included in the pool or volume group. You can use this free capacity to create additional volumes. The data in the volumes remains accessible during this operation.
 
 .Before you begin
 
@@ -45,16 +47,16 @@ Avoid using drives that are Data Assurance (DA) capable to add capacity to a poo
 . Select menu:Storage[Pools & Volume Groups].
 . Select the pool or volume group to which you want to add drives, and then click *Add Capacity*.
 +
-The *Add Capacity* dialog box appears. Only the unassigned drives that are compatible with the pool or volume group appear.
+The Add Capacity dialog box appears. Only the unassigned drives that are compatible with the pool or volume group appear.
 
 . Under *Select drives to add capacity...*, select one or more drives that you want to add to the existing pool or volume group.
 +
 The controller firmware arranges the unassigned drives with the best options listed at the top. The total free capacity that is added to the pool or volume group appears below the list in *Total capacity selected*.
 +
 [%collapsible]
-.Field Details
+.Field details
 ====
-[cols="2*",options="header"]
+[cols="25h,~",options="header"]
 |===
 | Field| Description
 a|
@@ -106,7 +108,7 @@ If you are adding drives to a pool or volume group, a confirmation dialog box ap
  ** Data Assurance capability
  ** DULBE capability
 
-To continue, click *Yes*; otherwise, click *Cancel*.
+. To continue, click *Yes*; otherwise, click *Cancel*.
 
 .Results
 

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/certificate-terminology.html
 sidebar: sidebar
-keywords: certificate, terminology,
+keywords: SANtricity, System Manager, E-Series, certificate, terms,
 summary: "The following terms apply to certificate management."
 ---
 = Certificate terminology
@@ -11,7 +11,7 @@ summary: "The following terms apply to certificate management."
 [.lead]
 The following terms apply to certificate management.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Term| Description
 a|

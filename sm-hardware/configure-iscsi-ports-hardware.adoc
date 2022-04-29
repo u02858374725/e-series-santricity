@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-iscsi-ports-hardware.html
 sidebar: sidebar
-keywords: configure, iscsi, ports, hardware, page,
+keywords: SANtricity, System Manager, E-Series, configure, iscsi, ports,
 summary: "If your controller includes an iSCSI host connection, you can configure the iSCSI port settings from the Hardware page."
 ---
 = Configure iSCSI ports
@@ -39,18 +39,18 @@ The controller's context menu appears.
 The *Configure iSCSI ports* option appears only if System Manager detects iSCSI ports on the controller.
 ====
 +
-The *Configure iSCSI Ports* dialog box opens.
+The Configure iSCSI Ports dialog box opens.
 
 . In the drop-down list, select the port you want to configure, and then click *Next*.
 . Select the configuration port settings, and then click *Next*.
 +
 To see all port settings, click the *Show more port settings* link on the right of the dialog box.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Port Setting| Description
 a|
@@ -93,11 +93,11 @@ If you selected *Enable IPv4*, a dialog box opens for selecting IPv4 settings af
 
 . Configure the IPv4 and/or IPv6 settings, either automatically or manually. To see all port settings, click the *Show more settings* link on the right of the dialog box.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Port setting| Description
 a|

@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html
 sidebar: sidebar
-keywords: impact, does, synchronization, priority, have, on, synchronization, rates,
+keywords: SANtricity, System Manager, E-Series, synchronization, priority, rates,
 summary: "The synchronization priority defines how much processing time is allocated for synchronization activities relative to system performance."
 ---
 = What impact does synchronization priority have on synchronization rates?

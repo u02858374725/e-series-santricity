@@ -1,15 +1,17 @@
 ---
 permalink: sm-storage/copy-volume-function.html
 sidebar: sidebar
-keywords: copy, volume, function
-summary: "The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array. This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume."
+keywords: SANtricity, System Manager, E-Series, copy, volume,
+summary: "The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array."
 ---
 = Copy Volume function
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array. This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume.
+The Copy Volume function enables you to create a point-in-time copy of a volume by creating two separate volumes, the source volume and the target volume, on the same storage array.
+
+This function performs a byte-by-byte copy from the source volume to the target volume, making the data on the target volume identical to the data on the source volume.
 
 == Data copying for greater access
 

@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-settings-for-a-volume.html
 sidebar: sidebar
-keywords: change, settings, volume
+keywords: SANtricity, System Manager, E-Series, settings, volume
 summary: "You can change a volume’s settings such as its name, host assignment, segment size, modification priority, caching, and so on."
 ---
 = Change settings for a volume
@@ -21,15 +21,15 @@ The volume you want to change is in Optimal status.
 . Select menu:Storage[Volumes].
 . Select the volume that you want to change, and then select *View/Edit Settings*.
 +
-The *Volume Settings* dialog box appears. The configuration settings for the volume you selected appear in this dialog box.
+The Volume Settings dialog box appears. The configuration settings for the volume you selected appear in this dialog box.
 
 . Select the *Basic* tab to change the volume's name and host assignment.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|
@@ -51,8 +51,8 @@ Host
 a|
 Displays the volume assignment. You assign a volume to a host or host cluster so it can be accessed for I/O operations. This assignment grants a host or host cluster access to a particular volume or to a number of volumes in a storage array.
 
-** Assigned to -- Identifies the host or host cluster that has access to the selected volume.
-** LUN -- A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN. Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
+** *Assigned to* -- Identifies the host or host cluster that has access to the selected volume.
+** *LUN* -- A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN. Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
 +
 NOTE: For NVMe interfaces, this column displays Namespace ID. A namespace is NVM storage that is formatted for block access. It is analogous to a logical unit in SCSI, which relates to a volume in the storage array. The namespace ID is the NVMe controller's unique identifier for the namespace, and can be set to a value between 1 and 255. It is analogous to a logical unit number (LUN) in SCSI.
 
@@ -61,19 +61,19 @@ Identifiers
 a|
 Displays the identifiers for the selected volume.
 
-** World-wide identifier (WWID) -- A unique hexadecimal identifier for the volume.
-** Extended unique identifier (EUI) -- An EUI-64 identifier for the volume.
-** Subsystem identifier (SSID) -- The storage array subsystem identifier of a volume.
+** *World-wide identifier (WWID)* -- A unique hexadecimal identifier for the volume.
+** *Extended unique identifier (EUI)* -- An EUI-64 identifier for the volume.
+** *Subsystem identifier (SSID)* -- The storage array subsystem identifier of a volume.
 |===
 ====
 
 . Select the *Advanced* tab to change additional configuration settings for a volume in a pool or in a volume group.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|
@@ -137,9 +137,7 @@ Shows the SSD Cache setting, which you can enable on compatible volumes as a way
 ====
 
 . Click *Save*.
-
-.Results
-
++
 System Manager changes the volume's settings based on your selections.
 
 .After you finish

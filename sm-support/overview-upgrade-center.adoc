@@ -1,26 +1,21 @@
 ---
 permalink: sm-support/overview-upgrade-center.html
 sidebar: sidebar
-keywords: upgrade, center
+keywords: SANtricity, System Manager, E-Series, upgrade, center
 summary: "Use the Upgrade Center to download the latest software and firmware and upgrade your storage array for the latest features and bug fixes."
 ---
 = Upgrade Center overview
-:experimental
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Use the Upgrade Center to download the latest software and firmware and to upgrade your controllers and drives.
 
-See the following:
-
-* <<Controller upgrade overview>>
-* <<Drive upgrade overview>>
-
 == Controller upgrade overview
 You can upgrade your storage array's software and firmware for all the latest features and bug fixes.
 
-=== Components included in the SANtricity OS controller software upgrade
+=== Components included in the OS controller upgrade
 
 Several storage array components contain software or hardware that you might want to upgrade occasionally.
 
@@ -32,12 +27,7 @@ Several storage array components contain software or hardware that you might wan
 
 image::../media/sam1130-dwg-upgrade-firmware-locations.gif[]
 
-^1^ Controller shelf
-^2^ Drive shelf
-^3^ Software, controller firmware, controller NVSRAM, supervisor software
-^4^ Drive firmware
-^5^ IOM firmware
-^6^ Drive firmware
+^1^ Controller shelf; ^2^ Drive shelf; ^3^ Software, controller firmware, controller NVSRAM, supervisor software; ^4^ Drive firmware; ^5^ IOM firmware; ^6^ Drive firmware
 
 You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*.
 

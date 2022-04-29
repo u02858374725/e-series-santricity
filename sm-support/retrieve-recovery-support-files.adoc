@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/retrieve-recovery-support-files.html
 sidebar: sidebar
-keywords: retrieve, recovery, support, files
+keywords: SANtricity, System Manager, E-Series, retrieve, recovery, support files
 summary: "Technical support can use recovery support files to troubleshoot issues. System Manager automatically saves these files."
 ---
 = Retrieve recovery support files

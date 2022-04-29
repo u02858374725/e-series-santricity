@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/requirements-for-using-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: requirements, using, asynchronous, mirroring,
+keywords: SANtricity, System Manager, E-Series, requirements, asynchronous, mirroring,
 summary: "If you plan to use asynchronous mirroring, keep the following requirements in mind."
 ---
 = Requirements for using asynchronous mirroring
@@ -12,7 +12,7 @@ summary: "If you plan to use asynchronous mirroring, keep the following requirem
 [.lead]
 If you plan to use asynchronous mirroring, keep the following requirements in mind.
 
-== SANtricity Unified Manager
+== Unified Manager
 
 To enable and configure mirroring between two arrays, you must use the Unified Manager interface. Unified Manager is installed on a host system along with the Web Services Proxy.
 

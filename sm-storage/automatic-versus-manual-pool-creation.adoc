@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/automatic-versus-manual-pool-creation.html
 sidebar: sidebar
-keywords: automatic, versus, manual, pool, creation, physical storage, volume
+keywords: SANtricity, System Manager, E-Series, automatic, manual, pool
 summary: "You create pools automatically or manually to allow physical storage to be grouped, and then dynamically allocated as needed. When a pool is created, you can add physical drives."
 ---
 = Automatic versus manual pool creation

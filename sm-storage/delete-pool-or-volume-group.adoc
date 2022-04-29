@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/delete-pool-or-volume-group.html
 sidebar: sidebar
-keywords: delete, pool, volume, group
+keywords: SANtricity, System Manager, E-Series, delete, pool, volume, group
 summary: "You can delete a pool or volume group to create more unassigned capacity, which you can reconfigure to meet your application storage needs."
 ---
 = Delete pool or volume group

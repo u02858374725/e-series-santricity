@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-host-automatically.html
 sidebar: sidebar
-keywords: create, host, automatically
+keywords: SANtricity, System Manager, E-Series, create, host, automatically
 summary: "You can allow the Host Context Agent (HCA) to automatically detect the hosts, and then verify that the information is correct. Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes."
 ---
 = Create host automatically

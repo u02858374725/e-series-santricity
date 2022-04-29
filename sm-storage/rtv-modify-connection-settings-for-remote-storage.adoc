@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/rtv-modify-connection-settings-for-remote-storage.html
 sidebar: sidebar
-keywords: modify, connection, settings, remote, storage
+keywords: SANtricity, System Manager, E-Series, modify, connection, settings, remote, storage
 summary: "You can edit, add, or delete connection settings for any remote storage configuration through the View/Edit Settings option."
 ---
 = Modify connection settings for remote storage
@@ -22,7 +22,7 @@ Making changes to connection properties will affect in-progress imports. To avoi
 . From the list, select the remote storage object that you want to modify.
 . Click *View/Edit Settings*.
 +
-The *Remote Storage Settings* dialog box is displayed.
+The Remote Storage Settings dialog box is displayed.
 
 . Click the *Connection Properties* tab.
 +

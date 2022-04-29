@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-storage-array-name.html
 sidebar: sidebar
-keywords: edit, storage, array, name,
+keywords: SANtricity, System Manager, E-Series, edit, storage array, name,
 summary: "You can change the storage array name that appears in the title bar of SANtricity System Manager."
 ---
 = Edit storage array name

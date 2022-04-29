@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/use-ca-signed-certificates-for-controllers.html
 sidebar: sidebar
-keywords: use, ca-signed, certificates, for, controllers,
+keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, controllers,
 summary: "You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing System Manager."
 ---
 = Use CA-signed certificates for controllers
@@ -14,7 +14,7 @@ You can obtain CA-signed certificates for secure communications between the cont
 
 .Before you begin
 
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
 .About this task
 
@@ -25,7 +25,7 @@ You must first generate a certificate signing request (CSR) file for each contro
 
 .Before you begin
 
-* You must know the IP address or DNS names of each controller.
+You must know the IP address or DNS names of each controller.
 
 .About this task
 
@@ -33,7 +33,7 @@ This task describes how to generate a CSR file from System Manager. The CSR prov
 
 [NOTE]
 ====
-Alternatively, you can generate a CSR file using a tool such as OpenSSL and can skip to xref:step-2-submit-the-csr-files.adoc[Step 2: Submit the CSR files].
+Alternatively, you can generate a CSR file using a tool such as OpenSSL and can skip to <<Step 2: Submit the CSR files>>.
 ====
 
 .Steps
@@ -75,16 +75,14 @@ Do not click the *Skip this step* link when you are initially creating a CSR req
 +
 For a single controller, one CSR file is downloaded to your local system. For dual controllers, two CSR files are downloaded. The folder location of the download depends on your browser.
 
-.After you finish
-
-Go to <<Step 2: Submit the CSR files>>.
+. Go to <<Step 2: Submit the CSR files>>.
 
 == Step 2: Submit the CSR files
 After you create the certificate signing request (CSR) files, send the files to a certificate authority (CA).
 
 .Before you begin
 
-* You have generated the CSR files.
+You have generated the CSR files.
 
 .About this task
 
@@ -102,9 +100,7 @@ E-Series systems require PEM format (Base64 ASCII encoding) for signed certifica
 *After you submit a CSR file to the CA, do NOT regenerate another CSR file.* Whenever you generate a CSR, the system creates a private and public key pair. The public key is part of the CSR, while the private key is kept in the system's keystore. When you receive the signed certificates and import them, the system ensures that both the private and public keys are the original pair. If the keys do not match, the signed certificates will not work and you must request new certificates from the CA.
 ====
 
-.After you finish
-
-When the CA returns the signed certificates, go to <<Step 3: Import signed certificates for controllers>>.
+. When the CA returns the signed certificates, go to <<Step 3: Import signed certificates for controllers>>.
 
 == Step 3: Import signed certificates for controllers
 After you receive signed certificates from the Certificate Authority (CA), import the files for the controllers.

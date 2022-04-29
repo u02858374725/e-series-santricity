@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html
 sidebar: sidebar
-keywords: asynchronous, mirroring, see, all, my, volumes, 
+keywords: SANtricity, System Manager, E-Series, asynchronous, volumes
 summary: "When you are selecting a primary volume for a mirrored pair, a list shows all the eligible volumes."
 ---
 = Asynchronous mirroring - Why don't I see all my volumes?

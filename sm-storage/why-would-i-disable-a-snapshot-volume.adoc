@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-would-i-disable-a-snapshot-volume.html
 sidebar: sidebar
-keywords: why, would, disable, snapshot, volume
+keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume
 summary: "You disable a snapshot volume when you want to assign a different snapshot volume to the snapshot image. You can reserve the disabled snapshot volume for later use."
 ---
 = Why would I disable a snapshot volume?

@@ -1,7 +1,7 @@
 ---
 permalink: um-manage/overview-manage-groups.html
 sidebar: sidebar
-keywords: manage, groups
+keywords: SANtricity, Unified Manager, E-Series, manage, groups
 summary: "From the Manage Groups page, you can create a set of storage array groups for easier management."
 ---
 = Groups overview

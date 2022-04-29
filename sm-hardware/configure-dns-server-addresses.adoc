@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/configure-dns-server-addresses.html
 sidebar: sidebar
-keywords: configure, dns, server, addresses,
+keywords: SANtricity, System Manager, E-Series, configure, dns, server, addresses,
 summary: "Domain Name System (DNS) is used to resolve fully qualified domain names for the controllers and a Network Time Protocol (NTP) server. The management ports on the storage array can support IPv4 or IPv6 protocols simultaneously."
 ---
 = Configure DNS server addresses
@@ -38,7 +38,7 @@ The controller's context menu appears.
 
 . Select *Configure DNS server*.
 +
-The *Configure Domain Name System (DNS) Server* dialog box opens.
+The Configure Domain Name System (DNS) Server dialog box opens.
 
 . Select one of the following options:
  ** *Automatically obtain DNS server addresses from DHCP server* -- The detected DNS server addresses are shown.

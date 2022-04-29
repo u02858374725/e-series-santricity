@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/upgrade-controller-software-and-firmware.html
 sidebar: sidebar
-keywords: upgrade, software, firmware
+keywords: SANtricity, System Manager, E-Series, upgrade, software, firmware
 summary: "You can upgrade your storage array’s software and, optionally, the IOM firmware and the nonvolatile static random access memory (NVSRAM) to make sure you have all the latest features and bug fixes."
 ---
 = Upgrade controller software and firmware
@@ -39,9 +39,9 @@ You can choose to upgrade only the OS software file or only the Controller NVSRA
 
 Perform this operation only when instructed to do so by technical support.
 
-[NOTE]
+[CAUTION]
 ====
-*Risk of data loss or risk of damage to the storage array* - Do not make changes to the storage array while the upgrade is occurring. Maintain power to the storage array.
+*Risk of data loss or risk of damage to the storage array* -- Do not make changes to the storage array while the upgrade is occurring. Maintain power to the storage array.
 ====
 
 .Steps
@@ -65,7 +65,7 @@ If you have a storage array with a single controller, the IOM firmware is not up
 
 . Under SANtricity OS Software upgrade, click *Begin Upgrade*.
 +
-The *Upgrade SANtricity OS Software* dialog box appears.
+The Upgrade SANtricity OS Software dialog box appears.
 
 . Select one or more files to begin the upgrade process:
  .. Select the SANtricity OS Software file by clicking *Browse* and navigating to the OS software file you downloaded from the Support web site.

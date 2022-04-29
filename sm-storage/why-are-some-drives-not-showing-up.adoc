@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/why-are-some-drives-not-showing-up.html
 sidebar: sidebar
-keywords: why, drives, not, showing, up
+keywords: SANtricity, System Manager, E-Series, drives, Add Capacity
 summary: "In the Add Capacity dialog, not all drives are available for adding capacity to an existing pool or volume group."
 ---
 = Why are some drives not showing up?

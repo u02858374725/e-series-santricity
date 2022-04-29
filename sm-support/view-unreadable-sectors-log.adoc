@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-unreadable-sectors-log.html
 sidebar: sidebar
-keywords: view, unreadable, sectors, log
+keywords: SANtricity, System Manager, E-Series, view, unreadable, sectors, log
 summary: "You can save the unreadable sectors log and send the file to technical support for analysis."
 ---
 = View unreadable sectors log
@@ -26,7 +26,7 @@ The unreadable sectors log can store up to 1,000 unreadable sectors. When the un
 These actions include RAID 5 writes and RAID 6 writes that would have succeeded before the overflow.
 ====
 
-[NOTE]
+[CAUTION]
 ====
 *Possible loss of data* -- Recovery from unreadable sectors is a complicated procedure that can involve several different methods. Perform this operation only when instructed to do so by technical support.
 ====

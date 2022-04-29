@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html
 sidebar: sidebar
-keywords: what, do, I, need, to, know, before, creating, a, security, key,
+keywords: SANtricity, System Manager, E-Series, creating, security, key,
 summary: "A security key is shared by controllers and secure-enabled drives within a storage array. If a secure-enabled drive is removed from the storage array, the security key protects the data from unauthorized access."
 ---
 = What do I need to know before creating a security key?

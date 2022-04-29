@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/allow-remote-login.html
 sidebar: sidebar
-keywords: allow, remote, login, local, area, network
+keywords: SANtricity, System Manager, E-Series, remote, login,
 summary: "Remote login lets users from outside of the local area network start an SSH session and change settings on the controller."
 ---
 = Allow remote login
@@ -11,7 +11,7 @@ summary: "Remote login lets users from outside of the local area network start a
 [.lead]
 Remote login lets users from outside of the local area network start an SSH session and change settings on the controller.
 
-[NOTE]
+[CAUTION]
 ====
 *Security risk* -- For security reasons, enable remote login for use only by technical support.
 ====

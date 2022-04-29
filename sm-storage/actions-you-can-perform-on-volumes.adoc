@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/actions-you-can-perform-on-volumes.html
 sidebar: sidebar
-keywords: actions, perform, volumes, increase, capacity, delete, copy, change, ownership
+keywords: SANtricity, System Manager, E-Series, volumes
 summary: "You can perform a number of different actions on a volume: increasing capacity, deleting, copying, initializing, redistributing, changing ownership, changing cache settings, and changing media scan settings."
 ---
 = Actions you can perform on volumes
@@ -58,13 +58,13 @@ Changing the ownership of a volume changes the preferred controller ownership of
 
 You can change the ownership of a volume by selecting menu:Storage[Volumes > More > Change ownership].
 
-*Mirroring and volume ownership*
+=== Mirroring and volume ownership
 
 If the primary volume of the mirrored pair is owned by controller A, then the secondary volume will also be owned by controller A of the remote storage array. Changing the primary volume's owner will automatically change the owner of the secondary volume to ensure that both volumes are owned by the same controller. Current ownership changes on the primary side automatically propagate to corresponding current ownership changes on the secondary side.
 
 If a mirror consistency group contains a local secondary volume and the controller ownership is changed, the secondary volume is automatically transferred back to its original controller owner on the first write operation. You cannot change the controller ownership of a secondary volume by using the *Change ownership* option.
 
-*Copy volume and volume ownership*
+=== Copy volume and volume ownership
 
 During a copy volume operation, the same controller must own both the source volume and the target volume. Sometimes both volumes do not have the same preferred controller when the copy volume operation starts. Therefore, the ownership of the target volume is automatically transferred to the preferred controller of the source volume. When the volume copy is completed or is stopped, ownership of the target volume is restored to its preferred controller.
 

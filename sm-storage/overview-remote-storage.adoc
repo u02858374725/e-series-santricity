@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/overview-remote-storage.html
 sidebar: sidebar
-keywords: remote, storage
+keywords: SANtricity, System Manager, E-Series, remote, storage
 summary: "If you have the Remote Storage feature, you can import data from a remote storage system. "
 ---
 = Remote Storage feature overview

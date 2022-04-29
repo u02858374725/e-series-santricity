@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html
 sidebar: sidebar
-keywords: accept, recommended, pool, configuration, factor,
+keywords: SANtricity, System Manager, E-Series, pool config
 summary: "Whether you accept the recommended pool configuration depends on a few factors."
 ---
 = How do I know if I should accept the recommended pool configuration?

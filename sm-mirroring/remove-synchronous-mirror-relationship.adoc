@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/remove-synchronous-mirror-relationship.html
 sidebar: sidebar
-keywords: remove, synchronous, mirror, relationship,
+keywords: SANtricity, System Manager, E-Series, remove, synchronous, mirror, relationship,
 summary: "You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array."
 ---
 = Remove synchronous mirror relationship
@@ -24,7 +24,7 @@ You can also remove a mirrored pair to correct an orphaned mirrored pair state. 
 . Select menu:Storage[Synchronous Mirroring].
 . Select the mirrored pair that you want to remove, and then select the menu:Uncommon Tasks[Remove].
 +
-The *Remove Mirror Relationship* dialog box appears.
+The Remove Mirror Relationship dialog box appears.
 
 . Confirm that you want to remove the mirrored pair, and then click *Remove*.
 

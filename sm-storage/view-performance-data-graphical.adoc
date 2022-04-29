@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/view-performance-data-graphical.html
 sidebar: sidebar
-keywords: view, graphical, performance, data
+keywords: SANtricity, System Manager, E-Series, view, graphical, performance,
 summary: "You can view graphical performance data for logical objects, physical objects, applications, and workloads."
 ---
 = View graphical performance data

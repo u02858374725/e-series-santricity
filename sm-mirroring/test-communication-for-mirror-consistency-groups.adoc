@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/test-communication-for-mirror-consistency-groups.html
 sidebar: sidebar
-keywords: test, communication, for, mirror, consistency, groups,
+keywords: SANtricity, System Manager, E-Series, test, communication, mirror, consistency, groups,
 summary: "You can test the communication link to diagnose possible communication problems between the local storage array and the remote storage array associated with a mirror consistency group."
 ---
 = Test communication for mirror consistency groups

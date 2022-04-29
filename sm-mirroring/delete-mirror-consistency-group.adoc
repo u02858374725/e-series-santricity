@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/delete-mirror-consistency-group.html
 sidebar: sidebar
-keywords: delete, mirror, consistency, group, storage, array,
+keywords: SANtricity, System Manager, E-Series, delete, mirror, consistency, group,
 summary: "You can delete mirror consistency groups that are no longer needed on the local storage array and on the remote storage array."
 ---
 = Delete mirror consistency group

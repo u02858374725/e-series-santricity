@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/assign-hot-spares-hardware.html
 sidebar: sidebar
-keywords: assign, hot, spares, raid,
+keywords: SANtricity, System Manager, E-Series, assign, hot, spares, raid,
 summary: "You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare."
 ---
 = Assign hot spares
@@ -24,7 +24,7 @@ You can assign a hot spare as a standby drive for additional data protection in 
 
 This task describes how to manually assign a hot spare from the Hardware page. The recommended coverage is two hot spares per drive set.
 
-[CAUTION]
+[NOTE]
 ====
 Hot spares can also be assigned from the Initial Setup wizard. You can determine if hot spares are already assigned by looking for drive bays shown in pink on the Hardware page.
 ====
@@ -49,7 +49,7 @@ If the drive is secure-enabled, the Secure Erase Drive? dialog box opens. To use
 *Possible loss of data* -- Make sure that you have selected the correct drive. After completing the Secure Erase operation, you cannot recover any of the data.
 ====
 +
-If the drive is *not* secure-enabled, the *Confirm Assign Hot Spare Drive* dialog box opens.
+If the drive is *not* secure-enabled, the Confirm Assign Hot Spare Drive dialog box opens.
 
 . Review the text in the dialog box, and then confirm the operation.
 +

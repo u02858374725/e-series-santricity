@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/enable-or-disable-autosupport-features.html
 sidebar: sidebar
-keywords: enable, disable, autosupport, features
+keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport,
 summary: "You enable the AutoSupport feature and the individual AutoSupport features during initial setup or you can enable or disable them later."
 ---
 = Enable or disable AutoSupport features

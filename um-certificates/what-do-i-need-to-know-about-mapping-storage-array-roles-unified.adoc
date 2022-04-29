@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html
 sidebar: sidebar
-keywords: what, do, need, know, about, mapping, storage, array, roles
+keywords: SANtricity, Unified Manager, E-Series, mapping, storage, array, roles
 summary: "Before mapping groups to roles, review the guidelines."
 ---
 = What do I need to know about mapping to storage array roles?

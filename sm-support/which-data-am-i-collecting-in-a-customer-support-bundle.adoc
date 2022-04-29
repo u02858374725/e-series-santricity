@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html
 sidebar: sidebar
-keywords: data, collection, autosupport, collection
+keywords: SANtricity, System Manager, E-Series, data, collection, autosupport, ASUP
 summary: "The AutoSupport feature and the manual Support Data Collection feature provide ways to collect data in a customer support bundle for remote troubleshooting and problem analysis by technical support."
 ---
 = What data am I collecting?

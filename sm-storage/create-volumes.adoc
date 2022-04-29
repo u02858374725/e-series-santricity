@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/create-volumes.html
 sidebar: sidebar
-keywords: create, volumes
+keywords: SANtricity, System Manager, E-Series, create, volumes
 summary: "You create volumes to add storage capacity to an application-specific workload, and to make the created volumes visible to a specific host or host cluster. In addition, the volume creation sequence provides options to allocate specific amounts of capacity to each volume you want to create."
 ---
 = Create volumes
@@ -18,17 +18,12 @@ Most application types default to a user-defined volume configuration. Some appl
 
 The process to create a volume is a multi-step procedure.
 
-[NOTE]
-====
-If you want to mirror a volume, first create the volumes that you want to mirror, and then use the menu:Storage[Volumes > Copy Services > Mirror a volume asynchronously] option.
-====
-
 == Step 1: Select host for a volume
 You create volumes to add storage capacity to an application-specific workload, and to make the created volumes visible to a specific host or host cluster. In addition, the volume creation sequence provides options to allocate specific amounts of capacity to each volume you want to create.
 
 .Before you begin
 
-* Valid hosts or host clusters exist under the *Hosts* tile.
+* Valid hosts or host clusters exist under the Hosts tile.
 * Host port identifiers have been defined for the host.
 * Before creating a DA-enabled volume, the host connection you are planning to use must support DA. If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
 
@@ -52,12 +47,12 @@ Assigning a volume to a host will fail if you try to assign a volume to a host c
 . Select menu:Storage[Volumes].
 . Select menu:Create[Volume].
 +
-The *Create Volumes* dialog box appears.
+The Create Volumes dialog box appears.
 
 . From the drop-down list, select a specific host or host cluster to which you want to assign volumes, or choose to assign the host or host cluster at a later time.
 . To continue the volume creation sequence for the selected host or host cluster, click *Next*, and go to <<Step 2: Select a workload for a volume>>.
 +
-The *Select Workload* dialog box appears.
+The Select Workload dialog box appears.
 
 == Step 2: Select a workload for a volume
 Select a workload to customize the storage array configuration for a specific application, such as Microsoft SQL Server, Microsoft Exchange, Video Surveillance applications, or VMware. You can select "Other application" if the application you intend to use on this storage array is not listed.
@@ -66,8 +61,8 @@ Select a workload to customize the storage array configuration for a specific ap
 
 This task describes how to create volumes for an existing workload.
 
-* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the *Add/Edit Volumes* dialog box.
-* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the *Add/Edit Volumes* dialog box.
+* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the Add/Edit Volumes dialog box.
 
 .Steps
 
@@ -95,28 +90,35 @@ System Manager may suggest a volume configuration based on the application or wo
  ** 512 volumes (E2800 series)
 * To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
 +
-Selecting a DA capable pool or volume group
-+
+.Selecting a secure-capable pool or volume group
+[%collapsible]
+====
+
 If you want to create a DA-enabled volume, select a pool or volume group that is DA capable (look for *Yes* next to "DA" in the pool and volume group candidates table).
-+
+
 DA capabilities are presented at the pool and volume group level in System Manager. DA protection checks for and corrects errors that might occur as data is transferred through the controllers down to the drives. Selecting a DA-capable pool or volume group for the new volume ensures that any errors are detected and corrected.
-+
+
 If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
+====
+
 * To create a secure-enabled volume, a security key must be created for the storage array.
 +
-Selecting a secure-capable pool or volume group
-+
+.Selecting a secure-capable pool or volume group
+[%collapsible]
+====
+
 If you want to create a secure-enabled volume, select a pool or volume group that is secure capable (look for *Yes* next to "Secure-capable" in the pool and volume group candidates table).
-+
+
 Drive security capabilities are presented at the pool and volume group level in System Manager. Secure-capable drives prevent unauthorized access to the data on a drive that is physically removed from the storage array. A secure-enabled drive encrypts data during writes and decrypts data during reads using a unique _encryption key_.
-+
+
 A pool or volume group can contain both secure-capable and non-secure-capable drives, but all drives must be secure-capable to use their encryption capabilities.
+====
 
 * To create a resource-provisioned volume, all drives must be NVMe drives with the Deallocated or Unwritten Logical Block Error (DULBE) option.
 
 .About this task
 
-You create volumes from pools or volume groups. The *Add/Edit Volumes* dialog box shows all eligible pools and volume groups on the storage array. For each eligible pool and volume group, the number of drives available and the total free capacity appears.
+You create volumes from pools or volume groups. The Add/Edit Volumes dialog box shows all eligible pools and volume groups on the storage array. For each eligible pool and volume group, the number of drives available and the total free capacity appears.
 
 For some application-specific workloads, each eligible pool or volume group shows the proposed capacity based on the suggested volume configuration and shows the remaining free capacity in GiB. For other workloads, the proposed capacity appears as you add volumes to a pool or volume group and specify the reported capacity.
 
@@ -125,11 +127,11 @@ For some application-specific workloads, each eligible pool or volume group show
 . Choose one of these actions based on whether you selected Other or an application-specific workload:
  ** *Other* -- Click *Add new volume* in each pool or volume group that you want to use to create one or more volumes.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 
 |===
 | Field| Description
@@ -140,7 +142,7 @@ A volume is assigned a default name by System Manager during the volume creation
 a|
 Reported Capacity
 a|
-Define the capacity of the new volume and the capacity units to use (MiB, GiB, or TiB). For *Thick volumes*, the minimum capacity is 1 MiB, and the maximum capacity is determined by the number and capacity of the drives in the pool or volume group.
+Define the capacity of the new volume and the capacity units to use (MiB, GiB, or TiB). For Thick volumes, the minimum capacity is 1 MiB, and the maximum capacity is determined by the number and capacity of the drives in the pool or volume group.
 
 Keep in mind that storage capacity is also required for copy services (snapshot images, snapshot volumes, volume copies, and remote mirrors); therefore, do not allocate all of the capacity to standard volumes.
 
@@ -193,7 +195,7 @@ a|
 
  ** *Application-specific workload* -- Either click *Next* to accept the system-recommended volumes and characteristics for the selected workload, or click *Edit Volumes* to change, add, or delete the system-recommended volumes and characteristics for the selected workload.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
@@ -208,7 +210,7 @@ A volume is assigned a default name by System Manager during the volume creation
 a|
 Reported Capacity
 a|
-Define the capacity of the new volume and the capacity units to use (MiB, GiB, or TiB). For *Thick volumes*, the minimum capacity is 1 MiB, and the maximum capacity is determined by the number and capacity of the drives in the pool or volume group.
+Define the capacity of the new volume and the capacity units to use (MiB, GiB, or TiB). For Thick volumes, the minimum capacity is 1 MiB, and the maximum capacity is determined by the number and capacity of the drives in the pool or volume group.
 
 Keep in mind that storage capacity is also required for copy services (snapshot images, snapshot volumes, volume copies, and remote mirrors); therefore, do not allocate all of the capacity to standard volumes.
 

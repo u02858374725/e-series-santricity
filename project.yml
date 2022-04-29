@@ -28,8 +28,6 @@ sidebar:
             url: "/san-getstarted/access-sam.html"
           - title: Setup wizard overview
             url: "/sm-interface/setup-wizard-overview.html"
-          - title: Setup wizard terminology
-            url: "/sm-interface/setup-wizard-terminology.html"
           - title: FAQs
             entries:
               - title: What if I don&#8217;t see all of my hardware components?
@@ -73,11 +71,11 @@ sidebar:
             url: "/sm-storage/view-and-save-performance-data-tabular.html"
           - title: Interpret performance data
             url: "/sm-storage/interpret-performance-data.html"
-        - title: View array components
-          url: "/sm-interface/storage-array-overview.html"
+        - title: View storage hierarchy
+          url: "/sm-interface/view-storage-hierarchy.html"
         - title: Manage interface settings
           entries:
-            - title: Set password protection
+            - title: Manage password protection
               url: "/sm-interface/administrator-password-protection.html"
             - title: Set default capacity values
               url: "/sm-interface/set-default-units-for-capacity-values.html"
@@ -773,8 +771,6 @@ sidebar:
               url: "/sm-hardware/drive-states.html"
             - title: Solid State Disks (SSDs)
               url: "/sm-hardware/solid-state-disks-ssds.html"
-            - title: Hot spare drives
-              url: "/sm-hardware/hot-spare-drives.html"
             - title: Limit drive view
               url: "/sm-hardware/limit-the-drive-view.html"
             - title: Turn on drive locator light
@@ -789,14 +785,18 @@ sidebar:
               url: "/sm-hardware/initialize-format-drive.html"
             - title: Fail drive
               url: "/sm-hardware/fail-drive.html"
-            - title: Assign hot spares
-              url: "/sm-hardware/assign-hot-spares-hardware.html"
-            - title: Unassign hot spares
-              url: "/sm-hardware/unassign-hot-spares.html"
             - title: Erase drives
               url: "/sm-hardware/erase-drive.html"
             - title: Unlock or reset locked NVMe or FIPS drives
               url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+        - title: Manage hot spares
+          entries:
+            - title: Hot spare drive overview
+              url: "/sm-hardware/hot-spare-drives.html"
+            - title: Assign hot spares
+              url: "/sm-hardware/assign-hot-spares-hardware.html"
+            - title: Unassign hot spares
+              url: "/sm-hardware/unassign-hot-spares.html"
         - title: Shelf FAQs
           entries:
           - title: What is shelf loss protection and drawer loss protection?
@@ -1344,7 +1344,7 @@ sidebar:
         url: "/um-manage/overview-mirroring-um.html"
       - title: Concepts
         entries:
-        - title: Mirroring overview
+        - title: How mirroring works
           url: "/um-manage/mirroring-overview.html"
         - title: Configuration workflow
           url: "/um-manage/mirroring-configuration-workflow.html"

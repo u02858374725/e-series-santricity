@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/view-nvme-over-fabrics-statistics-system.html
 sidebar: sidebar
-keywords: view, nvme, over, fabrics, statistics,
+keywords: SANtricity, System Manager, E-Series, view, nvme, fabrics, statistics,
 summary: "You can view data about the NVMe over Fabrics connections to your storage array."
 ---
 = View NVMe over Fabrics statistics

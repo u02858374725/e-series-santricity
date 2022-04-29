@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-syslog-server-for-audit-logs.html
 sidebar: sidebar
-keywords: configure, syslog, server, for, audit, logs,
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs,
 summary: "If you want to archive audit logs onto an external syslog server, you can configure communications between that server and the storage array. After the connection is established, audit logs are automatically saved to the syslog server."
 ---
 = Configure syslog server for audit logs
@@ -23,11 +23,11 @@ If you want to archive audit logs onto an external syslog server, you can config
 . Select menu:Settings[Access Management].
 . From the *Audit Log* tab, select *Configure Syslog Servers*.
 +
-The *Configure Syslog Servers* dialog box opens.
+The Configure Syslog Servers dialog box opens.
 
 . Click *Add*.
 +
-The *Add Syslog Server* dialog box opens.
+The Add Syslog Server dialog box opens.
 
 . Enter information for the server, and then click *Add*.
  ** *Server address* -- Enter a fully qualified domain name, an IPv4 address, or an IPv6 address.

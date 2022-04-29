@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/change-ssd-cache-settings.html
 sidebar: sidebar
-keywords: change, ssd, cache, settings
+keywords: SANtricity, System Manager, E-Series, ssd, cache, settings
 summary: "You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives."
 ---
 = Change SSD Cache settings
@@ -12,8 +12,6 @@ summary: "You can edit the name of the SSD Cache and view its status, maximum an
 [.lead]
 You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives.
 
-.About this task
-++ ++
 [NOTE]
 ====
 This feature is not available on the EF600 or EF300 storage system.
@@ -24,15 +22,15 @@ This feature is not available on the EF600 or EF300 storage system.
 . Select menu:Storage[Pools & Volume Groups].
 . Select the SSD Cache that you want to edit, and then click *View/Edit Settings*.
 +
-The *SSD Cache Settings* dialog box appears.
+The SSD Cache Settings dialog box appears.
 
 . Review or edit the SSD Cache settings as appropriate.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Setting| Description
 a|

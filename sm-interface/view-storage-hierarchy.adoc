@@ -1,15 +1,15 @@
 ---
-permalink: sm-interface/storage-array-overview.html
+permalink: sm-interface/view-storage-hierarchy.html
 sidebar: sidebar
-keywords: storage, array, overview, system, manager, software,
-summary: "A storage array is a storage entity that is managed by the System Manager software. A storage array consists of a collection of both physical components and logical components."
+keywords: SANtricity, System Manager, E-Series, storage hierarchy
+summary: "The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array."
 ---
 = View storage hierarchy
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array. 
+The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array.
 
 To view the storage hierarchy, go to the Home page and click the drop-down arrow on a storage array component or storage object. A storage array consists of a collection of both physical components and logical components.
 
@@ -17,7 +17,7 @@ To view the storage hierarchy, go to the Home page and click the drop-down arrow
 
 The physical components of a storage array are described in this table.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Component| Description
 a|
@@ -66,7 +66,7 @@ A management client is the computer where a browser is installed for accessing S
 
 The drives in the storage array provide the physical storage capacity for data. Use System Manager to configure the physical capacity into logical components, such as pools, volume groups, and volumes. These components are the tools that you use to configure, store, maintain, and preserve data on the storage array. The logical components of a storage array are described in this table.
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Component| Description
 a|

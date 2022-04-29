@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/add-user-names-for-snmp-traps.html
 sidebar: sidebar
-keywords: add, users, for, snmpv3, traps,
+keywords: SANtricity, System Manager, E-Series, add, users, snmpv3, traps,
 summary: "You can add up to 256 users for SNMPv3 traps."
 ---
 = Add users for SNMPv3 traps
@@ -21,7 +21,7 @@ The trap destinations and user names appear in the table.
 
 . Select *Configure Users*.
 +
-The *Configure SNMPv3 Users* dialog box opens.
+The Configure SNMPv3 Users dialog box opens.
 
 . Select *Add*.
 . Enter the following information, and then click *Add*.

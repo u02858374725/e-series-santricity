@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/access-management-with-directory-services-unified.html
 sidebar: sidebar
-keywords: access, management, directory, services
+keywords: SANtricity, Unified Manager, E-Series, access management, directory services,
 summary: "Administrators can use an LDAP (Lightweight Directory Access Protocol) server and a directory service, such as Microsoft’s Active Directory."
 ---
 = Access Management with directory services

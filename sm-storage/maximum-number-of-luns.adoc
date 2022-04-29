@@ -1,7 +1,7 @@
 ---
 permalink: sm-storage/maximum-number-of-luns.html
 sidebar: sidebar
-keywords: maximum, number, luns
+keywords: SANtricity, System Manager, E-Series, maximum, luns
 summary: "The storage array has a maximum number of logical unit numbers (LUNs) that can be used for each host."
 ---
 = Maximum number of LUNs

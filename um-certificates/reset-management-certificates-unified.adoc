@@ -1,7 +1,7 @@
 ---
 permalink: um-certificates/reset-management-certificates-unified.html
 sidebar: sidebar
-keywords: reset, management, certificates
+keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates
 summary: "You can revert the management certificate to the original, factory self-signed state."
 ---
 = Reset management certificates
@@ -13,7 +13,7 @@ You can revert the management certificate to the original, factory self-signed s
 
 .Before you begin
 
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
 .About this task
 
@@ -22,9 +22,9 @@ This task deletes the current management certificate from the host system where 
 .Steps
 
 . Select *Certificate Management*.
-. From the *Management* tab, select *Reset*.
+. From the Management tab, select *Reset*.
 +
-A *Confirm Reset Management Certificate* dialog box opens.
+A Confirm Reset Management Certificate dialog box opens.
 
 . Type `reset` in the field, and then click *Reset*.
 +

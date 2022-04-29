@@ -1,7 +1,7 @@
 ---
 permalink: sm-hardware/considerations-for-assigning-ip-addresses.html
 sidebar: sidebar
-keywords: considerations, assigning, ip, addresses
+keywords: SANtricity, System Manager, E-Series, considerations, assigning, ip, addresses
 summary: "By default, controllers ship with DHCP enabled on both network ports. You can assign static IP addresses, use the default static IP addresses, or use DHCP-assigned IP addresses. You also can use IPv6 stateless auto-configuration."
 ---
 = Considerations for assigning IP addresses
