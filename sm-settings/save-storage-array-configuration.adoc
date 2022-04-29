@@ -43,15 +43,15 @@ This operation _does not_ save these settings:
 . Select menu:Settings[System].
 . Select *Save Storage Array Configuration*.
 . Select the items of the configuration that you want to save:
- ** *Storage array settings*
- ** *Volume configuration*
- ** *Host configuration*
- ** *Host-to-volume assignments*
+ ** Storage array settings
+ ** Volume configuration
+ ** Host configuration
+ ** Host-to-volume assignments
 
 +
 [NOTE]
 ====
-If you select the *Host-to-volume assignments* item, the *Volume configuration* item and the *Host configuration* item are also selected by default. You cannot save "Host-to-volume assignments" without also saving "Volume configuration" and ""*Host configuration".
+If you select the *Host-to-volume assignments* item, the *Volume configuration* item and the *Host configuration* item are also selected by default. You cannot save "Host-to-volume assignments" without also saving "Volume configuration" and "Host configuration."
 ====
 . Click *Save*.
 +

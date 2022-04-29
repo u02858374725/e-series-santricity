@@ -18,7 +18,7 @@ The MIB file must be copied and compiled on the server with the SNMP service app
 
 If you do not have a MIB file, you can obtain it as follows:
 
-* Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support].
+* Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].
 * Click *Downloads*, and then select *Downloads*.
 * Click *E-Series SANtricity OS Controller Software*.
 * Select *Download Latest Release*.

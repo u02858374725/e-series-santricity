@@ -27,7 +27,7 @@ After you complete this task, any active user sessions are terminated. Only your
 . From the list, select the directory server you want to delete.
 . Click *Remove*.
 +
-The *Remove Directory Server* dialog box opens.
+The Remove Directory Server dialog box opens.
 
 . Type `remove` in the field, and then click *Remove*.
 +

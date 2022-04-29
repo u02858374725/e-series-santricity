@@ -44,7 +44,7 @@ In this task, you define the IP address of the key management server and the por
 If internal key management is currently configured, a dialog box opens and asks you to confirm that you want to switch to external key management.
 ====
 +
-The *Create External Security Key* dialog box opens.
+The Create External Security Key dialog box opens.
 
 . Under *Connect to Key Server*, enter information in the following fields.
  ** *Key management server address* -- Enter the fully qualified domain name or the IP address (IPv4 or IPv6) of the server used for key management.

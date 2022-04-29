@@ -19,7 +19,7 @@ You can add up to 10 servers for sending SNMP traps.
 +
 If you do not have the MIB file, you can obtain it from the NetApp Support site:
 
- ** Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support].
+ ** Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].
  ** Click *Downloads*, and then select *Downloads*.
  ** Click *E-Series SANtricity OS Controller Software*.
  ** Select *Download Latest Release*.

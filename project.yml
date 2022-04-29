@@ -1344,7 +1344,7 @@ sidebar:
         url: "/um-manage/overview-mirroring-um.html"
       - title: Concepts
         entries:
-        - title: Mirroring overview
+        - title: How mirroring works
           url: "/um-manage/mirroring-overview.html"
         - title: Configuration workflow
           url: "/um-manage/mirroring-configuration-workflow.html"

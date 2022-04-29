@@ -19,7 +19,7 @@ To configure Simple Network Management Protocol (SNMP) alerts, you must identify
 +
 If you do not have the MIB file, you can obtain it from the NetApp Support site:
 
- ** Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support].
+ ** Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].
  ** Click the *Downloads* tab, and then select *Downloads*.
  ** Click *E-Series SANtricity OS Controller Software*.
  ** Select *Download Latest Release*.
