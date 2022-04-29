@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-is-configuration-data.html
 sidebar: sidebar
-keywords: what, define, configuration, data, collect, database
+keywords: SANtricity, 11.7, System Manager, E-Series, configuration, data, collect, database
 summary: "When you select Collect Configuration Data, the system saves the current state of the RAID configuration database."
 ---
 = What is configuration data?

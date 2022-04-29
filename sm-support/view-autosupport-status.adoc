@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-autosupport-status.html
 sidebar: sidebar
-keywords: view, autosupport, status
+keywords: SANtricity, 11.7, System Manager, E-Series, view, autosupport, status
 summary: "The AutoSupport page shows you whether the AutoSupport feature and the individual AutoSupport features are currently enabled."
 ---
 = View AutoSupport status

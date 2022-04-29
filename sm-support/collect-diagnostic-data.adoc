@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/collect-diagnostic-data.html
 sidebar: sidebar
-keywords: collect, diagnostic, data
+keywords: SANtricity, 11.7, System Manager, E-Series, collect, diagnostic data
 summary: "You collect diagnostic data so technical support can use the data for troubleshooting and further analysis."
 ---
 = Collect diagnostic data

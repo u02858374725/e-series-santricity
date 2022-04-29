@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-storage-array-profile.html
 sidebar: sidebar
-keywords: view, storage, array, profile
+keywords: SANtricity, 11.7, System Manager, E-Series, view, storage, array, profile
 summary: "The storage array profile provides a description of all of the components and properties of the storage array."
 ---
 = View storage array profile
@@ -23,17 +23,17 @@ You can use the storage array profile as an aid during recovery or as an overvie
 +
 The report appears on your screen.
 +
-.Field Details
+.Field details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 |Section| Description
 a|
 Storage Array
 a|
-Shows all of the options that you can configure and the system static options for your storage array. These options include the number of controllers, drive shelves, drives, disk pools, volume groups, volumes, and hot spare drives; the maximum number of drive shelves, drives, Solid State Disks (SSDs), and volumes allowed; the number of snapshot groups, snapshot images, snapshot volumes and consistency groups; information about features; information about firmware versions; information about the chassis serial number; AutoSupport status and AutoSupport schedule information;the settings for automatic support data collection and scheduled support data collection; the storage array World-Wide Identifier (WWID); and the media scan and cache settings.
+Shows all of the options that you can configure and the system static options for your storage array. These options include the number of controllers, drive shelves, drives, disk pools, volume groups, volumes, and hot spare drives; the maximum number of drive shelves, drives, Solid State Disks (SSDs), and volumes allowed; the number of snapshot groups, snapshot images, snapshot volumes and consistency groups; information about features; information about firmware versions; information about the chassis serial number; AutoSupport status and AutoSupport schedule information; the settings for automatic support data collection and scheduled support data collection; the storage array World-Wide Identifier (WWID); and the media scan and cache settings.
 a|
 Storage
 a|

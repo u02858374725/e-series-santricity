@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html
 sidebar: sidebar
-keywords: what, need, know, before, upgrading, santricity, os, software
+keywords: SANtricity, 11.7, System Manager, E-Series, upgrading, santricity, os, software
 summary: "Before you upgrade your controller’s software and firmware, be aware of these items."
 ---
 = What do I need to know before upgrading the SANtricity OS Software?

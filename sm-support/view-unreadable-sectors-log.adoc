@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-unreadable-sectors-log.html
 sidebar: sidebar
-keywords: view, unreadable, sectors, log
+keywords: SANtricity, 11.7, System Manager, E-Series, view, unreadable, sectors, log
 summary: "You can save the unreadable sectors log and send the file to technical support for analysis."
 ---
 = View unreadable sectors log

@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/overview-mirroring-async.html
 sidebar: sidebar
-keywords: SANtricity, 11.7, System Manager, E-Series, asynchronous, mirroring, firmware,
+keywords: SANtricity, 11.7, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware,
 summary: "The Asynchronous Mirroring feature provides a controller-level, firmware-based mechanism for data replication between a local storage array and a remote storage array."
 ---
 = Asynchronous mirroring overview

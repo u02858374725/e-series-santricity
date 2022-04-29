@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/view-events-using-the-event-log.html
 sidebar: sidebar
-keywords: view, events, using, event, log
+keywords: SANtricity, 11.7, System Manager, E-Series, view, events,
 summary: "You can view the event log, which provides a historical record of events that have occurred on the storage array."
 ---
 = View events using the event log
@@ -16,10 +16,13 @@ You can view the event log, which provides a historical record of events that ha
 
 . Select menu:Support[Event Log].
 +
-The *Event Log* page appears.
+The Event Log page appears.
 +
-Page details
-+
+.Page details
+
+[%collapsible]
+====
+
 [cols="25h,~",options="header"]
 |===
 | Item| Description
@@ -44,10 +47,8 @@ Date/Time column
 a|
 The date and time stamp of the event, according to the controller clock.
 
-[NOTE]
-====
-The event log initially sorts events based on sequence number. Usually, this sequence corresponds to the date and time. However, the two controller clocks in the storage array could be unsynchronized. In this case, some perceived inconsistencies could appear in the event log relative to events and the date and time shown.
-====
+NOTE: The event log initially sorts events based on sequence number. Usually, this sequence corresponds to the date and time. However, the two controller clocks in the storage array could be unsynchronized. In this case, some perceived inconsistencies could appear in the event log relative to events and the date and time shown.
+
 a|
 Priority column
 a|
@@ -97,6 +98,7 @@ Logged By column
 a|
 The name of the controller that logged the event. To display this information, click the **Select columns** icon.
 |===
+====
 
 . To retrieve new events from the storage array, click **Refresh**.
 +

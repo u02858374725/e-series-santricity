@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/review-the-possible-software-and-firmware-upgrade-errors.html
 sidebar: sidebar
-keywords: review, possible, software, firmware, upgrade, errors
+keywords: SANtricity, 11.7, System Manager, E-Series, software, firmware, upgrade, errors
 summary: "Errors can occur during either the controller software upgrade or the drive firmware upgrade."
 ---
 = Review the possible software and firmware upgrade errors

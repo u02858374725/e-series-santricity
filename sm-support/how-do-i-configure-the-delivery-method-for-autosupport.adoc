@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html
 sidebar: sidebar
-keywords: how, to, configure, delivery, method, autosupport, feature
+keywords: SANtricity, 11.7, System Manager, E-Series, configure, delivery, method, autosupport,
 summary: "The AutoSupport feature supports the protocols HTTPS, HTTP, and SMTP for delivering AutoSupport dispatches to technical support."
 ---
 = How do I configure the delivery method for the AutoSupport feature?

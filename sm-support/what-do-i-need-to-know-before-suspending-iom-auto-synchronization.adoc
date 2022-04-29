@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html
 sidebar: sidebar
-keywords: What, do, need, know, before, suspending, iom, auto-synchronization
+keywords: SANtricity, 11.7, System Manager, E-Series, suspend, iom, auto-synchronization
 summary: "Suspending IOM auto-synchronization prevents the IOM firmware from being upgraded the next time a SANtricity OS controller software upgrade occurs."
 ---
 = What do I need to know before suspending IOM auto-synchronization?

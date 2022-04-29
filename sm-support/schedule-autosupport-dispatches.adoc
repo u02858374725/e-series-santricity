@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/schedule-autosupport-dispatches.html
 sidebar: sidebar
-keywords: schedule, autosupport, dispatches
+keywords: SANtricity, 11.7, System Manager, E-Series, schedule, autosupport, dispatches
 summary: "System Manager automatically creates a default schedule for AutoSupport dispatches. If you prefer, you can specify your own schedule."
 ---
 = Schedule AutoSupport dispatches

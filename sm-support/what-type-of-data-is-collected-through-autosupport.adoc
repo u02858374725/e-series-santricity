@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/what-type-of-data-is-collected-through-autosupport.html
 sidebar: sidebar
-keywords: what, type, data, collected, autosupport, feature
+keywords: SANtricity, 11.7, System Manager, E-Series, data, collected, autosupport, ASUP
 summary: "The AutoSupport feature contains three standard dispatch types: event dispatches, scheduled dispatches, and on-demand and remote diagnostics dispatches."
 ---
 = What type of data is collected through the AutoSupport feature?
