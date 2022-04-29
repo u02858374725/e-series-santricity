@@ -1,7 +1,7 @@
 indexpage:
   lead: SANtricity software lets you achieve maximum performance and utilization of your E-Series hybrid-flash and EF-Series all-flash arrays for heavy-workload applications, including data analytics, video surveillance, and backup and recovery.
   tiles:
-     - title: Get started
+     - title: Set up
        links:
          - title: System Manager interface
            url: /sm-interface/overview-interface-sam.html"
