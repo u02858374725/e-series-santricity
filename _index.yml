@@ -9,7 +9,7 @@ indexpage:
            url: /um-admin/overview-interface-unified.html
          - title: SANtricity software datasheet
            url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
-     - title: E-series docs
+     - title: E-Series docs
        links:
          - title: E-Series systems docs
            url: https://docs.netapp.com/us-en/e-series/index.html
