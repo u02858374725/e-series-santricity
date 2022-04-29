@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/automatic-load-balancing-overview.html
 sidebar: sidebar
-keywords: automatic, load, balancing, overview,
+keywords: SANtricity, 11.7, System Manager, E-Series, automatic, load, balancing,
 summary: "Automatic load balancing provides improved I/O resource management by reacting dynamically to load changes over time and automatically adjusting volume controller ownership to correct any load imbalance issues when workloads shift across the controllers."
 ---
 = Automatic load balancing overview
@@ -63,15 +63,15 @@ Native Multipathing Plugin (NMP) with `VMW_SATP_ALUA Storage Array Type` plug-in
 With minor exceptions, host types that do not support Automatic Load Balancing continue to operate normally whether or not the feature is enabled. One exception is that if a system has a failover, storage arrays move unmapped or unassigned volumes back to the owning controller when the data path returns. Any volumes that are mapped or assigned to non-Automatic Load Balancing hosts are not moved.
 ====
 
-See the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool] for compatibility information for specific multipath driver, OS level, and controller-drive tray support.
+See the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool^] for compatibility information for specific multipath driver, OS level, and controller-drive tray support.
 
 == Verifying OS compatibility with the Automatic Load Balancing feature
 
 Verify OS compatibility with the Automatic Load Balancing feature before setting up a new (or migrating an existing) system.
 
-. Go to the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool] to find your solution and verify support.
+. Go to the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool^] to find your solution and verify support.
 +
-If your system is running Red Hat Enterprise Linux 6 or SUSE Linux Enterprise Server 11, refer to https://kb.netapp.com/support/index?page=content&id=1015843[Knowledge base article 1015843]
+If your system is running Red Hat Enterprise Linux 6 or SUSE Linux Enterprise Server 11, refer to https://kb.netapp.com/support/index?page=content&id=1015843[Knowledge base article 1015843^]
 
 . Update and configure the `/etc/multipath.conf file`.
 . Ensure that both `retain_attached_device_handler` and `detect_prio` are set to `yes` for the applicable vendor and product, or use default settings.

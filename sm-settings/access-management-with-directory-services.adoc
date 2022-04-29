@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/access-management-with-directory-services.html
 sidebar: sidebar
-keywords: access, management, with, directory, services,
+keywords: SANtricity, 11.7, System Manager, E-Series, access management, directory services,
 summary: "For Access Management, administrators can use an LDAP (Lightweight Directory Access Protocol) server and a directory service, such as Microsoft’s Active Directory."
 ---
 = Access Management with directory services
@@ -15,7 +15,7 @@ For Access Management, administrators can use an LDAP (Lightweight Directory Acc
 
 If an LDAP server and directory service are used in the network, configuration works as follows:
 
-. An administrator logs in to SANtricity System Manager with a user profile that includes Security Admin permissions.
+. An administrator logs in to System Manager with a user profile that includes Security Admin permissions.
 +
 [NOTE]
 ====

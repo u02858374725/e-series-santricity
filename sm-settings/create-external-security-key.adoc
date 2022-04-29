@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/create-external-security-key.html
 sidebar: sidebar
-keywords: create, external, security, key,
+keywords: SANtricity, 11.7, System Manager, E-Series, create, external, security, key,
 summary: "To use the Drive Security feature with a key management server, you must create an external key that is shared by the key management server and the secure-capable drives in the storage array."
 ---
 = Create external security key
@@ -21,7 +21,7 @@ To use the Drive Security feature with a key management server, you must create 
 If both FDE and FIPS drives are installed in the storage array, they all share the same security key.
 ====
 
-* The Drive Security feature must be enabled. Otherwise, a *Cannot Create Security Key* dialog box opens during this task. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+* The Drive Security feature must be enabled. Otherwise, a Cannot Create Security Key dialog box opens during this task. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
 * You have a signed client certificate file for the storage array's controllers, and you have copied that file to the host where you are accessing System Manager. A client certificate validates the storage array's controllers, so the key management server can trust their Key Management Interoperability Protocol (KMIP) requests.
 * You must retrieve a certificate file from the key management server, and then copy that file to the host where you are accessing System Manager. A key management server certificate validates the key management server, so the storage array can trust its IP address. You can use a root, intermediate, or server certificate for the key management server.
 +

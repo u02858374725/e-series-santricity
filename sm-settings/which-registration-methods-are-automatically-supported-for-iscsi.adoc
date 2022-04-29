@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html
 sidebar: sidebar
-keywords: which, registration, methods, are, automatically, supported, for, iscsi,
+keywords: SANtricity, 11.7, System Manager, E-Series, registration, methods,  automatically, supported, iscsi,
 summary: "The iSCSI implementation supports either the Internet Storage Name Service (iSNS) discovery method or the use of the Send Targets command."
 ---
 = Which registration methods are automatically supported for iSCSI?

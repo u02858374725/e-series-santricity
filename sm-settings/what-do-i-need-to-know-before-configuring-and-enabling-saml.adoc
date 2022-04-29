@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html
 sidebar: sidebar
-keywords: what, do, I, need, to, know, before, configuring, and, enabling, SAML,
+keywords: SANtricity, 11.7, System Manager, E-Series, configuring, enabling, SAML,
 summary: "Before configuring and enabling the Security Assertion Markup Language (SAML) capabilities for authentication, make sure you meet the following requirements and understand SAML restrictions."
 ---
 = What do I need to know before configuring and enabling SAML?

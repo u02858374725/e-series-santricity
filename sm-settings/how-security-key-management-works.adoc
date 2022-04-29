@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/how-security-key-management-works.html
 sidebar: sidebar
-keywords: how, security, key, management, works,
+keywords: SANtricity, 11.7, System Manager, E-Series, security, key, management,
 summary: "When you implement the Drive Security feature, the secure-enabled drives (FIPS or FDE) require a security key for data access. A security key is a string of characters that is shared between these types of drives and the controllers in a storage array."
 ---
 = How security key management works

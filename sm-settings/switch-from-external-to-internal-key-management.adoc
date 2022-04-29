@@ -1,11 +1,11 @@
 ---
 permalink: sm-settings/switch-from-external-to-internal-key-management.html
 sidebar: sidebar
-keywords: switch, from, external, to, internal, key, management,
+keywords: SANtricity, 11.7, System Manager, E-Series, switch, external, internal, key, management,
 summary: "You can change the management method for Drive Security from an external key server to the internal method used by the storage array. The security key previously defined for external key management is then used for internal key management."
 ---
 = Switch from external to internal key management
-:external:
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -25,7 +25,7 @@ In this task, you disable external key management and download a new backup copy
 . Select menu:Settings[System].
 . Under *Security key management*, select *Disable External Key Management*.
 +
-The *Disable External Key Management* dialog box opens.
+The Disable External Key Management dialog box opens.
 
 . In *Define a pass phrase/Re-enter pass phrase*, enter and confirm a pass phrase for the backup of the key. The value can have between 8 and 32 characters, and must include each of the following:
  ** An uppercase letter (one or more). Keep in mind that the pass phrase is case sensitive.

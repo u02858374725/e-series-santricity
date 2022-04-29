@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/enable-premium-feature.html
 sidebar: sidebar
-keywords: enable, a, premium, feature,
+keywords: SANtricity, 11.7, System Manager, E-Series, enable, premium, feature,
 summary: "A premium feature is an extra option that requires a key to enable."
 ---
 = Enable a premium feature
@@ -31,7 +31,7 @@ If you want to disable a premium feature, you must use the Disable Storage Array
 . Select menu:Settings[System].
 . Under *Add-ons*, select *Enable Premium Feature*.
 +
-The *Enable a Premium Feature* dialog box opens.
+The Enable a Premium Feature dialog box opens.
 
 . Click *Browse*, and then select the key file.
 +

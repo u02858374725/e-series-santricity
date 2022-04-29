@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html
 sidebar: sidebar
-keywords: why, does, the, Cannot, Access, Other, Controller, dialog, box, appear,
+keywords: SANtricity, 11.7, System Manager, E-Series, Cannot, Access, Other, Controller
 summary: "When you perform certain operations related to CA certificates (for example, importing a certificate), you might see a dialog box prompting you to accept a self-signed certificate for the second controller."
 ---
 = Why does the Cannot Access Other Controller dialog box appear?

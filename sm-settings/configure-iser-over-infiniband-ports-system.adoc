@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-iser-over-infiniband-ports-system.html
 sidebar: sidebar
-keywords: configure, iser, over, infiniband, ports,
+keywords: SANtricity, 11.7, System Manager, E-Series, configure, iser, over, infiniband, ports,
 summary: "If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host."
 ---
 = Configure iSER over InfiniBand ports

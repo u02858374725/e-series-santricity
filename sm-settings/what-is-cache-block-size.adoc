@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-is-cache-block-size.html
 sidebar: sidebar
-keywords: what, is, cache, block, size,
+keywords: SANtricity, 11.7, System Manager, E-Series, cache, block, size,
 summary: "The storage array’s controller organizes its cache into blocks, which are chunks of memory that can be 8, 16, 32 KiB in size. All volumes on the storage system share the same cache space; therefore, the volumes can have only one cache block size."
 ---
 = What is cache block size?

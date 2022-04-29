@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/how-certificates-work-sam.html
 sidebar: sidebar
-keywords: how, certificates, work,
+keywords: SANtricity, 11.7, System Manager, E-Series, certificates,
 summary: "Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet."
 ---
 = How certificates work

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-iscsi-authentication.html
 sidebar: sidebar
-keywords: configure, iscsi, authentication,
+keywords: SANtricity, 11.7, System Manager, E-Series, configure, iscsi, authentication,
 summary: "For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators)."
 ---
 = Configure iSCSI authentication

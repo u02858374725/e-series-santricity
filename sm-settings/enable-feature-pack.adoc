@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/enable-feature-pack.html
 sidebar: sidebar
-keywords: enable, feature, pack,
+keywords: SANtricity, 11.7, System Manager, E-Series, enable, feature, pack,
 summary: "A feature pack is a bundle that changes storage array attributes (for example, changing the protocol from Fibre Channel to iSCSI). Feature packs require a special key for enablement."
 ---
 = Enable feature pack
@@ -38,7 +38,7 @@ This task describes how to use System Manager to enable a feature pack. When you
 +
 The file name is displayed in the dialog box.
 
-. Type *CHANGE* in the field.
+. Type `change` in the field.
 . Click *Change*.
 +
 The feature pack migration begins and the controllers reboot. Unwritten cache data is deleted, which ensures no I/O activity. Both controllers automatically reboot for the new feature pack to take effect. The storage array returns to a responsive state after the reboot is complete.

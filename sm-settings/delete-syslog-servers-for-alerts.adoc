@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/delete-syslog-servers-for-alerts.html
 sidebar: sidebar
-keywords: delete, syslog, servers, fo,r alerts,
+keywords: SANtricity, 11.7, System Manager, E-Series, delete, syslog, servers, alerts,
 summary: "You can delete a syslog server so it no longer receives alerts."
 ---
 = Delete syslog servers for alerts
@@ -18,7 +18,7 @@ You can delete a syslog server so it no longer receives alerts.
 . Select the *Syslog* tab.
 . Select a syslog server address, and then click *Remove* from the top right.
 +
-The *Confirm Delete Syslog Server* dialog box opens.
+The Confirm Delete Syslog Server dialog box opens.
 
 . Confirm the operation, and then click *Delete*.
 

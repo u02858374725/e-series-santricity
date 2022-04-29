@@ -1,20 +1,20 @@
 ---
 permalink: sm-settings/overview-drive-security.html
 sidebar: sidebar
-keywords: system, security, key, management,
+keywords: SANtricity, 11.7, System Manager, E-Series, system, security, key, management,
 summary: "Security key management is available from the System page."
 ---
-= Drive security overview
+= Drive Security overview
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can configure drive security and key management from the Security Key Management page.
+You can configure Drive Security and key management from the Security Key Management page.
 
 == What is Drive Security?
 
-_Drive Security_ is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When FDE or FIPS drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided. A security key is a string of characters that is shared between these types of drives and the controllers in a storage array.
+_Drive Security_ is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When FDE or FIPS drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, the drives will be in a Security Locked state until the correct security key is provided. A _security key_ is a string of characters that is shared between these types of drives and the controllers in a storage array.
 
 Learn more:
 

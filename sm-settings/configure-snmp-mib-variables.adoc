@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/configure-snmp-mib-variables.html
 sidebar: sidebar
-keywords: configure, snmp, mib, variables,
+keywords: SANtricity, 11.7, System Manager, E-Series, configure, snmp, mib, variables,
 summary: "For SNMP alerts, you can optionally configure Management Information Base (MIB) variables that appear in SNMP traps. These variables can return the storage array name, array location, and a contact person."
 ---
 = Configure SNMP MIB variables
@@ -40,7 +40,7 @@ This task describes how to define MIB variables for SNMP traps. These variables 
 . Select the *SNMP* tab.
 . Select *Configure SNMP MIB Variables*.
 +
-The *Configure SNMP MIB Variables* dialog box opens.
+The Configure SNMP MIB Variables dialog box opens.
 
 . Enter one or more of the following values, and then click *Save*.
  ** *Name* -- The value for the MIB variable `sysName`. For example, enter a name for the storage array.

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/delete-trusted-certificates.html
 sidebar: sidebar
-keywords: delete, trusted, certificates,
+keywords: SANtricity, 11.7, System Manager, E-Series, delete, trusted, certificates,
 summary: "You can delete the user-installed certificates previously imported from the Trusted tab."
 ---
 = Delete trusted certificates
@@ -36,6 +36,6 @@ The table shows the storage array's trusted certificates.
 . From the table, select the certificate you want to remove.
 . Click menu:Uncommon Tasks[Delete].
 +
-A *Confirm Delete Trusted Certificate* dialog box opens.
+A Confirm Delete Trusted Certificate dialog box opens.
 
 . Type `delete` in the field, and then click *Delete*.

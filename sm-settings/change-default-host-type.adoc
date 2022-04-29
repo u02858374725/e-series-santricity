@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/change-default-host-type.html
 sidebar: sidebar
-keywords: change, default, host, type,
+keywords: SANtricity, 11.7, System Manager, E-Series, change, default, host, type,
 summary: "Use the Change Default Host Operating System setting to change the default host type at the storage array level. Generally, you will change the default host type before you connect hosts to the storage array or when you connect additional hosts."
 ---
 = Change default host type

@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/view-audit-log-activity.html
 sidebar: sidebar
-keywords: view, audit, log, activity,
+keywords: SANtricity, 11.7, System Manager, E-Series, view, audit, log, activity,
 summary: "By viewing audit logs, users with Security Admin permissions can monitor user actions, authentication failures, invalid login attempts, and the user session lifespan."
 ---
 = View audit log activity
@@ -14,7 +14,7 @@ By viewing audit logs, users with Security Admin permissions can monitor user ac
 
 .Before you begin
 
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
 
 .Steps
 
@@ -32,11 +32,11 @@ Audit log activity appears in tabular format, which includes the following colum
 
 . Use the selections on the Audit Log page to view and manage events.
 +
-.Selection Details
+.Selection details
 [%collapsible]
 ====
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Selection| Description
 a|

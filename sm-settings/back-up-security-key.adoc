@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/back-up-security-key.html
 sidebar: sidebar
-keywords: back, up, security, key,
+keywords: SANtricity, 11.7, System Manager, E-Series, backup, security, key,
 summary: "After creating or changing a security key, you can create a backup copy of the key file in case the original gets corrupted."
 ---
 = Back up security key
@@ -25,7 +25,7 @@ This task describes how to back up a security key you previously created. During
 . Select menu:Settings[System].
 . Under *Security key management*, select *Back Up Key*.
 +
-The *Back Up Security Key* dialog box opens.
+The Back Up Security Key dialog box opens.
 
 . In the *Define a pass phrase/Re-enter pass phrase* fields, enter and confirm a pass phrase for this backup.
 +

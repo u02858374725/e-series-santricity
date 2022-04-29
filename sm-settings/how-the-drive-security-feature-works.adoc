@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/how-the-drive-security-feature-works.html
 sidebar: sidebar
-keywords: how, the, drive, Security, feature, works,
+keywords: SANtricity, 11.7, System Manager, E-Series, Drive Security,
 summary: "Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives."
 ---
 = How the Drive Security feature works

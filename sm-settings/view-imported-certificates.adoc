@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/view-imported-certificates.html
 sidebar: sidebar
-keywords: view, imported, certificate, information,
+keywords: SANtricity, 11.7, System Manager, E-Series, view, imported, certificate, information,
 summary: "From the Certificates page, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array."
 ---
 = View imported certificate information
@@ -14,14 +14,14 @@ From the Certificates page, you can view the certificate type, issuing authority
 
 .Before you begin
 
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
 .Steps
 
 . Select menu:Settings[Certicates].
 . Select one of the tabs to view information about the certificates.
 +
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Tab| Description
 a|
@@ -33,8 +33,8 @@ Trusted
 a|
 View information about all other types of certificates imported for the controllers.     Use the filter field under *Show certificates that are...* to view either user-installed or pre-installed certificates.
 
- ** *User-installed*. Certificates that a user uploaded to the storage array, which can include trusted certificates when the controller acts as a client (instead of a server), LDAPS certificates, and Identity Federation certificates.
- ** *Pre-installed*. Self-signed certificates included with the storage array.
+ ** *User-installed* -- Certificates that a user uploaded to the storage array, which can include trusted certificates when the controller acts as a client (instead of a server), LDAPS certificates, and Identity Federation certificates.
+ ** *Pre-installed* -- Self-signed certificates included with the storage array.
 
 a|
 Key Management

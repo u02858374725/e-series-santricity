@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-user-names-for-snmp-traps.html
 sidebar: sidebar
-keywords: edit, user, settings, for, snmpv3, traps,
+keywords: SANtricity, 11.7, System Manager, E-Series, edit, user, settings, snmpv3, traps,
 summary: "You can edit user definitions for SNMPv3 traps."
 ---
 = Edit user settings for SNMPv3 traps
@@ -33,4 +33,4 @@ The trap destinations and user names appear in the table.
 
 .Results
 
-The *SNMP* tab of the *Alerts* page displays the updated settings.
+The SNMP tab of the Alerts page displays the updated settings.

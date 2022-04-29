@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/save-storage-array-configuration.html
 sidebar: sidebar
-keywords: save, storage, array, configuration,
+keywords: SANtricity, 11.7, System Manager, E-Series, save, storage array, configuration,
 summary: "You can save a storage array’s configuration information in a script file to save time setting up additional storage arrays with the same configuration."
 ---
 = Save storage array configuration
@@ -33,7 +33,7 @@ This operation _does not_ save these settings:
 * The operating status (except Optimal) and states of the volume groups
 * Copy services, such as mirroring and volume copy
 
-[NOTE]
+[CAUTION]
 ====
 *Risk of application errors* -- Do not use this option if the storage array is undergoing an operation that will change any logical configuration setting. Examples of these operations include creating or deleting volumes, downloading controller firmware, assigning or modifying hot spare drives, or adding capacity (drives) to a volume group.
 ====
@@ -51,7 +51,7 @@ This operation _does not_ save these settings:
 +
 [NOTE]
 ====
-If you select the *Host-to-volume assignments* item, the *Volume configuration* item and the *Host configuration* item are also selected by default. You cannot save *Host-to-volume assignments* without also saving *Volume configuration* and *Host configuration*.
+If you select the *Host-to-volume assignments* item, the *Volume configuration* item and the *Host configuration* item are also selected by default. You cannot save "Host-to-volume assignments" without also saving "Volume configuration" and ""*Host configuration".
 ====
 . Click *Save*.
 +

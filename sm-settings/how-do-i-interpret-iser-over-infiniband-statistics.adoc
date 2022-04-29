@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html
 sidebar: sidebar
-keywords: how, do, I, interpret, iser, over, infiniband, statistics,
+keywords: SANtricity, 11.7, System Manager, E-Series, interpret, iser, over, infiniband, statistics,
 summary: "The View iSER over InfiniBand Statistics dialog box displays local target (protocol) statistics and iSER over InfiniBand (IB) interface statistics. All statistics are read-only, and cannot be set."
 ---
 = How do I interpret iSER over InfiniBand statistics?

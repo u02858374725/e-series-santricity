@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html
 sidebar: sidebar
-keywords: what, do, I, need, to, know, about, the, resource-provisioned, volumes, feature,
+keywords: SANtricity, 11.7, System Manager, E-Series, resource-provisioned, volumes, feature,
 summary: "Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process."
 ---
 = What do I need to know about the resource-provisioned volumes feature?

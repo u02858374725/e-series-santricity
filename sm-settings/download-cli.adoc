@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/download-cli.html
 sidebar: sidebar
-keywords: download, the, command, line, interface, (CLI),
-summary: "From System Manager you can download the command line interface (CLI) package. The CLI provides a text-based method for configuring and monitoring storage arrays. It communicates via https and uses the same syntax as the CLI available in the externally installed management software package. No key is required to download the CLI."
+keywords: SANtricity, 11.7, System Manager, E-Series, download, command line interface, CLI,
+summary: "From System Manager you can download the command line interface (CLI) package."
 ---
 = Download the command line interface (CLI)
 :experimental:
@@ -10,11 +10,13 @@ summary: "From System Manager you can download the command line interface (CLI) 
 :imagesdir: ../media/
 
 [.lead]
-From System Manager you can download the command line interface (CLI) package. The CLI provides a text-based method for configuring and monitoring storage arrays. It communicates via https and uses the same syntax as the CLI available in the externally installed management software package. No key is required to download the CLI.
+From System Manager, you can download the command line interface (CLI) package.
+
+The CLI provides a text-based method for configuring and monitoring storage arrays. It communicates via https and uses the same syntax as the CLI available in the externally installed management software package. No key is required to download the CLI.
 
 .Before you begin
 
-* A Java Runtime Environment (JRE), version 8 and above, must be available on the management system where you plan to run the CLI commands.
+A Java Runtime Environment (JRE), version 8 and above, must be available on the management system where you plan to run the CLI commands.
 
 .Steps
 

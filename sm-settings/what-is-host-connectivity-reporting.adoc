@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-is-host-connectivity-reporting.html
 sidebar: sidebar
-keywords: what, is, host, connectivity, reporting,
+keywords: SANtricity, 11.7, System Manager, E-Series, host, connectivity, reporting,
 summary: "When host connectivity reporting is enabled, the storage array continuously monitors the connection between the controllers and the configured hosts, and then alerts you if the connection is disrupted."
 ---
 = What is host connectivity reporting?

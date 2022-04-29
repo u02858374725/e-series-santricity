@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/edit-syslog-servers-for-alerts.html
 sidebar: sidebar
-keywords: edit, syslog, servers, for, alerts,
+keywords: SANtricity, 11.7, System Manager, E-Series, edit, syslog, servers, alerts,
 summary: "You can edit the server address used for receiving syslog alerts."
 ---
 = Edit syslog servers for alerts

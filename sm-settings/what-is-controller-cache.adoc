@@ -1,7 +1,7 @@
 ---
 permalink: sm-settings/what-is-controller-cache.html
 sidebar: sidebar
-keywords: what, is, controller, cache,
+keywords: SANtricity, 11.7, System Manager, E-Series, controller, cache,
 summary: "The controller cache is a physical memory space that streamlines two types of I/O (input/output) operations: between the controllers and hosts, and between the controllers and disks."
 ---
 = What is controller cache?
