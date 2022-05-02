@@ -18,7 +18,7 @@ A security key already exists.
 
 .About this task
 
-This task describes how to change a security key and replace it with a new one. After this process, the old key is invalidated.
+This task describes how to change a security key and replace it with a new one.
 
 .Steps
 
@@ -39,7 +39,8 @@ Additional characters are generated automatically and are appended to both ends 
   *** An uppercase letter (one or more). Keep in mind that the pass phrase is case sensitive.
   *** A number (one or more).
   *** A non-alphanumeric character, such as !, *, @ (one or more).
-
++
+. If you want to delete the old security key when the new one is created, select the "Delete security key..." checkbox at the bottom of the dialog.
 +
 [CAUTION]
 ====
