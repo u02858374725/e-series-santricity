@@ -12,10 +12,6 @@ summary: "You can validate the security key to make sure it has not been corrupt
 [.lead]
 You can validate the security key to make sure it has not been corrupted and to verify that you have a correct pass phrase.
 
-.Before you begin
-
-A security key has been created.
-
 .About this task
 
 This task describes how to validate the security key you previously created. This is an important step to make sure the key file is not corrupted and the pass phrase is correct, which ensures that you can later access drive data if you move a secure-enabled drive from one storage array to another.

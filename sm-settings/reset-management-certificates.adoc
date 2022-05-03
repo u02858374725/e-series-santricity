@@ -24,7 +24,7 @@ The Reset function deletes the current CA-signed certificate files from each con
 .Steps
 
 . Select menu:Settings[Certificates].
-. From the *Array Management* tab, select *Reset*.
+. From the Array Management tab, select *Reset*.
 +
 A Confirm Reset Management Certificates dialog box opens.
 

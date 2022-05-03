@@ -12,10 +12,6 @@ summary: "After creating or changing a security key, you can create a backup cop
 [.lead]
 After creating or changing a security key, you can create a backup copy of the key file in case the original gets corrupted.
 
-.Before you begin
-
-* A security key already exists.
-
 .About this task
 
 This task describes how to back up a security key you previously created. During this procedure, you create a new pass phrase for the backup. This pass phrase does not need to match the pass phrase that was used when the original key was created or last changed. The pass phrase is applied only to the backup you are creating.

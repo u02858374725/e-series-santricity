@@ -12,10 +12,6 @@ summary: "If you configured external key management, you can view and edit the k
 [.lead]
 If you configured external key management, you can view and edit the key management server settings at any time.
 
-.Before you begin
-
-External key management must be configured.
-
 .Steps
 
 . Select menu:Settings[System].

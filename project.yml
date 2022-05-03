@@ -837,6 +837,8 @@ sidebar:
             url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
           - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
             url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+          - title: What else do I need to do to configure or diagnose iSCSI?
+            url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
         - title: NVMe FAQs
           entries:
           - title: How do I interpret NVMe over Fabrics statistics?
@@ -1220,8 +1222,6 @@ sidebar:
               url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
             - title: What is a health image?
               url: "/sm-support/what-is-a-health-image.html"
-            - title: What else do I need to do to configure or diagnose iSCSI?
-              url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
             - title: What do the AutoSupport features do?
               url: "/sm-support/what-do-the-autosupport-features-do.html"
             - title: What type of data is collected through the AutoSupport feature?

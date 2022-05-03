@@ -16,10 +16,6 @@ You can clear the audit log of old events, which makes searching through events 
 
 You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
 
-.About this task
-
-This task describes how to remove old events from the audit log.
-
 .Steps
 
 . Select menu:Settings[Access Management].

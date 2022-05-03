@@ -64,8 +64,6 @@ As part of the discovery process, the system verifies that the storage arrays ar
 
 Untrusted certificates occur when a storage array attempts to establish a secure connection to Unified Manager, but the connection fails to confirm as secure. During the array discovery process, you can resolve untrusted certificates by importing a certificate authority (CA) certificate (or CA-signed certificate) that has been issued by a trusted third party.
 
-.About this task
-
 You may need to install additional trusted CA certificates if any of the following are true:
 
 * You recently added a storage array.
