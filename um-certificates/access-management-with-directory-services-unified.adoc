@@ -15,7 +15,7 @@ Administrators can use an LDAP (Lightweight Directory Access Protocol) server an
 
 If an LDAP server and directory service are used in the network, configuration works as follows:
 
-. An administrator logs in to SANtricity Unified Manager with a user profile that includes Security admin permissions.
+. An administrator logs in to Unified Manager with a user profile that includes Security admin permissions.
 +
 [NOTE]
 ====

@@ -12,6 +12,16 @@ summary: "To configure authentication for Access Management, you can use the Sec
 [.lead]
 To configure authentication for Access Management, you can use the Security Assertion Markup Language (SAML) capabilities embedded in the storage array. This configuration establishes a connection between an Identity Provider and the Storage Provider.
 
+.Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* You must know the IP address or domain name of each controller in the storage array.
+* An IdP administrator has configured an IdP system.
+* An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
+* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An IdP metadata file is downloaded from the IdP system and is available on the local system used for accessing System Manager.
+
+
 .About this task
 
 An Identity Provider (IdP) is an external system used to request credentials from a user and to determine if that user is successfully authenticated. The IdP can be configured to provide multi-factor authentication and to use any user database, such as Active Directory. Your security team is responsible for maintaining the IdP. A Service Provider (SP) is a system that controls user authentication and access. When Access Management is configured with SAML, the storage array acts as the Service Provider for requesting authentication from the Identity Provider. To establish a connection between the IdP and storage array, you share metadata files between these two entities. Next, you map the IdP user entities to the storage array roles. And finally, you test the connection and SSO logins before enabling SAML.
@@ -21,7 +31,7 @@ An Identity Provider (IdP) is an external system used to request credentials fro
 *SAML and Directory Services*. If you enable SAML when Directory Services is configured as the authentication method, SAML supersedes Directory Services in System Manager. If you disable SAML later, the Directory Services configuration returns to its previous configuration.
 ====
 
-[NOTE]
+[CAUTION]
 ====
 *Editing and Disabling.* Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance.
 ====
@@ -29,19 +39,7 @@ An Identity Provider (IdP) is an external system used to request credentials fro
 Configuring SAML authentication is a multi-step procedure.
 
 == Step 1: Upload the IdP metadata file
-To provide the storage array with IdP connection information, you import IdP metadata into System Manager.
-
-.Before you begin
-
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
-* An IdP administrator has configured an IdP system.
-* An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
-* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
-* An IdP metadata file is downloaded from the IdP system and is available on the local system used for accessing System Manager.
-
-.About this task
-
-In this task, you upload a metadata file from the IdP into System Manager. The IdP system needs this metadata to redirect authentication requests to the correct URL and to validate responses received. You only need to upload one metadata file for the storage array, even if there are two controllers.
+To provide the storage array with IdP connection information, you import IdP metadata into System Manager. The IdP system needs this metadata to redirect authentication requests to the correct URL and to validate responses received. You only need to upload one metadata file for the storage array, even if there are two controllers.
 
 .Steps
 
@@ -61,15 +59,7 @@ After you select the file, the IdP Entity ID is displayed.
 . Click *Import*.
 
 == Step 2: Export Service Provider files
-To establish a trust relationship between the IdP and the storage array, you import the Service Provider metadata into the IdP.
-
-.Before you begin
-
-* You know the IP address or domain name of each controller in the storage array.
-
-.About this task
-
-In this task, you export metadata from the controllers (one file for each controller). The IdP needs this metadata to establish a trust relationship with the controllers and to process authorization requests. The file includes information such as the controller domain name or IP address, so that the IdP can communicate with the Service Providers.
+To establish a trust relationship between the IdP and the storage array, you import the Service Provider metadata into the IdP. The IdP needs this metadata to establish a trust relationship with the controllers and to process authorization requests. The file includes information such as the controller domain name or IP address, so that the IdP can communicate with the Service Providers.
 
 .Steps
 
@@ -95,10 +85,6 @@ To provide users with authorization and access to System Manager, you must map t
 * An IdP administrator has configured user attributes and group membership in the IdP system.
 * The IdP metadata file is imported into System Manager.
 * A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
-
-.About this task
-
-In this task, you use System Manager to map IdP groups to local user roles.
 
 .Steps
 
@@ -182,7 +168,7 @@ If the test does not complete successfully, an error message appears with furthe
  ** The controller addresses in the SP metadata files are correct.
 
 == Step 5: Enable SAML
-Your final step is to enable SAML user authentication.
+Your final step is to finish the SAML configuration for user authentication. During this process, the system also prompts you to test an SSO login. The SSO Login test process is described in the previous step.
 
 .Before you begin
 
@@ -190,11 +176,7 @@ Your final step is to enable SAML user authentication.
 * A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
 * At least one Monitor and one Security Admin role mapping is configured.
 
-.About this task
-
-This task describes how to finish the SAML configuration for user authentication. During this process, the system also prompts you to test an SSO login. The SSO Login test process is described in the previous step.
-
-[NOTE]
+[CAUTION]
 ====
 *Editing and Disabling.* Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance.
 ====

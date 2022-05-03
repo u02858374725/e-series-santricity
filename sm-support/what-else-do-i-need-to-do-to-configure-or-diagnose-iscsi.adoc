@@ -39,7 +39,9 @@ Set the host CHAP secret
 a|
 . Select menu:Settings[System].
 . Scroll down to *iSCSI settings*, and then select *Configure Authentication*.
+
 or
+
 . Select menu:Storage[Hosts].
 . Select a host member.
 . Click menu:View/Edit Settings[Host Ports] tab.
@@ -55,7 +57,9 @@ View or end iSCSI sessions
 a|
 . Select menu:Settings[System].
 . Scroll down to *iSCSI settings*, and then select *View/End iSCSI Sessions*.
+
 or
+
 . Select menu:Support[Support Center > Diagnostics] tab.
 . Select *View/End iSCSI Sessions*.
 a|
@@ -63,6 +67,7 @@ View iSCSI statistics
 a|
 . Select menu:Settings[System].
 . Scroll down to *iSCSI settings*, and then select *View iSCSI Statistics Packages*.
+
 or
 
 . Select menu:Support[Support Center > Diagnostics] tab.

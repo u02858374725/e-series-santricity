@@ -14,7 +14,7 @@ To break the connection between a directory server and the storage array, you ca
 
 .Before you begin
 
-* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
 
 .About this task
 

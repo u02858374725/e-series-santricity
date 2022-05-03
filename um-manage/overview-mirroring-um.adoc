@@ -11,6 +11,11 @@ summary: "Use the mirroring features to replicate data between a local storage a
 [.lead]
 Use the mirroring features to replicate data between a local storage array and a remote storage array, either asynchronously or synchronously.
 
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
 == What is mirroring?
 SANtricity applications include two types of mirroring -- asynchronous and synchronous. Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss. Synchronous mirroring replicates data volumes in real time to ensure continuous availability.
 

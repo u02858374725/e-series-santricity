@@ -17,7 +17,7 @@ You must be logged in with a user profile that includes Security admin permissio
 
 .About this task
 
-This task deletes the current management certificate from the host system where the Web Services Proxy and SANtricity Unified Manager are installed. After the certificate is reset, the host system reverts to using the self-signed certificate.
+This task deletes the current management certificate from the host system where the Web Services Proxy and Unified Manager are installed. After the certificate is reset, the host system reverts to using the self-signed certificate.
 
 .Steps
 

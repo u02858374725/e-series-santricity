@@ -56,8 +56,3 @@ Standard or thin.
 a|
 Standard only.
 |===
-
-[NOTE]
-====
-For more information on how mirroring works in SANtricity applications, refer to the online help for System Manager.
-====

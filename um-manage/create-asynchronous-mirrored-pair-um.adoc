@@ -25,7 +25,7 @@ Before you create a mirrored pair, meet the following requirements for Unified M
 * Unified Manager must be running on your local host through an HTTPS connection.
 * Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
 
-Also be sure to meet the following requirements for storage arrays:
+Also be sure to meet the following requirements for storage arrays and volumes:
 
 * Each storage array must have two controllers.
 * The two storage arrays must be discovered in Unified Manager.
@@ -35,6 +35,7 @@ Also be sure to meet the following requirements for storage arrays:
 * You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
 * Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
 * You have created both the primary and secondary volumes that you want to use in the asynchronous mirror relationship.
+* The secondary volume must be at least as large as the primary volume.
 
 .About this task
 
@@ -43,10 +44,6 @@ The process to create an asynchronous mirrored pair is a multi-step procedure.
 == Step 1: Create or select a mirror consistency group
 
 In this step, you create a new mirror consistency group or select an existing one. A mirror consistency group is a container for the primary and secondary volumes (the mirrored pair), and specifies the desired resynchronization method (manual or automatic) for all pairs in the group.
-
-.Before you begin
-
-The local and remote storage arrays must be discovered in Unified Manager.
 
 .Steps
 
@@ -92,10 +89,6 @@ In this step, you select the primary volume to use in the mirror relationship an
 
 Any volumes you add to the mirror consistency group on the local storage array will hold the primary role in the mirror relationship.
 
-.Before you begin
-
-You must have created the primary volume on the local storage array that you want to use in the asynchronous mirror relationship.
-
 .Steps
 
 . From the list of eligible volumes, select a volume that you want to use as the primary volume, and then click *Next* to allocate the reserved capacity.
@@ -117,10 +110,6 @@ In this step, you select the secondary volume to use in the mirror relationship 
 
 Any volumes you add to the mirror consistency group on the remote storage array will hold the secondary role in the mirror relationship.
 
-.Before you begin
-
-* You must have created the secondary volume on the remote storage array that you want to use in the asynchronous mirror relationship.
-* The secondary volume must be at least as large as the primary volume.
 
 .Steps
 
@@ -142,5 +131,6 @@ Keep the following guidelines in mind:
 Unified Manager performs the following actions:
 
 * Begins initial synchronization between the local storage array and the remote storage array.
-* If the volume being mirrored is a thin volume, only the provisioned blocks (allocated capacity rather than reported capacity) are transferred to the secondary volume during the initial synchronization. This reduces the amount of data that must be transferred to complete the initial synchronization.
 * Creates the reserved capacity for the mirrored pair on the local storage array and on the remote storage array.
+
+NOTE: If the volume being mirrored is a thin volume, only the provisioned blocks (allocated capacity rather than reported capacity) are transferred to the secondary volume during the initial synchronization. This reduces the amount of data that must be transferred to complete the initial synchronization.

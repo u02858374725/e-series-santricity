@@ -12,14 +12,6 @@ summary: "At any time, you can replace a security key with a new key. You might 
 [.lead]
 At any time, you can replace a security key with a new key. You might need to change a security key in cases where you have a potential security breach at your company and want to make sure unauthorized personnel cannot access the drives' data.
 
-.Before you begin
-
-A security key already exists.
-
-.About this task
-
-This task describes how to change a security key and replace it with a new one.
-
 .Steps
 
 . Select menu:Settings[System].
@@ -40,7 +32,7 @@ Additional characters are generated automatically and are appended to both ends 
   *** A number (one or more).
   *** A non-alphanumeric character, such as !, *, @ (one or more).
 +
-. If you want to delete the old security key when the new one is created, select the "Delete security key..." checkbox at the bottom of the dialog.
+. For external security keys, if you want to delete the old security key when the new one is created, select the "Delete current security key..." checkbox at the bottom of the dialog.
 +
 [CAUTION]
 ====

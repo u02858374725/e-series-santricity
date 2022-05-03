@@ -25,7 +25,7 @@ Before you create a mirrored pair, meet the following requirements for Unified M
 * Unified Manager must be running on your local host through an HTTPS connection.
 * Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
 
-Also be sure to meet the following requirements for storage arrays:
+Also be sure to meet the following requirements for storage arrays and volumes:
 
 * The two storage arrays you plan to use for mirroring are discovered in Unified Manager.
 * Each storage array must have two controllers.
@@ -34,6 +34,9 @@ Also be sure to meet the following requirements for storage arrays:
 * You must know the password for the local and remote storage arrays.
 * Your local and remote storage arrays are connected through a Fibre Channel fabric.
 * You have created both the primary and secondary volumes that you want to use in the synchronous mirror relationship.
+* The primary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
+* The secondary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
+* The secondary volume should be at least as large as the primary volume.
 
 .About this task
 
@@ -42,11 +45,6 @@ The process to create synchronous mirrored pairs is a multi-step procedure.
 == Step 1: Select the primary volume
 
 In this step, you select the primary volume to use in the synchronous mirror relationship. When you select a primary volume on the local storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list. The volume you select holds the primary role in the mirror relationship.
-
-.Before you begin
-
-* You must have created the primary volume that you want to use in the synchronous mirror relationship.
-* The primary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
 
 .Steps
 
@@ -61,12 +59,6 @@ The Create Synchronous Mirrored Pair wizard opens.
 == Step 2: Select the secondary volume
 
 In this step, you select the secondary volume to use in the mirror relationship. When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list. The volume you select will hold the secondary role in the mirror relationship.
-
-.Before you begin
-
-* You must have created the secondary volume that you want to use in the synchronous mirror relationship.
-* The secondary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
-* The secondary volume should be at least as large as the primary volume.
 
 .Steps
 

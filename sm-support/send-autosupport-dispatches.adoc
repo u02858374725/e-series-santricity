@@ -25,6 +25,6 @@ This operation collects support data and automatically sends it to technical sup
 . Select menu:Support[Support Center > AutoSupport] tab.
 . Select *Send AutoSupport Dispatch*.
 +
-The *Send AutoSupport Dispatch* dialog box appears.
+The Send AutoSupport Dispatch dialog box appears.
 
 . Confirm the operation by selecting *Send*.

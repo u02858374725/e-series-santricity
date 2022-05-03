@@ -14,7 +14,7 @@ Use the Clear Configuration operation when you want to delete all the pools, vol
 
 .Before you begin
 
-* Before clearing the storage array configuration, back up the data.
+Before clearing the storage array configuration, back up the data.
 
 .About this task
 

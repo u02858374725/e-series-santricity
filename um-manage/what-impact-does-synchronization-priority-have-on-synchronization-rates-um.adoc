@@ -27,7 +27,7 @@ The lowest priority rate supports system performance, but the resynchronization 
 
 These guidelines roughly approximate the differences between the priorities.
 
-[cols="25h,~",options="header"]
+[cols="45h,~",options="header"]
 |===
 | Priority rate for full synchronization| Time elapsed compared to highest synchronization rate
 a|
