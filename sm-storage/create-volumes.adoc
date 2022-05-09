@@ -146,7 +146,7 @@ Define the capacity of the new volume and the capacity units to use (MiB, GiB, o
 
 Keep in mind that storage capacity is also required for copy services (snapshot images, snapshot volumes, volume copies, and remote mirrors); therefore, do not allocate all of the capacity to standard volumes.
 
-Capacity in a pool is allocated in 4-GiB increments. Any capacity that is not a multiple of 4 GiB is allocated but not usable. To make sure that the entire capacity is usable, specify the capacity in 4-GiB increments. If unusable capacity exists, the only way to regain it is to increase the capacity of the volume.
+Capacity in a pool is allocated in 4-GiB or 8-GiB increments, depending on your drive type. Any capacity that is not a multiple of 4- or 8-GiB is allocated but not usable. To make sure that the entire capacity is usable, specify the capacity in 4-GiB or 8-GiB increments. If unusable capacity exists, the only way to regain it is to increase the capacity of the volume.
 a|
 Volume Block Size (EF300 and EF600 only)
 a|
@@ -214,7 +214,7 @@ Define the capacity of the new volume and the capacity units to use (MiB, GiB, o
 
 Keep in mind that storage capacity is also required for copy services (snapshot images, snapshot volumes, volume copies, and remote mirrors); therefore, do not allocate all of the capacity to standard volumes.
 
-Capacity in a pool is allocated in 4-GiB increments. Any capacity that is not a multiple of 4 GiB is allocated but not usable. To make sure that the entire capacity is usable, specify the capacity in 4-GiB increments. If unusable capacity exists, the only way to regain it is to increase the capacity of the volume.
+Capacity in a pool is allocated in 4-GiB or 8-GiB increments, depending on your drive type. Any capacity that is not a multiple of 4- or 8-GiB is allocated but not usable. To make sure that the entire capacity is usable, specify the capacity in 4-GiB or 8-GiB increments. If unusable capacity exists, the only way to regain it is to increase the capacity of the volume.
 a|
 Volume Type
 a|
