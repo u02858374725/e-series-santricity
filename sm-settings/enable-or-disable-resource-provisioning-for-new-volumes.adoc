@@ -29,6 +29,7 @@ Resource provisioning is a feature available in the EF300 and EF600 storage arra
 The setting description indicates whether resource provisioning is currently enabled or disabled.
 
 . In the dialog box, confirm the operation.
+. Reboot the host OS.
 
 .Results
 
