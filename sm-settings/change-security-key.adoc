@@ -10,7 +10,7 @@ summary: "At any time, you can replace a security key with a new key. You might 
 :imagesdir: ../media/
 
 [.lead]
-At any time, you can replace a security key with a new key. You might need to change a security key in cases where you have a potential security breach at your company and want to make sure unauthorized personnel cannot access the drives' data.
+At any time, you can replace a security key with a new key. You might need to change a security key in cases where you have a potential security breach at your company and want to make sure unauthorized personnel cannot access the drives data.
 
 .Steps
 

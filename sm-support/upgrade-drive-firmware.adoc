@@ -10,7 +10,7 @@ summary: "You can upgrade your drives’ firmware to make sure you have all the 
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade your drives' firmware to make sure you have all the latest features and bug fixes.
+You can upgrade your drives firmware to make sure you have all the latest features and bug fixes.
 
 .Before you begin
 

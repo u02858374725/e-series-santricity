@@ -73,7 +73,7 @@ You may need to install additional trusted CA certificates if any of the followi
 
 .Steps
 
-. Select the check box next to any storage array that you want to resolve untrusted certificates for, and then select the **Import**button.
+. Select the check box next to any storage array that you want to resolve untrusted certificates for, and then select the **Import** button.
 +
 A dialog box opens for importing the trusted certificate files.
 

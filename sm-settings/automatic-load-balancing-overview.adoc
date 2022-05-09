@@ -71,7 +71,7 @@ Verify OS compatibility with the Automatic Load Balancing feature before setting
 
 . Go to the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool^] to find your solution and verify support.
 +
-If your system is running Red Hat Enterprise Linux 6 or SUSE Linux Enterprise Server 11, refer to https://kb.netapp.com/support/index?page=content&id=1015843[Knowledge base article 1015843^]
+If your system is running Red Hat Enterprise Linux 6 or SUSE Linux Enterprise Server 11, contact technical support.
 
 . Update and configure the `/etc/multipath.conf file`.
 . Ensure that both `retain_attached_device_handler` and `detect_prio` are set to `yes` for the applicable vendor and product, or use default settings.
