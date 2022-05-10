@@ -160,9 +160,9 @@ sidebar:
             url: "/sm-storage/change-configuration-settings-for-a-pool.html"
           - title: Change configuration settings for a volume group
             url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
-          - title: Disable resource provisioning on existing volumes
+          - title: Enable or disable resource provisioning (existing volumes)
             url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
-          - title: Enable or disable resource provisioning for new volumes
+          - title: Enable or disable resource provisioning (new volumes)
             url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
           - title: Enable security
             url: "/sm-storage/enable-security.html"
