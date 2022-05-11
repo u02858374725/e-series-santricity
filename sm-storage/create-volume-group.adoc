@@ -19,9 +19,9 @@ With larger capacity drives and the ability to distribute volumes across control
 Review these guidelines before you create a volume group:
 
 * You need at least one unassigned drive.
-* Limits exist as to how much drive capacity you can have in a single volume group. These limits vary according to the RAID level.
+* Limits exist on the number of drives you can have in a single volume group. These limits vary according to the RAID level.
 * To enable shelf/drawer loss protection, you must create a volume group that uses drives located in at least three shelves or drawers, unless you are using RAID 1, where two shelves/drawers is the minimum.
-* If you have an EF600 or EF300 storage array, and you plan to create a volume group manually, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group. For pool creation, it is recommended to use all drives in the storage array.
+* If you have an EF600 or EF300 storage array, and you plan to create a volume group manually, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group.
 
 Review how your choice of RAID level affects the resulting capacity of the volume group.
 

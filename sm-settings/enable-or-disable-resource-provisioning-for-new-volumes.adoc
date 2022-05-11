@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning,
 summary: "If you previously disabled the default feature for resource provisioning, you can go to Settings and re-enable it for any new SSD volume groups or pools that you create. You can also disable the setting again."
 ---
-= Enable or disable resource provisioning for new volumes
+= Enable or disable resource provisioning for new volume groups or pools
 :experimental:
 :icons: font
 :imagesdir: ../media/
@@ -14,7 +14,7 @@ If you previously disabled the default feature for resource provisioning, you ca
 
 Resource provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process. All drive blocks assigned to the volume are deallocated (unmapped), which can improve SSD wear life and increase maximum write performance.
 
-NOTE: By default, resource provisioning is enabled on systems where the drives support DULBE. You can disable that default setting from menu:Storage[Pools & Volume Groups > Uncommon Tasks].
+NOTE: By default, resource provisioning is enabled on systems where the drives support DULBE.
 
 .Before you begin
 
