@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, resource provisioning,
 summary: "You can enable or disable resource provisioning on an existing pool or volume group."
 ---
-= Enable or disable resource provisioning on existing volumes
+= Enable or disable resource provisioning on existing volume groups and pools
 :experimental:
 :icons: font
 :imagesdir: ../media/
@@ -23,11 +23,11 @@ By default, resource provisioning is enabled on systems where the drives support
 
 .About this task
 
-When you enable resource provisioning for existing volumes, all volumes in the selected volume group or pool are changed to allow the blocks to be deallocated. This process might involve a background operation to ensure consistent allocation at the unmap granularity. This operation does not unmap any space. Once the background operation completes, the operating system needs to unmap any unused blocks to create free space.
+When you enable resource provisioning for existing volume groups and pools, all volumes in the selected volume group or pool are changed to allow the blocks to be deallocated. This process might involve a background operation to ensure consistent allocation at the unmap granularity. This operation does not unmap any space. Once the background operation completes, the operating system needs to unmap any unused blocks to create free space.
 
-When you disable resource provisioning for existing volumes, a background operation rewrites all the logical blocks in every volume. Existing data remains intact. The writes will map or provision the blocks on the drives associated with the volume group.
+When you disable resource provisioning for existing volume groups or pools, a background operation rewrites all the logical blocks in every volume. Existing data remains intact. The writes will map or provision the blocks on the drives associated with the volume group or pool.
 
-NOTE: For new volumes only, you can enable or disable resource provisioning from menu:Settings[System > Additional Settings > Enable/Disable Resource-Provisioned Volumes].
+NOTE: For new volume groups and pools, you can enable or disable resource provisioning from menu:Settings[System > Additional Settings > Enable/Disable Resource-Provisioned Volumes].
 
 .Steps
 

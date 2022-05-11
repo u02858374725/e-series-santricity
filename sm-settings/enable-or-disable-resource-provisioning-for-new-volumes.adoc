@@ -23,7 +23,7 @@ NOTE: By default, resource provisioning is enabled on systems where the drives s
 
 .About this task
 
-When you re-enable resource provisioning for new volumes, only newly created volume groups and pools are affected. Any existing volume groups and pools with resource provisioning enabled will remain unchanged.
+When you re-enable resource provisioning for new volume groups or pools, only newly created volume groups and pools are affected. Any existing volume groups and pools with resource provisioning enabled will remain unchanged.
 
 .Steps
 
