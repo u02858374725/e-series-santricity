@@ -22,12 +22,11 @@ Review these guidelines before you create a volume group:
 * Limits exist on the number of drives you can have in a single volume group. These limits vary according to the RAID level.
 * To enable shelf/drawer loss protection, you must create a volume group that uses drives located in at least three shelves or drawers, unless you are using RAID 1, where two shelves/drawers is the minimum.
 * If you have an EF600 or EF300 storage array, and you plan to create a volume group manually, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group.
+* Review how your choice of RAID level affects the resulting capacity of the volume group:
 
-Review how your choice of RAID level affects the resulting capacity of the volume group.
-
-* If you select RAID 1, you must add two drives at a time to make sure that a mirrored pair is selected. Mirroring and striping (known as RAID 10 or RAID 1+0) is achieved when four or more drives are selected.
-* If you select RAID 5, you must add a minimum of three drives to create the volume group.
-* If you select RAID 6, you must add a minimum of five drives to create the volume group.
+** If you select RAID 1, you must add two drives at a time to make sure that a mirrored pair is selected. Mirroring and striping (known as RAID 10 or RAID 1+0) is achieved when four or more drives are selected.
+** If you select RAID 5, you must add a minimum of three drives to create the volume group.
+** If you select RAID 6, you must add a minimum of five drives to create the volume group.
 
 .Steps
 

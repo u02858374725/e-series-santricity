@@ -19,7 +19,7 @@ Use the Add/Discover Single Storage Array option to manually discover and add a 
 
 .Steps
 
-. From the *Manage* page, select *Add/Discover*.
+. From the Manage page, select *Add/Discover*.
 +
 The Add/Discover dialog box appears.
 

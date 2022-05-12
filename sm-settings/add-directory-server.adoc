@@ -31,11 +31,11 @@ During the procedure to add an LDAP server, the legacy management interface will
 .Steps
 
 . Select menu:Settings[Access Management].
-. From the *Directory Services* tab, select *Add Directory Server*.
+. From the Directory Services tab, select *Add Directory Server*.
 +
 The Add Directory Server dialog box opens.
 
-. In the *Server Settings* tab, enter the credentials for the LDAP server.
+. In the Server Settings tab, enter the credentials for the LDAP server.
 +
 .Field details
 [%collapsible]

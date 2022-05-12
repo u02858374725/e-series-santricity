@@ -31,7 +31,7 @@ The system displays a confirmation.
 +
 [NOTE]
 ====
-The system displays the *Cannot Contact Storage Array* dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
+The system displays the Cannot Contact Storage Array dialog box when a role change is requested, but the remote storage array cannot be contacted. Click *Yes* to force the role change.
 ====
 
 .Results

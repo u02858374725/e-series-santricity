@@ -11,6 +11,12 @@ summary: "Mirroring is configured in the Unified Manager interface."
 [.lead]
 Mirroring is configured in the Unified Manager interface.
 
+[NOTE]
+====
+Mirroring is not available on the EF600 or EF300 storage array.
+====
+
+
 To enable and configure mirroring between two arrays, verify the following:
 
 * The Web Services Proxy service must be running. (Unified Manager is installed on a host system along with the Web Services Proxy.)
@@ -18,9 +24,7 @@ To enable and configure mirroring between two arrays, verify the following:
 * The two storage arrays you want to use for mirroring must be discovered in Unified Manager.
 * Unified Manager must have valid SSL certificates for the storage arrays. You can accept a self-signed certificate or install CA-signed certificates from Unified Manager.
 
-For more information about requirements, see the online help for Unified Manager.
+For configuration instructions, see the following:
 
-[NOTE]
-====
-Mirroring is not available on the EF600 or EF300 storage array.
-====
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html[Create asynchronous mirrored pair (in Unified Manager)]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair (in Unified Manager)]

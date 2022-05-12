@@ -13,7 +13,7 @@ You can use the Launch option to open the browser-based System Manager for one o
 
 .Steps
 
-. From the *Manage* page, select one or more storage arrays that you want to manage.
+. From the Manage page, select one or more storage arrays that you want to manage.
 . Click *Launch*.
 +
 The system opens a new window and displays the System Manager login page.

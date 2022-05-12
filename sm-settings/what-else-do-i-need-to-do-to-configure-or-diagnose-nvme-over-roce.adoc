@@ -17,8 +17,8 @@ You can configure and manage NVMe over RoCE from the Hardware and Settings pages
 The NVMe over RoCE settings are available only if your storage array's controller includes an NVMe over RoCE port.
 ====
 
-== Configure and diagnose NVMe over RoCE
 
+[cols="35h,~",options="header"]
 |===
 | Action| Location
 a|

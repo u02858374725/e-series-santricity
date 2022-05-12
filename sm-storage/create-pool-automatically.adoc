@@ -41,10 +41,10 @@ The results table lists new pools, existing pools with drives added, or both. A 
 +
 System Manager performs the following tasks:
 
- ** Create a single pool if there are a sufficient number of drives with the same drive type (HDD or SSD) and have similar capacity.
- ** Create multiple pools if the unassigned capacity consists of different drive types.
- ** Add the drives to an existing pool if a pool is already defined in the storage array, and you add new drives of the same drive type to the pool.
- ** Add the drives of the same drive type to the existing pool, and use the other drive types to create different pools if the new drives are of different drive types.
+ ** Creates a single pool if there are a sufficient number of drives with the same drive type (HDD or SSD) and have similar capacity.
+ ** Creates multiple pools if the unassigned capacity consists of different drive types.
+ ** Adds the drives to an existing pool if a pool is already defined in the storage array, and you add new drives of the same drive type to the pool.
+ ** Adds the drives of the same drive type to the existing pool, and use the other drive types to create different pools if the new drives are of different drive types.
 
 . To change the name of a new pool, click the *Edit* icon (the pencil).
 . To view additional characteristics of the pool, position the cursor over or touch the *Details* icon (the page).

@@ -27,7 +27,7 @@ You must first generate a certificate signing request (CSR) file, and then use t
 .Steps
 
 . Select menu:Settings[Certificates].
-. From the *Key Management* tab, select *Complete CSR*.
+. From the Key Management tab, select *Complete CSR*.
 . Enter the following information:
   ** *Common name* -- A name that identifies this CSR, such as the storage array name, which will be displayed in the certificate files.
   ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.

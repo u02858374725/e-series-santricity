@@ -17,8 +17,8 @@ The following table lists the System Manager functions that you can use to confi
 The iSER over InfiniBand settings are available only if your storage array's controller includes an iSER over InfiniBand host management port.
 ====
 
-== Configure and diagnose iSER over InfiniBand
 
+[cols="35h,~",options="header"]
 |===
 | Action| Location
 a|

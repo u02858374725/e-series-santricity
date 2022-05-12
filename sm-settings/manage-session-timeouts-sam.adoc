@@ -10,7 +10,7 @@ summary: "You can configure timeouts in SANtricity System Manager, so that users
 :imagesdir: ../media/
 
 [.lead]
-You can configure timeouts in SANtricity System Manager, so that users' inactive sessions are disconnected after a specified time.
+You can configure timeouts in System Manager, so that users' inactive sessions are disconnected after a specified time.
 
 .About this task
 
@@ -24,7 +24,7 @@ If Access Management is configured using the Security Assertion Markup Language 
 .Steps
 
 . Select menu:Settings[System].
-. Under the *General* section, select *Enable/Disable Session Timeout*.
+. Under the General section, select *Enable/Disable Session Timeout*.
 +
 The Enable/Disable Session Timeout dialog box opens.
 
