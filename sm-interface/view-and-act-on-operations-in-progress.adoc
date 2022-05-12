@@ -17,11 +17,11 @@ For each operation listed on the Operations in Progress page, a percentage of co
 
 .Steps
 
-. On the *Home* page, select *Show operations in progress*.
+. On the Home page, select *Show operations in progress*.
 +
 The Operations in Progress page appears.
 
-. If desired, use the links in the *Actions* column to stop or change priority for an operation.
+. If desired, use the links in the Actions column to stop or change priority for an operation.
 +
 [CAUTION]
 ====

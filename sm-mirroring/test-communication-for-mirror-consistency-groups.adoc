@@ -31,12 +31,12 @@ You can run four different tests:
 . Select the *Mirror Consistency Groups* tab, and then select the mirror consistency group that you want to test.
 . Select *Test Communication*.
 +
-The *Test Communication* dialog box appears.
+The Test Communication dialog box appears.
 
 . Select one or more communication tests to perform between the local and remote storage arrays associated with the selected mirror consistency group, and then click *Test*.
 . Review the information displayed in the Results window.
 +
-[cols="1a,1a" options="header"]
+[cols="35h,~",options="header"]
 |===
 | Communication Test Status| Description
 a|
@@ -57,7 +57,7 @@ a|
 The reason may be that the local storage array is not connected or the remote storage array cannot be contacted. Refer to the Recovery Guru to correct the problem.
 |===
 
-.After you finish
+.Results
 
 After the communication test completes, this dialog box shows a Normal status, a Passed status, or a Failed status.
 

@@ -2,14 +2,16 @@
 permalink: sm-storage/how-volumes-work.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, copy,
-summary: "Volumes are data containers that manage and organize the storage space on your storage array. Volumes are created from the storage capacity available on your storage array and make it easy to organize and use your system’s resources. This concept is similar to using folders/directories on a computer to organize files for easy and quick access."
+summary: "Volumes are data containers that manage and organize the storage space on your storage array."
 ---
 = How volumes work
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Volumes are data containers that manage and organize the storage space on your storage array. Volumes are created from the storage capacity available on your storage array and make it easy to organize and use your system's resources. This concept is similar to using folders/directories on a computer to organize files for easy and quick access.
+Volumes are data containers that manage and organize the storage space on your storage array.
+
+You create volumes from the storage capacity available on your storage array and make it easy to organize and use your system's resources. This concept is similar to using folders/directories on a computer to organize files for easy and quick access.
 
 Volumes are the only data layer visible to hosts. In a SAN environment, volumes are mapped to logical unit numbers (LUNs), which are visible to hosts. LUNs hold the user data that is accessible using one or more of the host access protocols supported by the storage array, including FC, iSCSI, and SAS.
 
@@ -21,7 +23,7 @@ Volumes draw their capacity from pools or volume groups. You can create the foll
 +
 [NOTE]
 ====
-SANtricity System Manager does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
+The System Manager interface does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
 ====
 
 * *From volume groups* -- You can create volumes from a volume group only as _fully-provisioned (thick) volumes_.

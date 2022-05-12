@@ -23,7 +23,7 @@ There are two types of groups:
 
 == How do I configure groups?
 
-From the Manage Groups page, you can create and group and then add arrays to that group.
+From the Manage Groups page, you can create a group and then add arrays to that group.
 
 Learn more:
 

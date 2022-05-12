@@ -21,6 +21,8 @@ When you logically replace a drive with an unassigned drive, the unassigned driv
 * Hard drives that the Recovery Guru has notified you that have an impending drive failure
 * Assigned drives (available only for drives in a volume group, not in a pool)
 
+.Before you begin
+
 The replacement drive must have the following characteristics:
 
 * In the Optimal state

@@ -12,7 +12,7 @@ summary: "You must assign a volume to a host or a host cluster so it can be used
 [.lead]
 You must assign a volume to a host or a host cluster so it can be used for I/O operations. This assignment grants a host or host cluster access to one or more volumes in a storage array.
 
-.Before you begin
+.About this task
 
 Keep these guidelines in mind when you assign volumes to hosts:
 
@@ -31,8 +31,6 @@ The ability to assign a volume is unavailable under these conditions:
 * No valid hosts or host clusters exist.
 * No host port identifiers have been defined for the host.
 * All volume assignments have been defined.
-
-.About this task
 
 All unassigned volumes are displayed during this task, but functions for hosts with or without Data Assurance (DA) apply as follows:
 

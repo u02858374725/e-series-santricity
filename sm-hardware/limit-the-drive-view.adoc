@@ -35,12 +35,11 @@ Security attributes might include:
  ** Secure-capable
  ** Secure-enabled
  ** DA (Data Assurance) capable
- 
++
 If any of these attributes are the same for all drives, they are not shown in the drop-down list. For example, if the storage array includes all SSD drives with SAS interfaces and speeds of 15000 RPM, but some SSDs have different capacities, the drop-down list displays only the capacities as a filtering choice.
-
 +
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
-
++
 . In the second filter box, click the drop-down arrow to display the available logical locations for the drives.
 +
 [NOTE]
@@ -55,6 +54,7 @@ Logical locations might include:
  ** Hot spare
  ** SSD Cache
  ** Unassigned
++
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
 
 . Optionally, you can select *Turn on locator lights* at the far right of the filter fields to turn on the locator lights for the displayed drives.

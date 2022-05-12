@@ -33,7 +33,7 @@ The iSCSI settings and functions only display on the Settings page if your stora
 .Steps
 
 . Select menu:Settings[System].
-. Under *iSCSI settings*, click *Configure Authentication*.
+. Under iSCSI Settings, click *Configure Authentication*.
 +
 The Configure Authentication dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
 
@@ -50,7 +50,7 @@ If the CHAP secret for the controller was configured previously, the characters 
 
 . Do one of the following:
  ** If you are configuring _one-way_ authentication, click *Finish*. The dialog box closes, and you are done with configuration.
- ** If you are configuring _two-way_ authentication, click *Next* to display the *Configure Initiator CHAP* dialog box.
+ ** If you are configuring _two-way_ authentication, click *Next* to display the Configure Initiator CHAP dialog box.
 . For two-way authentication, enter or confirm a CHAP secret for any of the iSCSI hosts (the initiators), which can be between 12 and 57 printable ASCII characters. If you do not want to configure two-way authentication for a particular host, leave the Initiator CHAP Secret field blank.
 +
 [NOTE]

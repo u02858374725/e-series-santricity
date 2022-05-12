@@ -12,22 +12,21 @@ summary: "You use a volume group to create one or more volumes that are accessib
 [.lead]
 You use a volume group to create one or more volumes that are accessible to the host. A volume group is a container for volumes with shared characteristics such as RAID level and capacity.
 
-.About this task
-
 With larger capacity drives and the ability to distribute volumes across controllers, creating more than one volume per volume group is a good way to make use of your storage capacity and to protect your data.
 
-Follow these guidelines when you create a volume group:
+.Before you begin
+
+Review these guidelines before you create a volume group:
 
 * You need at least one unassigned drive.
-* Limits exist as to how much drive capacity you can have in a single volume group. These limits vary according to your host type.
+* Limits exist on the number of drives you can have in a single volume group. These limits vary according to the RAID level.
 * To enable shelf/drawer loss protection, you must create a volume group that uses drives located in at least three shelves or drawers, unless you are using RAID 1, where two shelves/drawers is the minimum.
-* When configuring an EF600 or EF300 storage array, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group. For pool creation, it is recommended to use all drives in the storage array.
+* If you have an EF600 or EF300 storage array, and you plan to create a volume group manually, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group.
+* Review how your choice of RAID level affects the resulting capacity of the volume group:
 
-Review how your choice of RAID level affects the resulting capacity of the volume group.
-
-* If you select RAID 1, you must add two drives at a time to make sure that a mirrored pair is selected. Mirroring and striping (known as RAID 10 or RAID 1+0) is achieved when four or more drives are selected.
-* If you select RAID 5, you must add a minimum of three drives to create the volume group.
-* If you select RAID 6, you must add a minimum of five drives to create the volume group.
+** If you select RAID 1, you must add two drives at a time to make sure that a mirrored pair is selected. Mirroring and striping (known as RAID 10 or RAID 1+0) is achieved when four or more drives are selected.
+** If you select RAID 5, you must add a minimum of three drives to create the volume group.
+** If you select RAID 6, you must add a minimum of five drives to create the volume group.
 
 .Steps
 
@@ -74,7 +73,7 @@ Shows the available capacity in GiB. Select a volume group candidate with the ca
 a|
 Total Drives
 a|
-Shows the number of drives available for this volume group. Select a volume group candidate with the number of drives that you want. The more drives that a volume group contains, the less likely it is that multiple drive failures will cause a critical drive failure in a volume group.
+Shows the number of drives available for this volume group. Select a volume group candidate with the number of drives that you want.
 a|
 Drive Block Size (EF300 and EF600 only)
 a|
@@ -102,7 +101,7 @@ DA Capable
 a|
 Indicates if Data Assurance (DA) is available for this group. Data Assurance (DA) checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
 
-If you want to use DA, select a volume group that is DA capable. This option is available only when the DA feature has been enabled.
+If you want to use DA, select a volume group that is DA capable. (For DA-capable drives, DA is automatically enabled on volumes created in the pool.)
 
 A volume group can contain drives that are DA-capable or not DA-capable, but all drives must be DA capable for you to use this feature.
 a|
@@ -190,7 +189,7 @@ DA Capable
 a|
 Indicates if Data Assurance (DA) is available for this group. Data Assurance (DA) checks for and corrects errors that might occur as data is communicated through the controllers down to the drives.
 
-If you want to use DA, select a volume group that is DA capable. This option is available only when the DA feature has been enabled.
+If you want to use DA, select a volume group that is DA capable. (For DA-capable drives, DA is automatically enabled on volumes created in the pool.)
 
 A volume group can contain drives that are DA-capable or not DA-capable, but all drives must be DA capable for you to use this feature.
 a|

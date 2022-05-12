@@ -80,9 +80,8 @@ DA Capable
 a|
 Indicates if Data Assurance (DA) is available for this pool candidate. DA checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
 
-If you want to use DA, select a pool that is DA capable. This option is available only when the DA feature has been enabled.
+DA is enabled if all drives are DA-capable. DA may be disabled after the volume is created by selecting menu:Storage[Volumes > View/Edit Settings > Advanced > Permanently disable data assurance]. If DA is disabled on a volume, it cannot be re-enabled.
 
-A pool can contain drives that are DA-capable or not DA-capable, but all drives must be DA capable for you to use this feature.
 a|
 Resource Provisioning Capable (EF300 and EF600 only)
 a|

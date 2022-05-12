@@ -45,4 +45,4 @@ Drive Security is now managed internally through the storage array.
 
 .After you finish
 
-* You should validate the security key to make sure the key file is not corrupted.
+You should validate the security key to make sure the key file is not corrupted.

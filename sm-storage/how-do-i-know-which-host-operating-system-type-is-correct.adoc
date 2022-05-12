@@ -20,7 +20,7 @@ For more information about host support, refer to the https://imt.netapp.com/mat
 
 Some of the following host types might appear in the list:
 
-[cols="1a,1a" options="header"]
+[cols="35h,~",options="header"]
 |===
 | Host Operating System type| Operating System (OS) and multipath driver
 a|

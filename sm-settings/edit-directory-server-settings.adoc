@@ -26,7 +26,7 @@ If you previously configured a directory server in Access Management, you can ch
 +
 The Directory Server Settings dialog box opens.
 
-. In the *Server Settings* tab, change the desired settings.
+. In the Server Settings tab, change the desired settings.
 
 +
 .Field details
@@ -45,7 +45,7 @@ The domain name(s) of the LDAP server(s). For multiple domains, enter the domain
 a|
 Server URL
 a|
-The URL for accessing the LDAP server in the form of _ldap[s]://*host*:port_.
+The URL for accessing the LDAP server in the form of _ldap[s]://host:port_.
 a|
 Bind account (optional)
 a|
@@ -75,7 +75,7 @@ A list of group attributes on the user, which is used for group-to-role mapping.
 |===
 ====
 
-. In the *Role Mapping* tab, change the desired mapping.
+. In the Role Mapping tab, change the desired mapping.
 +
 
 .Field details

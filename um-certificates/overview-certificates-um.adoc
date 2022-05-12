@@ -20,7 +20,7 @@ Learn more:
 * link:certificate-terminology-unified.html[Certificate terminology]
 
 == How do I configure certificates?
-You can configure certificates for the management station hosting Unified Manager and also import certificates for the controllers in the arrays.
+From Certificate Management, you can configure certificates for the management station hosting Unified Manager and also import certificates for the controllers in the arrays.
 
 Learn more:
 

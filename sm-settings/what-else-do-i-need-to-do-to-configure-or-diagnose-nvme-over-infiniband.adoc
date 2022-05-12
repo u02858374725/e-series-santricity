@@ -17,8 +17,7 @@ The following table lists the System Manager functions that you can use to confi
 The NVMe over InfiniBand settings are available only if your storage array's controller includes an NVMe over InfiniBand port.
 ====
 
-== Configure and diagnose NVMe over InfiniBand
-
+[cols="35h,~",options="header"]
 |===
 | Action| Location
 a|

@@ -18,7 +18,7 @@ Change the settings for a snapshot consistency group when you want to change its
 . Click the *Snapshot Consistency Groups* tab.
 . Select the snapshot consistency group that you want to edit, and then click *View/Edit Settings*.
 +
-The *Snapshot Consistency Group Setting* dialog box appears.
+The Snapshot Consistency Group Setting dialog box appears.
 
 . Change the settings for the snapshot consistency group as appropriate.
 +

@@ -10,7 +10,7 @@ summary: "To initiate a storage import from a remote system to a local E-Series 
 :imagesdir: ../media/
 
 [.lead]
-To initiate a storage import from a remote system to a local E-Series storage system, use the *Import Remote Storage* wizard.
+To initiate a storage import from a remote system to a local E-Series storage system, use the Import Remote Storage wizard.
 
 .Before you begin
 
@@ -32,7 +32,7 @@ Hardware configuration is described in the user guide for the Remote Storage fea
 
 For a full list of requirements, see link:rtv-remote-storage-volume-requirements.html[Remote storage volume requirements].
 
-* Recommended: Back up volumes on the remote storage system before starting the import process.
+* *Recommended:* Back up volumes on the remote storage system before starting the import process.
 
 .About this task
 

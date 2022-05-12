@@ -36,7 +36,7 @@ Learn more:
 
 * link:requirements-for-using-synchronous-mirroring.html[Requirements for using synchronous mirroring]
 * link:workflow-for-mirroring-a-volume-synchronously.html[Workflow for mirroring a volume synchronously]
-* link:../um-manage/create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair (in Unified Manager)]
 
 == Related information
 Learn more about concepts related to synchronous mirroring:

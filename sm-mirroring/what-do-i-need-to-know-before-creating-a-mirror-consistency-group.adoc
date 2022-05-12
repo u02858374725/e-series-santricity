@@ -12,6 +12,11 @@ summary: "Follow these guidelines before you create a mirror consistency group."
 [.lead]
 Follow these guidelines before you create a mirror consistency group.
 
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
 You create a consistency group in Unified Manager in the Create Mirrored Pairs wizard.
 
 Meet the following requirements for Unified Manager:
@@ -28,8 +33,3 @@ Also be sure to meet the following requirements for storage arrays:
 * The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
 * You must know the password for the local and remote storage arrays.
 * Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
-
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====

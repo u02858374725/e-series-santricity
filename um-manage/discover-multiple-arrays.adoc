@@ -28,7 +28,7 @@ If you need to stop the discovery operation for any reason, click *Stop Discover
 
 .Steps
 
-. From the *Manage* page, select *Add/Discover*.
+. From the Manage page, select *Add/Discover*.
 +
 The Add/Discover dialog box appears.
 
