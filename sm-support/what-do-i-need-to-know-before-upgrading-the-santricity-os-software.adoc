@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you upgrade your controller’s software and firmware, be aware of these items.'
+keywords: SANtricity, System Manager, E-Series, upgrading, santricity, os, software
+summary: "Before you upgrade your controller’s software and firmware, be aware of these items."
 ---
 = What do I need to know before upgrading the SANtricity OS Software?
 :icons: font
@@ -39,9 +39,9 @@ As part of the upgrade process, the host's multipath/failover driver and/or HBA 
 
 [NOTE]
 ====
-To determine if this is the case, see the https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool].
+To determine if this is the case, see the https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^].
 ====
 
 If your storage array contains only one controller or you do not have a multipath driver installed, stop I/O activity to the storage array to prevent application errors. If your storage array has two controllers and you have a multipath driver installed, you do not need to stop I/O activity.
 
-Do not make changes to the storage array while the upgrade occurs.
+CAUTION: Do not make changes to the storage array while the upgrade occurs.

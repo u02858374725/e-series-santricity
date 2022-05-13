@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html
 sidebar: sidebar
-keywords: 
-summary: 'If your original security key becomes corrupted and you do not have a backup, you will lose access to the data on drives if they are migrated from one storage array to another.'
+keywords: SANtricity, System Manager, E-Series, backing up, security, key,
+summary: "If your original security key becomes corrupted and you do not have a backup, you will lose access to the data on drives if they are migrated from one storage array to another."
 ---
 = What do I need to know before backing up a security key?
 :icons: font

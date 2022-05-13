@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/snapshot-rollback.html
 sidebar: sidebar
-keywords: 
-summary: 'A rollback operation returns a base volume to a previous state, determined by the selected snapshot.'
+keywords: SANtricity, System Manager, E-Series, snapshot, rollback
+summary: "A rollback operation returns a base volume to a previous state, determined by the selected snapshot."
 ---
 = Snapshot rollback
 :icons: font
@@ -21,12 +21,4 @@ During the rollback, the Snapshots feature preserves all snapshot images in the 
 When a rollback is launched, a background process sweeps through the logical block addresses (LBAs) for the base volume, and then finds copy-on-write data in the rollback snapshot image to be restored. Because the base volume is host-accessible for reads and writes, and all previously written data is available immediately, the reserved capacity volume must be large enough to contain all changes while the rollback is processing. The data transfer continues as a background operation until the rollback completes.
 
 image::../media/sam1130-dwg-snapshots-rollback-overview.gif[]
-
-|===
-a|
-1   Base volume.
-a|
-2   Snapshot objects in a group.
-a|
-3   Snapshot group reserved capacity.
-|===
+^1^ Base volume;  ^2^ Snapshot objects in a group;  ^3^ Snapshot group reserved capacity

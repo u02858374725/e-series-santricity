@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'The selected volume group might have one or more free capacity areas. A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation.'
+keywords: SANtricity, System Manager, E-Series, capacity, over-allocation, error,
+summary: "The selected volume group might have one or more free capacity areas. A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation."
 ---
 = Why am I seeing a capacity over-allocation error when I have enough free capacity in a volume group to create volumes?
 :experimental:
@@ -18,7 +18,7 @@ If a volume group has free capacity areas, the volume group graph contains a lin
 
 By consolidating free capacity, you can create additional volumes from the maximum amount of free capacity in a volume group. You can consolidate the existing free capacity on a selected volume group using one of the following methods:
 
-* When at least one free capacity area is detected for a volume group, the *Consolidate free capacity* recommendation appears on the *Home* page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
+* When at least one free capacity area is detected for a volume group, the "Consolidate free capacity" recommendation appears on the Home page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
 * You can also select menu:Pools & Volume Groups[Uncommon Tasks > Consolidate volume group free capacity] to launch the dialog box.
 
 If you want to use a specific free capacity area rather than the largest free capacity area, use the Command Line Interface (CLI).

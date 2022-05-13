@@ -1,0 +1,11 @@
+---
+layout: landing-page
+sidebar: sidebar
+permalink: unified-manager/index.html
+summary: The SANtricity software documentation lets you install, setup, and maintain your storage array.
+---
+
+= Multiple array management with Unified Manager 5.3
+:hardbreaks:
+:linkattrs:
+:imagesdir: ./media/

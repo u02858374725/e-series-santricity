@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/which-external-management-tools-may-be-affected-by-this-change.html
 sidebar: sidebar
-keywords: 
-summary: 'When you make certain changes in System Manager, such as switching the management interface or using SAML for an authentication method, some external tools and features might be restricted from use.'
+keywords: SANtricity, System Manager, E-Series, external, management, tools,
+summary: "When you make certain changes in System Manager, such as switching the management interface or using SAML for an authentication method, some external tools and features might be restricted from use."
 ---
 = Which external management tools may be affected by this change?
 :icons: font

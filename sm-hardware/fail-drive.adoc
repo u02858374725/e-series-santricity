@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/fail-drive.html
 sidebar: sidebar
-keywords: 
-summary: 'If instructed to do so, you can manually fail a drive.'
+keywords: SANtricity, System Manager, E-Series, fail, drive,
+summary: "If instructed to do so, you can manually fail a drive."
 ---
 = Fail drive
 :icons: font
@@ -11,16 +11,16 @@ summary: 'If instructed to do so, you can manually fail a drive.'
 [.lead]
 If instructed to do so, you can manually fail a drive.
 
-== About this task
+.About this task
 
 System Manager monitors the drives in the storage array. When it detects that a drive is generating a lot of errors, the Recovery Guru notifies you of an impending drive failure. If this happens and you have a replacement drive available, you might want to fail the drive to take preemptive action. If you do not have a replacement drive available, you can wait for the drive to fail on its own.
 
-[NOTE]
+[CAUTION]
 ====
 *Possible loss of data access* -- This operation could result in data loss or the loss of data redundancy. Perform this operation only when instructed to do so by technical support or the Recovery Guru.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.

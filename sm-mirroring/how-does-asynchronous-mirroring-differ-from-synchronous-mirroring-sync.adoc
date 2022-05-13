@@ -1,7 +1,7 @@
 ---
 permalink: sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html
 sidebar: sidebar
-keywords: 
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, differ, synchronous, mirroring,
 summary: 'The Asynchronous Mirroring feature differs from the Synchronous Mirroring feature in one essential way: it captures the state of the source volume at a particular point in time and copies just the data that has changed since the last image capture.'
 ---
 = How does asynchronous mirroring differ from synchronous mirroring?
@@ -15,56 +15,46 @@ With synchronous mirroring, the state of the primary volume is not captured at s
 
 With asynchronous mirroring, the remote storage array is not fully synchronized with the local storage array, so if the application needs to transition to the remote storage array due to a loss of the local storage array, some transactions could be lost.
 
-Comparison between mirroring features
+Comparison between mirroring features:
 
+
+[cols="1a,1a" options="header"]
 |===
 | Asynchronous Mirroring| Synchronous Mirroring
-a|
+2+a|
 *Replication method*
 a|
-
 * *Point-in-Time*
 +
 Mirroring is done on demand or automatically according to a user-defined schedule. Schedules can be defined at the granularity of minutes. The minimum time between syncs is 10 minutes.
-
 a|
-
 * *Continuous*
 +
 Mirroring is automatically executed continuously, copying data from every host write.
-
-a|
+2+a|
 *Reserved capacity*
 a|
-
 * *Multiple*
 +
 A reserved capacity volume is required for each mirrored pair.
-
 a|
-
 * *Single*
 +
 Single reserved capacity volume is required for all mirrored volumes.
 
-a|
+2+a|
 *Communication*
 a|
-
 * *iSCSI and Fibre Channel*
 +
 Supports iSCSI and Fibre Channel interfaces between storage arrays.
-
 a|
-
 * *Fibre Channel*
 +
 Supports only Fibre Channel interfaces between storage arrays.
-
-a|
+2+a|
 *Distance*
 a|
-
 * *Unlimited*
 +
 Support for virtually unlimited distances between the local storage array and the remote storage array, with the distance typically limited only by the capabilities of the network and the channel extension technology.

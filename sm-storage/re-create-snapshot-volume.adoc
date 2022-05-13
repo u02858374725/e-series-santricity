@@ -1,22 +1,23 @@
 ---
 permalink: sm-storage/re-create-snapshot-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one.'
+keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume
+summary: "You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one."
 ---
 = Re-create snapshot volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can re-create a snapshot volume or a snapshot consistency group snapshot volume that you previously disabled. Re-creating a snapshot volume takes less time than creating a new one.
 
-== Before you begin
+.Before you begin
 
 * The snapshot volume must be in either an Optimal or Disabled state.
 * All member snapshot volumes must be in a Disabled state before you can re-create the snapshot consistency group snapshot volume.
 
-== About this task
+.About this task
 
 You cannot re-create an individual member snapshot volume; you can re-create only the overall snapshot consistency group snapshot volume.
 
@@ -25,14 +26,14 @@ You cannot re-create an individual member snapshot volume; you can re-create onl
 If the snapshot volume or snapshot consistency group snapshot volume is part of an online copy relationship, you cannot perform the re-create option on the volume.
 ====
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.
 
-. Select the snapshot volume that you want to re-create, and then select *Uncommon Tasks* > *Recreate*.
+. Select the snapshot volume that you want to re-create, and then select menu:Uncommon Tasks[Recreate].
 +
 The Recreate Snapshot Volume dialog box appears.
 
@@ -46,7 +47,7 @@ Select this option to indicate an existing snapshot image from which to re-creat
 Select this option to create a new snapshot image from which to re-create the snapshot volume.
 . Click *Recreate*.
 
-== Results
+.Results
 
 System Manager performs the following actions:
 

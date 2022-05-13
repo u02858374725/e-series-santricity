@@ -1,15 +1,17 @@
 ---
 permalink: sm-settings/how-the-drive-security-feature-works.html
 sidebar: sidebar
-keywords: 
-summary: 'Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption \(FDE\) drives or Federal Information Processing Standard \(FIPS\) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.'
+keywords: SANtricity, System Manager, E-Series, Drive Security,
+summary: "Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives."
 ---
 = How the Drive Security feature works
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.
+Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+
+When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.
 
 == How to implement Drive Security
 

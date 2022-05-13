@@ -1,0 +1,50 @@
+---
+permalink: san-getstarted/access-sam.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access System Manager
+summary: To access the System Manager user interface, you point a browser to the controller’s IP address. A setup wizard helps you get started with system configuration.
+---
+= Access System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To access the System Manager user interface, you point a browser to the controller’s IP address. A setup wizard helps you get started with system configuration.
+
+.Before you begin
+
+* Install and configure your hardware, as described in one of the express configuration guides:
+
+  ** https://docs.netapp.com/us-en/e-series/config-linux/index.html[Linux express configuration^]
+  ** https://docs.netapp.com/us-en/e-series/config-vmware/index.html[VMware express configuration^]
+  ** https://docs.netapp.com/us-en/e-series/config-windows/index.html[Windows express configuration^]
+
+* Configure a management station that meets the following requirements:
+
+  ** Connected to a network that is 1 Gbps or faster.
+  ** Attached to the same subnet as the storage management ports.
+  ** Used as a separate station, rather than a host (I/O attached) used for data management.
+  ** Set up for out-of-band management, in which a storage management station sends commands to the storage system through the Ethernet connections to the controller.
+  ** Set up with a supported browser. See link:supported-browsers-os.html[Supported browsers and operating systems].
+
+.Steps
+
+. From your browser, enter the following URL: `+https://<IPAddress>+`
++
+`IPAddress` is the address for one of the storage array controllers.
++
+The first time System Manager is opened on an array that has not been configured, the Set Administrator Password prompt appears.
+
+. Enter the System Manager password for the admin role in the Set Administrator Password and Confirm Password fields, and then click *Set Password*.
++
+The Setup wizard launches on first-time login.
+
+. Use the Setup wizard to perform the following tasks:
+ ** *Verify hardware (controllers and drives)* -- Verify the number of controllers and drives in the storage array. Assign a name to the array.
+ ** *Verify hosts and operating systems* -- Verify the host and operating system types that the storage array can access.
+ ** *Accept pools* -- Accept the recommended pool configuration for the express installation method. A pool is a logical group of drives.
+ ** *Configure alerts* -- Allow System Manager to receive automatic notifications when a problem occurs with the storage array.
+ ** *Enable AutoSupport* -- Automatically monitor the health of your storage array and have dispatches sent to technical support.
+
+For more information on the Setup Wizard, see link:../sm-interface/setup-wizard-overview.html[Setup Wizard overview].

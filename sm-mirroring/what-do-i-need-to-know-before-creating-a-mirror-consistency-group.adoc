@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'Follow these guidelines before you create a mirror consistency group.'
+keywords: SANtricity, System Manager, E-Series, mirror, consistency, group,
+summary: "Follow these guidelines before you create a mirror consistency group."
 ---
 = What do I need to know before creating a mirror consistency group?
 :experimental:
@@ -11,6 +11,11 @@ summary: 'Follow these guidelines before you create a mirror consistency group.'
 
 [.lead]
 Follow these guidelines before you create a mirror consistency group.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
 
 You create a consistency group in Unified Manager in the Create Mirrored Pairs wizard.
 
@@ -28,8 +33,3 @@ Also be sure to meet the following requirements for storage arrays:
 * The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
 * You must know the password for the local and remote storage arrays.
 * Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
-
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====

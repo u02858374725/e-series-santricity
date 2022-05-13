@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/what-are-the-keyboard-shortcuts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can navigate around System Manager using the keyboard alone.'
+keywords: SANtricity, System Manager, E-Series, keyboard shortcuts
+summary: "You can navigate around System Manager using the keyboard alone."
 ---
 = What are the keyboard shortcuts?
 :icons: font
@@ -13,6 +13,7 @@ You can navigate around System Manager using the keyboard alone.
 
 == Overall navigation
 
+[cols="1a,1a" options="header"]
 |===
 | Action| Keyboard shortcut
 a|
@@ -47,6 +48,7 @@ Enter
 
 == Table navigation
 
+[cols="1a,1a" options="header"]
 |===
 | Action| Keyboard shortcut
 a|
@@ -65,6 +67,7 @@ Tab to select a column heading, then press Enter
 
 == Calendar navigation
 
+[cols="1a,1a" options="header"]
 |===
 | Action| Keyboard shortcut
 a|

@@ -1,17 +1,17 @@
 ---
 permalink: sm-settings/how-access-management-works.html
 sidebar: sidebar
-keywords: authentication,users,roles
-summary: 'Access Management is a method of establishing user authentication in SANtricity System Manager.'
+keywords: SANtricity, System Manager, E-Series, authentication, users, roles, access, Management,
+summary: "Access Management is a method of establishing user authentication in SANtricity System Manager."
 ---
 = How Access Management works
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Access Management is a method of establishing user authentication in SANtricity System Manager.
+Access Management is a method of establishing user authentication in System Manager.
 
-Access Management configuration and user authentication works as follows:
+Configuration and user authentication works as follows:
 
 . An administrator logs in to System Manager with a user profile that includes Security Admin permissions.
 +
@@ -51,9 +51,9 @@ Access to tasks depends on a user's assigned roles, which include the following:
 
 An unavailable task is either grayed out or does not display in the user interface. For example, a user with the Monitor role can view all information about volumes, but cannot access functions for modifying that volume. The tabs for features such as *Copy Services* and *Add to Workload* will be grayed out; only *View/Edit Settings* is available.
 
-== Limitations in SANtricity Unified Manager and SANtricity Storage Manager
+== Limitations in Unified Manager and Storage Manager
 
-If SAML is configured for a storage array, users cannot discover or manage storage for that array from the SANtricity Unified Manager or the SANtricity Storage Manager interfaces.
+If SAML is configured for a storage array, users cannot discover or manage storage for that array from the Unified Manager or the legacy Storage Manager interfaces.
 
 When local user roles and directory services are configured, users must enter credentials before performing any of the following functions:
 

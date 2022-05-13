@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/requirements-for-using-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'If you plan to use asynchronous mirroring, keep the following requirements in mind.'
+keywords: SANtricity, System Manager, E-Series, requirements, asynchronous, mirroring,
+summary: "If you plan to use asynchronous mirroring, keep the following requirements in mind."
 ---
 = Requirements for using asynchronous mirroring
 :experimental:
@@ -12,7 +12,7 @@ summary: 'If you plan to use asynchronous mirroring, keep the following requirem
 [.lead]
 If you plan to use asynchronous mirroring, keep the following requirements in mind.
 
-== SANtricity Unified Manager
+== Unified Manager
 
 To enable and configure mirroring between two arrays, you must use the Unified Manager interface. Unified Manager is installed on a host system along with the Web Services Proxy.
 
@@ -68,6 +68,7 @@ iSCSI ports are configured at the array level on a port-by-port basis. Intercont
 ====
 The iSCSI intercontroller communication must use a host connect port and not the management Ethernet port.
 ====
+
 +
 Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side. Because asynchronous mirroring is intended for higher-latency, lower-cost networks, iSCSI (and thus TCP/IP-based) connections are a good fit for it. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections
 

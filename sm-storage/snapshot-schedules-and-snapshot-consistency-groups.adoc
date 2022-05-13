@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'Use schedules for collection of snapshot images, and use snapshot consistency groups to manage multiple base volumes.'
+keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups
+summary: "Use schedules for collection of snapshot images, and use snapshot consistency groups to manage multiple base volumes."
 ---
 = Snapshot schedules and snapshot consistency groups
 :icons: font
@@ -27,12 +27,4 @@ You create a snapshot consistency group when you want to make sure snapshot imag
 The volumes included in a snapshot consistency group are called member volumes. When you add a volume to a consistency group, System Manager automatically creates new reserved capacity that corresponds to that member volume. You can define a schedule to automatically create a snapshot image of each member volume.
 
 image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[]
-
-|===
-a|
-1   Reserved capacity.
-a|
-2   Member volume.
-a|
-3   Consistency group snapshot images.
-|===
+^1^ Reserved capacity;  ^2^ Member volume;  ^3^ Consistency group snapshot images

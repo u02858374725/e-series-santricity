@@ -1,15 +1,15 @@
 ---
 permalink: um-manage/upgrade-considerations.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you use SANtricity Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.'
+keywords: SANtricity, Unified Manager, E-Series, upgrade, considerations
+summary: "Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning."
 ---
 = Upgrade considerations
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Before you use SANtricity Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
+Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
 
 == Current versions
 
@@ -19,7 +19,7 @@ You can view the current SANtricity OS software versions from the Manage page of
 
 As part of the upgrade process, you might also need to upgrade the host's multipath/failover driver or the HBA driver so that the host can interact with the controllers correctly.
 
-For compatibility information, refer to the https://mysupport.netapp.com/NOW/products/interoperability[NetApp Interoperability Matrix]. Also, see the procedures in the Express Guides for your operating system. Express Guides are available from the https://docs.netapp.com/ess-11/index.jsp[E-Series Documentation Center].
+For compatibility information, refer to the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix^]. Also, see the procedures in the Express Guides for your operating system. Express Guides are available from the https://docs.netapp.com/us-en/e-series/index.html[E-Series and SANtricity documentation^].
 
 == Dual controllers
 

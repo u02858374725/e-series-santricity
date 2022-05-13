@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/place-controller-online.html
 sidebar: sidebar
-keywords: 
-summary: 'If a controller is in the offline state or in service mode, you can place it back online.'
+keywords: SANtricity, System Manager, E-Series, place, controller, online
+summary: "If a controller is in the offline state or in service mode, you can place it back online."
 ---
 = Place controller online
 :icons: font
@@ -11,7 +11,7 @@ summary: 'If a controller is in the offline state or in service mode, you can pl
 [.lead]
 If a controller is in the offline state or in service mode, you can place it back online.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.
@@ -24,7 +24,7 @@ The controller's context menu appears.
 
 . Select *Place online*, and confirm that you want to perform the operation.
 
-== Results
+.Results
 
 Detection of a restored preferred path by the multipath driver can take up to 10 minutes.
 

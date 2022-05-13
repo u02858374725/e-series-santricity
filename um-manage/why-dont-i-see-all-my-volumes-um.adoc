@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/why-dont-i-see-all-my-volumes-um.html
 sidebar: sidebar
-keywords: 
-summary: 'When you are selecting a primary volume for a mirrored pair, a list shows all the eligible volumes.'
+keywords: SANtricity, Unified Manager, E-Series, volumes missing
+summary: "When you are selecting a primary volume for a mirrored pair, a list shows all the eligible volumes."
 ---
 = Why don't I see all my volumes?
 :icons: font

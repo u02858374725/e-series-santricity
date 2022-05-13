@@ -1,0 +1,46 @@
+---
+permalink: sm-storage/overview-pools-volume-groups.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, pools, volume groups
+summary: "You can create logical storage capacity from a subset of unassigned drives in your storage array. This logical capacity can take the form of either a pool or a volume group, depending on the needs of your environment."
+---
+= Pools and volume groups overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create logical storage capacity from a subset of unassigned drives in your storage array. This logical capacity can take the form of either a pool or a volume group, depending on the needs of your environment.
+
+== What are pools and volume groups?
+A _pool_ is a set of logically grouped drives. A _volume group_ is a container for volumes with shared characteristics. You can use either a pool or volume group to create volumes accessible to a host.
+
+Learn more:
+
+* link:how-pools-and-volume-groups-work.html[How pools and volume groups work]
+* link:capacity-terminology.html[Capacity terminology]
+* link:decide-to-use-a-pool-or-volume-group.html[Decide whether to use a pool or a volume group]
+
+== How do you create pools?
+You can allow System Manager to create pools automatically when it detects unassigned capacity in a storage array. Alternatively, when automatic creation cannot determine the best configuration, you can create pools manually from menu:Storage[Pools & Volume Groups].
+
+Learn more:
+
+* link:automatic-versus-manual-pool-creation.html[Automatic versus manual pool creation]
+* link:create-pool-automatically.html[Create pool automatically]
+* link:create-pool-manually.html[Create pool manually]
+* link:add-capacity-to-a-pool-or-volume-group.html[Add capacity to a pool or volume group]
+
+== How do you create volume groups?
+You can create volume groups from menu:Storage[Pools & Volume Groups].
+
+Learn more:
+
+* link:create-volume-group.html[Create a volume group]
+* link:add-capacity-to-a-pool-or-volume-group.html[Add capacity to a pool or volume group]
+
+== Related information
+Learn more about concepts related to pools and volume groups:
+
+* link:how-reserved-capacity-works.html[How reserved capacity works]
+* link:how-ssd-cache-works.html[How SSD Cache works]

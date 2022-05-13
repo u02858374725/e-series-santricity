@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in System Manager.'
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring,
+summary: "You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in System Manager."
 ---
 = Asynchronous mirroring - What do I need to know before creating a mirrored pair?
 :icons: font

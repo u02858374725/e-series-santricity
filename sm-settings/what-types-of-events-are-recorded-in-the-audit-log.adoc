@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html
 sidebar: sidebar
-keywords: 
-summary: 'The audit log can record modification events, or both modification and read-only events.'
+keywords: SANtricity, System Manager, E-Series, events, recorded, audit, log,
+summary: "The audit log can record modification events, or both modification and read-only events."
 ---
 = What types of events are recorded in the audit log?
 :icons: font

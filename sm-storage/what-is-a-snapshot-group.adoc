@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-a-snapshot-group.html
 sidebar: sidebar
-keywords: 
-summary: 'A snapshot group is a collection of point-in-time snapshot images of a single associated base volume.'
+keywords: SANtricity, System Manager, E-Series, snapshot, group,
+summary: "A snapshot group is a collection of point-in-time snapshot images of a single associated base volume."
 ---
 = What is a snapshot group?
 :icons: font

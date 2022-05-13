@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html
 sidebar: sidebar
-keywords: 
-summary: 'The statistics for pools and volume groups are calculated by aggregating all volumes, including reserved capacity volumes.'
+keywords: SANtricity, System Manager, E-Series, performance, statistics,
+summary: "The statistics for pools and volume groups are calculated by aggregating all volumes, including reserved capacity volumes."
 ---
 = How do performance statistics for individual volumes relate to the total?
 :icons: font

@@ -1,23 +1,24 @@
 ---
 permalink: sm-storage/copy-snapshot-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You can perform a Copy Volume process on a snapshot volume or a snapshot consistency group snapshot volume.'
+keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume
+summary: "You can perform a Copy Volume process on a snapshot volume or a snapshot consistency group snapshot volume."
 ---
 = Copy snapshot volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can perform a Copy Volume process on a snapshot volume or a snapshot consistency group snapshot volume.
 
-== About this task
+.About this task
 
 You can copy a snapshot volume to the target volume as performed in a normal Copy Volume operation. However, snapshot volumes cannot remain online during the copy volume process.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Snapshots*.
+. Select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.

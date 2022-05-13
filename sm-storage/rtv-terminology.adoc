@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/rtv-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the remote storage terms apply to your storage array.'
+keywords: SANtricity, System Manager, E-Series, remote, storage, terms
+summary: "Learn how the remote storage terms apply to your storage array."
 ---
 = Remote Storage terminology
 :icons: font
@@ -11,6 +11,7 @@ summary: 'Learn how the remote storage terms apply to your storage array.'
 [.lead]
 Learn how the remote storage terms apply to your storage array.
 
+[cols="25h,~",options="header"]
 |===
 | Term| Description
 a|

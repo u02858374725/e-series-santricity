@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/permissions-for-mapped-roles.html
 sidebar: sidebar
-keywords: 
-summary: 'The RBAC \(role-based access control\) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager.'
+keywords: SANtricity, System Manager, E-Series, permissions, mapped, roles,
+summary: "The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager."
 ---
 = Permissions for mapped roles
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager.
+The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in System Manager.
 
-User profiles and mapped roles are accessible from *Settings* > *Access Management* > *Local User Roles* in the user interface of either System Manager.
+User profiles and mapped roles are accessible from menu:Settings[Access Management > Local User Roles] in the user interface of either System Manager.
 
 The roles provide user access to tasks, as follows:
 

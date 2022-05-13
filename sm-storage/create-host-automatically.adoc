@@ -1,23 +1,24 @@
 ---
 permalink: sm-storage/create-host-automatically.html
 sidebar: sidebar
-keywords: 
-summary: 'You can allow the Host Context Agent \(HCA\) to automatically detect the hosts, and then verify that the information is correct. Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes.'
+keywords: SANtricity, System Manager, E-Series, create, host, automatically
+summary: "You can allow the Host Context Agent (HCA) to automatically detect the hosts, and then verify that the information is correct. Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes."
 ---
 = Create host automatically
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can allow the Host Context Agent (HCA) to automatically detect the hosts, and then verify that the information is correct. Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes.
 
-== Before you begin
+.Before you begin
 
-The Host Context Agent (HCA) is installed and running on every host connected to the storage array. Hosts with the HCA installed and connected to the storage array are created automatically. To install the HCA, install SANtricity Storage Manager on the host and select the Host option. The HCA is not available on all supported operating systems. If it is not available, you must create the host manually.
+Make sure the Host Context Agent (HCA) is installed and running on every host connected to the storage array. Hosts with the HCA installed and connected to the storage array are created automatically. To install the HCA, install SANtricity Storage Manager on the host and select the Host option. The HCA is not available on all supported operating systems. If it is not available, you must create the host manually.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Hosts*.
+. Select menu:Storage[Hosts].
 +
 The table lists the automatically-created hosts.
 
@@ -25,9 +26,9 @@ The table lists the automatically-created hosts.
 +
 If you need to change any of the information, select the host, and then click *View/Edit Settings*.
 
-. (Optional) If you want the automatically-created host to be in a cluster, create a host cluster and add the host or hosts.
+. *Optional:* If you want the automatically-created host to be in a cluster, create a host cluster and add the host or hosts.
 
-== Results
+.Results
 
 After a host is created automatically, the system displays the following items in the Hosts tile table:
 

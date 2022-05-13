@@ -1,0 +1,51 @@
+---
+permalink: sm-storage/overview-snapshots.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, snapshots
+summary: "The Snapshot feature allows you to create point-in-time images of storage array volumes to use for backup or testing."
+---
+= Snapshots overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Snapshot feature allows you to create point-in-time images of storage array volumes to use for backup or testing.
+
+== What are snapshot images?
+A _snapshot image_ is a logical copy of volume data, captured at a particular point-in-time. Like a restore point, snapshot images allow you to roll back to a known good data set. Although the host can access the snapshot image, it cannot directly read or write to it.
+
+Learn more:
+
+* link:how-snapshot-storage-works.html[How snapshot storage works]
+* link:snapshot-terminology.html[Snapshot terminology]
+* link:base-volumes-reserved-capacity-and-snapshot-groups.html[Base volumes, reserved capacity, and snapshot groups]
+* link:snapshot-schedules-and-snapshot-consistency-groups.html[Snapshot schedules and consistency groups]
+* link:snapshot-volumes.html[Snapshot volumes]
+
+== How do I create snapshots?
+You can manually create a snapshot image from a base volume or snapshot consistency group. This procedure is available from menu:Storage[Snapshots].
+
+Learn more:
+
+* link:requirements-and-guidelines-for-snapshots.html[Requirements and guidelines for snapshots]
+* link:workflow-for-creating-snapshot-images-and-snapshot-volumes.html[Workflow for creating snapshot images and volumes]
+* link:create-snapshot-image.html[Create a snapshot image]
+* link:schedule-snapshot-images.html[Schedule snapshot images]
+* link:create-snapshot-consistency-group.html[Create a snapshot consistency group]
+* link:create-snapshot-volume.html[Create a snapshot volume]
+
+== How do I roll back data from a snapshot?
+A _rollback_ is the process of returning data in a base volume to a previous point in time. You can roll back snapshot data from menu:Storage[Snapshots].
+
+Learn more:
+
+* link:snapshot-rollback.html[Snapshot rollback]
+* link:start-snapshot-image-rollback-for-base-volume.html[Start a snapshot image rollback for a base volume]
+* link:start-snapshot-image-rollback-for-consistency-group-member-volumes.html[Start a snapshot image rollback for a consistency group member]
+
+== Related information
+Learn more about tasks related to snapshots:
+
+* link:change-the-reserved-capacity-settings-for-a-snapshot-volume.html[Change reserved capacity for a snapshot volume]
+* link:change-the-reserved-capacity-settings-for-a-snapshot-group.html[Change reserved capacity for a snapshot group]

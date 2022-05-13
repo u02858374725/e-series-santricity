@@ -1,0 +1,28 @@
+---
+permalink: um-certificates/overview-certificates-um.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, certificate management
+summary: "Certificate Management allows you to create certificate signing requests (CSRs), import certificates, and manage existing certificates."
+---
+= Certificates overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Certificate Management allows you to create certificate signing requests (CSRs), import certificates, and manage existing certificates.
+
+== What are certificates?
+_Certificates_ are digital files that identify online entities, such as websites and servers, for secure communications on the internet. There are two types of certificates: a _signed certificate_ is validated by a certificate authority (CA) and a _self-signed certificate_ is validated by the owner of the entity instead of a third party.
+
+Learn more:
+
+* link:how-certificates-work-unified.html[How certificates work]
+* link:certificate-terminology-unified.html[Certificate terminology]
+
+== How do I configure certificates?
+From Certificate Management, you can configure certificates for the management station hosting Unified Manager and also import certificates for the controllers in the arrays.
+
+Learn more:
+
+* link:use-ca-signed-certificate-um.html[Use CA-signed certificates for the management system]
+* link:import-array-certificates-unified.html[Import certificates for arrays]

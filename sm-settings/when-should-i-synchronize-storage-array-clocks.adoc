@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/when-should-i-synchronize-storage-array-clocks.html
 sidebar: sidebar
-keywords: 
-summary: 'You should manually synchronize the controller clocks in the storage array if you notice that the time stamps shown in System Manager are not aligned with time stamps shown in your management client \(the computer that is accessing System Manager through the browser\). This task is only necessary if NTP \(Network Time Protocol\) is not enabled in System Manager.'
+keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clock,
+summary: "You should manually synchronize the controller clocks in the storage array if you notice that the time stamps shown in System Manager are not aligned with time stamps shown in your management client (the computer that is accessing System Manager through the browser). This task is only necessary if NTP (Network Time Protocol) is not enabled in System Manager."
 ---
 = When should I synchronize storage array clocks?
 :icons: font

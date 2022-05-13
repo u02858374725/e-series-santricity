@@ -1,19 +1,20 @@
 ---
 permalink: sm-support/enable-autosupport-maintenance-window.html
 sidebar: sidebar
-keywords: 
-summary: 'Enable the AutoSupport maintenance window to suppress automatic ticket creation on error events. Under normal operation mode, the storage array uses AutoSupport to open a case with Support if there is an issue.'
+keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window
+summary: "Enable the AutoSupport maintenance window to suppress automatic ticket creation on error events. Under normal operation mode, the storage array uses AutoSupport to open a case with Support if there is an issue."
 ---
 = Enable AutoSupport maintenance window
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Enable the AutoSupport maintenance window to suppress automatic ticket creation on error events. Under normal operation mode, the storage array uses AutoSupport to open a case with Support if there is an issue.
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *AutoSupport* tab.
+. Select menu:Support[Support Center > AutoSupport] tab.
 . Select *Enable AutoSupport Maintenance window*.
 . Enter the email address to receive a confirmation that the maintenance window request has been processed.
 +
@@ -27,6 +28,6 @@ The maximum supported duration is 72 hours.
 +
 AutoSupport automatic ticket creation on error events is temporarily suppressed for the specified duration window.
 
-== After you finish
+.After you finish
 
 The maintenance window does not begin until the storage array's request is processed by the AutoSupport servers. Wait until you have received a confirmation email before performing any maintenance activities on your storage array.

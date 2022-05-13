@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Each member volume in a snapshot consistency group must have its own reserved capacity to save any modifications made by the host application to the base volume without affecting the referenced consistency group snapshot image. Reserved capacity provides the host application with write access to a copy of the data contained in the member volume that is designated as read-write.'
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, member, volume
+summary: "Each member volume in a snapshot consistency group must have its own reserved capacity to save any modifications made by the host application to the base volume without affecting the referenced consistency group snapshot image. Reserved capacity provides the host application with write access to a copy of the data contained in the member volume that is designated as read-write."
 ---
 = Why do I need reserved capacity for each member volume?
 :icons: font

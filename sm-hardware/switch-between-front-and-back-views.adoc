@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/switch-between-front-and-back-views.html
 sidebar: sidebar
-keywords: 
-summary: 'The Hardware page can show either the front view or the back view of the shelves.'
+keywords: SANtricity, System Manager, E-Series, switch, front, back, views, shelves
+summary: "The Hardware page can show either the front view or the back view of the shelves."
 ---
 = Switch between front and back views
 :icons: font
@@ -11,11 +11,11 @@ summary: 'The Hardware page can show either the front view or the back view of t
 [.lead]
 The Hardware page can show either the front view or the back view of the shelves.
 
-== About this task
+.About this task
 
 The back view shows the controllers/IOMs and the power-fan canisters. The front view shows the drives.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

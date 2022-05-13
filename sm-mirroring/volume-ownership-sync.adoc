@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/volume-ownership-sync.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the preferred controller owner in a mirrored pair.'
+keywords: SANtricity, System Manager, E-Series, volume, ownership, sync, change, preferred, controller, owner, mirrored, pair,
+summary: "You can change the preferred controller owner in a mirrored pair."
 ---
 = Volume ownership
 :icons: font

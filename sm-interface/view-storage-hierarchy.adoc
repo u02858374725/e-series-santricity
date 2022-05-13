@@ -1,0 +1,94 @@
+---
+permalink: sm-interface/view-storage-hierarchy.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, storage hierarchy
+summary: "The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array."
+---
+= View storage hierarchy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array.
+
+To view the storage hierarchy, go to the Home page and click the drop-down arrow on a storage array component or storage object. A storage array consists of a collection of both physical components and logical components.
+
+== Physical components
+
+The physical components of a storage array are described in this table.
+
+[cols="25h,~",options="header"]
+|===
+| Component| Description
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+
+a|
+Shelf
+a|
+A shelf is an enclosure installed in a cabinet or rack. It contains the hardware components for the storage array. There are two types of shelves: a controller shelf and a drive shelf. A controller shelf includes controllers and drives. A drive shelf includes input/output modules (IOMs) and drives.
+
+[NOTE]
+====
+If your storage array contains different media types or different interface types, a drive shelf for each drive type appears.
+====
+
+a|
+Drive
+a|
+A drive is an electromagnetic mechanical device or solid state memory device that provides the physical storage media for data.
+
+a|
+Host
+a|
+A host is a server that sends I/O to a volume on a storage array.
+
+a|
+Host bus adapter (HBA)
+a|
+A host bus adapter (HBA) is a board that resides in a host and contains one or more host ports.
+
+a|
+Host port
+a|
+A host port is a port on a host bus adapter (HBA) that provides the physical connection to a controller and is used for I/O operations.
+
+a|
+Management client
+a|
+A management client is the computer where a browser is installed for accessing System Manager.
+
+|===
+
+== Logical components
+
+The drives in the storage array provide the physical storage capacity for data. Use System Manager to configure the physical capacity into logical components, such as pools, volume groups, and volumes. These components are the tools that you use to configure, store, maintain, and preserve data on the storage array. The logical components of a storage array are described in this table.
+
+[cols="25h,~",options="header"]
+|===
+| Component| Description
+a|
+Pool
+a|
+A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)
+
+a|
+Volume group
+a|
+A volume group is a container for volumes with shared characteristics. A volume group has a defined capacity and RAID level. You can use a volume group to create one or more volumes accessible to a host. (You create volumes from either a volume group or a pool.)
+
+a|
+Volume
+a|
+A volume is a container in which applications, databases, and file systems store data. It is the logical component created for the host to access storage on the storage array.
+
+a|
+Logical unit number (LUN)
+a|
+A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN.
+
+Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
+
+|===

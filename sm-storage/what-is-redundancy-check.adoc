@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-redundancy-check.html
 sidebar: sidebar
-keywords: 
-summary: 'A redundancy check determines whether the data on a volume in a pool or volume group is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.'
+keywords: SANtricity, System Manager, E-Series, redundancy, check
+summary: "A redundancy check determines whether the data on a volume in a pool or volume group is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails."
 ---
 = What is redundancy check?
 :icons: font

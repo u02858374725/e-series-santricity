@@ -1,10 +1,10 @@
 ---
 permalink: um-manage/mirroring-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection.'
+keywords: SANtricity, Unified Manager, E-Series, mirroring,
+summary: "Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection."
 ---
-= Mirroring overview
+= How mirroring works
 :icons: font
 :imagesdir: ../media/
 
@@ -28,6 +28,7 @@ Synchronous mirroring replicates data volumes in real time to ensure continuous 
 
 The following table describes the main differences between the two types of mirroring.
 
+[cols="1a,1a,1a" options="header"]
 |===
 | Attribute| Asynchronous| Synchronous
 a|
@@ -55,8 +56,3 @@ Standard or thin.
 a|
 Standard only.
 |===
-
-[NOTE]
-====
-For more information on how mirroring works in SANtricity applications, refer to the online help for System Manager.
-====

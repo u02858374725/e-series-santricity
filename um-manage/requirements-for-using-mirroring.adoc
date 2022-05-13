@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/requirements-for-using-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'If you plan to configure mirroring, keep the following requirements in mind.'
+keywords: SANtricity, Unified Manager, E-Series, requirements, using, mirroring
+summary: "If you plan to configure mirroring, keep the following requirements in mind."
 ---
 = Requirements for using mirroring
 :experimental:
@@ -12,7 +12,7 @@ summary: 'If you plan to configure mirroring, keep the following requirements in
 [.lead]
 If you plan to configure mirroring, keep the following requirements in mind.
 
-== SANtricity Unified Manager
+== Unified Manager
 
 * The Web Services Proxy service must be running.
 * Unified Manager must be running on your local host through an HTTPS connection.
@@ -22,7 +22,7 @@ If you plan to configure mirroring, keep the following requirements in mind.
 
 [NOTE]
 ====
-Mirroring is not available on the EF600 storage array.
+Mirroring is not available on the EF600 or EF300 storage array.
 ====
 
 * You must have two storage arrays.

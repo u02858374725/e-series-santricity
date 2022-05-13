@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html
 sidebar: sidebar
-keywords: 
-summary: 'The synchronization priority defines how much processing time is allocated for synchronization activities relative to system performance.'
+keywords: SANtricity, System Manager, E-Series, synchronization, priority, rates,
+summary: "The synchronization priority defines how much processing time is allocated for synchronization activities relative to system performance."
 ---
 = What impact does synchronization priority have on synchronization rates?
 :icons: font
@@ -15,8 +15,9 @@ The controller owner of the primary volume performs this operation in the backgr
 
 Keep these guidelines in mind to help you determine how long a synchronization priority might take and how the synchronization priorities can affect system performance.
 
-About synchronization priority rates
-
+.About synchronization priority rates
+[%collapsible]
+====
 These priority rates are available:
 
 * Lowest
@@ -26,9 +27,10 @@ These priority rates are available:
 * Highest
 
 The lowest priority rate supports system performance, but the resynchronization takes longer. The highest priority rate supports resynchronization, but system performance might be compromised.
-
+====
 These guidelines roughly approximate the differences between the priorities.
 
+[cols="35h,~",options="header"]
 |===
 | Priority rate for full synchronization| Time elapsed compared to highest synchronization rate
 a|

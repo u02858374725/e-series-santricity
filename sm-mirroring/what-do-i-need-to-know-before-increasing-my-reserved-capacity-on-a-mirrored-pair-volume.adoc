@@ -1,10 +1,11 @@
 ---
 permalink: sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Typically, you should increase reserved capacity when you receive a warning that the reserved capacity for a mirrored pair is becoming full. You can increase reserved capacity only in increments of 8 GiB.'
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, mirrored, pair, volume,
+summary: "Typically, you should increase reserved capacity when you receive a warning that the reserved capacity for a mirrored pair is becoming full. You can increase reserved capacity only in increments of 8 GiB."
 ---
 = What do I need to know before increasing my reserved capacity on a mirrored pair volume?
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -18,7 +19,7 @@ For asynchronous mirroring operations, reserved capacity is typically 20 percent
 
 You can increase the reserved capacity for a mirrored pair by performing one of these actions:
 
-* Adjust the capacity percentage for a mirrored pair volume by selecting *Storage* > *Pools and Volumes Groups* and then clicking the *Reserved Capacity* tab.
+* Adjust the capacity percentage for a mirrored pair volume by selecting menu:Storage[Pools and Volumes Groups] and then clicking the *Reserved Capacity* tab.
 * Create a new volume using free capacity that is available on a pool or volume group.
 +
 If no free capacity exists on any pool or volume group, you can add unconfigured capacity in the form of unused drives to a pool or volume group.

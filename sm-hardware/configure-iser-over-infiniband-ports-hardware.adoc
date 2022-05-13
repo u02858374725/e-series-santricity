@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-iser-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: 
-summary: 'If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host.'
+keywords: SANtricity, System Manager, E-Series, configure, iser, infiniband, ports,
+summary: "If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host."
 ---
 = Configure iSER over InfiniBand ports
 :icons: font
@@ -11,12 +11,12 @@ summary: 'If your controller includes an iSER over InfiniBand port, you can conf
 [.lead]
 If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include an iSER over InfiniBand port; otherwise, the iSER over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.

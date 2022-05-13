@@ -1,15 +1,17 @@
 ---
 permalink: sm-hardware/hot-spare-drives.html
 sidebar: sidebar
-keywords: 
-summary: 'Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager. They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a drive assigned as a hot spare.'
+keywords: SANtricity, System Manager, E-Series, hot, spare, drives, raid1, raid6, raid5
+summary: "Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager. "
 ---
-= Hot spare drives
+= Hot spare drive overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager. They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a drive assigned as a hot spare.
+Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager.
+
+They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a drive assigned as a hot spare.
 
 Hot spares are not dedicated to specific volume groups. They can be used for any failed drive in the storage array, as long as the hot spare and the drive share these attributes:
 

@@ -1,0 +1,25 @@
+---
+permalink: sm-support/overview-support.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, support, center
+summary: "Use the Support Center to perform diagnostic, recovery, and information gathering operations that might be requested by technical support."
+---
+= Support overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Support page provides access to technical support resources.
+
+== What Support tasks are available?
+In Support, you can view technical support contacts, perform diagnostics, configure AutoSupport, view the event log, and perform software upgrades.
+
+Learn more:
+
+* link:autosupport-feature-overview.html[AutoSupport feature overview]
+* link:overview-event-log.html[Event log overview]
+* link:overview-upgrade-center.html[Upgrade Center overview]
+
+== How do I contact technical support?
+From the main page, click menu:Support[Support Center > Support Resources tab]. The technical support contact information is listed in the upper right of the interface.

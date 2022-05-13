@@ -1,8 +1,8 @@
 ---
 permalink: um-certificates/certificate-terminology-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'The following terms apply to certificate management.'
+keywords: SANtricity, Unified Manager, E-Series, certificate, terminology
+summary: "The following terms apply to certificate management."
 ---
 = Certificate terminology
 :icons: font
@@ -11,6 +11,7 @@ summary: 'The following terms apply to certificate management.'
 [.lead]
 The following terms apply to certificate management.
 
+[cols="25h,~",options="header"]
 |===
 | Term| Description
 a|
@@ -37,7 +38,6 @@ a|
 Keystore
 a|
 A keystore is a repository on your host management system that contains private keys, along with their corresponding public keys and certificates. These keys and certificates identify your own entities, such as the controllers.
-
 a|
 Root certificate
 a|
@@ -58,5 +58,4 @@ a|
 Truststore
 a|
 A truststore is a repository that contains certificates from trusted third parties, such as CAs.
-
 |===

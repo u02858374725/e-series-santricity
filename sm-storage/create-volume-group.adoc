@@ -1,37 +1,37 @@
 ---
 permalink: sm-storage/create-volume-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You use a volume group to create one or more volumes that are accessible to the host. A volume group is a container for volumes with shared characteristics such as RAID level and capacity.'
+keywords: SANtricity, System Manager, E-Series, create, volume, group
+summary: "You use a volume group to create one or more volumes that are accessible to the host. A volume group is a container for volumes with shared characteristics such as RAID level and capacity."
 ---
 = Create a volume group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You use a volume group to create one or more volumes that are accessible to the host. A volume group is a container for volumes with shared characteristics such as RAID level and capacity.
 
-== About this task
-
 With larger capacity drives and the ability to distribute volumes across controllers, creating more than one volume per volume group is a good way to make use of your storage capacity and to protect your data.
 
-Follow these guidelines when you create a volume group.
+.Before you begin
+
+Review these guidelines before you create a volume group:
 
 * You need at least one unassigned drive.
-* Limits exist as to how much drive capacity you can have in a single volume group. These limits vary according to your host type.
+* Limits exist on the number of drives you can have in a single volume group. These limits vary according to the RAID level.
 * To enable shelf/drawer loss protection, you must create a volume group that uses drives located in at least three shelves or drawers, unless you are using RAID 1, where two shelves/drawers is the minimum.
-* When configuring an EF600 or EF300 storage array, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group. For pool creation, it is recommended to use all drives in the storage array.
+* If you have an EF600 or EF300 storage array, and you plan to create a volume group manually, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group.
+* Review how your choice of RAID level affects the resulting capacity of the volume group:
 
-Review how your choice of RAID level affects the resulting capacity of the volume group.
+** If you select RAID 1, you must add two drives at a time to make sure that a mirrored pair is selected. Mirroring and striping (known as RAID 10 or RAID 1+0) is achieved when four or more drives are selected.
+** If you select RAID 5, you must add a minimum of three drives to create the volume group.
+** If you select RAID 6, you must add a minimum of five drives to create the volume group.
 
-* If you select RAID 1, you must add two drives at a time to make sure that a mirrored pair is selected. Mirroring and striping (known as RAID 10 or RAID 1+0) is achieved when four or more drives are selected.
-* If you select RAID 5, you must add a minimum of three drives to create the volume group.
-* If you select RAID 6, you must add a minimum of five drives to create the volume group.
+.Steps
 
-== Steps
-
-. Select *Storage* > *Pools & Volume Groups*.
-. Click *Create* > *Volume group*.
+. Select menu:Storage[Pools & Volume Groups].
+. Click menu:Create[Volume group].
 +
 The Create Volume Group dialog box appears.
 
@@ -40,11 +40,11 @@ The Create Volume Group dialog box appears.
 +
 The volume group candidate table appears and displays only the candidates that support the selected RAID level.
 
-. (Optional) If you have more than one type of drive in your storage array, select the drive type that you want to use.
+. *Optional:* If you have more than one type of drive in your storage array, select the drive type that you want to use.
 +
 The volume group candidate table appears and displays only the candidates that support the selected drive type and RAID level.
 
-. (Optional) You can select either the automatic method or manual method to define which drives to use in the volume group. The Automatic method is the default selection.
+. *Optional:* You can select either the automatic method or manual method to define which drives to use in the volume group. The Automatic method is the default selection.
 +
 To select drives manually, click the *Manually select drives (advanced)* link. When clicked, it changes to *Automatically select drives (advanced)*.
 +
@@ -59,8 +59,11 @@ Only experts who understand drive redundancy and optimal drive configurations sh
 +
 The drive characteristics displayed depend on whether you selected the automatic method or manual method.
 +
-*Automatic method drive characteristics*
-+
+[%collapsible]
+.Automatic method drive characteristics
+====
+
+[cols="25h,~",options="header"]
 |===
 | Characteristic| Use
 a|
@@ -70,7 +73,7 @@ Shows the available capacity in GiB. Select a volume group candidate with the ca
 a|
 Total Drives
 a|
-Shows the number of drives available for this volume group. Select a volume group candidate with the number of drives that you want. The more drives that a volume group contains, the less likely it is that multiple drive failures will cause a critical drive failure in a volume group.
+Shows the number of drives available for this volume group. Select a volume group candidate with the number of drives that you want.
 a|
 Drive Block Size (EF300 and EF600 only)
 a|
@@ -78,32 +81,28 @@ Shows the block size (sector size) that the drives in the group can write. Value
 
  ** 512 -- 512-byte sector size.
  ** 4K -- 4,096-byte sector size.
-
 a|
 Secure-Capable
 a|
-    Indicates whether this volume group candidate is comprised entirely of secure-capable drives, which can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+Indicates whether this volume group candidate is comprised entirely of secure-capable drives, which can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 
  ** You can protect your volume group with Drive Security, but all drives must be secure-capable to use this feature.
  ** If you want to create an FDE-only volume group, look for *Yes - FDE* in the Secure-Capable column. If you want to create a FIPS-only volume group, look for *Yes - FIPS* in the Secure-Capable column.
  ** You can create a volume group comprised of drives that might or might not be secure-capable or are a mix of security levels. If the drives in the volume group include drives that are not secure-capable, you cannot make the volume group secure.
-
 a|
 Enable Security?
 a|
-    Provides the option for enabling the Drive Security feature with secure-capable drives. If the volume group is secure-capable and you have set up a security key, you can enable Drive Security by selecting the check box.
-+
-[NOTE]
-====
-The only way to remove Drive Security after it is enabled is to delete the volume group and erase the drives.
-====
+Provides the option for enabling the Drive Security feature with secure-capable drives. If the volume group is secure-capable and you have set up a security key, you can enable Drive Security by selecting the check box.
+
+NOTE: The only way to remove Drive Security after it is enabled is to delete the volume group and erase the drives.
+
 a|
 DA Capable
 a|
-    Indicates if Data Assurance (DA) is available for this group. Data Assurance (DA) checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
-+
-If you want to use DA, select a volume group that is DA capable. This option is available only when the DA feature has been enabled.
-+
+Indicates if Data Assurance (DA) is available for this group. Data Assurance (DA) checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
+
+If you want to use DA, select a volume group that is DA capable. (For DA-capable drives, DA is automatically enabled on volumes created in the pool.)
+
 A volume group can contain drives that are DA-capable or not DA-capable, but all drives must be DA capable for you to use this feature.
 a|
 Resource Provisioning Capable (EF300 and EF600 only)
@@ -125,28 +124,33 @@ Shows the block sizes that can be created for the volumes in the group:
  ** 512n -- 512 bytes native.
  ** 512e -- 512 bytes emulated.
  ** 4K -- 4,096 bytes.
+|===
+====
 
 +
-|===
-*Manual method drive characteristics*
-+
+[%collapsible]
+.Manual method drive characteristics
+====
+
+[cols="25h,~",options="header"]
 |===
 | Characteristic| Use
 a|
 Media Type
 a|
-    Indicates the media type. The following media types are supported:
+Indicates the media type. The following media types are supported:
 
  ** Hard drive
  ** Solid State Disk (SSD)
+
 All drives in a volume group must be of the same media type (either all SSDs or all hard drives). Volume groups cannot have a mixture of media types or interface types.
 a|
 Drive Block Size (EF300 and EF600 only)
 a|
 Shows the block size (sector size) that the drives in the group can write. Values may include:
+
  ** 512 -- 512-byte sector size.
  ** 4K -- 4,096-byte sector size.
-
 a|
 Drive Capacity
 a|
@@ -175,19 +179,18 @@ Indicates the sector size and format.
 a|
 Secure-Capable
 a|
-    Indicates whether this volume group candidate is comprised entirely of secure-capable drives, which can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+Indicates whether this volume group candidate is comprised entirely of secure-capable drives, which can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 
  ** You can protect your volume group with Drive Security, but all drives must be secure-capable to use this feature.
  ** If you want to create an FDE-only volume group, look for *Yes - FDE* in the Secure-Capable column. If you want to create a FIPS-only volume group, look for *Yes - FIPS* in the Secure-Capable column.
  ** You can create a volume group comprised of drives that might or might not be secure-capable or are a mix of security levels. If the drives in the volume group include drives that are not secure-capable, you cannot make the volume group secure.
-
 a|
 DA Capable
 a|
-    Indicates if Data Assurance (DA) is available for this group. Data Assurance (DA) checks for and corrects errors that might occur as data is communicated through the controllers down to the drives.
-+
-If you want to use DA, select a volume group that is DA capable. This option is available only when the DA feature has been enabled.
-+
+Indicates if Data Assurance (DA) is available for this group. Data Assurance (DA) checks for and corrects errors that might occur as data is communicated through the controllers down to the drives.
+
+If you want to use DA, select a volume group that is DA capable. (For DA-capable drives, DA is automatically enabled on volumes created in the pool.)
+
 A volume group can contain drives that are DA-capable or not DA-capable, but all drives must be DA capable for you to use this feature.
 a|
 Volume Block Sizes Supported (EF300 and EF600 only)
@@ -203,3 +206,4 @@ Resource Provisioning Capable (EF300 and EF600 only)
 a|
 Shows if Resource Provisioning is available for this group. Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
 |===
+====

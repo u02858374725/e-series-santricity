@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html
 sidebar: sidebar
-keywords: 
-summary: 'The View NVMe over Fabrics Statistics dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set.'
+keywords: SANtricity, System Manager, E-Series, interpret, nvme, over, Fabrics, statistics,
+summary: "The View NVMe over Fabrics Statistics dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set."
 ---
 = How do I interpret NVMe over Fabrics statistics?
 :icons: font

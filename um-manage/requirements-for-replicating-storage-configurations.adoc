@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/requirements-for-replicating-storage-configurations.html
 sidebar: sidebar
-keywords: 
-summary: 'Before importing a storage configuration from one storage array to another, review the requirements and guidelines.'
+keywords: SANtricity, Unified Manager, E-Series, requirements, replicating, storage, configurations
+summary: "Before importing a storage configuration from one storage array to another, review the requirements and guidelines."
 ---
 = Requirements for replicating storage configurations
 :icons: font

@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/set-automatic-load-balancing.html
 sidebar: sidebar
-keywords: ALB
-summary: 'The Automatic Load Balancing feature ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers. This feature is enabled by default, but you can disable it from System Manager.'
+keywords: SANtricity, System Manager, E-Series, set, automatic, load, balancing,
+summary: "The Automatic Load Balancing feature ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers. This feature is enabled by default, but you can disable it from System Manager."
 ---
 = Set automatic load balancing
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The Automatic Load Balancing feature ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers. This feature is enabled by default, but you can disable it from System Manager.
 
-== About this task
+.About this task
 
 When Automatic Load Balancing is enabled, it performs the following functions:
 
@@ -23,14 +24,14 @@ You might want to disable Automatic Load Balancing on your storage array for the
 * You do not want to automatically change a particular volume's controller ownership to balance workload.
 * You are operating in a highly tuned environment where load distribution is purposefully set up to achieve a specific distribution between the controllers.
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Scroll down to *Additional Settings*, and then click *Enable/Disable Automatic Load Balancing*.
 +
 The text below this option indicates whether the feature is currently enabled or disabled.
 +
-A confirmation dialog opens.
+A confirmation dialog box opens.
 
 . Confirm by clicking *Yes* to continue.
 +

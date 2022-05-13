@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/asynchronous-mirror-status.html
 sidebar: sidebar
-keywords: 
-summary: 'The mirror status defines the state of mirror consistency groups and mirrored volume pairs.'
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirror, status, consistency, group,
+summary: "The mirror status defines the state of mirror consistency groups and mirrored volume pairs."
 ---
 = Asynchronous mirror status
 :icons: font
@@ -18,6 +18,7 @@ This feature is not available on the EF600 or EF300 storage system.
 
 == Status for mirror consistency groups
 
+[cols="25h,~",options="header"]
 |===
 | Status| Description
 a|
@@ -92,6 +93,7 @@ A forced promotion is not allowed when resolving a role conflict.
 
 A mirrored pair's status indicates whether the data on the primary volume and on the secondary volume is synchronized.
 
+[cols="25h,~",options="header"]
 |===
 | Status| Description
 a|

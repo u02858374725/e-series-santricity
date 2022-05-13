@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html
 sidebar: sidebar
-keywords: 
-summary: 'The EF600 storage array can include two HICs – one external and one internal.'
+keywords: SANtricity, System Manager, E-Series, parameters, physical, port,
+summary: "The EF600 storage array can include two HICs – one external and one internal."
 ---
 = Why are there two sets of parameters for one physical port?
 :icons: font

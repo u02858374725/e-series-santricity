@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/turn-on-shelf-locator-light.html
 sidebar: sidebar
-keywords: LED
-summary: 'To find the physical location of a shelf shown on the Hardware page, you can turn on the shelf’s locator light.'
+keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED
+summary: "To find the physical location of a shelf shown on the Hardware page, you can turn on the shelf’s locator light."
 ---
 = Turn on shelf locator light
 :icons: font
@@ -11,7 +11,7 @@ summary: 'To find the physical location of a shelf shown on the Hardware page, y
 [.lead]
 To find the physical location of a shelf shown on the Hardware page, you can turn on the shelf's locator light.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . Select the drop-down list for the Controller Shelf or Drive Shelf, and then select *Turn on locator light*.

@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/what-is-auto-negotiation.html
 sidebar: sidebar
-keywords: 
-summary: 'Auto-negotiation is the ability of a network interface to automatically coordinate its own connection parameters \(speed and duplex\) with another network interface.'
+keywords: SANtricity, System Manager, E-Series, auto, negotiation, network, interface,
+summary: "Auto-negotiation is the ability of a network interface to automatically coordinate its own connection parameters (speed and duplex) with another network interface."
 ---
 = What is auto-negotiation?
 :icons: font

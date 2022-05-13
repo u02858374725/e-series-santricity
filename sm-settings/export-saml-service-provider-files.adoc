@@ -1,32 +1,33 @@
 ---
 permalink: sm-settings/export-saml-service-provider-files.html
 sidebar: sidebar
-keywords: 
-summary: 'If necessary, you can export Service Provider metadata for the storage array and re-import the file\(s\) into the Identity Provider \(IdP\) system.'
+keywords: SANtricity, System Manager, E-Series, export, saml, Service Provider, files,
+summary: "If necessary, you can export Service Provider metadata for the storage array and re-import the file(s) into the Identity Provider (IdP) system."
 ---
 = Export SAML Service Provider files
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If necessary, you can export Service Provider metadata for the storage array and re-import the file(s) into the Identity Provider (IdP) system.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
 * SAML is configured and enabled.
 
-== About this task
+.About this task
 
 In this task, you export metadata from the controllers (one file for each controller). The IdP needs this metadata to establish a trust relationship with the controllers and to process authentication requests. The file includes information such as the controller domain name or IP address that the IdP can use for sending requests.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Access Management*.
+. Select menu:Settings[Access Management].
 . Select the *SAML* tab.
 . Select *Export*.
 +
-The Export Service Provider Files dialog opens.
+The Export Service Provider Files dialog box opens.
 
 . For each controller, click *Export* to save the metadata file to your local system.
 +

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/how-ssd-cache-works.html
 sidebar: sidebar
-keywords: 
-summary: 'The SSD Cache feature is a controller-based solution that caches the most frequently accessed data \("hot" data\) onto lower latency Solid State Drives \(SSDs\) to dynamically accelerate system performance. SSD Cache is used exclusively for host reads.'
+keywords: SANtricity, System Manager, E-Series, ssd cache,
+summary: "The SSD Cache feature is a controller-based solution that caches the most frequently accessed data ('hot' data) onto lower latency Solid State Drives (SSDs) to dynamically accelerate system performance. SSD Cache is used exclusively for host reads."
 ---
 = How SSD Cache works
 :icons: font

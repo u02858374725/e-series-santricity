@@ -1,8 +1,8 @@
 ---
 permalink: um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html
 sidebar: sidebar
-keywords: 
-summary: 'Before creating a mirrored pair, follow these guidelines.'
+keywords: SANtricity, Unified Manager, E-Series, creating, mirrored, pair
+summary: "Before creating a mirrored pair, follow these guidelines."
 ---
 = What do I need to know before creating a mirrored pair?
 :icons: font

@@ -1,0 +1,42 @@
+---
+permalink: sm-hardware/overview-hardware.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, hardware, page,
+summary: "You can check component status on the Hardware page and perform some functions related to those components."
+---
+= Hardware component overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can check component status on the Hardware page and perform some functions related to those components.
+
+== Which components can I manage?
+You can check component status and perform some functions related to these components:
+
+* **Shelves** -- A _shelf_ is a component that contains the hardware for the storage array (controllers, power/fan canisters, and drives). Shelves are available in three sizes for housing up to 12, 24, or 60 drives.
+
+* **Controllers** -- A _controller_ is the combined hardware and firmware that implements storage array and management functions. It includes the cache memory, drive support, and the ports for host connections.
+
+* **Drives** -- A _drive_ can be either a hard disk drive (HDD) or a solid state drive (SSD). Depending on the shelf size, up to 12, 24, or 60 drives can be installed in the shelf.
+
+Learn more:
+
+* link:hardware-page-overview.html[Hardware page]
+* link:hardware-terminology.html[Hardware terminology]
+
+== How do I view hardware components?
+Go to the Hardware page, which provides a graphical depiction of the storage array's physical components. You can switch between the front and back views of the array shelves by selecting either *Show back of shelf* or *Show front of shelf* from the upper right of the shelf view.
+
+Learn more:
+
+* link:view-shelf-component-status-and-settings.html[View shelf component status and settings]
+* link:view-controller-settings.html[View controller settings]
+* link:view-drive-status-and-settings.html[View drive status and settings]
+
+= Related information
+Learn more about concepts related to hardware:
+
+* link:controller-states.html[Controller states]
+* link:drive-states.html[Drive states]
+* link:what-is-shelf-loss-protection-and-drawer-loss-protection.html[Shelf loss protection and drawer loss protection]

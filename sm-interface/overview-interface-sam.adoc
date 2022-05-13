@@ -1,0 +1,66 @@
+---
+permalink: sm-interface/overview-interface-sam.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series,
+summary: 'You navigate the main interface to access System Manager features and tasks.'
+---
+= System Manager interface overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager is a web-based interface that allows you to manage a storage array in a single view.
+
+== Home page
+The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed.
+
+The dashboard view comprises four summary areas that contain key information about the state and health of your storage array. You can find more information from the summary area.
+
+[cols="25h,~",options="header"]
+|===
+| Area| Description
+a|
+Notifications
+a|
+The Notifications area displays problem notifications that indicate the status of the storage array and its components. In addition, this portlet displays automated alerts that can help you troubleshoot issues before it affects other areas of your storage environment.
+a|
+Performance
+a|
+The Performance area allows you to compare and contrast resource usage over time. You can view a storage array's performance metrics for response time (IOPS), transfer rates (MiB/s), and the amount of processing capacity being used (CPU).
+a|
+Capacity
+a|
+The Capacity area displays a chart view of the allocated capacity, free storage capacity, and unassigned storage capacity in your storage array.
+a|
+Storage Hierarchy
+a|
+The Storage Hierarchy area provides an organized view of the various hardware components and storage objects managed by your storage array. Click the drop-down arrow to perform a certain action on that hardware component or storage object.
+|===
+
+== Interface settings
+You can change display preferences and other settings from the main interface.
+
+[cols="25h,~",options="header"]
+|===
+| Setting| Description
+a|
+Display preferences
+a|
+Change capacity values and timeframe from the Preferences drop-down in the upper right corner of the interface.
+a|
+Session timeouts
+a|
+Configure timeouts so that users' inactive sessions are disconnected after a specified time.
+a|
+Help
+a|
+Access Help documentation and other resources from the drop-down in the upper right corner of the interface.
+|===
+
+== User logins and passwords
+The current user logged into the system is shown in the upper right of the interface.
+
+For further information on users and passwords, see:
+
+* link:administrator-password-protection.html[Set admin password protection]
+* link:../sm-settings/change-passwords.html[Change passwords]

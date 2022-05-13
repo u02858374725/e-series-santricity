@@ -1,21 +1,22 @@
 ---
 permalink: sm-settings/clear-storage-array-configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'Use the Clear Configuration operation when you want to delete all the pools, volume groups, volumes, host definitions, and host assignments from the storage array.'
+keywords: SANtricity, System Manager, E-Series, clear, storage, array, configuration,
+summary: "Use the Clear Configuration operation when you want to delete all the pools, volume groups, volumes, host definitions, and host assignments from the storage array."
 ---
 = Clear storage array configuration
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Use the Clear Configuration operation when you want to delete all the pools, volume groups, volumes, host definitions, and host assignments from the storage array.
 
-== Before you begin
+.Before you begin
 
-* Before clearing the storage array configuration, back up the data.
+Before clearing the storage array configuration, back up the data.
 
-== About this task
+.About this task
 
 There are two Clear Storage Array Configuration options:
 
@@ -24,6 +25,7 @@ There are two Clear Storage Array Configuration options:
 +
 The Storage Array option deletes some additional settings.
 
+[cols="1a,1a,1a" options="header"]
 |===
 |  | Volume| Storage Array
 a|
@@ -53,31 +55,31 @@ X
 a|
 Deletes storage array name
 a|
- 
+
 a|
 X
 a|
 Resets storage array cache settings to default
 a|
- 
+
 a|
 X
 |===
 
-[NOTE]
+[CAUTION]
 ====
 *Risk of data loss* -- This operation deletes all data from your storage array. (It does not do a secure erase.) You cannot cancel this operation after it starts. Perform this operation only when instructed to do so by technical support.
 ====
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Select *Clear Storage Array Configuration*.
 . In the drop-down list, select either *Volume* or *Storage Array*.
-. (Optional) If you want to save the configuration (not the data), use the links in the dialog box.
+. *Optional:* If you want to save the configuration (not the data), use the links in the dialog box.
 . Confirm that you want to perform the operation.
 
-== Results
+.Results
 
 * The current configuration is deleted, destroying all existing data on the storage array.
 * All drives are unassigned.

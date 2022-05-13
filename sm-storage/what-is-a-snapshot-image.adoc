@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-a-snapshot-image.html
 sidebar: sidebar
-keywords: 
-summary: 'A snapshot image is a logical copy of volume content, captured at a particular point in time. Snapshot images use minimal storage space.'
+keywords: SANtricity, System Manager, E-Series, snapshot, image,
+summary: "A snapshot image is a logical copy of volume content, captured at a particular point in time. Snapshot images use minimal storage space."
 ---
 = What is a snapshot image?
 :icons: font

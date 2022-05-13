@@ -1,0 +1,41 @@
+---
+permalink: sm-storage/overview-volumes.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, volumes
+summary: "You can create a volume as a container in which applications, databases, and file systems store data. When creating a volume, you also select a workload to customize the storage array configuration for a specific application."
+---
+= Volumes and workloads overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a volume as a container in which applications, databases, and file systems store data. When creating a volume, you also select a workload to customize the storage array configuration for a specific application.
+
+== What are volumes and workloads?
+A _volume_ is the logical component created with specific capacity for the host to access. Although a volume might consist of more than one drive, a volume appears as one logical component to the host. Once a volume is defined, you can add it to a workload. A _workload_ is a storage object that supports an application, such as SQL Server or Exchange, which you can use to optimize storage for that application.
+
+Learn more:
+
+* link:how-volumes-work.html[How volumes work]
+* link:how-workloads-work.html[How workloads work]
+* link:volume-terminology.html[Volume terminology]
+* link:capacity-for-volumes.html[How capacity is allocated for volumes]
+* link:actions-you-can-perform-on-volumes.html[Actions you can perform on volumes]
+
+== How do you create volumes and workloads?
+First, you create a workload. Go to menu:Storage[Volumes] and open a wizard that guides you through the steps. Next, you create a volume from the capacity available in a pool or a volume group, and then assign the workload you created.
+
+Learn more:
+
+* link:workflow-for-creating-volumes.html[Workflow for creating volumes]
+* link:create-workloads.html[Create workloads]
+* link:create-volumes.html[Create volumes]
+* link:add-to-workload.html[Add volumes to workload]
+
+== Related information
+Learn more about concepts related to volumes:
+
+* link:data-integrity-and-data-security-for-volumes.html[Data integrity and data security for volumes]
+* link:ssd-cache-and-volumes.html[SSD Cache and volumes]
+* link:thin-volume-monitoring.html[Thin volume monitoring]

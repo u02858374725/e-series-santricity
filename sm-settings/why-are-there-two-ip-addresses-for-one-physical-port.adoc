@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html
 sidebar: sidebar
-keywords: 
-summary: 'The EF600 storage array can include two HICs – one external and one internal.'
+keywords: SANtricity, System Manager, E-Series, IP, addresses, physical, port,
+summary: "The EF600 storage array can include two HICs – one external and one internal."
 ---
 = Why are there two IP addresses for one physical port?
 :icons: font

@@ -1,25 +1,28 @@
 ---
 permalink: sm-settings/enable-iscsi-discovery-settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable settings related to the discovery of storage devices in an iSCSI network. The Target Discovery Settings allow you to register the storage array’s iSCSI information using the Internet Storage Name Service \(iSNS\) protocol, and also determine whether to allow unnamed discovery sessions.'
+keywords: SANtricity, System Manager, E-Series, enable, iscsi, discovery, settings,
+summary: "You can enable settings related to the discovery of storage devices in an iSCSI network. "
 ---
 = Enable iSCSI discovery settings
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can enable settings related to the discovery of storage devices in an iSCSI network. The Target Discovery Settings allow you to register the storage array's iSCSI information using the Internet Storage Name Service (iSNS) protocol, and also determine whether to allow unnamed discovery sessions.
+You can enable settings related to the discovery of storage devices in an iSCSI network.
 
-== Before you begin
+The Target Discovery Settings allow you to register the storage array's iSCSI information using the Internet Storage Name Service (iSNS) protocol, and also determine whether to allow unnamed discovery sessions.
+
+.Before you begin
 
 If the iSNS server uses a static IP address, that address must be available for iSNS registration. Both IPv4 and IPv6 are supported.
 
-== About this task
+.About this task
 
 You can enable the following settings related to iSCSI discovery:
 
-* *Enable iSNS server to register a target --* When enabled, the storage array registers its iSCSI Qualified Name (IQN) and port information from the iSNS server. This setting allows iSNS discovery, so that an initiator can retrieve the IQN and port information from the iSNS server.
+* *Enable iSNS server to register a target* -- When enabled, the storage array registers its iSCSI Qualified Name (IQN) and port information from the iSNS server. This setting allows iSNS discovery, so that an initiator can retrieve the IQN and port information from the iSNS server.
 * *Enable unnamed discovery sessions* -- When unnamed discovery sessions are enabled, the initiator (iSCSI host) does not need to provide the IQN of the target (controller) during the login sequence for a discovery-type connection. When disabled, the hosts do need to provide the IQN to establish a discovery-session to the controller. However, the target IQN is always required for a normal (I/O bearing) session. Disabling this setting can prevent unauthorized iSCSI hosts from connecting to the controller using only its IP address.
 
 [NOTE]
@@ -27,9 +30,9 @@ You can enable the following settings related to iSCSI discovery:
 The iSCSI settings and functions only display on the Settings page if your storage array supports iSCSI.
 ====
 
-== Steps
+.Steps
 
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Under *iSCSI settings*, click *View/Edit Target Discovery Settings*.
 +
 The Target Discovery Settings dialog box appears. Below the *Enable iSNS server*... field, the dialog box indicates if the controller is already registered.
@@ -48,6 +51,6 @@ For the DHCP server to provide the iSNS server address, you must configure the D
  ** When disabled, discovery sessions are prevented unless the initiator provides the target IQN. Disabling unnamed discovery sessions provides added security.
 . Click *Save*.
 
-== Results
+.Results
 
 A progress bar appears as System Manager attempts to register the controller with the iSNS server. This process might take up to five minutes.

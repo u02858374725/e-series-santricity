@@ -1,0 +1,62 @@
+---
+permalink: um-admin/overview-interface-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, interface, GUI
+summary: "Unified Manager is a web-based interface that allows you to manage multiple storage arrays in a single view."
+---
+= Unified Manager interface overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager is a web-based interface that allows you to manage multiple storage arrays in a single view.
+
+== Main page
+
+When you log in to Unified Manager, the main page opens to *Manage - All*. From this page, you can scroll through a list of discovered storage arrays in your network, view their status, and perform operations on a single array or on a group of arrays.
+
+== Navigation sidebar
+
+You can access Unified Manager features and functions from the navigation sidebar.
+
+
+[cols="25h,~",options="header"]
+|===
+| Area| Description
+a|
+Manage
+a|
+Discover storage arrays in your network, launch SANtricity System Manager for an array, import settings from one array to multiple arrays, and manage array groups. Select the check boxes next to the array names to perform operations on them, such as importing settings and creating array groups. The ellipses at the end of each row provides an in-line menu for operations on a single array, such as renaming it.
+a|
+Operations
+a|
+View the progress of batch operations, such as importing settings from one array to another.
+[NOTE]
+====
+Some operations are not available when a storage array has a non-optimal status.
+====
+a|
+Certificate Management
+a|
+Manage certificates to authenticate between browsers and clients.
+a|
+Access Management
+a|
+Establish user authentication for the Unified Manager interface.
+a|
+Support
+a|
+View technical support options, resources, and contacts.
+|===
+
+== Interface settings and help
+At the top right of the interface, you can access Help and other documentation. You can also access administration options, which are available from the drop-down next to your login name.
+
+== User logins and passwords
+The current user logged into the system is shown in the upper right of the interface.
+
+For further information on users and passwords, see:
+
+* link:administrator-password-protection-unified.html[Set admin password protection]
+* link:change-admin-password-unified.html[Change the admin password]
+* link:../um-certificates/change-passwords-unified.html[Change passwords for local user profiles]

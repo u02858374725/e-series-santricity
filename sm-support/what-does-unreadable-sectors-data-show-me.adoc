@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/what-does-unreadable-sectors-data-show-me.html
 sidebar: sidebar
-keywords: 
-summary: 'You can display detailed data about unreadable sectors detected on the drives in your storage array.'
+keywords: SANtricity, System Manager, E-Series, unreadable, sectors,
+summary: "You can display detailed data about unreadable sectors detected on the drives in your storage array."
 ---
 = What does unreadable sectors data show me?
 :icons: font
@@ -13,6 +13,7 @@ You can display detailed data about unreadable sectors detected on the drives in
 
 The unreadable sectors log shows the most recent unreadable sector first. The log contains the following information about the volumes that contain the unreadable sectors. The fields are sortable.
 
+[cols="25h,~",options="header"]
 |===
 | Field| Description
 a|
@@ -28,8 +29,10 @@ Assigned To
 a|
 Shows the hosts or host clusters that have access to the volume. If the volume is not accessible by a host, host cluster, or even a Default Cluster, the dialog box shows NA.
 |===
+
 To see additional information about the unreadable sectors, click the plus (+) sign next to a volume.
 
+[cols="25h,~",options="header"]
 |===
 | Field| Description
 a|
@@ -57,5 +60,4 @@ Shows one of the following failure types:
 * *Logical* -- A read error elsewhere in the stripe causing unreadable data. For example, an unreadable sector due to media errors elsewhere in the volume.
 * *Inconsistent* -- Inconsistent redundancy data.
 * *Data Assurance* -- A Data Assurance error.
-
 |===

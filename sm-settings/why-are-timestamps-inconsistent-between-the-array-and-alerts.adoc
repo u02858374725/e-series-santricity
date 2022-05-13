@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'When the storage array sends alerts, it does not correct for the time zone of the target server or host that receives the alerts. Instead, the storage array uses the local time \(GMT\) to create the timestamp used for the alert record. As a result, you might see inconsistencies between the timestamps for the storage array and the server or host receiving an alert.'
+keywords: SANtricity, System Manager, E-Series, timestamps, inconsistent, array, alerts,
+summary: "When the storage array sends alerts, it does not correct for the time zone of the target server or host that receives the alerts. Instead, the storage array uses the local time (GMT) to create the timestamp used for the alert record. As a result, you might see inconsistencies between the timestamps for the storage array and the server or host receiving an alert."
 ---
 = Why are timestamps inconsistent between the array and alerts?
 :icons: font

@@ -1,15 +1,15 @@
 ---
 permalink: um-certificates/permissions-for-mapped-roles-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'The RBAC \(role-based access control\) capabilities include pre-defined users with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity Unified Manager.'
+keywords: SANtricity, Unified Manager, E-Series, permissions, mapped, roles
+summary: "The RBAC (role-based access control) capabilities include pre-defined users with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity Unified Manager."
 ---
 = Permissions for mapped roles
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The RBAC (role-based access control) capabilities include pre-defined users with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity Unified Manager.
+The RBAC (role-based access control) capabilities include pre-defined users with one or more roles mapped to them. Each role includes permissions for accessing tasks in Unified Manager.
 
 The roles provide user access to tasks, as follows:
 

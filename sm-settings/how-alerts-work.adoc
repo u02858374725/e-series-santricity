@@ -1,10 +1,11 @@
 ---
 permalink: sm-settings/how-alerts-work.html
 sidebar: sidebar
-keywords: alarm
-summary: 'Alerts notify administrators about important events that occur on the storage array. Alerts can be sent through email, SNMP traps, and syslog.'
+keywords: SANtricity, System Manager, E-Series, alarm, alerts,
+summary: "Alerts notify administrators about important events that occur on the storage array. Alerts can be sent through email, SNMP traps, and syslog."
 ---
 = How alerts work
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -17,12 +18,12 @@ The alerts process works as follows:
  ** *Email* -- Messages are sent to email addresses.
  ** *SNMP* -- SNMP traps are sent to an SNMP server.
  ** *Syslog* -- Messages are sent to a syslog server.
-. When the storage array's event monitor detects an issue, it writes information about that issue to the event log (available from *Support* > *Event Log*). For example, issues can include such events as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller.
+. When the storage array's event monitor detects an issue, it writes information about that issue to the event log (available from menu:Support[Event Log]). For example, issues can include such events as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller.
 . If the event monitor determines that the event is "alertable," it then sends a notification using the configured alerting methods (email, SNMP, and/or syslog). All Critical events are considered "alertable," along with some Warning and Informational events.
 
 == Alerts configuration
 
-You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To check the current configuration, go to *Settings* > *Alerts*.
+You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To check the current configuration, go to menu:Settings[Alerts].
 
 The Alerts tile displays the alerts configuration, which can be one of the following:
 

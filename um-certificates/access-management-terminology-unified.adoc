@@ -1,16 +1,17 @@
 ---
 permalink: um-certificates/access-management-terminology-unified.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the Access Management terms apply to SANtricity Unified Manager.'
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology
+summary: "Learn how the Access Management terms apply to SANtricity Unified Manager."
 ---
 = Access Management terminology
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Learn how the Access Management terms apply to SANtricity Unified Manager.
+Learn how the Access Management terms apply to Unified Manager.
 
+[cols="25h,~",options="header"]
 |===
 | Term| Description
 a|
@@ -45,5 +46,4 @@ a|
 Web Services Proxy
 a|
 The Web Services Proxy, which provides access through standard HTTPS mechanisms, allows administrators to configure management services for storage arrays. The proxy can be installed on Windows or Linux hosts. The Unified Manager interface is available with the Web Services Proxy.
-
 |===

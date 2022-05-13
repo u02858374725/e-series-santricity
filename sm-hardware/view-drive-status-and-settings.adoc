@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/view-drive-status-and-settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view status and settings for the drives, such as the media type, interface type, and capacity.'
+keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media,
+summary: "You can view status and settings for the drives, such as the media type, interface type, and capacity."
 ---
 = View drive status and settings
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can view status and settings for the drives, such as the media typ
 [.lead]
 You can view status and settings for the drives, such as the media type, interface type, and capacity.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.
@@ -28,8 +28,11 @@ The Drive Settings dialog box opens.
 
 . To see all settings, click *Show more settings* in the upper right of the dialog box.
 +
-Field Details
-+
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
 |===
 | Settings| Description
 a|
@@ -48,9 +51,9 @@ a|
 Assigned to/Can protect for/Protecting
 a|
 If the drive is assigned to a pool, volume group, or SSD cache, this field displays "Assigned to." The value can be a pool name, volume group name, or SSD cache name.    If the drive is assigned to a hot spare and its mode is Standby, this field displays "Can protect for." If the hot spare can protect one or more volume groups, the volume group names appear. If it cannot protect a volume group, it displays 0 volume groups.
-+
+
 If the drive is assigned to a hot spare and its mode is In Use, this field displays "Protecting." The value is the name of the affected volume group.
-+
+
 If the drive is unassigned, this field does not appear.
 a|
 Media type
@@ -112,10 +115,9 @@ a|
 Date of manufacture
 a|
 Shows the date the drive was built.
-[NOTE]
-====
-Not available for NVMe drives.
-====
+
+NOTE: Not available for NVMe drives.
+
 a|
 Secure-capable
 a|
@@ -123,7 +125,7 @@ Shows whether the drive is secure-capable (Yes) or not (No). Secure-capable driv
 a|
 Secure-enabled
 a|
-Shows whether the drive is secure-enabled (Yes) or not (No). Secure-enabled drives are used with the Drive Security feature. When you enable the Drive Security feature and then apply Drive Security to a pool or volume group on secure-_capable_ drives, the drives become secure__-enabled__. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
+Shows whether the drive is secure-enabled (Yes) or not (No). Secure-enabled drives are used with the Drive Security feature. When you enable the Drive Security feature and then apply Drive Security to a pool or volume group on secure-_capable_ drives, the drives become secure-_enabled_. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
 a|
 Data Assurance (DA) capable
 a|
@@ -141,5 +143,5 @@ Drive security key identifier
 a|
 Shows the security key for secure-enabled drives. Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.
 |===
-
+====
 . Click *Close*.

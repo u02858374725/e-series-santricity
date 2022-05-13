@@ -1,0 +1,32 @@
+---
+permalink: um-manage/overview-storage-arrays.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays
+summary: "To manage storage resources, you must first discover the storage arrays in the network."
+---
+= Discovery overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To manage storage resources, you must first discover the storage arrays in the network.
+
+== How do I discover arrays?
+Use the Add/Discover page to find and add the storage arrays you want to manage in your organization's network. You can discover multiple arrays or you can discover a single array. To do this, you enter network IP addresses, and then Unified Manager attempts individual connections to each IP address in that range.
+
+Learn more:
+
+* link:considerations-for-discovering-arrays.html[Considerations for discovering arrays]
+* link:discover-multiple-arrays.html[Discover multiple storage arrays]
+* link:discover-single-array.html[Discover single array]
+
+== How do I manage arrays?
+After you discover arrays, go to the *Manage - All* page. From this page, you can scroll through a list of discovered storage arrays in your network, view their status, and perform operations on a single array or on a group of arrays.
+
+If you want to manage a single array, you can select it and open System Manager.
+
+Learn more:
+
+* link:launch-considerations.html[Considerations for accessing System Manager]
+* link:launch-system-manager.html[Manage an individual storage array]
+* link:storage-array-status.html[View storage array status]

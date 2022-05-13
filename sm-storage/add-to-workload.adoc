@@ -1,23 +1,24 @@
 ---
 permalink: sm-storage/add-to-workload.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload.'
+keywords: SANtricity, System Manager, E-Series, add workload, volume
+summary: "You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload."
 ---
-= Add to workload
+= Add volumes to workload
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload.
 
-== About this task
+.About this task
 
 Volumes are not associated with a workload if they have been created using the command line interface (CLI) or if they have been migrated (imported/exported) from a different storage array.
 
-== Steps
+.Steps
 
-. Select *Storage* > *Volumes*.
+. Select menu:Storage[Volumes].
 . Select the *Applications & Workloads* tab.
 +
 The Applications & Workloads view appears.

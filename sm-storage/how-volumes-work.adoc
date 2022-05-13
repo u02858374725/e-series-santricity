@@ -1,0 +1,56 @@
+---
+permalink: sm-storage/how-volumes-work.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, volume, copy,
+summary: "Volumes are data containers that manage and organize the storage space on your storage array."
+---
+= How volumes work
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Volumes are data containers that manage and organize the storage space on your storage array.
+
+You create volumes from the storage capacity available on your storage array and make it easy to organize and use your system's resources. This concept is similar to using folders/directories on a computer to organize files for easy and quick access.
+
+Volumes are the only data layer visible to hosts. In a SAN environment, volumes are mapped to logical unit numbers (LUNs), which are visible to hosts. LUNs hold the user data that is accessible using one or more of the host access protocols supported by the storage array, including FC, iSCSI, and SAS.
+
+== Volume types you can create from pools and volume groups
+
+Volumes draw their capacity from pools or volume groups. You can create the following types of volumes from the pools or volume groups that exist on your storage array.
+
+* *From pools* -- You can create volumes from a pool as either _fully-provisioned (thick) volumes_ or _thinly-provisioned (thin) volumes._
++
+[NOTE]
+====
+The System Manager interface does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
+====
+
+* *From volume groups* -- You can create volumes from a volume group only as _fully-provisioned (thick) volumes_.
+
+Thick volumes and thin volumes draw capacity from the storage array in different ways:
+
+* The capacity for a thick volume is allocated when the volume is created.
+* The capacity for a thin volume is allocated as data when written to the volume.
+
+Thin provisioning helps to avoid wasted allocated capacity and can save businesses on up-front storage costs. However, full provisioning has the benefit of less latency because all storage is allocated at once when thick volumes are created.
+
+[NOTE]
+====
+The EF600 and EF300 storage systems do not support thin provisioning.
+====
+
+== Characteristics of volumes
+
+Each volume in a pool or volume group can have its own individual characteristics based on what type of data will be stored in it. Some of these characteristics include:
+
+* *Segment size* -- A segment is the amount of data in kilobytes (KiB) that is stored on a drive before the storage array moves to the next drive in the stripe (RAID group). The segment size is equal to or less than the capacity of the volume group. The segment size is fixed and cannot be changed for pools.
+* *Capacity* -- You create a volume from the free capacity available in either a pool or volume group. Before you create a volume, the pool or volume group must already exist, and it must have enough free capacity to create the volume.
+* *Controller ownership* -- All storage arrays can have either one or two controllers. On a single-controller array, a volume's workload is managed by a single controller. On a dual-controller array, a volume will have a preferred controller (A or B) that "`owns`" the volume. In a dual-controller configuration, volume ownership is automatically adjusted using the Automatic Load Balancing feature to correct any load balance issues when workloads shift across the controllers. Automatic load balancing provides automated I/O workload balancing and ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers.
+* *Volume assignment* -- You can give hosts access to a volume either when you create the volume or at a later time. All host access is managed through a logical unit number (LUN). Hosts detect LUNs that are, in turn, assigned to volumes. If you are assigning a volume to multiple hosts, use clustering software to make sure that the volume is available to all of the hosts.
++
+The host type can have specific limits on how many volumes the host can access. Keep this limitation in mind when you create volumes for use by a particular host.
+
+* *Descriptive name* -- You can name a volume whatever name you like, but we recommend making the name descriptive.
+
+During volume creation, each volume is allocated capacity and is assigned a name, segment size (volume groups only), controller ownership, and volume-to-host assignment. Volume data is automatically load balanced across controllers, as needed.

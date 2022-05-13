@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/nvme-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'Some controllers include a port for implementing NVMe \(Non-Volatile Memory Express\) over fabrics. NVMe allows for high-performance communication between hosts and the storage array.'
+keywords: SANtricity, System Manager, E-Series, nvme,
+summary: "Some controllers include a port for implementing NVMe (Non-Volatile Memory Express) over fabrics. NVMe allows for high-performance communication between hosts and the storage array."
 ---
 = NVMe overview
 :icons: font

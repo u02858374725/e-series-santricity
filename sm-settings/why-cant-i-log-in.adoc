@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/why-cant-i-log-in.html
 sidebar: sidebar
-keywords: 
-summary: 'If you receive an error when attempting to log in to System Manager, review these possible causes.'
+keywords: SANtricity, System Manager, E-Series, log, in, login
+summary: "If you receive an error when attempting to log in to System Manager, review these possible causes."
 ---
 = Why can't I log in?
 :icons: font

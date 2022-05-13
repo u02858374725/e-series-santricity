@@ -1,10 +1,10 @@
 ---
 permalink: sm-storage/rtv-remote-storage-requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'Before using the Remote Storage feature, review the following requirements and restrictions.'
+keywords: SANtricity, System Manager, E-Series, remote, storage, requirements
+summary: "Before using the Remote Storage feature, review the following requirements and restrictions."
 ---
-= Remote storage requirements
+= Remote Storage feature requirements
 :icons: font
 :imagesdir: ../media/
 
@@ -18,7 +18,7 @@ The following protocols are supported:
 * iSCSI
 * IPv4
 
-For up-to-date E-Series support and configuration information, see the http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool].
+For up-to-date E-Series support and configuration information, see the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^].
 
 == Hardware requirements
 

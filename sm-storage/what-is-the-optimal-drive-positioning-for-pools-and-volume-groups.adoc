@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'When creating pools and volume groups, make sure to balance the drive selection between the upper and lower drive slots.'
+keywords: SANtricity, System Manager, E-Series, optimal, drive, positioning, pools, volume groups
+summary: "When creating pools and volume groups, make sure to balance the drive selection between the upper and lower drive slots."
 ---
 = What is the optimal drive positioning for pools and volume groups?
 :icons: font

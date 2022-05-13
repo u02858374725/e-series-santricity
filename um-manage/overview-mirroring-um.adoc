@@ -1,0 +1,35 @@
+---
+permalink: um-manage/overview-mirroring-um.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, mirroring
+summary: "Use the mirroring features to replicate data between a local storage array and a remote storage array, either asynchronously or synchronously."
+---
+= Mirroring overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the mirroring features to replicate data between a local storage array and a remote storage array, either asynchronously or synchronously.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== What is mirroring?
+SANtricity applications include two types of mirroring -- asynchronous and synchronous. Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss. Synchronous mirroring replicates data volumes in real time to ensure continuous availability.
+
+Learn more:
+
+* link:mirroring-overview.html[How mirroring works]
+* link:mirroring-terminology.html[Mirroring terminology]
+
+== How do I configure mirroring?
+You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations.
+
+Learn more:
+
+* link:mirroring-configuration-workflow.html[Mirroring configuration workflow]
+* link:requirements-for-using-mirroring.html[Requirements for using mirroring]
+* link:create-asynchronous-mirrored-pair-um.html[Create asynchronous mirrored pair]
+* link:create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair]

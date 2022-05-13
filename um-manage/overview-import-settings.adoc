@@ -1,0 +1,31 @@
+---
+permalink: um-manage/overview-import-settings.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, import, settings
+summary: "You can import settings from one storage array to another, including alerts, AutoSupport, and directory services."
+---
+= Settings import overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Import Settings feature allows you to perform a batch operation for importing the settings from one array to multiple arrays. This feature saves time when you need to configure multiple arrays in the network.
+
+== What settings can be imported?
+You can import alerting methods, AutoSupport configurations, Directory Services configurations, storage configurations (such as volume groups and pools), and system settings (such as automatic load balancing).
+
+Learn more:
+
+* link:how-import-settings-works.html[How Import Settings works]
+* link:requirements-for-replicating-storage-configurations.html[Requirements for replicating storage configurations]
+
+== How do I perform a batch import?
+On a storage array to be used as the source, open System Manager and configure the desired settings. Then from Unified Manager, go to the Manage page and import the settings to one or more arrays.
+
+Learn more:
+
+* link:import-alert-settings.html[Import alert settings]
+* link:import-autosupport-settings.html[Import AutoSupport settings]
+* link:import-directory-services-settings.html[Import directory services settings]
+* link:import-storage-configuration-settings.html[Import storage configuration settings]
+* link:import-system-settings.html[Import system settings]

@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/what-do-the-autosupport-features-do.html
 sidebar: sidebar
-keywords: 
-summary: 'The AutoSupport feature is made up of three individual features that you enable separately.'
+keywords: SANtricity, System Manager, E-Series, autosupport features, ASUP
+summary: "The AutoSupport feature is made up of three individual features that you enable separately."
 ---
 = What do the AutoSupport features do?
 :icons: font

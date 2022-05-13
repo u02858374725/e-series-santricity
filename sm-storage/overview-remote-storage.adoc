@@ -1,0 +1,33 @@
+---
+permalink: sm-storage/overview-remote-storage.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, remote, storage
+summary: "If you have the Remote Storage feature, you can import data from a remote storage system. "
+---
+= Remote Storage feature overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have the Remote Storage feature, you can import data from a remote storage system to your storage array.
+
+== What is the Remote Storage feature?
+The _Remote Storage_ feature allows you to import data from a remote storage system to a local E-Series storage system. The remote system can be another E-Series system or a system from another vendor. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades.
+
+NOTE: To use remote storage, this feature must be enabled in the Submodel ID (SMID).
+
+Learn more:
+
+* link:rtv-how-remote-storage-works.html[How Remote Storage works]
+* link:rtv-terminology.html[Remote Storage terminology]
+* link:rtv-remote-storage-requirements.html[Remote Storage requirements]
+* link:rtv-remote-storage-volume-requirements.html[Remote Storage volume requirements]
+
+== How do I import data with this feature?
+Using the Remote Storage wizard, you map a remote storage device (the source for the data import) to a target volume on the E-Series system. This wizard is available from menu:Storage[Remote storage].
+
+Learn more:
+
+* link:rtv-import-remote-storage.html[Import remote storage]
+* link:rtv-manage-progress-of-remote-volume-import.html[Manage progress of the data import]

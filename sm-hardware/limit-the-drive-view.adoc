@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/limit-the-drive-view.html
 sidebar: sidebar
-keywords: 
-summary: 'If the storage array includes drives with different types of physical and logical attributes, the Hardware page provides filter fields that help you limit the drive view and locate specific drives.'
+keywords: SANtricity, System Manager, E-Series, limit, drive, view,
+summary: "If the storage array includes drives with different types of physical and logical attributes, the Hardware page provides filter fields that help you limit the drive view and locate specific drives."
 ---
 = Limit the drive view
 :icons: font
@@ -11,7 +11,7 @@ summary: 'If the storage array includes drives with different types of physical 
 [.lead]
 If the storage array includes drives with different types of physical and logical attributes, the Hardware page provides filter fields that help you limit the drive view and locate specific drives.
 
-== About this task
+.About this task
 
 The drive filters can limit the view to only certain types of physical drives (for example, all SAS), with certain security attributes (for example, secure-capable), at certain logical locations (for example, Volume Group 1). You can use these filters together or separately.
 
@@ -20,7 +20,7 @@ The drive filters can limit the view to only certain types of physical drives (f
 If all drives share the same physical attributes, the *Show drives that are...* filter field does not appear. If all drives share the same logical attributes, the *Anywhere in the storage array* filter field does not appear.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . In the first filter field (under *Show drives that are...*), click the drop-down arrow to display the available drive types and security attributes.
@@ -35,11 +35,11 @@ Security attributes might include:
  ** Secure-capable
  ** Secure-enabled
  ** DA (Data Assurance) capable
++
 If any of these attributes are the same for all drives, they are not shown in the drop-down list. For example, if the storage array includes all SSD drives with SAS interfaces and speeds of 15000 RPM, but some SSDs have different capacities, the drop-down list displays only the capacities as a filtering choice.
-
 +
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
-
++
 . In the second filter box, click the drop-down arrow to display the available logical locations for the drives.
 +
 [NOTE]
@@ -54,6 +54,7 @@ Logical locations might include:
  ** Hot spare
  ** SSD Cache
  ** Unassigned
++
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
 
 . Optionally, you can select *Turn on locator lights* at the far right of the filter fields to turn on the locator lights for the displayed drives.

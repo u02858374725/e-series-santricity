@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/how-asynchronous-mirroring-works.html
 sidebar: sidebar
-keywords: 
-summary: 'Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss.'
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring,
+summary: "Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss."
 ---
 = How asynchronous mirroring works
 :icons: font

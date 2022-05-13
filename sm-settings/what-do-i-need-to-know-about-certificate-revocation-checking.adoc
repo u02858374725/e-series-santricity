@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager allows you to check for revoked certificates by using an Online Certificate Status Protocol \(OCSP\) server, instead of uploading Certificate Revocation Lists \(CRLs\).'
+keywords: SANtricity, System Manager, E-Series, certificate, revocation, checking,
+summary: "System Manager allows you to check for revoked certificates by using an Online Certificate Status Protocol (OCSP) server, instead of uploading Certificate Revocation Lists (CRLs)."
 ---
 = What do I need to know about certificate revocation checking?
 :icons: font

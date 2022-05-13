@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/what-is-a-workload.html
 sidebar: sidebar
-keywords: 
-summary: 'For some applications in your network, such as SQL Server or Exchange, you can define a workload that optimizes storage for that application.'
+keywords: SANtricity, System Manager, E-Series, workload
+summary: "For some applications in your network, such as SQL Server or Exchange, you can define a workload that optimizes storage for that application."
 ---
 = What is a workload?
 :icons: font

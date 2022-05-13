@@ -1,19 +1,20 @@
 ---
 permalink: um-manage/perform-pre-upgrade-health-check.html
 sidebar: sidebar
-keywords: 
-summary: 'A health check runs as part of the upgrade process, but you also can run a health check separately before you begin. The health check assesses components of the storage array to make sure that the upgrade can proceed.'
+keywords: SANtricity, Unified Manager, E-Series, perform, pre-upgrade, health, check
+summary: "A health check runs as part of the upgrade process, but you also can run a health check separately before you begin. The health check assesses components of the storage array to make sure that the upgrade can proceed."
 ---
 = Perform pre-upgrade health check
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 A health check runs as part of the upgrade process, but you also can run a health check separately before you begin. The health check assesses components of the storage array to make sure that the upgrade can proceed.
 
-== Steps
+.Steps
 
-. From the main view, select *Manage*, and then select *Upgrade Center* > *Pre-Upgrade Health Check*.
+. From the main view, select *Manage*, and then select menu:Upgrade Center[Pre-Upgrade Health Check].
 +
 The Pre-Upgrade Health Check dialog box opens and lists all the discovered storage systems.
 

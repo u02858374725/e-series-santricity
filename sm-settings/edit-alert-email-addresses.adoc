@@ -1,23 +1,24 @@
 ---
 permalink: sm-settings/edit-alert-email-addresses.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the email addresses of the recipients who receive email alerts.'
+keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts,
+summary: "You can change the email addresses of the recipients who receive email alerts."
 ---
 = Edit email addresses for alerts
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can change the email addresses of the recipients who receive email alerts.
 
-== Before you begin
+.Before you begin
 
 The email address you intend to edit must be defined in the Email tab of the Alerts page.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *Email* tab.
 . From the *Email Address* table, select the address you want to change, and then click the *Edit* (pencil) icon on the far right.
 +
@@ -30,6 +31,6 @@ The row becomes an editable field.
 If you want to cancel changes, select the *Cancel* (X) icon.
 ====
 
-== Results
+.Results
 
 The Email tab of the Alerts page displays the updated email addresses.

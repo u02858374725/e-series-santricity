@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/access-management-with-saml.html
 sidebar: sidebar
-keywords: 
-summary: 'For Access Management, administrators can use the Security Assertion Markup Language \(SAML\) 2.0 capabilities embedded in the array.'
+keywords: SANtricity, System Manager, E-Series, access management, saml
+summary: "For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array."
 ---
 = Access Management with SAML
 :icons: font
@@ -51,7 +51,7 @@ When using SAML for authentication, administrators can perform the following man
 
 == Access restrictions
 
-When SAML is enabled, users cannot discover or manage storage for that array from the SANtricity Unified Manager or the SANtricity Storage Manager interfaces.
+When SAML is enabled, users cannot discover or manage storage for that array from Unified Manager or the legacy Storage Manager interface.
 
 In addition, the following clients cannot access storage array services and resources:
 

@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/overview-drive-security.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, system, security, key, management,
+summary: "Security key management is available from the System page."
+---
+= Drive Security overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure Drive Security and key management from the Security Key Management page.
+
+== What is Drive Security?
+
+_Drive Security_ is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When FDE or FIPS drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, the drives will be in a Security Locked state until the correct security key is provided. A _security key_ is a string of characters that is shared between these types of drives and the controllers in a storage array.
+
+Learn more:
+
+* link:how-the-drive-security-feature-works.html[How the Drive Security feature works]
+* link:how-security-key-management-works.html[How security key management works]
+* link:drive-security-terminology.html[Drive Security terminology]
+
+== How do I configure key management?
+To implement Drive Security, you must have either FDE drives or FIPS drives installed in the array. To configure key management for these drives, you go to menu:Settings[System > Security key management] where you can create either an internal key from the controller's persistent memory or an external key from a key management server. Finally, you enable Drive Security for pools and volume groups by selecting "secure-capable" in the volume settings.
+
+Learn more:
+
+* link:create-internal-security-key.html[Create internal security key]
+* link:create-external-security-key.html[Create external security key]
+* link:../sm-storage/create-pool-manually.html[Create pool manually]
+* link:../sm-storage/create-volume-group.html[Create volume groups]
+
+
+== How do I unlock drives?
+If you configured key management and then later move secure-enabled drives from one storage array to another, you must re-assign the security key to the new storage array to gain access to the encrypted data on the drives.
+
+Learn more:
+
+* link:unlock-drives-using-an-internal-security-key.html[Unlock drives when using internal key management]
+* link:unlock-drives-using-an-external-security-key.html[Unlock drives when using external key management]
+
+== Related information
+Learn more about tasks related to key management:
+
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html[Use CA-signed certificates for authentication with a key management server]
+* link:back-up-security-key.html[Back up security key]
