@@ -11,14 +11,14 @@ summary: New features in SANtricity OS.
 :imagesdir: ../media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 11.7 and SANtricity Unified Manager 5.3.
+The following table describes new features in SANtricity System Manager 11.7.
 
 == New features in Version 11.73
 
 [cols="35h,~",options="header"]
 |===
 |New feature |Description
-a|Resource Provisioning and DULBE
+a|Resource Provisioning and DULBE support
 a|Resource Provisioning capabilities and DULBE drive capabilities are now fully supported in this release. This support includes making host-directed UNMAP on Resource-Provisioned volumes more widely usable.
 
 a|EF600 SAS (512e) expansion
