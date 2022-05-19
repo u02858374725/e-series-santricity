@@ -21,7 +21,7 @@ If you want to archive audit logs onto an external syslog server, you can config
 .Steps
 
 . Select menu:Settings[Access Management].
-. From the *Audit Log* tab, select *Configure Syslog Servers*.
+. From the Audit Log tab, select *Configure Syslog Servers*.
 +
 The Configure Syslog Servers dialog box opens.
 
@@ -40,7 +40,7 @@ If the certificate becomes invalid later, the TLS handshake will fail. As a resu
 ====
 
  ** *Port* -- Enter the port number for the syslog receiver.
-After you click *Add*, the *Configure Syslog Servers* dialog box opens and displays your configured syslog server on the page.
+After you click *Add*, the Configure Syslog Servers dialog box opens and displays your configured syslog server on the page.
 . To test the server connection with the storage array, select *Test All*.
 
 .Results

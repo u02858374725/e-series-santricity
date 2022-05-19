@@ -55,7 +55,7 @@ The detailed statistics consist of the nominal statistics, plus additional stati
 
 When viewing the `.csv` file, notice that the detailed statistics are listed after the nominal statistics:
 
-[cols="1a,1a" options="header"]
+[cols="25h,~",options="header"]
 |===
 | Detailed statistics| Description
 a|

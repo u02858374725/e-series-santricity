@@ -2,7 +2,7 @@
 permalink: sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, capacity, pool, ssd cache
-summary: "You can remove drives to decrease the capacity of an existing pool or SSD Cache. After you remove drives, the data in each volume of the pool or SSD Cache is redistributed to the remaining drives. The removed drives become unassigned and their capacity becomes part of the total free capacity of the storage array."
+summary: "You can remove drives to decrease the capacity of an existing pool or SSD Cache."
 ---
 = Remove capacity from a pool or SSD Cache
 :experimental:
@@ -10,7 +10,9 @@ summary: "You can remove drives to decrease the capacity of an existing pool or 
 :imagesdir: ../media/
 
 [.lead]
-You can remove drives to decrease the capacity of an existing pool or SSD Cache. After you remove drives, the data in each volume of the pool or SSD Cache is redistributed to the remaining drives. The removed drives become unassigned and their capacity becomes part of the total free capacity of the storage array.
+You can remove drives to decrease the capacity of an existing pool or SSD Cache.
+
+After you remove drives, the data in each volume of the pool or SSD Cache is redistributed to the remaining drives. The removed drives become unassigned and their capacity becomes part of the total free capacity of the storage array.
 
 .About this task
 
@@ -34,8 +36,9 @@ Follow these guidelines when you remove capacity:
 * If you remove the last drive that is not secure-capable, the pool is left with all secure-capable drives. In this situation, you are given the option to enable security for the pool.
 * If you remove the last drive that is not Data Assurance (DA) capable, the pool is left with all DA-capable drives.
 
-Any new volumes that you create on the pool will be DA-capable. If you want existing volumes to be DA-capable, you need to delete and then re-create the volume.
+NOTE: Any new volumes that you create on the pool will be DA-capable. If you want existing volumes to be DA-capable, you need to delete and then re-create the volume.
 ====
+
 
 .Steps
 
