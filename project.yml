@@ -1,7 +1,6 @@
 ---
 settings:
   name: "SANtricity 11.7"
-  rss_page: "/whats-new.html"
   internal:
     pdf_enabled: true
   prod:
