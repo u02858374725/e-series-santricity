@@ -114,11 +114,11 @@ a|
 Incomplete
 
 a|
-The asynchronous mirrored pair is incomplete on the remote storage array because the mirrored pair creation sequence was initiated on a storage array that is not supported with SANtricity System Manager and the mirrored pair has not been completed on the secondary.
+The asynchronous mirrored pair is incomplete on the remote storage array because the mirrored pair creation sequence was initiated on a storage array that is not supported with System Manager and the mirrored pair has not been completed on the secondary.
 
 The mirrored pair creation process is complete when a volume is added to the mirror consistency group on the remote storage array. This volume becomes the secondary volume in the asynchronous mirrored pair.
 
-The mirrored pair completes automatically if the remote storage array is managed by SANtricity System Manager.
+The mirrored pair completes automatically if the remote storage array is managed by System Manager.
 
 a|
 Failed

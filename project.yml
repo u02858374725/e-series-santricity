@@ -1,7 +1,6 @@
 ---
 settings:
   name: "SANtricity 11.7"
-  rss_page: "/whats-new.html"
   internal:
     pdf_enabled: true
   prod:
@@ -261,7 +260,7 @@ sidebar:
             url: "/sm-storage/how-volumes-work.html"
           - title: How workloads work
             url: "/sm-storage/how-workloads-work.html"
-          - title: Volume terminology
+          - title: Terms
             url: "/sm-storage/volume-terminology.html"
           - title: Workflow for creating volumes
             url: "/sm-storage/workflow-for-creating-volumes.html"
@@ -422,9 +421,9 @@ sidebar:
           entries:
           - title: How snapshot storage works
             url: "/sm-storage/how-snapshot-storage-works.html"
-          - title: Snapshot terminology
+          - title: Terms
             url: "/sm-storage/snapshot-terminology.html"
-          - title: Workflow for creating snapshot images and snapshot volumes
+          - title: Workflow for creating snapshot images and volumes
             url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
           - title: Requirements
             url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
@@ -693,7 +692,7 @@ sidebar:
           entries:
             - title: Hardware page
               url: "/sm-hardware/hardware-page-overview.html"
-            - title: Hardware terms
+            - title: Terms
               url: "/sm-hardware/hardware-terminology.html"
         - title: Manage shelf components
           entries:
@@ -869,7 +868,7 @@ sidebar:
           entries:
           - title: How alerts work
             url: "/sm-settings/how-alerts-work.html"
-          - title: Alerts terminology
+          - title: Terms
             url: "/sm-settings/alerts-terminology.html"
         - title: Manage email alerts
           entries:

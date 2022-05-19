@@ -9,7 +9,7 @@ indexpage:
     - title: Discover arrays
       links:
        - title: Discovery considerations
-         url:  ../um-manage/considerations-for-discovering-arrays.html#discovering-multiple-storage-arrays
+         url:  ../um-manage/considerations-for-discovering-arrays.html
        - title: Single array
          url: ../um-manage/discover-single-array.html
        - title: Multiple arrays
