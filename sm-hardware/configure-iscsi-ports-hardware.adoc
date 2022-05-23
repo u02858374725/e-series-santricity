@@ -1,0 +1,124 @@
+---
+permalink: sm-hardware/configure-iscsi-ports-hardware.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, configure, iscsi, ports,
+summary: "If your controller includes an iSCSI host connection, you can configure the iSCSI port settings from the Hardware page."
+---
+= Configure iSCSI ports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If your controller includes an iSCSI host connection, you can configure the iSCSI port settings from the Hardware page.
+
+.Before you begin
+
+* Your controller must include iSCSI ports; otherwise, the iSCSI settings are not available.
+* You must know the network speed (the data transfer rate between the ports and the host).
+
+[NOTE]
+====
+The iSCSI settings and functions only appear if your storage array supports iSCSI.
+====
+
+.Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. Click the controller with the iSCSI ports you want to configure.
++
+The controller's context menu appears.
+
+. Select *Configure iSCSI ports*.
++
+[NOTE]
+====
+The *Configure iSCSI ports* option appears only if System Manager detects iSCSI ports on the controller.
+====
++
+The Configure iSCSI Ports dialog box opens.
+
+. In the drop-down list, select the port you want to configure, and then click *Next*.
+. Select the configuration port settings, and then click *Next*.
++
+To see all port settings, click the *Show more port settings* link on the right of the dialog box.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+|===
+| Port Setting| Description
+a|
+Configured ethernet port speed (Appears only for certain types of Host Interface Cards)
+a|
+Select the speed that matches the speed capability of the SFP on the port.
+a|
+Forward Error Correction (FEC) mode (Appears only for certain types of Host Interface Cards)
+a|
+If desired, select one of the FEC modes for the specified host port.
+
+NOTE: The Reed Solomon mode does not support the 25 Gbps port speed.
+
+a|
+Enable IPv4 / Enable IPv6
+a|
+Select one or both options to enable support for IPv4 and IPv6 networks.
+
+NOTE: If you want to disable port access, deselect both check boxes.
+
+a|
+TCP listening port     (Available by clicking *Show more port settings*.)
+a|
+If necessary, enter a new port number.
+
+The listening port is the TCP port number that the controller uses to listen for iSCSI logins from host iSCSI initiators. The default listening port is 3260. You must enter 3260 or a value between 49152 and 65535.
+a|
+MTU size     (Available by clicking *Show more port settings*.)
+a|
+If necessary, enter a new size in bytes for the Maximum Transmission Unit (MTU).
+
+The default Maximum Transmission Unit (MTU) size is 1500 bytes per frame. You must enter a value between 1500 and 9000.
+a|
+Enable ICMP PING responses
+a|
+Select this option to enable the Internet Control Message Protocol (ICMP). The operating systems of networked computers use this protocol to send messages. These ICMP messages determine whether a host is reachable and how long it takes to get packets to and from that host.
+|===
+====
+If you selected *Enable IPv4*, a dialog box opens for selecting IPv4 settings after you click *Next*. If you selected *Enable IPv6*, a dialog box opens for selecting IPv6 settings after you click *Next*. If you selected both options, the dialog box for IPv4 settings opens first, and then after you click *Next*, the dialog box for IPv6 settings opens.
+
+. Configure the IPv4 and/or IPv6 settings, either automatically or manually. To see all port settings, click the *Show more settings* link on the right of the dialog box.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+|===
+| Port setting| Description
+a|
+Automatically obtain configuration
+a|
+Select this option to obtain the configuration automatically.
+a|
+Manually specify static configuration
+a|
+Select this option, and then enter a static address in the fields. (If desired, you can cut and paste addresses into the fields.) For IPv4, include the network subnet mask and gateway. For IPv6, include the routable IP address and router IP address.
+a|
+Enable VLAN support     (Available by clicking *Show more settings*.)
+a|
+Select this option to enable a VLAN and enter its ID. A VLAN is a logical network that behaves like it is physically separate from other physical and virtual local area networks (LANs) supported by the same switches, the same routers, or both.
+a|
+Enable ethernet priority    (Available by clicking *Show more settings*.)
+a|
+Select this option to enable the parameter that determines the priority of accessing the network. Use the slider to select a priority between 1 (lowest) and 7 (highest).
+
+In a shared local area network (LAN) environment, such as Ethernet, many stations might contend for access to the network. Access is on a first-come, first-served basis. Two stations might try to access the network at the same time, which causes both stations to back off and wait before trying again. This process is minimized for switched Ethernet, where only one station is connected to a switch port.
+
+|===
+====
+. Click *Finish*.

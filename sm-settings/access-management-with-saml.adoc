@@ -1,0 +1,63 @@
+---
+permalink: sm-settings/access-management-with-saml.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, saml
+summary: "For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array."
+---
+= Access Management with SAML
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array.
+
+== Configuration workflow
+
+SAML configuration works as follows:
+
+. An administrator logs in to System Manager with a user profile that includes Security Admin permissions.
++
+[NOTE]
+====
+The `admin` user has full access to all functions in System Manager.
+====
+
+. The administrator goes to the *SAML* tab under Access Management.
+. An administrator configures communications with the Identity Provider (IdP). An IdP is an external system used to request credentials from a user and determine if the user is successfully authenticated. To configure communications with the storage array, the administrator downloads the IdP metadata file from the IdP system, and then uses System Manager to upload the file to the storage array.
+. An administrator establishes a trust relationship between the Service Provider and the IdP. A Service Provider controls user authorization; in this case, the controller in the storage array acts as the Service Provider. To configure communications, the administrator uses System Manager to export a Service Provider metadata file for each controller. From the IdP system, the administrator then imports those metadata files to the IdP.
++
+[NOTE]
+====
+Administrators should also make sure that the IdP supports the ability to return a Name ID on authentication.
+====
+
+. The administrator maps the storage array's roles to user attributes defined in the IdP. To do this, the administrator uses System Manager to create the mappings.
+. The administrator tests the SSO login to the IdP URL. This test ensures the storage array and IdP can communicate.
++
+[CAUTION]
+====
+Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance.
+====
+
+. From System Manager, the administrator enables SAML for the storage array.
+. Users log in to the system with their SSO credentials.
+
+== Management
+
+When using SAML for authentication, administrators can perform the following management tasks:
+
+* Modify or create new role mappings
+* Export Service Provider files
+
+== Access restrictions
+
+When SAML is enabled, users cannot discover or manage storage for that array from Unified Manager or the legacy Storage Manager interface.
+
+In addition, the following clients cannot access storage array services and resources:
+
+* Enterprise Management Window (EMW)
+* Command-line interface (CLI)
+* Software Developer Kits (SDK) clients
+* In-band clients
+* HTTP Basic Authentication REST API clients
+* Login using standard REST API endpoint

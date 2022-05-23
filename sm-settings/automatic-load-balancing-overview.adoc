@@ -1,0 +1,77 @@
+---
+permalink: sm-settings/automatic-load-balancing-overview.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, automatic, load, balancing,
+summary: "Automatic load balancing provides improved I/O resource management by reacting dynamically to load changes over time and automatically adjusting volume controller ownership to correct any load imbalance issues when workloads shift across the controllers."
+---
+= Automatic load balancing overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Automatic load balancing provides improved I/O resource management by reacting dynamically to load changes over time and automatically adjusting volume controller ownership to correct any load imbalance issues when workloads shift across the controllers.
+
+The workload of each controller is continually monitored and, with cooperation from the multipath drivers installed on the hosts, can be automatically brought into balance whenever necessary. When workload is automatically re-balanced across the controllers, the storage administrator is relieved of the burden of manually adjusting volume controller ownership to accommodate load changes on the storage array.
+
+When Automatic Load Balancing is enabled, it performs the following functions:
+
+* Automatically monitors and balances controller resource utilization.
+* Automatically adjusts volume controller ownership when needed, thereby optimizing I/O bandwidth between the hosts and the storage array.
+
+== Enabling and disabling Automatic Load Balancing
+
+Automatic Load Balancing is enabled by default on all storage arrays.
+
+You might want to disable Automatic Load Balancing on your storage array for the following reasons:
+
+* You do not want to automatically change a particular volume's controller ownership to balance workload.
+* You are operating in a highly tuned environment where load distribution is purposefully set up to achieve a specific distribution between the controllers.
+
+== Host types that support the Automatic Load Balancing feature
+
+Even though Automatic Load Balancing is enabled at the storage array level, the host type you select for a host or host cluster has a direct influence on how the feature operates.
+
+When balancing the storage array's workload across controllers, the Automatic Load Balancing feature attempts to move volumes that are accessible by both controllers and that are mapped only to a host or host cluster capable of supporting the Automatic Load Balancing feature.
+
+This behavior prevents a host from losing access to a volume due to the load balancing process; however, the presence of volumes mapped to hosts that do not support Automatic Load Balancing affects the storage array's ability to balance workload. For Automatic Load Balancing to balance the workload, the multipath driver must support TPGS and the host type must be included in the following table.
+
+[NOTE]
+====
+For a host cluster to be considered capable of Automatic Load Balancing, all hosts in that group must be capable of supporting Automatic Load Balancing.
+====
+
+[cols="1a,1a" options="header"]
+|===
+| Host type supporting Automatic Load Balancing| With this multipath driver
+a|
+Windows or Windows Clustered
+a|
+MPIO with NetApp E-Series DSM
+
+a|
+Linux DM-MP (Kernel 3.10 or later)
+a|
+DM-MP with `scsi_dh_alua` device handler
+a|
+VMware
+a|
+Native Multipathing Plugin (NMP) with `VMW_SATP_ALUA Storage Array Type` plug-in
+|===
+
+[NOTE]
+====
+With minor exceptions, host types that do not support Automatic Load Balancing continue to operate normally whether or not the feature is enabled. One exception is that if a system has a failover, storage arrays move unmapped or unassigned volumes back to the owning controller when the data path returns. Any volumes that are mapped or assigned to non-Automatic Load Balancing hosts are not moved.
+====
+
+See the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool^] for compatibility information for specific multipath driver, OS level, and controller-drive tray support.
+
+== Verifying OS compatibility with the Automatic Load Balancing feature
+
+Verify OS compatibility with the Automatic Load Balancing feature before setting up a new (or migrating an existing) system.
+
+. Go to the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool^] to find your solution and verify support.
++
+If your system is running Red Hat Enterprise Linux 6 or SUSE Linux Enterprise Server 11, contact technical support.
+
+. Update and configure the `/etc/multipath.conf file`.
+. Ensure that both `retain_attached_device_handler` and `detect_prio` are set to `yes` for the applicable vendor and product, or use default settings.

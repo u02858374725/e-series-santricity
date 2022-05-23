@@ -1,0 +1,84 @@
+---
+permalink: sm-storage/performance-terminology.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, performance, terms
+summary: "Learn how the performance terms apply to your storage array."
+---
+= Performance terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the performance terms apply to your storage array.
+
+[cols="25h,~" options="header"]
+|===
+| Term
+| Description
+a|
+Application
+a|
+An application is a software program, such as SQL or Exchange.
+a|
+CPU
+a|
+CPU is short for "central processing unit." CPU indicates the percentage of the storage array's processing capacity being used.
+a|
+Host
+a|
+A host is a server that sends I/O to a volume on a storage array.
+a|
+IOPS
+a|
+IOPS stands for input/output operations per second.
+a|
+Latency
+a|
+Latency is the time interval between a request, such as for a read or write command, and the response from the host or the storage array.
+a|
+LUN
+a|
+A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN.
+
+Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
+a|
+MiB
+a|
+MiB is an abbreviation for mebibyte (mega binary byte). One MiB is 220, or 1,048,576 bytes. Compare with MB, which signifies a base 10 value. One MB equals 1,024 bytes.
+a|
+Object
+a|
+An object is any logical or physical storage component.
+
+Logical objects include volume groups, pools, and volumes. Physical objects include the storage array, array controllers, hosts, and drives.
+a|
+Pool
+a|
+A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)
+a|
+Read
+a|
+Read is short for "read operation," which occurs when the host requests data from the storage array.
+a|
+Volume
+a|
+A volume is a container in which applications, databases, and file systems store data. It is the logical component created for the host to access storage on the storage array.
+
+A volume is created from the capacity available in a pool or a volume group. A volume has a defined capacity. Although a volume might consist of more than one drive, a volume appears as one logical component to the host.
+a|
+Volume name
+a|
+A volume name is a string of characters assigned to the volume when it is created. You can either accept the default name or provide a more descriptive name indicating the type of data stored in the volume.
+a|
+Volume group
+a|
+A volume group is a container for volumes with shared characteristics. A volume group has a defined capacity and RAID level. You can use a volume group to create one or more volumes accessible to a host. (You create volumes from either a volume group or a pool.)
+a|
+Workload
+a|
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+a|
+Write
+a|
+Write is short for "write operation," when data is sent from the host to the array for storage.
+|===

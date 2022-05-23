@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/ssd-cache-restrictions.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions
+summary: "Learn about the restrictions when using SSD Cache on your storage array."
+---
+= SSD Cache restrictions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn about the restrictions when using SSD Cache on your storage array.
+
+== Restrictions
+
+* Any volume assigned to use a controller's SSD Cache is not eligible for an automatic load balance transfer.
+* Currently, only one SSD Cache is supported per storage array.
+* The maximum usable SSD Cache capacity on a storage array is 5 TB.
+* SSD Cache is not supported on snapshot images.
+* SSD Cache is not available on the EF600 or EF300 storage system.
+* If you import or export volumes that are SSD Cache enabled or disabled, the cached data is not imported or exported.
+* You cannot remove the last drive in an SSD Cache without first deleting the SSD Cache.
+
+== Restrictions with Drive Security
+
+* You can enable security on SSD Cache only when you create the SSD Cache. You cannot enable security later as you can on a volume.
+* If you mix drives that are secure-capable with drives that are not secure-capable in SSD Cache, you cannot enable Drive Security for these drives.
+* Secure-enabled volumes must have an SSD Cache that is secure enabled.

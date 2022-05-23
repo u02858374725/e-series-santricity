@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/default-host-operating-system-type.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, default, host, operating, system,
+summary: "The default host type is used by the storage array when hosts are initially connected. It defines how the controllers in the storage array work with the host’s operating system when volumes are accessed."
+---
+= Default host operating system type
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The default host type is used by the storage array when hosts are initially connected. It defines how the controllers in the storage array work with the host's operating system when volumes are accessed.
+
+You can change the host type if there is a need to change how the storage array operates, relative to the hosts that are connected to it.
+Generally, you will change the default host type before you connect hosts to the storage array or when you connect additional hosts.
+
+Keep these guidelines in mind:
+
+* If all of the hosts you plan to connect to the storage array have the same operating system (homogenous host environment), then change the host type to match the operating system.
+* If there are hosts with different operating systems that you plan to connect to the storage array (heterogeneous host environment), change the host type to match the majority of the hosts' operating systems.
++
+For example, if you are connecting eight different hosts to the storage array, and six of those hosts are running a Windows operating system, you must select Windows as the default host operating system type.
+
+* If the majority of the connected hosts have a mix of different operating systems, change the host type to Factory Default.
++
+For example, if you are connecting eight different hosts to the storage array, and two of those hosts are running a Windows operating system, three are running a VMware operating system, and another three are running a Linux operating system, you must select Factory Default as the default host operating system type.
+====

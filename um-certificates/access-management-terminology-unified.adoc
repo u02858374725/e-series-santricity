@@ -1,0 +1,49 @@
+---
+permalink: um-certificates/access-management-terminology-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology
+summary: "Learn how the Access Management terms apply to SANtricity Unified Manager."
+---
+= Access Management terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the Access Management terms apply to Unified Manager.
+
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+Active Directory
+a|
+Active Directory (AD) is a Microsoft directory service that uses LDAP for Windows domain networks.
+a|
+Binding
+a|
+Bind operations are used to authenticate clients to the directory server. Binding usually requires account and password credentials, but some servers allow for anonymous bind operations.
+a|
+CA
+a|
+A certificate authority (CA) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers.
+a|
+Certificate
+a|
+A certificate identifies the owner of a site for security purposes, which prevents attackers from impersonating the site. The certificate contains information about the site owner and the identity of the trusted entity who certifies (signs) this information.
+a|
+LDAP
+a|
+Lightweight Directory Access Protocol (LDAP) is an application protocol for accessing and maintaining distributed directory information services. This protocol allows many different applications and services to connect to the LDAP server for validating users.
+a|
+RBAC
+a|
+Role-based access control (RBAC) is a method of regulating access to computer or network resources based on the roles of individual users. Unified Manager includes predefined roles.
+a|
+SSO
+a|
+Single sign-on (SSO) is an authentication service that allows for one set of login credentials to access multiple applications.
+a|
+Web Services Proxy
+a|
+The Web Services Proxy, which provides access through standard HTTPS mechanisms, allows administrators to configure management services for storage arrays. The proxy can be installed on Windows or Linux hosts. The Unified Manager interface is available with the Web Services Proxy.
+|===

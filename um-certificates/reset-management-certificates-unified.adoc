@@ -1,0 +1,35 @@
+---
+permalink: um-certificates/reset-management-certificates-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates
+summary: "You can revert the management certificate to the original, factory self-signed state."
+---
+= Reset management certificates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can revert the management certificate to the original, factory self-signed state.
+
+.Before you begin
+
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+
+.About this task
+
+This task deletes the current management certificate from the host system where the Web Services Proxy and Unified Manager are installed. After the certificate is reset, the host system reverts to using the self-signed certificate.
+
+.Steps
+
+. Select *Certificate Management*.
+. From the Management tab, select *Reset*.
++
+A Confirm Reset Management Certificate dialog box opens.
+
+. Type `reset` in the field, and then click *Reset*.
++
+After your browser refreshes, the browser might block access to the destination site and report that the site is using HTTP Strict Transport Security. This condition arises when you switch back to self-signed certificates. To clear the condition that is blocking access to the destination, you must clear the browsing data from the browser.
+
+.Results
+
+The system reverts to using the self-signed certificate from the server. As a result, the system prompts users to manually accept the self-signed certificate for their sessions.

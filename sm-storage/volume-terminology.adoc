@@ -1,0 +1,162 @@
+---
+permalink: sm-storage/volume-terminology.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, volume, terms
+summary: "Learn how the volume terms apply to your storage array."
+---
+= Volume terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the volume terms apply to your storage array.
+
+== All volume types
+
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+Allocated capacity
+a|
+You use allocated capacity to create volumes and for copy services operations.
+
+Allocated capacity and reported capacity are the same for thick volumes, but are different for thin volumes. For a thick volume, the physically allocated space is equal to the space that is reported to the host. For a thin volume, reported capacity is the capacity that is reported to the hosts, whereas allocated capacity is the amount of drive space that is currently allocated for writing data.
+a|
+Application
+a|
+An application is software such as SQL Server or Exchange. You define one or more workloads to support each application. For some applications, the system automatically recommends a volume configuration that optimizes storage. Characteristics such as I/O type, segment size, controller ownership, and read and write cache are included in the volume configuration.
+a|
+Capacity
+a|
+Capacity is the amount of data that you can store in a volume.
+a|
+Controller ownership
+a|
+Controller ownership defines the controller that is designated to be the owning, or primary, controller of the volume. A volume can have a preferred controller (A or B) that "`owns`" the volume. Volume ownership is automatically adjusted using the Automatic Load Balancing feature to correct any load balance issues when workloads shift across the controllers. Automatic Load Balancing provides automated I/O workload balancing and ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers.
+a|
+Dynamic cache read prefetch
+a|
+Dynamic cache read prefetch allows the controller to copy additional sequential data blocks into the cache while it is reading data blocks from a drive to the cache. This caching increases the chance that future requests for data can be filled from the cache. Dynamic cache read prefetch is important for multimedia applications that use sequential I/O. The rate and amount of data that is prefetched into cache is self-adjusting based on the rate and request size of the host reads. Random access does not cause data to be prefetched into cache. This feature does not apply when read caching is disabled.
+
+For a thin volume, dynamic cache read prefetch is always disabled and cannot be changed.
+a|
+Free capacity area
+a|
+A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation. When you create a volume in a volume group that has one or more free capacity areas, the volume's capacity is limited to the largest free capacity area in that volume group. For example, if a volume group has a total of 15 GiB free capacity, and the largest free capacity area is 10 GiB, the largest volume you can create is 10 GiB.
+
+By consolidating free capacity, you can create additional volumes from the maximum amount of free capacity in a volume group.
+a|
+Host
+a|
+A host is a server that sends I/O to a volume on a storage array.
+a|
+Host cluster
+a|
+A host cluster is a group of hosts. You create a host cluster to make it easy to assign the same volumes to multiple hosts.
+a|
+Hot spare drive
+a|
+Hot spare drives are supported only with volume groups. A hot spare drive contains no data and acts as a standby in case a drive fails in RAID 1, RAID 3, RAID 5, or RAID 6 volumes contained in a volume group. The hot spare drive adds another level of redundancy to your storage array.
+a|
+LUN
+a|
+A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN.
+
+Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
+a|
+Media scan
+a|
+A media scan provides a way of detecting drive media errors before they are found during a normal read from or write to the drives. A media scan is performed as a background operation and scans all data and redundancy information in defined user volumes.
+a|
+Namespace
+a|
+A namespace is NVM storage that is formatted for block access. It is analogous to a logical unit in SCSI, which relates to a volume in the storage array.
+a|
+Pool
+a|
+A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)
+a|
+Pool or volume group capacity
+a|
+Pool, volume, or volume group capacity is the capacity in a storage array that has been assigned to a pool or volume group. This capacity is used to create volumes and service the various capacity needs of copy services operations and storage objects.
+a|
+Read cache
+a|
+The read cache is a buffer that stores data that has been read from the drives. The data for a read operation might already be in the cache from a previous operation, which eliminates the need to access the drives. The data stays in the read cache until it is flushed.
+a|
+Reported capacity
+a|
+Reported capacity is the capacity that is reported to the host and can be accessed by the host.
+
+Reported capacity and allocated capacity are the same for thick volumes, but are different for thin volumes. For a thick volume, the physically allocated space is equal to the space that is reported to the host. For a thin volume, reported capacity is the capacity that is reported to the hosts, whereas allocated capacity is the amount of drive space that is currently allocated for writing data.
+a|
+Segment size
+a|
+A segment is the amount of data in kilobytes (KiB) that is stored on a drive before the storage array moves to the next drive in the stripe (RAID group). The segment size is equal to or less than the capacity of the volume group. The segment size is fixed and cannot be changed for pools.
+a|
+Striping
+a|
+Striping is way of storing data on the storage array. Striping splits the flow of data into blocks of a certain size (called "block size") and then writes these blocks across the drives one by one. This way of data storage is used to distribute and store data across multiple physical drives. Striping is synonymous with RAID 0 and spreads the data across all the drives in a RAID group without parity.
+a|
+Volume
+a|
+A volume is a container in which applications, databases, and file systems store data. It is the logical component created for the host to access storage on the storage array.
+a|
+Volume assignment
+a|
+Volume assignment is how host LUNs are assigned to a volume.
+a|
+Volume name
+a|
+A volume name is a string of characters assigned to the volume when it is created. You can either accept the default name or provide a more descriptive name indicating the type of data stored in the volume.
+a|
+Volume group
+a|
+A volume group is a container for volumes with shared characteristics. A volume group has a defined capacity and RAID level. You can use a volume group to create one or more volumes accessible to a host. (You create volumes from either a volume group or a pool.)
+a|
+Workload
+a|
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+a|
+Write cache
+a|
+The write cache is a buffer that stores data from the host that has not yet been written to the drives. The data stays in the write cache until it is written to the drives. Write caching can increase I/O performance.
+a|
+Write caching with mirroring
+a|
+Write caching with mirroring occurs when the data written to the cache memory of one controller is also written to the cache memory of the other controller. Therefore, if one controller fails, the other can complete all outstanding write operations. Write cache mirroring is available only if write caching is enabled and two controllers are present. Write caching with mirroring is the default setting at volume creation.
+a|
+Write caching without batteries
+a|
+The write caching without batteries setting lets write caching continue even when the batteries are missing, failed, discharged completely, or not fully charged. Choosing write caching without batteries is not typically recommended, because data might be lost if power is lost. Typically, write caching is turned off temporarily by the controller until the batteries are charged or a failed battery is replaced.
+|===
+
+== Specific to thin volumes
+
+[NOTE]
+====
+System Manager does not provide an option to create thin volumes. If you want to create thin volumes, use the command line interface (CLI).
+====
+
+[NOTE]
+====
+Thin volumes are not available on the EF600 or EF300 storage system.
+====
+
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+Allocated capacity limit
+a|
+Allocated capacity limit is the cap on how large the allocated physical capacity for a thin volume can grow.
+a|
+Written capacity
+a|
+Written capacity is the amount of capacity that has been written from the reserved capacity allocated for thin volumes.
+a|
+Warning threshold
+a|
+You can set a warning threshold alert to be issued when the allocated capacity for a thin volume reaches the percent full (the warning threshold).
+|===

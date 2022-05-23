@@ -1,0 +1,44 @@
+---
+permalink: sm-storage/overview-hosts.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, hosts
+summary: "You can configure hosts and host clusters, which define the connections between the storage array and the data servers."
+---
+= Hosts and host clusters overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure hosts and host clusters, which define the connections between the storage array and the data servers.
+
+== What are hosts and host clusters?
+A _host_ is a server that sends I/O to a volume on a storage array. A _host cluster_ is a group of hosts, which you can create for assigning the same volumes to multiple hosts.
+
+Learn more:
+
+* link:host-terminology.html[Host terminology]
+* link:access-volumes.html[Access volumes]
+* link:maximum-number-of-luns.html[Maximum number of LUNs]
+
+
+== How do I configure hosts and host clusters?
+
+To define host connections, you can either allow a Host Context Agent (HCA) to automatically detect the hosts or you can go to menu:Storage[Hosts] to manually configure the host. If you want two or more hosts to share access to the same set of volumes, you can then define a cluster and assign the volumes to that cluster.
+
+Learn more:
+
+* link:automatic-versus-manual-host-creation.html[Automatic versus manual host creation]
+* link:how-volumes-are-assigned-to-hosts-and-host-clusters.html[How volumes are assigned to hosts and host clusters]
+* link:workflow-for-creating-hosts-and-assigning-volumes.html[Workflow for host creation and volume assignment]
+* link:create-host-automatically.html[Create host automatically]
+* link:create-host-manually.html[Create host manually]
+* link:create-host-cluster.html[Create host cluster]
+* link:assign-volumes.html[Assign volumes to hosts]
+
+== Related information
+Learn more about tasks related to hosts:
+
+* link:../sm-settings/set-automatic-load-balancing.html[Set automatic load balancing]
+* link:../sm-settings/set-host-connectivity-reporting.html[Set host connectivity reporting]
+* link:../sm-settings/change-default-host-type.html[Change default host type]

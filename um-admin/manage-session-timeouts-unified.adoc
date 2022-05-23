@@ -1,0 +1,34 @@
+---
+permalink: um-admin/manage-session-timeouts-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, manage, session, timeouts
+summary: "You can configure timeouts for SANtricity Unified Manager, so that users’ inactive sessions are disconnected after a specified time."
+---
+= Manage session timeouts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure timeouts for Unified Manager, so that users inactive sessions are disconnected after a specified time.
+
+.About this task
+
+By default, the session timeout for Unified Manager is 30 minutes. You can adjust that time or you can disable session timeouts altogether.
+
+.Steps
+
+. From the menu bar, select the drop-down arrow next to your user login name.
+. Select *Enable/Disable session timeout*.
++
+The Enable/Disable Session Timeout dialog box opens.
+
+. Use the spinner controls to increase or decrease the time in minutes.
++
+The minimum timeout you can set is 15 minutes.
++
+[NOTE]
+====
+To disable session timeouts, clear the *Set the length of time...* checkbox.
+====
+
+. Click *Save*.

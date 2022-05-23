@@ -1,0 +1,27 @@
+---
+permalink: um-manage/remove-storage-array.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, remove, storage, arrays,
+summary: "You can remove one or more storage arrays if you no longer want to manage it from SANtricity Unified Manager."
+---
+= Remove storage arrays from SANtricity Unified Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove one or more storage arrays if you no longer want to manage it from Unified Manager.
+
+.About this task
+
+You cannot access any of the storage arrays you remove. You can, however, establish a connection to any of the removed storage arrays by pointing a browser directly to its IP address or host name.
+
+Removing a storage array does not affect the storage array or its data in any way. If a storage array is accidentally removed, it can be added again.
+
+.Steps
+
+. Select the *Manage* page.
+. Select one or more storage arrays that you want to remove.
+. Select menu:Uncommon Tasks[Remove storage array].
++
+The storage array is removed from all the views in SANtricity Unified Manager.

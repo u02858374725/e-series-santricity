@@ -1,0 +1,58 @@
+---
+permalink: um-manage/mirroring-overview.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, mirroring,
+summary: "Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection."
+---
+= How mirroring works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== Types of mirroring
+
+SANtricity applications include two types of mirroring -- asynchronous and synchronous.
+
+Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss. Asynchronous mirroring captures the state of the primary volume at a particular point in time and copies just the data that has changed since the last image capture. The primary site can be updated immediately and the secondary site can be updated as bandwidth allows. The information is cached and sent later, as network resources become available. This type of mirroring is ideal for periodic processes such as backup and archive.
+
+Synchronous mirroring replicates data volumes in real time to ensure continuous availability. The purpose is to achieve a recovery point objective (RPO) of zero lost data by having a copy of important data available if a disaster happens on one of the two storage arrays. The copy is identical to production data at every moment because each time a write is done to the primary volume, a write is done to the secondary volume. The host does not receive an acknowledgment that the write was successful until the secondary volume is updated with the changes that were made on the primary volume. This type of mirroring is ideal for business continuity purposes such as disaster recovery.
+
+== Differences between mirroring types
+
+The following table describes the main differences between the two types of mirroring.
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Attribute| Asynchronous| Synchronous
+a|
+Replication method
+a|
+Point-in-time -- Mirroring is done on demand or automatically according to a user-defined schedule.
+a|
+Continuous -- Mirroring is automatically executed continuously, copying data from every host write.
+a|
+Distance
+a|
+Supports long distances between arrays. Typically, the distance is limited only by the capabilities of the network and the channel extension technology.
+a|
+Restricted to shorter distances between arrays. Typically, the distance must be within about 10 km (6.2 miles) of the local storage array to meet the latency and application performance requirements.
+a|
+Communication method
+a|
+A standard IP or Fibre Channel network.
+a|
+Fibre Channel network only.
+a|
+Volume types
+a|
+Standard or thin.
+a|
+Standard only.
+|===

@@ -1,0 +1,45 @@
+---
+permalink: sm-mirroring/overview-mirroring-sync.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers,
+summary: "The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance."
+---
+= Synchronous mirroring overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== What is synchronous mirroring?
+_Synchronous mirroring_ replicates data volumes in real time to ensure continuous availability. Storage array controllers manage the mirroring operation, which is transparent to host machines and software applications.
+
+This type of mirroring is ideal for business continuity purposes such as disaster recovery.
+
+Learn more:
+
+* link:how-asynchronous-mirroring-works.html[How synchronous mirroring works]
+* link:synchronous-mirroring-terminology.html[Synchronous mirroring terminology]
+* link:synchronous-mirroring-status.html[Synchronous mirroring status]
+* link:volume-ownership-sync.html[Volume ownership]
+* link:role-change-of-volumes-in-a-mirrored-pair.html[Role change between volumes in a mirrored pair]
+
+== How do I configure synchronous mirroring?
+You must use the Unified Manager interface to perform the initial mirroring configuration between the arrays. Once it is configured, you can manage mirrored pairs in System Manager.
+
+Learn more:
+
+* link:requirements-for-using-synchronous-mirroring.html[Requirements for using synchronous mirroring]
+* link:workflow-for-mirroring-a-volume-synchronously.html[Workflow for mirroring a volume synchronously]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair (in Unified Manager)]
+
+== Related information
+Learn more about concepts related to synchronous mirroring:
+
+* link:synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html[What you need to know before creating a mirrored pair]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html[How asynchronous mirroring differs from synchronous mirroring]

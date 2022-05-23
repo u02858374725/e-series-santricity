@@ -1,0 +1,54 @@
+---
+permalink: sm-storage/take-action-on-a-copy-volume-operation.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, copy, volume,
+summary: "You can view a Copy Volume operation in progress and stop, change priority, re-copy, or clear a Copy Volume operation."
+---
+= Take action on a Copy Volume operation
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view a Copy Volume operation in progress and stop, change priority, re-copy, or clear a Copy Volume operation.
+
+.Steps
+
+. Select menu:Home[View Operations in Progress].
++
+The Operations in Progress dialog box appears.
+
+. Find the Copy Volume operation that you want to take action on, and then click the link in the *Actions* column to take one of the following actions.
++
+Read all cautionary text provided in dialogs, particularly when stopping an operation.
++
+[cols="25h,~",options="header"]
+
+|===
+| Action| Description
+a|
+Stop
+a|
+You can stop a Copy Volume operation while the operation has a status of In Progress, Pending, or Failed.
+
+When the Copy Volume is stopped, all of the mapped hosts have write access to the source volume. If data is written to the source volume, the data on the target volume no longer matches the data on the source volume.
+a|
+Change priority
+a|
+You can change the priority of a Copy Volume operation while the operation has a status of In Progress to select the rate at which a Copy Volume operation completes.
+a|
+Re-copy
+a|
+You can re-copy a volume when you have stopped a Copy Volume operation and want to start it again or when a Copy Volume operation has failed or halted. The Copy Volume operation starts over from the beginning.
+
+The re-copy action overwrites existing data on the target volume and fails all snapshot volumes associated with the target volume, if any exist.
+a|
+Clear
+a|
+You can remove the Copy Volume operation while the operation has a status of In Progress, Pending, or Failed.
+
+[NOTE]
+====
+Be sure that you want to do this operation before selecting *Clear*. There is no confirmation dialog.
+====
+|===

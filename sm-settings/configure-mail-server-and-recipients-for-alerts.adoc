@@ -1,0 +1,73 @@
+---
+permalink: sm-settings/configure-mail-server-and-recipients-for-alerts.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, configure, mail, server, recipients, alerts,
+summary: "To configure email alerts, you must specify a mail server address and the email addresses of the alert recipients. Up to 20 email addresses are allowed."
+---
+= Configure mail server and recipients for alerts
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure email alerts, you must specify a mail server address and the email addresses of the alert recipients. Up to 20 email addresses are allowed.
+
+.Before you begin
+
+* The address of the mail server must be available. The address can be an IPv4 or IPv6 address, or a fully qualified domain name.
++
+[NOTE]
+====
+To use a fully qualified domain name, you must configure a DNS server on both controllers. You can configure a DNS server from the Hardware page.
+====
+
+* Email address to be used as the alert sender must be available. This is the address that appears in the "From" field of the alert message. A sender address is required in the SMTP protocol; without it, an error results.
+* Email address(es) of the alert recipient(s) must be available. The recipient is typically an address for a network administrator or storage administrator. You can enter up to 20 email addresses.
+
+.About this task
+
+This task describes how to configure the mail server, enter email addresses for the sender and recipients, and test all the email addresses entered from the Alerts page.
+
+[NOTE]
+====
+Email alerts can also be configured from the Initial Setup wizard.
+====
+
+.Steps
+
+. Select menu:Settings[Alerts].
+. Select the *Email* tab.
++
+If an email server is not yet configured, the Email tab displays "Configure Mail Server."
+
+. Select *Configure Mail Server*.
++
+The Configure Mail Server dialog box opens.
+
+. Enter the mail server information, and then click *Save*.
+ ** *Mail server address* -- Enter a fully qualified domain name, IPv4 address, or IPv6 address of the mail server.
++
+[NOTE]
+====
+To use a fully qualified domain name, you must configure a DNS server on both controllers. You can configure a DNS server from the Hardware page.
+====
+
+ ** *Email sender address* -- Enter a valid email address to be used as the sender of the email. This address appears in the "From" field of the email message.
+ ** *Encryption* -- If you want to encrypt messages, select either *SMTPS* or *STARTTLS* for the encryption type, and then select the port number for encrypted messages. Otherwise, select *None*.
+ ** *User name and password* -- If needed, enter a user name and password for authentication with the outgoing sender and the mail server.
+ ** *Include contact information in email* -- To include the sender's contact information with the alert message, select this option, and then enter a name and phone number.
++
+After you click *Save*, the email addresses appear in the Email tab of the Alerts page.
+. Select *Add Emails*.
++
+The Add Emails dialog box opens.
+
+. Enter one or more email addresses for the alert recipients, and then click *Add*.
++
+The email addresses appear on the Alerts page.
+
+. If you want to make sure the email addresses are valid, click *Test All Emails* to send test messages to the recipients.
+
+.Results
+
+After you configure email alerts, the event monitor sends email messages to the specified recipients whenever an alertable event occurs.

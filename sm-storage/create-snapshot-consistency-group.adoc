@@ -1,0 +1,111 @@
+---
+permalink: sm-storage/create-snapshot-consistency-group.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency group
+summary: "To ensure that you have consistent copies, you can create a set of multiple volumes called a snapshot consistency group."
+---
+= Create snapshot consistency group
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To ensure that you have consistent copies, you can create a set of multiple volumes called a _snapshot consistency group_.
+
+This group allows you to make snapshot images of all the volumes at the same time for consistency. Each volume that belongs to a snapshot consistency group is referred to as a _member volume_. When you add a volume to a snapshot consistency group, the system automatically creates a new snapshot group that corresponds to this member volume.
+
+.About this task
+
+The snapshot consistency group creation sequence lets you select member volumes for the group and allocate capacity to the member volumes.
+
+The process to create a snapshot consistency group is a multi-step procedure.
+
+== Step 1: Add members to snapshot consistency group
+Select members to specify a collection of volumes that comprise the snapshot consistency group. Any actions you perform on the snapshot consistency group extend uniformly to selected member volumes.
+
+.Before you begin
+
+The member volumes must be Optimal.
+
+.Steps
+
+. Select menu:Storage[Snapshots].
+. Click the *Snapshot Consistency Groups* tab.
+. Select menu:Create[Snapshot consistency group].
++
+The Create Snapshot Consistency Group dialog box appears.
+
+. Select the volume(s) to be added as member volumes to the snapshot consistency group.
+. Click *Next*, and go to <<Step 2: Reserve capacity for snapshot consistency group>>.
+
+== Step 2: Reserve capacity for snapshot consistency group
+Associate reserved capacity to the snapshot consistency group. System Manager suggests the volumes and capacity based on the properties of the snapshot consistency group. You can accept the recommended reserved capacity configuration or customize the allocated storage.
+
+.About this task
+
+On the Reserve Capacity dialog box, the volume candidate table displays only the candidates that support the reserved capacity specified. Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
+
+.Steps
+
+. Use the spinner box to allocate the reserved capacity for the snapshot consistency group. Do one of the following actions:
+** *Accept the default settings*.
++
+Use this recommended option to allocate the reserved capacity for each member volume with the default settings.
+
+** *Allocate your own reserved capacity settings to meet your data storage needs.*
++
+Allocate the reserved capacity using the following guidelines.
+
+*** The default setting for reserved capacity is 40% of the capacity of the base volume. Usually this capacity is sufficient.
+*** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
+. *Optional:* If you change the default reserved capacity setting, click *Refresh Candidates* to refresh the candidate list for the reserved capacity you specified.
+. Click *Next*, and go to <<Step 3: Edit settings for snapshot consistency group>>.
+
+== Step 3: Edit settings for snapshot consistency group
+Accept or choose automatic deletion settings and reserved capacity alert thresholds for the snapshot consistency group.
+
+.About this task
+
+The snapshot consistency group creation sequence lets you select member volumes for the group and allocate capacity to the member volumes.
+
+.Steps
+
+. Accept or change the default settings for the snapshot consistency group as appropriate.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+
+|===
+| Setting| Description
+2+a|
+*Snapshot consistency group settings*
+a|
+Name
+a|
+Specify the name for the snapshot consistency group.
+a|
+Enable automatic deletion of snapshot images when...
+a|
+Keep the check box selected if you want snapshot images automatically deleted after the specified limit; use the spinner box to change the limit. If you clear this check box, snapshot image creation stops after 32 images.
+2+a|
+*Reserved capacity settings*
+a|
+Alert me when...
+a|
+Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot consistency group is nearing full.
+
+When the reserved capacity for the snapshot consistency group exceeds the specified threshold, use the advance notice to increase reserved capacity or to delete unnecessary objects before the remaining space runs out.
+a|
+Policy for full reserved capacity
+a|
+Choose one of the following policies:
+
+** *Purge oldest snapshot image* -- The system automatically purges the oldest snapshot image in the snapshot consistency group, which releases the snapshot image reserved capacity for reuse within the group.
+** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, the system rejects any I/O write request to the base volume that triggered the reserved capacity access.
+|===
+====
+
+. After you are satisfied with your snapshot consistency group configuration, click *Finish*.

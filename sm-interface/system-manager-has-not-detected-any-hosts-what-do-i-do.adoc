@@ -1,0 +1,19 @@
+---
+permalink: sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, host detection
+summary: "If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected."
+---
+= System Manager has not detected any hosts. What do I do?
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected.
+
+You can configure hosts later, once you are done with the setup. You can create hosts either automatically or manually as follows:
+
+* If you installed the Host Context Agent (HCA) on your hosts, the HCA pushes the host configuration information to the storage array. System Manager automatically configures these hosts and displays them in the *Initial Setup* wizard. (HCA does not apply to NVMe over Fabrics hosts.)
+* You can manually create hosts and associate the appropriate host port identifiers by going to menu:Storage[Hosts]. Hosts that have been created manually also display in the *Initial Setup* wizard.
+* The target and host must be configured for the host port type (for example, iSCSI or NVMe over RoCE), and a session to the storage established before automatic detection will work.

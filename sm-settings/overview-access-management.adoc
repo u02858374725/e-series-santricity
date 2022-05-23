@@ -1,0 +1,49 @@
+---
+permalink: sm-settings/overview-access-management.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access, management,
+summary: "Access Management is a method of establishing user authentication in SANtricity System Manager. Authentication methods include RBAC (role-based access control), Directory Services, and Security Assertion Markup Language (SAML) 2.0."
+---
+= Access Management overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Access Management is a method of establishing user authentication in System Manager.
+
+== What authentication methods are available?
+
+Authentication methods include RBAC (role-based access control), Directory Services, and Security Assertion Markup Language (SAML):
+
+ * *RBAC/Local user roles* -- Authentication is managed through RBAC capabilities enforced in the storage array. Local user roles include pre-defined user profiles and roles with specific access permissions.
+ * *Directory services* -- Authentication is managed through an LDAP (Lightweight Directory Access Protocol) server and Directory Services, such as Microsoft's Active Directory.
+ * *SAML* -- Authentication is managed through an Identity Provider (IdP) using SAML 2.0.
+
+Learn more:
+
+ * link:how-access-management-works.html[How Access Management works]
+ * link:access-management-terminology.html[Access Management terminology]
+ * link:permissions-for-mapped-roles.html[Permissions for mapped roles]
+ * link:access-management-with-local-user-roles.html[Local user roles]
+ * link:access-management-with-directory-services.html[Directory services]
+ * link:access-management-with-saml.html[SAML]
+
+
+== How do I configure authentication?
+
+The storage array is pre-configured to use local user roles, which are an implementation of RBAC capabilities. If you want to configure a different method, go to menu:Settings[Access Management].
+
+Learn more:
+
+
+* link:add-directory-server.html[Add an LDAP directory server]
+* link:configure-saml.html[Configure SAML]
+
+== Related information
+
+Learn more about tasks related to access management:
+
+* link:change-passwords.html[Change passwords]
+* link:view-audit-log-activity.html[View audit log activity]
+* link:configure-syslog-server-for-audit-logs.html[Configure syslog server for audit logs]

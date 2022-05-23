@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/add-user-names-for-snmp-traps.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, add, users, snmpv3, traps,
+summary: "You can add up to 256 users for SNMPv3 traps."
+---
+= Add users for SNMPv3 traps
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add up to 256 users for SNMPv3 traps.
+
+.Steps
+
+. Select menu:Settings[Alerts].
+. Select the *SNMP* tab.
++
+The trap destinations and user names appear in the table.
+
+. Select *Configure Users*.
++
+The Configure SNMPv3 Users dialog box opens.
+
+. Select *Add*.
+. Enter the following information, and then click *Add*.
+ ** *User name* -- Enter a name to identify the user, which can be up to 31 characters long.
+ ** *Engine ID* -- Select the Engine ID, which is used to generate authentication and encryption keys for messages, and must be unique on the administrative domain. In most cases, you should select *Local*. If you have a non-standard configuration, select *Custom*; another field appears where you must enter the authoritative engine ID as a hexadecimal string, with an even number of characters between 10 and 32 characters long.
+ ** *Authentication credentials* -- Select an authentication protocol, which ensures the identity of users. Next, enter an authentication password, which is required when the authentication protocol is set or changed. The password must be between 8 and 128 characters long.
+ ** *Privacy credentials* -- Select a privacy protocol, which is used to encrypt the contents of messages. Next, enter a privacy password, which is required when the privacy protocol is set or changed. The password must be between 8 and 128 characters long.

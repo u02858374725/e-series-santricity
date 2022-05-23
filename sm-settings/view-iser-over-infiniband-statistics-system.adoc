@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/view-iser-over-infiniband-statistics-system.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniBand, statistics,
+summary: "If your storage array’s controller includes an iSER over InfiniBand port, you can view data about the host connections."
+---
+= View iSER over InfiniBand statistics
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If your storage array's controller includes an iSER over InfiniBand port, you can view data about the host connections.
+
+.About this task
+
+System Manager shows the following types of iSER over InfiniBand statistics. All statistics are read-only and cannot be set.
+
+* *Local Target (Protocol) statistics* -- Provides statistics for the iSER over InfiniBand target, which shows block-level access to its storage media.
+* *iSER over InfiniBand Interface statistics* -- Provides statistics for all iSER ports on the InfiniBand interface, which includes performance statistics and link error information associated with each switch port.
+
+You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
+
+.Steps
+
+. Select menu:Settings[System].
+. Select *View iSER over InfiniBand Statistics*.
+. Click a tab to view the different sets of statistics.
+. *Optional:* To set the baseline, click *Set new baseline*.
++
+Setting the baseline sets a new starting point for the collection of the statistics. The same baseline is used for all iSER over InfiniBand statistics.

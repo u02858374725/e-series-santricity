@@ -1,0 +1,48 @@
+---
+permalink: sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, role, change, between, volume, mirrored, pair,
+summary: "You can change the role between volumes in a mirrored pair. You can do this by demoting the primary volume to the secondary role or promoting the secondary volume to the primary role."
+---
+= Role change between volumes in a mirrored pair
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the role between volumes in a mirrored pair. You can do this by demoting the primary volume to the secondary role or promoting the secondary volume to the primary role.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+Review the following information about the role change operation:
+
+* When a primary volume is demoted to the secondary role, the secondary volume in that mirrored pair is promoted to the primary role and vice versa.
+* When the primary volume is demoted to the secondary role, hosts that have been assigned to that volume no longer have write access to it.
+* When the secondary volume is promoted to the primary role, any hosts that are accessing that volume are now able to write to it.
+* If the local storage array is unable to communicate with the remote storage array, you can force the role change on the local storage array.
+
+== Force role change
+
+You can force a role change between volumes in a mirrored pair when a communication problem between the local storage array and the remote storage array is preventing the promotion of the secondary volume or the demotion of the primary volume.
+
+You can force the volume on the secondary side to transition to the primary role. Then the recovery host can access the newly promoted volume, and business operations can continue.
+
+[NOTE]
+====
+When the remote storage array has recovered and any communication problems have been resolved, a Synchronous Mirroring - Primary Volume Conflict condition occurs. The recovery steps include resynchronizing the volumes. Use the Recovery Guru to recover from this error.
+====
+
+== When is a forced promotion allowed and not allowed?
+
+Forced promotion of a volume in a mirrored pair is not allowed under the following conditions:
+
+* Any of the volumes in a mirrored pair are in the process of an initial synchronization.
+* The mirrored pair is in the Failed, Role-Change-Pending, or Role-Change-In-Progress states or if any of the associated reserved capacity volumes are failed.
+
+== Role change in-progress state
+
+If two storage arrays in a mirroring configuration become disconnected, and the primary volume of a mirrored pair is force demoted to a secondary role, and the secondary volume of a mirrored pair is force promoted to a primary role, then when communication is restored, the volumes on both storage arrays are placed in the Role-Change-In-Progress state.
+
+The system will complete the role change process by transferring the change logs, re-synchronizing, setting the mirrored pair state back to a normal operating state, and continuing with synchronizations.

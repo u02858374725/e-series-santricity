@@ -1,0 +1,45 @@
+---
+permalink: sm-storage/rtv-terminology.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, remote, storage, terms
+summary: "Learn how the remote storage terms apply to your storage array."
+---
+= Remote Storage terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the remote storage terms apply to your storage array.
+
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+IQN
+a|
+iSCSI Qualified Name (IQN) identifier, which is a unique name for an iSCSI initiator or target.
+a|
+LUN
+a|
+Logical unit number, which is used to identify a logical unit that can be presented to a host for access.
+a|
+Remote storage system
+a|
+The storage system where the data initially resides. The remote storage system can either be an E-Series model or a system from another vendor.
+a|
+Remote storage device
+a|
+The physical or logical device where the data is initially stored on the remote system. In an E-Series storage system, this is referred to as a "volume."
+a|
+Remote storage object
+a|
+An object containing information that allows the E-Series system to identify and connect to the remote storage system. This information includes the IQN and IP addresses for the remote storage system. The remote storage object represents the communication between the remote storage system and E-Series system.
+a|
+Remote storage volume
+a|
+A standard volume on the E-Series system that allows data access to a remote storage device.
+a|
+Volume
+a|
+A container in which data is stored. It is the logical component created for the host to access the data.
+|===

@@ -1,0 +1,44 @@
+---
+permalink: sm-settings/enable-feature-pack.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, enable, feature, pack,
+summary: "A feature pack is a bundle that changes storage array attributes (for example, changing the protocol from Fibre Channel to iSCSI). Feature packs require a special key for enablement."
+---
+= Enable feature pack
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A feature pack is a bundle that changes storage array attributes (for example, changing the protocol from Fibre Channel to iSCSI). Feature packs require a special key for enablement.
+
+.Before you begin
+
+* You have followed the appropriate instructions describing conversion and preparation for the new storage array attributes. For host protocol conversion instructions, refer to the hardware maintenance guide for your controller model.
+* The storage array is offline, so no hosts or applications are accessing it.
+* All data is backed up.
+* You have obtained a feature pack file.
++
+The feature pack file is loaded on the management client (the system with a browser for accessing System Manager).
+
+[NOTE]
+====
+You must schedule a downtime maintenance window and stop all I/O operations between the host and controllers. In addition, be aware that you cannot access data on the storage array until you have successfully completed the conversion.
+====
+
+.About this task
+
+This task describes how to use System Manager to enable a feature pack. When you are done, you must restart the storage array.
+
+.Steps
+
+. Select menu:Settings[System].
+. Under *Add-ons*, select *Change Feature Pack*.
+. Click *Browse*, and then select the key file.
++
+The file name is displayed in the dialog box.
+
+. Type `change` in the field.
+. Click *Change*.
++
+The feature pack migration begins and the controllers reboot. Unwritten cache data is deleted, which ensures no I/O activity. Both controllers automatically reboot for the new feature pack to take effect. The storage array returns to a responsive state after the reboot is complete.

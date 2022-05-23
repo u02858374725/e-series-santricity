@@ -1,0 +1,42 @@
+---
+permalink: sm-settings/change-cache-settings-for-storage-array.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, change, cache, settings,
+summary: "For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size."
+---
+= Change cache settings for the storage array
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size.
+
+.About this task
+
+Cache memory is an area of temporary volatile storage on the controller, which has a faster access time than the drive media. To tune cache performance, you can adjust the following settings:
+
+[cols="25h,~",options="header"]
+|===
+| Cache setting| Description
+a|
+Start demand cache flushing
+a|
+Start demand cache flushing specifies the percentage of unwritten data in the cache that triggers a cache flush (write to disk). By default, cache flushing starts when unwritten data reaches 80% capacity. A higher percentage is a good choice for environments with primarily write operations, so new write requests can be processed by cache without having to go to the disk. Lower settings are better in environments where the I/O is erratic (with data bursts), so that the system flushes cache frequently between data bursts. However, a start percentage lower than 80% may cause decreased performance.
+a|
+Cache block size
+a|
+The cache block size determines the maximum size of each cache block, which is an organizational unit for cache management. By default, the block size is 32 KiB. The system allows the cache block size to be 4, 8, 16, or 32 KiBs. Applications use different block sizes, which have an impact on storage performance. A smaller size is a good choice for file systems or database applications. A larger size is ideal for applications that generate sequential I/O, such as multimedia.
+|===
+
+.Steps
+
+. Select menu:Settings[System].
+. Scroll down to *Additional Settings*, and then click *Change Cache Settings*.
++
+The Change Cache Settings dialog box opens.
+
+. Adjust the following values:
+ ** *Start demand cache flushing* -- Choose a percentage that is appropriate for the I/O used in your environment. If you choose a value lower than 80%, you may notice decreased performance.
+ ** **Cache block size -- **Choose a size that is appropriate for your applications.
+. Click *Save*.

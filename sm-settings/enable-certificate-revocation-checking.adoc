@@ -1,0 +1,45 @@
+---
+permalink: sm-settings/enable-certificate-revocation-checking.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, enable, certificate, revocation checking,
+summary: "You can enable automatic checks for revoked certificates, so that an Online Certificate Status Protocol (OCSP) server blocks users from making non-secure connections."
+---
+= Enable certificate revocation checking
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can enable automatic checks for revoked certificates, so that an Online Certificate Status Protocol (OCSP) server blocks users from making non-secure connections.
+
+.Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* A DNS server is configured on both controllers, which enables use of a fully qualified domain name for the OCSP server. This task is available from the Hardware page.
+* If you want to specify your own OCSP server, you must know the URL of that server.
+
+.About this task
+
+Automatic revocation checking is helpful in cases where the CA improperly issued a certificate, or a private key is compromised.
+
+During this task, you can configure an OCSP server or use the server specified in the certificate file. The OCSP server determines if the CA has revoked any certificates before their scheduled expiration date, and then blocks the user from accessing a site if the certificate is revoked.
+
+.Steps
+
+. Select menu:Settings[Certificates].
+. Select the *Trusted* tab.
++
+[NOTE]
+====
+You can also enable revocation checking from the *Key Management* tab.
+====
+
+. Click *Uncommon Tasks*, and then select *Enable Revocation Checking* from the drop-down menu.
+. Select *I want to enable revocation checking*, so that a checkmark appears in the checkbox and additional fields appear in the dialog box.
+. In the *OCSP responder address* field, you can optionally enter a URL for an OCSP responder server. If you do not enter an address, the system uses the OCSP server's URL from the certificate file.
+. Click *Test Address* to make certain the system can open a connection to the specified URL.
+. Click *Save*.
+
+.Results
+
+If the storage array attempts to connect to a server with a revoked certificate, the connection is denied and an event is logged.

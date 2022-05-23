@@ -1,0 +1,62 @@
+---
+permalink: sm-storage/delete-volume.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, delete, volume
+summary: "Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing."
+---
+= Delete volume
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing.
+
+Deleting a volume increases the free capacity in the pool or volume group. You can select one or more volumes to delete.
+
+.Before you begin
+
+On the volumes that you plan to delete, make sure of the following:
+
+* All data is backed up.
+* All Input/Output (I/O) is stopped.
+* Any devices and file systems are unmounted.
+
+.About this task
+
+You cannot delete a volume that has one of these conditions:
+
+* The volume is initializing.
+* The volume is reconstructing.
+* The volume is part of a volume group that contains a drive that is undergoing a copyback operation.
+* The volume is undergoing a modification operation, such as a change of segment size, unless the volume is now in Failed status.
+* The volume is holding any type of persistent reservation.
+* The volume is a source volume or a target volume in a Copy Volume that has a status of Pending, In Progress, or Failed.
+
+[CAUTION]
+====
+Deleting a volume causes loss of all data on those volumes.
+====
+
+[NOTE]
+====
+When a volume exceeds a given size (currently 128 TB) the delete is being performed in background and the freed space may not be immediately available.
+====
+
+.Steps
+
+. Select menu:Storage[Volumes].
+. Click *Delete*.
++
+The Delete Volumes dialog box appears.
+
+. Select one or more volumes that you want to delete, and confirm that you want to perform the operation.
+. Click *Delete*.
+
+.Results
+
+System Manager performs the following actions:
+
+* Deletes any associated snapshot images, schedules, and snapshot volumes.
+* Removes any mirroring relationships.
+* Increases the free capacity in the pool or volume group.

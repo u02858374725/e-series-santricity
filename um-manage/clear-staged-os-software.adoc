@@ -1,0 +1,25 @@
+---
+permalink: um-manage/clear-staged-os-software.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software
+summary: "You can remove staged OS software to ensure that a pending version is not inadvertently activated at a later time. Removing the staged OS software does not affect the current version that is running on the storage arrays."
+---
+= Clear staged OS software
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove staged OS software to ensure that a pending version is not inadvertently activated at a later time. Removing the staged OS software does not affect the current version that is running on the storage arrays.
+
+.Steps
+
+. From the main view, select *Manage*, and then select menu:Upgrade Center[Clear Staged OS Software].
++
+The Clear Staged OS Software dialog box opens and lists all the discovered storage systems with pending software or NVSRAM.
+
+. If needed, filter or sort the storage systems in the list, so you can view all systems that have staged software.
+. Select the check boxes for the storage systems with pending software that you want cleared.
+. Click *Clear*.
++
+The status of the operation is shown in the dialog box.

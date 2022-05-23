@@ -1,0 +1,145 @@
+---
+permalink: sm-mirroring/asynchronous-mirror-status.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirror, status, consistency, group,
+summary: "The mirror status defines the state of mirror consistency groups and mirrored volume pairs."
+---
+= Asynchronous mirror status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The mirror status defines the state of mirror consistency groups and mirrored volume pairs.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== Status for mirror consistency groups
+
+[cols="25h,~",options="header"]
+|===
+| Status| Description
+a|
+Synchronizing (initial sync)
+
+a|
+The progress of the initial data synchronization that has been completed between the mirrored volume pairs.
+
+During an initial synchronization, the volumes can transition to the following states: Degraded/Failed/Optimal/Unknown.
+
+a|
+Synchronizing (interval sync)
+
+a|
+The progress of the periodic data synchronization that has been completed between the mirrored volume pairs.
+
+a|
+System suspended
+
+a|
+Storage system-suspended synchronization of data on all mirrored pairs at the mirror consistency group level.
+
+At least one mirrored pair in the mirror consistency group is in a Stopped or Failed state.
+
+a|
+User suspended
+
+a|
+User-suspended synchronization of data on all mirrored pairs at the mirror consistency group level.
+
+This state helps to reduce any performance impact to the host application that might occur while any changed data on the local storage array is copied to the remote storage array.
+
+a|
+Paused
+
+a|
+Data synchronization process has temporarily paused due to an error accessing the remote storage array.
+
+a|
+Orphan
+
+a|
+An orphaned mirrored pair volume exists when a member volume in a consistency mirror group has been removed on one side of the consistency mirror group (either the primary side or secondary side) but not on the other side.
+
+Orphaned mirrored pair volumes are detected when inter-array communication is restored and the two sides of the mirror configuration reconcile mirror parameters.
+
+You can remove a mirrored pair to correct an orphaned mirrored pair state.
+
+a|
+Role change pending/in-progress
+
+a|
+A role change between the mirror consistency groups is pending or in progress.
+
+The role reversal change (to either a primary role or secondary role) affects all asynchronous mirrored pairs within the selected mirror consistency group.
+
+You can cancel a pending role change, but not an in-progress role change.
+
+a|
+Role conflict
+
+a|
+A role conflict occurred between mirror consistency groups due to a communication problem between the local storage array and the remote storage array during a role change operation.
+
+When the communication problem has been resolved, a Role Conflict occurs. Use the Recovery Guru to recover from this error.
+
+A forced promotion is not allowed when resolving a role conflict.
+
+|===
+
+== Status for mirrored pairs
+
+A mirrored pair's status indicates whether the data on the primary volume and on the secondary volume is synchronized.
+
+[cols="25h,~",options="header"]
+|===
+| Status| Description
+a|
+Synchronizing
+
+a|
+The progress of initial or periodic data synchronization that has been completed between the mirrored pairs.
+
+There are two types of synchronization: initial synchronization and periodic synchronization. The initial synchronization progress is also displayed in the Long Running Operations dialog box.
+
+a|
+Optimal
+
+a|
+The volumes in the mirrored pair are synchronized, which indicates that the connection between the storage arrays is operational and each volume is in the desired working condition.
+
+a|
+Incomplete
+
+a|
+The asynchronous mirrored pair is incomplete on the remote storage array because the mirrored pair creation sequence was initiated on a storage array that is not supported with System Manager and the mirrored pair has not been completed on the secondary.
+
+The mirrored pair creation process is complete when a volume is added to the mirror consistency group on the remote storage array. This volume becomes the secondary volume in the asynchronous mirrored pair.
+
+The mirrored pair completes automatically if the remote storage array is managed by System Manager.
+
+a|
+Failed
+
+a|
+The asynchronous mirroring operation is unable to operate normally due to a failure with the primary volumes, secondary volumes, or the mirror reserved capacity.
+
+a|
+Orphan
+
+a|
+An orphaned mirrored pair volume exists when a member volume in a consistency mirror group has been removed on one side of the consistency mirror group (either the primary side or secondary side) but not on the other side.
+
+Orphaned mirrored pair volumes are detected when communication is restored between the two storage arrays and the two sides of the mirror configuration reconcile mirror parameters.
+
+You can remove a mirrored pair to correct an orphaned mirrored pair state.
+
+a|
+Stopped
+
+a|
+The mirrored pair is in a Stopped state because the mirror consistency group is in a system-suspended state.
+
+|===

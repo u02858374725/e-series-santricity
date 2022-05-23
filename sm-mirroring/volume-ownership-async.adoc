@@ -1,0 +1,29 @@
+---
+permalink: sm-mirroring/volume-ownership-async.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, volume, ownership, async, change, preferred, controller, owner, mirrored, pair,
+summary: "You can change the preferred controller owner in a mirrored pair."
+---
+= Volume ownership
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the preferred controller owner in a mirrored pair.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+If the primary volume of the mirrored pair is owned by controller A, then the secondary volume will also be owned by controller A of the remote storage array. Changing the primary volume's owner will automatically change the owner of the secondary volume to ensure that both volumes are owned by the same controller. Current ownership changes on the primary side automatically propagate to corresponding current ownership changes on the secondary side.
+
+For example, a primary volume is owned by controller A, and then you change the controller owner to controller B. In this case, the next remote write changes the controller owner of the secondary volume from controller A to B. Because controller ownership changes on the secondary side are controlled by the primary side, they do not require any special intervention by the storage administrator.
+
+== Controller resets
+
+A controller reset causes a volume ownership change on the primary side from the preferred controller owner to the alternate controller in the storage array.
+
+Sometimes a remote write is interrupted by a controller reset or a storage array power cycle before it can be written to the secondary volume. The controller does not need to perform a full synchronization of the mirrored pair in this case.
+
+When a remote write has been interrupted during a controller reset, the new controller owner on the primary side reads information stored in a log file in the reserved capacity volume of the preferred controller owner. The new controller owner then copies the affected data blocks from the primary volume to the secondary volume, eliminating the need for a full synchronization of the mirrored volumes.

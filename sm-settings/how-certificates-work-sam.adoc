@@ -1,0 +1,43 @@
+---
+permalink: sm-settings/how-certificates-work-sam.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, certificates,
+summary: "Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet."
+---
+= How certificates work
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet.
+
+Certificates ensure that web communications are transmitted in encrypted form, privately and unaltered, only between the specified server and client. Using System Manager, you can manage certificates between the browser on a host management system (acting as the client) and the controllers in a storage system (acting as the servers).
+
+A certificate can be signed by a trusted authority, or it can be self-signed. "Signing" simply means that someone validated the owner's identity and determined that their devices can be trusted. Storage arrays ship with an automatically generated self-signed certificate on each controller. You can continue to use the self-signed certificates, or you can obtain CA-signed certificates for a more secure connection between the controllers and the host systems.
+
+[NOTE]
+====
+Although CA-signed certificates provide better security protection (for example, preventing man-in-the-middle attacks), they also require fees that can be expensive if you have a large network. In contrast, self-signed certificates are less secure, but they are free. Therefore, self-signed certificates are most often used for internal testing environments, not in production environments.
+====
+
+== Signed certificates
+
+A signed certificate is validated by a certificate authority (CA), which is a trusted third-party organization. Signed certificates include details about the owner of the entity (typically, a server or website), date of certificate issue and expiration, valid domains for the entity, and a digital signature composed of letters and numbers.
+
+When you open a browser and enter a web address, your system performs a certificate-checking process in the background to determine if you are connecting to a website that includes a valid, CA-signed certificate. Generally, a site that is secured with a signed certificate includes a padlock icon and an https designation in the address. If you attempt to connect to a website that does not contain a CA-signed certificate, your browser displays a warning that the site is not secure.
+
+The CA takes steps to verify your identity during the application process. They might send an email to your registered business, verify your business address, and perform an HTTP or DNS verification. When the application process is complete, the CA sends you digital files to load on a host management system. Typically, these files include a chain of trust, as follows:
+
+* *Root* -- At the top of the hierarchy is the root certificate, which contains a private key used to sign other certificates. The root identifies a particular CA organization. If you use the same CA for all your network devices, you need only one root certificate.
+* *Intermediate* -- Branching off from the root are the intermediate certificates. The CA issues one or more intermediate certificates to act as middlemen between a protected root and server certificates.
+* *Server* -- At the bottom of the chain is the server certificate, which identifies your specific entity, such as a website or other device. Each controller in an storage array requires a separate server certificate.
+
+== Self-signed certificates
+
+Each controller in the storage array includes a pre-installed, self-signed certificate. A self-signed certificate is similar to a CA-signed certificate, except that it is validated by the owner of the entity instead of a third party. Like a CA-signed certificate, a self-signed certificate contains its own private key, and also ensures that data is encrypted and sent over an HTTPS connection between a server and client. However, a self-signed certificate does not use the same chain of trust as a CA-signed certificate.
+
+Self-signed certificates are not "`trusted`" by browsers. Each time you attempt to connect to a website that contains only a self-signed certificate, the browser displays a warning message. You must click a link in the warning message that allows you to proceed to the website; by doing so, you are essentially accepting the self-signed certificate.
+
+== Certificates used for key management server
+
+If you are using an external key management server with the Drive Security feature, you can also manage certificates for authentication between that server and the controllers.

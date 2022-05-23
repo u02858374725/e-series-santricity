@@ -1,0 +1,46 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-status.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, status,
+summary: "A synchronous mirrored pair’s status indicates whether the data on the primary volume and on the secondary volume is synchronized. A mirror status is independent of the component status of the volumes in the mirrored pair."
+---
+= Synchronous mirroring status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A synchronous mirrored pair's status indicates whether the data on the primary volume and on the secondary volume is synchronized. A mirror status is independent of the component status of the volumes in the mirrored pair.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+Synchronous mirrored pairs can have one of the following statuses:
+
+* *Optimal*
++
+Indicates that the volumes in the mirrored pair are synchronized, which means that the fabric connection between the storage arrays is operational and each volume is in the desired working condition.
+
+* *Synchronizing*
++
+Shows the progress of the data synchronization between the mirrored pairs. This status will also be shown during the initial synchronization.
++
+After a communication link interruption, only the blocks of data that have changed on the primary volume during the link interruption are copied to the secondary volume.
+
+* *Unsynchronized*
++
+Indicates that the primary volume's storage array is unable to write incoming data to the remote array. The local host can continue to write to the primary volume, but remote writes do not take place. Different conditions can prevent the primary volume's storage array from writing incoming data to the secondary volume, such as:
+
+ ** The secondary volume is not accessible.
+ ** The remote storage array is not accessible.
+ ** The fabric connection between the storage arrays is not accessible.
+ ** The secondary volume cannot be updated with a new World Wide Identifier (WWID).
+
+* *Suspended*
++
+Indicates that the synchronous mirroring operation has been suspended by the user. When a mirrored pair is suspended, no attempt is made to contact the secondary volume. Any writes to the primary volume are persistently logged in the mirror reserved capacity volumes.
+
+* *Failed*
++
+Indicates that the synchronous mirroring operation is unable to operate normally due to a failure with the primary volume, secondary volume, or the mirror reserved capacity.

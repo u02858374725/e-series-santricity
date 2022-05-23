@@ -1,0 +1,33 @@
+---
+permalink: um-manage/upgrade-considerations.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, upgrade, considerations
+summary: "Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning."
+---
+= Upgrade considerations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
+
+== Current versions
+
+You can view the current SANtricity OS software versions from the Manage page of Unified Manager for each discovered storage array. The version is shown in the SANtricity OS Software column. The controller firmware and NVSRAM information is available in a pop-up dialog box when you click on the SANtricity OS version in each row.
+
+== Other components requiring upgrade
+
+As part of the upgrade process, you might also need to upgrade the host's multipath/failover driver or the HBA driver so that the host can interact with the controllers correctly.
+
+For compatibility information, refer to the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix^]. Also, see the procedures in the Express Guides for your operating system. Express Guides are available from the https://docs.netapp.com/us-en/e-series/index.html[E-Series and SANtricity documentation^].
+
+== Dual controllers
+
+If a storage array contains two controllers and you have a multipath driver installed, the storage array can continue to process I/O while the upgrade occurs. During the upgrade, the following process occurs:
+
+. Controller A fails over all its LUNs to controller B.
+. Upgrade occurs on controller A.
+. Controller A takes back its LUNs and all of controller B's LUNs.
+. Upgrade occurs on controller B.
+
+After the upgrade completes, you might need to manually redistribute volumes between the controllers to ensure volumes return to the correct owning controller.

@@ -1,0 +1,59 @@
+---
+permalink: sm-hardware/unlock-or-reset-a-locked-nvme-drive.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, unlock, reset, locked, fips, nvme, drives,
+summary: "If you insert one or more locked NVMe or FIPS drives into a storage array, you can unlock the drive data by adding the security key file associated with the drives. If you do not have a security key, you can perform a reset on each locked drive by entering its Physical Security ID (PSID) to reset its security attributes and erase the drive data."
+---
+= Unlock or reset locked NVMe or FIPS drives
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you insert one or more locked NVMe or FIPS drives into a storage array, you can unlock the drive data by adding the security key file associated with the drives. If you do not have a security key, you can perform a reset on each locked drive by entering its Physical Security ID (PSID) to reset its security attributes and erase the drive data.
+
+.Before you begin
+
+* For the Unlock option, make sure the security key file (with an extension of `.slk`) is available on the management client (the system with a browser used for accessing System Manager). You must also know the pass phrase associated with the key.
+* For the Reset option, you must find the PSID on each drive you want to reset. To locate the PSID, physically remove the drive and locate the PSID string (32 characters maximum) on the drive's label, and then reinstall the drive.
+
+.About this task
+
+This task describes how to unlock data in NVMe or FIPS drives by importing a security key file into the storage array. For situations where the security key is not available, this task also describes how to perform a reset on a locked drive.
+
+[NOTE]
+====
+If the drive was locked using an external key management server, select menu:Settings[System > Security key management] in System Manager to configure external key management and unlock the drive.
+====
+
+You can access the Unlock feature from either the Hardware page or from menu:Settings[System > Security key management]. The task below provides instructions from the Hardware page.
+
+.Steps
+
+. Select *Hardware*.
+. If the graphic shows the controllers, click *Show front of shelf*.
++
+The graphic changes to show the drives instead of the controllers.
+
+. Select the NVMe or FIPS drive you want to unlock or reset.
++
+The drive's context menu opens.
+
+. Select *Unlock* to apply the security key file or *Reset* if you do not have a security key file.
++
+These options only appear if you select a locked NVMe or FIPS drive.
++
+[CAUTION]
+====
+During a Reset operation, all data is erased. Only perform a Reset if you do not have a security key. Resetting a locked drive permanently removes all data on the drive and resets its security attributes to "secure-capable," but not enabled. *This operation is not reversible.*
+====
+
+. Do one of the following:
+ .. *Unlock*: In the *Unlock Secure Drive* dialog box, click *Browse*, and then select the security key file that corresponds to the drive you want to unlock. Next, enter the pass phrase, and then click *Unlock*.
+ .. *Reset*: In the *Reset Locked Drive* dialog box, enter the PSID string in the field, and then type `RESET` to confirm. Click *Reset*.
++
+For an Unlock operation, you only need to perform this operation once to unlock all the NVMe or FIPS drives. For a Reset operation, you must individually select each drive you want to reset.
+
+.Results
+
+The drive is now available for use in another volume group or disk pool, or in another storage array.

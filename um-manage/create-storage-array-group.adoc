@@ -1,0 +1,35 @@
+---
+permalink: um-manage/create-storage-array-group.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group
+summary: "You create storage groups, and then add storage arrays to the groups. The storage group defines which drives provide the storage that makes up the volume."
+---
+= Configure storage array group
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You create storage groups, and then add storage arrays to the groups.
+
+Configuring groups is a two-step procedure.
+
+== Step 1: Create group
+You first create a group. The storage group defines which drives provide the storage that makes up the volume.
+
+.Steps
+
+. From the Manage page, select menu:Manage Groups[Create storage array group].
+. In the *Name* field, type a name for the new group.
+. Select the storage arrays that you want to add to the new group.
+. Click *Create*.
+
+== Step 2: Add storage array to group
+You can add one or more storage arrays to a user-created group.
+
+.Steps
+
+. From the main view, select *Manage*, and then select the group that you want to add storage arrays to.
+. Select menu:Manage Groups[Add storage arrays to group].
+. Select the storage arrays that you want to add to the group.
+. Click *Add.*

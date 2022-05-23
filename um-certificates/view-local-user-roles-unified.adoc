@@ -1,0 +1,35 @@
+---
+permalink: um-certificates/view-local-user-roles-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, view, local, user, roles
+summary: "From the Local User Roles tab, you can view the mappings of the users to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the Web Services Proxy for SANtricity Unified Manager."
+---
+= View local user roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Local User Roles tab, you can view the mappings of the users to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the Web Services Proxy for Unified Manager.
+
+.Before you begin
+
+You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+
+.About this task
+
+The users and mappings cannot be changed. Only passwords can be modified.
+
+.Steps
+
+. Select *Access Management*.
+. Select the *Local User Roles* tab.
++
+The users are shown in the table:
+
+ ** *admin* -- Super administrator who has access to all functions in the system. This user includes all roles.
+ ** *storage* -- The administrator responsible for all storage provisioning. This user includes the following roles: Storage Admin, Support Admin, and Monitor.
+ ** *security* -- The user responsible for security configuration, including Access Management and Certificate Management. This user includes the following roles: Security Admin and Monitor.
+ ** *support* -- The user responsible for hardware resources, failure data, and firmware upgrades. This user includes the following roles: Support Admin and Monitor.
+ ** *monitor* -- A user with read-only access to the system. This user includes only the Monitor role.
+ ** *rw* (read/write) -- This user includes the following roles: Storage Admin, Support Admin, and Monitor.
+ ** *ro* (read only) -- This user includes only the Monitor role.

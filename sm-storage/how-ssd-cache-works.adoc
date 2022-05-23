@@ -1,0 +1,69 @@
+---
+permalink: sm-storage/how-ssd-cache-works.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, ssd cache,
+summary: "The SSD Cache feature is a controller-based solution that caches the most frequently accessed data ('hot' data) onto lower latency Solid State Drives (SSDs) to dynamically accelerate system performance. SSD Cache is used exclusively for host reads."
+---
+= How SSD Cache works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SSD Cache feature is a controller-based solution that caches the most frequently accessed data ("hot" data) onto lower latency Solid State Drives (SSDs) to dynamically accelerate system performance. SSD Cache is used exclusively for host reads.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== SSD Cache versus primary cache
+
+SSD Cache is a secondary cache for use with the primary cache in the controller's dynamic random-access memory (DRAM).
+
+SSD Cache operates differently than primary cache:
+
+* For primary cache, each I/O operation must stage data through the cache to perform the operation.
++
+In primary cache, the data is stored in DRAM after a host read.
+
+* SSD Cache is used only it is beneficial to place the data in cache to improve overall system performance.
++
+In SSD Cache, the data is copied from volumes and stored on two internal RAID volumes (one per controller) that are automatically created when you create an SSD Cache.
+
+The internal RAID volumes are used for internal cache processing purposes. These volumes are not accessible or displayed in the user interface. However, these two volumes do count against the total number of volumes allowed in the storage array.
+
+== How SSD Cache is used
+
+Intelligent caching places data in a lower-latency drive so responses to future requests for that data can occur much faster. If a program requests data that is in the cache (called a "`cache hit`"), then the lower-latency drive can service that transaction. Otherwise, a "`cache miss`" occurs and the data must be accessed from the original, slower drive. As more cache hits occur, overall performance improves.
+
+When a host program accesses the storage array's drives, the data is stored in the SSD Cache. When the same data is accessed by the host program again, it is read from the SSD Cache instead of the hard drives. The commonly accessed data is stored in the SSD Cache. The hard drives are only accessed when the data cannot be read from the SSD Cache.
+
+SSD Cache is used only when it is beneficial to place the data in cache to improve overall system performance.
+
+When the CPU needs to process read data, it follows the steps below:
+
+. Check DRAM cache.
+. If not found in DRAM cache, then check SSD Cache.
+. If not found in SSD Cache, then get from hard drive. If data is deemed worthwhile to cache, then copy to SSD Cache.
+
+== Improved performance
+
+Copying the most accessed data (hot spot) to SSD Cache allows for more efficient hard disk operation, reduced latency, and accelerated read and write speeds. Using high performance SSDs to cache data from HDD volumes improves I/O performance and response times.
+
+Simple volume I/O mechanisms are used to move data to and from the SSD Cache. After data is cached and stored on the SSDs, subsequent reads of that data are performed on the SSD Cache, thereby eliminating the need to access the HDD volume.
+
+== SSD Cache and the Drive Security feature
+
+To use SSD Cache on a volume that is also using Drive Security (is secure-enabled), the Drive Security capabilities of the volume and the SSD Cache must match. If they do not match, the volume will not be secure-enabled.
+
+== Implement SSD Cache
+
+To implement SSD Cache, do the following:
+
+. Create the SSD Cache.
+. Associate the SSD Cache with the volumes for which you want to implement SSD read caching.
+
+[NOTE]
+====
+Any volume assigned to use a controller's SSD Cache is not eligible for an automatic load balance transfer.
+====

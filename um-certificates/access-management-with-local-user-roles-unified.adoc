@@ -1,0 +1,35 @@
+---
+permalink: um-certificates/access-management-with-local-user-roles-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, access management, local, user, roles
+summary: "Administrators can use RBAC (role-based access control) capabilities enforced in SANtricity Unified Manager. These capabilities are referred to as local user roles."
+---
+= Access Management with local user roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Administrators can use RBAC (role-based access control) capabilities enforced in Unified Manager. These capabilities are referred to as "local user roles."
+
+== Configuration workflow
+
+Local user roles are pre-configured in the system. To use local user roles for authentication, administrators can do the following:
+
+. An administrator logs in to Unified Manager with a user profile that includes Security admin permissions.
++
+[NOTE]
+====
+The `admin` user has full access to all functions in the system.
+====
+
+. An administrator reviews the user profiles, which are predefined and cannot be modified.
+. Optionally, the administrator assigns new passwords for each user profile.
+. Users log in to the system with their assigned credentials.
+
+== Management
+
+When using only local user roles for authentication, administrators can perform the following management tasks:
+
+* Change passwords.
+* Set a minimum length for passwords.
+* Allow users to log in without passwords.

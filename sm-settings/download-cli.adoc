@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/download-cli.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, download, command line interface, CLI,
+summary: "From System Manager you can download the command line interface (CLI) package."
+---
+= Download the command line interface (CLI)
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From System Manager, you can download the command line interface (CLI) package.
+
+The CLI provides a text-based method for configuring and monitoring storage arrays. It communicates via https and uses the same syntax as the CLI available in the externally installed management software package. No key is required to download the CLI.
+
+.Before you begin
+
+A Java Runtime Environment (JRE), version 8 and above, must be available on the management system where you plan to run the CLI commands.
+
+.Steps
+
+. Select menu:Settings[Systems].
+. Under *Add-ons*, select *Command Line Interface*.
++
+The ZIP package downloads to the browser.
+
+. Save the ZIP file to the management system where you plan to run CLI commands for the storage array, and then extract the file.
++
+You can now run CLI commands from an operating system prompt, such as the DOS C: prompt. A CLI command reference is available from the Help menu at the top right of the System Manager user interface.

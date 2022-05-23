@@ -1,0 +1,45 @@
+---
+permalink: um-certificates/how-access-management-works-unified.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, authentication, users, roles, access management
+summary: "Use Access Management to establish user authentication in SANtricity Unified Manager."
+---
+= How Access Management works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use Access Management to establish user authentication in Unified Manager.
+
+== Configuration workflow
+
+Access Management configuration works as follows:
+
+. An administrator logs in to Unified Manager with a user profile that includes Security admin permissions.
++
+[NOTE]
+====
+For first-time login, the username `admin` is automatically displayed and cannot be changed. The `admin` user has full access to all functions in the system. The password must be set on first-time login.
+====
+
+. The administrator navigates to Access Management in the user interface, which includes pre-configured local user roles. These roles are an implementation of RBAC (role-based access control) capabilities.
+. The administrator configures one or more of the following authentication methods:
+ ** *Local user roles* -- Authentication is managed through RBAC capabilities. Local user roles include pre-defined users and roles with specific access permissions. Administrators can use these local user roles as the single method of authentication, or use them in combination with a directory service. No configuration is necessary, other than setting passwords for users.
+ ** *Directory services* -- Authentication is managed through an LDAP (Lightweight Directory Access Protocol) server and directory service, such as Microsoft's Active Directory. An administrator connects to the LDAP server, and then maps the LDAP users to the local user roles.
+. The administrator provides users with login credentials for Unified Manager.
+. Users log in to the system by entering their credentials. During login, the system performs the following background tasks:
+ ** Authenticates the user name and password against the user account.
+ ** Determines the user's permissions based on the assigned roles.
+ ** Provides the user with access to functions in the user interface.
+ ** Displays the user name in the top banner.
+
+== Functions available in Unified Manager
+
+Access to functions depends on a user's assigned roles, which include the following:
+
+* *Storage admin* -- Full read/write access to storage objects on the arrays, but no access to the security configuration.
+* *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
+* *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
+* *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
+An unavailable function is either grayed out or does not display in the user interface.

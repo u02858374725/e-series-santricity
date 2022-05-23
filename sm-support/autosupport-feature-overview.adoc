@@ -1,0 +1,44 @@
+---
+permalink: sm-support/autosupport-feature-overview.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, autosupport, ASUP
+summary: "The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support."
+---
+= AutoSupport feature overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support.
+
+Technical support uses the AutoSupport data reactively to speed the diagnosis and resolution of customer issues and proactively to detect and avoid potential issues.
+
+AutoSupport data includes information about a storage array's configuration, status, performance, and system events. The AutoSupport data does not contain any user data. Dispatches can be sent immediately or on a schedule (daily and weekly).
+
+== Key benefits
+
+Some key benefits of the AutoSupport feature include:
+
+* Expedited case resolution times
+* Sophisticated monitoring for faster incident management
+* Automated reporting according to a schedule, as well as automated reporting about critical events
+* Automated hardware replacement requests for selected components such as drives
+* Nonintrusive alerting to notify you of a problem and provide information for technical support to take corrective action
+* AutoSupport analysis tools that monitor dispatches for known configuration issues
+
+== Individual AutoSupport features
+
+The AutoSupport feature is made up of three individual features that you enable separately.
+
+* *Basic AutoSupport* -- Allows your storage array to automatically collect and send data to technical support.
+* *AutoSupport OnDemand* -- Allows technical support to request retransmission of a previous AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending retransmission requests and responds accordingly.
+* *Remote Diagnostics* -- Allows technical support to request a new, up-to-date AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending new requests and responds accordingly.
+
+== Difference between AutoSupport and Collect Support Data
+
+Two methods of collecting support data exist in the storage array:
+
+* *AutoSupport feature* -- Data is automatically collected.
+* *Collect Support Data option* -- Data must be collected and sent manually.
+
+The AutoSupport feature is easier to use because data is collected and sent automatically. AutoSupport data can be used proactively to prevent problems before they occur. The AutoSupport feature speeds troubleshooting because technical support already has access to the data. For these reasons, the AutoSupport feature is the preferred data collection method to use.

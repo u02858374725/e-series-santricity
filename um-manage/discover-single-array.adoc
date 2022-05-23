@@ -1,0 +1,55 @@
+---
+permalink: um-manage/discover-single-array.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, discover, single, array
+summary: "Use the Add/Discover Single Storage Array option to manually discover and add a single storage array to your organization’s network."
+---
+= Discover single array
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Add/Discover Single Storage Array option to manually discover and add a single storage array to your organization's network.
+
+.Before you begin
+
+* The storage array must be correctly set up and configured.
+* Storage array passwords must be set up using System Manager's Access Management tile.
+
+.Steps
+
+. From the Manage page, select *Add/Discover*.
++
+The Add/Discover dialog box appears.
+
+. Select the *Discover a single storage array* radio button.
+. Enter the IP address for one of the controllers in the storage array, and then click *Start Discovery*.
++
+It can take several minutes for Unified Manager to connect to the specified storage array.
++
+[NOTE]
+====
+The Storage Array Not Accessible message appears when the connection to the IP address of the specified controller is unsuccessful.
+====
+
+. If prompted, resolve any self-signed certificates.
++
+As part of the discovery process, the system verifies that the discovered storage arrays are using certificates by a trusted source. If it cannot locate a digital certificate for a storage array, it prompts you to resolve the certificate that is not signed by a recognized certificate authority (CA) by adding a security exception.
+
+. If prompted, resolve any untrusted certificates.
++
+Untrusted certificates occur when a storage array attempts to establish a secure connection to Unified Manager, but the connection fails to confirm as secure. Resolve untrusted certificates by importing a certificate authority (CA) certificate that has been issued by a trusted third party.
+
+. Click *Next*.
+. *Optional:* Associate the discovered storage array to a group: From the drop-down list, select the desired group to associate with the storage array.
++
+The "All" group is selected by default.
+
+. Enter the administrator password for the storage array that you want to add to your management domain, and then click *OK*.
+
+.After you finish
+
+The storage array is added to Unified Manager and, if specified, it is also added to the group you selected.
+
+If automatic support data collection is enabled, support data is automatically collected for a storage array that you add.

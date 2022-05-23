@@ -1,0 +1,37 @@
+---
+permalink: sm-support/collect-support-data-manually.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, collect, support, data, manually
+summary: "You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis."
+---
+= Collect support data manually
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis.
+
+.About this task
+++ ++
+[NOTE]
+====
+If the AutoSupport feature is enabled, you can also collect this data by going to the *AutoSupport* tab and selecting *Send AutoSupport Dispatch*.
+====
+
+You can run only one collection operation at a time. If you try to start another operation, you receive an error message.
+
+[NOTE]
+====
+Perform this operation only when instructed to do so by technical support.
+====
+
+.Steps
+
+. Select menu:Support[Support Center > Diagnostics] tab.
+. Select *Collect Support Data*.
+. Click *Collect*.
++
+The file is saved in the Downloads folder for your browser with the name `support-data.7z`. If your shelf contains drawers, the diagnostic data for that shelf is archived in a separate zipped file named `tray-component-state-capture.7z`.
+
+. Follow the instructions provided by technical support to send the file to them.

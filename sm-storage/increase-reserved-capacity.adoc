@@ -1,0 +1,59 @@
+---
+permalink: sm-storage/increase-reserved-capacity.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, increase, reserved, capacity
+summary: "You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object."
+---
+= Increase reserved capacity
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object.
+
+For snapshot operations, it is typically 40 percent of the base volume; for asynchronous mirroring operations, it is typically 20 percent of the base volume. Typically, you increase reserved capacity when you receive a warning that the storage object's reserved capacity is becoming full.
+
+.Before you begin
+
+* The volume in the pool or volume group must have an Optimal status and must not be in any state of modification.
+* Free capacity must exist in the pool or volume group that you want to use to increase capacity.
++
+If no free capacity exists on any pool or volume group, you can add unassigned capacity in the form of unused drives to a pool or volume group.
+
+.About this task
+
+You can increase reserved capacity only in increments of 8 GiB for the following storage objects:
+
+* Snapshot group
+* Snapshot volume
+* Consistency group member volume
+* Mirrored pair volume
+
+Use a high percentage if you believe the primary volume will undergo many changes or if the lifespan of a particular copy service operation will be very long.
+
+[NOTE]
+====
+You cannot increase reserved capacity for a snapshot volume that is read-only. Only snapshot volumes that are read-write require reserved capacity.
+====
+
+.Steps
+
+. Select menu:Storage[Pools & Volume Groups].
+. Select the *Reserved Capacity* tab.
+. Select the storage object for which you want to increase reserved capacity, and then click *Increase Capacity*.
++
+The Increase Reserved Capacity dialog box appears.
+
+. Use the spinner box to adjust the capacity percentage.
++
+If free capacity does not exist on the pool or volume group that contains the storage object you selected, and the storage array has Unassigned Capacity, you can create a new pool or volume group. You can then retry this operation using the new free capacity on that pool or volume group.
+
+. Click *Increase*.
+
+.Results
+
+System Manager performs the following actions:
+
+* Increases the reserved capacity for the storage object.
+* Displays the newly-added reserved capacity.

@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/reset-management-certificates.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, reset, management, certificates,
+summary: "You can revert the certificates on the controllers from using CA-signed certificates back to the factory-set, self-signed certificates."
+---
+= Reset management certificates
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can revert the certificates on the controllers from using CA-signed certificates back to the factory-set, self-signed certificates.
+
+.Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* CA-signed certificates must be previously imported.
+
+.About this task
+
+The Reset function deletes the current CA-signed certificate files from each controller. The controllers will then revert to using self-signed certificates.
+
+.Steps
+
+. Select menu:Settings[Certificates].
+. From the Array Management tab, select *Reset*.
++
+A Confirm Reset Management Certificates dialog box opens.
+
+. Type `reset` in the field, and then click *Reset*.
++
+After your browser refreshes, the browser might block access to the destination site and report that the site is using HTTP Strict Transport Security. This condition arises when you switch back to self-signed certificates. To clear the condition that is blocking access to the destination, you must clear the browsing data from the browser.
+
+.Results
+
+The controllers revert to using self-signed certificates. As a result, the system prompts users to manually accept the self-signed certificate for their sessions.

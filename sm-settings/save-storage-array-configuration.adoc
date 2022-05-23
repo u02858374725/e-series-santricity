@@ -1,0 +1,67 @@
+---
+permalink: sm-settings/save-storage-array-configuration.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, save, storage array, configuration,
+summary: "You can save a storage array’s configuration information in a script file to save time setting up additional storage arrays with the same configuration."
+---
+= Save storage array configuration
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can save a storage array's configuration information in a script file to save time setting up additional storage arrays with the same configuration.
+
+.Before you begin
+
+The storage array must not be undergoing any operation that changes its logical configuration settings. Examples of these operations include creating or deleting volumes, downloading controller firmware, assigning or modifying hot spare drives, or adding capacity (drives) to a volume group.
+
+.About this task
+
+Saving the storage array configuration generates a command line interface (CLI) script that contains storage array settings, volume configuration, host configuration, or host-to-volume assignments for a storage array. You can use this generated CLI script to replicate a configuration to another storage array with the exact same hardware configuration.
+
+However, you should not use this generated CLI script for disaster recovery. Instead, to do a system restore, use the configuration database backup file that you create manually or contact technical support to get this data from the latest Auto-Support data.
+
+This operation _does not_ save these settings:
+
+* The life of the battery
+* The controller time-of-day
+* The nonvolatile static random access memory (NVSRAM) settings
+* Any premium features
+* The storage array password
+* The operating status and states of the hardware components
+* The operating status (except Optimal) and states of the volume groups
+* Copy services, such as mirroring and volume copy
+
+[CAUTION]
+====
+*Risk of application errors* -- Do not use this option if the storage array is undergoing an operation that will change any logical configuration setting. Examples of these operations include creating or deleting volumes, downloading controller firmware, assigning or modifying hot spare drives, or adding capacity (drives) to a volume group.
+====
+
+.Steps
+
+. Select menu:Settings[System].
+. Select *Save Storage Array Configuration*.
+. Select the items of the configuration that you want to save:
+ ** Storage array settings
+ ** Volume configuration
+ ** Host configuration
+ ** Host-to-volume assignments
+
++
+[NOTE]
+====
+If you select the *Host-to-volume assignments* item, the *Volume configuration* item and the *Host configuration* item are also selected by default. You cannot save "Host-to-volume assignments" without also saving "Volume configuration" and "Host configuration."
+====
+. Click *Save*.
++
+The file is saved in the Downloads folder for your browser with the name `storage-array-configuration.cfg`.
+
+.After you finish
+
+To load the saved storage array configuration onto another storage array, use the SANtricity command line interface (SMcli) with the `-f` option to apply the `.cfg` file.
+
+[NOTE]
+====
+You can also load a storage array configuration to other storage arrays by using the Unified Manager interface (select menu:Manage[Import Settings]).
+====

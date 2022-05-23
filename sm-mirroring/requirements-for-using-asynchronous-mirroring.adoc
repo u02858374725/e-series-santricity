@@ -1,0 +1,94 @@
+---
+permalink: sm-mirroring/requirements-for-using-asynchronous-mirroring.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, requirements, asynchronous, mirroring,
+summary: "If you plan to use asynchronous mirroring, keep the following requirements in mind."
+---
+= Requirements for using asynchronous mirroring
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you plan to use asynchronous mirroring, keep the following requirements in mind.
+
+== Unified Manager
+
+To enable and configure mirroring between two arrays, you must use the Unified Manager interface. Unified Manager is installed on a host system along with the Web Services Proxy.
+
+* The Web Services Proxy service must be running.
+* Unified Manager must be running on your local host through an HTTPS connection.
+* Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+== Storage arrays
+
+[NOTE]
+====
+Mirroring is not available on the EF600 or EF300 storage array.
+====
+
+* You must have two storage arrays.
+* Each storage array must have two controllers.
+* The two storage arrays must be discovered in Unified Manager.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
+
+== Supported connections
+
+Asynchronous mirroring can use either FC or iSCSI connections, or both for communication between local and remote storage systems. At the time of creating a mirror consistency group, the administrator can select either FC or iSCSI for that group if both are connected to the remote storage array. There is no failover from one channel type to the other.
+
+Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side.
+
+* *Mirroring through a Fibre Channel (FC) interface*
++
+Each controller of the storage array dedicates its highest numbered FC host port to mirroring operations.
++
+If the controller has both base FC ports and host interface card (HIC) FC ports, the highest numbered port is on an HIC. Any host logged on to the dedicated port is logged out, and no host login requests are accepted. I/O requests on this port are accepted only from controllers that are participating in mirroring operations.
++
+The dedicated mirroring ports must be attached to an FC fabric environment that supports the directory service and name service interfaces. In particular, FC-AL and point-to-point are not supported as connectivity options between the controllers that are participating in mirror relationships.
+
+* *Mirroring through an iSCSI interface*
++
+Unlike FC, iSCSI does not require a dedicated port. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the storage array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections.
++
+The controller maintains a list of remote storage systems with which the iSCSI initiator attempts to establish a session. The first port that successfully establishes an iSCSI connection is used for all subsequent communication with that remote storage array. If communication fails, a new session is attempted using all available ports.
++
+iSCSI ports are configured at the array level on a port-by-port basis. Intercontroller communication for configuration messaging and data transfer uses the global settings, including settings for:
+
+ ** VLAN: Both local and remote systems must have the same VLAN setting to communicate
+ ** iSCSI listening port
+ ** Jumbo frames
+ ** Ethernet priority
+
++
+[NOTE]
+====
+The iSCSI intercontroller communication must use a host connect port and not the management Ethernet port.
+====
+
++
+Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side. Because asynchronous mirroring is intended for higher-latency, lower-cost networks, iSCSI (and thus TCP/IP-based) connections are a good fit for it. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections
+
+== Mirrored volume candidates
+
+* RAID level, caching parameters, and segment size can be different on the primary and secondary volumes of an asynchronous mirrored pair.
+* The secondary volume must be at least as large as the primary volume.
+* A volume can participate in only one mirror relationship.
+* Volume candidates must share the same Data Security capabilities.
+ ** If the primary volume is FIPS capable, the secondary volume must be FIPS capable.
+ ** If the primary volume is FDE capable, the secondary volume must be FDE capable.
+ ** If the primary volume is not using Drive Security, the secondary volume must not be using Drive Security.
+
+== Reserved capacity
+
+* A reserved capacity volume is required for a primary volume and for a secondary volume in a mirrored pair for logging write information to recover from controller resets and other temporary interruptions.
+* Because both the primary volume and the secondary volume in a mirrored pair require additional reserved capacity, you must ensure that you have free capacity available on both storage arrays in the mirror relationship.
+
+== Drive Security feature
+
+* If you are using secure-capable drives, the primary volume and the secondary volume must have compatible security settings. This restriction is not enforced; therefore, you must verify it yourself.
+* If you are using secure-capable drives, the primary volume and the secondary volume should use the same drive type. This restriction is not enforced; therefore, you must verify it yourself.
+* If you are using Data Assurance (DA), the primary volume and the secondary volume must have the same DA settings.

@@ -1,0 +1,113 @@
+---
+permalink: um-manage/discover-multiple-arrays.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, discover, multiple, storage, arrays
+summary: "You discover multiple arrays to detect all storage arrays across the subnet where the management server resides and to automatically add the discovered arrays to your management domain."
+---
+= Discover multiple storage arrays
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You discover multiple arrays to detect all storage arrays across the subnet where the management server resides and to automatically add the discovered arrays to your management domain.
+
+.Before you begin
+
+* You must be logged in with a user profile that includes Security Admin permissions.
+* The storage array must be correctly set up and configured.
+* Storage array passwords must be set up using System Manager's Access Management tile.
+* To resolve untrusted certificates, you must have trusted certificate files from a Certificate Authority (CA), and the certificate files are available on your local system.
+
+Discovering arrays is a multi-step procedure.
+
+== Step 1: Enter network address
+You enter a network address range to search across the local sub-network. Any storage array successfully reached appears on the Discover page and might be added to your management domain.
+
+If you need to stop the discovery operation for any reason, click *Stop Discovery*.
+
+.Steps
+
+. From the Manage page, select *Add/Discover*.
++
+The Add/Discover dialog box appears.
+
+. Select the *Discover all storage arrays within a network range* radio button.
+. Enter the starting network address and ending network address to search across your local sub-network, and then click *Start Discovery*.
++
+The discovery process starts. This discovery process can take several minutes to complete. The table on the Discover page is populated as the storage arrays are discovered.
++
+[NOTE]
+====
+If no manageable arrays are discovered, verify that the storage arrays are properly connected to your network and their assigned addresses are within range. Click *New Discovery Parameters* to return to the Add/Discover page.
+====
+
+. Review the list of discovered storage arrays.
+. Select the checkbox next to any storage array that you want to add to your management domain, and then click *Next*.
++
+Unified Manager performs a credential check on each array you are adding to the management domain. You might need to resolve any self-signed certificates and untrusted certificates associated with that array.
+
+. Click *Next* to proceed to the next step in the wizard.
+
+== Step 2: Resolve self-signed certificates during discovery
+
+As part of the discovery process, the system verifies that the storage arrays are using certificates by a trusted source.
+
+.Steps
+
+. Do one of the following:
+ ** If you trust the connections to the discovered storage arrays, continue to the next card in the wizard. The self-signed certificates will be marked as trusted and the storage arrays will be added to Unified Manager.
+ ** If you do not trust the connections to the storage arrays, select *Cancel* and validate each storage array's security certificate strategy before adding any of them to Unified Manager.
+. Click *Next* to proceed to the next step in the wizard.
+
+== Step 3: Resolve untrusted certificates during discovery
+
+Untrusted certificates occur when a storage array attempts to establish a secure connection to Unified Manager, but the connection fails to confirm as secure. During the array discovery process, you can resolve untrusted certificates by importing a certificate authority (CA) certificate (or CA-signed certificate) that has been issued by a trusted third party.
+
+You may need to install additional trusted CA certificates if any of the following are true:
+
+* You recently added a storage array.
+* One or both certificates are expired.
+* One or both certificates are revoked.
+* One or both certificates are missing a root or intermediate certificate.
+
+.Steps
+
+. Select the check box next to any storage array that you want to resolve untrusted certificates for, and then select the **Import** button.
++
+A dialog box opens for importing the trusted certificate files.
+
+. Click *Browse* to select the certificate files for the storage arrays.
++
+The file names display in the dialog box.
+
+. Click *Import*.
++
+The files are uploaded and validated.
++
+[NOTE]
+====
+Any storage array with untrusted certificate issues that are unresolved will not be added to Unified Manager.
+====
+
+. Click *Next* to proceed to the next step in the wizard.
+
+== Step 4: Provide passwords
+You must enter the passwords for the storage arrays that you want to add to your management domain.
+
+.Before you begin
+
+.Steps
+
+. Enter the password for each storage array you want to add to Unified Manager.
+. *Optional:* Associate storage arrays to a group: From the drop-down list, select the desired group to associate with the selected storage arrays.
+. Click *Finish*.
+
+.After you finish
+
+The storage arrays are added to your management domain and associated with the selected group (if specified).
+
+[NOTE]
+====
+It can take several minutes for Unified Manager to connect to the specified storage arrays.
+====

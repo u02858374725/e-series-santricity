@@ -1,0 +1,195 @@
+---
+permalink: sm-settings/configure-saml.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, configure, saml,
+summary: "To configure authentication for Access Management, you can use the Security Assertion Markup Language (SAML) capabilities embedded in the storage array. This configuration establishes a connection between an Identity Provider and the Storage Provider."
+---
+= Configure SAML
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure authentication for Access Management, you can use the Security Assertion Markup Language (SAML) capabilities embedded in the storage array. This configuration establishes a connection between an Identity Provider and the Storage Provider.
+
+.Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
+* You must know the IP address or domain name of each controller in the storage array.
+* An IdP administrator has configured an IdP system.
+* An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
+* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An IdP metadata file is downloaded from the IdP system and is available on the local system used for accessing System Manager.
+
+
+.About this task
+
+An Identity Provider (IdP) is an external system used to request credentials from a user and to determine if that user is successfully authenticated. The IdP can be configured to provide multi-factor authentication and to use any user database, such as Active Directory. Your security team is responsible for maintaining the IdP. A Service Provider (SP) is a system that controls user authentication and access. When Access Management is configured with SAML, the storage array acts as the Service Provider for requesting authentication from the Identity Provider. To establish a connection between the IdP and storage array, you share metadata files between these two entities. Next, you map the IdP user entities to the storage array roles. And finally, you test the connection and SSO logins before enabling SAML.
+
+[NOTE]
+====
+*SAML and Directory Services*. If you enable SAML when Directory Services is configured as the authentication method, SAML supersedes Directory Services in System Manager. If you disable SAML later, the Directory Services configuration returns to its previous configuration.
+====
+
+[CAUTION]
+====
+*Editing and Disabling.* Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance.
+====
+
+Configuring SAML authentication is a multi-step procedure.
+
+== Step 1: Upload the IdP metadata file
+To provide the storage array with IdP connection information, you import IdP metadata into System Manager. The IdP system needs this metadata to redirect authentication requests to the correct URL and to validate responses received. You only need to upload one metadata file for the storage array, even if there are two controllers.
+
+.Steps
+
+. Select menu:Settings[Access Management].
+. Select the *SAML* tab.
++
+The page displays an overview of configuration steps.
+
+. Click the *Import Identity Provider (IdP) file* link.
++
+The Import Identity Provider File dialog box opens.
+
+. Click *Browse* to select and upload the IdP metadata file you copied to your local system.
++
+After you select the file, the IdP Entity ID is displayed.
+
+. Click *Import*.
+
+== Step 2: Export Service Provider files
+To establish a trust relationship between the IdP and the storage array, you import the Service Provider metadata into the IdP. The IdP needs this metadata to establish a trust relationship with the controllers and to process authorization requests. The file includes information such as the controller domain name or IP address, so that the IdP can communicate with the Service Providers.
+
+.Steps
+
+. Click the *Export Service Provider files* link.
++
+The Export Service Provider Files dialog box opens.
+
+. Enter the controller IP address or DNS name in the *Controller A* field, and then click *Export* to save the metadata file to your local system. If the storage array includes two controllers, repeat this step for the second controller in the *Controller B* field.
++
+After you click *Export*, the Service Provider metadata is downloaded to your local system. Make a note of where the file is stored.
+
+. From the local system, locate the Service Provider metadata file(s) you exported.
++
+There is one XML-formatted file for each controller.
+
+. From the IdP server, import the Service Provider metadata file(s) to establish the trust relationship. You can either import the files directly or you can manually enter the controller information from the files.
+
+== Step 3: Map roles
+To provide users with authorization and access to System Manager, you must map the IdP user attributes and group memberships to the storage array's predefined roles.
+
+.Before you begin
+
+* An IdP administrator has configured user attributes and group membership in the IdP system.
+* The IdP metadata file is imported into System Manager.
+* A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
+
+.Steps
+
+. Click the link for *mapping System Manager* roles.
++
+The Role Mapping dialog box opens.
+
+. Assign IdP user attributes and groups to the predefined roles. A group can have multiple assigned roles.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+|===
+| Setting| Description
+2+a|
+*Mappings*
+a|
+User Attribute
+a|
+Specify the attribute (for example, "member of") for the SAML group to be mapped.
+a|
+Attribute Value
+a|
+Specify the attribute value for the group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
+\.[]{}()<>*+-=!?^$\|
+
+a|
+Roles
+a|
+Click in the field and select one of the storage array's roles to be mapped to the Attribute. You must individually select each role you want to include. The Monitor role is required in combination with the other roles to log in to System Manager. The Security Admin role is also required for at least one group.
+
+The mapped roles include the following permissions:
+
+ ** *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
+ ** *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
+ ** *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
+ ** *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+|===
+====
++
+[NOTE]
+====
+The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
+====
+
+. If desired, click *Add another mapping* to enter more group-to-role mappings.
++
+[NOTE]
+====
+Role mappings can be modified after SAML is enabled.
+====
+
+. When you are finished with the mappings, click *Save*.
+
+== Step 4: Test SSO login
+To ensure that the IdP system and storage array can communicate, you can optionally test an SSO login. This test is also performed during the final step for enabling SAML.
+
+.Before you begin
+
+* The IdP metadata file is imported into System Manager.
+* A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
+
+.Steps
+
+. Select the *Test SSO Login* link.
++
+A dialog box opens for entering SSO credentials.
+
+. Enter login credentials for a user with both Security Admin permissions and Monitor permissions.
++
+A dialog box opens while the system tests the login.
+
+. Look for a Test Successful message. If the test completes successfully, go to the next step for enabling SAML.
++
+If the test does not complete successfully, an error message appears with further information. Make sure that:
+
+ ** The user belongs to a group with permissions for Security Admin and Monitor.
+ ** The metadata you uploaded for the IdP server is correct.
+ ** The controller addresses in the SP metadata files are correct.
+
+== Step 5: Enable SAML
+Your final step is to finish the SAML configuration for user authentication. During this process, the system also prompts you to test an SSO login. The SSO Login test process is described in the previous step.
+
+.Before you begin
+
+* The IdP metadata file is imported into System Manager.
+* A Service Provider metadata file for each controller is imported into the IdP system for the trust relationship.
+* At least one Monitor and one Security Admin role mapping is configured.
+
+[CAUTION]
+====
+*Editing and Disabling.* Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance.
+====
+
+.Steps
+
+. From the *SAML* tab, select the *Enable SAML* link.
++
+The Confirm Enable SAML dialog box opens.
+
+. Type `enable`, and then click *Enable*.
+. Enter user credentials for an SSO login test.
+
+.Results
+
+After the system enables SAML, it terminates all active sessions and begins authenticating users through SAML.

@@ -1,0 +1,45 @@
+---
+permalink: sm-settings/how-alerts-work.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, alarm, alerts,
+summary: "Alerts notify administrators about important events that occur on the storage array. Alerts can be sent through email, SNMP traps, and syslog."
+---
+= How alerts work
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Alerts notify administrators about important events that occur on the storage array. Alerts can be sent through email, SNMP traps, and syslog.
+
+The alerts process works as follows:
+
+. An administrator configures one or more of the following alerting methods in System Manager:
+ ** *Email* -- Messages are sent to email addresses.
+ ** *SNMP* -- SNMP traps are sent to an SNMP server.
+ ** *Syslog* -- Messages are sent to a syslog server.
+. When the storage array's event monitor detects an issue, it writes information about that issue to the event log (available from menu:Support[Event Log]). For example, issues can include such events as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller.
+. If the event monitor determines that the event is "alertable," it then sends a notification using the configured alerting methods (email, SNMP, and/or syslog). All Critical events are considered "alertable," along with some Warning and Informational events.
+
+== Alerts configuration
+
+You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To check the current configuration, go to menu:Settings[Alerts].
+
+The Alerts tile displays the alerts configuration, which can be one of the following:
+
+* Not configured.
+* Configured; at least one alerting method is set up. To determine which alerting methods are configured, point the cursor at the tile.
+
+== Alerts information
+
+Alerts can include the following types of information:
+
+* Name of the storage array.
+* Event error type related to an event log entry.
+* Date and time when the event occurred.
+* Brief description of the event.
+
+[NOTE]
+====
+Syslog alerts follow the RFC 5424 messaging standard.
+====

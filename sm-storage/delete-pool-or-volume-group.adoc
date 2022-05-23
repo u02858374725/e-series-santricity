@@ -1,0 +1,40 @@
+---
+permalink: sm-storage/delete-pool-or-volume-group.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, delete, pool, volume, group
+summary: "You can delete a pool or volume group to create more unassigned capacity, which you can reconfigure to meet your application storage needs."
+---
+= Delete pool or volume group
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a pool or volume group to create more unassigned capacity, which you can reconfigure to meet your application storage needs.
+
+.Before you begin
+
+* You must have backed up the data on all of the volumes in the pool or volume group.
+* You must have stopped all input/output (I/O).
+* You must unmount any file systems on the volumes.
+* You must have deleted any mirror relationships in the pool or volume group.
+* You must have stopped any volume copy operation in progress for the pool or volume group.
+* The pool or volume group must not be participating in an asynchronous mirroring operation.
+* The drives in the volume group must not have a persistent reservation.
+
+.Steps
+
+. Select menu:Storage[Pools & Volume Groups].
+. Select one pool or volume group from the list.
++
+You can select only one pool or volume group at a time. Scroll down the list to see additional pools or volume groups.
+
+. Select menu:Uncommon Tasks[Delete] and confirm.
+
+.Results
+
+System Manager performs the following actions:
+
+* Deletes all of the data in the pool or volume group.
+* Deletes all the drives associated with the pool or volume group.
+* Unassigns the associated drives, which allows you to reuse them in new or existing pools or volume groups.

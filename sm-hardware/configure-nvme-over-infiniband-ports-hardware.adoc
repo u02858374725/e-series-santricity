@@ -1,0 +1,44 @@
+---
+permalink: sm-hardware/configure-nvme-over-infiniband-ports-hardware.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, configure, infiniband, ports, nvme,
+summary: "If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page."
+---
+= Configure NVMe over InfiniBand ports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page.
+
+.Before you begin
+
+* Your controller must include an NVMe over InfiniBand host port; otherwise, the NVMe over InfiniBand settings are not available in System Manager.
+* You must know the IP address of the host connection.
+
+[NOTE]
+====
+The NVMe over InfiniBand settings and functions appear only if your storage array's controller includes an NVMe over InfiniBand port.
+====
+
+.Steps
+
+. Select *Hardware*.
+. If the graphic shows the drives, click *Show back of shelf*.
++
+The graphic changes to show the controllers instead of the drives.
+
+. Click the controller with the NVMe over InfiniBand port you want to configure.
++
+The controller's context menu appears.
+
+. Select *Configure NVMe over InfiniBand ports*.
++
+The Configure NVMe over InfiniBand Ports dialog box opens.
+
+. Select the HIC port you want to configure from the drop-down list, and then enter the IP address.
++
+If you are configuring an EF600 storage array with a 200Gb-capable HIC, this dialog box displays two IP Address fields, one for a physical port (external) and one for a virtual port (internal). You should assign a unique IP address for both ports. These settings allow the host to establish a path between each port, and for the HIC to achieve maximum performance. If you do not assign an IP address to the virtual port, the HIC will run at approximately half its capable speed.
+
+. Click *Configure*.
+. Complete the configuration, and then reset the NVMe over InfiniBand port by clicking *Yes*.

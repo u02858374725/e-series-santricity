@@ -1,0 +1,64 @@
+---
+permalink: sm-settings/how-access-management-works.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, authentication, users, roles, access, Management,
+summary: "Access Management is a method of establishing user authentication in SANtricity System Manager."
+---
+= How Access Management works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Access Management is a method of establishing user authentication in System Manager.
+
+Configuration and user authentication works as follows:
+
+. An administrator logs in to System Manager with a user profile that includes Security Admin permissions.
++
+[NOTE]
+====
+For first-time login, the username `admin` is automatically displayed and cannot be changed. The `admin` user has full access to all functions in the system.
+====
+
+. The administrator navigates to Access Management in the user interface. The storage array is pre-configured to use local user roles, which are an implementation of RBAC (role-based access control) capabilities.
+. The administrator configures one or more of the following authentication methods:
+ ** *Local user roles* -- Authentication is managed through RBAC capabilities enforced in the storage array. Local user roles include pre-defined user profiles and roles with specific access permissions. Administrators can use these local user roles as the single method of authentication, or use them in combination with a directory service. No configuration is necessary, other than setting passwords for users.
+ ** *Directory services* -- Authentication is managed through an LDAP (Lightweight Directory Access Protocol) server and directory service, such as Microsoft's Active Directory. An administrator connects to the LDAP server, and then maps the LDAP users to the local user roles embedded in the storage array.
+ ** *SAML* -- Authentication is managed through an Identity Provider (IdP) using the Security Assertion Markup Language (SAML) 2.0. An administrator establishes communication between the IdP system and the storage array, and then maps IdP users to the local user roles embedded in the storage array.
+. The administrator provides users with login credentials for System Manager.
+. Users log in to the system by entering their credentials.
++
+[NOTE]
+====
+If authentication is managed with SAML and an SSO (single sign-on), the system might bypass the System Manager login dialog.
+====
++
+During login, the system performs the following background tasks:
+
+ ** Authenticates the user name and password against the user account.
+ ** Determines the user's permissions based on the assigned roles.
+ ** Provides the user with access to tasks in the user interface.
+ ** Displays the user name in the upper right of the interface.
+
+== Tasks available in System Manager
+
+Access to tasks depends on a user's assigned roles, which include the following:
+
+* *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
+* *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
+* *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
+* *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
+An unavailable task is either grayed out or does not display in the user interface. For example, a user with the Monitor role can view all information about volumes, but cannot access functions for modifying that volume. The tabs for features such as *Copy Services* and *Add to Workload* will be grayed out; only *View/Edit Settings* is available.
+
+== Limitations in Unified Manager and Storage Manager
+
+If SAML is configured for a storage array, users cannot discover or manage storage for that array from the Unified Manager or the legacy Storage Manager interfaces.
+
+When local user roles and directory services are configured, users must enter credentials before performing any of the following functions:
+
+* Renaming the storage array
+* Upgrading controller firmware
+* Loading a storage array configuration
+* Executing a script
+* Attempting to perform an active operation when an unused session has timed out

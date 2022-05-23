@@ -1,0 +1,119 @@
+---
+permalink: sm-settings/use-ca-signed-certificates-for-controllers.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, controllers,
+summary: "You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing System Manager."
+---
+= Use CA-signed certificates for controllers
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing System Manager.
+
+.Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* You must know the IP address or DNS names of each controller.
+
+.About this task
+
+Using CA-signed certificates is a three-step procedure.
+
+== Step 1: Complete CSRs for the controllers
+
+You must first generate a certificate signing request (CSR) file for each controller in the storage array.
+
+.About this task
+
+This task describes how to generate a CSR file from System Manager. The CSR provides information about your organization, and either the IP address or DNS name of the controller. During this task, one CSR file is generated if the storage array has one controller and two CSR files if it has two controllers.
+
+[NOTE]
+====
+Alternatively, you can generate a CSR file using a tool such as OpenSSL and can skip to <<Step 2: Submit the CSR files>>.
+====
+
+.Steps
+
+. Select menu:Settings[Certificates].
+. From the Array Management tab, select *Complete CSR*.
++
+[NOTE]
+====
+If you see a dialog box prompting you to accept a self-signed certificate for the second controller, click *Accept Self-Signed Certificate* to proceed.
+====
+
+. Enter the following information, and then click *Next*:
+ ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
+ ** *Organizational unit (optional)* -- The division of your organization that is handling the certificate.
+ ** *City/Locality* -- The city where your storage array or business is located.
+ ** *State/Region (optional)* -- The state or region where your storage array or business is located.
+ ** *Country ISO code* -- Your country's two-digit ISO (International Organization for Standardization) code, such as US.
+
++
+[CAUTION]
+====
+Some fields might be pre-populated with the appropriate information, such as the IP address of the controller. Do not change prepopulated values unless you are certain they are incorrect. For example, if you have not yet completed a CSR, the controller IP address is set to "`localhost.`" In this case, you must change "`localhost`" to the DNS name or IP address of the controller.
+====
+. Verify or enter the following information about controller A in your storage array:
+ ** *Controller A common name* -- The IP address or DNS name of controller A is displayed by default. Make sure this address is correct; it must match exactly what you enter to access System Manager in the browser. The DNS name cannot begin with a wildcard.
+ ** *Controller A alternate IP addresses* -- If the common name is an IP address, you can optionally enter any additional IP addresses or aliases for controller A. For multiple entries, use a comma-delimited format.
+ ** *Controller A alternate DNS names* -- If the common name is a DNS name, enter any additional DNS names for controller A. For multiple entries, use a comma-delimited format. If there are no alternate DNS names, but you entered a DNS name in the first field, copy that name here. The DNS name cannot begin with a wildcard.
+If the storage array has only one controller, the *Finish* button is available.
++
+If the storage array has two controllers, the *Next* button is available.
+
++
+[NOTE]
+====
+Do not click the *Skip this step* link when you are initially creating a CSR request. This link is provided in error-recovery situations. In rare cases, a CSR request might fail on one controller, but not on the other. This link allows you to skip the step for creating a CSR request on controller A if it is already defined, and continue to the next step for re-creating a CSR request on controller B.
+====
+. If there is only one controller, click *Finish*. If there are two controllers, click *Next* to enter information for controller B (same as above), and then click *Finish*.
++
+For a single controller, one CSR file is downloaded to your local system. For dual controllers, two CSR files are downloaded. The folder location of the download depends on your browser.
+
+. Go to <<Step 2: Submit the CSR files>>.
+
+== Step 2: Submit the CSR files
+After you create the certificate signing request (CSR) files, send the files to a certificate authority (CA). E-Series systems require PEM format (Base64 ASCII encoding) for signed certificates, which includes the following file types: pem, .crt, .cer, or .key.
+
+.Steps
+
+. Locate the downloaded CSR files.
+. Submit the CSR files to a CA (for example, Verisign or DigiCert), and request signed certificates in PEM format.
++
+[CAUTION]
+====
+*After you submit a CSR file to the CA, do NOT regenerate another CSR file.* Whenever you generate a CSR, the system creates a private and public key pair. The public key is part of the CSR, while the private key is kept in the system's keystore. When you receive the signed certificates and import them, the system ensures that both the private and public keys are the original pair. If the keys do not match, the signed certificates will not work and you must request new certificates from the CA.
+====
+
+. When the CA returns the signed certificates, go to <<Step 3: Import signed certificates for controllers>>.
+
+== Step 3: Import signed certificates for controllers
+After you receive signed certificates from the Certificate Authority (CA), import the files for the controllers.
+
+.Before you begin
+
+* The CA returned signed certificate files. These files include the root certificate, one or more intermediate certificates, and the server certificates.
+* If the CA provided a chained certificate file (for example, a .p7b file), you must unpack the chained file into individual files: the root certificate, one or more intermediate certificates, and the server certificates that identify the controllers. You can use the Windows `certmgr` utility to unpack the files (right-click and select menu:All Tasks[Export]). Base-64 encoding is recommended. When the exports are complete, a CER file is shown for each certificate file in the chain.
+* You have copied the certificate files to the host system where you access System Manager.
+
+.Steps
+
+. Select menu:Settings[Certificates]
+. From the Array Management tab, select *Import*.
++
+A dialog box opens for importing the certificate file(s).
+
+. Click the *Browse* buttons to first select the root and intermediate certificate files, and then select each server certificate for the controllers. The root and intermediate files are the same for both controllers. Only the server certificates are unique for each controller. If you generated the CSR from an external tool, you must also import the private key file that was created along with the CSR.
++
+The file names are displayed in the dialog box.
+
+. Click *Import*.
++
+The files are uploaded and validated.
+
+.Result
+
+The session is automatically terminated. You must log in again for the certificates to take effect. When you log in again, the new CA-signed certificates are used for your session.

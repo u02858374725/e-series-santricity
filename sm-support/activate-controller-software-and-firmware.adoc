@@ -1,0 +1,48 @@
+---
+permalink: sm-support/activate-controller-software-and-firmware.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, activate, controller, software, firmware
+summary: "You can choose to activate the upgrade files immediately or wait until a more convenient time."
+---
+= Activate controller software and firmware
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can choose to activate the upgrade files immediately or wait until a more convenient time.
+
+.About this task
+
+You can download and transfer the files without activating them. You might choose to activate later for these reasons:
+
+* *Time of day* -- Activating the software and firmware can take a long time, so you might want to wait until I/O loads are lighter. The controllers fail over during activation so performance might be lower than usual until the upgrade completes.
+* *Type of package* -- You might want to test the new software and firmware on one storage array before upgrading the files on other storage arrays.
+
+When you have software or firmware that has been transferred but not activated, you see a notification in the Notifications area of the System Manager Home page and also on the Upgrade Center page.
+
+[CAUTION]
+====
+You cannot stop the activation process after it starts.
+====
+
+.Steps
+
+. Select menu:Support[Upgrade Center].
+. In the area labeled SANtricity OS Controller Software upgrade, click *Activate*, and confirm that you want to perform the operation.
++
+You can cancel the operation during the pre-upgrade health check, but not during activating.
++
+The pre-upgrade health check begins. If the pre-upgrade health check passes, the upgrade process proceeds to activating the files. If the pre-upgrade health check fails, use the Recovery Guru or contact technical support to resolve the problem. For some types of conditions, Technical Support may advise you to continue with the upgrade despite the errors by selecting an *Allow Upgrade* checkbox.
++
+On successful completion of the pre-upgrade health check, activation occurs. The time it takes to activate depends on your storage array configuration and the components that you are activating.
+
+. *Optional:* To see a list of what was upgraded, click *Save Log*.
++
+The file is saved in the Downloads folder for your browser with the name `drive_upgrade_log-timestamp.txt`.
+
+.After you finish
+
+* Verify that all components appear on the Hardware page.
+* Verify the new software and firmware versions by checking the Software and Firmware Inventory dialog box (go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*).
+* If you upgraded controller NVSRAM, any custom settings that you have applied to the existing NVSRAM are lost during the process of activation. You need to apply the custom settings to the NVSRAM again after the process of activation is complete.

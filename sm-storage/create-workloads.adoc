@@ -1,0 +1,43 @@
+---
+permalink: sm-storage/create-workloads.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, create, workloads
+summary: "You can create workloads for any type of application."
+---
+= Create workloads
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create workloads for any type of application.
+
+.About this task
+
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+
+System Manager recommends an optimized volume configuration only for the following application types:
+
+* Microsoft® SQL Server™
+* Microsoft® Exchange Server™
+* Video Surveillance
+* VMware ESXi ™ (for volumes to be used with Virtual Machine File System)
+
+Keep these guidelines in mind:
+
+* _When using an application-specific workload_, the system recommends an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration, and then edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+* _When using other application types_, you manually specify the volume configuration using the Add/Edit Volumes dialog box.
+
+.Steps
+
+. Select menu:Storage[Volumes].
+. Select menu:Create[Workload].
++
+The Create Application Workload dialog box appears.
+
+. Use the drop-down list to select the type of application that you want to create the workload for and then type a workload name.
+. Click *Create*.
+
+.After you finish
+
+You are ready to add storage capacity to the workload you created. Use the *Create Volume* option to create one or more volumes for an application, and to allocate specific amounts of capacity to each volume.

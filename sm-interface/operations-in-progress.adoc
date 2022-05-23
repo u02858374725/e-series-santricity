@@ -1,0 +1,241 @@
+---
+permalink: sm-interface/operations-in-progress.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, operations in progress
+summary: "The Operations in Progress page allows you to view a list of long-running operations that are currently running or are in a suspended, stopped, or failed state. You can take action on certain types of operations."
+---
+= Operations in progress page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Operations in Progress page allows you to view a list of long-running operations that are currently running or are in a suspended, stopped, or failed state. You can take action on certain types of operations.
+
+Long-running operations can affect system performance. For some operations, you have the option to stop the operation or change its priority so that more important operations complete first.
+
+Operations that appear on the Operations in Progress page include the following:
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Operation| Possible status of the operation| Actions you can take
+a|
+Volume copy
+a|
+Completed
+a|
+Clear
+a|
+Volume copy
+a|
+In progress
+a|
+
+* Change priority
+* Stop
+
+a|
+Volume copy
+a|
+Pending
+a|
+Clear
+a|
+Volume copy
+a|
+Failed
+a|
+
+* Clear
+* Re-copy
+
+a|
+Volume copy
+a|
+Stopped
+a|
+
+* Clear
+* Re-copy
+
+a|
+Volume create (thick pool volumes larger than 64TiB only)
+a|
+In progress
+a|
+_none_
+a|
+Volume delete (thick pool volumes larger than 64TiB only)
+a|
+In progress
+a|
+_none_
+a|
+Asynchronous mirror group initial synchronization
+a|
+In progress
+a|
+Suspend
+a|
+Asynchronous mirror group initial synchronization
+a|
+Suspended
+a|
+Resume
+a|
+Synchronous mirroring
+a|
+In progress
+a|
+Suspend
+a|
+Synchronous mirroring
+a|
+Suspended
+a|
+Resume
+a|
+Snapshot image rollback
+
+a|
+In progress
+a|
+Cancel
+a|
+Snapshot image rollback
+a|
+Pending
+a|
+Cancel
+a|
+Snapshot image rollback
+a|
+Paused
+a|
+
+* Cancel
+* Resume
+
+a|
+Drive evacuation
+a|
+In progress
+a|
+Cancel (depends on the drive evacuation type)
+a|
+Add capacity to pool or volume group
+a|
+In progress
+a|
+_none_
+a|
+Change a RAID level for a volume
+a|
+In progress
+a|
+_none_
+a|
+Reduce capacity for a pool
+a|
+In progress
+a|
+_none_
+a|
+Thin volume reclamation
+a|
+In progress
+a|
+_none_
+a|
+Check the time remaining on an instant availability format (IAF) operation for pool volumes
+a|
+In progress
+a|
+_none_
+a|
+Check the data redundancy of a volume group
+a|
+In progress
+a|
+_none_
+a|
+Defragment a volume group
+a|
+In progress
+a|
+_none_
+a|
+Initialize a volume
+a|
+In progress
+a|
+_none_
+a|
+Increase capacity for a volume
+a|
+In progress
+a|
+_none_
+a|
+Change segment size for a volume
+a|
+In progress
+a|
+_none_
+a|
+Drive copy
+a|
+In progress
+a|
+_none_
+a|
+Data reconstruction
+a|
+In progress
+a|
+_none_
+a|
+Copyback
+a|
+In progress
+a|
+_none_
+a|
+Drive Erase
+a|
+In progress
+a|
+_none_
+a|
+Remote storage import
+a|
+In progress
+a|
+
+* Change priority
+* Stop
+
+a|
+Remote storage import
+a|
+Stopped
+a|
+
+* Resume
+* Disconnect
+
+a|
+Remote storage import
+a|
+Failed
+a|
+
+* Resume
+* Disconnect
+
+a|
+Remote storage import
+a|
+Completed
+a|
+Disconnect
+|===

@@ -1,0 +1,59 @@
+---
+permalink: sm-hardware/hardware-page-overview.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, hardware, page, components,
+summary: "The Hardware page provides a graphical depiction of the storage array’s physical components. From here, you can check component status and perform some functions related to those components."
+---
+= Hardware page and components
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Hardware page provides a graphical depiction of the storage array's physical components. From here, you can check component status and perform some functions related to those components.
+
+== Shelves
+
+A shelf is a component that contains the hardware for the storage array (controllers, power/fan canisters, and drives). There are two types of shelves:
+
+* *Controller shelf* -- Contains the drives, power/fan canisters, and controllers.
+* *Drive shelf* (or *expansion shelf*) -- Contains drives, power/fan canisters, and two input/output modules (IOMs). The IOMs, also known as environmental service modules (ESMs), include SAS ports that connect the drive shelf to the controller shelf.
+
+Shelves are available in three sizes for housing up to 12, 24, or 60 drives. Each shelf includes an ID number, which is assigned by the controller firmware. The ID appears on the upper left of the shelf view.
+
+The shelf view on the Hardware page shows the front or back components. You can switch between the two views by selecting either *Show back of shelf* or *Show front of shelf* from the upper right of the shelf view. You can also select *Show all front* or *Show all back* from the bottom of the page. The front and back views show the following:
+
+* *Front components* -- Drives and empty drive bays.
+* *Back components* -- Controllers and power/fan canisters (for controller shelves) or the IOMs and power/fan canisters (for drive shelves).
+
+You can perform the following functions related to shelves:
+
+* Turn on the shelf 's locator light, so you can find the physical location of the shelf in the cabinet or rack.
+* Change the ID number shown in the upper left of the shelf view.
+* View the shelf settings, such as the types of drives installed and the serial number.
+* Move the shelf views up or down to match the physical layout in the storage array.
+
+== Controllers
+
+A controller is the combined hardware and firmware that implements storage array and management functions. It includes the cache memory, drive support, and host-interface support.
+
+You can perform the following functions related to controllers:
+
+* Configure the management ports for IP addresses and speed.
+* Configure iSCSI host connections (if you have iSCSI hosts).
+* Configure a Network Time Protocol (NTP) server and a Domain Name System (DNS) server.
+* View controller status and settings.
+* Allow users from outside the local area network to start an SSH session and change settings on the controller.
+* Place the controller offline, online, or in service mode.
+
+== Drives
+
+The storage array can include hard disk drives (HDDs) or solid state drives (SSDs). Depending on the shelf size, up to 12, 24, or 60 drives can be installed in the shelf.
+
+You can perform the following functions related to drives:
+
+* Turn on the drive's locator light, so you can find the physical location of the drive in the shelf.
+* View drive status and settings.
+* Re-assign a drive (logically replace a failed drive with an unassigned drive), and manually reconstruct the drive if necessary.
+* Manually fail a drive so you can replace it. (Failing a drive allows you to copy the drive's contents before you replace it.)
+* Assign or unassign hot spares.
+* Erase drives.

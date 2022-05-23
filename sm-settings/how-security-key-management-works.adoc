@@ -1,0 +1,45 @@
+---
+permalink: sm-settings/how-security-key-management-works.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, security, key, management,
+summary: "When you implement the Drive Security feature, the secure-enabled drives (FIPS or FDE) require a security key for data access. A security key is a string of characters that is shared between these types of drives and the controllers in a storage array."
+---
+= How security key management works
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you implement the Drive Security feature, the secure-enabled drives (FIPS or FDE) require a security key for data access. A security key is a string of characters that is shared between these types of drives and the controllers in a storage array.
+
+Whenever power to the drives is turned off and on, the secure-enabled drives change to a Security Locked state until the controller applies the security key. If a secure-enabled drive is removed from the storage array, the drive's data is locked. When the drive is re-installed in a different storage array, it looks for the security key before it makes the data accessible again. To unlock the data, you must apply the original security key.
+
+You can create and manage security keys using one of the following methods:
+
+* Internal key management on the controller's persistent memory.
+* External key management on an external key management server.
+
+== Internal key management
+
+Internal keys are maintained and "`hidden`" in a non-accessible location on the controller's persistent memory. To implement internal key management, you perform the following steps:
+
+. Install secure-capable drives in the storage array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+. Make sure the Drive Security feature is enabled. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+. Create an internal security key, which involves defining an identifier and a pass phrase. The identifier is a string that is associated with the security key, and is stored on the controller and on all drives associated with the key. The pass phrase is used to encrypt the security key for backup purposes. To create an internal key, go to menu:Settings[System > Security key management > Create Internal Key].
+
+The security key is stored on the controller in a hidden, non-accessible location. You can then create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.
+
+== External key management
+
+External keys are maintained on a separate key management server, using a Key Management Interoperability Protocol (KMIP). To implement external key management, you perform the following steps:
+
+. Install secure-capable drives in the storage array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+. Make sure the Drive Security feature is enabled. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+. Obtain a signed, client certificate file. A client certificate validates the storage array's controllers, so the key management server can trust their KMIP requests.
+ .. First, you complete and download a client Certificate Signing Request (CSR). Go to menu:Settings[Certificates > Key Management > Complete CSR].
+ .. Next, you request a signed client certificate from a CA that is trusted by the key management server. (You can also create and download a client certificate from the key management server using the CSR file.)
+ .. Once you have a client certificate file, copy that file to the host where you are accessing System Manager.
+. Retrieve a certificate file from the key management server, and then copy that file to the host where you are accessing System Manager. A key management server certificate validates the key management server, so the storage array can trust its IP address. You can use a root, intermediate, or server certificate for the key management server.
+. Create an external key, which involves defining the IP address of the key management server and the port number used for KMIP communications. During this process, you also load certificate files. To create an external key, go to menu:Settings[System > Security key management > Create External Key].
+
+The system connects to the key management server with the credentials you entered. You can then create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.

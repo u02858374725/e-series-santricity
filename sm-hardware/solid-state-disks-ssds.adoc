@@ -1,0 +1,37 @@
+---
+permalink: sm-hardware/solid-state-disks-ssds.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD
+summary: "Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use."
+---
+= Solid State Disks (SSDs)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use.
+
+== Advantages of SSDs
+
+The advantages of SSDs over hard drives include:
+
+* Faster start up (no spin up)
+* Lower latency
+* Higher I/O operations per second (IOPS)
+* Higher reliability with fewer moving parts
+* Lower power usage
+* Less heat produced and less cooling required
+
+== Identifying SSDs
+
+From the Hardware page, you can locate the SSDs in the front-shelf view. Look for drive bays that display a lightning bolt icon, which indicates an SSD is installed.
+
+== Volume groups
+
+All drives in a volume group must be of the same media type (either all SSDs or all hard drives). Volume groups cannot have a mixture of media types or interface types.
+
+== Caching
+
+The controller's write caching is always enabled for SSDs. Write caching improves performance and extends the life of the SSD.
+
+In addition to the controller cache, you can implement the SSD cache feature to improve overall system performance. In SSD cache, the data is copied from volumes and stored on two internal RAID volumes (one per controller).

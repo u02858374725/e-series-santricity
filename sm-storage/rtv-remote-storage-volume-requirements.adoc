@@ -1,0 +1,48 @@
+---
+permalink: sm-storage/rtv-remote-storage-volume-requirements.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, remote, storage, volume, requirements
+summary: "Volumes used for imports must meet the requirements for size, status, and other criteria."
+---
+= Remote Storage volume requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Volumes used for imports must meet the requirements for size, status, and other criteria.
+
+== Remote storage volume
+
+The source volume of an import is called a "remote storage volume." This volume must meet the following criteria:
+
+* Cannot be part of another import
+* Must have an online status
+
+After the import begins, the controller firmware creates a remote storage volume in the background. Due to that background process, the remote storage volume is not manageable in System Manager and can only be used for the import operation.
+
+After it is created, the remote storage volume is treated like any other standard volume on the E-Series system with the following exceptions:
+
+* Can be used as proxies to the remote storage device.
+* Cannot be used as candidates for other volume copies or snapshots.
+* Cannot have the Data Assurance setting changed while the import is in progress.
+* Cannot be mapped to any hosts, because they are reserved strictly for the import operation.
+
+Each remote storage volume is associated with only one remote storage object; however, one remote storage object can be associated with multiple remote storage volumes. The remote storage volume is uniquely identified using a combination of the following:
+
+* Remote storage object identifier
+* Remote storage device LUN number
+
+== Target volume candidates
+
+The target volume is the destination volume on the local E-Series system. The destination volume must meet the following criteria:
+
+* Must be a RAID/DDP volume.
+* Must have a capacity that is equal to or larger than the remote storage volume.
+* Must have a block size that is the same as the remote storage volume.
+* Must have a valid state (optimal).
+* Cannot have any of the following relationships: volume copy, snapshot copies, asynchronous or synchronous mirroring.
+* Cannot be undergoing any reconfiguration operations: Dynamic Volume Expansion, Dynamic Capacity Expansion, Dynamic Segment Size, Dynamic RAID Migration, Dynamic Capacity Reduction, or Defragmentation.
+* Cannot be mapped to a host before the import starts (however, it can be mapped after import completes).
+* Cannot have Flash Read Cached (FRC) enabled.
+
+System Manager automatically checks these requirements as part of the Import Remote Storage wizard. Only volumes that meet all the requirements are displayed for destination volume selection.

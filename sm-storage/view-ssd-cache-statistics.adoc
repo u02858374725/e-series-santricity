@@ -1,0 +1,70 @@
+---
+permalink: sm-storage/view-ssd-cache-statistics.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, view, ssd cache, statistics
+summary: "You can view statistics for the SSD Cache, such as reads, writes, cache hits, cache allocation percentage, and cache utilization percentage."
+---
+= View SSD Cache statistics
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view statistics for the SSD Cache, such as reads, writes, cache hits, cache allocation percentage, and cache utilization percentage.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+The nominal statistics, which are a subset of the detailed statistics, are shown on the View SSD Cache Statistics dialog box. You can view detailed statistics for the SSD Cache only when you export all SSD statistics to a `.csv` file.
+
+As you review and interpret the statistics, keep in mind that some interpretations are derived by looking at a combination of statistics.
+
+.Steps
+
+. Select menu:Storage[Pools & Volume Groups].
+. Select the SSD Cache for which you want to view statistics, and then click menu:More[View SSD Cache statistics].
++
+The View SSD Cache Statistics dialog box appears and displays the nominal statistics for the selected SSD cache.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~" options="header"]
+
+|===
+| Settings| Description
+a|
+Reads
+a|
+Shows the total number of host reads from the SSD Cache-enabled volumes.    The greater the ratio of Reads to Writes, the better is the operation of the cache.
+a|
+Writes
+a|
+The total number of host writes to the SSD Cache-enabled volumes.    The greater the ratio of Reads to Writes, the better is the operation of the cache.
+a|
+Cache hits
+a|
+Shows the number of cache hits.
+a|
+Cache hits %
+a|
+Shows the percentage of cache hits. This number is derived from Cache Hits / (reads + writes). The cache hit percentage should be greater than 50 percent for effective SSD Cache operation.
+a|
+Cache allocation %
+a|
+Shows the percentage of SSD Cache storage that is allocated, expressed as a percentage of the SSD Cache storage that is available to this controller and is derived from allocated bytes / available bytes.
+a|
+Cache utilization %
+a|
+Shows the percentage of SSD Cache storage that contains data from enabled volumes, expressed as a percentage of SSD Cache storage that is allocated. This amount represents the utilization or density of the SSD Cache. Derived from allocated bytes / available bytes.
+a|
+Export All
+a|
+Exports all SSD Cache statistics to a CSV format. The exported file contains all available statistics for the SSD Cache (both nominal and detailed).
+|===
+====
+
+. Click *Cancel* to close the dialog box.

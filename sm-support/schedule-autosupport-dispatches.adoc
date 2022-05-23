@@ -1,0 +1,32 @@
+---
+permalink: sm-support/schedule-autosupport-dispatches.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, schedule, autosupport, dispatches
+summary: "System Manager automatically creates a default schedule for AutoSupport dispatches. If you prefer, you can specify your own schedule."
+---
+= Schedule AutoSupport dispatches
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager automatically creates a default schedule for AutoSupport dispatches. If you prefer, you can specify your own schedule.
+
+.Before you begin
+
+The AutoSupport feature must be enabled. You can see whether it is enabled on the AutoSupport page.
+
+.About this task
+
+* *Daily time* -- Daily dispatches are collected and sent every day during the time range that you specify. System Manager selects a random time during the range. All times are in Coordinated Universal Time (UTC), which might be different from the storage array's local time. You must convert your storage array's local time into UTC.
+* *Weekly day* -- Weekly dispatches are collected and sent once a week. System Manager selects a random day from the days that you specify. Deselect any days on which you do not want to allow a weekly dispatch to occur. System Manager selects a random day from the days that you allow.
+* *Weekly time* -- Weekly dispatches are collected and sent once a week during the time range that you specify. System Manager selects a random time during the range. All times are in Coordinated Universal Time (UTC), which might be different from the storage array's local time. You must convert your storage array's local time into UTC.
+
+.Steps
+
+. Select menu:Support[Support Center > AutoSupport] tab.
+. Select *Schedule AutoSupport Dispatches*.
++
+The Schedule AutoSupport Dispatches wizard appears.
+
+. Follow the steps in the wizard.

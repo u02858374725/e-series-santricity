@@ -1,0 +1,33 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, workflow, mirroring, asynchronously,
+summary: "You configure asynchronous mirroring using the following workflow."
+---
+= Workflow for mirroring a volume asynchronously
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You configure asynchronous mirroring using the following workflow.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+. Perform the initial configuration in Unified Manager:
+ .. Select the local storage array as the source for the data transfer.
+ .. Create or select an existing mirror consistency group, which is a container for the primary volume on the local array and the secondary volume on the remote array. The primary and secondary volumes are referred to as the "mirrored pair." If you are creating the mirror consistency group for the first time, you specify whether you want to perform manual or scheduled synchronizations.
+ .. Select a primary volume from the local storage array, and then determine its reserved capacity. Reserved capacity is the physical allocated capacity to be used for the copy operation.
+ .. Select a remote storage array as the destination of the transfer, a secondary volume, and then determine its reserved capacity.
+ .. Begin the initial data transfer from the primary volume to the secondary volume. Depending on the volume size, this initial transfer could take several hours.
+. Check the progress of the initial synchronization:
+ .. In Unified Manager, launch System Manager for the local array.
+ .. In System Manager, view the status of the mirroring operation. When mirroring is complete, the status of the mirrored pair is "Optimal."
+. *Optional:* You can reschedule or manually perform subsequent data transfers in System Manager. Only new and changed blocks are transferred from the primary volume to the secondary volume.
++
+[NOTE]
+====
+Because asynchronous replication is periodic, the system can consolidate the changed blocks and conserve network bandwidth. There is minimal impact on write throughput and write latency.
+====

@@ -1,0 +1,60 @@
+---
+permalink: sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, allocated capacity, thin volume
+summary: "For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand."
+---
+= Change allocated capacity limit for a thin volume
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand.
+
+You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+The system automatically expands the allocated capacity based on the allocated capacity limit. The allocated capacity limit allows you to limit the thin volume's automatic growth below the reported capacity. When the amount of data written gets close to the allocated capacity, you can change the allocated capacity limit.
+
+When changing a thin volume's allocated capacity limit and warning threshold, you must take into account the space to be consumed by both the volume's user data and copy services data.
+
+.Steps
+
+. Select menu:Storage[Volumes].
+. Select the *Thin Volume Monitoring* tab.
++
+The Thin Volume Monitoring view appears.
+
+. Select the thin volume that you want to change, and then select *Change Limit*.
++
+The Change Limit dialog box appears. The allocated capacity limit and warning threshold setting for the thin volume you selected appear in this dialog box.
+
+. Change the allocated capacity limit and warning threshold as needed.
++
+
+.Field details
+[%collapsible]
+====
+[cols="25h,~",options="header"]
+|===
+| Setting| Description
+a|
+Change allocated capacity limit to...
+a|
+The threshold at which writes fail, preventing the thin volume from consuming additional resources. This threshold is a percentage of the volume's reported capacity size.
+a|
+Alert me when...
+(warning threshold)
+a|
+Select the check box if you want the system to generate an alert when a thin volume is near the allocated capacity limit. The alert is sent to the Notifications area on the Home page. This threshold is a percentage of the volume's reported capacity size.
+
+Clear the check box to disable the warning threshold alert notification.
+|===
+====
+
+. Click *Save*.

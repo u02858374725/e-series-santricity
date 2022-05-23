@@ -1,0 +1,45 @@
+---
+permalink: um-manage/considerations-for-discovering-arrays.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, considerations, discovering, arrays
+summary: "Before Unified Manager can display and manage storage resources, it must discover the storage arrays you want to manage in your organization’s network. You can discover multiple arrays or you can discover a single array."
+---
+= Considerations for discovering arrays
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before Unified Manager can display and manage storage resources, it must discover the storage arrays you want to manage in your organization's network. You can discover multiple arrays or you can discover a single array.
+
+== Discovering multiple storage arrays
+
+If you choose to discover multiple arrays, you enter a network IP address range and then Unified Manager attempts individual connections to each IP address in that range. Any storage array successfully reached appears on the Discover page and may be added to your management domain.
+
+== Discovering a single storage array
+
+If you choose to discover a single array, you enter the single IP address for one of the controllers in the storage array and then the individual storage array is added.
+
+[NOTE]
+====
+Unified Manager discovers and displays only the single IP address or IP address within a range assigned to a controller. If there are alternate controllers or IP addresses assigned to these controllers that fall outside of this single IP address or IP address range, then Unified Manager will not discover or display them. However, once you add the storage array, all associated IP addresses will be discovered and displayed in the Manage view.
+====
+
+== User credentials
+
+As part of the discovery process, you must supply the administrator password for each storage array you want to add.
+
+== Web services certificates
+
+As part of the discovery process, Unified Manager verifies that the discovered storage arrays are using certificates by a trusted source. Unified Manager uses two types of certificate-based authentication for all connections that it establishes with the browser:
+
+* *Trusted certificates*
++
+For arrays discovered by Unified Manager, you might need to install additional trusted certificates supplied by the Certificate Authority.
++
+Use the *Import* button to import these certificates. If you have connected to this array before, one or both controller certificates are either expired, revoked, or missing a root certificate or intermediate certificate in its certificate chain. You must replace the expired or revoked certificate or add the missing root certificate or intermediate certificate before managing the storage array.
+
+* *Self-signed certificates*
++
+Self-signed certificates can also be used. If the administrator attempts to discover arrays without importing signed certificates, Unified Manager displays an error dialog box that allows the administrator to accept the self-signed certificate. The storage array's self-signed certificate will be marked as trusted and the storage array will be added to Unified Manager.
++
+If you do not trust the connections to the storage array, select *Cancel* and validate the storage array's security certificate strategy before adding the storage array to Unified Manager.

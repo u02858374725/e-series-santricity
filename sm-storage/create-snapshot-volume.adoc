@@ -1,0 +1,152 @@
+---
+permalink: sm-storage/create-snapshot-volume.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, create, snapshot, volume
+summary: "You create a snapshot volume to provide host access to a snapshot image of a volume or snapshot consistency group. You can designate the snapshot volume as either read-only or read-write."
+---
+= Create snapshot volume
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You create a snapshot volume to provide host access to a snapshot image of a volume or snapshot consistency group. You can designate the snapshot volume as either read-only or read-write.
+
+.About this task
+
+The snapshot volume creation sequence lets you create a snapshot volume from a snapshot image and provides options to allocate reserved capacity if the volume is read/write. A snapshot volume can be designated as one of the following:
+
+* A read-only snapshot volume provides a host application with read access to a copy of the data contained in the snapshot image, but without the ability to modify the snapshot image. A read-only snapshot volume does not have associated reserved capacity.
+* A read-write snapshot volume provides the host application with write access to a copy of the data contained in the snapshot image. It has its own reserved capacity that is used to save any subsequent modifications made by the host application to the base volume without affecting the referenced snapshot image.
+
+The process to create a snapshot volume is a multi-step procedure.
+
+== Step 1: Review members for a snapshot volume
+
+Select either a snapshot image of a base volume or a snapshot consistency group. If you select a snapshot consistency group snapshot image, the member volumes of the snapshot consistency group appear for review.
+
+.Steps
+
+. Select menu:Storage[Snapshots].
+. Select the *Snapshot Volumes* tab.
+. Select *Create*.
++
+The Create Snapshot Volume dialog box appears.
+
+. Select the snapshot image (volume or snapshot consistency group) you want to convert into a snapshot volume, and then click *Next*. Use a text entry in the *Filter* field to narrow down the list.
++
+If the selection was for a snapshot consistency group snapshot image, the Review Members dialog box appears.
++
+On the Review Members dialog box, review the list of volumes that are selected for conversion to snapshot volumes, and then click *Next*.
+
+. Go to <<Step 2: Assign snapshot volume to host>>.
+
+== Step 2: Assign snapshot volume to host
+Select a specific host or host cluster to assign it to the snapshot volume. This assignment grants a host or host cluster access to the snapshot volume. You can choose to assign a host later, if needed.
+
+.Before you begin
+
+* Valid hosts or host clusters exist under the Hosts page.
+* Host port identifiers must have been defined for the host.
+* Before creating a DA-enabled volume, verify that your planned host connection supports the Data Assurance (DA) feature. If any of the host connections on the controllers in your storage array do not support DA, the associated hosts cannot access data on DA-enabled volumes.
+
+.About this task
+
+When you assign volumes, keep these guidelines in mind:
+
+* A host's operating system can have specific limits on how many volumes the host can access.
+* You can define one host assignment for each snapshot volume in the storage array.
+* Assigned volumes are shared between controllers in the storage array.
+* The same logical unit number (LUN) cannot be used twice by a host or a host cluster to access a snapshot volume. You must use a unique LUN.
+
+[NOTE]
+====
+Assigning a volume to a host fails if you try to assign a volume to a host cluster that conflicts with an established assignment for a host in the host cluster.
+====
+
+.Steps
+
+. On the *Assign to Host* dialog box, select the host or host cluster that you want to assign to the new volume. If you want to create the volume without assigning a host, select *Assign later* from the drop-down list.
+. Select the access mode. Choose one of the following:
+ ** *Read/write* -- This option provides the host with read/write access to the snapshot volume and requires reserved capacity.
+ ** *Read only* -- This option provides the host with read-only access to the snapshot volume and does not require reserved capacity.
+. Click *Next*, and do one of the following:
+ ** If your snapshot volume is read/write, the Review Capacity dialog box appears. Go to <<Step 3: Reserve capacity for a snapshot volume>>.
+ ** If your snapshot volume is read only, the Edit Priority dialog box appears. Go to <<Step 4: Edit settings for a snapshot volume>>.
+
+== Step 3: Reserve capacity for a snapshot volume
+Associate reserved capacity to a read/write snapshot volume. System Manager suggests the volumes and capacity based on the properties of the base volume or snapshot consistency group. You can accept the recommended reserved capacity configuration or customize the allocated storage.
+
+.About this task
+
+You can increase or decrease the reserved capacity for the snapshot volume as needed. If you find that the snapshot reserved capacity is larger than you need, you can reduce its size to free up space that is needed by other logical volumes.
+
+.Steps
+
+. Use the spinner box to allocate the reserved capacity for the snapshot volume.
++
+The Volume Candidate table displays only the candidates that support the reserved capacity specified.
++
+Do one of the following actions:
+
+** *Accept the default settings*.
++
+Use this recommended option to allocate the reserved capacity for the snapshot volume with the default settings.
+
+** *Allocate your own reserved capacity settings to meet your data storage needs*.
++
+If you change the default reserved capacity setting, click *Refresh Candidates* to refresh the candidate list for the reserved capacity you specified.
++
+Allocate the reserved capacity using the following guidelines.
+
+ *** The default setting for reserved capacity is 40% of the capacity of the base volume, and usually this capacity is sufficient.
+ *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
+
+. *Optional:* If you are creating the snapshot volume for a snapshot consistency group, the option to "Change candidate" appears in the Reserved Capacity Candidates table. Click *Change candidate* to select an alternate reserved capacity candidate.
+. Click *Next*, and go to <<Step 4: Edit settings for a snapshot volume>>.
+
+== Step 4: Edit settings for a snapshot volume
+Change the settings for a snapshot volume such as its name, caching, reserved capacity alert thresholds, and so on.
+
+.About this task
+
+You can add the volume to solid-state disk (SSD) cache as a way to improve read-only performance. SSD cache consists of a set of SSD drives that you logically group together in your storage array.
+
+.Steps
+
+. Accept or change the settings for the snapshot volume as appropriate.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+|===
+| Setting| Description
+2+a|
+*Snapshot volume settings*
+a|
+Name
+a|
+Specify the name for the snapshot volume.
+a|
+Enable SSD Cache
+a|
+Choose this option to enable read-only caching on SSDs.
+NOTE: This feature is not available on the EF600 or EF300 storage system.
+
+2+a|
+*Reserved capacity settings*
+a|
+Alert me when...
+a|
+*Appears only for a read/write snapshot volume*.
+
+Use the spinner box to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot group is nearing full.
+
+When the reserved capacity for the snapshot group exceeds the specified threshold, use the advance notice to increase reserved capacity or to delete unnecessary objects before the remaining space runs out.
+|===
+====
+
+. Review the snapshot volume configuration. Click *Back* to make any changes.
+. When you are satisfied with your snapshot volume configuration, click *Finish*.

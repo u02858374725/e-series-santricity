@@ -1,0 +1,52 @@
+---
+permalink: sm-settings/configure-snmp-mib-variables.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, configure, snmp, mib, variables,
+summary: "For SNMP alerts, you can optionally configure Management Information Base (MIB) variables that appear in SNMP traps. These variables can return the storage array name, array location, and a contact person."
+---
+= Configure SNMP MIB variables
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For SNMP alerts, you can optionally configure Management Information Base (MIB) variables that appear in SNMP traps. These variables can return the storage array name, array location, and a contact person.
+
+.Before you begin
+
+The MIB file must be copied and compiled on the server with the SNMP service application.
+
+If you do not have a MIB file, you can obtain it as follows:
+
+* Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].
+* Click *Downloads*, and then select *Downloads*.
+* Click *E-Series SANtricity OS Controller Software*.
+* Select *Download Latest Release*.
+* Log in.
+* Accept the Caution statement and license agreement.
+* Scroll down until you see the MIB file for your controller type, and then click the link to download the file.
+
+.About this task
+
+This task describes how to define MIB variables for SNMP traps. These variables can return the following values in response to SNMP GetRequests:
+
+* `sysName` (name for the storage array)
+* `sysLocation` (location of the storage array)
+* `sysContact` (name of an administrator)
+
+.Steps
+
+. Select menu:Settings[Alerts].
+. Select the *SNMP* tab.
+. Select *Configure SNMP MIB Variables*.
++
+The Configure SNMP MIB Variables dialog box opens.
+
+. Enter one or more of the following values, and then click *Save*.
+ ** *Name* -- The value for the MIB variable `sysName`. For example, enter a name for the storage array.
+ ** *Location* -- The value for the MIB variable `sysLocation`. For example, enter a location of the storage array.
+ ** *Contact* -- The value for the MIB variable `sysContact`. For example, enter an administrator responsible for the storage array.
+
+.Results
+
+These values appear in SNMP trap messages for storage array alerts.

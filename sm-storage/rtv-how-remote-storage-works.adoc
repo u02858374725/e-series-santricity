@@ -1,0 +1,47 @@
+---
+permalink: sm-storage/rtv-how-remote-storage-works.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, remote, storage
+summary: "The Remote Storage feature allows you to import data from a remote storage system to a local E-Series storage system. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades."
+---
+= How Remote Storage works
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Remote Storage feature allows you to import data from a remote storage system to a local E-Series storage system. This feature is helpful when you want to streamline data migration with minimal downtime, such as during equipment upgrades.
+
+To configure the Remote Storage feature, you must set up the hardware and then use System Manager to create a remote storage object. Once this configuration is complete, the import process begins.
+
+== Hardware setup
+
+Use the following workflow to prepare the hardware connections.
+
+These steps are described further in the user guide for the Remote Storage feature, which is available from the E-Series and SANtricity documentation center at https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html[Remote Storage Volumes overview^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
+
+On the local E-Series storage system:
+
+. Ensure that each controller has an iSCSI connection to the remote storage system. With this connection, the local E-Series system acts as an iSCSI initiator that can be set up as a host on the remote system.
+. Create a destination volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume on the remote storage system, has a matching block size, and is not mapped. See link:create-volumes.html[Create volumes].
+. Gather the iSCSI Qualified Name (IQN) for the local E-Series system from its System Manager interface. The IQN will be used later for setting up the local E-Series system as a host on the remote storage system. In System Manager, go to: menu:Settings[System > iSCSI settings > Target IQN].
+
+On the remote storage system:
+
+. Set up the local E-Series system as a host on the remote system, using its IQN. Be sure to set the appropriate host type, as follows:
+ ** If the remote system is an E-Series model, see link:overview-hosts.html[ Hosts and host clusters overview]. Use a host type of "Factory Default."
+ ** If the remote system is from another vendor, select an appropriate host type based on the options available.
+. Stop all I/Os, unmount any file systems, and remove any assignments to hosts or applications for the source volume.
+. Assign the volume to the newly created local E-Series storage system host.
+. For the selected source volume, gather the following information from the remote storage system so that the import can be created:
+ ** iSCSI Qualified Name (IQN)
+ ** iSCSI IP address
+ ** LUN number of the source volume
+
+== System Manager setup
+
+Use the following workflow to create a remote storage object for the import:
+
+. Using the Remote Storage wizard in the System Manager interface, map a remote storage device (the source for the data import) to a target volume on the E-Series system. When you select *Finish*, the import process begins.
+. Monitor the import from the View Operations dialog or the Operations in Progress panel. If necessary, you can also pause and resume the process.
+. Optionally, break the connection between the source and target volumes when the import completes, or keep the connection for future imports.

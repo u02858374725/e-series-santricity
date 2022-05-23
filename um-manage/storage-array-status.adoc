@@ -1,0 +1,49 @@
+---
+permalink: um-manage/storage-array-status.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication,
+summary: "Unified Manager displays the status of each storage array that has been discovered."
+---
+= View storage array status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager displays the status of each storage array that has been discovered.
+
+Go to the *Manage - All* page. From this page, you can view the status of the connection between the Web Services Proxy and that storage array.
+
+Status indicators are described in the following table.
+
+[cols="25h,~",options="header"]
+|===
+| Status| Indicates
+a|
+Optimal
+a|
+The storage array is in an optimal state. There are no certificate issues and the password is valid.
+a|
+Invalid Password
+a|
+An invalid storage array password was provided.
+a|
+Untrusted Certificate
+a|
+One or more connections with the storage array is untrusted because the HTTPS certificate is either self-signed and has not been imported, or the certificate is CA-signed and the root and intermediate CA certificates have not been imported.
+a|
+Needs Attention
+a|
+There is a problem with the storage array that requires your intervention to correct it.
+a|
+Lockdown
+a|
+The storage array is in a locked-down state.
+a|
+Unknown
+a|
+The storage array has never been contacted. This can happen when the Web Services Proxy is starting up and has not yet made contact with the storage array, or the storage array is offline and has never been contacted since the Web Services Proxy was started.
+a|
+Offline
+a|
+The Web Services Proxy had previously contacted the storage array, but now has lost all connection to it.
+|===

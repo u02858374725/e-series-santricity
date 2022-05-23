@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/overview-alerts.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, Alerts,
+summary: "You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages."
+---
+= Alerts overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages.
+
+== What are alerts?
+_Alerts_ notify administrators about important events that occur on the storage array. Events can include such issues as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller. All Critical events are considered "alertable," along with some Warning and Informational events.
+
+Learn more:
+
+* link:how-alerts-work.html[How alerts work]
+* link:alerts-terminology.html[Alerts terminology]
+
+== How do I configure alerts?
+You can configure alerts to be sent as a message to one or more email addresses, as an SNMP trap to an SNMP server, or as a message to a syslog server. Alert configuration is available from menu:Settings[Alerts].
+
+Learn more:
+
+* link:configure-mail-server-and-recipients-for-alerts.html[Configure mail server and recipients for alerts]
+* link:configure-syslog-server-for-alerts.html[Configure syslog server for alerts]
+* link:configure-snmp-alerts.html[Configure SNMP alerts]
+
+== Related information
+
+Learn more about concepts related to alerts:
+
+* link:../sm-support/overview-event-log.html[Event log overview]
+* link:why-are-timestamps-inconsistent-between-the-array-and-alerts.html[Inconsistent time stamps]

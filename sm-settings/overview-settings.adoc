@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/overview-settings.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, system settings
+summary: "You can configure System Manager for some general array settings and add-on features.."
+---
+= Settings overview
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure System Manager for some general array settings and add-on features.
+
+== What settings can I configure?
+
+Array settings include:
+
+* link:cache-settings-and-performance.html[Cache settings and performance]
+* link:automatic-load-balancing-overview.html"[Automatic load balancing]
+* link:how-add-on-features-work.html[Add-on features]
+* link:overview-drive-security.html[Drive security]
+
+
+== Related tasks
+
+Learn more about tasks related to System Settings:
+
+* link:download-cli.html[Download the command line interface (CLI)]
+* link:create-internal-security-key.html[Create internal security key]
+* link:create-external-security-key.html[Create external security key]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html[Configure iSCSI ports]
+* link:../sm-hardware/configure-nvme-over-infiniband-ports-hardware.html[Configure NVME over IB ports]
+* link:../sm-hardware/configure-nvme-over-roce-ports-hardware.html[Configure NVMe over RoCE ports]

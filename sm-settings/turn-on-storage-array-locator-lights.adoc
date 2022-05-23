@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/turn-on-storage-array-locator-lights.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, locator, lights,
+summary: "To find the physical location of a storage array in a cabinet, you can turn on its locator (LED) lights."
+---
+= Turn on storage array locator lights
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To find the physical location of a storage array in a cabinet, you can turn on its locator (LED) lights.
+
+.Steps
+
+. Select menu:Settings[System].
+. Under *General*, click *Turn on Storage Array Locator Lights*.
++
+The Turn On Storage Array Locator Lights dialog box opens, and the corresponding storage array's locator lights turn on.
+
+. When you have physically located the storage array, return to the dialog box and select *Turn Off*.
+
+.Results
+
+The locator lights turn off, and the dialog box closes.

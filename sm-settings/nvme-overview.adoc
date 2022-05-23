@@ -1,0 +1,36 @@
+---
+permalink: sm-settings/nvme-overview.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, nvme,
+summary: "Some controllers include a port for implementing NVMe (Non-Volatile Memory Express) over fabrics. NVMe allows for high-performance communication between hosts and the storage array."
+---
+= NVMe overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some controllers include a port for implementing NVMe (Non-Volatile Memory Express) over fabrics. NVMe allows for high-performance communication between hosts and the storage array.
+
+== What is NVMe?
+
+_NVM_ stands for "Non-Volatile Memory" and is persistent memory used in many types of storage devices. _NVMe_ (NVM Express) is a standardized interface or protocol designed specifically for high-performance multi-queue communication with NVM devices.
+
+== What is NVMe over Fabrics?
+
+_NVMe over Fabrics (NVMe-oF)_ is a technology specification that enables NVMe message-based commands and data to transfer between a host computer and storage over a network. An NVMe storage array (called a _subsystem_) can be accessed by a host using a fabric. NVMe commands are enabled and encapsulated in transport abstraction layers on both the host side and the subsystem side. This extends the high performance NVMe interface end-to-end from the host to the storage and standardizes and simplifies the command set.
+
+NVMe-oF storage is presented to a host as a local block storage device. The volume (called a _namespace_) can be mounted to a file system as with any other block storage device. You can use the REST API, the SMcli, or SANtricity System Manager to provision your storage as needed.
+
+== What is an NVMe Qualified Name (NQN)?
+
+The NVMe Qualified Name (NQN) is used to identify the remote storage target. The NVMe qualified name for the storage array is always assigned by the subsystem and may not be modified. There is only one NVMe Qualified Name for the entire array. The NVMe Qualified Name is limited to 223 characters in length. You can compare it to an iSCSI Qualified Name.
+
+== What is a namespace and a namespace ID?
+
+A namespace is the equivalent of a logical unit in SCSI, which relates to a volume in the array. The namespace ID (NSID) is equivalent to a logical unit number (LUN) in SCSI. You create the NSID at namespace creation time, and can set it to a value between 1 and 255.
+
+== What is an NVMe controller?
+
+Similar to a SCSI I_T nexus, which represents the path from the host's initiator to the storage system's target, an NVMe controller created during the host connection process provides an access path between a host and the namespaces in the storage array. An NQN for the host plus a host port identifier uniquely identify an NVMe controller. While an NVMe controller can only be associated with a single host, it can access multiple namespaces.
+
+You configure which hosts can access which namespaces and set the namespace ID for the host using SANtricity System Manager. Then, when the NVMe controller is created, the list of namespace IDs accessible by the NVMe controller is created and used to configure the permissible connections.

@@ -1,0 +1,249 @@
+---
+permalink: sm-storage/decide-to-use-a-pool-or-volume-group.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, pool, volume group
+summary: "You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements."
+---
+= Decide whether to use a pool or a volume group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements.
+
+== Reasons to choose a pool or volume group
+
+*Choose a pool*
+
+* If you need faster drive rebuilds and simplified storage administration, require thin volumes, and/or have a highly random workload.
+* If you want to distribute the data for each volume randomly across a set of drives that comprise the pool.
++
+You cannot set or change the RAID level of pools or the volumes in the pools. Pools use RAID level 6.
+
+*Choose a volume group*
+
+* If you need maximum system bandwidth, the ability to tune storage settings, and a highly sequential workload.
+* If you want to distribute the data across the drives based on a RAID level. You can specify the RAID level when you create the volume group.
+* If you want to write the data for each volume sequentially across the set of drives that comprise the volume group.
+
+[NOTE]
+====
+Because pools can co-exist with volume groups, a storage array can contain both pools and volume groups.
+====
+
+== Feature differences between pools and volume groups
+
+The following table provides a feature comparison between volume groups and pools.
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Use| Pool| Volume group
+a|
+Workload random
+a|
+Better
+a|
+Good
+a|
+Workload sequential
+a|
+Good
+a|
+Better
+a|
+Drive rebuild time
+a|
+Faster
+a|
+Slower
+a|
+Performance (optimal mode)
+a|
+Good: Best for small block, random workload.
+a|
+Good: Best for large block, sequential workloads
+a|
+Performance (drive rebuild mode)
+a|
+Better: Usually better than RAID 6
+a|
+Degraded: Up to 40% drop in performance
+a|
+Multiple drive failures
+a|
+Greater data protection: Faster, prioritized rebuilds
+a|
+Less data protection: Slow rebuilds, greater risk of data loss
+a|
+Adding drives
+a|
+Faster: Add to pool on the fly
+a|
+Slower: Requires Dynamic Capacity Expansion operation
+a|
+Thin volumes support
+a|
+Yes
+a|
+No
+a|
+Solid State Disk (SSD) support
+a|
+Yes
+a|
+Yes
+a|
+Simplified administration
+a|
+Yes: No hot spares or RAID settings to configure
+a|
+No: Must allocate hot spares, configure RAID
+a|
+Tunable performance
+a|
+No
+a|
+Yes
+|===
+
+== Functional comparison of pools and volume groups
+
+The function and purpose of a pool and a volume group are the same. Both objects are a set of drives logically grouped together in a storage array and are used to create volumes that a host can access.
+
+The following table helps you decide whether a pool or volume group best suits your storage needs.
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Function| Pool| Volume Group
+a|
+Different RAID level supported
+a|
+No. Always RAID 6 in System Manager.
+a|
+Yes. RAID 0, 1, 10, 5, and 6 available.
+a|
+Thin volumes supported
+a|
+Yes
+a|
+No
+a|
+Full disk encryption (FDE) supported
+a|
+Yes
+a|
+Yes
+a|
+Data Assurance (DA) supported
+a|
+Yes
+a|
+Yes
+a|
+Shelf loss protection supported
+a|
+Yes
+a|
+Yes
+a|
+Drawer loss protection supported
+a|
+Yes
+a|
+Yes
+a|
+Mixed drive speeds supported
+a|
+Recommended to be the same, but not required. Slowest drive determines speed for all drives.
+a|
+Recommended to be the same, but not required. Slowest drive determines speed for all drives.
+a|
+Mixed drive capacity supported
+a|
+Recommended to be the same, but not required. Smallest drive determines capacity for all drives.
+a|
+Recommended to be the same, but not required. Smallest drive determines capacity for all drives.
+a|
+Minimum number of drives
+a|
+11
+a|
+Depends on RAID level. RAID 0 needs 1. RAID 1 or 10 needs 2 (requires an even number). RAID 5 minimum is 3. RAID 6 minimum is 5.
+a|
+Maximum number of drives
+a|
+Up to the maximum limit for the storage array
+a|
+RAID 1 and 10--up to the maximum limit of the storage array RAID 5, 6--30 drives
+a|
+Can choose individual drives when creating a volume
+a|
+No
+a|
+Yes
+a|
+Can specify segment size when creating a volume
+a|
+Yes. 128K supported.
+a|
+Yes
+a|
+Can specify I/O characteristics when creating a volume
+a|
+No
+a|
+Yes. File system, database, multimedia, and custom supported.
+a|
+Drive failure protection
+a|
+Uses preservation capacity on each drive in the pool making reconstruction faster.
+a|
+Uses a hot spare drive. Reconstruction is limited by the IOPs of the drive.
+a|
+Warning when reaching capacity limit
+a|
+Yes. Can set an alert when used capacity reaches a percentage of the maximum capacity.
+a|
+No
+a|
+Migration to a different storage array supported
+a|
+No. Requires that you migrate to a volume group first.
+a|
+Yes
+a|
+Dynamic Segment Size (DSS)
+a|
+No
+a|
+Yes
+a|
+Can change RAID level
+a|
+No
+a|
+Yes
+a|
+Volume expansion (increase capacity)
+a|
+Yes
+a|
+Yes
+a|
+Capacity expansion (add capacity)
+a|
+Yes
+a|
+Yes
+a|
+Capacity reduction
+a|
+Yes
+a|
+No
+|===
+
+[NOTE]
+====
+Mixed drive types (HDD, SSD) are not supported for either pools or volume groups.
+====

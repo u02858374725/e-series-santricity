@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/overview-certificates.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, certificates,
+summary: "You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates."
+---
+= Certificates overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates.
+
+== What are certificates?
+_Certificates_ are digital files that identify online entities, such as websites and servers, for secure communications on the internet. There are two types of certificates: a _signed certificate_ is validated by a certificate authority (CA) and a _self-signed certificate_ is validated by the owner of the entity instead of a third party.
+
+Learn more:
+
+* link:how-certificates-work-sam.html[How certificates work]
+* link:certificate-terminology.html[Certificate terminology]
+
+== How do I configure signed certificates?
+You first generate a signing request from System Manager, and then send the file to a CA. Once the CA returns the certificate files, you import them using System Manager.
+
+Learn more:
+
+* link:use-ca-signed-certificates-for-controllers.html[Use CA-signed certificates for controllers]
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html[Use CA-signed certificates for authentication with a key management server]
+
+== Related information
+
+Learn more about tasks related to certificates:
+
+* link:view-imported-certificates.html[View imported certificate information]
+* link:enable-certificate-revocation-checking.html[Enable certificate revocation checking]

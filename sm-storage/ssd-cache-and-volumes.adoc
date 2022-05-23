@@ -1,0 +1,37 @@
+---
+permalink: sm-storage/ssd-cache-and-volumes.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, ssd, cache, volumes
+summary: "You can add a volume to SSD Cache as a way to improve read-only performance. SSD Cache consists of a set of solid-state disk (SSD) drives that you logically group together in your storage array."
+---
+= SSD Cache and volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add a volume to SSD Cache as a way to improve read-only performance. SSD Cache consists of a set of solid-state disk (SSD) drives that you logically group together in your storage array.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+== Volumes
+
+Simple volume I/O mechanisms are used to move data to and from the SSD Cache. After data is cached and stored on the SSDs, subsequent reads of that data are performed on the SSD Cache, thereby eliminating the need to access the HDD volume.
+
+SSD Cache is a secondary cache for use with the primary cache in the controller's dynamic random-access memory (DRAM).
+
+* In primary cache, the data is stored in DRAM after a host read.
+* In SSD Cache, the data is copied from volumes and stored on two internal RAID volumes (one per controller) that are automatically created when you create an SSD Cache.
+
+The internal RAID volumes are used for internal cache processing purposes. These volumes are not accessible or displayed in the user interface. However, these two volumes do count against the total number of volumes allowed in the storage array.
+
+[NOTE]
+====
+Any volume assigned to use a controller's SSD Cache is not eligible for an automatic load balance transfer.
+====
+
+== Drive Security feature
+
+To use SSD Cache on a volume that is also using Drive Security (is secure-enabled), the Drive Security capabilities of the volume and the SSD Cache must match. If they do not match, the volume will not be secure-enabled.

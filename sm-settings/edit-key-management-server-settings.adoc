@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/edit-key-management-server-settings.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, edit, key, management, server, settings,
+summary: "If you configured external key management, you can view and edit the key management server settings at any time."
+---
+= Edit key management server settings
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you configured external key management, you can view and edit the key management server settings at any time.
+
+.Steps
+
+. Select menu:Settings[System].
+. Under *Security key management*, select *View/Edit Key Management Server Settings*.
+. Edit information in the following fields:
+ ** *Key management server address* -- Enter the fully qualified domain name or the IP address (IPv4 or IPv6) of the server used for key management.
+ ** *Key management port number* -- Enter the port number used for the Key Management Interoperability Protocol (KMIP) communications.
++
+*Optional:* you can include another key server by clicking *Add Key Server*.
+. Click *Save*.

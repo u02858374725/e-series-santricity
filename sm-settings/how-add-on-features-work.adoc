@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/how-add-on-features-work.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, add-on, features,
+summary: "Add-ons are features that are not included in the standard configuration of System Manager and might require a key to enable. An add-on feature can be either a single premium feature or a bundled feature pack."
+---
+= How add-on features work
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Add-ons are features that are not included in the standard configuration of System Manager and might require a key to enable. An add-on feature can be either a single premium feature or a bundled feature pack.
+
+The following steps provide an overview for enabling a premium feature or feature pack:
+
+. Obtain the following information:
+ ** Chassis serial number and the Feature Enable Identifier, which identify the storage array for the feature to be installed. These items are available in System Manager.
+ ** Feature Activation Code, which is available from the Support site when you purchase the feature.
+. Obtain the feature key by contacting your storage provider or by accessing the Premium Feature Activation site. Provide the chassis serial number, enable identifier, and feature code for activation.
+. Using System Manager, enable the premium feature or feature pack using the feature key file.

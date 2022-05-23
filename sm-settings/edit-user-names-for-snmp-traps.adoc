@@ -1,0 +1,36 @@
+---
+permalink: sm-settings/edit-user-names-for-snmp-traps.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, edit, user, settings, snmpv3, traps,
+summary: "You can edit user definitions for SNMPv3 traps."
+---
+= Edit user settings for SNMPv3 traps
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit user definitions for SNMPv3 traps.
+
+.Before you begin
+
+A user must be created for the SNMPv3 trap.
+
+.Steps
+
+. Select menu:Settings[Alerts].
+. Select the *SNMP* tab.
++
+The trap destinations and user names appear in the table.
+
+. To edit a user definition, select the user in the table and then click *Configure Users*.
+. In the dialog, click *View/Edit Settings*.
+. Edit the following information:
+ ** *User name* -- Change the name that identifies the user, which can be up to 31 characters long.
+ ** *Engine ID* -- Select the Engine ID, which is used to generate authentication and encryption keys for messages, and must be unique on the administrative domain. In most cases, you should select *Local*. If you have a non-standard configuration, select *Custom*; another field appears where you must enter the authoritative engine ID as a hexadecimal string, with an even number of characters between 10 and 32 characters long.
+ ** *Authentication credentials* -- Select an authentication protocol, which ensures the identity of users. Next, enter an authentication password, which is required when the authentication protocol is set or changed. The password must be between 8 and 128 characters long.
+ ** *Privacy credentials* -- Select a privacy protocol, which is used to encrypt the contents of messages. Next, enter a privacy password, which is required when the privacy protocol is set or changed. The password must be between 8 and 128 characters long.
+
+.Results
+
+The SNMP tab of the Alerts page displays the updated settings.

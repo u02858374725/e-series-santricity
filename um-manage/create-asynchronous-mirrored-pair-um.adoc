@@ -1,0 +1,136 @@
+---
+permalink: um-manage/create-asynchronous-mirrored-pair-um.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, create, asynchronous, mirrored, pair
+summary: "To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array."
+---
+= Create asynchronous mirrored pair
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+.Before you begin
+
+Before you create a mirrored pair, meet the following requirements for Unified Manager:
+
+* The Web Services Proxy service must be running.
+* Unified Manager must be running on your local host through an HTTPS connection.
+* Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+Also be sure to meet the following requirements for storage arrays and volumes:
+
+* Each storage array must have two controllers.
+* The two storage arrays must be discovered in Unified Manager.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
+* You have created both the primary and secondary volumes that you want to use in the asynchronous mirror relationship.
+* The secondary volume must be at least as large as the primary volume.
+
+.About this task
+
+The process to create an asynchronous mirrored pair is a multi-step procedure.
+
+== Step 1: Create or select a mirror consistency group
+
+In this step, you create a new mirror consistency group or select an existing one. A mirror consistency group is a container for the primary and secondary volumes (the mirrored pair), and specifies the desired resynchronization method (manual or automatic) for all pairs in the group.
+
+.Steps
+
+. From the *Manage* page, select the local storage array that you want to use for the source.
+. Select menu:Actions[Create Asynchronous Mirrored Pair].
++
+The Create Asynchronous Mirrored Pair wizard opens.
+
+. Select either an existing mirror consistency group or create a new one.
++
+To select an existing group, make sure *An existing mirror consistency group* is selected, and then select the group from the table. A consistency group can include multiple mirrored pairs.
++
+To create a new group, do the following:
+
+.. Select *A new mirror consistency group*, and then click *Next*.
+.. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 30 characters and may not contain spaces.
+.. Select the remote storage array on which you want to establish a mirror relationship with the local storage array.
++
+[NOTE]
+====
+If your remote storage array is password protected, the system prompts for a password.
+====
+
+.. Choose whether you want to synchronize the mirrored pairs manually or automatically:
+*** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to menu:Storage[Asynchronous Mirroring], select the group from the *Mirror Consistency Groups* tab, and then select menu:More[Manually resynchronize].
+*** *Automatic* -- Select the desired interval in *Minutes*, *Hours*, or *Days*, from the beginning of the previous update to the beginning of the next update. For example, if the synchronization interval is set at 30 minutes, and the synchronization process starts at 4:00 p.m., the next process starts at 4:30 p.m.
+.. Select the desired alert settings:
+*** For manual synchronizations, specify the threshold (defined by the percentage of the capacity remaining) for when you receive alerts.
+*** For automatic synchronizations, you can set three methods of alerting: when the synchronization has not completed in a specific length of time, when the recovery point data on the remote array is older than a specific time limit, and when the reserved capacity is nearing a specific threshold (defined by the percentage of the capacity remaining).
+
+. Select *Next* and go to <<Step 2: Select the primary volume>>.
++
+If you defined a new mirror consistency group, Unified Manager creates the mirror consistency group on the local storage array first and then creates the mirror consistency group on the remote storage array. You can view and manage the mirror consistency group by launching System Manager for each array.
++
+[NOTE]
+====
+If Unified Manager successfully creates the mirror consistency group on the local storage array, but fails to create it on the remote storage array, it automatically deletes the mirror consistency group from the local storage array. If an error occurs while Unified Manager is attempting to delete the mirror consistency group, you must manually delete it.
+====
+
+== Step 2: Select the primary volume
+
+In this step, you select the primary volume to use in the mirror relationship and allocate its reserved capacity. When you select a primary volume on the local storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
+
+Any volumes you add to the mirror consistency group on the local storage array will hold the primary role in the mirror relationship.
+
+.Steps
+
+. From the list of eligible volumes, select a volume that you want to use as the primary volume, and then click *Next* to allocate the reserved capacity.
+. From the list of eligible candidates, select reserved capacity for the primary volume.
++
+Keep the following guidelines in mind:
+
+ ** The default setting for reserved capacity is 20% of the capacity of the base volume, and usually this capacity is sufficient. If you change the percentage, click *Refresh Candidates*.
+ ** The capacity needed varies, depending on the frequency and size of I/O writes to the primary volume and how long you need to keep the capacity.
+ ** In general, choose a larger capacity for reserved capacity if one or both of these conditions exist:
+  *** You intend to keep the mirrored pair for a long period of time.
+  *** A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
+
+. Select *Next* and go to <<Step 3: Select the secondary volume>>.
+
+== Step 3: Select the secondary volume
+
+In this step, you select the secondary volume to use in the mirror relationship and allocate its reserved capacity. When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
+
+Any volumes you add to the mirror consistency group on the remote storage array will hold the secondary role in the mirror relationship.
+
+
+.Steps
+
+. From the list of eligible volumes, select a volume that you want to use as the secondary volume in the mirrored pair, and then click *Next* to allocate the reserved capacity.
+. From the list of eligible candidates, select reserved capacity for the secondary volume.
++
+Keep the following guidelines in mind:
+
+ ** The default setting for reserved capacity is 20% of the capacity of the base volume, and usually this capacity is sufficient. If you change the percentage, click *Refresh Candidates*.
+ ** The capacity needed varies, depending on the frequency and size of I/O writes to the primary volume and how long you need to keep the capacity.
+ ** In general, choose a larger capacity for reserved capacity if one or both of these conditions exist:
+  *** You intend to keep the mirrored pair for a long period of time.
+  *** A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
+
+. Select *Finish* to complete the asynchronous mirroring sequence.
+
+.Results
+
+Unified Manager performs the following actions:
+
+* Begins initial synchronization between the local storage array and the remote storage array.
+* Creates the reserved capacity for the mirrored pair on the local storage array and on the remote storage array.
+
+NOTE: If the volume being mirrored is a thin volume, only the provisioned blocks (allocated capacity rather than reported capacity) are transferred to the secondary volume during the initial synchronization. This reduces the amount of data that must be transferred to complete the initial synchronization.

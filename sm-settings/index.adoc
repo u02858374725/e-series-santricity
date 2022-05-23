@@ -1,0 +1,9 @@
+---
+permalink: sm-settings/index.html
+sidebar: sidebar
+keywords:
+summary: ''
+---
+= SANtricity System Manager 11.7
+:icons: font
+:imagesdir: ../media/

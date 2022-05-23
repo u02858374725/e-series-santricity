@@ -1,0 +1,37 @@
+---
+permalink: um-manage/how-import-settings-works.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, import, settings, 
+summary: "You can use Unified Manager to import settings from one storage array to multiple storage arrays. The Import Settings feature is a batch operation that saves time when you need to configure multiple arrays in the network."
+---
+= How Import Settings works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to import settings from one storage array to multiple storage arrays. The Import Settings feature is a batch operation that saves time when you need to configure multiple arrays in the network.
+
+== Settings available for import
+
+The following configurations can be imported to multiple arrays:
+
+* *Alerts* -- Alerting methods to send important events to administrators, using email, a syslog server, or an SNMP server.
+* *AutoSupport* -- A feature that monitors the health of a storage array and sends automatic dispatches to technical support.
+* *Directory services* -- A method of user authentication that is managed through an LDAP (Lightweight Directory Access Protocol) server and directory service, such as Microsoft's Active Directory.
+* *Storage configuration* -- Configurations relating to the following:
+ ** Volumes (thick and non-repository volumes only)
+ ** Volume groups and pools
+ ** Hot spare drive assignments
+* *System settings* -- Configurations relating to the following:
+ ** Media scan settings for a volume
+ ** SSD settings
+ ** Automatic load balancing (does not include host connectivity reporting)
+
+== Configuration workflow
+
+To import settings, follow this workflow:
+
+. On a storage array to be used as the source, configure the settings using System Manager.
+. On the storage arrays to be used as the targets, back up their configuration using System Manager.
+. From Unified Manager, go to the *Manage* page and import the settings.
+. From the *Operations* page, review the results of the Import Settings operation.

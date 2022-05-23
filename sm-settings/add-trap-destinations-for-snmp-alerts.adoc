@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/add-trap-destinations-for-snmp-alerts.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, add, trap, destinations, SNMP, alerts,
+summary: "You can add up to 10 servers for sending SNMP traps."
+---
+= Add trap destinations for SNMP alerts
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add up to 10 servers for sending SNMP traps.
+
+.Before you begin
+
+* The network server you want to add must be configured with an SNMP service application. You need the network address of this server (either an IPv4 or an IPv6 address), so the event monitor can send trap messages to that address. You can use more than one server (up to 10 servers are allowed).
+* The management information base (MIB) file has been copied and compiled on the server with the SNMP service application. This MIB file defines the data being monitored and managed.
++
+If you do not have the MIB file, you can obtain it from the NetApp Support site:
+
+ ** Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].
+ ** Click *Downloads*, and then select *Downloads*.
+ ** Click *E-Series SANtricity OS Controller Software*.
+ ** Select *Download Latest Release*.
+ ** Log in.
+ ** Accept the Caution statement and license agreement.
+ ** Scroll down until you see the MIB file for your controller type, and then click the link to download the file.
+
+.Steps
+
+. Select menu:Settings[Alerts].
+. Select the *SNMP* tab.
++
+The currently defined trap destinations appear in the table.
+
+. Select *Add Trap Desinations*.
++
+The Add Trap Destinations dialog box opens.
+
+. Enter one or more trap destinations, select their associated community names or user names, and then click *Add*.
+ ** *Trap Destination* -- Enter an IPv4 or IPv6 address of the server running an SNMP service.
+ ** *Community name or User name* -- From the drop-down, select the community name (SNMPv2c) or user name (SNMPv3) for this trap destination. (If you defined only one, the name already appears in this field.)
+ ** *Send Authentication Failure Trap* -- Select this option (the checkbox) if you want to alert the trap destination whenever an SNMP request is rejected because of an unrecognized community name or user name.
+After you click *Add*, the trap destinations and associated community names or user names appear in the table.
+. To make sure a trap is valid, select a trap destination from the table, and then click *Test Trap Destination* to send a test trap to the configured address.
+
+.Results
+
+The event monitor sends SNMP traps to the server(s) whenever an alertable event occurs.

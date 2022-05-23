@@ -1,0 +1,49 @@
+---
+permalink: sm-storage/rtv-remote-storage-requirements.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, remote, storage, requirements
+summary: "Before using the Remote Storage feature, review the following requirements and restrictions."
+---
+= Remote Storage feature requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before using the Remote Storage feature, review the following requirements and restrictions.
+
+== Supported protocols
+
+The following protocols are supported:
+
+* iSCSI
+* IPv4
+
+For up-to-date E-Series support and configuration information, see the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^].
+
+== Hardware requirements
+
+The E-Series storage system must include:
+
+* Two controllers (duplex mode)
+* iSCSI connections for both E-Series controllers to communicate with the remote storage system through one or more iSCSI connections
+* SANtricity OS 11.71 or greater
+* Remote Storage feature enabled in the Submodel ID (SMID)
+
+The remote system can be either an E-Series storage system or a system from another vendor. It must include:
+
+* iSCSI-capable interfaces
+
+== Restrictions
+
+The Remote Storage feature has the following restrictions:
+
+* Mirroring must be disabled.
+* Destination volume on the E-Series system must not have snapshots.
+* Destination volume on the E-Series system must not be mapped to any hosts before the import is started.
+* Destination volume on the E-Series system must have resource-provisioning disabled.
+* Direct mappings of the remote storage volume to a host or multiple hosts is not supported.
+* Web Services Proxy is not supported.
+* iSCSI CHAP secrets are not supported.
+* SMcli is not supported.
+* VMware Datastore is not supported.
+* Only one storage system in the relationship/import pair can be upgraded at a time when there is an import pair present.

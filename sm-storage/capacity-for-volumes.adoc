@@ -1,0 +1,85 @@
+---
+permalink: sm-storage/capacity-for-volumes.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, capacity, volumes,
+summary: "The drives in your storage array provide the physical storage capacity for your data. Before you can begin storing data, you must configure the allocated capacity into logical components known as pools or volume groups. You use these storage objects to configure, store, maintain, and preserve data on your storage array."
+---
+= How capacity is allocated for volumes
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The drives in your storage array provide the physical storage capacity for your data. Before you can begin storing data, you must configure the allocated capacity into logical components known as pools or volume groups. You use these storage objects to configure, store, maintain, and preserve data on your storage array.
+
+== Using capacity to create and expand volumes
+
+You can create volumes from either the unassigned capacity or free capacity in a pool or volume group.
+
+* When you create a volume from unassigned capacity, you can create a pool or volume group and the volume at the same time.
+* When you create a volume from free capacity, you are creating an additional volume on an already existing pool or volume group.
+
+After you expand the volume capacity, you must manually increase the file system size to match. How you do this depends on the file system you are using. See your host operating system documentation for details.
+
+== Capacity types for thick volumes and thin volumes
+
+You can create either thick volumes or thin volumes. Reported capacity and allocated capacity are the same for thick volumes, but are different for thin volumes.
+
+* For a thick volume, the reported capacity of the volume is equal to the amount of physical storage capacity allocated. The entire amount of physical storage capacity must be present. The physically allocated space is equal to the space that is reported to the host.
++
+You normally set the thick volume's reported capacity to be the maximum capacity to which you think the volume will grow. Thick volumes provide high and predictable performance for your applications mainly because all of the user capacity is reserved and allocated upon creation.
+
+* For a thin volume, reported capacity is the capacity that is reported to the hosts, whereas allocated capacity is the amount of drive space that is currently allocated for writing data.
++
+The reported capacity can be larger than the allocated capacity on the storage array. Thin volumes can be sized to accommodate growth without regard for currently available assets.
+
+[NOTE]
+====
+SANtricity System Manager does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
+====
+
+== Capacity limits for thick volumes
+
+The minimum capacity for a thick volume is 1 MiB, and the maximum capacity is determined by the number and capacity of the drives in the pool or volume group.
+
+When increasing reported capacity for a thick volume, keep the following guidelines in mind:
+
+* You can specify up to three decimal places (for example, 65.375 GiB).
+* Capacity needs to be less than (or equal to) the maximum available in the volume group.
++
+When you create a volume, some additional capacity is pre-allocated for Dynamic Segment Size (DSS) migration. DSS migration is a feature of the software that allows you to change the segment size of a volume.
+
+* Volumes larger than 2 TiB are supported by some host operating systems (maximum reported capacity is determined by the host operating system). In fact, some host operating systems support up to 128 TiB volumes. Refer to your host operating system documentation for additional details.
+
+== Capacity limits for thin volumes
+
+You can create thin volumes with a large reported capacity and a relatively small allocated capacity, which is beneficial for storage utilization and efficiency. Thin volumes can help simplify storage administration because the allocated capacity can increase as the application needs change, without disrupting the application, allowing for better storage utilization.
+
+In addition to reported capacity and allocated capacity, thin volumes also contain Written capacity. Written capacity is the amount of capacity that has been written from the reserved capacity allocated for thin volumes.
+
+The following table lists the capacity limits for a thin volume.
+
+[cols="3*",options="header"]
+|===
+| Type of capacity| Minimum size| Maximum size
+a|
+Reported
+a|
+32 MiB
+a|
+256 TiB
+a|
+Allocated
+a|
+4 MiB
+a|
+64 TiB
+|===
+
+For a thin volume, if the maximum reported capacity of 256 TiB has been reached, you cannot increase its capacity. Make sure the thin volume's reserved capacity is set to a size larger than the maximum reported capacity.
+
+The system automatically expands the allocated capacity based on the allocated capacity limit. The allocated capacity limit allows you to limit the thin volume's automatic growth below the reported capacity. When the amount of data written gets close to the allocated capacity, you can change the allocated capacity limit.
+
+To change the allocated capacity limit, select menu:Storage[Volumes > Thin Volume Monitoring tab > Change Limit].
+
+Because System Manager does not allocate the full capacity when it creates a thin volume, insufficient free capacity might exist in the pool. Insufficient space can block writes to the pool, not only for the thin volumes, but also for other operations that require capacity from the pool (for example, snapshot images or snapshot volumes). However, you can still perform read operations from the pool. If this situation occurs, you receive an alert threshold warning.

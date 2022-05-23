@@ -1,0 +1,39 @@
+---
+permalink: sm-support/enable-or-disable-autosupport-features.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport,
+summary: "You enable the AutoSupport feature and the individual AutoSupport features during initial setup or you can enable or disable them later."
+---
+= Enable or disable AutoSupport features
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You enable the AutoSupport feature and the individual AutoSupport features during initial setup or you can enable or disable them later.
+
+.Before you begin
+
+If you want to enable either AutoSupport OnDemand or Remote Diagnostics, the AutoSupport delivery method must be set to HTTPS.
+
+.About this task
+
+You can disable the AutoSupport feature at any time, but you are strongly advised to leave it enabled. Enabling the AutoSupport feature can significantly speed problem determination and resolution should a problem occur on your storage array.
+
+The AutoSupport feature is made up of three individual features that you enable separately.
+
+* *Basic AutoSupport* -- Allows your storage array to automatically collect and send data to technical support.
+* *AutoSupport OnDemand* -- Allows technical support to request retransmission of a previous AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending retransmission requests and responds accordingly.
+* *Remote Diagnostics* -- Allows technical support to request a new, up-to-date AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending new requests and responds accordingly.
+
+.Steps
+
+. Select menu:Support[Support Center > AutoSupport] tab.
+. Select *Enable/Disable AutoSupport Features*.
+. Select the check boxes next to the AutoSupport features that you want to enable.
++
+The features depend on each other as indicated by the indentation of the items in the dialog box. For example, you must enable AutoSupport OnDemand before you can enable Remote Diagnostics.
+
+. Click *Save*.
++
+If you disable AutoSupport, a notification appears on the Home page. You can dismiss the notification by clicking *Ignore*.

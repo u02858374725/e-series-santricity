@@ -1,0 +1,120 @@
+---
+permalink: sm-storage/capacity-terminology.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, capacity terms
+summary: "Learn how the capacity terms apply to your storage array."
+---
+= Capacity terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the capacity terms apply to your storage array.
+
+== Storage objects
+
+The following terminology describes the different types of storage objects that can interact with your storage array.
+
+[cols="25h,~",options="header"]
+|===
+| Storage object| Description
+a|
+Host
+a|
+A host is a server that sends I/O to a volume on a storage array.
+a|
+LUN
+a|
+A logical unit number (LUN) is the number assigned to the address space that a host uses to access a volume. The volume is presented to the host as capacity in the form of a LUN.
+
+Each host has its own LUN address space. Therefore, the same LUN can be used by different hosts to access different volumes.
+a|
+Mirror consistency group
+a|
+A mirror consistency group is a container for one or more mirrored pairs. For asynchronous mirroring operations, you must create a mirror consistency group.
+a|
+Mirrored volume pair
+a|
+A mirrored pair is comprised of two volumes, a primary volume and a secondary volume.
+a|
+Pool
+a|
+A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)
+a|
+Snapshot consistency group
+a|
+A snapshot consistency group is a collection of volumes that are treated as a single entity when a snapshot image is created. Each of these volumes has its own snapshot image, but all the images are created at the same point in time.
+a|
+Snapshot group
+a|
+A snapshot group is a collection of snapshot images from a single base volume.
+a|
+Snapshot volume
+a|
+A snapshot volume allows the host to access data in the snapshot image. The snapshot volume contains its own reserved capacity, which saves any modifications to the base volume without affecting the original snapshot image.
+a|
+Volume
+a|
+A volume is a container in which applications, databases, and file systems store data. It is the logical component created for the host to access storage on the storage array.
+a|
+Volume group
+a|
+A volume group is a container for volumes with shared characteristics. A volume group has a defined capacity and RAID level. You can use a volume group to create one or more volumes accessible to a host. (You create volumes from either a volume group or a pool.)
+|===
+
+== Storage capacity
+
+The following terminology describes the different types of capacity used on your storage array.
+
+[cols="25h,~",options="header"]
+|===
+| Capacity type| Description
+a|
+Allocated capacity
+a|
+Allocated capacity is the physical capacity allocated from the drives in a pool or volume group.
+
+You use allocated capacity to create volumes and for copy services operations.
+a|
+Free capacity
+a|
+Free capacity is the capacity available in a pool or volume group that has not yet been allocated to volume creation or copy services operations and storage objects.
+a|
+Pool or volume group capacity
+a|
+Pool, volume, or volume group capacity is the capacity in a storage array that has been assigned to a pool or volume group. This capacity is used to create volumes and service the various capacity needs of copy services operations and storage objects.
+a|
+Pool unusable capacity
+a|
+Pool unusable capacity is the space in a pool that cannot be used due to mismatched drive sizes.
+a|
+Preservation capacity
+a|
+Preservation capacity is the amount of capacity (number of drives) that is reserved in a pool to support potential drive failures.
+a|
+Reported capacity
+a|
+Reported capacity is the capacity that is reported to the host and can be accessed by the host.
+a|
+Reserved capacity
+a|
+Reserved capacity is the physical allocated capacity that is used for any copy service operation and storage object. It is not directly readable by the host.
+a|
+SSD Cache
+a|
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+SSD Cache is a set of Solid-State Disk (SSD) drives that you logically group together in your storage array. The SSD Cache feature caches the most frequently accessed data ("hot" data) onto lower latency SSD drives to dynamically accelerate application workloads.
+a|
+Unassigned capacity
+a|
+Unassigned capacity is the space in a storage array that has *not* been assigned to a pool or volume group.
+a|
+Written capacity
+a|
+Written capacity is the amount of capacity that has been written from the reserved capacity allocated for thin volumes.
+|===

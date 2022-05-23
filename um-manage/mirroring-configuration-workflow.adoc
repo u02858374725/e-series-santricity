@@ -1,0 +1,52 @@
+---
+permalink: um-manage/mirroring-configuration-workflow.html
+sidebar: sidebar
+keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow
+summary: "You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations."
+---
+= Mirroring configuration workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations.
+
+== Asynchronous mirroring workflow
+
+Asynchronous mirroring involves the following workflow:
+
+. Perform the initial configuration in Unified Manager:
+ .. Select the local storage array as the source for the data transfer.
+ .. Create or select an existing mirror consistency group, which is a container for the primary volume on the local array and the secondary volume on the remote array. The primary and secondary volumes are referred to as the "mirrored pair." If you are creating the mirror consistency group for the first time, you specify whether you want to perform manual or scheduled synchronizations.
+ .. Select a primary volume from the local storage array, and then determine its reserved capacity. Reserved capacity is the physical allocated capacity to be used for the copy operation.
+ .. Select a remote storage array as the destination of the transfer, a secondary volume, and then determine its reserved capacity.
+ .. Begin the initial data transfer from the primary volume to the secondary volume. Depending on the volume size, this initial transfer could take several hours.
+. Check the progress of the initial synchronization:
+ .. In Unified Manager, launch System Manager for the local array.
+ .. In System Manager, view the status of the mirroring operation. When mirroring is complete, the status of the mirrored pair is "Optimal."
+. Optionally, you can reschedule or manually perform subsequent data transfers in System Manager. Only new and changed blocks are transferred from the primary volume to the secondary volume.
++
+[NOTE]
+====
+Because asynchronous replication is periodic, the system can consolidate the changed blocks and conserve network bandwidth. There is minimal impact on write throughput and write latency.
+====
+
+== Synchronous mirroring workflow
+
+Synchronous mirroring involves the following workflow:
+
+. Perform the initial configuration in Unified Manager:
+ .. Select a local storage array as the source for the data transfer.
+ .. Select a primary volume from the local storage array.
+ .. Select a remote storage array as the destination for the data transfer, and then select a secondary volume.
+ .. Select synchronization and resynchronization priorities.
+ .. Begin the initial data transfer from the primary volume to the secondary volume. Depending on the volume size, this initial transfer could take several hours.
+. Check the progress of the initial synchronization:
+ .. In Unified Manager, launch System Manager for the local array.
+ .. In System Manager, view the status of the mirroring operation. When mirroring is complete, the status of the mirrored pair is "Optimal." The two arrays attempt to stay synchronized through normal operations. Only new and changed blocks are transferred from the primary volume to the secondary volume.
+. Optionally, you can change synchronization settings in System Manager.
++
+[NOTE]
+====
+Because synchronous replication is continuous, the replication link between the two sites must provide sufficient bandwidth capabilities.
+====

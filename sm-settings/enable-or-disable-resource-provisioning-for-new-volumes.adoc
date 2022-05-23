@@ -1,0 +1,39 @@
+---
+permalink: sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning,
+summary: "If you previously disabled the default feature for resource provisioning, you can go to Settings and re-enable it for any new SSD volume groups or pools that you create. You can also disable the setting again."
+---
+= Enable or disable resource provisioning for new volume groups or pools
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you previously disabled the default feature for resource provisioning, you can re-enable it for any new SSD volume groups or pools that you create. You can also disable the setting again.
+
+Resource provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process. All drive blocks assigned to the volume are deallocated (unmapped), which can improve SSD wear life and increase maximum write performance.
+
+NOTE: By default, resource provisioning is enabled on systems where the drives support DULBE.
+
+.Before you begin
+
+* You must have an EF300 or EF600 storage array.
+* You must have SSD volume groups or pools, where all the drives support the NVMe Deallocated or Unwritten Logical Block Error Enable (DULBE) error recovery capability.
+
+.About this task
+
+When you re-enable resource provisioning for new volume groups or pools, only newly created volume groups and pools are affected. Any existing volume groups and pools with resource provisioning enabled will remain unchanged.
+
+.Steps
+
+. Select menu:Settings[System].
+. Scroll down to *Additional Settings*, and then click *Enable/Disable Resource-Provisioned Volumes*.
++
+The setting description indicates whether resource provisioning is currently enabled or disabled.
+
+. In the dialog box, confirm the operation.
+
+.Results
+
+Enabling or disabling resource provisioning affects only new SSD pools or volume groups that you create. Existing pools or volume groups remain unchanged.

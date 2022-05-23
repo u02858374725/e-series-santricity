@@ -1,0 +1,69 @@
+---
+permalink: sm-settings/certificate-terminology.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, certificate, terms,
+summary: "The following terms apply to certificate management."
+---
+= Certificate terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following terms apply to certificate management.
+
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+CA
+a|
+A certificate authority (CA) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers.
+a|
+CSR
+a|
+A Certificate Signing Request (CSR) is a message that is sent from an applicant to a certificate authority (CA). The CSR validates the information the CA requires to issue a certificate.
+a|
+Certificate
+a|
+A certificate identifies the owner of a site for security purposes, which prevents attackers from impersonating the site. The certificate contains information about the site owner and the identity of the trusted entity who certifies (signs) this information.
+a|
+Certificate chain
+a|
+A hierarchy of files that adds a layer of security to the certificates. Typically, the chain includes one root certificate at the top of the hierarchy, one or more intermediate certificates, and the server certificates that identify the entities.
+a|
+Client certificate
+a|
+For security key management, a client certificate validates the storage array's controllers, so the key management server can trust their IP addresses.
+a|
+Intermediate certificate
+a|
+One or more intermediate certificates branch off from the root in the certificate chain. The CA issues one or more intermediate certificates to act as middlemen between a protected root and server certificates.
+a|
+Key management server certificate
+a|
+For security key management, a key management server certificate validates the server, so the storage array can trust its IP address.
+a|
+Keystore
+a|
+A keystore is a repository on your host management system that contains private keys, along with their corresponding public keys and certificates. These keys and certificates identify your own entities, such as the controllers.
+a|
+OCSP server
+a|
+The Online Certificate Status Protocol (OCSP) server determines if the certificate authority (CA) has revoked any certificates before their scheduled expiration date, and then blocks the user from accessing a server if the certificate is revoked.
+a|
+Root certificate
+a|
+The root certificate is at the top of the hierarchy in the certificate chain, and contains a private key used to sign other certificates. The root identifies a particular CA organization. If you use the same CA for all your network devices, you need only one root certificate.
+a|
+Signed certificate
+a|
+A certificate that is validated by a certificate authority (CA). This data file contains a private key and ensures that data is sent in encrypted form between a server and a client over an HTTPS connection. In addition, a signed certificate includes details about the owner of the entity (typically, a server or website) and a digital signature composed of letters and numbers. A signed certificate uses a chain of trust, and therefore is most often used in production environments. Also referred to as a "CA-signed certificate" or a "management certificate."
+a|
+Self-signed certificate
+a|
+A self-signed certificate is validated by the owner of the entity. This data file contains a private key and ensures that data is sent in encrypted form between a server and a client over an HTTPS connection. It also includes a digital signature composed of letters and numbers. A self-signed certificate does not use the same chain of trust as a CA-signed certificate, and therefore is most often used in test environments. Also referred to as a "preinstalled" certificate.
+a|
+Server certificate
+a|
+The server certificate is at the bottom of the certificate chain. It identifies your specific entity, such as a website or other device. Each controller in a storage system requires a separate server certificate.
+|===

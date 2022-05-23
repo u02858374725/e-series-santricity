@@ -1,0 +1,40 @@
+indexpage:
+  tiles:
+    - title: Set up
+      links:
+      - title: Unified Manager interface overview
+        url: ../um-admin/overview-interface-unified.html
+      - title: Set admin password
+        url: ../um-admin/administrator-password-protection-unified.html
+    - title: Discover arrays
+      links:
+       - title: Discovery considerations
+         url:  ../um-manage/considerations-for-discovering-arrays.html
+       - title: Single array
+         url: ../um-manage/discover-single-array.html
+       - title: Multiple arrays
+         url: ../um-manage/discover-multiple-arrays.html
+    - title: Manage arrays
+      links:
+         - title: Storage array groups
+           url: ../um-manage/overview-manage-groups.html
+         - title: Storage array status
+           url: ../um-manage/storage-array-status.html
+         - title: Upgrade software
+           url: ../um-manage/upgrade-controller-firmware.html
+    - title: Manage access
+      links:
+         - title: User access
+           url: ../um-certificates/how-access-management-works-unified.html
+         - title: Certificates
+           url: ../um-certificates/how-certificates-work-unified.html
+         - title: Directory services
+           url: ../um-certificates/access-management-with-directory-services-unified.html
+    - title: Manage settings
+      links:
+         - title: Import settings
+           url: ../um-manage/how-import-settings-works.html
+         - title: Change password settings
+           url: ../um-certificates/change-local-user-passwords-settings-unified.html
+         - title: Change Directory Server settings
+           url: ../um-certificates/edit-directory-server-settings-unified.html

@@ -1,0 +1,34 @@
+---
+permalink: sm-support/collect-configuration-data.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, collect, configuration data
+summary: "You can save RAID configuration data from the controller, which includes all data for volume groups and disk pools. You can then contact technical support for assistance with restoring the data."
+---
+= Collect configuration data
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can save RAID configuration data from the controller, which includes all data for volume groups and disk pools. You can then contact technical support for assistance with restoring the data.
+
+.About this task
+
+This task describes how to save the current state of the RAID configuration database. This data is retrieved from the RPA memory location of the controller.
+
+[NOTE]
+====
+The Collect Configuration Data feature saves the same information as the CLI command for `save storageArray dbmDatabase`.
+====
+
+You should only perform this task when instructed by a Recovery Guru operation or by technical support.
+
+.Steps
+
+. Select menu:Support[Support Center > Diagnostics] tab.
+. Select *Collect Configuration Data*.
+. In the dialog box, click *Collect*.
++
+The file, `configurationData-<arrayName>-<dateTime>.7z`, is saved in the Downloads folder for your browser.
+
+. Contact technical support for more information about sending the file to them, and for loading the data back into the system.

@@ -1,0 +1,40 @@
+---
+permalink: sm-hardware/controller-states.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, controller, states,
+summary: "You can place a controller into three different states: online, offline, and service mode."
+---
+= Controller states
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can place a controller into three different states: online, offline, and service mode.
+
+== Online state
+
+The online state is the normal operating state of the controller. It means that the controller is operating normally and is available for I/O operations.
+
+When you place a controller online, its status is set to optimal.
+
+== Offline state
+
+The offline state is typically used to prepare a controller for replacement when there are two controllers in the storage array. A controller can enter the offline state in two ways: you can issue an explicit command or the controller can fail. A controller can exit the offline state only by issuing another explicit command or by replacing the failed controller. You can place a controller offline only if there are two controllers in the storage array.
+
+When a controller is in the offline state, the following conditions are true:
+
+* The controller is not available for I/O.
+* You cannot manage the storage array through that controller.
+* Any volumes currently owned by that controller are moved to the other controller.
+* Cache mirroring is disabled and all volumes are changed to write through cache mode.
+
+== Service mode
+
+Service Mode is typically used only by technical support to move all storage array volumes to one controller so that the other controller can be diagnosed. A controller must be manually placed in service mode and must be manually placed back online after the service operation is completed.
+
+When a controller is in service mode, the following conditions are true:
+
+* The controller is not available for I/O.
+* Technical support can access the controller through the serial port or network connection to analyze potential problems.
+* Any volumes currently owned by that controller are moved to the other controller.
+* Cache mirroring is disabled and all volumes are changed to write through cache mode.

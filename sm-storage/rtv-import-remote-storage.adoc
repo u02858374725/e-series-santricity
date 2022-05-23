@@ -1,0 +1,109 @@
+---
+permalink: sm-storage/rtv-import-remote-storage.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, import, remote, storage
+summary: "To initiate a storage import from a remote system to a local E-Series storage system, use the Import Remote Storage wizard."
+---
+= Import remote storage
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To initiate a storage import from a remote system to a local E-Series storage system, use the Import Remote Storage wizard.
+
+.Before you begin
+
+* The E-Series storage system must be configured to communicate with the remote storage system.
++
+[NOTE]
+====
+Hardware configuration is described in the user guide for the Remote Storage feature, which is available from the E-Series and SANtricity documentation center at https://docs.netapp.com/us-en/e-series/remote-storage-volumes/setup-remote-volumes-concept.html[Configure hardware^], and in the https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^].
+====
+
+* For the remote storage system, gather the following information:
+ ** iSCSI IQN
+ ** iSCSI IP addresses
+ ** LUN number of the remote storage device (source volume)
+* For the local E-Series storage system, create or select a volume to be used for the data import. See link:create-volumes.html[Create volumes]. The target volume must meet the following requirements:
+ ** Matches the block size of the remote storage device (the source volume).
+ ** Has a capacity that is equal to or larger than the remote storage device.
+ ** Has a state of Optimal and is available.
+
+For a full list of requirements, see link:rtv-remote-storage-volume-requirements.html[Remote storage volume requirements].
+
+* *Recommended:* Back up volumes on the remote storage system before starting the import process.
+
+.About this task
+
+In this task, you create a mapping between the remote storage device and a volume on the local E-Series storage system. When you finish the configuration, the import begins.
+
+[NOTE]
+====
+Because many variables can impact the import operation and its completion time, we recommend that you first perform smaller "`test`" imports. Use these tests to ensure that all connections work as expected and that the import operation completes in an appropriate amount of time.
+====
+
+.Steps
+
+. Select menu:Storage[Remote storage].
+. Click *Import Remote Storage*.
++
+A wizard for importing remote storage is displayed.
+
+. In *Step 1a* of the Configure Source panel, enter connection information. If you want to add another iSCSI connection, click *Add another IP address* to include an additional IP address for the remote storage. When you are done, click *Next*.
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~" options="header"]
+|===
+| Setting| Description
+a|
+Name
+a|
+Enter a name for the remote storage device to identify it in the System Manager interface.
+
+A name may include up to 30 characters, and can contain only letters, numbers, and the following special characters: underscore (_), dash (-), and the hash sign (#). A name may not contain spaces.
+a|
+iSCSI connection properties
+a|
+Enter the connection properties of the remote storage device:
+
+** *iSCSI Qualified Name (IQN)*: Enter the iSCSI IQN.
+** *IP Address*: Enter the IPv4 address.
+** *Port*: Enter the port number to be used for communications between the source and target devices. By default, the port number is 3260.
+|===
+====
++
+After you click *Next*, the *Step 1b* of the Configure Source panel is displayed.
+
+. In the *LUN* field, select the LUN number of the remote storage device to be used as the source, and then click *Next*.
++
+The Configure Target panel opens and displays volume candidates to serve as the target for the import. Some volumes do not display in the list of candidates due to block size, capacity, or volume availability.
+
+. From the table, select a target volume on the E-Series storage system. If needed, use the slider to change the import priority. Click *Next*. Confirm the operation in the next dialog box by typing `continue`, and then clicking *Continue*.
++
+If the target volume has a capacity that is larger than the source volume, that additional capacity is not reported to the host connected to the E-Series system. To use the new capacity, you must perform a file system expansion operation on the host after the import operation completes and is disconnected.
++
+After you confirm the configuration in the dialog, the Review panel is displayed.
+
+. From the Review panel, verify that the settings are accurate, and then click *Finish* to initiate the import.
++
+Another dialog box opens asking if you want to initiate another import.
+
+. If needed, click *Yes* to create another remote storage import. Clicking *Yes* returns to *Step 1a* of the Configure Source panel, where you can select the existing configuration or add a new one. If you do not want to create another import, click *No* to exit the dialog box.
++
+Once the import process begins, the entire target volume is overwritten with the copied data. If the host writes any new data to the target volume during this process, that new data is propagated back to the remote device (source volume).
+
+. View the progress of the operation in the View Operations dialog under the Remote Storage panel.
+
+.Results
+
+The time required to complete the import operation depends on the size of the remote storage system, the priority setting for the import, and the amount of I/O load on both storage systems and their associated volumes.
+
+Once the import is complete, the local volume is a duplicate of the remote storage device.
+
+.After you finish
+
+When you are ready to break the relationship between the two volumes, select *Disconnect* on the import object from the Operations In Progress view. Once the relationship is disconnected, performance of the local volume returns to normal and is no longer impacted by the remote connection.

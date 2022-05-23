@@ -1,0 +1,311 @@
+---
+permalink: sm-hardware/hardware-terminology.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, hardware, terms
+summary: "Learn how the hardware terms apply to your storage array."
+---
+= Hardware terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following hardware terms apply to storage arrays.
+
+.General hardware terms:
+[%collapsible]
+====
+[cols="25h,~",options="header"]
+|===
+| Component| Description
+a|
+Bay
+a|
+A bay is a slot in the shelf where a drive or other component is installed.
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+a|
+Controller shelf
+a|
+A controller shelf contains a set of drives and one or more controller canisters. A controller canister holds the controllers, host interface cards (HICs), and batteries.
+a|
+Drive
+a|
+A drive is an electromagnetic mechanical device or solid state memory device that provides the physical storage media for data.
+a|
+Drive shelf
+a|
+A drive shelf, also called an expansion shelf, contains a set of drives and two input/output modules (IOMs). The IOMs contain SAS ports that connect a drive shelf to a controller shelf or to other drive shelves.
+a|
+IOM (ESM)
+a|
+An IOM is an input/output module that includes SAS ports for connecting the drive shelf to the controller shelf.
+In previous controller models, the IOM was referred to as an environmental service module (ESM).
+a|
+Power/fan canister
+a|
+A power/fan canister is an assembly that slides into a shelf. It includes a power supply and an integrated fan.
+a|
+SFP
+a|
+An SFP is a Small Form-factor Pluggable (SFP) transceiver.
+a|
+Shelf
+a|
+A shelf is an enclosure installed in a cabinet or rack. It contains the hardware components for the storage array. There are two types of shelves: a controller shelf and a drive shelf. A controller shelf includes controllers and drives. A drive shelf includes input/output modules (IOMs) and drives.
+a|
+Storage array
+a|
+A storage array includes the shelves, controllers, drives, software, and firmware.
+|===
+====
+
+.Controller terms:
+[%collapsible]
+====
+[cols="25h,~",options="header"]
+|===
+| Component| Description
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+a|
+Controller shelf
+a|
+A controller shelf contains a set of drives and one or more controller canisters. A controller canister holds the controllers, host interface cards (HICs), and batteries.
+a|
+DHCP
+a|
+Dynamic Host Configuration Protocol (DHCP) is a protocol used on Internet Protocol (IP) networks for dynamically distributing network configuration parameters, such as IP addresses.
+a|
+DNS
+a|
+Domain Name System (DNS) is a naming system for devices connected to the Internet or a private network. The DNS server maintains a directory of domain names and translates them to Internet Protocol (IP) addresses.
+a|
+Duplex configurations
+a|
+Duplex is a two-controller module configuration within the storage array. Duplex systems are fully redundant with respect to controllers, logical volume paths, and disk paths. If one controller fails, the other controller takes over its I/O to maintain availability. Duplex systems also have redundant fans and power supplies.
+a|
+Full-duplex / half-duplex connections
+a|
+Full-duplex and half-duplex refer to connection modes. In full-duplex mode, two devices can communicate simultaneously in both directions. In half-duplex mode, devices can communicate in one direction at a time (one device sends a message, while the other device receives it).
+a|
+HIC
+a|
+A host interface card (HIC) can optionally be installed within a controller canister. Host ports that are built into the controller are called baseboard host ports. Host ports that are built into the HIC are called HIC ports.
+a|
+ICMP PING response
+a|
+Internet Control Message Protocol (ICMP) is a protocol used by operating systems of networked computers to send messages. ICMP messages determine whether a host is reachable and how long it takes to get packets to and from that host.
+a|
+MAC address
+a|
+Media access control identifiers (MAC addresses) are used by Ethernet to distinguish between separate logical channels connecting two ports on the same physical transport network interface.
+a|
+management client
+a|
+A management client is the computer where a browser is installed for accessing System Manager.
+a|
+MTU
+a|
+A Maximum Transmission Unit (MTU) is the largest size packet or frame that can be sent in a network.
+a|
+NTP
+a|
+Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems in data networks.
+a|
+Simplex configurations
+a|
+Simplex is a single-controller module configuration within the storage array. A simplex system does not offer controller or disk-path redundancy, but does have redundant fans and power supplies.
+a|
+VLAN
+a|
+A virtual local area network (VLAN) is a logical network that behaves like it is physically separate from other networks supported by the same devices (switches, routers, etc.).
+|===
+====
+
+.Drive terms:
+[%collapsible]
+====
+[cols="25h,~",options="header"]
+|===
+| Component| Description
+a|
+DA
+a|
+Data Assurance (DA) is a feature that checks for and corrects errors that might occur as data is transferred through the controllers down to the drives. Data Assurance can be enabled at the pool or volume group level, with hosts using a DA-capable I/O interface such as Fibre Channel.
+a|
+Drive Security feature
+a|
+Drive Security is a storage array feature that provides an extra layer of security with either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. When these drives are used with the Drive Security feature, they require a security key for access to their data. When the drives are physically removed from the array, they cannot operate until they are installed in another array, at which point, they will be in a Security Locked state until the correct security key is provided.
+a|
+Drive shelf
+a|
+A drive shelf, also called an expansion shelf, contains a set of drives and two input/output modules (IOMs). The IOMs contain SAS ports that connect a drive shelf to a controller shelf or to other drive shelves.
+a|
+DULBE
+a|
+Deallocated or Unwritten Logical Block Error (DULBE) is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
+a|
+FDE drives
+a|
+Full Disk Encryption (FDE) drives perform encryption on the disk drive at the hardware level. The hard drive contains an ASIC chip that encrypts data during writes, and then decrypts data during reads.
+a|
+FIPS drives
+a|
+FIPS drives use Federal Information Processing Standards (FIPS) 140-2 level 2. They are essentially FDE drives that adhere to United States government standards for ensuring strong encryption algorithms and methods. FIPS drives have higher security standards than FDE drives.
+a|
+HDD
+a|
+Hard disk drives (HDDs) are data storage devices that use rotating metal platters with a magnetic coating.
+a|
+Hot spare drives
+a|
+Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups. They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a hot spare.
+a|
+NVMe
+a|
+Non-Volatile Memory Express (NVMe) is an interface designed for flash-based storage devices, such as SSD drives. NVMe reduces I/O overhead and includes performance improvements, as compared to previous logical-device interfaces.
+a|
+SAS
+a|
+Serial Attached SCSI (SAS) is a point-to-point serial protocol that links controllers directly to disk drives.
+a|
+Secure-capable drives
+a|
+Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives, which encrypt data during writes and decrypt data during reads. These drives are considered secure-_capable_ because they can be used for additional security using the Drive Security feature. If the Drive Security feature is enabled for volume groups and pools used with these drives, the drives become secure-_enabled_.
+a|
+Secure-enabled drives
+a|
+Secure-enabled drives are used with the Drive Security feature. When you enable the Drive Security feature and then apply Drive Security to a pool or volume group on secure-_capable_ drives, the drives become secure__-enabled__. Read and write access is available only through a controller that is configured with the correct security key. This added security prevents unauthorized access to the data on a drive that is physically removed from the storage array.
+a|
+SSD
+a|
+Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use.
+|===
+====
+
+.iSCSI terms:
+[%collapsible]
+====
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+CHAP
+a|
+The Challenge Handshake Authentication Protocol (CHAP) method validates the identity of targets and initiators during the initial link. Authentication is based on a shared security key called a CHAP __secret__.
+a|
+Controller
+a|
+A controller consists of a board, firmware, and software. It controls the drives and implements the System Manager functions.
+a|
+DHCP
+a|
+Dynamic Host Configuration Protocol (DHCP) is a protocol used on Internet Protocol (IP) networks for dynamically distributing network configuration parameters, such as IP addresses.
+a|
+IB
+a|
+InfiniBand (IB) is a communications standard for data transmission between high-performance servers and storage systems.
+a|
+ICMP PING response
+a|
+Internet Control Message Protocol (ICMP) is a protocol used by operating systems of networked computers to send messages. ICMP messages determine whether a host is reachable and how long it takes to get packets to and from that host.
+a|
+IQN
+a|
+An iSCSI Qualified Name (IQN) identifier is a unique name for an iSCSI initiator or iSCSI target.
+a|
+iSER
+a|
+iSCSI Extensions for RDMA (iSER) is a protocol that extends the iSCSI protocol for operation over RDMA transports, such as InfiniBand or Ethernet.
+a|
+iSNS
+a|
+Internet Storage Name Service (iSNS) is a protocol that allows automated discovery, management, and configuration of iSCSI and Fibre Channel devices on TCP/IP networks.
+a|
+MAC address
+a|
+Media access control identifiers (MAC addresses) are used by Ethernet to distinguish between separate logical channels connecting two ports on the same physical transport network interface.
+a|
+Management client
+a|
+A management client is the computer where a browser is installed for accessing System Manager.
+a|
+MTU
+a|
+A Maximum Transmission Unit (MTU) is the largest size packet or frame that can be sent in a network.
+a|
+RDMA
+a|
+Remote Direct Memory Access (RDMA) is a technology that allows network computers to exchange data in main memory without involving the operating system of either computer.
+a|
+Unnamed discovery session
+a|
+When the option for unnamed discovery sessions is enabled, iSCSI initiators are not required to specify the target IQN to retrieve the controller's information.
+|===
+====
+
+
+.NVMe terms:
+[%collapsible]
+====
+[cols="25h,~",options="header"]
+|===
+| Term| Description
+a|
+InfiniBand
+a|
+InfiniBand (IB) is a communications standard for data transmission between high-performance servers and storage systems.
+a|
+Namespace
+a|
+A namespace is NVM storage that is formatted for block access. It is analogous to a logical unit in SCSI, which relates to a volume in the storage array.
+a|
+Namespace ID
+a|
+The namespace ID is the NVMe controller's unique identifier for the namespace, and can be set to a value between 1 and 255. It is analogous to a logical unit number (LUN) in SCSI.
+a|
+NQN
+a|
+NVMe Qualified Name (NQN) is used to identify the remote storage target (the storage array).
+a|
+NVM
+a|
+Non-Volatile Memory (NVM) is persistent memory used in many types of storage devices.
+a|
+NVMe
+a|
+Non-Volatile Memory Express (NVMe) is an interface designed for flash-based storage devices, such as SSD drives. NVMe reduces I/O overhead and includes performance improvements, as compared to previous logical-device interfaces.
+a|
+NVMe-oF
+a|
+Non-Volatile Memory Express over Fabrics (NVMe-oF) is a specification that enables NVMe commands and data to transfer over a network between a host and storage.
+a|
+NVMe controller
+a|
+An NVMe controller is created during the host connection process. It provides an access path between a host and the namespaces in the storage array.
+a|
+NVMe queue
+a|
+A queue is used for passing commands and messages over the NVMe interface.
+a|
+NVMe subsystem
+a|
+The storage array with an NVMe host connection.
+a|
+RDMA
+a|
+Remote direct memory access (RDMA) enables more direct data movement in and out of a server by implementing a transport protocol in the network interface card (NIC) hardware.
+a|
+RoCE
+a|
+RDMA over Converged Ethernet (RoCE) is a network protocol that allows remote direct memory access (RDMA) over an Ethernet network.
+a|
+SSD
+a|
+Solid-state disks (SSDs) are data storage devices that use solid state memory (flash) to store data persistently. SSDs emulate conventional hard drives, and are available with the same interfaces that hard drives use.
+|===
+====

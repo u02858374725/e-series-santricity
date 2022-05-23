@@ -1,0 +1,54 @@
+---
+permalink: sm-mirroring/role-change-of-a-mirror-consistency-group.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, role, change, mirror, consistency, group, secondary, mirror, consistency, group,
+summary: "You can change the role between mirrored pairs in a mirror consistency group. You can do this by demoting the primary mirror consistency group to the secondary role, or by promoting the secondary mirror consistency group to the primary role."
+---
+= Role change of a mirror consistency group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the role between mirrored pairs in a mirror consistency group. You can do this by demoting the primary mirror consistency group to the secondary role, or by promoting the secondary mirror consistency group to the primary role.
+
+[NOTE]
+====
+This feature is not available on the EF600 or EF300 storage system.
+====
+
+Review the following information about the role change operation:
+
+* The role change affects all mirrored pairs within the selected mirror consistency group.
+* When a mirror consistency group is demoted to the secondary role, all the mirrored pairs within that mirror consistency group are also demoted to the secondary role and vice versa.
+* When the primary mirror consistency group is demoted to the secondary role, hosts that have been assigned to the member volumes within that group no longer have write access to them.
+* When a mirror consistency group is promoted to the primary role, any hosts that are accessing the member volumes within that group are now able to write to them.
+* If the local storage array is unable to communicate with the remote storage array, you can force the role change on the local storage array.
+
+== Force role change
+
+You can force a role change between mirror consistency groups when a communication problem between the local storage array and the remote storage array is preventing the promotion of the member volumes within the secondary mirror consistency group or the demotion of the member volumes within the primary mirror consistency group.
+
+You can force the mirror consistency group on the secondary side to transition to the primary role. Then the recovery host is able to access the newly promoted member volumes within that mirror consistency group, and business operations can continue.
+
+== When is a forced promotion allowed and not allowed?
+
+Forced promotion of a mirror consistency group is allowed only if all member volumes of the mirror consistency group have been synchronized and have consistent recovery points.
+
+Forced promotion of a mirror consistency group is not allowed under the following conditions:
+
+* Any of the member volumes of a mirror consistency group are in the process of an initial synchronization.
+* Any of the member volumes of a mirror consistency group do not have a point-in-time image of the recovery point (for example, due to a full reserved capacity error).
+* The mirror consistency group does not contain member volumes.
+* The mirror consistency group is in the Failed, Role-Change-Pending, or Role-Change-In-Progress states, or if any of the associated member volumes or reserved capacity volumes are failed.
+
+== Mirror group role conflict
+
+When a communication problem between the local and remote storage arrays has been resolved, a Mirror Group Role Conflict condition occurs. Use the Recovery Guru to recover from this error. A forced promotion is not allowed when resolving a dual-role conflict.
+
+To avoid the Mirror Group Role Conflict condition and subsequent recovery steps, wait until the connection between the storage arrays is operational to force the role change.
+
+== Role change in-progress state
+
+If two storage arrays in a mirroring configuration become disconnected, and the primary side of a mirror consistency group is force demoted to a secondary role, and the secondary side of a mirror consistency group is force promoted to a primary role, then when communication is restored, the mirror consistency groups on both storage arrays are placed in the Role-Change-In-Progress state.
+
+The system will complete the role change process by transferring the change logs, re-synchronizing, setting the mirror consistency group state back to a normal operating state, and continuing with periodic synchronizations.

@@ -1,0 +1,262 @@
+---
+permalink: sm-interface/view-and-act-on-operations-in-progress.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, view, act, operations, progress,
+summary: "To view and take action on long-running operations, use the Operations in Progress page."
+---
+= View and act on operations in progress
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To view and take action on long-running operations, use the Operations in Progress page.
+
+.About this task
+
+For each operation listed on the Operations in Progress page, a percentage of completion and estimated time remaining to complete the operation are shown. In some cases, you can stop an operation or place it at a higher or lower priority. You can also clear a completed Volume Copy operation from the list.
+
+.Steps
+
+. On the Home page, select *Show operations in progress*.
++
+The Operations in Progress page appears.
+
+. If desired, use the links in the Actions column to stop or change priority for an operation.
++
+[CAUTION]
+====
+Read all cautionary text provided in the dialog boxes, particularly when stopping an operation.
+====
++
+You can stop a volume copy operation or change its priority.
+
+. Once a volume copy operation is complete, you can select *Clear* to remove it from the list.
++
+At the top of the Home page, an informational message and yellow wrench icon appear when an operation is complete. This message includes a link that allows you to clear the operation from the Operations in Progress page.
+
+Operations that appear on the Operations in Progress page include the following:
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Operation| Possible status of the operation| Actions you can take
+a|
+Volume copy
+a|
+Completed
+a|
+Clear
+a|
+Volume copy
+a|
+In progress
+a|
+
+* Change priority
+* Stop
+
+a|
+Volume copy
+a|
+Pending
+a|
+Clear
+a|
+Volume copy
+a|
+Failed
+a|
+
+* Clear
+* Re-copy
+
+a|
+Volume copy
+a|
+Stopped
+a|
+
+* Clear
+* Re-copy
+
+a|
+Volume create (thick pool volumes larger than 64TiB only)
+a|
+In progress
+a|
+_none_
+a|
+Volume delete (thick pool volumes larger than 64TiB only)
+a|
+In progress
+a|
+_none_
+a|
+Asynchronous mirror group initial synchronization
+a|
+In progress
+a|
+Suspend
+a|
+Asynchronous mirror group initial synchronization
+a|
+Suspended
+a|
+Resume
+a|
+Synchronous mirroring
+a|
+In progress
+a|
+Suspend
+a|
+Synchronous mirroring
+a|
+Suspended
+a|
+Resume
+a|
+Snapshot image rollback
+
+a|
+In progress
+a|
+Cancel
+a|
+Snapshot image rollback
+a|
+Pending
+a|
+Cancel
+a|
+Snapshot image rollback
+a|
+Paused
+a|
+
+* Cancel
+* Resume
+
+a|
+Drive evacuation
+a|
+In progress
+a|
+Cancel (depends on the drive evacuation type)
+a|
+Add capacity to pool or volume group
+a|
+In progress
+a|
+_none_
+a|
+Change a RAID level for a volume
+a|
+In progress
+a|
+_none_
+a|
+Reduce capacity for a pool
+a|
+In progress
+a|
+_none_
+a|
+Thin volume reclamation
+a|
+In progress
+a|
+_none_
+a|
+Check the time remaining on an instant availability format (IAF) operation for pool volumes
+a|
+In progress
+a|
+_none_
+a|
+Check the data redundancy of a volume group
+a|
+In progress
+a|
+_none_
+a|
+Defragment a volume group
+a|
+In progress
+a|
+_none_
+a|
+Initialize a volume
+a|
+In progress
+a|
+_none_
+a|
+Increase capacity for a volume
+a|
+In progress
+a|
+_none_
+a|
+Change segment size for a volume
+a|
+In progress
+a|
+_none_
+a|
+Drive copy
+a|
+In progress
+a|
+_none_
+a|
+Data reconstruction
+a|
+In progress
+a|
+_none_
+a|
+Copyback
+a|
+In progress
+a|
+_none_
+a|
+Drive Erase
+a|
+In progress
+a|
+_none_
+a|
+Remote storage import
+a|
+In progress
+a|
+
+* Change priority
+* Stop
+
+a|
+Remote storage import
+a|
+Stopped
+a|
+
+* Resume
+* Disconnect
+
+a|
+Remote storage import
+a|
+Failed
+a|
+
+* Resume
+* Disconnect
+
+a|
+Remote storage import
+a|
+Completed
+a|
+Disconnect
+|===

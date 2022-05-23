@@ -1,0 +1,70 @@
+---
+permalink: sm-settings/configure-snmp-alerts.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, configure, snmp, alerts,
+summary: "To configure Simple Network Management Protocol (SNMP) alerts, you must identify at least one server where the storage array’s event monitor can send SNMP traps. The configuration requires a community name or user name, and an IP address for the server."
+---
+= Configure SNMP alerts
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To configure Simple Network Management Protocol (SNMP) alerts, you must identify at least one server where the storage array's event monitor can send SNMP traps. The configuration requires a community name or user name, and an IP address for the server.
+
+.Before you begin
+
+* A network server must be configured with an SNMP service application. You need the network address of this server (either an IPv4 or an IPv6 address), so the event monitor can send trap messages to that address. You can use more than one server (up to 10 servers are allowed).
+* The management information base (MIB) file has been copied and compiled on the server with the SNMP service application. This MIB file defines the data being monitored and managed.
++
+If you do not have the MIB file, you can obtain it from the NetApp Support site:
+
+ ** Go to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].
+ ** Click the *Downloads* tab, and then select *Downloads*.
+ ** Click *E-Series SANtricity OS Controller Software*.
+ ** Select *Download Latest Release*.
+ ** Log in.
+ ** Accept the Caution statement and license agreement.
+ ** Scroll down until you see the MIB file for your controller type, and then click the link to download the file.
+
+.About this task
+
+This task describes how to identify the SNMP server for trap destinations, and then test your configuration.
+
+.Steps
+
+. Select menu:Settings[Alerts].
+. Select the *SNMP* tab.
++
+On first-time setup, the SNMP tab displays "Configure Communities/Users."
+
+. Select *Configure Communities/Users*.
++
+The Select SNMP version dialog box opens.
+
+. Select the SNMP version for the alerts, either *SNMPv2c* or *SNMPv3*.
++
+Depending on your selection, the Configure Communities dialog box or the Configure SNMPv3 Users dialog box opens.
+
+. Follow the appropriate instructions for SNMPv2c (communities) or SNMPv3 (users):
+ ** *SNMPv2c (communities)* -- In the Configure Communities dialog, enter one or more community strings for the network servers. A community name is a string that identifies a known set of management stations, and is typically created by a network administrator. It consists of only printable ASCII characters. You can add up to 256 communities. When you are done, click *Save*.
+ ** *SNMPv3 (users)* -- In the Configure SNMPv3 Users dialog, click *Add*, and then enter the following information:
+  *** *User name* -- Enter a name to identify the user, which can be up to 31 characters long.
+  *** *Engine ID* -- Select the Engine ID, which is used to generate authentication and encryption keys for messages, and must be unique on the administrative domain. In most cases, you should select *Local*. If you have a non-standard configuration, select *Custom*; another field appears where you must enter the authoritative engine ID as a hexadecimal string, with an even number of characters between 10 and 32 characters long.
+  *** *Authentication credentials* -- Select an authentication protocol, which ensures the identity of users. Next, enter an authentication password, which is required when the authentication protocol is set or changed. The password must be between 8 and 128 characters long.
+  *** *Privacy credentials* -- Select a privacy protocol, which is used to encrypt the contents of messages. Next, enter a privacy password, which is required when the privacy protocol is set or changed. The password must be between 8 and 128 characters long.
+When you are done, click *Add*, and then click *Close*.
+. From the Alerts page with the SNMP tab selected, click *Add Trap Destinations*.
++
+The Add Trap Destinations dialog box opens.
+
+. Enter one or more trap destinations, select their associated community names or user names, and then click *Add*.
+ ** *Trap Destination* -- Enter an IPv4 or IPv6 address of the server running an SNMP service.
+ ** *Community name or User name* -- From the drop-down, select the community name (SNMPv2c) or user name (SNMPv3) for this trap destination. (If you defined only one, the name already appears in this field.)
+ ** *Send Authentication Failure Trap* -- Select this option (the checkbox) if you want to alert the trap destination whenever an SNMP request is rejected because of an unrecognized community name or user name.
+After you click *Add*, the trap destinations and associated names appear in the *SNMP* tab of the *Alerts* page.
+. To make sure a trap is valid, select a trap destination from the table, and then click *Test Trap Destination* to send a test trap to the configured address.
+
+.Results
+
+The event monitor sends SNMP traps to the server(s) whenever an alertable event occurs.
