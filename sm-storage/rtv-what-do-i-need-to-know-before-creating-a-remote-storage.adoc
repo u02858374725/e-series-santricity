@@ -13,5 +13,5 @@ To configure the Remote Storage feature, you must directly connect the remote de
 
 To set up the iSCSI system connection, refer to:
 
-* link:..sm-hardware/configure-iscsi-ports-hardware.html[Configure iSCSI ports]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html[Configure iSCSI ports]
 * https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf[Remote Storage Technical Report^]
