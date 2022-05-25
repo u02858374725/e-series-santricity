@@ -37,7 +37,7 @@ indexpage:
         - title: Sync mirroring
           url: ../sm-mirroring/how-synchronous-mirroring-works.html
         - title: Snapshot storage
-          url: ../sm-storage/overview-of-snapshot-storage.html
+          url: ../sm-storage/overview-snapshots.html
         - title: Remote storage
           url: ../sm-storage/rtv-how-remote-storage-works.html
     - title: Diagnostics
