@@ -23,7 +23,7 @@ Asynchronous mirroring is created on a per-volume basis but managed at a group l
 
 Learn more:
 
-* link:how-synchronous-mirroring-works.html[How asynchronous mirroring works]
+* link:how-asynchronous-mirroring-works.html[How asynchronous mirroring works]
 * link:asynchronous-terminology.html[Asynchronous mirroring terminology]
 * link:asynchronous-mirror-status.html[Asynchronous mirror status]
 * link:volume-ownership-sync.html[Volume ownership]
