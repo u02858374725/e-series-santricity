@@ -23,7 +23,7 @@ This type of mirroring is ideal for business continuity purposes such as disaste
 
 Learn more:
 
-* link:how-asynchronous-mirroring-works.html[How synchronous mirroring works]
+* link:how-synchronous-mirroring-works.html[How synchronous mirroring works]
 * link:synchronous-mirroring-terminology.html[Synchronous mirroring terminology]
 * link:synchronous-mirroring-status.html[Synchronous mirroring status]
 * link:volume-ownership-sync.html[Volume ownership]
