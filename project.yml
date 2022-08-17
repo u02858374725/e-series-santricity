@@ -1058,6 +1058,8 @@ sidebar:
             url: "/sm-settings/access-management-with-directory-services.html"
           - title: SAML
             url: "/sm-settings/access-management-with-saml.html"
+          - title: Access tokens
+            url: "/sm-settings/access-management-tokens.html"
         - title: Use local user roles
           entries:
           - title: View local user roles
@@ -1082,6 +1084,14 @@ sidebar:
               url: "/sm-settings/change-saml-role-mappings.html"
             - title: Export SAML Service Provider files
               url: "/sm-settings/export-saml-service-provider-files.html"
+        - title: Use access tokens
+          entries:
+            - title: Create access tokens
+              url: "/sm-settings/access-management-tokens-create.html"
+            - title: Edit access token settings
+              url: "/sm-settings/access-management-tokens-edit.html"
+            - title: Revoke access tokens
+              url: "/sm-settings/access-management-tokens-revoke.html"
         - title: Manage syslog
           entries:
           - title: View audit log activity

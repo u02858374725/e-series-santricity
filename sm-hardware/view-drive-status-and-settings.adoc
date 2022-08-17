@@ -121,7 +121,7 @@ NOTE: Not available for NVMe drives.
 a|
 Secure-capable
 a|
-Shows whether the drive is secure-capable (Yes) or not (No). Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives, which encrypt data during writes and decrypt data during reads. These drives are considered secure-_capable_ because they can be used for additional security using the Drive Security feature. If the Drive Security feature is enabled for volume groups and pools used with these drives, the drives become secure-_enabled_.
+Shows whether the drive is secure-capable (Yes) or not (No). Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives (level 140-2 or 140-3), which encrypt data during writes and decrypt data during reads. These drives are considered secure-_capable_ because they can be used for additional security using the Drive Security feature. If the Drive Security feature is enabled for volume groups and pools used with these drives, the drives become secure-_enabled_.
 a|
 Secure-enabled
 a|

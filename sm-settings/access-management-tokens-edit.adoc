@@ -1,0 +1,19 @@
+---
+permalink: sm-settings/access-management-tokens-edit.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, edit tokens
+summary: "You can edit access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password."
+---
+= Edit access token settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password.
+
+.Steps
+
+. Select menu:Settings[Access Management].
+. Select the *Access Tokens* tab.
+
+_in progress_
