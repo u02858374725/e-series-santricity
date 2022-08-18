@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/access-management-tokens.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, tokens
+summary: "Access tokens provide access to the array without exposing the username and password."
+---
+= Access tokens
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+An access token contains the security credentials for a login session and identifies the user, groups, and privileges.
+
+In E-Series systems, these tokens are used to authenticate with the REST API or Command Line Interface in place of a username an password. If SAML is enabled, access tokens are the _only_ way you can use the REST API and CLI.
+
+_In progress: will add info from Eric S, and links to sub-topics_

@@ -23,7 +23,7 @@ This task describes how to use System Manager to enable a premium feature.
 
 [NOTE]
 ====
-If you want to disable a premium feature, you must use the Disable Storage Array Feature command (`disable storageArray (featurePack | feature=featureAttributeList`) in the Command Line Interface (CLI).
+If you want to disable a premium feature, you must use the Disable Storage Array Feature command (`disable storageArray) (featurePack | feature=featureAttributeList`) in the Command Line Interface (CLI).
 ====
 
 .Steps

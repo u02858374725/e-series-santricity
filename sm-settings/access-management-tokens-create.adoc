@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/access-management-tokens-create.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, create tokens
+summary: "You can create access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password."
+---
+= Create access tokens
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password.
+
+NOTE: If SAML is enabled, access tokens are the _only_ way you can use the REST API and CLI.
+
+.Steps
+
+. Select menu:Settings[Access Management].
+. Select the *Access Tokens* tab.
+. _access tokens must be enabled -- do it in View/Edit Access Token Settings. Or is there another place to enable it?_
+
+_in progress_
