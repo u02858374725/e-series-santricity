@@ -72,7 +72,7 @@ Click the *Show/Hide* column icon image:../media/sam-1140-ss-access-columns.gif[
  ** *SSH Session PID* -- Process ID number of the SSH session.
  ** *SSH Session Duration(s)* -- The number of seconds the user was logged in.
  ** *Authentication Type* -- Types can include Local user, LDAP, SAML, and Access token.
- ** *Authentication ID* -- ID of the authentication type.
+ ** *Authentication ID* -- ID of the authenticated session.
 
 a|
 Toggle column filters

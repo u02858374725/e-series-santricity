@@ -5,18 +5,39 @@ keywords: SANtricity, System Manager, E-Series, access management, create tokens
 summary: "You can create access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password."
 ---
 = Create access tokens
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can create access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password.
+You can create an access token to authenticate with the REST API or command line interface (CLI) in place of a username and password.
 
-NOTE: If SAML is enabled, access tokens are the _only_ way you can use the REST API and CLI.
+When creating tokens, be aware that:
+
+* Tokens do not have passwords, so you must manage them carefully.
+* Once an access token expires, the user’s authentication attempts will fail.
 
 .Steps
 
 . Select menu:Settings[Access Management].
 . Select the *Access Tokens* tab.
-. _access tokens must be enabled -- do it in View/Edit Access Token Settings. Or is there another place to enable it?_
-
-_in progress_
+. Select *View/Edit Access Token Settings*. In the dialog box, make sure that the *Enable access tokens* checkbox is selected. Click *Save* to close out the dialog box.
+. Select *Create Access Token*.
+. In the dialog box, select the duration for the token to be valid. After the token expires, authentication attempts will fail.
+. Click *Create.*
+. In the dialog box, select one of the following:
+  * *Copy* to save the token text to the clipboard.
+  * *Download* to save the token text to a file.
++
+NOTE: Be sure to save the token text. You will not have another opportunity to see the text after you close this dialog.
++
+. Click *Close*.
+. Use the token as follows:
+* *Rest API*: To use a token in a REST API request, add an HTTP header to your requests:
+`Authorization: Bearer _<access-token-value>_`
+* *Secure CLI*: To use a token in the CLI, add the token value on the command line or use the path to a file containing the token value.
++
+** Token value on the command line: `-t _access-token-value_`
+** Path to a file containing the token value: `-T _access-token-file_`
++
+NOTE: If no username, password, or token is specified, the CLI prompts the user for an access token value on the command line.
