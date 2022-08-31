@@ -24,9 +24,9 @@ NOTE: It is not necessary to have SAML enabled to use web tokens, but SAML is re
 
 . Use the token as follows:
 
-* *Rest API*: To use a token in a REST API request, add an HTTP header to your requests:
+* *Rest API*: To use a token in a REST API request, add an HTTP header to your requests. For example:
 `Authorization: Bearer _<access-token-value>_`
-* *Secure CLI*: To use a token in the CLI, add the token value on the command line or use the path to a file containing the token value.
+* *Secure CLI*: To use a token in the CLI, add the token value on the command line or use the path to a file containing the token value. For example:
 +
 ** Token value on the command line: `-t _access-token-value_`
 ** Path to a file containing the token value: `-T _access-token-file_`
@@ -34,4 +34,5 @@ NOTE: It is not necessary to have SAML enabled to use web tokens, but SAML is re
 Learn more:
 
 * link:access-management-tokens-create.html[Create access tokens]
+* link:access-management-tokens-edit.html[Edit access tokens]
 * link:access-management-tokens-revoke.html[Revoke access tokens]
