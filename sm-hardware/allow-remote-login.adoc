@@ -11,11 +11,11 @@ summary: "Remote login lets users from outside of the local area network start a
 [.lead]
 By enabling remote login, you allow users from outside the local area network to start an SSH session and access settings on the controller.
 
-If desired, you can also configure multifactor authorization (MFA) by requiring users to enter an SSH key and SSH password to access the system.
+For SANtricity versions 11.74 and later, you can also configure multifactor authorization (MFA) by requiring users to enter an SSH key and/or SSH password. For SANtricity versions 11.73 and earlier, this feature does _not_ include an option for multifactor authorization with SSH keys and passwords.
 
 [CAUTION]
 ====
-*Security risk* -- For security reasons, only technical support personnel should use the Enable Remote Login feature.
+*Security risk* -- For security reasons, only technical support personnel should use the Remote Login feature.
 ====
 
 .Steps
@@ -29,48 +29,34 @@ The graphic changes to show the controllers instead of the drives.
 +
 The controller's context menu appears.
 
-. Select *Configure remote login (SSH)*.
+. Select *Configure remote login (SSH)*. (For SANtricity versions 11.73 and earlier, this menu item is *Change remote login*.)
 +
-The Configure Remote Login dialog box opens.
+The dialog box opens for enabling remote login.
 
 . Select the *Enable remote login* checkbox.
 +
-This setting allows a remote user to log in with either an authorized public key or a password. If you want to require that a remote user log in using _both_ an authorized key and password, go to the next step.
+This setting provides remote login with three options for authorization:
 
-. To require both an authorized public key and password for remote login, select the *Require authorized public key and password for remote login* checkbox, and then populate the *Authorized public key* field with a list of authorized public keys.
-+
-NOTE: This key applies to any controller with remote login enabled.
-+
-The *authorized_keys* file lists keys that are authorized for authenticating as that user. When populating the *Authorized public key* field, be aware of the following guidelines for this file:
+* *Password only*. For this option, you are done and can click *Save*. If you have a duplex system, you can enable remote login on the second controller by following the previous steps.
+* *SSH key only*. For this option, proceed to the next step.
+* *Both password and SSH key*. For this option, select the *Require authorized public key and password for remote login* checkbox and proceed to the next step.
 
- * Each line of the file should contain only one key. Lines starting with # and empty lines are ignored.
- * The `AuthorizedKeysFile` keyword specifies the files containing public keys for public key authentication. If this option is not specified, the default is `~/.ssh/authorized_keys` and `~/.ssh/authorized_keys2`.
- * Public keys that are not in key rings consist of `options`, `keytype`, `base64-encoded key`, and `comment`. The `options` field is optional; its presence is determined by whether the line starts with a number (the options field never starts with a number). Public keys that are in a key ring only consist of `options`, one of which must be the `zos-key-ring-label` option. The `keytype` is "ssh-dss", "ssh-rsa", "ecdsa-sha2-nistp256", "ecdsa-sha2-nistp384", "ecdsa-sha2-nistp521", or "ssh-ed25519".
- * Lines can be several hundred bytes long, up to 8 kilobytes, which permits DSA keys up to 8 kilobits and RSA keys up to 16 kilobits. To avoid typing them, copy the file (*id_dsa.pub*, *id_ecdsa.pub*, *id_ed25519.pub* or *id_rsa.pub*) and then edit it.
- * `sshd` enforces a minimum RSA key modulus size of 768 bits.
- * For more information about the file format, see link:https://www.ssh.com/academy/ssh/authorized-keys-openssh[Configuring Authorized Keys for OpenSSH^].
- * See the following example of an *authorized_keys* file:
+. Populate the *Authorized public key* field. This field contains a list of authorized public keys, in the format of the OpenSSH *authorized_keys* file.
++
+When populating the *Authorized public key* field, be aware of the following guidelines:
+
+ * The *Authorized public key* field applies to both controllers and only needs to be configured on the first controller.
+ * The *authorized_keys* file should contain only one key per line. Lines starting with # and empty lines are ignored. For more information about the file format, see link:https://www.ssh.com/academy/ssh/authorized-keys-openssh[Configuring Authorized Keys for OpenSSH^].
+ * An *authorized_keys* file should look similar to the following example:
 +
 ----
-# Comments allowed at start of line
-ssh-rsa AAAAB3Nza...LiPk== user@example.net
-from="*.sales.example.net,!pc.sales.example.net" ssh-rsa
-AAAAB2...19Q== john@example.net
-command="dump /home",no-pty,no-port-forwarding ssh-dss
-AAAAC3...51R== example.net
-permitopen="192.0.2.1:80",permitopen="192.0.2.2:25" ssh-dss
-AAAAB5...21S==
-tunnel="0",command="sh /etc/netstart tun0" ssh-rsa AAAA...==
-jane@example.net
-restrict,command="uptime" ssh-rsa AAAA1C8...32Tv==
-user@example.net
-restrict,pty,command="nethack" ssh-rsa AAAA1f8...IrrC5==
-user@example.net
+ssh-rsa
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDJlG20rYTk4ok+xFjkPHYp/R0LfJqEYDLXA5AJ49w3DvAWLrUg+1CpNq76WSqmQBmoG9jgbcAB5ABGdswdeMQZHilJcu29iJ3OKKv6SlCulAj1tHymwtbdhPuipd2wIDAQAB
 ----
-
-. For duplex systems, you can enable remote login on the second controller by following the steps above.
 
 . When you're done, click *Save*.
+
+. For duplex systems, you can enable remote login on the second controller by following the steps above. If you are configuring the option for both a password and SSH key, be sure to select the *Require authorized public key and password for remote login* checkbox again.
 
 . After technical support is finished troubleshooting, you can disable remote login by returning to the Configure Remote Login dialog box and de-selecting the *Enable remote login* checkbox. If remote login is enabled on a second controller, a confirmation dialog opens and allows you to disable remote login on the second one as well.
 +
