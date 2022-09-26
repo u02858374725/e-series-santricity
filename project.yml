@@ -738,7 +738,7 @@ sidebar:
               url: "/sm-hardware/configure-dns-server-addresses.html"
             - title: View controller settings
               url: "/sm-hardware/view-controller-settings.html"
-            - title: Allow remote login
+            - title: Configure remote login (SSH)
               url: "/sm-hardware/allow-remote-login.html"
             - title: Place controller online
               url: "/sm-hardware/place-controller-online.html"

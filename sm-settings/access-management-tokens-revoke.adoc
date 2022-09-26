@@ -2,7 +2,7 @@
 permalink: sm-settings/access-management-tokens-revoke.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, revoke tokens
-summary: "To revoke all access tokes, you can regenerate the public/private key pair used to create access tokens on the storage array."
+summary: "You can revoke all access tokens if you determine that a token has been compromised."
 ---
 = Revoke access tokens
 :experimental:
