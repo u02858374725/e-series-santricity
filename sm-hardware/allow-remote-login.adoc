@@ -38,7 +38,7 @@ The dialog box opens for enabling remote login.
 This setting provides remote login with three options for authorization:
 
 * *Password only*. For this option, you are done and can click *Save*. If you have a duplex system, you can enable remote login on the second controller by following the previous steps.
-* *SSH key only*. For this option, proceed to the next step.
+* *Either SSH key or password*. For this option, proceed to the next step.
 * *Both password and SSH key*. For this option, select the *Require authorized public key and password for remote login* checkbox and proceed to the next step.
 
 . Populate the *Authorized public key* field. This field contains a list of authorized public keys, in the format of the OpenSSH *authorized_keys* file.
