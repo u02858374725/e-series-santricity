@@ -35,6 +35,9 @@ Security attributes might include:
  ** Secure-capable
  ** Secure-enabled
  ** DA (Data Assurance) capable
+ ** FIPS compliant
+ ** FIPS compliant (FIPS 140-2)
+ ** FIPS compliant (FIPS 140-3)
 +
 If any of these attributes are the same for all drives, they are not shown in the drop-down list. For example, if the storage array includes all SSD drives with SAS interfaces and speeds of 15000 RPM, but some SSDs have different capacities, the drop-down list displays only the capacities as a filtering choice.
 +

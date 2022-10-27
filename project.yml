@@ -6,6 +6,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
+  rss_page: "whats-new.html"
   versions:
     - name: SANtricity Software
       url: /e-series-santricity
@@ -737,7 +738,7 @@ sidebar:
               url: "/sm-hardware/configure-dns-server-addresses.html"
             - title: View controller settings
               url: "/sm-hardware/view-controller-settings.html"
-            - title: Allow remote login
+            - title: Configure remote login (SSH)
               url: "/sm-hardware/allow-remote-login.html"
             - title: Place controller online
               url: "/sm-hardware/place-controller-online.html"
@@ -1058,6 +1059,8 @@ sidebar:
             url: "/sm-settings/access-management-with-directory-services.html"
           - title: SAML
             url: "/sm-settings/access-management-with-saml.html"
+          - title: Access tokens
+            url: "/sm-settings/access-management-tokens.html"
         - title: Use local user roles
           entries:
           - title: View local user roles
@@ -1082,6 +1085,14 @@ sidebar:
               url: "/sm-settings/change-saml-role-mappings.html"
             - title: Export SAML Service Provider files
               url: "/sm-settings/export-saml-service-provider-files.html"
+        - title: Use access tokens
+          entries:
+            - title: Create access tokens
+              url: "/sm-settings/access-management-tokens-create.html"
+            - title: Edit access token settings
+              url: "/sm-settings/access-management-tokens-edit.html"
+            - title: Revoke access tokens
+              url: "/sm-settings/access-management-tokens-revoke.html"
         - title: Manage syslog
           entries:
           - title: View audit log activity

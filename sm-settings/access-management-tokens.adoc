@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/access-management-tokens.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, tokens
+summary: "Access tokens provide access to the array without exposing the username and password."
+---
+= Access tokens
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Access tokens provide a method of authentication with the REST API or command line interface (CLI), without exposing user names and passwords. A token is associated to a specific user (including LDAP users), and includes a set of permissions and an expiration.
+
+== SAML and JSON web token access
+By default, a system with SAML enabled does not allow access to traditional command line tools. The REST API and CLI effectively become inoperable because the MFA workflow requires a redirect to an Identity Provider server for authentication. Therefore, you must generate tokens in System Manager, which mandates that a user is authenticated via MFA.
+
+NOTE: It is not necessary to have SAML enabled to use web tokens, but SAML is recommended for the highest level of security.
+
+== Workflow for creating and using tokens
+
+. Create a token in System Manager and determine its expiration.
+
+. Copy the token text to the clipboard or download it to a file, and then save the token text in a secure location.
+
+. Use the token as follows:
+
+* *Rest API*: To use a token in a REST API request, add an HTTP header to your requests. For example:
+`Authorization: Bearer _<access-token-value>_`
+* *Secure CLI*: To use a token in the CLI, add the token value on the command line or use the path to a file containing the token value. For example:
++
+** Token value on the command line: `-t _access-token-value_`
+** Path to a file containing the token value: `-T _access-token-file_`
+
+Learn more:
+
+* link:access-management-tokens-create.html[Create access tokens]
+* link:access-management-tokens-edit.html[Edit access tokens]
+* link:access-management-tokens-revoke.html[Revoke access tokens]

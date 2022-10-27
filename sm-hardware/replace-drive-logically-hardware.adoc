@@ -9,11 +9,13 @@ summary: "If a drive fails or you want to replace it for any other reason, and y
 :imagesdir: ../media/
 
 [.lead]
-If a drive fails or you want to replace it for any other reason, and you have an unassigned drive in your storage array, you can logically replace the failed drive with the unassigned drive. If you do not have an unassigned drive, you can physically replace the drive instead.
+If a drive fails or you want to replace it for any other reason,  you can logically replace the failed drive with an unassigned drive or a fully integrated hot spare.
 
 .About this task
 
-When you logically replace a drive with an unassigned drive, the unassigned drive becomes assigned and is then a permanent member of the associated pool or volume group. You use the logical replace option to replace the following types of drives:
+When you logically replace a drive, it becomes assigned and is then a permanent member of the associated pool or volume group.
+
+You use the logical replace option to replace the following types of drives:
 
 * Failed drives
 * Missing drives

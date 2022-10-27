@@ -48,6 +48,7 @@ A dialog box appears, which lists the dispatch delivery methods.
   *** *Optional; if you want to perform a configuration test*: The email address where a confirmation is sent when the AutoSupport system receives the test dispatch.
   *** If you want to encrypt messages, select either *SMTPS* or *STARTTLS* for the encryption type, and then select the port number for encrypted messages. Otherwise, select *None*.
   *** If needed, enter a user name and password for authentication with the outgoing sender and the mail server.
+. If you have a firewall that blocks delivery of these ASUP dispatches, add the following URL to your whitelist: `\https://support.netapp.com/put/AsupPut/`
 . Click *Test Configuration* to test the connection to the technical support server using the specified delivery parameters. If you enabled the AutoSupport On-Demand feature, the system will also test the connection for AutoSupport OnDemand dispatch delivery.
 +
 If the configuration test fails, check your configuration settings and run the test again. If the test continues to fail, contact technical support.

@@ -1,0 +1,43 @@
+---
+permalink: sm-settings/access-management-tokens-create.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, create tokens
+summary: "You can create access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password."
+---
+= Create access tokens
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create an access token to authenticate with the REST API or command line interface (CLI) in place of a username and password.
+
+NOTE: Tokens do not have passwords, so you must manage them carefully.
+
+.Steps
+
+. Select menu:Settings[Access Management].
+. Select the *Access Tokens* tab.
+. Select *View/Edit Access Token Settings*. In the dialog box, make sure that the *Enable access tokens* checkbox is selected. Click *Save* to close out the dialog box.
+. Select *Create Access Token*.
+. In the dialog box, select the duration for the token to be valid.
++
+NOTE: After the token expires, the user's authentication attempts will fail.
++
+. Click *Create.*
+. In the dialog box, select one of the following:
+  * *Copy* to save the token text to the clipboard.
+  * *Download* to save the token text to a file.
++
+NOTE: Be sure to save the token text. This is your only opportunity to see the text before closing the dialog.
++
+. Click *Close*.
+. Use the token as follows:
+* *Rest API*: To use a token in a REST API request, add an HTTP header to your requests. For example:
+`Authorization: Bearer _<access-token-value>_`
+* *Secure CLI*: To use a token in the CLI, add the token value on the command line or use the path to a file containing the token value. For example:
++
+** Token value on the command line: `-t _access-token-value_`
+** Path to a file containing the token value: `-T _access-token-file_`
++
+NOTE: The CLI prompts the user for an access token value on the command line if no username, password, or token is specified. 
