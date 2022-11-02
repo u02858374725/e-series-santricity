@@ -29,7 +29,7 @@ Audit log activity appears in tabular format, which includes the following colum
  ** *URL Accessed* -- Full URL (including host) and query string.
  ** *Client IP Address* -- IP address of the client associated with the event.
  ** *Source* -- Logging source associated with the event, which can be System Manager, CLI, Web Services, or Support Shell.
-
+ ** *Description* -- Additional information about the event, if applicable.
 . Use the selections on the Audit Log page to view and manage events.
 +
 .Selection details
@@ -71,6 +71,8 @@ Click the *Show/Hide* column icon image:../media/sam-1140-ss-access-columns.gif[
  ** *SSH Event Type* -- Secure Shell (SSH) events type, such as login, logout, and login_fail.
  ** *SSH Session PID* -- Process ID number of the SSH session.
  ** *SSH Session Duration(s)* -- The number of seconds the user was logged in.
+ ** *Authentication Type* -- Types can include Local user, LDAP, SAML, and Access token.
+ ** *Authentication ID* -- ID of the authenticated session.
 
 a|
 Toggle column filters

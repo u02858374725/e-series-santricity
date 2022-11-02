@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/access-management-tokens-edit.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, access management, edit tokens
+summary: "You can edit settings for access tokens, which includes the expiration times and the ability to create new tokens."
+---
+= Edit access token settings
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit settings for access tokens, which includes the expiration times and the ability to create new tokens.
+
+.Steps
+
+. Select menu:Settings[Access Management].
+. Select the *Access Tokens* tab.
+. Select *View/Edit Access Token Settings*.
+. In the dialog box, you can perform one or both of these tasks:
+
+** Enable or disable token creation.
+** Change the expiration of existing tokens.
++
+NOTE: When you de-select the *Enable access tokens* setting, it prevents both token creation and token authentication. If you later re-enable this setting, unexpired tokens can be re-used. If you want to permanently revoke all existing tokens, see link:access-management-tokens-revoke.html[Revoke access tokens].
++
+. Click *Save*.

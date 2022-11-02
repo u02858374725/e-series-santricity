@@ -75,7 +75,7 @@ If this checkbox is selected and the test fails, the configuration is not added.
 a|
 Search base DN
 a|
-Enter the LDAP context to search for users, typically in the form of `CN=Users, DC=copc, DC=local`.
+Enter the LDAP context to search for users, typically in the form of `CN=Users, DC=cpoc, DC=local`.
 a|
 Username attribute
 a|

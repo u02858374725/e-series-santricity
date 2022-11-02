@@ -45,7 +45,7 @@ The domain name(s) of the LDAP server(s). For multiple domains, enter the domain
 a|
 Server URL
 a|
-The URL for accessing the LDAP server in the form of _ldap[s]://host:port_.
+The URL for accessing the LDAP server in the form of `ldap[s]://host:port`.
 a|
 Bind account (optional)
 a|
@@ -63,7 +63,7 @@ Checks that the storage array can communicate with the LDAP server configuration
 a|
 Search base DN
 a|
-The LDAP context to search for users, typically in the form of `CN=Users, DC=copc, DC=local`.
+The LDAP context to search for users, typically in the form of `CN=Users, DC=cpoc, DC=local`.
 a|
 Username attribute
 a|
@@ -96,7 +96,7 @@ The domain name for the LDAP user group to be mapped. Regular expressions are su
 a|
 Roles
 a|
-The storage array's roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity System Manager.    The storage array's roles include the following:
+The storage array's roles to be mapped to the Group DN. You must individually select each role you want to include for this group. The Monitor role is required in combination with the other roles to log in to SANtricity System Manager. The storage array's roles include the following:
 
  ** *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
  ** *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.

@@ -15,6 +15,10 @@ Learn how the Access Management terms apply to your storage array.
 |===
 | Term| Description
 a|
+Access token
+a|
+Access tokens are used to authenticate with the REST API or command line interface (CLI) in place of a username and password. Tokens are associated to a specific user (including LDAP users), and include a set of permissions and an expiration. 
+a|
 Active Directory
 a|
 Active Directory (AD) is a Microsoft directory service that uses LDAP for Windows domain networks.

@@ -11,17 +11,11 @@ summary: "A thick volume is always fully-provisioned, which means that all of th
 [.lead]
 A thick volume is always fully-provisioned, which means that all of the capacity is allocated when the volume is created. A thin volume is always thinly-provisioned, which means that the capacity is allocated as the data is being written to the volume.
 
-You can create thick volumes from either a pool or volume group. You can create thin volumes only from a pool, not from a volume group.
-
 [NOTE]
 ====
 System Manager does not provide an option to create thin volumes. If you want to create thin volumes, use the Command Line Interface (CLI).
 ====
 
-[NOTE]
-====
-Thin volumes are not available on the EF600 or EF300 storage system.
-====
 
 [cols="25h,~",options="header"]
 |===
@@ -30,6 +24,7 @@ a|
 Thick volumes
 a|
 
+* Thick volumes are created from either a pool or volume group.
 * With thick volumes, a large amount of storage space is provided in advance in anticipation of future storage needs.
 * Thick volumes are created with the entire size of the volume pre-allocated on physical storage at the time the volume is created. This pre-allocation means that creating a 100 GiB volume actually consumes 100 GiB of allocated capacity on your drives. However, the space might remain unused, causing under-utilization of storage capacity.
 * When creating thick volumes, make sure not to over-allocate capacity for a single volume. Over-allocating capacity for a single volume can quickly consume all the physical storage in your system.
@@ -37,6 +32,10 @@ a|
 a|
 Thin volumes
 a|
+* Thin volumes are created only from a pool, not from a volume group.
+* Thin volumes must be RAID 6.
+* Thin volumes are not available on the EF600 or EF300 storage system.
+* You must use the CLI to create thin volumes.
 * Unlike thick volumes, space required for the thin volume is not allocated during creation, but is supplied, on demand at a later time.
 * A thin volume lets you over-allocate its size. That is, you can assign a LUN size that is larger than the size of the volume. You can then expand the volume as needed (if necessary, adding drives in the process) without expanding the size of the LUN, and therefore without disconnecting users.
 * You can use thin provisioning block space reclamation (UNMAP) to reclaim blocks of a thin-provisioned volume on the storage array through a host-issued SCSI UNMAP command. A storage array that supports thin provisioning can re-purpose the reclaimed space to satisfy allocation requests for some other thin provisioned volume within the same storage array, which allows better reporting of disk space consumption and more efficient use of resources.

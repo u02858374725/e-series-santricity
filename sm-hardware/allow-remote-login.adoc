@@ -4,16 +4,18 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, login,
 summary: "Remote login lets users from outside of the local area network start an SSH session and change settings on the controller."
 ---
-= Allow remote login
+= Configure remote login (SSH)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Remote login lets users from outside of the local area network start an SSH session and change settings on the controller.
+By enabling remote login, you allow users from outside the local area network to start an SSH session and access settings on the controller.
+
+For SANtricity versions 11.74 and later, you can also configure multifactor authorization (MFA) by requiring users to enter an SSH key and/or SSH password. For SANtricity versions 11.73 and earlier, this feature does _not_ include an option for multifactor authorization with SSH keys and passwords.
 
 [CAUTION]
 ====
-*Security risk* -- For security reasons, enable remote login for use only by technical support.
+*Security risk* -- For security reasons, only technical support personnel should use the Remote Login feature.
 ====
 
 .Steps
@@ -23,12 +25,39 @@ Remote login lets users from outside of the local area network start an SSH sess
 +
 The graphic changes to show the controllers instead of the drives.
 
-. Click the controller for which you want to enable remote login.
+. Click the controller for which you want to configure remote login.
 +
 The controller's context menu appears.
 
-. Select *Change remote login*, and confirm that you want to perform the operation.
+. Select *Configure remote login (SSH)*. (For SANtricity versions 11.73 and earlier, this menu item is *Change remote login*.)
++
+The dialog box opens for enabling remote login.
 
-.Results
+. Select the *Enable remote login* checkbox.
++
+This setting provides remote login with three options for authorization:
 
-After technical support is finished troubleshooting, follow this same procedure to disable remote login. Disabling remote login terminates any current SSH sessions and rejects any new login requests.
+* *Password only*. For this option, you are done and can click *Save*. If you have a duplex system, you can enable remote login on the second controller by following the previous steps.
+* *Either SSH key or password*. For this option, proceed to the next step.
+* *Both password and SSH key*. For this option, select the *Require authorized public key and password for remote login* checkbox and proceed to the next step.
+
+. Populate the *Authorized public key* field. This field contains a list of authorized public keys, in the format of the OpenSSH *authorized_keys* file.
++
+When populating the *Authorized public key* field, be aware of the following guidelines:
+
+ * The *Authorized public key* field applies to both controllers and only needs to be configured on the first controller.
+ * The *authorized_keys* file should contain only one key per line. Lines starting with # and empty lines are ignored. For more information about the file format, see link:https://www.ssh.com/academy/ssh/authorized-keys-openssh[Configuring Authorized Keys for OpenSSH^].
+ * An *authorized_keys* file should look similar to the following example:
++
+----
+ssh-rsa
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDJlG20rYTk4ok+xFjkPHYp/R0LfJqEYDLXA5AJ49w3DvAWLrUg+1CpNq76WSqmQBmoG9jgbcAB5ABGdswdeMQZHilJcu29iJ3OKKv6SlCulAj1tHymwtbdhPuipd2wIDAQAB
+----
+
+. When you're done, click *Save*.
+
+. For duplex systems, you can enable remote login on the second controller by following the steps above. If you are configuring the option for both a password and SSH key, be sure to select the *Require authorized public key and password for remote login* checkbox again.
+
+. After technical support is finished troubleshooting, you can disable remote login by returning to the Configure Remote Login dialog box and de-selecting the *Enable remote login* checkbox. If remote login is enabled on a second controller, a confirmation dialog opens and allows you to disable remote login on the second one as well.
++
+Disabling remote login terminates any current SSH sessions and rejects any new login requests.
