@@ -22,11 +22,6 @@ To enable and configure mirroring between two arrays, you must use the Unified M
 
 == Storage arrays
 
-[NOTE]
-====
-Mirroring is not available on the EF600 or EF300 storage array.
-====
-
 * You must have two storage arrays.
 * Each storage array must have two controllers.
 * The two storage arrays must be discovered in Unified Manager.
