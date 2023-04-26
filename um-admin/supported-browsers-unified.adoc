@@ -13,7 +13,7 @@ Unified Manager can be accessed from several types of browsers.
 
 The following browsers and versions are supported.
 
-include::.._include/supported_browser_versions.adoc[]
+include::../_include/supported_browser_versions.adoc[]
 
 [NOTE]
 ====

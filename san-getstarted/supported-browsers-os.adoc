@@ -14,7 +14,7 @@ SANtricity software supports several types of browsers and operating systems.
 == Browsers
 The following browsers and versions are supported.
 
-include::.._include/supported_browser_versions.adoc[]
+include::../_include/supported_browser_versions.adoc[]
 
 [NOTE]
 ====

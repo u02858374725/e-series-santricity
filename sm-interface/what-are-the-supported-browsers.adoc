@@ -11,4 +11,4 @@ summary: 'System Manager supports these browser versions.'
 [.lead]
 System Manager supports these browser versions.
 
-include::.._include/supported_browser_versions.adoc[]
+include::../_include/supported_browser_versions.adoc[]
