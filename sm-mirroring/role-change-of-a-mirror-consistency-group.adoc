@@ -11,11 +11,6 @@ summary: "You can change the role between mirrored pairs in a mirror consistency
 [.lead]
 You can change the role between mirrored pairs in a mirror consistency group. You can do this by demoting the primary mirror consistency group to the secondary role, or by promoting the secondary mirror consistency group to the primary role.
 
-[NOTE]
-====
-This feature is not available for synchronous mirroring on the EF600 or EF300 storage system.
-====
-
 Review the following information about the role change operation:
 
 * The role change affects all mirrored pairs within the selected mirror consistency group.
