@@ -14,34 +14,7 @@ SANtricity software supports several types of browsers and operating systems.
 == Browsers
 The following browsers and versions are supported.
 
-[cols="1a,1a" options="header"]
-|===
-| Browser| Minimum version
-a|
-Google Chrome
-a|
-79
-a|
-Mozilla Firefox
-a|
-70
-a|
-Safari
-a|
-12
-a|
-Microsoft Edge
-a|
-79
-a|
-Microsoft Edge Legacy
-a|
-18
-a|
-Microsoft Internet Explorer (MSIE)
-a|
-11
-|===
+include::.._include/supported_browser_versions.adoc[]
 
 [NOTE]
 ====
