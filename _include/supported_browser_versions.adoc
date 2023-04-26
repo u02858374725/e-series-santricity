@@ -17,12 +17,4 @@ a|
 Microsoft Edge
 a|
 90
-a|
-Microsoft Edge Legacy
-a|
-18
-a|
-Microsoft Internet Explorer (MSIE)
-a|
-11
 |===
