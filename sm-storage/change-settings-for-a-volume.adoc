@@ -128,7 +128,6 @@ Shows the caching setting, which you can change to impact the overall I/O perfor
 a|
 SSD Cache
 a|
-NOTE: This feature is not available on the EF600 or EF300 storage system.
 
 Shows the SSD Cache setting, which you can enable on compatible volumes as a way to improve read-only performance. Volumes are compatible if they share the same Drive Security and Data Assurance capabilities.
 

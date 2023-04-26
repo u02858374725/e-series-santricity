@@ -133,7 +133,6 @@ a|
 Enable SSD Cache
 a|
 Choose this option to enable read-only caching on SSDs.
-NOTE: This feature is not available on the EF600 or EF300 storage system.
 
 2+a|
 *Reserved capacity settings*

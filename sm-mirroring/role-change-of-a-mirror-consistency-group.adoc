@@ -13,7 +13,7 @@ You can change the role between mirrored pairs in a mirror consistency group. Yo
 
 [NOTE]
 ====
-This feature is not available on the EF600 or EF300 storage system.
+This feature is not available for synchronous mirroring on the EF600 or EF300 storage system.
 ====
 
 Review the following information about the role change operation:
