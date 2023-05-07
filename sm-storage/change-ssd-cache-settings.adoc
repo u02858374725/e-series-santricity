@@ -12,11 +12,6 @@ summary: "You can edit the name of the SSD Cache and view its status, maximum an
 [.lead]
 You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives.
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 .Steps
 
 . Select menu:Storage[Pools & Volume Groups].

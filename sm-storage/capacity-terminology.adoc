@@ -103,11 +103,6 @@ a|
 SSD Cache
 a|
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 SSD Cache is a set of Solid-State Disk (SSD) drives that you logically group together in your storage array. The SSD Cache feature caches the most frequently accessed data ("hot" data) onto lower latency SSD drives to dynamically accelerate application workloads.
 a|
 Unassigned capacity
