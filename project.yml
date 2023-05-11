@@ -1475,7 +1475,7 @@ sidebar:
         - title: What do I need to know about mapping to storage array roles?
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
         - title: What do I need to know before configuring and enabling SAML?
-          url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: What are the local users?
           url: "/um-certificates/what-are-the-local-users.html"
   - title: Earlier versions
