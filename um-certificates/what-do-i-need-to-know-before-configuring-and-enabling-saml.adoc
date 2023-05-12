@@ -18,9 +18,9 @@ Before you begin, make sure that:
 * An Identity Provider (IdP) is configured in your network. An IdP is an external system used to request credentials from a user and determine if the user is successfully authenticated. Your security team is responsible for maintaining the IdP.
 * An IdP administrator has configured user attributes and groups in the IdP system.
 * An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
-* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An administrator has ensured that the IdP server and controller clock is synchronized (either through an NTP server or by adjusting the controller clock settings).
 * An IdP metadata file is downloaded from the IdP system and available on the local system used for accessing Unified Manager.
-* You know the IP address or domain name of each controller in the storage array.
+* You know the IP address or domain name the controller in the storage array.
 
 == Restrictions
 

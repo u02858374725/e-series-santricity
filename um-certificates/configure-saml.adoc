@@ -15,10 +15,10 @@ To configure authentication for Access Management, you can use the Security Asse
 .Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, the Access Management functions do not appear.
-* You must know the IP address or domain name of each controller in the storage array.
+* You must know the IP address or domain name the controller in the storage array.
 * An IdP administrator has configured an IdP system.
 * An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
-* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An administrator has ensured that the IdP server and controller clock is synchronized (either through an NTP server or by adjusting the controller clock settings).
 * An IdP metadata file is downloaded from the IdP system and is available on the local system used for accessing Unified Manager.
 
 
