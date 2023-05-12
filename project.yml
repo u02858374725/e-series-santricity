@@ -1458,14 +1458,14 @@ sidebar:
             url: "/um-certificates/edit-directory-server-settings-unified.html"
           - title: Remove directory server
             url: "/um-certificates/remove-directory-server-unified.html"
-       - title: Use SAML
-          entries:
-            - title: Configure SAML
-              url: "/um-certificates/configure-saml.html"
-            - title: Change SAML role mappings
-              url: "/um-certificates/change-saml-role-mappings.html"
-            - title: Export SAML Service Provider files
-              url: "/um-certificates/export-saml-service-provider-files.html"
+      - title: Use SAML
+        entries:
+          - title: Configure SAML
+            url: "/um-certificates/configure-saml.html"
+          - title: Change SAML role mappings
+            url: "/um-certificates/change-saml-role-mappings.html"
+          - title: Export SAML Service Provider files
+            url: "/um-certificates/export-saml-service-provider-files.html"
       - title: FAQs
         entries:
         - title: Why can&#8217;t I log in?
