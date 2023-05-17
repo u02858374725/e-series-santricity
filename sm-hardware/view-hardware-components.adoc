@@ -20,9 +20,9 @@ The Hardware page provides sorting and filtering functions that make it easier t
 |===
 | Function| Description
 a|
-Front and back shelf views
+Drives, controllers, and components views
 a|
-To switch between front and back shelf views, select either *Show back of shelf* or *Show front of shelf* from the far right (the link that appears depends on the current view). The front view shows drives and any empty drive bays. The back view shows the controllers, and any IOM (ESM) modules, power/fan canisters, or empty controller bays.     At the bottom of the page, you can also select *Show all front* or *Show all back*.
+To switch between front and back shelf views, select either *Drives* or *Controllers & Components* from the far right (the link that appears depends on the current view). The *Drives* view shows drives and any empty drive bays. The *Controllers & Components* view shows the controllers, and any IOM (ESM) modules, power/fan canisters, or empty controller bays.     At the bottom of the page, you can also select *Show all front* or *Show all back*.
 a|
 Drive view filters
 a|
