@@ -60,6 +60,8 @@ The iSCSI intercontroller communication must use a host connect port and not the
 == Mirrored volume candidates
 
 * RAID level, caching parameters, and segment size can be different on the primary and secondary volumes of a mirrored pair.
++
+NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an asynchronous mirrored pair must match the same protocol, tray level, segment size, security type, and RAID level. Non-eligible asynchronous mirrored pairs will not appear in the list of available volumes. 
 * The secondary volume must be at least as large as the primary volume.
 * A volume can participate in only one mirror relationship.
 * For a synchronous mirrored pair, the primary and secondary volumes must be standard volumes. They cannot be thin volumes or snapshot volumes.
