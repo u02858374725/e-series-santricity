@@ -2,7 +2,7 @@
 settings:
   name: "SANtricity 11.7"
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: true
     harmony_enabled: true

@@ -15,12 +15,12 @@ The following table describes new features in SANtricity System Manager 11.7.
 
 == New features in Version 11.75
 
-[cols="35,65",options="header"]
+[width=100,cols="35,65",options="header"]
 |===
 |New feature |Description
 
 a|Allow upgrades to 11.80.x
-a| Systems must be running 11.70.5 in order to upgrade to 11.80.x or later. 
+a|Systems must be running 11.70.5 in order to upgrade to 11.80.x or later. 
 
 |===
 
