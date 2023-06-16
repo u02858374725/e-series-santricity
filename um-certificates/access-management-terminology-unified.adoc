@@ -39,6 +39,10 @@ RBAC
 a|
 Role-based access control (RBAC) is a method of regulating access to computer or network resources based on the roles of individual users. Unified Manager includes predefined roles.
 a|
+SAML
+a|	
+Security Assertion Markup Language (SAML) is an XML-based standard for authentication and authorization between two entities. SAML allows for multi-factor authentication, in which users must provide two or more items for proving their identity (for example, a password and fingerprint). The storage array’s embedded SAML feature is SAML2.0 compliant for identity assertion, authentication, and authorization.
+a|
 SSO
 a|
 Single sign-on (SSO) is an authentication service that allows for one set of login credentials to access multiple applications.

@@ -1442,6 +1442,8 @@ sidebar:
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: Directory services
           url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: /um-certificates/access-management-with-saml.html
       - title: Use local user roles
         entries:
         - title: View local user roles

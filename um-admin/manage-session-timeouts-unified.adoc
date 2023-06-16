@@ -15,6 +15,8 @@ You can configure timeouts for Unified Manager, so that users inactive sessions 
 
 By default, the session timeout for Unified Manager is 30 minutes. You can adjust that time or you can disable session timeouts altogether.
 
+NOTE: If Access Management is configured using the Security Assertion Markup Language (SAML) capabilities embedded in the array, a session timeout might occur when the user’s SSO session reaches its maximum limit. This might occur before the System Manager session timeout.
+
 .Steps
 
 . From the menu bar, select the drop-down arrow next to your user login name.
