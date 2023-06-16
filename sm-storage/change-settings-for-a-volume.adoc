@@ -16,6 +16,8 @@ You can change a volume's settings such as its name, host assignment, segment si
 
 The volume you want to change is in Optimal status.
 
+NOTE: Some operations may be unavailable while changes to the volume settings are in progress
+
 .Steps
 
 . Select menu:Storage[Volumes].

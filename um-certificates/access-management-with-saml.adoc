@@ -9,7 +9,7 @@ summary: "For Access Management, administrators can use the Security Assertion M
 :imagesdir: ../media/
 
 [.lead]
-For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array.
+For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array. 
 
 == Configuration workflow
 
@@ -51,7 +51,7 @@ When using SAML for authentication, administrators can perform the following man
 
 == Access restrictions
 
-When SAML is enabled, users cannot discover or manage storage for that array from Unified Manager or the legacy Storage Manager interface.
+When SAML is enabled, users cannot discover or manage storage for that array from the legacy Storage Manager interface.
 
 In addition, the following clients cannot access storage array services and resources:
 
