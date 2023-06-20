@@ -12,11 +12,7 @@ summary: New features in SANtricity OS.
 [.lead]
 The following table describes new features in SANtricity System Manager 11.80.
 
-== New features in Version 11.75
-
-Systems must be running 11.70.5 in order to upgrade to 11.80.x or later.
-
-== New features in Version 11.74
+== New features in Version 11.80
 
 [cols="35h,~",options="header"]
 |===
@@ -28,8 +24,8 @@ a|TBD
 a|TBD
 a|TBD
 
-a|Access tokens
-a|This release includes a new feature for creating access tokens. These tokens allow you to authenticate with the REST API or command line interface (CLI), without exposing user names and passwords. This feature is provided in the Access Management section.
+a|TBD
+a|TBD
 
 |===
 
