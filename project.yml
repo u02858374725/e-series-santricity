@@ -10,13 +10,13 @@ settings:
   versions:
     - name: SANtricity Software
       url: /e-series-santricity
+      version-number: "11.8"
+    - name: SANtricity Software
+      url: /e-series-santricity-117
       version-number: "11.7"
     - name: SANtricity Software
       url: /e-series-santricity-116
       version-number: "11.6"
-    - name: SANtricity Software
-      url: /e-series-santricity-115
-      version-number: "11.5"
 sidebar:
   entries:
   - title: SANtricity 11.8 docs
