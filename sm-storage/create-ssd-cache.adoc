@@ -14,13 +14,13 @@ To dynamically accelerate system performance, you can use the SSD Cache feature 
 
 .Before you begin
 
-Your storage array must contain some SSD drives.
+Your storage array must contain some SSD drives. 
 
 .About this task
 
-When you create SSD Cache, you can use a single drive or multiple drives. Because the read cache is in the storage array, caching is shared across all applications using the storage array. You select the volumes that you want to cache, and then caching is automatic and dynamic.
+When you create a new SSD Cache, you can use a single drive or multiple drives. Because the read cache is in the storage array, caching is shared across all applications using the storage array. You select the volumes that you want to cache, and then caching is automatic and dynamic.
 
-Follow these guidelines when you create SSD Cache.
+Follow these guidelines when you create a new SSD Cache.
 
 * You can enable security on the SSD Cache only when you are creating it, not later.
 * Only one SSD Cache is supported per storage array.

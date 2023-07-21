@@ -65,7 +65,7 @@ Connection ID (CID)
 a|
 A unique name for a connection within the session between the initiator and the target. The initiator generates this ID and presents it to the target during login requests. The connection ID is also presented during logouts that close connections.
 a|
-Ethernet port identifier
+Port identifier
 a|
 The controller port associated with the connection.
 a|

@@ -21,7 +21,7 @@ SSD Cache operates differently than primary cache:
 +
 In primary cache, the data is stored in DRAM after a host read.
 
-* SSD Cache is used only it is beneficial to place the data in cache to improve overall system performance.
+* SSD Cache is used only if it is beneficial to place the data in cache to improve overall system performance.
 +
 In SSD Cache, the data is copied from volumes and stored on two internal RAID volumes (one per controller) that are automatically created when you create an SSD Cache.
 
