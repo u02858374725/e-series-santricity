@@ -10,7 +10,7 @@ summary: New features in SANtricity OS.
 :imagesdir: ../media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 11.80.
+The following table describes new features in SANtricity System Manager 11.8x.
 
 == New features in Version 11.80
 
@@ -18,14 +18,37 @@ The following table describes new features in SANtricity System Manager 11.80.
 |===
 |New feature |Description
 
-a|TBD
-a|TBD
+a|Enhanced Volume Parity Scan
+a|Volume parity scan can now be launched as a background process either via the REST API or via CLI. The resulting parity scan will run in the background as long as is required to complete the scan operation. Scan operations will survive controller reboots and failover operations.  
 
-a|TBD
-a|TBD
+a|SAML Support for Unified Manager 
+a|Unified Manager now supports SAML (Security Assertion Markup Language). Once SAML is enabled for Unified Manager, users must use multi factor authentication against the identity provider in order to interact with the user interface. Note that once SAML is enabled on Unified Manager, the REST API cannot be used without going through the IdP to authenticate requests.  
 
-a|TBD
-a|TBD
+a|Auto Configuration Feature 
+a|Now supports the ability to set the volume block size parameter to use with the Auto Configuration feature for initial array setup. This feature is available in the CLI only as a "blockSize" parameter.  
+
+a|Controller Firmware Cryptographic Signing 
+a|Controller firmware is cryptographically signed. Signatures are checked during initial download and at each controller boot. No end user impact expected. Signatures are backed by a CA issued Extended Validation certificate.  
+
+a|Drive Firmware Cryptographic Signing 
+a|Drive firmware is cryptographically signed. Signatures are checked during initial download and backed by a CA issued Extended Validation certificate. Drive firmware content is now delivered as a ZIP file, which contains the older non-signed firmware as well as the new signed firmware. The user must chose the appropriate file based on the release version of code that is running on the target system.  
+
+a|External Key Server Management - Certificate Key Size 
+a|The new default certificate key size is 3072 bits (from 2048). Key sizes up to 4096 bits are supported. An NVSRAM bit must be changed in order to support the non-default key sizes.  
+
+a|Support for larger dynamic disk pool sizes using drives with 512b block sizes 
+a|Customers that utilize the Version 1 pool version type may now have a 48 TB maximum size disk pool. The older version supports up to a 24 TB disk pool size. If existing disk pools are to be converted to the larger size, all volumes must be removed first. A downgrade operation is restricted when a Version 1 disk pool exists.  
+
+a|System Manager and Unified Manager will not launch unless minimum browser requirements are met
+a|A minimum version of the browser is required before either System Manager or Unified Manager will launch. The following are the minimum supported versions:
+
+* Firefox minimum version 80 
+* Chrome minimum version 89 
+* Edge minimum version 90 
+* Safari minimum version 14 
+
+a|Support for FIPS 140-3 NVMe SSD drives 
+a|Netapp certified FIPS 140-3 NVMe SSD drives are now supported. They will be correctly identified as such in the storage array profile and in System Manager.  
 
 |===
 

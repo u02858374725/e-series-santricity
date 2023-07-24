@@ -1460,6 +1460,14 @@ sidebar:
             url: "/um-certificates/edit-directory-server-settings-unified.html"
           - title: Remove directory server
             url: "/um-certificates/remove-directory-server-unified.html"
+      - title: Use SAML
+        entries:
+          - title: Configure SAML
+            url: "/um-certificates/configure-saml.html"
+          - title: Change SAML role mappings
+            url: "/um-certificates/change-saml-role-mappings.html"
+          - title: Export SAML Service Provider files
+            url: "/um-certificates/export-saml-service-provider-files.html"
       - title: FAQs
         entries:
         - title: Why can&#8217;t I log in?
@@ -1468,6 +1476,8 @@ sidebar:
           url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: What do I need to know about mapping to storage array roles?
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: What do I need to know before configuring and enabling SAML?
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: What are the local users?
           url: "/um-certificates/what-are-the-local-users.html"
   - title: Earlier versions

@@ -10,7 +10,7 @@ summary: "To configure syslog alerts, you must enter a syslog server address and
 :imagesdir: ../media/
 
 [.lead]
-To configure syslog alerts, you must enter a syslog server address and a UDP port. Up to five syslog servers are allowed.
+To configure syslog alerts, you must enter a syslog server address and a UDP port. Up to five syslog servers are allowed. 
 
 .Before you begin
 
@@ -40,4 +40,4 @@ The table displays the configured syslog servers.
 
 .Results
 
-The event monitor sends alerts to the syslog server whenever an alertable event occurs.
+The event monitor sends alerts to the syslog server whenever an alertable event occurs. To further configure syslog settings for audit logs, see https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html[Configure syslog server for audit logs].
