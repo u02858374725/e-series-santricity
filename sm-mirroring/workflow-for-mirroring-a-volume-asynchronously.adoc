@@ -11,11 +11,6 @@ summary: "You configure asynchronous mirroring using the following workflow."
 [.lead]
 You configure asynchronous mirroring using the following workflow.
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 . Perform the initial configuration in Unified Manager:
  .. Select the local storage array as the source for the data transfer.
  .. Create or select an existing mirror consistency group, which is a container for the primary volume on the local array and the secondary volume on the remote array. The primary and secondary volumes are referred to as the "mirrored pair." If you are creating the mirror consistency group for the first time, you specify whether you want to perform manual or scheduled synchronizations.

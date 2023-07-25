@@ -65,7 +65,7 @@ Yes
 a|
 Thin volume
 a|
-Yes
+Yes^1^
 a|
 Yes
 a|
@@ -73,7 +73,7 @@ No
 a|
 Snapshot volume
 a|
-Yes^1^
+Yes^2^
 a|
 No
 a|
@@ -89,13 +89,15 @@ No
 a|
 Remote mirror primary volume
 a|
-Yes^2^
+Yes^3^
 a|
 No
 a|
 Yes
 |===
 
-^1^ You cannot use the snapshot volume copy until after the online copy operation completes.
+^1^ The target volume must have a capacity equal or larger to the thin volume reported capacity.
 
-^2^ If the source volume is a primary volume, the capacity of the target volume must be equal to or greater than the usable capacity of the source volume.
+^2^ You cannot use the snapshot volume copy until after the online copy operation completes.
+
+^3^ If the source volume is a primary volume, the capacity of the target volume must be equal to or greater than the usable capacity of the source volume.

@@ -14,21 +14,17 @@ To dynamically accelerate system performance, you can use the SSD Cache feature 
 
 .Before you begin
 
-Your storage array must contain some SSD drives.
-
-[NOTE]
-====
-SSD Cache is not available on the EF600 or EF300 storage system.
-====
+Your storage array must contain some SSD drives. 
 
 .About this task
 
-When you create SSD Cache, you can use a single drive or multiple drives. Because the read cache is in the storage array, caching is shared across all applications using the storage array. You select the volumes that you want to cache, and then caching is automatic and dynamic.
+When you create a new SSD Cache, you can use a single drive or multiple drives. Because the read cache is in the storage array, caching is shared across all applications using the storage array. You select the volumes that you want to cache, and then caching is automatic and dynamic.
 
-Follow these guidelines when you create SSD Cache.
+Follow these guidelines when you create a new SSD Cache.
 
 * You can enable security on the SSD Cache only when you are creating it, not later.
 * Only one SSD Cache is supported per storage array.
+* If only one volume has SSD cache enabled, then the entire SSD cache will be assigned to the controller owning that volume.
 * The maximum usable SSD Cache capacity on a storage array is dependent on the controller's primary cache capacity.
 * SSD Cache is not supported on snapshot images.
 * If you import or export volumes that are SSD Cache enabled or disabled, the cached data is not imported or exported.

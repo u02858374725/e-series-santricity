@@ -1,6 +1,6 @@
 ---
 settings:
-  name: "SANtricity 11.7"
+  name: "SANtricity 11.8"
   internal:
     pdf_enabled: true
   prod:
@@ -10,16 +10,16 @@ settings:
   versions:
     - name: SANtricity Software
       url: /e-series-santricity
+      version-number: "11.8"
+    - name: SANtricity Software
+      url: /e-series-santricity-117
       version-number: "11.7"
     - name: SANtricity Software
       url: /e-series-santricity-116
       version-number: "11.6"
-    - name: SANtricity Software
-      url: /e-series-santricity-115
-      version-number: "11.5"
 sidebar:
   entries:
-  - title: SANtricity 11.7 docs
+  - title: SANtricity 11.8 docs
     url: "/index.html"
   - title: Release notes
     entries:
@@ -1442,6 +1442,8 @@ sidebar:
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: Directory services
           url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: /um-certificates/access-management-with-saml.html
       - title: Use local user roles
         entries:
         - title: View local user roles
@@ -1458,6 +1460,14 @@ sidebar:
             url: "/um-certificates/edit-directory-server-settings-unified.html"
           - title: Remove directory server
             url: "/um-certificates/remove-directory-server-unified.html"
+      - title: Use SAML
+        entries:
+          - title: Configure SAML
+            url: "/um-certificates/configure-saml.html"
+          - title: Change SAML role mappings
+            url: "/um-certificates/change-saml-role-mappings.html"
+          - title: Export SAML Service Provider files
+            url: "/um-certificates/export-saml-service-provider-files.html"
       - title: FAQs
         entries:
         - title: Why can&#8217;t I log in?
@@ -1466,6 +1476,8 @@ sidebar:
           url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: What do I need to know about mapping to storage array roles?
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: What do I need to know before configuring and enabling SAML?
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: What are the local users?
           url: "/um-certificates/what-are-the-local-users.html"
   - title: Earlier versions

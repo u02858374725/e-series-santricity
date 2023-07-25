@@ -4,6 +4,6 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= SANtricity System Manager 11.7
+= SANtricity System Manager 11.8
 :icons: font
 :imagesdir: ../media/

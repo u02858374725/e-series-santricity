@@ -1,0 +1,20 @@
+[cols="1a,1a" options="header"]
+|===
+| Browser| Minimum version
+a|
+Google Chrome
+a|
+89
+a|
+Mozilla Firefox
+a|
+80
+a|
+Safari
+a|
+14
+a|
+Microsoft Edge
+a|
+90
+|===

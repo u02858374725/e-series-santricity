@@ -12,11 +12,6 @@ summary: "To configure asynchronous mirroring, you create a mirrored pair that i
 [.lead]
 To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array.
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 .Before you begin
 
 Before you create a mirrored pair, meet the following requirements for Unified Manager:

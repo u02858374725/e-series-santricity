@@ -11,11 +11,6 @@ summary: "The mirror status defines the state of mirror consistency groups and m
 [.lead]
 The mirror status defines the state of mirror consistency groups and mirrored volume pairs.
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 == Status for mirror consistency groups
 
 [cols="25h,~",options="header"]
