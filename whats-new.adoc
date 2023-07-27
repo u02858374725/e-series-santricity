@@ -10,7 +10,7 @@ summary: New features in SANtricity OS.
 :imagesdir: ../media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 11.8x.
+The following table describes new features in SANtricity System Manager 11.8.
 
 == New features in Version 11.80
 
