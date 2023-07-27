@@ -11,11 +11,6 @@ summary: "The SSD Cache feature is a controller-based solution that caches the m
 [.lead]
 The SSD Cache feature is a controller-based solution that caches the most frequently accessed data ("hot" data) onto lower latency Solid State Drives (SSDs) to dynamically accelerate system performance. SSD Cache is used exclusively for host reads.
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 == SSD Cache versus primary cache
 
 SSD Cache is a secondary cache for use with the primary cache in the controller's dynamic random-access memory (DRAM).
@@ -26,7 +21,7 @@ SSD Cache operates differently than primary cache:
 +
 In primary cache, the data is stored in DRAM after a host read.
 
-* SSD Cache is used only it is beneficial to place the data in cache to improve overall system performance.
+* SSD Cache is used only if it is beneficial to place the data in cache to improve overall system performance.
 +
 In SSD Cache, the data is copied from volumes and stored on two internal RAID volumes (one per controller) that are automatically created when you create an SSD Cache.
 

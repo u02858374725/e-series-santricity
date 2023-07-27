@@ -45,4 +45,4 @@ After you click *Add*, the Configure Syslog Servers dialog box opens and display
 
 .Results
 
-After configuration, all new audit logs are sent to the syslog server. Previous logs are not transferred.
+After configuration, all new audit logs are sent to the syslog server. Previous logs are not transferred. To further configure syslog settings for alerts, see https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html[Configure syslog server for alerts].

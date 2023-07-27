@@ -11,11 +11,6 @@ summary: "Asynchronous mirroring copies data volumes on demand or on a schedule,
 [.lead]
 Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss.
 
-[NOTE]
-====
-Mirroring is not available on the EF600 or EF300 storage array.
-====
-
 Asynchronous mirroring captures the state of the primary volume at a particular point in time and copies just the data that has changed since the last image capture. The primary site can be updated immediately and the secondary site can be updated as bandwidth allows. The information is cached and sent later, as network resources become available.
 
 This type of mirroring is ideal for satisfying the demand for non-stop operations and, in general, is far more network efficient for periodic processes, such as backup and archive. The reasons for using asynchronous mirroring include the following:

@@ -11,11 +11,6 @@ summary: "The Asynchronous Mirroring feature provides a controller-level, firmwa
 [.lead]
 The Asynchronous Mirroring feature provides a controller-level, firmware-based mechanism for data replication between a local storage array and a remote storage array.
 
-[NOTE]
-====
-This feature is not available on the EF600 or EF300 storage system.
-====
-
 == What is asynchronous mirroring?
 _Asynchronous mirroring_ captures the state of the primary volume at a particular point in time and copies just the data that has changed since the last image capture. The primary site can be updated immediately and the secondary site can be updated as bandwidth allows. The information is cached and sent later, as network resources become available.
 

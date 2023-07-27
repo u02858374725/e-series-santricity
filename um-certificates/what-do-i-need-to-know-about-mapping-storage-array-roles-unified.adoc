@@ -27,3 +27,17 @@ If you are using an LDAP (Lightweight Directory Access Protocol) server and Dire
 
 * An administrator has defined user groups in the directory service.
 * You know the group domain names for the LDAP user groups.
+
+== SAML
+
+If you are using the Security Assertion Markup Language (SAML) capabilities embedded in the storage array, make sure that:
+
+* An Identity Provider (IdP) administrator has configured user attributes and group membership in the IdP system.
+* You know the group membership names.
+* You know the attribute value for the group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
++
+----
+\.[]{}()<>*+-=!?^$|
+----
+
+* The Monitor role is required for all users, including the administrator. Unified Manager will not operate correctly for any user without the Monitor role present.
