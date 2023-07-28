@@ -22,6 +22,8 @@ You might choose to activate later for these reasons:
  ** *Time of day* -- Activating the software can take a long time, so you might want to wait until I/O loads are lighter. The controllers fail over during activation, so performance might be lower than usual until the upgrade completes.
  ** *Type of package* -- You might want to test the new OS software on one storage array before you upgrade the files on other storage arrays.
 
+IMPORTANT: Systems must be running SANtricity OS 11.70.5 to upgrade to 11.80.x or later.
+
 .About this task
 ++ ++
 [NOTE]
