@@ -12,6 +12,18 @@ summary: New features in SANtricity OS.
 [.lead]
 The following table describes new features in SANtricity System Manager 11.8.
 
+== New features in Version 11.81
+
+[cols="35h,~",options="header"]
+|===
+|New feature |Description
+
+a|SMdevices now available through SMcli
+a|PLACEHOLDER
+
+a|Ethernet Kernel Statistics 
+a|PLACEHOLDER
+
 == New features in Version 11.80
 
 [cols="35h,~",options="header"]
