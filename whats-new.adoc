@@ -18,7 +18,7 @@ The following table describes new features in SANtricity System Manager 11.8.
 |===
 |New feature |Description
 
-a|SMdevices now available through SMcli
+a|-identifyDevices parameter through SMcli
 a|PLACEHOLDER
 
 a|Ethernet Kernel Statistics 
