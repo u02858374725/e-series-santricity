@@ -103,11 +103,13 @@ Indicates whether the drive has the option for Deallocated or Unwritten Logical 
 +
 If you are adding drives to a pool or volume group, a confirmation dialog box appears if you selected a drive that causes the pool or volume group to no longer have one or more of the following attributes:
 
- ** Shelf loss protection
- ** Drawer loss protection
+ ** Shelf loss protection ^*^
+ ** Drawer loss protection ^*^
  ** Full Disk Encryption capability
  ** Data Assurance capability
  ** DULBE capability
+
+NOTE: ^*^ Currently, the confirmation dialog box does not display when adding drives to a pool with shelf loss protection or drawer loss protection. 
 
 . To continue, click *Yes*; otherwise, click *Cancel*.
 
