@@ -31,7 +31,7 @@ a|
 Configure iSCSI ports
 a|
 . Select *Hardware*.
-. Select the *Controllers* tab.
+. Select the *Controllers & Components* tab.
 . Select a controller.
 . Select *Configure iSCSI ports*.
 a|

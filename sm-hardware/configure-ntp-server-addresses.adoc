@@ -33,7 +33,7 @@ You do not need to configure NTP on both controllers; however, doing so improves
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the drives, click the *Controllers* tab.
+. If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.
 
