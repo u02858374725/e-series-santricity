@@ -22,7 +22,7 @@ You cannot unassign a hot spare that is currently taking over for a failed drive
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the controllers, click *Show front of shelf*.
+. If the graphic shows the controllers, click the *Drives* tab.
 +
 The graphic changes to show the drives instead of the controllers.
 

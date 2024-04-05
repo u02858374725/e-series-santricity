@@ -31,7 +31,7 @@ a|
 Configure iSCSI ports
 a|
 . Select *Hardware*.
-. Select *Show back of shelf*.
+. Select the *Controllers* tab.
 . Select a controller.
 . Select *Configure iSCSI ports*.
 a|
