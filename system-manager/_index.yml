@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Single array management with System Manager 11.8
+  lead: The SANtricity software documentation lets you install, setup, and maintain your storage array.
+  summary: The SANtricity software documentation lets you install, setup, and maintain your storage array.
+  keywords: santricity, install, setup, maintain, storage array
+  tiles:
     - title: Set up array
       links:
         - title: Initial set up
