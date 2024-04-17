@@ -18,11 +18,13 @@ The following table describes new features in SANtricity System Manager 11.8.
 |===
 |New feature |Description
 
-a|-identifyDevices parameter through SMcli
-a|PLACEHOLDER
+a|`-identifyDevices` parameter
+a|A new `-identifyDevices` parameter is now available in the SMcli. This new parameter allows you to look for all SCSI native block devices that are associated with your Storage Arrays. For more information, see link: https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices[Downloadable SMcli command line parameters].
 
 a|Ethernet Kernel Statistics 
-a|PLACEHOLDER
+a|A new Ethernet Kernel Statistics option is now available under the View iSCSI Statistics Packages page in System Manager. This new option allows you to view statistics for platform kernel drivers of the iSCSI device. For more information, see link: https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html[View iSCSI Statistics Packages].
+
+|===
 
 == New features in Version 11.80
 
