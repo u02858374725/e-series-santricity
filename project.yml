@@ -136,8 +136,8 @@ sidebar:
             url: "/sm-storage/capacity-terminology.html"
           - title: Selecting a pool or volume group
             url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
-          - title: Manual pool creation
-            url: "/sm-storage/manual-pool-creation.html"
+          - title: Automatic versus manual pool creation
+            url: "/sm-storage/automatic-versus-manual-pool-creation.html"
         - title: Configure storage
           entries:
           - title: Create pool automatically
