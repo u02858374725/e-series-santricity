@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/manual-host-creation.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, manual, host,
+summary: "Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes. You can only create a host manually."
+---
+= Manual host creation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes. You can only create a host manually.
+
+== Manual creation
+
+Manual host creation allows you to ensure that the host port identifiers that were detected by the storage array controllers are associated correctly with the hosts.
+
+During manual host creation, you associate host port identifiers by selecting them from a list or manually entering them. After you create a host, you can assign volumes to it or add it to a host cluster if you plan to share access to volumes.

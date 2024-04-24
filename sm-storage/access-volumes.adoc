@@ -11,9 +11,8 @@ summary: "An access volume is a factory-configured volume on the storage array t
 [.lead]
 An access volume is a factory-configured volume on the storage array that is used for communication with the storage array and the host through the host I/O connection. The access volume requires a Logical Unit Number (LUN).
 
-The access volume is used in two instances:
+The access volume is used in the following instance:
 
-* *Automatic host creation* -- The access volume is used by the Host Context Agent (HCA) utility to push host information (name, ports, host type) to System Manager for automatic host creation.
 * *In-band management* -- The access volume is used for an in-band connection to manage the storage array. This can only be done if you are managing the storage array with the command line interface (CLI).
 +
 [NOTE]

@@ -136,8 +136,8 @@ sidebar:
             url: "/sm-storage/capacity-terminology.html"
           - title: Selecting a pool or volume group
             url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
-          - title: Automatic versus manual pool creation
-            url: "/sm-storage/automatic-versus-manual-pool-creation.html"
+          - title: Manual pool creation
+            url: "/sm-storage/manual-pool-creation.html"
         - title: Configure storage
           entries:
           - title: Create pool automatically
@@ -366,8 +366,8 @@ sidebar:
             url: "/sm-storage/host-terminology.html"
           - title: Workflow for host creation and volume assignment
             url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
-          - title: Automatic versus manual host creation
-            url: "/sm-storage/automatic-versus-manual-host-creation.html"
+          - title: Manual host creation
+            url: "/sm-storage/manual-host-creation.html"
           - title: How volumes are assigned
             url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
           - title: Access volumes
@@ -378,8 +378,6 @@ sidebar:
             url: "/sm-settings/default-host-operating-system-type.html"
         - title: Configure host access
           entries:
-          - title: Create host automatically
-            url: "/sm-storage/create-host-automatically.html"
           - title: Create host manually
             url: "/sm-storage/create-host-manually.html"
           - title: Create host cluster
