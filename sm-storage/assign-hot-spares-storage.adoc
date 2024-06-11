@@ -32,7 +32,7 @@ Hot spares can also be assigned from the Initial Setup wizard. You can determine
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the controllers, click *Show front of shelf*.
+. If the graphic shows the controllers, click the *Drives* tab.
 +
 The graphic changes to show the drives instead of the controllers.
 

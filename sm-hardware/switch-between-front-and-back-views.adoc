@@ -18,11 +18,11 @@ The back view shows the controllers/IOMs and the power-fan canisters. The front 
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the drives, click *Show back of shelf*.
+. If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.
 
-. If the graphic shows the controllers, click *Show front of shelf*.
+. If the graphic shows the controllers, click the *Drives* tab.
 +
 The graphic changes to show the drives instead of the controllers.
 

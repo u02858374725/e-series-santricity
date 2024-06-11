@@ -41,3 +41,5 @@ The table displays the configured syslog servers.
 .Results
 
 The event monitor sends alerts to the syslog server whenever an alertable event occurs. To further configure syslog settings for audit logs, see https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html[Configure syslog server for audit logs].
+
+NOTE: If multiple syslog servers are configured, all configured syslog servers will receive an audit log.

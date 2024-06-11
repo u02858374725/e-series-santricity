@@ -25,7 +25,7 @@ Use the initialize drive operation when you are moving a single drive. You do no
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the controllers, click *Show front of shelf*.
+. If the graphic shows the controllers, click the *Drives* tab.
 +
 The graphic changes to show the drives instead of the controllers.
 

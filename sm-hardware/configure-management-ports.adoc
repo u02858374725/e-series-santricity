@@ -24,7 +24,7 @@ Do not use port 2 on either controller. Port 2 is reserved for use by technical 
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the drives, click *Show back of shelf*.
+. If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.
 

@@ -25,7 +25,7 @@ Configure NVMe over InfiniBand ports
 a|
 
 . Select *Hardware*.
-. Select *Show back of shelf*.
+. Select the *Controllers & Components* tab.
 . Select a controller.
 . Select *Configure NVMe over InfiniBand ports*.
 

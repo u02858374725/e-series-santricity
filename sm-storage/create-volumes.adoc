@@ -281,6 +281,6 @@ System Manager creates the new volumes in the selected pools and volume groups, 
 .After you finish
 
 * Perform any operating system modifications necessary on the application host so that the applications can use the volume.
-* Run either the host-based `hot_add` utility or an operating system-specific utility (available from a third-party vendor), and then run the `SMdevices` utility to correlate volume names with host storage array names.
+* Run the operating system-specific utility (available from a third-party vendor), and then run the SMcli command `-identifyDevices` to correlate volume names with host storage array names.
 +
-The `hot_add` utility and the `SMdevices` utility are included as part of the `SMutils` package. The `SMutils` package is a collection of utilities to verify what the host sees from the storage array. It is included as part of the SANtricity software installation.
+The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on EF600, EF300, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .
