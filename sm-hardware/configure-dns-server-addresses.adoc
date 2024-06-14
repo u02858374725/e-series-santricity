@@ -28,7 +28,7 @@ If you already configured the storage array's management ports with Dynamic Host
 .Steps
 
 . Select *Hardware*.
-. If the graphic shows the drives, click *Show back of shelf*.
+. If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.
 
