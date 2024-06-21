@@ -19,6 +19,8 @@ You can increase the reported capacity (the capacity reported to hosts) of a vol
 * The maximum reported capacity of 256 TiB has not been reached for thin volumes.
 * No hot spare drives are in use in the volume. (Applies only to volumes in volume groups.)
 
+NOTE: You can only expand volume capacity up to 128 TiB at a single time.
+
 .About this task
 
 Keep in mind any future capacity requirements that you might have for other volumes in this pool or volume group. Make sure that you allow enough free capacity to create snapshot images, snapshot volumes, or remote mirrors.
