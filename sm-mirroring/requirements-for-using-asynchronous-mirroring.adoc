@@ -78,11 +78,17 @@ NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an a
  ** If the primary volume is FIPS capable, the secondary volume must be FIPS capable.
  ** If the primary volume is FDE capable, the secondary volume must be FDE capable.
  ** If the primary volume is not using Drive Security, the secondary volume must not be using Drive Security.
+* Primary and secondary volumes must share the same drive type. Mixing of NVMe and SAS drives between primary and secondary volumes is not supported.
+
 
 == Reserved capacity
 
 * A reserved capacity volume is required for a primary volume and for a secondary volume in a mirrored pair for logging write information to recover from controller resets and other temporary interruptions.
 * Because both the primary volume and the secondary volume in a mirrored pair require additional reserved capacity, you must ensure that you have free capacity available on both storage arrays in the mirror relationship.
+* The reserved capacity volume must share the same drive type as its associated mirror volumes.
+ ** If the reserved capacity volume is created on NVMe drives, its mirror volumes must also be created on NVMe drives.
+ ** If the reserved capacity volume is created on SAS drives, its mirror volumes must also be created on SAS drives.
+
 
 == Drive Security feature
 
