@@ -91,7 +91,7 @@ Remote mirror primary volume
 a|
 Yes^3^
 a|
-No
+Yes
 a|
 Yes
 |===
