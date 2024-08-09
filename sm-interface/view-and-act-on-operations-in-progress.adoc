@@ -30,7 +30,7 @@ Read all cautionary text provided in the dialog boxes, particularly when stoppin
 +
 You can stop a volume copy operation or change its priority.
 
-. Once a volume copy operation is complete, you can select *Clear* to remove it from the list.
+. Once a volume copy operation is complete, you can select *Clear* to remove the volume copy pair.
 +
 At the top of the Home page, an informational message and yellow wrench icon appear when an operation is complete. This message includes a link that allows you to clear the operation from the Operations in Progress page.
 
